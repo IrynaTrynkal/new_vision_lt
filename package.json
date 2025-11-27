@@ -1,0 +1,75 @@
+{
+    "name": "british-eyes",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "prepare": "husky install",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+        "check": "npm run lint && npm run type-check",
+        "type-check": "tsc --noEmit",
+        "sanity-typegen": "cd sanity && npm run sanity-typegen",
+        "sanity": "cd sanity && npm run dev",
+        "sanity-deploy": "cd sanity && npm run deploy"
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ],
+        "*.{json,css,md}": [
+            "prettier --write"
+        ]
+    },
+    "dependencies": {
+        "@next/third-parties": "^16.0.3",
+        "@sanity/image-url": "^1.2.0",
+        "@sanity/vision": "^4.14.2",
+        "@types/nodemailer": "^7.0.4",
+        "@types/react-google-recaptcha": "^2.1.9",
+        "embla-carousel": "^8.6.0",
+        "embla-carousel-react": "^8.6.0",
+        "framer-motion": "^12.23.12",
+        "next": "15.5.2",
+        "next-intl": "^4.3.5",
+        "next-sanity": "^11.6.5",
+        "nodemailer": "^7.0.10",
+        "react": "19.1.0",
+        "react-datepicker": "^8.7.0",
+        "react-dom": "19.1.0",
+        "react-google-recaptcha": "^3.1.0",
+        "react-icons": "^5.5.0",
+        "sanity": "^4.14.2",
+        "sanity-plugin-internationalized-array": "^3.2.0",
+        "styled-components": "^6.1.19",
+        "tailwind-merge": "^3.3.1"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "@typescript-eslint/eslint-plugin": "^8.41.0",
+        "@typescript-eslint/parser": "^8.41.0",
+        "autoprefixer": "^10.4.21",
+        "eslint": "^9",
+        "eslint-config-next": "^15.5.2",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "eslint-plugin-simple-import-sort": "^12.1.1",
+        "eslint-plugin-tailwindcss": "^4.0.0-beta.0",
+        "eslint-plugin-unused-imports": "^4.2.0",
+        "husky": "^8.0.0",
+        "lint-staged": "^16.1.5",
+        "postcss": "^8.5.6",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.14",
+        "tailwindcss": "^4",
+        "typescript": "5.9.3"
+    }
+}
