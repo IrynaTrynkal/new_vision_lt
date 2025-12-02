@@ -1,13 +1,13 @@
 import { TextType } from "./servicesData";
 
 export type PolicyDataType = {
-    uk: { content: TextType[] };
+    lt: { content: TextType[] };
     en: { content: TextType[] };
     ru: { content: TextType[] };
 };
 
 export const policyData: PolicyDataType = {
-    uk: {
+    lt: {
         content: [
             {
                 type: "text",

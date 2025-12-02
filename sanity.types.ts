@@ -21,14 +21,14 @@ export type DepartmentsKey =
     | "ophthalmic-surgeons";
 
 export type ServicesKey =
-    | "lazerna-korekcziya-zoru"
-    | "perevirka-zoru"
-    | "likuvannya-katarakti"
+    | "lazerine-akiu-korekcija"
+    | "akiu-patikrinimas"
+    | "kataraktos-operacija"
     | "syndrom-sukhoho-oka"
-    | "dityache-viddilennya"
+    | "vaiku-akiu-patikra"
     | "likuvannya-keratokonusa"
     | "lazerne-likuvannya-zahvoryuvan-oka"
-    | "refrakczijna-lensektomiya"
+    | "skaidraus-lesio-operacija"
     | "vitreoretinalna-hirurgiya"
     | "intravitrealni-inekczii"
     | "hirurgichne-likuvannya-glaukomi"

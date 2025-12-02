@@ -8,7 +8,6 @@ import { getTranslations } from "next-intl/server";
 
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
-import { BinotelChat } from "@/components/shared/BinotelChat";
 import { routing } from "@/i18n/routing";
 
 const oswald = Oswald({
@@ -37,7 +36,7 @@ export async function generateMetadata({
             canonical: langPrefix,
             languages: {
                 "en-US": "/en",
-                "uk-UA": "/",
+                "lt-LT": "/",
                 "ru-RU": "/ru",
             },
         },
@@ -86,7 +85,7 @@ export default async function RootLayout({
                         <div className="mx-auto max-w-[1600px]">{children}</div>
                     </main>
                     <Footer />
-                    <BinotelChat />
+                    {/* <BinotelChat /> */}
                     {/* <GoogleAnalytics gaId={GAid} /> */}
                 </body>
             </NextIntlClientProvider>

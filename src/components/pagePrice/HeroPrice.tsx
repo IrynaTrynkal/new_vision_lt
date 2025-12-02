@@ -17,7 +17,7 @@ export const HeroPrice = ({
                 <nav className="tab:flex-row tab:w-[76%] prepc:w-[72%] prepc:gap-5 tab:flex-wrap tab:gap-3 flex flex-col gap-5">
                     {list.map(item => (
                         <Link
-                            href={`/tsiny#${item.key}` as any}
+                            href={`/kainos#${item.key}` as any}
                             key={item.key}
                             className="font-oswald text-ivory block leading-5 uppercase transition-all duration-300 ease-in-out hover:scale-105 hover:underline"
                         >

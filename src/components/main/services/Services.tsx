@@ -32,7 +32,7 @@ export const Services = () => {
             <LinkAction
                 secondary
                 className="tab:hidden pc:ml-auto pc:mr-0 mx-auto"
-                href="/posluhy"
+                href="/paslaugos"
                 name={t("servicesBtn")}
             />
         </section>

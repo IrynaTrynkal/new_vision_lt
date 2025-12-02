@@ -101,7 +101,7 @@ export const Preview = ({
                                     {price ? (
                                         <LinkAction
                                             secondary
-                                            href="/tsiny"
+                                            href="/kainos"
                                             name={t("findOutPriceBtn")}
                                             className="tab:mx-0 mx-auto"
                                         />
@@ -172,7 +172,7 @@ export const Preview = ({
                             {price ? (
                                 <LinkAction
                                     secondary
-                                    href="/tsiny"
+                                    href="/kainos"
                                     name={t("findOutPriceBtn")}
                                     className="tab:mx-0 mx-auto"
                                 />

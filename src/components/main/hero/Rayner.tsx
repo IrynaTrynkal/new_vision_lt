@@ -14,7 +14,7 @@ export const Rayner = ({
 }) => {
     return (
         <Link
-            href="/rayner-galaxy-ua"
+            href="/rayner-galaxy-lt"
             className={`text-ivory tab:rounded-lg group pc:p-3 pc:flex pc:gap-2 rounded-sm bg-white/10 p-2 ${className}`}
         >
             <div className="pc:w-[131px] mb-1 flex justify-between">

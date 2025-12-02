@@ -25,10 +25,10 @@ export const ServicesList = async ({ locale }: { locale: LocaleType }) => {
     });
 
     const serviceStyles: Record<string, string> = {
-        "lazerna-korekcziya-zoru": "text-ivory",
-        "perevirka-zoru":
+        "lazerine-akiu-korekcija": "text-ivory",
+        "akiu-patikrinimas":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] bg-blend-hard-light",
-        "likuvannya-katarakti":
+        "kataraktos-operacija":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] bg-blend-hard-light",
         "syndrom-sukhoho-oka":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] bg-blend-hard-light",
@@ -49,11 +49,11 @@ export const ServicesList = async ({ locale }: { locale: LocaleType }) => {
                     >
                         <Link
                             href={
-                                `/posluhy/${service.name.slug[locale as LocaleType]}` as any
+                                `/paslaugos/${service.name.slug[locale as LocaleType]}` as any
                             }
                             className={`group tab:p-3 relative flex h-full w-full flex-col justify-between p-2 transition-all duration-300 ease-in-out ${serviceStyles[service.name.key] ?? serviceStyles.default} `}
                         >
-                            {service.name.key === "lazerna-korekcziya-zoru" && (
+                            {service.name.key === "lazerine-akiu-korekcija" && (
                                 <div className="absolute inset-0 z-[-1] transform overflow-hidden transition-transform duration-500 ease-in-out group-hover:scale-110 group-active:scale-110">
                                     <Image
                                         src="/images/main-service.jpg"
@@ -167,7 +167,7 @@ export const ServicesList = async ({ locale }: { locale: LocaleType }) => {
                 <LinkAction
                     secondary
                     className="mx-auto"
-                    href="/posluhy"
+                    href="/paslaugos"
                     name={t("servicesBtn")}
                 />
             </li>

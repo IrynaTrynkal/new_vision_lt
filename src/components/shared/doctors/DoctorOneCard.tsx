@@ -52,7 +52,7 @@ export const DoctorOneCard = ({
                     </div>
                 </div>
                 <Link
-                    href={`/oftalmolohy/${data.slug}` as any}
+                    href={`/gydytojai/${data.slug}` as any}
                     className="font-oswald group text-ivory tab:pb-3 prepc:gap-2 pc:pb-1 pc:text-base tab:ml-3 prepc:ml-5 mx-auto flex w-fit items-center gap-1 py-3 text-center text-sm font-medium uppercase"
                 >
                     <IconArrow className="h-4 w-4 transition-all duration-300 group-hover:mr-0 group-hover:translate-x-1" />

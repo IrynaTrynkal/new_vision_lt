@@ -31,7 +31,7 @@ export const MainAllDiseases = ({
                 <LinkAction
                     secondary
                     name={btnName}
-                    href={`/zakhvoryuvannya-ochey/${link}`}
+                    href={`/akiu-ligos/${link}`}
                     className="prepc:mt-6 tab:mx-0 mx-auto mt-5"
                 />
             </div>

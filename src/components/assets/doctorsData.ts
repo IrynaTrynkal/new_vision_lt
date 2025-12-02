@@ -8,7 +8,7 @@ export type DepartmentsType =
 type DepartmentsDataType = {
     key: DepartmentsType;
     translations: {
-        uk: string;
+        lt: string;
         en: string;
         ru: string;
     };
@@ -17,7 +17,7 @@ export const departments: DepartmentsDataType[] = [
     {
         key: "clinic-management",
         translations: {
-            uk: "Керівництво клініки",
+            lt: "Керівництво клініки",
             en: "Clinic Management",
             ru: "Руководство клиники",
         },
@@ -25,7 +25,7 @@ export const departments: DepartmentsDataType[] = [
     {
         key: "consultation-and-diagnostic-ophthalmologists",
         translations: {
-            uk: "Офтальмологи консультативно-діагностичного відділення",
+            lt: "Офтальмологи консультативно-діагностичного відділення",
             en: "Consultation and diagnostic ophthalmologists",
             ru: "Офтальмологи консультационно-диагностических отделений",
         },
@@ -33,7 +33,7 @@ export const departments: DepartmentsDataType[] = [
     {
         key: "childrens-ophthalmologists",
         translations: {
-            uk: "Дитячі офтальмологи",
+            lt: "Дитячі офтальмологи",
             en: "Children’s Ophthalmologists",
             ru: "Детские офтальмологи",
         },
@@ -42,7 +42,7 @@ export const departments: DepartmentsDataType[] = [
     {
         key: "doctors-anesthesiologists",
         translations: {
-            uk: "Лікарі-анестезіологи",
+            lt: "Лікарі-анестезіологи",
             en: "Doctors anesthesiologists",
             ru: "Врачи анестезиологи",
         },
@@ -50,7 +50,7 @@ export const departments: DepartmentsDataType[] = [
     {
         key: "ophthalmic-surgeons",
         translations: {
-            uk: "Хірурги офтальмологи",
+            lt: "Хірурги офтальмологи",
             en: "Ophthalmic surgeons",
             ru: "Хирурги офтальмологи",
         },

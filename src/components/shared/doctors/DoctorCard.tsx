@@ -39,7 +39,7 @@ export const DoctorCard = ({
                     </div>
                 </div>
                 <Link
-                    href={`/oftalmolohy/${data.slug}` as any}
+                    href={`/gydytojai/${data.slug}` as any}
                     className="font-oswald pc:hidden text-ivory tab:pb-3 pc:pb-1 tab:text-sm pc:text-base pc:underline-offset-[2.5px] tab:group-hover:underline pc:group-hover:block pb-2 text-center text-[11px] font-medium uppercase underline-offset-[2px] transition-all duration-300 ease-in-out"
                 >
                     {t("details")}

@@ -12,13 +12,13 @@ import { IconVitreoretinalnaHirurgiya } from "@/components/shared/icons/IconVitr
 
 export const toIconComponentName = (key: string) => {
     switch (key) {
-        case "dityache-viddilennya":
+        case "vaiku-akiu-patikra":
             return IconDityacheViddilennya;
         case "likuvannya-keratokonusa":
             return IconLikuvannyaKeratokonusa;
         case "lazerne-likuvannya-zahvoryuvan-oka":
             return IconLazerneLikuvannyaZahvoryuvanOka;
-        case "refrakczijna-lensektomiya":
+        case "skaidraus-lesio-operacija":
             return IconRefrakczijnaLensektomiya;
         case "vitreoretinalna-hirurgiya":
             return IconVitreoretinalnaHirurgiya;

@@ -36,15 +36,15 @@
             "of": [
                 {
                     "type": "string",
-                    "value": "lazerna-korekcziya-zoru"
+                    "value": "lazerine-akiu-korekcija"
                 },
                 {
                     "type": "string",
-                    "value": "perevirka-zoru"
+                    "value": "akiu-patikrinimas"
                 },
                 {
                     "type": "string",
-                    "value": "likuvannya-katarakti"
+                    "value": "kataraktos-operacija"
                 },
                 {
                     "type": "string",
@@ -52,7 +52,7 @@
                 },
                 {
                     "type": "string",
-                    "value": "dityache-viddilennya"
+                    "value": "vaiku-akiu-patikra"
                 },
                 {
                     "type": "string",
@@ -64,7 +64,7 @@
                 },
                 {
                     "type": "string",
-                    "value": "refrakczijna-lensektomiya"
+                    "value": "skaidraus-lesio-operacija"
                 },
                 {
                     "type": "string",

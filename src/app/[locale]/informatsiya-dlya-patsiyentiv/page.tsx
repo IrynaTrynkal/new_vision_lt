@@ -15,15 +15,15 @@ export async function generateMetadata({
     const t = await getTranslations({ locale, namespace: "PatientsPage" });
 
     const paths: Record<string, string> = {
-        uk: "/informatsiya-dlya-patsiyentiv",
+        lt: "/informatsiya-dlya-patsiyentiv",
         en: "/en/patient-information",
         ru: "/ru/informatsiya-dlya-patsiyentov",
     };
 
-    const canonical = paths[locale] || paths.uk;
+    const canonical = paths[locale] || paths.lt;
 
     const languages: Record<string, string> = {
-        "uk-UA": paths.uk,
+        "lt-LT": paths.lt,
         "en-US": paths.en,
         "ru-RU": paths.ru,
     };

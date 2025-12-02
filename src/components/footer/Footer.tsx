@@ -33,7 +33,9 @@ export const Footer = () => {
                         <MenuMain />
                     </div>
                     <div className="prepc:w-[445px] prepc:mb-0 mb-6">
-                        <h3 className={`${footerH3} mb-1.5`}>{t("posluhy")}</h3>
+                        <h3 className={`${footerH3} mb-1.5`}>
+                            {t("paslaugos")}
+                        </h3>
                         <div className="bg-grey prepc:hidden mb-1.5 h-[1px] w-full" />
                         <ServicesMenu />
                     </div>
@@ -49,7 +51,7 @@ export const Footer = () => {
                     <div className="prepc:mr-[14.3%] flex">
                         <div className="prepc:w-[145px] w-1/2">
                             <h3 className={`${footerH3} mb-3`}>
-                                {t("kontakty")}
+                                {t("kontaktai")}
                             </h3>
                             <div>
                                 <PhoneNumberList className="prepc:text-base group prepc:leading-none flex w-fit flex-col gap-2 text-sm leading-[15px] font-medium" />

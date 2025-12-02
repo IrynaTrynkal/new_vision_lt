@@ -18,7 +18,7 @@ export async function generateMetadata({
     const { locale } = resolvedParams;
 
     return generatePageMetadata(locale as LocaleType, "Blog", {
-        uk: "/blog",
+        lt: "/blog",
         en: "/en/blog",
         ru: "/ru/blog",
     });

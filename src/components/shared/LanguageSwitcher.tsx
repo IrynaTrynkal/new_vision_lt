@@ -69,19 +69,19 @@ export default function LanguageSwitcher() {
 
     const otherLocales = locales.filter(l => l !== locale);
 
-    const renderLabel = (lang: string) => (lang === "uk" ? "ua" : lang);
-    const cleanPath = pathName.replace(/^\/(uk|en|ru)/, "");
+    const renderLabel = (lang: string) => (lang === "lt" ? "lt" : lang);
+    const cleanPath = pathName.replace(/^\/(lt|en|ru)/, "");
     const segments = pathName.split("/").filter(Boolean);
     let slug: string | undefined;
 
     if (
         segments[0] &&
-        ["posluhy", "uslugi", "services"].includes(segments[0])
+        ["paslaugos", "uslugi", "services"].includes(segments[0])
     ) {
         slug = segments[1];
     } else if (
         segments[1] &&
-        ["posluhy", "uslugi", "services"].includes(segments[1])
+        ["paslaugos", "uslugi", "services"].includes(segments[1])
     ) {
         slug = segments[2];
     }
@@ -112,7 +112,7 @@ export default function LanguageSwitcher() {
                                     href={
                                         slug
                                             ? ({
-                                                  pathname: "/posluhy/[slug]",
+                                                  pathname: "/paslaugos/[slug]",
                                                   params: {
                                                       slug: localizedSlug,
                                                   },

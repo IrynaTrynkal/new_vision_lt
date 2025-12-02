@@ -3,7 +3,7 @@ import { ServiceKey } from "./menu";
 export type StickyCardType = {
     images: string[];
     data: {
-        uk: { title: string; text: string };
+        lt: { title: string; text: string };
         en: { title: string; text: string };
         ru: { title: string; text: string };
     };
@@ -20,7 +20,7 @@ export const stickyList: StickyCardType[] = [
             "/images/safety6.jpg",
         ],
         data: {
-            uk: {
+            lt: {
                 title: "безпека",
                 text: "Ми регулярно проводимо знезараження приміщень, беремо проби на присутність бактерій і вірусів, здійснюємо заміну і профілактичні роботи систем очищення повітря і вживаємо багато інших заходів, щоб повністю виключити ризик і людський фактор при проведенні операцій і гарантувати збереження здоров’я наших пацієнтів.",
             },
@@ -44,7 +44,7 @@ export const stickyList: StickyCardType[] = [
             "/images/equipment6.jpg",
         ],
         data: {
-            uk: {
+            lt: {
                 title: "обладнання",
                 text: "У всіх наших клініках використовується передове обладнання з діагностики та проведення операцій. Рівень оснащеності нашого медичного центру є орієнтиром для провідних європейських центрів з лікування хвороб ока.",
             },
@@ -68,7 +68,7 @@ export const stickyList: StickyCardType[] = [
             "/images/facilities6.jpg",
         ],
         data: {
-            uk: {
+            lt: {
                 title: "приміщення",
                 text: "Наші будівлі облаштовано відповідно до сучасних і вимогливих європейських норм, що регламентують роботу медичних установ. ",
             },
@@ -85,29 +85,29 @@ export const stickyList: StickyCardType[] = [
 ];
 
 export type AchievementsType = {
-    uk: { up: string; down: string };
+    lt: { up: string; down: string };
     en: { up: string; down: string };
     ru: { up: string; down: string };
 };
 
 export const achievementsList: AchievementsType[] = [
     {
-        uk: { up: "19", down: "років досвіду" },
+        lt: { up: "19", down: "років досвіду" },
         en: { up: "19", down: "years of experience" },
         ru: { up: "19", down: "лет опыта" },
     },
     {
-        uk: { up: "5 млн", down: "консультацій проведено" },
+        lt: { up: "5 млн", down: "консультацій проведено" },
         en: { up: "5 m", down: "consultations held" },
         ru: { up: "5 млн", down: "консультаций проведено" },
     },
     {
-        uk: { up: "1.5 млн", down: "операцій проведено" },
+        lt: { up: "1.5 млн", down: "операцій проведено" },
         en: { up: "1.5 m", down: "operations carried out" },
         ru: { up: "1.5 млн", down: "операций проведено" },
     },
     {
-        uk: { up: "1 млн", down: "задоволених клієнтів" },
+        lt: { up: "1 млн", down: "задоволених клієнтів" },
         en: { up: "1 m", down: "satisfied customers" },
         ru: { up: "1 млн", down: "довольных клиентов" },
     },
@@ -117,7 +117,7 @@ export type AboutServicesType = {
     key: ServiceKey;
     link: string;
     data: {
-        uk: { title: string; text: string };
+        lt: { title: string; text: string };
         en: { title: string; text: string };
         ru: { title: string; text: string };
     };
@@ -126,9 +126,9 @@ export type AboutServicesType = {
 export const aboutServicesList: AboutServicesType[] = [
     {
         key: "vitreoretinalna-hirurgiya",
-        link: "/posluhy/vitreoretinalna-hirurgiya",
+        link: "/paslaugos/vitreoretinalna-hirurgiya",
         data: {
-            uk: {
+            lt: {
                 title: "Вітреоретинальна хірургія",
                 text: "Це складний комбінований метод оперативного лікування патології сітківки та скловидного тіла",
             },
@@ -144,10 +144,10 @@ export const aboutServicesList: AboutServicesType[] = [
     },
     {
         key: "likuvannya-kosookosti",
-        link: "/posluhy/likuvannya-kosookosti",
+        link: "/paslaugos/likuvannya-kosookosti",
 
         data: {
-            uk: {
+            lt: {
                 title: "Лікування косоокості методом «регульованих швів»",
                 text: "Коли проблему неможливо усунути консервативними методами",
             },
@@ -162,10 +162,10 @@ export const aboutServicesList: AboutServicesType[] = [
         },
     },
     {
-        key: "refrakczijna-lensektomiya",
-        link: "/posluhy/refrakczijna-lensektomiya",
+        key: "skaidraus-lesio-operacija",
+        link: "/paslaugos/skaidraus-lesio-operacija",
         data: {
-            uk: {
+            lt: {
                 title: "Альтернатива лазерної корекції зору RLE",
                 text: "Коли проблему неможливо усунути консервативними методами",
             },

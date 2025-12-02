@@ -16,7 +16,7 @@ export async function generateMetadata({
     const { locale } = resolvedParams;
 
     return generatePageMetadata(locale as LocaleType, "PolicyPage", {
-        uk: "/politika-konfidenczijnosti",
+        lt: "/politika-konfidenczijnosti",
         en: "/en/privacy-policy",
         ru: "/ru/privacy-policy",
     });

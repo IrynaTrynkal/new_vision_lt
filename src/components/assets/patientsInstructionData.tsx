@@ -11,33 +11,33 @@ export type InstructionsSulgType =
     | "reminder-before-a-comprehensive-pediatric-examination"
     | "preparation-for-surgery-for-strabismus"
     | "patient-information-before-IPL-therapy"
-    | "zakhvoryuvannya-ochey"
+    | "akiu-ligos"
     | "reminders-and-instructions-for-patients";
 
 export type EyeDiseaseSlugType =
     | "glaukoma"
-    | "presbiopiya"
-    | "dalekozorist"
+    | "presbiopija"
+    | "toliaregyste"
     | "katarakta"
-    | "simptomi-zahvoryuvannya-ochej"
-    | "kosookist"
-    | "korotkozorist-miopiya"
-    | "astigmatizm";
+    | "akiu-ligu-simptomai"
+    | "zvairumas"
+    | "trumparegyste-miopija"
+    | "astigmatizmas";
 
 export const eyeDiseases: EyeDiseaseSlugType[] = [
     "glaukoma",
-    "presbiopiya",
-    "dalekozorist",
+    "presbiopija",
+    "toliaregyste",
     "katarakta",
-    "simptomi-zahvoryuvannya-ochej",
-    "kosookist",
-    "korotkozorist-miopiya",
-    "astigmatizm",
+    "akiu-ligu-simptomai",
+    "zvairumas",
+    "trumparegyste-miopija",
+    "astigmatizmas",
 ];
 
 export type KeySlugPatientsType = {
     key: InstructionsSulgType | EyeDiseaseSlugType;
-    slug: { uk: string; en: string; ru: string };
+    slug: { lt: string; en: string; ru: string };
 };
 
 export type ContentType = {
@@ -59,14 +59,14 @@ export type LocaleDiseaseContent = {
 
 export type PationtsInstructionType = {
     name: KeySlugPatientsType;
-    uk: LocaleInstructionContent;
+    lt: LocaleInstructionContent;
     en: LocaleInstructionContent;
     ru: LocaleInstructionContent;
 };
 
 export type EyeDiseaseType = {
     name: KeySlugPatientsType;
-    uk: LocaleDiseaseContent;
+    lt: LocaleDiseaseContent;
     en: LocaleDiseaseContent;
     ru: LocaleDiseaseContent;
 };
@@ -74,43 +74,43 @@ export type EyeDiseaseType = {
 export const keyEyeDisease: KeySlugPatientsType[] = [
     {
         key: "glaukoma",
-        slug: { uk: "glaukoma", en: "glaucoma", ru: "glaukoma" },
+        slug: { lt: "glaukoma", en: "glaucoma", ru: "glaukoma" },
     },
     {
-        key: "presbiopiya",
-        slug: { uk: "presbiopiya", en: "presbyopia", ru: "presbiopiya" },
+        key: "presbiopija",
+        slug: { lt: "presbiopija", en: "presbyopia", ru: "pryesbiopiya" },
     },
     {
-        key: "dalekozorist",
-        slug: { uk: "dalekozorist", en: "farsightedness", ru: "dalnozorkost" },
+        key: "toliaregyste",
+        slug: { lt: "toliaregyste", en: "farsightedness", ru: "dalnozorkost" },
     },
     {
         key: "katarakta",
-        slug: { uk: "katarakta", en: "cataract", ru: "katarakta" },
+        slug: { lt: "katarakta", en: "cataract", ru: "katarakta" },
     },
     {
-        key: "simptomi-zahvoryuvannya-ochej",
+        key: "akiu-ligu-simptomai",
         slug: {
-            uk: "simptomi-zahvoryuvannya-ochej",
+            lt: "akiu-ligu-simptomai",
             en: "symptoms-of-eye-disease",
             ru: "simptomy-zabolevaniya-glaz",
         },
     },
     {
-        key: "kosookist",
-        slug: { uk: "kosookist", en: "strabismus", ru: "kosoglazie" },
+        key: "zvairumas",
+        slug: { lt: "zvairumas", en: "strabismus", ru: "kosoglazie" },
     },
     {
-        key: "korotkozorist-miopiya",
+        key: "trumparegyste-miopija",
         slug: {
-            uk: "korotkozorist-miopiya",
+            lt: "trumparegyste-miopija",
             en: "nearsightedness-myopia",
             ru: "blizorukost-miopiya",
         },
     },
     {
-        key: "astigmatizm",
-        slug: { uk: "astigmatizm", en: "astigmatism", ru: "astigmatizm" },
+        key: "astigmatizmas",
+        slug: { lt: "astigmatizmas", en: "astigmatism", ru: "astigmatizm" },
     },
 ];
 
@@ -118,7 +118,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "informatsiya-dlya-inohorodnikh-patsiyentiv",
         slug: {
-            uk: "informatsiya-dlya-inohorodnikh-patsiyentiv",
+            lt: "informatsiya-dlya-inohorodnikh-patsiyentiv",
             en: "information-for-nonresident-patients",
             ru: "inogorodnim-patsiyentam",
         },
@@ -126,7 +126,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam",
         slug: {
-            uk: "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam",
+            lt: "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam",
             en: "information-for-patients-prior-to-microsurgery",
             ru: "informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
         },
@@ -134,7 +134,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
         slug: {
-            uk: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
+            lt: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
             en: "instructions-after-laser-vision-correction",
             ru: "instruktsii-posle-korrektsii-zreniya",
         },
@@ -142,7 +142,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
         slug: {
-            uk: "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
+            lt: "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
             en: "patient-reminder-before-vitreoretinal-surgery",
             ru: "pamyatki-patsiyentu-pered-vitreoretinalnoy-khirurgiyey",
         },
@@ -150,7 +150,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
         slug: {
-            uk: "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
+            lt: "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
             en: "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
             ru: "pamyatki-paczienta-posle-hirurgii-katarakty",
         },
@@ -158,7 +158,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "patient-information-before-IPL-therapy",
         slug: {
-            uk: "patient-information-before-IPL-therapy",
+            lt: "patient-information-before-IPL-therapy",
             en: "patient-information-before-IPL-therapy",
             ru: "patient-information-before-IPL-therapy",
         },
@@ -166,7 +166,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "preparation-for-surgery-for-strabismus",
         slug: {
-            uk: "preparation-for-surgery-for-strabismus",
+            lt: "preparation-for-surgery-for-strabismus",
             en: "preparation-for-surgery-for-strabismus",
             ru: "preparation-for-surgery-for-strabismus",
         },
@@ -174,7 +174,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "reminder-before-a-comprehensive-pediatric-examination",
         slug: {
-            uk: "reminder-before-a-comprehensive-pediatric-examination",
+            lt: "reminder-before-a-comprehensive-pediatric-examination",
             en: "reminder-before-a-comprehensive-pediatric-examination",
             ru: "reminder-before-a-comprehensive-pediatric-examination",
         },
@@ -182,7 +182,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
         key: "reminders-and-instructions-for-patients",
         slug: {
-            uk: "reminders-and-instructions-for-patients",
+            lt: "reminders-and-instructions-for-patients",
             en: "reminders-and-instructions-for-patients",
             ru: "reminders-and-instructions-for-patients",
         },
@@ -194,7 +194,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "informatsiya-dlya-inohorodnikh-patsiyentiv"
         )!,
-        uk: {
+        lt: {
             title: "Інформація для іногородніх пацієнтів",
             content: [
                 {
@@ -384,7 +384,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                 k.key ===
                 "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam"
         )!,
-        uk: {
+        lt: {
             title: "Інформація для пацієнтів перед мікрохірургічним втручанням",
             content: [],
         },
@@ -401,7 +401,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "preparation-for-surgery-for-strabismus"
         )!,
-        uk: {
+        lt: {
             title: "Підготовка до операціїї з приводу косоокості",
             content: [
                 {
@@ -567,7 +567,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                 k.key ===
                 "reminder-before-a-comprehensive-pediatric-examination"
         )!,
-        uk: {
+        lt: {
             title: "Памʼятка перед дитячим комплексним оглядом",
             content: [
                 {
@@ -698,7 +698,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "patient-information-before-IPL-therapy"
         )!,
-        uk: {
+        lt: {
             title: "Памʼятка пацієнта перед IPL-терапією",
             content: [
                 {
@@ -1198,7 +1198,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
         )!,
-        uk: {
+        lt: {
             title: "Інструкції після лазерної корекції зору",
             content: [
                 {
@@ -2941,7 +2941,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                 k.key ===
                 "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
         )!,
-        uk: {
+        lt: {
             title: "Пам’ятка пацієнта перед вітреоретинальною хірургією",
             content: [
                 {
@@ -3522,7 +3522,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty"
         )!,
-        uk: {
+        lt: {
             title: "Пам’ятка пацієнта після хірургії катаракти",
             content: [
                 {
@@ -3933,7 +3933,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
         name: keySlugPatientsInstruction.find(
             k => k.key === "reminders-and-instructions-for-patients"
         )!,
-        uk: {
+        lt: {
             title: "Пам’ятки та інструкції для пацієнтів",
             content: [],
         },
@@ -3945,7 +3945,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
 export const eyeDiseaseData: EyeDiseaseType[] = [
     {
         name: keyEyeDisease.find(d => d.key === "glaukoma")!,
-        uk: {
+        lt: {
             titleSEO:
                 "Глаукома - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -4367,8 +4367,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(d => d.key === "astigmatizm")!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "astigmatizmas")!,
+        lt: {
             titleSEO:
                 "Астигматизм - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -4410,7 +4410,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "/posluhy/lazerna-korekcziya-zoru",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4423,7 +4423,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "posluhy/refrakczijna-lensektomiya/",
+                        link: "paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -4470,7 +4470,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "read more",
-                        link: "/services/laser-vision-correction",
+                        link: "/services/laser-eye-surgery",
                     },
                 },
                 {
@@ -4483,7 +4483,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "read more",
-                        link: "/services/refractive-lensectomy",
+                        link: "/services/refractive-lens-exchange",
                     },
                 },
             ],
@@ -4550,8 +4550,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(d => d.key === "dalekozorist")!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "toliaregyste")!,
+        lt: {
             titleSEO:
                 "Далекозорість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -4603,7 +4603,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "/posluhy/lazerna-korekcziya-zoru",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4616,7 +4616,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "posluhy/refrakczijna-lensektomiya/",
+                        link: "paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -4673,7 +4673,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "read more",
-                        link: "/services/laser-vision-correction",
+                        link: "/services/laser-eye-surgery",
                     },
                 },
                 {
@@ -4686,7 +4686,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "read more",
-                        link: "/services/refractive-lensectomy",
+                        link: "/services/refractive-lens-exchange",
                     },
                 },
             ],
@@ -4764,7 +4764,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
     },
     {
         name: keyEyeDisease.find(d => d.key === "katarakta")!,
-        uk: {
+        lt: {
             titleSEO:
                 "Катаракта - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -4923,8 +4923,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(d => d.key === "korotkozorist-miopiya")!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "trumparegyste-miopija")!,
+        lt: {
             titleSEO:
                 "Короткозорість, міопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -4976,7 +4976,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "/posluhy/lazerna-korekcziya-zoru",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4990,7 +4990,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "детальніше",
-                        link: "posluhy/refrakczijna-lensektomiya/",
+                        link: "paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -5048,7 +5048,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "learn more",
-                        link: "/services/laser-vision-correction",
+                        link: "/services/laser-eye-surgery",
                     },
                 },
                 {
@@ -5062,7 +5062,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "learn more",
-                        link: "/services/refractive-lensectomy/",
+                        link: "/services/refractive-lens-exchange",
                     },
                 },
             ],
@@ -5141,8 +5141,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(d => d.key === "kosookist")!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "zvairumas")!,
+        lt: {
             titleSEO:
                 "Косоокість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -5293,8 +5293,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(d => d.key === "presbiopiya")!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "presbiopija")!,
+        lt: {
             titleSEO:
                 "Пресбіопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -5440,10 +5440,8 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
     },
     {
-        name: keyEyeDisease.find(
-            d => d.key === "simptomi-zahvoryuvannya-ochej"
-        )!,
-        uk: {
+        name: keyEyeDisease.find(d => d.key === "akiu-ligu-simptomai")!,
+        lt: {
             titleSEO:
                 "Симптоми захворювання очей - причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
@@ -5876,7 +5874,7 @@ export const dataPatientsPage: DataPatientsPageType[] = [
             },
         ],
     },
-    { key: "zakhvoryuvannya-ochey", data: [{ list: keyEyeDisease }] },
+    { key: "akiu-ligos", data: [{ list: keyEyeDisease }] },
 ];
 export type DepartType = {
     title: string;
@@ -5897,11 +5895,11 @@ export type BeforeSurgeryInstructionType = {
 };
 
 export const beforeSurgeryInstruction: {
-    uk: BeforeSurgeryInstructionType;
+    lt: BeforeSurgeryInstructionType;
     en: BeforeSurgeryInstructionType;
     ru: BeforeSurgeryInstructionType;
 } = {
-    uk: {
+    lt: {
         firstText:
             "Перед мікрохірургічним втручанням необхідний перелік лабораторних аналізів та додаткових обстежень вирішує лікар-анестезіолог за наявними супутніми патологіями (прохання мати з собою амбулаторну картку, попередні обстеження, епікризи, виписки)",
         analysisCard:

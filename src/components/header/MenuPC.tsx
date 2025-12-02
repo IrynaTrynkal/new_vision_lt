@@ -19,13 +19,13 @@ export const MenuPC = ({
 }) => {
     const t = useTranslations("Menu");
     const [openMenus, setOpenMenus] = useState<{ [key: string]: boolean }>({
-        posluhy: false,
+        paslaugos: false,
         "informatsiya-dlya-patsiyentiv": false,
     });
 
     const handleOpen = (key: string) => {
         setOpenMenus({
-            posluhy: key === "posluhy",
+            paslaugos: key === "paslaugos",
             "informatsiya-dlya-patsiyentiv":
                 key === "informatsiya-dlya-patsiyentiv",
         });
@@ -33,7 +33,7 @@ export const MenuPC = ({
 
     const closeSubmenus = () => {
         setOpenMenus({
-            posluhy: false,
+            paslaugos: false,
             "informatsiya-dlya-patsiyentiv": false,
         });
     };
@@ -42,7 +42,7 @@ export const MenuPC = ({
         <ul className={`${className}`}>
             {menuList.map((item, idx) => {
                 const hasSubmenu =
-                    item.key === "posluhy" ||
+                    item.key === "paslaugos" ||
                     item.key === "informatsiya-dlya-patsiyentiv";
                 return (
                     <li
@@ -51,7 +51,7 @@ export const MenuPC = ({
                         onMouseLeave={() => hasSubmenu && closeSubmenus()}
                     >
                         <div
-                            className={`prepc:px-2 flex items-center justify-center ${(item.key === "posluhy" && openMenus.posluhy) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
+                            className={`prepc:px-2 flex items-center justify-center ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
                         >
                             <Link
                                 href={`/${item.key}` as any}
@@ -72,20 +72,21 @@ export const MenuPC = ({
                             )}
                         </div>
                         <AnimatePresence initial={false}>
-                            {item.key === "posluhy" && openMenus.posluhy && (
-                                <motion.div
-                                    initial={{ height: 0 }}
-                                    animate={{ height: "auto" }}
-                                    exit={{ height: 0 }}
-                                    transition={{
-                                        duration: 0.8,
-                                        ease: "easeInOut",
-                                    }}
-                                    className="bg-ivory absolute top-full left-0 z-10 w-full overflow-hidden"
-                                >
-                                    <ServicesMenu onClick={closeSubmenus} />
-                                </motion.div>
-                            )}
+                            {item.key === "paslaugos" &&
+                                openMenus.paslaugos && (
+                                    <motion.div
+                                        initial={{ height: 0 }}
+                                        animate={{ height: "auto" }}
+                                        exit={{ height: 0 }}
+                                        transition={{
+                                            duration: 0.8,
+                                            ease: "easeInOut",
+                                        }}
+                                        className="bg-ivory absolute top-full left-0 z-10 w-full overflow-hidden"
+                                    >
+                                        <ServicesMenu onClick={closeSubmenus} />
+                                    </motion.div>
+                                )}
 
                             {item.key === "informatsiya-dlya-patsiyentiv" &&
                                 openMenus["informatsiya-dlya-patsiyentiv"] && (

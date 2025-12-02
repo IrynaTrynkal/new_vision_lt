@@ -35,7 +35,7 @@ export async function generateMetadata(
             canonical: `${langPrefix}/blog/${slug}`,
             languages: {
                 "en-US": `/en/blog/${slug}`,
-                "uk-UA": `/blog/${slug}`,
+                "lt-LT": `/blog/${slug}`,
                 "ru-RU": `/ru/blog/${slug}`,
             },
         },

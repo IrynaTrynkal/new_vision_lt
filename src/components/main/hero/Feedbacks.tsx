@@ -34,7 +34,7 @@ export const Feedbacks = ({
     }, []);
     return (
         <Link
-            href="/vidhuky"
+            href="/atsiliepimai"
             className={`text-ivory tab:rounded-lg pc:p-3 flex flex-col justify-start rounded-sm bg-white/10 p-2 ${className}`}
         >
             <h3 className="font-oswald pc:text-[28px] mb-2 text-left text-xl leading-none font-medium">

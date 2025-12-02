@@ -16,7 +16,7 @@ export type SubPageType = {
     key: string;
     image: string;
     content: {
-        uk: LocaleSubLazerPageType;
+        lt: LocaleSubLazerPageType;
         ru: LocaleSubLazerPageType;
         en: LocaleSubLazerPageType;
     };
@@ -27,7 +27,7 @@ export const subpageLazerData: SubPageType[] = [
         key: "sportlife-lasik",
         image: "/images/lasek.png",
         content: {
-            uk: {
+            lt: {
                 slug: "sportlife-lasik",
                 title: "SportLine LASEK",
                 subtitle: "Безкомпромісне рішення для професійних спортсменів",
@@ -307,7 +307,7 @@ export const subpageLazerData: SubPageType[] = [
         key: "iq-lasik-oxygen-3d",
         image: "/images/eagle.jpg",
         content: {
-            uk: {
+            lt: {
                 slug: "iq-lasik-oxygen-3d",
                 title: "IQ-LASIK Oxygen 3D",
                 subtitle: "корекція без підвищення температури рогівки ока",
@@ -561,7 +561,7 @@ export const subpageCataractData: SubPageType[] = [
         key: "iq-5-minutes",
         image: "/images/iq-5-minute.jpg",
         content: {
-            uk: {
+            lt: {
                 slug: "iq-5-minutes",
                 title: "iq-5-minutes",
                 titleSEO:
@@ -772,7 +772,7 @@ export const subpageCataractData: SubPageType[] = [
         key: "iq-life-3d-vodnij-potik",
         image: "/images/live.jpg",
         content: {
-            uk: {
+            lt: {
                 slug: "iq-life-3d-vodnij-potik",
                 title: "iQ-Life 3D «водний потік»",
                 titleSEO:

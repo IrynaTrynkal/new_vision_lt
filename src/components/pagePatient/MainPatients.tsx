@@ -33,7 +33,7 @@ export const MainPatients = () => {
                             <div className="border-grey prepc:flex-row -mt-2 flex flex-col gap-5 rounded-br rounded-bl border border-t-0 bg-white px-3 pt-7 pb-5">
                                 {item.data.map((content, ind) => (
                                     <div
-                                        className={`${item.key === "zakhvoryuvannya-ochey" ? "prepc:w-full" : "prepc:w-[49%]"}`}
+                                        className={`${item.key === "akiu-ligos" ? "prepc:w-full" : "prepc:w-[49%]"}`}
                                         key={ind}
                                     >
                                         {content.listTitle && (
@@ -44,18 +44,18 @@ export const MainPatients = () => {
                                             </h3>
                                         )}
                                         <ul
-                                            className={`ml-4 flex list-disc flex-col gap-3 ${item.key === "zakhvoryuvannya-ochey" ? "prepc:columns-2 prepc:block prepc:space-y-3 prepc:gap-x-10" : ""}`}
+                                            className={`ml-4 flex list-disc flex-col gap-3 ${item.key === "akiu-ligos" ? "prepc:columns-2 prepc:block prepc:space-y-3 prepc:gap-x-10" : ""}`}
                                         >
                                             {content.list.map(itemList => (
                                                 <li key={itemList.key}>
                                                     <Link
                                                         href={
                                                             item.key ===
-                                                            "zakhvoryuvannya-ochey"
-                                                                ? `/zakhvoryuvannya-ochey/${itemList.key}`
+                                                            "akiu-ligos"
+                                                                ? `/akiu-ligos/${itemList.key}`
                                                                 : (`/${itemList.key}` as any)
                                                         }
-                                                        className={`font-oswald prepc:hover:underline prepc:no-underline leading-5 uppercase underline transition-all duration-300 ease-in-out ${item.key === "zakhvoryuvannya-ochey" ? "prepc:w-[49%]" : ""}`}
+                                                        className={`font-oswald prepc:hover:underline prepc:no-underline leading-5 uppercase underline transition-all duration-300 ease-in-out ${item.key === "akiu-ligos" ? "prepc:w-[49%]" : ""}`}
                                                     >
                                                         {tM(itemList.key)}
                                                     </Link>

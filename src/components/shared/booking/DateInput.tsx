@@ -2,8 +2,8 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import { format } from "date-fns";
 import enGB from "date-fns/locale/en-GB";
+import lt from "date-fns/locale/lt";
 import ru from "date-fns/locale/ru";
-import uk from "date-fns/locale/uk";
 import { useTranslations } from "next-intl";
 import { forwardRef, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker";
@@ -13,7 +13,7 @@ import { LocaleType } from "@/types/LocaleType";
 import { IconCalendar } from "../icons/IconCalendar";
 import { IconCheckMark } from "../icons/IconCheckMark";
 import { IconChevron } from "../icons/IconChevron";
-registerLocale("uk", uk);
+registerLocale("lt", lt);
 registerLocale("en", enGB);
 registerLocale("ru", ru);
 
@@ -30,7 +30,7 @@ export default function DateInput({
 }) {
     const [openMonthList, setOpenMonthList] = useState(false);
     const [open, setOpen] = useState(false);
-    const localeMap = { uk, ru, en: enGB };
+    const localeMap = { lt, ru, en: enGB };
     const localeObj = localeMap[locale];
     const t = useTranslations("Form");
     const CustomInput = forwardRef<HTMLInputElement, any>(

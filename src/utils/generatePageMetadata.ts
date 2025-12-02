@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { LocaleType } from "@/types/LocaleType";
 
 interface LocalizedPaths {
-    uk: string;
+    lt: string;
     en: string;
     ru: string;
 }
@@ -16,14 +16,14 @@ export async function generatePageMetadata(
 ): Promise<Metadata> {
     const t = await getTranslations({ locale, namespace });
 
-    const canonical = paths[locale] ?? paths.uk;
+    const canonical = paths[locale] ?? paths.lt;
 
     return {
         metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL!),
         alternates: {
             canonical,
             languages: {
-                "uk-UA": paths.uk,
+                "lt-LT": paths.lt,
                 "en-US": paths.en,
                 "ru-RU": paths.ru,
             },

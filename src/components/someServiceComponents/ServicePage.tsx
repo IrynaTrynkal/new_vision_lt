@@ -51,7 +51,7 @@ export const ServicePageContent = async ({
     const sections = serviceData[locale]?.sections ?? [];
 
     const perevirkaZoruService = servicesData.find(
-        s => s.name.key === "perevirka-zoru"
+        s => s.name.key === "akiu-patikrinimas"
     );
     const perevirkaZoruSections = perevirkaZoruService?.[locale]?.sections;
     const perevirkaZoruPriceSection = perevirkaZoruSections?.find(
@@ -65,8 +65,8 @@ export const ServicePageContent = async ({
         : false;
 
     const changedSlug =
-        serviceData.name.key === "dityache-viddilennya"
-            ? "perevirka-zoru"
+        serviceData.name.key === "vaiku-akiu-patikra"
+            ? "akiu-patikrinimas"
             : serviceData.name.key;
 
     const offerList = offersShortList?.find(
@@ -136,7 +136,7 @@ export const ServicePageContent = async ({
                                 offersShortList={offerList}
                                 data={
                                     serviceData.name.key ===
-                                    "dityache-viddilennya"
+                                    "vaiku-akiu-patikra"
                                         ? (perevirkaZoruPriceSection?.data ??
                                           section.data)
                                         : section.data

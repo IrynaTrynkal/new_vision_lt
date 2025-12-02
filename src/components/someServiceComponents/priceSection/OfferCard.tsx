@@ -79,7 +79,7 @@ export const OfferCard = ({
                 {data.discountShortData?.learnMore ? (
                     <LinkAction
                         small
-                        href="/aktsiyi"
+                        href="/akcijos"
                         name={t("details")}
                         className="absolute right-0 bottom-0"
                     />

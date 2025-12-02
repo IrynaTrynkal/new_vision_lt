@@ -22,15 +22,15 @@ export async function generateInstructionMetadata(
     }
 
     const paths = {
-        uk: `/${slugItem.slug.uk}`,
+        lt: `/${slugItem.slug.lt}`,
         en: `/en/${slugItem.slug.en}`,
         ru: `/ru/${slugItem.slug.ru}`,
     };
 
-    const canonical = paths[locale] ?? paths.uk;
+    const canonical = paths[locale] ?? paths.lt;
 
     const languages = {
-        "uk-UA": paths.uk,
+        "lt-LT": paths.lt,
         "en-US": paths.en,
         "ru-RU": paths.ru,
     };

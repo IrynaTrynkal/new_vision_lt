@@ -1,12 +1,12 @@
 type ApproachProps = {
-    uk: { title: string; text: string };
+    lt: { title: string; text: string };
     ru: { title: string; text: string };
     en: { title: string; text: string };
 };
 
 export const approachList: ApproachProps[] = [
     {
-        uk: {
+        lt: {
             title: "точність діагнозу за одне відвідування",
             text: "У клініці зору Києва доступна комплексна апаратна перевірка зору із використанням сучасної техніки, яка дозволяє точно визначити стан очей за одне відвідування.",
         },
@@ -20,7 +20,7 @@ export const approachList: ApproachProps[] = [
         },
     },
     {
-        uk: {
+        lt: {
             title: "без черг і в комфортній обстановці",
             text: "Це особливо важливо для тих, хто шукає де пройти обстеження в окуліста, або хоче отримати консультацію окуліста без черг і в комфортній обстановці.",
         },
@@ -34,7 +34,7 @@ export const approachList: ApproachProps[] = [
         },
     },
     {
-        uk: {
+        lt: {
             title: "швидкість процедури",
             text: "Процедура займає трохи часу, але може врятувати зір довгі роки.",
         },

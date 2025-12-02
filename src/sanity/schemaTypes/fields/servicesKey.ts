@@ -8,23 +8,15 @@ export const servicesKey = defineType({
         list: [
             {
                 title: "Лазерна корекція зору",
-                value: "lazerna-korekcziya-zoru",
+                value: "lazerine-akiu-korekcija",
             },
-            { title: "Перевірка зору", value: "perevirka-zoru" },
-            { title: "Лікування катаракти", value: "likuvannya-katarakti" },
-            { title: "Синдром сухого ока", value: "syndrom-sukhoho-oka" },
-            { title: "Дитяче відділення", value: "dityache-viddilennya" },
-            {
-                title: "Лікування кератоконуса",
-                value: "likuvannya-keratokonusa",
-            },
-            {
-                title: "Лазерне лікування захворювань ока",
-                value: "lazerne-likuvannya-zahvoryuvan-oka",
-            },
+            { title: "Перевірка зору", value: "akiu-patikrinimas" },
+            { title: "Лікування катаракти", value: "kataraktos-operacija" },
+            { title: "Дитяче відділення", value: "vaiku-akiu-patikra" },
+
             {
                 title: "Рефракційна лінсектомія",
-                value: "refrakczijna-lensektomiya",
+                value: "skaidraus-lesio-operacija",
             },
             {
                 title: "Вітреоретинальна хірургія",
@@ -38,16 +30,10 @@ export const servicesKey = defineType({
                 title: "Хірургічне лікування глаукоми",
                 value: "hirurgichne-likuvannya-glaukomi",
             },
-            { title: "Лікування косоокості", value: "likuvannya-kosookosti" },
             {
                 title: "Хірургія повік і кон’юнктиви",
                 value: "hirurgiya-povik-i-konyunktivi",
             },
-            {
-                title: "Анестезіологічний посібник",
-                value: "anesteziologichnij-posibnik",
-            },
-            { title: "Ксенотерапія", value: "ksenonoterapiya" },
         ],
     },
 });

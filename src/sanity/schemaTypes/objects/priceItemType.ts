@@ -58,13 +58,13 @@ export const priceItemType = defineType({
     ],
     preview: {
         select: {
-            nameUk: "serviceName",
+            nameLt: "serviceName",
             price: "price",
             discount: "discountPrice",
         },
         prepare(selection) {
-            const { nameUk, price, discount } = selection;
-            const titleUK = getTitleFromIntArraysString(nameUk);
+            const { nameLt, price, discount } = selection;
+            const titleLt = getTitleFromIntArraysString(nameLt);
 
             let subtitle = "";
             if (discount) {
@@ -77,7 +77,7 @@ export const priceItemType = defineType({
 
             return {
                 media: FcOk,
-                title: titleUK,
+                title: titleLt,
                 subtitle,
             };
         },

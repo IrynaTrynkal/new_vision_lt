@@ -97,7 +97,7 @@ export const AboutMain = () => {
                     <div className="pc:flex-row-reverse pc:items-end flex justify-between">
                         <Fraction textUp="20" textDown={t("aboutYears")} />
                         <LinkAction
-                            href="/pro-kliniku"
+                            href="/apie-klinika"
                             secondary
                             small
                             name={t("aboutBtn")}

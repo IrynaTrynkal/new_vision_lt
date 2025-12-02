@@ -21,7 +21,7 @@ export const MethodCard = ({ data }: { data: MethodCardProps }) => {
     const locale = useLocale();
 
     const currentItem =
-        data.link === "lazerna-korekcziya-zoru"
+        data.link === "lazerine-akiu-korekcija"
             ? subpageLazerData[1]
             : subpageCataractData[1];
 

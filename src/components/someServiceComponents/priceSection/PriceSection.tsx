@@ -62,18 +62,6 @@ export const PriceSection = ({
                     <OfferCard data={offersShortList} />
                 )}
             </div>
-            {/* {slug === "lazerna-korekcziya-zoru" && (
-                <div className="prepc:block pc:right-12 pc:bottom-[120px] absolute right-6 bottom-12 hidden w-[230px]">
-                    <p className="mb-8 text-lg leading-[22px]">
-                        {t("lazerEditionPriceText")}
-                    </p>
-                    <LinkAction
-                        className="tab:mx-0 mx-auto"
-                        href="#booking"
-                        name={tH("bookingSubtitle")}
-                    />
-                </div>
-            )} */}
         </section>
     );
 };

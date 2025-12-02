@@ -51,7 +51,7 @@ export const Feedbacks = () => {
                     <LinkAction
                         secondary
                         className="pc:ml-auto pc:mr-0 mx-auto"
-                        href="/vidhuky"
+                        href="/atsiliepimai"
                         name={t("feedbacksBtn")}
                     />
                 </div>
@@ -71,7 +71,7 @@ export const Feedbacks = () => {
             <LinkAction
                 secondary
                 className="tab:hidden pc:ml-auto pc:mr-0 mx-auto"
-                href="/vidhuky"
+                href="/atsiliepimai"
                 name={t("feedbacksBtn")}
             />
         </section>

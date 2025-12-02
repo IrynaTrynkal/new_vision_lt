@@ -8,16 +8,16 @@ import { MethodCard } from "./MethodCard";
 export const Methods = () => {
     const t = useTranslations("AboutPage");
     const itemList1 = servicesData
-        .find(item => item.name.key === "lazerna-korekcziya-zoru")
-        ?.uk.sections?.find(item => item.type === "methodsSection")?.data
+        .find(item => item.name.key === "lazerine-akiu-korekcija")
+        ?.lt.sections?.find(item => item.type === "methodsSection")?.data
         .list[0];
     const itemList2 = servicesData
-        .find(item => item.name.key === "likuvannya-katarakti")
-        ?.uk.sections?.find(item => item.type === "methodsSection")?.data
+        .find(item => item.name.key === "kataraktos-operacija")
+        ?.lt.sections?.find(item => item.type === "methodsSection")?.data
         .list[1];
     const aboutMethodsList = [
-        itemList1 ? { ...itemList1, link: "lazerna-korekcziya-zoru" } : null,
-        itemList2 ? { ...itemList2, link: "likuvannya-katarakti" } : null,
+        itemList1 ? { ...itemList1, link: "lazerine-akiu-korekcija" } : null,
+        itemList2 ? { ...itemList2, link: "kataraktos-operacija" } : null,
     ].filter(Boolean);
     return (
         <section className="content pc:pb-30 relative pb-[60px]">

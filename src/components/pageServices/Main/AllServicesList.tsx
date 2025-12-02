@@ -23,14 +23,14 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
     });
 
     const serviceStyles: Record<string, string> = {
-        "lazerna-korekcziya-zoru": "text-ivory",
-        "perevirka-zoru":
+        "lazerine-akiu-korekcija": "text-ivory",
+        "akiu-patikrinimas":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] text-black bg-blend-hard-light",
-        "likuvannya-katarakti":
+        "kataraktos-operacija":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] text-black bg-blend-hard-light",
         "syndrom-sukhoho-oka":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] text-black bg-blend-hard-light",
-        "dityache-viddilennya": "text-black",
+        "vaiku-akiu-patikra": "text-black",
         default: "hover-green-gradient text-black ",
     };
 
@@ -48,11 +48,11 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
                     >
                         <Link
                             href={
-                                `/posluhy/${service.name.slug[locale as LocaleType]}` as any
+                                `/paslaugos/${service.name.slug[locale as LocaleType]}` as any
                             }
                             className={`group tab:p-3 relative flex h-full w-full flex-col justify-between p-2 transition-all duration-300 ease-in-out ${serviceStyles[service.name.key] ?? serviceStyles.default} `}
                         >
-                            {service.name.key === "dityache-viddilennya" ? (
+                            {service.name.key === "vaiku-akiu-patikra" ? (
                                 <div className="absolute inset-0 z-[-1] overflow-hidden">
                                     <div
                                         className="h-full w-full opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 group-active:opacity-100"
@@ -66,7 +66,7 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
                                     />
                                 </div>
                             ) : service.name.key ===
-                              "lazerna-korekcziya-zoru" ? (
+                              "lazerine-akiu-korekcija" ? (
                                 <div className="absolute inset-0 z-[-1] transform overflow-hidden transition-transform duration-500 ease-in-out group-hover:scale-110 group-active:scale-110">
                                     <Image
                                         src="/images/main-service.jpg"
@@ -82,7 +82,7 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
                                         className={`font-oswald tab:text-lg group-hover:text-ivory group-active:text-ivory pc:text-2xl pc:leading-7 tab:leading-5 text-sm leading-4 font-medium whitespace-pre-wrap uppercase transition-colors duration-300 ease-in-out ${lowest.discountPrice ? "tab:w-[55%] w-[70%]" : "tab:w-[70%] w-full"} `}
                                     >
                                         {service.name.key ===
-                                        "lazerna-korekcziya-zoru"
+                                        "lazerine-akiu-korekcija"
                                             ? t("lazerna-korekcziya-zoru-cold")
                                             : tMenu(service.name.key)}
                                     </h4>

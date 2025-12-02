@@ -24,7 +24,7 @@ export const ServicesMenu = ({
                             <Link
                                 href={
                                     {
-                                        pathname: `/posluhy/${item.slug[locale as LocaleType]}`,
+                                        pathname: `/paslaugos/${item.slug[locale as LocaleType]}`,
                                     } as any
                                 }
                                 onClick={onClick}

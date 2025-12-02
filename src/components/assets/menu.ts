@@ -1,187 +1,159 @@
 export const menuList = [
-    { key: "posluhy" },
-    { key: "rayner-galaxy-ua" },
-    { key: "tsiny" },
-    { key: "aktsiyi" },
-    { key: "oftalmolohy" },
-    { key: "pro-kliniku" },
+    { key: "paslaugos" },
+    { key: "rayner-galaxy-lt" },
+    { key: "kainos" },
+    { key: "akcijos" },
+    { key: "gydytojai" },
+    { key: "apie-klinika" },
     { key: "informatsiya-dlya-patsiyentiv" },
-    { key: "vidhuky" },
-    { key: "kontakty" },
+    { key: "atsiliepimai" },
+    { key: "kontaktai" },
 ];
 
 export type ServicesKeyType =
-    | "lazerna-korekcziya-zoru"
-    | "perevirka-zoru"
-    | "likuvannya-katarakti"
-    | "syndrom-sukhoho-oka"
-    | "dityache-viddilennya"
-    | "likuvannya-keratokonusa"
-    | "lazerne-likuvannya-zahvoryuvan-oka"
-    | "refrakczijna-lensektomiya"
-    | "vitreoretinalna-hirurgiya"
-    | "intravitrealni-inekczii"
-    | "hirurgichne-likuvannya-glaukomi"
-    | "likuvannya-kosookosti"
-    | "hirurgiya-povik-i-konyunktivi"
-    | "anesteziologichnij-posibnik"
-    | "ksenonoterapiya"
+    | "lazerine-akiu-korekcija"
+    | "akiu-patikrinimas"
+    | "kataraktos-operacija"
+    | "vaiku-akiu-patikra"
+    | "skaidraus-lesio-operacija"
     | "all";
 
 export type ServicesListProps = {
     key: ServicesKeyType;
     image?: string;
     icon?: boolean;
-    slug: { uk: string; ru: string; en: string };
+    slug: { lt: string; ru: string; en: string };
 };
 
 export const servicesList: ServicesListProps[] = [
     {
-        key: "lazerna-korekcziya-zoru",
+        key: "lazerine-akiu-korekcija",
         image: "lazerna-korekcziya-zoru.jpg",
         slug: {
-            uk: "lazerna-korekcziya-zoru",
-            en: "laser-vision-correction",
+            lt: "lazerine-akiu-korekcija",
+            en: "laser-eye-surgery",
             ru: "lazernaya-korrekciya-zreniya",
         },
     },
     {
-        key: "perevirka-zoru",
+        key: "akiu-patikrinimas",
         image: "perevirka-zoru.jpg",
         slug: {
-            uk: "perevirka-zoru",
-            en: "eye-exam",
-            ru: "proverka-zreniya",
+            lt: "akiu-patikrinimas",
+            en: "eye-examination",
+            ru: "diagnostika-zreniya",
         },
     },
     {
-        key: "likuvannya-katarakti",
+        key: "kataraktos-operacija",
         image: "likuvannya-katarakti.jpg",
         slug: {
-            uk: "likuvannya-katarakti",
-            en: "cataract-treatment",
-            ru: "lechenie-katarakty",
+            lt: "kataraktos-operacija",
+            en: "cataract-surgery",
+            ru: "udaleniye-katarakty",
         },
     },
     {
-        key: "syndrom-sukhoho-oka",
-        image: "syndrom-sukhoho-oka.jpg",
-        slug: {
-            uk: "syndrom-sukhoho-oka",
-            en: "dry-eye-syndrome",
-            ru: "lechenie-sindroma-suhogo-glaza",
-        },
-    },
-    {
-        key: "dityache-viddilennya",
+        key: "vaiku-akiu-patikra",
         icon: true,
         slug: {
-            uk: "dityache-viddilennya",
-            en: "children-department",
+            lt: "vaiku-akiu-patikra",
+            en: "pediatric-eye-examination",
             ru: "detskoye-otdeleniye",
         },
     },
+    // {
+    //     key: "lazerne-likuvannya-zahvoryuvan-oka",
+    //     icon: true,
+    //     slug: {
+    //         lt: "lazerne-likuvannya-zahvoryuvan-oka",
+    //         en: "laser-treatment-of-eye-diseases",
+    //         ru: "lazernoye-lecheniye-zabolevaniy-glaza",
+    //     },
+    // },
     {
-        key: "likuvannya-keratokonusa",
+        key: "skaidraus-lesio-operacija",
         icon: true,
         slug: {
-            uk: "likuvannya-keratokonusa",
-            en: "keratoconus-treatment",
-            ru: "lecheniye-keratokonusa",
+            lt: "skaidraus-lesio-operacija",
+            en: "refractive-lens-exchange",
+            ru: "khirurgiia-prozrachnogo-khrustalika",
         },
     },
-    {
-        key: "lazerne-likuvannya-zahvoryuvan-oka",
-        icon: true,
-        slug: {
-            uk: "lazerne-likuvannya-zahvoryuvan-oka",
-            en: "laser-treatment-of-eye-diseases",
-            ru: "lazernoye-lecheniye-zabolevaniy-glaza",
-        },
-    },
-    {
-        key: "refrakczijna-lensektomiya",
-        icon: true,
-        slug: {
-            uk: "refrakczijna-lensektomiya",
-            en: "refractive-lensectomy",
-            ru: "intraokuliarnaya-korrekciya",
-        },
-    },
-    {
-        key: "vitreoretinalna-hirurgiya",
-        icon: true,
-        slug: {
-            uk: "vitreoretinalna-hirurgiya",
-            en: "vitreoretinal-surgery",
-            ru: "vitreoretinalnaya-khirurgiya",
-        },
-    },
-    {
-        key: "intravitrealni-inekczii",
-        icon: true,
-        slug: {
-            uk: "intravitrealni-inekczii",
-            en: "intravitreal-injections",
-            ru: "intravitrealnyye-inyektsii",
-        },
-    },
-    {
-        key: "hirurgichne-likuvannya-glaukomi",
-        icon: true,
-        slug: {
-            uk: "hirurgichne-likuvannya-glaukomi",
-            en: "surgical-glaucoma-treatment",
-            ru: "khirurgicheskoye-lecheniye-glaukomy",
-        },
-    },
-    {
-        key: "likuvannya-kosookosti",
-        icon: true,
-        slug: {
-            uk: "likuvannya-kosookosti",
-            en: "strabismus-treatment",
-            ru: "lecheniye-kosoglaziya",
-        },
-    },
-    {
-        key: "hirurgiya-povik-i-konyunktivi",
-        icon: true,
-        slug: {
-            uk: "hirurgiya-povik-i-konyunktivi",
-            en: "eyelid-and-conjunctival-surgery",
-            ru: "khirurgiya-vek-i-konyunktivy",
-        },
-    },
-    {
-        key: "anesteziologichnij-posibnik",
-        icon: true,
-        slug: {
-            uk: "anesteziologichnij-posibnik",
-            en: "anesthesia-benefit",
-            ru: "anesteziologicheskoye-posobiye",
-        },
-    },
-    {
-        key: "ksenonoterapiya",
-        icon: true,
-        slug: {
-            uk: "ksenonoterapiya",
-            en: "xenon-therapy",
-            ru: "ksenonoterapiya",
-        },
-    },
+    // {
+    //     key: "vitreoretinalna-hirurgiya",
+    //     icon: true,
+    //     slug: {
+    //         lt: "vitreoretinalna-hirurgiya",
+    //         en: "vitreoretinal-surgery",
+    //         ru: "vitreoretinalnaya-khirurgiya",
+    //     },
+    // },
+    // {
+    //     key: "intravitrealni-inekczii",
+    //     icon: true,
+    //     slug: {
+    //         lt: "intravitrealni-inekczii",
+    //         en: "intravitreal-injections",
+    //         ru: "intravitrealnyye-inyektsii",
+    //     },
+    // },
+    // {
+    //     key: "hirurgichne-likuvannya-glaukomi",
+    //     icon: true,
+    //     slug: {
+    //         lt: "hirurgichne-likuvannya-glaukomi",
+    //         en: "surgical-glaucoma-treatment",
+    //         ru: "khirurgicheskoye-lecheniye-glaukomy",
+    //     },
+    // },
+    // {
+    //     key: "likuvannya-kosookosti",
+    //     icon: true,
+    //     slug: {
+    //         lt: "likuvannya-kosookosti",
+    //         en: "strabismus-treatment",
+    //         ru: "lecheniye-kosoglaziya",
+    //     },
+    // },
+    // {
+    //     key: "hirurgiya-povik-i-konyunktivi",
+    //     icon: true,
+    //     slug: {
+    //         lt: "hirurgiya-povik-i-konyunktivi",
+    //         en: "eyelid-and-conjunctival-surgery",
+    //         ru: "khirurgiya-vek-i-konyunktivy",
+    //     },
+    // },
+    // {
+    //     key: "anesteziologichnij-posibnik",
+    //     icon: true,
+    //     slug: {
+    //         lt: "anesteziologichnij-posibnik",
+    //         en: "anesthesia-benefit",
+    //         ru: "anesteziologicheskoye-posobiye",
+    //     },
+    // },
+    // {
+    //     key: "ksenonoterapiya",
+    //     icon: true,
+    //     slug: {
+    //         lt: "ksenonoterapiya",
+    //         en: "xenon-therapy",
+    //         ru: "ksenonoterapiya",
+    //     },
+    // },
 ];
 export type PatientsListProps = {
     key: string;
-    slug: { uk: string; ru: string; en: string };
+    slug: { lt: string; ru: string; en: string };
 };
 
 export const patientsList: PatientsListProps[] = [
     {
         key: "informatsiya-dlya-inohorodnikh-patsiyentiv",
         slug: {
-            uk: "informatsiya-dlya-inohorodnikh-patsiyentiv",
+            lt: "informatsiya-dlya-inohorodnikh-patsiyentiv",
             en: "information-for-nonresident-patients",
             ru: "inogorodnim-patsiyentam",
         },
@@ -189,107 +161,107 @@ export const patientsList: PatientsListProps[] = [
     {
         key: "reminders-and-instructions-for-patients",
         slug: {
-            uk: "reminders-and-instructions-for-patients",
+            lt: "reminders-and-instructions-for-patients",
             en: "reminders-and-instructions-for-patients",
             ru: "reminders-and-instructions-for-patients",
         },
     },
     {
-        key: "zakhvoryuvannya-ochey",
+        key: "akiu-ligos",
         slug: {
-            uk: "zakhvoryuvannya-ochey",
+            lt: "akiu-ligos",
             en: "eye-diseases",
-            ru: "glaznye-bolezni",
+            ru: "glaznye-zabolevaniya",
         },
     },
 ];
 
 export const footerMainMenu = [
     { key: "main" },
-    { key: "rayner-galaxy-ua" },
-    { key: "tsiny" },
-    { key: "aktsiyi" },
-    { key: "oftalmolohy" },
-    { key: "pro-kliniku" },
+    { key: "rayner-galaxy-lt" },
+    { key: "kainos" },
+    { key: "akcijos" },
+    { key: "gydytojai" },
+    { key: "apie-klinika" },
     { key: "informatsiya-dlya-patsiyentiv" },
-    { key: "vidhuky" },
+    { key: "atsiliepimai" },
     { key: "blog" },
-    { key: "kontakty" },
+    { key: "kontaktai" },
 ];
 export type ServiceKey = keyof typeof serviceSlugs;
 export const serviceSlugs = {
-    "dityache-viddilennya": {
-        uk: "dityache-viddilennya",
-        en: "children-department",
+    "vaiku-akiu-patikra": {
+        lt: "vaiku-akiu-patikra",
+        en: "pediatric-eye-examination",
         ru: "detskoye-otdeleniye",
     },
-    "perevirka-zoru": {
-        uk: "perevirka-zoru",
-        en: "eye-exam",
-        ru: "proverka-zreniya",
+    "akiu-patikrinimas": {
+        lt: "akiu-patikrinimas",
+        en: "eye-examination",
+        ru: "diagnostika-zreniya",
     },
-    "lazerna-korekcziya-zoru": {
-        uk: "lazerna-korekcziya-zoru",
-        en: "laser-vision-correction",
+    "lazerine-akiu-korekcija": {
+        lt: "lazerine-akiu-korekcija",
+        en: "laser-eye-surgery",
         ru: "lazernaya-korrekciya-zreniya",
     },
-    "likuvannya-katarakti": {
-        uk: "likuvannya-katarakti",
-        en: "cataract-treatment",
-        ru: "lechenie-katarakty",
+    "kataraktos-operacija": {
+        lt: "kataraktos-operacija",
+        en: "cataract-surgery",
+        ru: "udaleniye-katarakty",
     },
     "syndrom-sukhoho-oka": {
-        uk: "syndrom-sukhoho-oka",
+        lt: "syndrom-sukhoho-oka",
         en: "dry-eye-syndrome",
         ru: "lechenie-sindroma-suhogo-glaza",
     },
-    "refrakczijna-lensektomiya": {
-        uk: "refrakczijna-lensektomiya",
-        en: "refractive-lensectomy",
-        ru: "intraokuliarnaya-korrekciya",
+    "skaidraus-lesio-operacija": {
+        lt: "skaidraus-lesio-operacija",
+        en: "refractive-lens-exchange",
+        ru: "khirurgiia-prozrachnogo-khrustalika",
     },
     "likuvannya-kosookosti": {
-        uk: "likuvannya-kosookosti",
+        lt: "likuvannya-kosookosti",
         en: "strabismus-treatment",
         ru: "lecheniye-kosoglaziya",
     },
     "likuvannya-keratokonusa": {
-        uk: "likuvannya-keratokonusa",
+        lt: "likuvannya-keratokonusa",
         en: "keratoconus-treatment",
         ru: "lecheniye-keratokonusa",
     },
     "vitreoretinalna-hirurgiya": {
-        uk: "vitreoretinalna-hirurgiya",
+        lt: "vitreoretinalna-hirurgiya",
         en: "vitreoretinal-surgery",
         ru: "vitreoretinalnaya-khirurgiya",
     },
     "intravitrealni-inekczii": {
-        uk: "intravitrealni-inekczii",
+        lt: "intravitrealni-inekczii",
         en: "intravitreal-injections",
         ru: "intravitrealnyye-inyektsii",
     },
     "lazerne-likuvannya-zahvoryuvan-oka": {
-        uk: "lazerne-likuvannya-zahvoryuvan-oka",
+        lt: "lazerne-likuvannya-zahvoryuvan-oka",
         en: "laser-treatment-of-eye-diseases",
         ru: "lazernoye-lecheniye-zabolevaniy-glaza",
     },
     "hirurgichne-likuvannya-glaukomi": {
-        uk: "hirurgichne-likuvannya-glaukomi",
+        lt: "hirurgichne-likuvannya-glaukomi",
         en: "surgical-glaucoma-treatment",
         ru: "khirurgicheskoye-lecheniye-glaukomy",
     },
     "hirurgiya-povik-i-konyunktivi": {
-        uk: "hirurgiya-povik-i-konyunktivi",
+        lt: "hirurgiya-povik-i-konyunktivi",
         en: "eyelid-and-conjunctival-surgery",
         ru: "khirurgiya-vek-i-konyunktivy",
     },
     "anesteziologichnij-posibnik": {
-        uk: "anesteziologichnij-posibnik",
+        lt: "anesteziologichnij-posibnik",
         en: "anesthesia-benefit",
         ru: "anesteziologicheskoye-posobiye",
     },
     ksenonoterapiya: {
-        uk: "ksenonoterapiya",
+        lt: "ksenonoterapiya",
         en: "xenon-therapy",
         ru: "ksenonoterapiya",
     },

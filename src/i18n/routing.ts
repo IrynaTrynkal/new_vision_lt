@@ -1,6 +1,6 @@
 import { defineRouting } from "next-intl/routing";
 
-export const locales = ["uk", "en", "ru"] as const;
+export const locales = ["lt", "en", "ru"] as const;
 
 export const routing = defineRouting({
     // A list of all locales that are supported
@@ -8,75 +8,75 @@ export const routing = defineRouting({
     localePrefix: "as-needed",
     localeDetection: false,
     // Used when no locale matches
-    defaultLocale: "uk",
+    defaultLocale: "lt",
     pathnames: {
-        "/posluhy": {
+        "/paslaugos": {
             en: "/services",
             ru: "/uslugi",
         },
-        "/posluhy/[slug]": {
+        "/paslaugos/[slug]": {
             en: "/services/[slug]",
             ru: "/uslugi/[slug]",
         },
-        "/posluhy/lazerna-korekcziya-zoru": {
-            en: "/services/laser-vision-correction",
+        "/paslaugos/lazerine-akiu-korekcija": {
+            en: "/services/laser-eye-surgery",
             ru: "/uslugi/lazernaya-korrekciya-zreniya",
         },
-        "/posluhy/lazerna-korekcziya-zoru/[subpage]": {
-            en: "/services/laser-vision-correction/[subpage]",
+        "/paslaugos/lazerine-akiu-korekcija/[subpage]": {
+            en: "/services/laser-eye-surgery/[subpage]",
             ru: "/uslugi/lazernaya-korrekciya-zreniya/[subpage]",
         },
-        "/posluhy/likuvannya-katarakti": {
-            en: "/services/cataract-treatment",
-            ru: "/uslugi/lechenie-katarakty",
+        "/paslaugos/kataraktos-operacija": {
+            en: "/services/cataract-surgery",
+            ru: "/uslugi/udaleniye-katarakty",
         },
-        "/posluhy/likuvannya-katarakti/[subpage]": {
-            en: "/services/cataract-treatment/[subpage]",
-            ru: "/uslugi/lechenie-katarakty/[subpage]",
+        "/paslaugos/kataraktos-operacija/[subpage]": {
+            en: "/services/cataract-surgery/[subpage]",
+            ru: "/uslugi/udaleniye-katarakty/[subpage]",
         },
-        "/posluhy/likuvannya-katarakti/iq-life-3d-vodnij-potik": {
-            en: "/services/cataract-treatment/iq-life-3d-water-flow",
-            ru: "/uslugi/lechenie-katarakty/iq-life-3d",
+        "/paslaugos/kataraktos-operacija/iq-life-3d": {
+            en: "/services/cataract-surgery/iq-life-3d-live-vision",
+            ru: "/uslugi/udaleniye-katarakty/iq-life-3d-zhivoye-zreniye",
         },
-        "/aktsiyi": {
+        "/akcijos": {
             en: "/offers",
             ru: "/akcii",
         },
-        "/zakhvoryuvannya-ochey": {
+        "/akiu-ligos": {
             en: "/eye-diseases",
-            ru: "/glaznye-bolezni",
+            ru: "/glaznye-zabolevaniya",
         },
-        "/tsiny": {
-            en: "/service-prices",
-            ru: "/ceny",
+        "/kainos": {
+            en: "/price-list",
+            ru: "/ceny-na-uslugi",
         },
         "/informatsiya-dlya-patsiyentiv": {
             en: "/patient-information",
             ru: "/informatsiya-dlya-patsiyentov",
         },
-        "/pro-kliniku": {
-            en: "/about-clinic",
+        "/apie-klinika": {
+            en: "/our-clinic",
             ru: "/o-klinike",
         },
-        "/vidhuky": {
-            en: "/reviews",
+        "/atsiliepimai": {
+            en: "/testimonials",
             ru: "/otzyvy",
         },
-        "/kontakty": {
+        "/kontaktai": {
             en: "/contacts",
             ru: "/kontakty",
         },
-        "/rayner-galaxy-ua": {
-            en: "/rayner-galaxy-a-new-level-of-vision-is-now-available-at-our-clinic",
+        "/rayner-galaxy-lt": {
+            en: "/rayner-galaxy-a-new-dimension-of-vision-is-now-available-at-our-clinic",
             ru: "/rayner-galaxy-novoe-izmerenie-zreniya-uzhe-v-nashej-klinike",
         },
-        "/oftalmolohy": {
-            en: "/ophthalmologists",
-            ru: "/oftalmologi",
+        "/gydytojai": {
+            en: "/doctors",
+            ru: "/vrachi",
         },
-        "/oftalmolohy/[slug]": {
-            en: "/ophthalmologists/[slug]",
-            ru: "/oftalmologi/[slug]",
+        "/gydytojai/[slug]": {
+            en: "/doctors/[slug]",
+            ru: "/vrachi/[slug]",
         },
         "/informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam":
             {
@@ -99,37 +99,37 @@ export const routing = defineRouting({
             en: "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
             ru: "/pamyatki-paczienta-posle-hirurgii-katarakty",
         },
-        "/zakhvoryuvannya-ochey/glaukoma": {
+        "/akiu-ligos/glaukoma": {
             en: "/eye-diseases/glaucoma",
-            ru: "/glaznye-bolezni/glaukoma",
+            ru: "/glaznye-zabolevaniya/glaukoma",
         },
-        "/zakhvoryuvannya-ochey/presbiopiya": {
+        "/akiu-ligos/presbiopija": {
             en: "/eye-diseases/presbyopia",
-            ru: "/glaznye-bolezni/presbiopiya",
+            ru: "/glaznye-zabolevaniya/pryesbiopiya",
         },
-        "/zakhvoryuvannya-ochey/dalekozorist": {
+        "/akiu-ligos/toliaregyste": {
             en: "/eye-diseases/farsightedness",
-            ru: "/glaznye-bolezni/dalnozorkost",
+            ru: "/glaznye-zabolevaniya/dalnozorkost",
         },
-        "/zakhvoryuvannya-ochey/katarakta": {
+        "/akiu-ligos/katarakta": {
             en: "/eye-diseases/cataract",
-            ru: "/glaznye-bolezni/katarakta",
+            ru: "/glaznye-zabolevaniya/katarakta",
         },
-        "/zakhvoryuvannya-ochey/simptomi-zahvoryuvannya-ochej": {
+        "/akiu-ligos/akiu-ligu-simptomai": {
             en: "/eye-diseases/symptoms-of-eye-disease",
-            ru: "/glaznye-bolezni/simptomy-zabolevaniya-glaz",
+            ru: "/glaznye-zabolevaniya/simptomy-zabolevaniya-glaz",
         },
-        "/zakhvoryuvannya-ochey/kosookist": {
+        "/akiu-ligos/zvairumas": {
             en: "/eye-diseases/strabismus",
-            ru: "/glaznye-bolezni/kosoglazie",
+            ru: "/glaznye-zabolevaniya/kosoglazie",
         },
-        "/zakhvoryuvannya-ochey/korotkozorist-miopiya": {
+        "/akiu-ligos/trumparegyste-miopija": {
             en: "/eye-diseases/nearsightedness-myopia",
-            ru: "/glaznye-bolezni/blizorukost-miopiya",
+            ru: "/glaznye-zabolevaniya/blizorukost-miopiya",
         },
-        "/zakhvoryuvannya-ochey/astigmatizm": {
+        "/akiu-ligos/astigmatizmas": {
             en: "/eye-diseases/astigmatism",
-            ru: "/glaznye-bolezni/astigmatizm",
+            ru: "/glaznye-zabolevaniya/astigmatizm",
         },
         "/politika-konfidenczijnosti": {
             en: "/privacy-policy",

@@ -22,7 +22,7 @@ export const MenuMobContent = ({
     const t = useTranslations("Menu");
 
     const [openMenus, setOpenMenus] = useState<{ [key: string]: boolean }>({
-        posluhy: true,
+        paslaugos: true,
         "informatsiya-dlya-patsiyentiv": false,
     });
 
@@ -34,16 +34,16 @@ export const MenuMobContent = ({
         <ul className={`relative flex flex-col gap-4 ${className} `}>
             {menuList.map((item, idx) => {
                 const hasSubmenu =
-                    item.key === "posluhy" ||
+                    item.key === "paslaugos" ||
                     item.key === "informatsiya-dlya-patsiyentiv";
 
                 return (
                     <li
                         key={idx}
-                        className={` ${item.key === "tsiny" ? "relative" : ""}`}
+                        className={` ${item.key === "kainos" ? "relative" : ""}`}
                     >
                         <div
-                            className={`${item.key === "posluhy" ? "w-full" : "w-[36%]"} font-oswald flex items-center justify-between ${item.key === "posluhy" ? "h-10 px-2 text-sm" : "text-base"} font-medium uppercase ${(item.key === "posluhy" && openMenus.posluhy) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
+                            className={`${item.key === "paslaugos" ? "w-full" : "w-[36%]"} font-oswald flex items-center justify-between ${item.key === "paslaugos" ? "h-10 px-2 text-sm" : "text-base"} font-medium uppercase ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
                         >
                             <Link
                                 href={`/${item.key}` as any}
@@ -63,28 +63,29 @@ export const MenuMobContent = ({
                                 </button>
                             )}
                         </div>
-                        {item.key === "tsiny" && (
+                        {item.key === "kainos" && (
                             <div className="absolute top-0 right-0">
                                 <LanguageSwitcherMob />
                             </div>
                         )}
 
                         <AnimatePresence initial={false}>
-                            {item.key === "posluhy" && openMenus.posluhy && (
-                                <motion.div
-                                    key="posluhy"
-                                    initial={{ height: 0 }}
-                                    animate={{ height: "auto" }}
-                                    exit={{ height: 0 }}
-                                    transition={{
-                                        duration: 0.6,
-                                        ease: "easeInOut",
-                                    }}
-                                    className="overflow-hidden"
-                                >
-                                    <ServicesMenu onClick={onClick} />
-                                </motion.div>
-                            )}
+                            {item.key === "paslaugos" &&
+                                openMenus.paslaugos && (
+                                    <motion.div
+                                        key="paslaugos"
+                                        initial={{ height: 0 }}
+                                        animate={{ height: "auto" }}
+                                        exit={{ height: 0 }}
+                                        transition={{
+                                            duration: 0.6,
+                                            ease: "easeInOut",
+                                        }}
+                                        className="overflow-hidden"
+                                    >
+                                        <ServicesMenu onClick={onClick} />
+                                    </motion.div>
+                                )}
 
                             {item.key === "informatsiya-dlya-patsiyentiv" &&
                                 openMenus["informatsiya-dlya-patsiyentiv"] && (

@@ -65,18 +65,18 @@ export default function LanguageSwitcherMob() {
         }
     }, [pathName, searchParams]);
 
-    const cleanPath = pathName.replace(/^\/(uk|en|ru)/, "");
+    const cleanPath = pathName.replace(/^\/(lt|en|ru)/, "");
     const segments = pathName.split("/").filter(Boolean);
     let slug: string | undefined;
 
     if (
         segments[0] &&
-        ["posluhy", "uslugi", "services"].includes(segments[0])
+        ["paslaugos", "uslugi", "services"].includes(segments[0])
     ) {
         slug = segments[1];
     } else if (
         segments[1] &&
-        ["posluhy", "uslugi", "services"].includes(segments[1])
+        ["paslaugos", "uslugi", "services"].includes(segments[1])
     ) {
         slug = segments[2];
     }
@@ -96,7 +96,7 @@ export default function LanguageSwitcherMob() {
                                 href={
                                     slug
                                         ? ({
-                                              pathname: "/posluhy/[slug]",
+                                              pathname: "/paslaugos/[slug]",
                                               params: { slug: localizedSlug },
                                               search: searchParams.toString(),
                                               hash,
@@ -116,7 +116,7 @@ export default function LanguageSwitcherMob() {
                                         : "text-grey transition-all duration-[300ms] ease-in-out hover:underline"
                                 }`}
                             >
-                                {curLocale === "uk" ? "ua" : curLocale}
+                                {curLocale}
                             </Link>
                         </li>
                     );

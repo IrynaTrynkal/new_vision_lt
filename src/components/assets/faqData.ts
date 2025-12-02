@@ -12,24 +12,24 @@ export type FAQLocaleType = {
 
 export type FAQListType = {
     en: FAQLocaleType;
-    uk: FAQLocaleType;
+    lt: FAQLocaleType;
     ru: FAQLocaleType;
 };
 export type FAQType = {
-    title: { uk: string; ru: string; en: string };
+    title: { lt: string; ru: string; en: string };
     content: FAQListType[];
 };
 
 export const faqMainList: FAQType = {
     title: {
-        uk: "Відповіді на часті питання",
+        lt: "Відповіді на часті питання",
         ru: "Ответы на часто задаваемые вопросы",
         en: "Answers to Frequently Asked Questions",
     },
 
     content: [
         {
-            uk: {
+            lt: {
                 question: "Що таке плановий візит до офтальмолога?",
                 answer: [
                     {
@@ -55,7 +55,7 @@ export const faqMainList: FAQType = {
             },
         },
         {
-            uk: {
+            lt: {
                 question: "Які послуги надає клініка в Києві?",
                 answer: [
                     {
@@ -111,7 +111,7 @@ export const faqMainList: FAQType = {
             },
         },
         {
-            uk: {
+            lt: {
                 question: "Чому пацієнти обирають саме нашу клініку?",
                 answer: [
                     {
@@ -149,7 +149,7 @@ export const faqMainList: FAQType = {
             },
         },
         {
-            uk: {
+            lt: {
                 question: "як записатися на прийом?",
                 answer: [
                     {
@@ -200,7 +200,7 @@ export const faqMainList: FAQType = {
             },
         },
         {
-            uk: {
+            lt: {
                 question: "як проводиться лікування зору?",
                 answer: [
                     {

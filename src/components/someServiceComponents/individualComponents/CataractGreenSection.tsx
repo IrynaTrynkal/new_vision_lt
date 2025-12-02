@@ -85,7 +85,7 @@ export const CataractGreenSection = () => {
                                         secondary
                                         small
                                         name={t("learnMore")}
-                                        href="/rayner-galaxy-ua"
+                                        href="/rayner-galaxy-lt"
                                         className="mr-1 mb-1"
                                     />
                                 </div>

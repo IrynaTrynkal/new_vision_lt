@@ -15,7 +15,7 @@ export const getTitleFromIntArrays = (
         return fallbackMessage;
     }
     const requisiteTitle =
-        title.find(item => item._key === "uk")?.value || fallbackMessage;
+        title.find(item => item._key === "lt")?.value || fallbackMessage;
 
     return requisiteTitle;
 };
@@ -28,6 +28,6 @@ export const getTitleFromIntArraysString = (
         return fallbackMessage;
     }
     const requisiteTitle =
-        title.find(item => item._key === "uk")?.value || fallbackMessage;
+        title.find(item => item._key === "lt")?.value || fallbackMessage;
     return requisiteTitle;
 };
