@@ -7,15 +7,15 @@ export const servicesKey = defineType({
     options: {
         list: [
             {
-                title: "Лазерна корекція зору",
+                title: "Лазерная коррекция зрения",
                 value: "lazerine-akiu-korekcija",
             },
-            { title: "Перевірка зору", value: "akiu-patikrinimas" },
-            { title: "Лікування катаракти", value: "kataraktos-operacija" },
-            { title: "Дитяче відділення", value: "vaiku-akiu-patikra" },
+            { title: "Проверка зрения", value: "akiu-patikrinimas" },
+            { title: "Катаракта", value: "kataraktos-operacija" },
+            { title: "Детское отделение", value: "vaiku-akiu-patikra" },
 
             {
-                title: "Рефракційна лінсектомія",
+                title: "Рефракционная ленсэктомия",
                 value: "skaidraus-lesio-operacija",
             },
             {
