@@ -37,7 +37,7 @@ export default async function NewsPage({
     const blogsList = await sanityFetch({
         query: blogsListQuery,
         params: { language: locale },
-        tags: [],
+        tags: ["blog"],
     });
     const pageNumber = page ? parseInt(page) : 1;
     const selectedCategory = category || "all";

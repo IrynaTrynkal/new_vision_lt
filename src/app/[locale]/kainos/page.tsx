@@ -32,7 +32,7 @@ export default async function PricesPage({
     const pricesList = await sanityFetch({
         query: pricesPageQuery,
         params: { language: locale },
-        tags: [],
+        tags: ["pricesPage"],
     });
 
     const breadcrumb = [{ name: "kainos", href: "/kainos" }];

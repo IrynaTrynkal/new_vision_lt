@@ -24,18 +24,12 @@ export type ServicesKey =
     | "lazerine-akiu-korekcija"
     | "akiu-patikrinimas"
     | "kataraktos-operacija"
-    | "syndrom-sukhoho-oka"
     | "vaiku-akiu-patikra"
-    | "likuvannya-keratokonusa"
-    | "lazerne-likuvannya-zahvoryuvan-oka"
     | "skaidraus-lesio-operacija"
-    | "vitreoretinalna-hirurgiya"
+    | "pratimai-akims"
     | "intravitrealni-inekczii"
     | "hirurgichne-likuvannya-glaukomi"
-    | "likuvannya-kosookosti"
-    | "hirurgiya-povik-i-konyunktivi"
-    | "anesteziologichnij-posibnik"
-    | "ksenonoterapiya";
+    | "hirurgiya-povik-i-konyunktivi";
 
 export type PortableTextAll = Array<
     | {

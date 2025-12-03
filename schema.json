@@ -48,19 +48,7 @@
                 },
                 {
                     "type": "string",
-                    "value": "syndrom-sukhoho-oka"
-                },
-                {
-                    "type": "string",
                     "value": "vaiku-akiu-patikra"
-                },
-                {
-                    "type": "string",
-                    "value": "likuvannya-keratokonusa"
-                },
-                {
-                    "type": "string",
-                    "value": "lazerne-likuvannya-zahvoryuvan-oka"
                 },
                 {
                     "type": "string",
@@ -68,7 +56,7 @@
                 },
                 {
                     "type": "string",
-                    "value": "vitreoretinalna-hirurgiya"
+                    "value": "pratimai-akims"
                 },
                 {
                     "type": "string",
@@ -80,19 +68,7 @@
                 },
                 {
                     "type": "string",
-                    "value": "likuvannya-kosookosti"
-                },
-                {
-                    "type": "string",
                     "value": "hirurgiya-povik-i-konyunktivi"
-                },
-                {
-                    "type": "string",
-                    "value": "anesteziologichnij-posibnik"
-                },
-                {
-                    "type": "string",
-                    "value": "ksenonoterapiya"
                 }
             ]
         }

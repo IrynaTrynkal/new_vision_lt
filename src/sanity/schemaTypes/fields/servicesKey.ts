@@ -19,21 +19,30 @@ export const servicesKey = defineType({
                 value: "skaidraus-lesio-operacija",
             },
             {
-                title: "Вітреоретинальна хірургія",
-                value: "vitreoretinalna-hirurgiya",
+                title: "Упражнения для глаз",
+                value: "pratimai-akims",
             },
             {
-                title: "Інтравітреальні ін’єкції",
-                value: "intravitrealni-inekczii",
+                title: "Контактные линзы",
+                value: "kontaktiniai-lęšiai",
             },
             {
-                title: "Хірургічне лікування глаукоми",
-                value: "hirurgichne-likuvannya-glaukomi",
+                title: "Профилактика нарушений зрения",
+                value: "regos-profilaktika",
             },
             {
-                title: "Хірургія повік і кон’юнктиви",
-                value: "hirurgiya-povik-i-konyunktivi",
+                title: "Интересные факты о глазах и зрении",
+                value: "įdomybės-apie-akis-ir-regą",
             },
+            { title: "Очки", value: "akiniai" },
+            {
+                title: "Глазные заболевания и травмы",
+                value: "akių-ligos-ir-traumos",
+            },
+            { title: "Информация", value: "informacija" },
+            { title: "Зрение и возраст", value: "rega-ir-amžius" },
+            { title: "Зрение и питание", value: "rega-ir-mityba" },
+            { title: "Лечение зрения", value: "regos-gydymas" },
         ],
     },
 });
