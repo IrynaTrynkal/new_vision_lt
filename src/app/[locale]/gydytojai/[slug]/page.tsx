@@ -23,7 +23,7 @@ export async function generateMetadata(
     const doctor = await sanityFetch({
         query: doctorQuery,
         params: { language: locale, slug },
-        tags: [],
+        tags: ["doctor"],
     });
 
     const previousImages = parent ? (await parent).openGraph?.images || [] : [];
@@ -70,7 +70,7 @@ export default async function SomeDoctorPage({ params }: PageProps) {
     const doctorData = await sanityFetch({
         query: doctorQuery,
         params: { language: locale, slug: slug },
-        tags: [],
+        tags: ["doctor"],
     });
 
     if (!doctorData) {

@@ -21,7 +21,7 @@ export async function generateMetadata(
     const blog = await sanityFetch({
         query: blogQuery,
         params: { language: locale, slug },
-        tags: [],
+        tags: ["blog"],
     });
 
     const previousImages = parent ? (await parent).openGraph?.images || [] : [];
@@ -59,7 +59,7 @@ export default async function BlogPage({ params }: PageProps) {
     const blog = await sanityFetch({
         query: blogQuery,
         params: { language: locale, slug },
-        tags: [],
+        tags: ["blog"],
     });
 
     const serviceBlog = blog?.service
@@ -70,7 +70,7 @@ export default async function BlogPage({ params }: PageProps) {
                   service: blog.service,
                   slug: blog.slug,
               },
-              tags: [],
+              tags: ["blog"],
           })
         : [];
 
