@@ -20,9 +20,7 @@ export async function sanityFetch<const QueryString extends string>({
     tags?: string[];
 }) {
     return client.fetch(query, params, {
-        cache: "force-cache",
         next: {
-            revalidate: false,
             tags,
         },
     });
