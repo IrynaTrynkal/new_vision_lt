@@ -25,11 +25,19 @@ export type ServicesKey =
     | "akiu-patikrinimas"
     | "kataraktos-operacija"
     | "vaiku-akiu-patikra"
+    | "keratokonuso-gydymas"
+    | "glaukomos-gydymas"
     | "skaidraus-lesio-operacija"
     | "pratimai-akims"
-    | "intravitrealni-inekczii"
-    | "hirurgichne-likuvannya-glaukomi"
-    | "hirurgiya-povik-i-konyunktivi";
+    | "kontaktiniai-l\u0119\u0161iai"
+    | "regos-profilaktika"
+    | "\u012Fdomyb\u0117s-apie-akis-ir-reg\u0105"
+    | "akiniai"
+    | "aki\u0173-ligos-ir-traumos"
+    | "informacija"
+    | "rega-ir-am\u017Eius"
+    | "rega-ir-mityba"
+    | "regos-gydymas";
 
 export type PortableTextAll = Array<
     | {

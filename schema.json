@@ -52,6 +52,14 @@
                 },
                 {
                     "type": "string",
+                    "value": "keratokonuso-gydymas"
+                },
+                {
+                    "type": "string",
+                    "value": "glaukomos-gydymas"
+                },
+                {
+                    "type": "string",
                     "value": "skaidraus-lesio-operacija"
                 },
                 {
@@ -60,15 +68,39 @@
                 },
                 {
                     "type": "string",
-                    "value": "intravitrealni-inekczii"
+                    "value": "kontaktiniai-lęšiai"
                 },
                 {
                     "type": "string",
-                    "value": "hirurgichne-likuvannya-glaukomi"
+                    "value": "regos-profilaktika"
                 },
                 {
                     "type": "string",
-                    "value": "hirurgiya-povik-i-konyunktivi"
+                    "value": "įdomybės-apie-akis-ir-regą"
+                },
+                {
+                    "type": "string",
+                    "value": "akiniai"
+                },
+                {
+                    "type": "string",
+                    "value": "akių-ligos-ir-traumos"
+                },
+                {
+                    "type": "string",
+                    "value": "informacija"
+                },
+                {
+                    "type": "string",
+                    "value": "rega-ir-amžius"
+                },
+                {
+                    "type": "string",
+                    "value": "rega-ir-mityba"
+                },
+                {
+                    "type": "string",
+                    "value": "regos-gydymas"
                 }
             ]
         }

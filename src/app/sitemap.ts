@@ -155,7 +155,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
         },
         {
-            url: `${baseUrl}/paslaugos/likuvannya-keratokonusa`,
+            url: `${baseUrl}/paslaugos/keratokonuso-gydymas`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.8,
@@ -185,7 +185,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
         },
         {
-            url: `${baseUrl}/paslaugos/hirurgichne-likuvannya-glaukomi`,
+            url: `${baseUrl}/paslaugos/glaukomos-gydymas`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.8,

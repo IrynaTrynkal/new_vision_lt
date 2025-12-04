@@ -6,16 +6,16 @@ export const client = createClient({
     projectId,
     dataset,
     apiVersion,
-    useCdn: false, // Set to false if statically generating pages, using ISR or tag-based revalidation
+    useCdn: true,
     perspective: "published",
 });
 
-export async function sanityFetch<const QueryString extends string>({
+export async function sanityFetch<const Q extends string>({
     query,
     params = {},
     tags = [],
 }: {
-    query: QueryString;
+    query: Q;
     params?: QueryParams;
     tags?: string[];
 }) {
