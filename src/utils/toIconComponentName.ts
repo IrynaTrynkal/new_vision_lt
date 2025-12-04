@@ -14,7 +14,7 @@ export const toIconComponentName = (key: string) => {
     switch (key) {
         case "vaiku-akiu-patikra":
             return IconDityacheViddilennya;
-        case "likuvannya-keratokonusa":
+        case "keratokonuso-gydymas":
             return IconLikuvannyaKeratokonusa;
         case "lazerne-likuvannya-zahvoryuvan-oka":
             return IconLazerneLikuvannyaZahvoryuvanOka;
@@ -24,7 +24,7 @@ export const toIconComponentName = (key: string) => {
             return IconVitreoretinalnaHirurgiya;
         case "intravitrealni-inekczii":
             return IconIntravitrealniInekczii;
-        case "hirurgichne-likuvannya-glaukomi":
+        case "glaukomos-gydymas":
             return IconHirurgichneLikuvannyaGlaukomi;
         case "likuvannya-kosookosti":
             return IconLikuvannyaKosookosti;

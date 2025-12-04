@@ -38,7 +38,8 @@ export default async function OftalmolohyPage({
     const { page, department } = (await searchParams) || {};
     const { locale } = await params;
     const pageNumber = page ? parseInt(page) : 1;
-    const selectedDepartment = department || "clinic-management";
+    const selectedDepartment =
+        department || "consultation-and-diagnostic-ophthalmologists";
     const breadcrumb = [{ name: "gydytojai", href: "/gydytojai" }];
 
     const doctorsList = await sanityFetch({

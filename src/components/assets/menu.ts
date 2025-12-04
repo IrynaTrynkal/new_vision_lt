@@ -225,8 +225,8 @@ export const serviceSlugs = {
         en: "strabismus-treatment",
         ru: "lecheniye-kosoglaziya",
     },
-    "likuvannya-keratokonusa": {
-        lt: "likuvannya-keratokonusa",
+    "keratokonuso-gydymas": {
+        lt: "keratokonuso-gydymas",
         en: "keratoconus-treatment",
         ru: "lecheniye-keratokonusa",
     },
@@ -245,8 +245,8 @@ export const serviceSlugs = {
         en: "laser-treatment-of-eye-diseases",
         ru: "lazernoye-lecheniye-zabolevaniy-glaza",
     },
-    "hirurgichne-likuvannya-glaukomi": {
-        lt: "hirurgichne-likuvannya-glaukomi",
+    "glaukomos-gydymas": {
+        lt: "glaukomos-gydymas",
         en: "surgical-glaucoma-treatment",
         ru: "khirurgicheskoye-lecheniye-glaukomy",
     },

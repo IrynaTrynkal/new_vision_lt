@@ -13,7 +13,8 @@ export const servicesKey = defineType({
             { title: "Проверка зрения", value: "akiu-patikrinimas" },
             { title: "Катаракта", value: "kataraktos-operacija" },
             { title: "Детское отделение", value: "vaiku-akiu-patikra" },
-
+            { title: "Лечение кератоконуса", value: "keratokonuso-gydymas" },
+            { title: "Лечение глаукомы", value: "glaukomos-gydymas" },
             {
                 title: "Рефракционная ленсэктомия",
                 value: "skaidraus-lesio-operacija",

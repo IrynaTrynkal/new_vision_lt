@@ -23,12 +23,15 @@ export const DoctorsFilter = ({ list, className }: DepartmentFilterProps) => {
 
     const openedDepartment =
         (searchParams.get("department") as DepartmentsKey) ??
-        "clinic-management";
+        "consultation-and-diagnostic-ophthalmologists";
 
     const departmentsList = useMemo<DepartmentsKey[]>(() => {
         const all = (list ?? []).flatMap(item => item.departments ?? []);
         return Array.from(
-            new Set<DepartmentsKey>(["clinic-management", ...all])
+            new Set<DepartmentsKey>([
+                "consultation-and-diagnostic-ophthalmologists",
+                ...all,
+            ])
         );
     }, [list]);
 
