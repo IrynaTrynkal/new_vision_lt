@@ -19,10 +19,12 @@ export async function sanityFetch<const Q extends string>({
     params?: QueryParams;
     tags?: string[];
 }) {
+    const isProd = process.env.NODE_ENV === "production";
+
     return client.fetch(query, params, {
-        cache: "force-cache",
+        cache: isProd ? "force-cache" : "no-store",
         next: {
-            revalidate: false,
+            revalidate: isProd ? false : 0,
             tags,
         },
     });
