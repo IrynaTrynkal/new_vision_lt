@@ -9,18 +9,18 @@ export const hotLineNumber = "0 800 507 077";
 export const socialLinks = [
     {
         name: "instagram",
-        link: "https://www.instagram.com/eyes.ua",
+        link: "https://www.instagram.com/eyes.lt",
     },
     {
         name: "facebook",
-        link: "https://www.facebook.com/share/1BwqtDUNuU",
+        link: "https://www.facebook.com/eyes.lt",
     },
 ];
 
-export const gogleMapLink = "https://maps.app.goo.gl/4SRz8f9eztXPxMJ9A";
+export const gogleMapLink = "https://maps.app.goo.gl/gEToStmWSUJqhY6S6";
 
 export const aboutSertification = "/files/serteficate.pdf";
 
-export const BOCemail = "kiev@eyes.ua";
+export const LTemail = "vilnius@eyes.lt";
 
 export const raynerSiteLink = "https://rayner.com/global/en/iol/galaxy/";

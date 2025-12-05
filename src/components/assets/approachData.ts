@@ -7,44 +7,44 @@ type ApproachProps = {
 export const approachList: ApproachProps[] = [
     {
         lt: {
-            title: "точність діагнозу за одне відвідування",
-            text: "У клініці зору Києва доступна комплексна апаратна перевірка зору із використанням сучасної техніки, яка дозволяє точно визначити стан очей за одне відвідування.",
+            title: "Tiksli diagnozė per vieną vizitą",
+            text: "Mūsų regos klinikoje Vilniuje atliekamas kompleksinis akių patikrinimas, naudojant šiuolaikinę diagnostinę aparatūrą. Tai leidžia tiksliai įvertinti akių būklę ir nustatyti diagnozę per vieną apsilankymą, be papildomų eilių ir ilgo laukimo.",
         },
         ru: {
-            title: "точность диагноза за одно посещение",
-            text: "В клинике зрения Киева доступна комплексная аппаратная проверка зрения с использованием современного оборудования, которая позволяет точно определить состояние глаз за одно посещение.",
+            title: "Точный диагноз за один визит",
+            text: "В нашей офтальмологической клинике в Вильнюсе проводится комплексная аппаратная диагностика зрения с использованием современного оборудования. Это позволяет точно оценить состояние глаз и поставить диагноз всего за одно посещение, без повторных визитов и длительного ожидания.",
         },
         en: {
             title: "accurate diagnosis in a single visit",
-            text: "At the Kyiv Vision Clinic, a comprehensive hardware eye examination is available using modern equipment, allowing for an accurate assessment of eye health in just one visit.",
+            text: "In our eye clinic in Vilnius, we offer comprehensive, device-based eye examinations using modern diagnostic technology. This allows us to accurately assess the condition of your eyes and establish a diagnosis in just one visit, without repeated appointments or long waiting times.",
         },
     },
     {
         lt: {
-            title: "без черг і в комфортній обстановці",
-            text: "Це особливо важливо для тих, хто шукає де пройти обстеження в окуліста, або хоче отримати консультацію окуліста без черг і в комфортній обстановці.",
+            title: "Be eilių ir jauki aplinka",
+            text: "Tai ypač aktualu tiems, kurie ieško, kur Vilniuje atlikti akių patikrą ar gauti oftalmologo konsultaciją be ilgų eilių – jaukioje ir privačioje aplinkoje, kur pacientui skiriama pakankamai dėmesio.",
         },
         ru: {
-            title: "без очередей и в комфортной обстановке",
-            text: "Это особенно важно для тех, кто ищет, где пройти обследование у окулиста, или хочет получить консультацию без очередей и в комфортной обстановке.",
+            title: "Без очередей и в комфортной обстановке",
+            text: "Это особенно важно для тех, кто ищет, где пройти обследование у окулиста или получить консультацию офтальмолога без длинных очередей – в спокойной, комфортной и приватной атмосфере, где пациенту уделяют достаточно времени.",
         },
         en: {
-            title: "without queues and in a comfortable setting",
-            text: "This is especially important for those looking to undergo an eye examination or wishing to receive an ophthalmologist's consultation without queues and in a comfortable environment.",
+            title: "No queues and a comfortable environment",
+            text: "This is especially important for those who are looking for a place to have their eyes checked or to receive an ophthalmologist’s consultation without long queues – in a calm, comfortable and private setting where the patient receives full attention.",
         },
     },
     {
         lt: {
-            title: "швидкість процедури",
-            text: "Процедура займає трохи часу, але може врятувати зір довгі роки.",
+            title: "Greita procedūra – ilgalaikė nauda",
+            text: "Dauguma procedūrų trunka nedaug laiko, tačiau tinkamai parinktas gydymas gali išsaugoti gerą regą daugeliui metų į priekį. Laiku kreipiantis pagalbos, akių ligų gydymas tampa paprastesnis ir efektyvesnis.",
         },
         ru: {
-            title: "скорость процедуры",
-            text: "Процедура занимает немного времени, но может сохранить зрение на долгие годы.",
+            title: "Быстро по времени – надолго для зрения",
+            text: "Процедуры занимают немного времени, но правильно выбранное лечение способно сохранить хорошее зрение на многие годы. Чем раньше вы обращаетесь к специалисту, тем легче и результативнее проходит лечение глазных заболеваний.",
         },
         en: {
-            title: "procedure speed",
-            text: "The procedure takes little time but can preserve vision for many years.",
+            title: "Fast procedure – long-term benefit",
+            text: "The examinations and procedures themselves take little time, but correctly chosen treatment can protect your vision for many years. When you seek professional help early, managing eye diseases becomes much easier and more effective.",
         },
     },
 ];

@@ -3,7 +3,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
 
 import { departments, DepartmentsType } from "@/components/assets/doctorsData";
-import { Fraction } from "@/components/shared/Fraction";
 import { LinkAction } from "@/components/shared/LinkAction";
 import { LocaleType } from "@/types/LocaleType";
 
@@ -17,8 +16,9 @@ export const Doctors = ({
     className?: string;
     doctors: DoctorsOrderQueryResult;
 }) => {
-    const [openedDepartment, setOpenedDepartment] =
-        useState<DepartmentsType>("clinic-management");
+    const [openedDepartment, setOpenedDepartment] = useState<DepartmentsType>(
+        "consultation-and-diagnostic-ophthalmologists"
+    );
 
     const toggleSubmenu = (key: DepartmentsType) => {
         setOpenedDepartment(key);
@@ -37,15 +37,9 @@ export const Doctors = ({
             <div className="tab:flex tab:gap-5 tab:justify-between pc:justify-normal tab:mb-10">
                 <div className="tab:flex-col pc:w-[321px] tab:px-0 tab:mb-0 tab:mx-0 mx-auto mb-6 flex max-w-[540px] justify-between px-4">
                     <h3 className="subtitle-ivory">{t("doctorsSubtitle")}</h3>
-                    <Fraction
-                        className="w-fit"
-                        ivory
-                        textUp="20 +"
-                        textDown={t("doctorsTextDown")}
-                    />
                 </div>
-                <div className="tab:max-w-[663px] tab:w-[47%] pc:w-[663px] tab:px-0 tab:mx-0 mx-auto max-w-[540px] px-4">
-                    <h2 className="title-section-ivory tab:max-w-[560px] tab:mb-0 mb-3 max-w-[440px]">
+                <div className="tab:max-w-[663px] tab:w-[47%] pc:w-[763px] tab:px-0 tab:mx-0 mx-auto max-w-[540px] px-4">
+                    <h2 className="title-section-ivory tab:max-w-[560px] pc:max-w-[763px] tab:mb-0 mb-3 max-w-[440px]">
                         {t("doctorsTitle")}
                     </h2>
                     <p className="tab:hidden pc:text-lg text-ivory pc:leading-[22px] mb-5 leading-5">

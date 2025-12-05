@@ -22,18 +22,18 @@ export type FAQType = {
 
 export const faqMainList: FAQType = {
     title: {
-        lt: "Відповіді на часті питання",
-        ru: "Ответы на часто задаваемые вопросы",
-        en: "Answers to Frequently Asked Questions",
+        lt: "Dažniausiai užduodami klausimai",
+        ru: "Ответы на частые вопросы",
+        en: "Frequently asked questions",
     },
 
     content: [
         {
             lt: {
-                question: "Що таке плановий візит до офтальмолога?",
+                question: "Kas yra planinis vizitas pas oftalmologą?",
                 answer: [
                     {
-                        text: "Планові візити до офтальмолога дозволяють виявити порушення зору ще на початковій стадії, що дає можливість своєчасно розпочати терапію та уникнути ускладнень. Офтальмологія - це високоточна та технологічно розвинена галузь медицини, що вимагає застосування спеціалізованих методів та сучасного діагностичного обладнання. Звернення до досвідченого лікаря-офтальмолога – важливий крок до збереження здоров'я очей. Компетентний спеціаліст може визначити захворювання задовго до появи виражених симптомів, коли лікування є найбільш ефективним. Регулярний контроль стану зору допомагає запобігати розвитку патологій та зберігати високу якість життя.",
+                        text: "Planinis vizitas pas akių gydytoją – tai reguliarus akių patikrinimas, kurio metu galima anksti pastebėti regos sutrikimus ar akių ligų požymius. Laiku atliktas akių patikrinimas leidžia pradėti gydymą ankstyvoje stadijoje ir išvengti rimtesnių komplikacijų. Oftalmologija yra aukšto tikslumo medicinos sritis, todėl svarbu kreiptis į patyrusį oftalmologą ir atlikti tyrimus su modernia diagnostine įranga.",
                     },
                 ],
             },
@@ -41,70 +41,72 @@ export const faqMainList: FAQType = {
                 question: "Что такое плановый визит к офтальмологу?",
                 answer: [
                     {
-                        text: "Плановые визиты к офтальмологу позволяют выявить нарушения зрения на ранней стадии, что дает возможность своевременно начать терапию и избежать осложнений. Офтальмология - это высокоточная и технологически развитая область медицины, требующая применения специализированных методов и современного диагностического оборудования. Обращение к опытному врачу-офтальмологу – важный шаг к сохранению здоровья глаз. Компетентный специалист может определить заболевание задолго до появления выраженных симптомов, когда лечение наиболее эффективно. Регулярный контроль состояния зрения помогает предотвращать развитие патологий и сохранять высокое качество жизни.",
+                        text: "Плановый визит к офтальмологу – это регулярная проверка зрения и состояния глаз, которая позволяет выявить нарушения на ранней стадии. Своевременная диагностика даёт возможность начать лечение вовремя и предотвратить осложнения. Офтальмология – область высокоточной медицины, поэтому важно проходить обследование у опытного врача-офтальмолога на современном оборудовании.",
                     },
                 ],
             },
             en: {
-                question: "What is a routine visit to an ophthalmologist?",
+                question: "What is a routine visit to an eye doctor?",
                 answer: [
                     {
-                        text: "Routine visits to an ophthalmologist allow for the early detection of vision impairments, enabling timely therapy initiation and complication avoidance. Ophthalmology is a highly precise and technologically advanced field of medicine that requires specialized methods and modern diagnostic equipment. Consulting an experienced ophthalmologist is a crucial step in preserving eye health. A competent specialist can identify diseases long before pronounced symptoms appear, when treatment is most effective. Regular vision monitoring helps prevent the development of pathologies and maintain a high quality of life.",
+                        text: "A routine visit to an ophthalmologist is a regular eye examination that helps detect vision problems and eye diseases at an early stage. Early diagnosis makes it possible to start treatment on time and prevent complications. Ophthalmology is a highly specialised and technology-driven field of medicine, so it is important to be examined by an experienced eye doctor using modern diagnostic equipment.",
                     },
                 ],
             },
         },
         {
             lt: {
-                question: "Які послуги надає клініка в Києві?",
+                question: "Kokias paslaugas teikia akių klinika Vilniuje?",
                 answer: [
                     {
-                        text: "У нашій офтальмологічній клініці надається повний спектр офтальмологічних послуг:",
+                        text: "Mūsų akių ligų klinikoje Vilniuje teikiamas platus oftalmologijos paslaugų spektras:",
                     },
                     {
                         list: true,
                         text: [
-                            "Діагностика зору. Комплексне обстеження та перевірка зору з використанням сучасного обладнання.",
-                            "Лазерна корекція. Сучасні методи виправлення рефракційних порушень відновлення чіткості зору.",
-                            "Хірургічне лікування катаракти, косоокості, кератоконуса та інших офтальмологічних патологій.",
-                            "Вітреоретинальна хірургія. Лікування захворювань сітківки та склоподібного тіла.",
-                            "Лікування синдрому сухого ока. Ми забезпечуємо ефективний та індивідуальний підхід до усунення неприємних симптомів, щоб повернути комфорт та здоров'я вашим очам.",
+                            "Akių patikrinimas ir diagnostika – išsamus regos ištyrimas su šiuolaikine aparatūra.",
+                            "Lazerinė regos korekcija – šiuolaikiniai metodai, padedantys koreguoti trumparegystę, toliaregystę ir astigmatizmą.",
+                            "Chirurginis akių gydymas – kataraktos operacijos ir kitos akių ligų chirurginės procedūros.",
+                            "Vitreoretinalinė chirurgija – tinklainės ir stiklakūnio ligų gydymas.",
+                            "Sausų akių sindromo gydymas – individualiai parenkamos priemonės, padedančios sumažinti diskomfortą ir pagerinti akių būklę.",
                         ],
                     },
                 ],
             },
             ru: {
-                question: "Какие услуги предоставляет клиника в Киеве?",
+                question:
+                    "Какие услуги предоставляет глазная клиника в Вильнюсе?",
                 answer: [
                     {
-                        text: "В нашей офтальмологической клинике предоставляется полный спектр офтальмологических услуг:",
+                        text: "В нашей офтальмологической клинике в Вильнюсе доступен полный спектр услуг:",
                     },
                     {
                         list: true,
                         text: [
-                            "Диагностика зрения. Комплексное обследование и проверка зрения с использованием современного оборудования.",
-                            "Лазерная коррекция. Современные методы исправления рефракционных нарушений восстановления четкости зрения.",
-                            "Хирургическое лечение катаракты, косоглазия, кератоконуса и других офтальмологических патологий.",
-                            "Витреоретинальная хирургия. Лечение заболеваний сетчатки и стекловидного тела.",
-                            "Лечение синдрома сухого глаза. Мы обеспечиваем эффективный и индивидуальный подход к устранению неприятных симптомов, чтобы вернуть комфорт и здоровье вашим глазам.",
+                            "Диагностика зрения – комплексное обследование с использованием современного диагностического оборудования.",
+                            "Лазерная коррекция зрения – современные методы коррекции близорукости, дальнозоркости и астигматизма.",
+                            "Хирургическое лечение заболеваний глаз – операции по поводу катаракты и других офтальмологических патологий.",
+                            "Витреоретинальная хирургия – лечение заболеваний сетчатки и стекловидного тела.",
+                            "Лечение синдрома сухого глаза – индивидуальный подбор терапии, направленной на устранение дискомфорта и восстановление поверхности глаза.",
                         ],
                     },
                 ],
             },
             en: {
-                question: "What services does the clinic provide in Kyiv?",
+                question:
+                    "What services does the eye clinic in Vilnius provide?",
                 answer: [
                     {
-                        text: "Our ophthalmology clinic offers a full range of ophthalmological services:",
+                        text: "Our eye clinic in Vilnius offers a full range of ophthalmology services, including:",
                     },
                     {
                         list: true,
                         text: [
-                            "Vision diagnostics. Comprehensive examination and vision testing using modern equipment.",
-                            "Laser correction. Modern methods for correcting refractive errors to restore visual clarity.",
-                            "Surgical treatment of cataracts, strabismus, keratoconus, and other ophthalmological pathologies.",
-                            "Vitreoretinal surgery. Treatment of retinal and vitreous body diseases.",
-                            "Dry eye syndrome treatment. We provide an effective and individualized approach to eliminating unpleasant symptoms to restore comfort and health to your eyes.",
+                            "Eye diagnostics – comprehensive eye examinations using advanced diagnostic devices.",
+                            "Laser vision correction – modern methods to correct myopia, hyperopia and astigmatism.",
+                            "Surgical treatment of eye conditions – cataract surgery and other ophthalmic procedures.",
+                            "Vitreoretinal surgery – treatment of diseases of the retina and vitreous body.",
+                            "Dry eye treatment – individually tailored therapy to relieve discomfort and restore the health of the ocular surface.",
                         ],
                     },
                 ],
@@ -112,14 +114,27 @@ export const faqMainList: FAQType = {
         },
         {
             lt: {
-                question: "Чому пацієнти обирають саме нашу клініку?",
+                question: "Kodėl pacientai renkasi būtent šią akių kliniką?",
                 answer: [
                     {
                         gap: true,
-                        text: "Офтальмологічна клініка надає клієнтам якісне обслуговування.",
+                        text: "Mūsų akių gydymo centras Vilniuje siūlo profesionalų aptarnavimą, šiuolaikinę diagnostiką ir individualų požiūrį.",
                     },
                     {
-                        text: "Чому пацієнти обирають саме нас? Тому що в британській офтальмологічній клініці на вас чекають найкращі офтальмологи Києва , доброзичливий персонал та високий рівень сервісу. Ми пропонуємо зручний онлайн-запис, можливість вибрати спеціаліста, а також заздалегідь дізнатися, скільки коштує консультація офтальмолога чи будь-яка інша процедура. Завдяки індивідуальному підходу та чіткій діагностиці, ви отримаєте саме ту допомогу, яка справді вирішує проблему. Всі наші кабінети оснащені обладнанням для апаратної діагностики зору , що дозволяє досягти високої точності та ефективності лікування.",
+                        text: "Pacientai vertina galimybę:",
+                    },
+                    {
+                        list: true,
+                        gap: true,
+                        text: [
+                            "patogiai užsiregistruoti internetu;",
+                            "pasirinkti gydytoją;",
+                            "iš anksto sužinoti, kiek kainuoja konsultacija ar procedūra;",
+                            "atlikti visus reikalingus tyrimus vienoje vietoje, be ilgų eilių.",
+                        ],
+                    },
+                    {
+                        text: "Moderni aparatūra akių ligų diagnostikai užtikrina tikslų įvertinimą ir efektyvų gydymo planą.",
                     },
                 ],
             },
@@ -128,40 +143,62 @@ export const faqMainList: FAQType = {
                 answer: [
                     {
                         gap: true,
-                        text: "Офтальмологическая клиника предоставляет клиентам качественное обслуживание.",
+                        text: "Пациенты ценят сочетание профессионализма, современного оснащения и внимательного отношения.",
                     },
                     {
-                        text: "Почему пациенты выбирают именно нас? Потому что в британской офтальмологической клинике вас ждут лучшие офтальмологи Киева , дружелюбный персонал и высокий уровень сервиса. Мы предлагаем удобную онлайн-запись, возможность выбрать специалиста, а также заранее узнать, сколько стоит консультация офтальмолога или любая другая процедура. Благодаря индивидуальному подходу и точной диагностике, вы получите именно ту помощь, которая действительно решает проблему. Все наши кабинеты оснащены оборудованием для аппаратной диагностики зрения , что позволяет достичь высокой точности и эффективности лечения.",
+                        text: "В глазной клинике в Вильнюсе вы получаете:",
+                    },
+                    {
+                        list: true,
+                        gap: true,
+                        text: [
+                            "удобную онлайн-запись;",
+                            "возможность выбрать врача;",
+                            "прозрачную информацию о стоимости консультаций и процедур;",
+                            "полный цикл диагностики и лечения в одном месте, без длительных очередей.",
+                        ],
+                    },
+                    {
+                        text: "Наличие современного диагностического оборудования позволяет добиваться высокой точности обследования и эффективности лечения.",
                     },
                 ],
             },
             en: {
-                question: "Why do patients choose our clinic?",
+                question: "Why do patients choose this clinic?",
                 answer: [
                     {
                         gap: true,
-                        text: "The ophthalmology clinic provides clients with quality service.",
+                        text: "Patients appreciate the combination of medical expertise, modern equipment and attentive care.",
                     },
                     {
-                        text: "Why do patients choose us? Because at the British ophthalmology clinic, you will find the best ophthalmologists in Kyiv, friendly staff, and a high level of service. We offer convenient online booking, the ability to choose a specialist, and also to find out in advance how much an ophthalmologist consultation or any other procedure costs. Thanks to an individual approach and accurate diagnostics, you will receive the help that truly solves the problem. All our offices are equipped with vision diagnostic equipment, which allows for high accuracy and treatment effectiveness.",
+                        text: "At our eye clinic in Vilnius you benefit from:",
+                    },
+                    {
+                        list: true,
+                        gap: true,
+                        text: [
+                            "convenient online booking;",
+                            "the possibility to choose your doctor;",
+                            "clear information about consultation and treatment prices;",
+                            "all essential diagnostics and treatment in one place, without long waiting times.",
+                        ],
+                    },
+                    {
+                        text: "State-of-the-art diagnostic equipment allows for precise assessment and effective treatment planning.",
                     },
                 ],
             },
         },
         {
             lt: {
-                question: "як записатися на прийом?",
+                question: "Kaip užsiregistruoti vizitui?",
                 answer: [
                     {
                         gap: true,
-                        text: "Записатися на прийом до фахівців Британського офтальмологічного центру просто та зручно: ви можете записатися по телефону або через наш сайт у будь-який зручний для Вас час.",
+                        text: "Registracija pas oftalmologą yra paprasta: galite paskambinti telefonu arba užsiregistruoti internetu bet kuriuo jums patogiu metu. ",
                     },
                     {
-                        text: "Відвідування британської офтальмологічної клініки Київ — це не лише якість, а й комфорт: сучасні умови, уважний персонал, індивідуальний підхід до кожного пацієнта. Якщо вас цікавить, скільки коштує консультація окуліста Київ ціна, наші адміністратори завжди готові надати повну інформацію до візиту.",
-                    },
-                    {
-                        bold: true,
-                        text: "Звертайтесь до нас! Ми допоможемо зберегти ваш зір та подаруємо можливість поглянути на світ по-новому!",
+                        text: "Vizitas į akių kliniką Vilniuje – tai ne tik gydymas, bet ir komfortas: jauki aplinka, dėmesingi darbuotojai ir pagarbus požiūris į kiekvieną pacientą.",
                     },
                 ],
             },
@@ -171,44 +208,36 @@ export const faqMainList: FAQType = {
                 answer: [
                     {
                         gap: true,
-                        text: "Записаться на прием к специалистам Британского офтальмологического центра просто и удобно: вы можете записаться по телефону или через наш сайт в любое удобное для Вас время.",
+                        text: "Записаться к офтальмологу очень просто: вы можете позвонить по телефону клиники или оставить заявку на сайте в удобное для вас время. ",
                     },
                     {
-                        text: "Посещение британской офтальмологической клиники Киев — это не только качество, но и комфорт: современные условия, внимательный персонал, индивидуальный подход к каждому пациенту. Если вас интересует, сколько стоит консультация окулиста Киев цена, наши администраторы всегда готовы предоставить полную информацию до визита.",
-                    },
-                    {
-                        bold: true,
-                        text: "Обращайтесь к нам! Мы поможем сохранить ваше зрение и подарим возможность взглянуть на мир по-новому!",
+                        text: "Посещение глазной клиники в Вильнюсе – это не только качественное лечение, но и комфортные условия, внимательный персонал и индивидуальный подход к каждому пациенту.",
                     },
                 ],
             },
             en: {
-                question: "How to make an appointment?",
+                question: "How can I book an appointment?",
                 answer: [
                     {
                         gap: true,
-                        text: "Making an appointment with specialists at the British Ophthalmology Center is simple and convenient: you can make an appointment by phone or through our website at any time that is convenient for you.",
+                        text: "Booking an appointment with an eye specialist is simple: you can call the clinic or use the online booking form on our website at any time that suits you.",
                     },
                     {
-                        text: "Visiting the British ophthalmology clinic in Kyiv is not only about quality but also comfort: modern conditions, attentive staff, and an individual approach to each patient. If you are interested in how much an ophthalmologist consultation in Kyiv costs, our administrators are always ready to provide complete information before your visit.",
-                    },
-                    {
-                        bold: true,
-                        text: "Contact us! We will help preserve your vision and give you the opportunity to see the world in a new way!",
+                        text: "A visit to our eye clinic in Vilnius means not only high-quality treatment, but also comfort – modern facilities, friendly staff and a truly personalised approach.",
                     },
                 ],
             },
         },
         {
             lt: {
-                question: "як проводиться лікування зору?",
+                question: "Kaip vyksta regos gydymas?",
                 answer: [
                     {
                         gap: true,
-                        text: "Комплексне лікування зору та інноваційне обладнання",
+                        text: "Mes taikome kompleksinį požiūrį į regos gydymą: nuo išsamios diagnostikos iki ilgalaikio stebėjimo. Naudojame modernią aparatūrą ir šiuolaikinius akių ligų gydymo metodus – tiek konservatyvius, tiek chirurginius.",
                     },
                     {
-                        text: "Для нас важливо не просто провести прийом офтальмолога, а надати комплексну допомогу. Саме тому в центрі реалізовано сучасне апаратне лікування очей Київ, яке ефективне при різних станах — від амбліопії до синдрому втомленого ока. Обираючи апаратне лікування зору Київ, ви інвестуєте у результат, підтверджений медичною практикою та досвідом тисяч пацієнтів.",
+                        text: "Tai leidžia pasiekti patikimus, mediciniškai pagrįstus rezultatus ir ilgalaikį regos stabilumą.",
                     },
                 ],
             },
@@ -217,22 +246,75 @@ export const faqMainList: FAQType = {
                 answer: [
                     {
                         gap: true,
-                        text: "Комплексное лечение зрения и инновационное оборудование",
+                        text: "Мы практикуем комплексный подход: сначала выполняется полная диагностика, затем подбирается оптимальный метод лечения – от консервативной терапии до хирургических вмешательств и лазерных процедур.",
                     },
                     {
-                        text: "Для нас важно не просто провести прием офтальмолога, а предоставить комплексную помощь. Именно поэтому в центре реализовано современное аппаратное лечение глаз Киев, которое эффективно при различных состояниях — от амблиопии до синдрома уставшего глаза. Выбирая аппаратное лечение зрения Киев, вы инвестируете в результат, подтвержденный медицинской практикой и опытом тысяч пациентов.",
+                        text: "Использование современного оборудования и проверенных методик обеспечивает устойчивый результат и длительное сохранение хорошего зрения.",
                     },
                 ],
             },
             en: {
-                question: "How is vision treatment conducted?",
+                question: "How is vision treated?",
                 answer: [
                     {
                         gap: true,
-                        text: "Comprehensive vision treatment and innovative equipment",
+                        text: "We follow a comprehensive approach to vision care: starting with a detailed examination, we then choose the most appropriate treatment method – from conservative therapy and eye drops to laser procedures and surgical interventions.",
                     },
                     {
-                        text: "For us, it is important not just to conduct an ophthalmologist appointment but to provide comprehensive assistance. That is why the center implements modern hardware eye treatment in Kyiv, which is effective for various conditions — from amblyopia to computer vision syndrome. By choosing hardware vision treatment in Kyiv, you are investing in results backed by medical practice and the experience of thousands of patients.",
+                        text: "By combining clinical experience with innovative technology, we aim for stable, long-term improvements in your vision.",
+                    },
+                ],
+            },
+        },
+        {
+            lt: {
+                question: "Kaip dažnai reikėtų tikrintis akis?",
+                answer: [
+                    {
+                        text: "Suaugusiems žmonėms rekomenduojama profilaktiškai tikrintis akis bent kartą per 1–2 metus, net jei nėra nusiskundimų. Jei jau turite regos sutrikimų, lėtinių ligų (pvz., cukrinis diabetas) ar esate po akių operacijų, oftalmologo konsultacija gali būti reikalinga dažniau – pagal gydytojo rekomendacijas.",
+                    },
+                ],
+            },
+            ru: {
+                question:
+                    "Как часто нужно проходить профилактический осмотр у офтальмолога?",
+                answer: [
+                    {
+                        text: "Взрослым людям рекомендуется проходить профилактический осмотр у офтальмолога не реже одного раза в 1–2 года, даже при отсутствии жалоб. При наличии уже выявленных нарушений зрения, хронических заболеваний или после операций частоту визитов определяет врач.",
+                    },
+                ],
+            },
+            en: {
+                question: "How often should I have my eyes checked?",
+                answer: [
+                    {
+                        text: "Adults are generally advised to have their eyes checked at least once every 1–2 years, even if they have no complaints. If you already have vision problems, chronic conditions such as diabetes, or a history of eye surgery, your ophthalmologist may recommend more frequent check-ups.",
+                    },
+                ],
+            },
+        },
+        {
+            lt: {
+                question: "Ar reikia siuntimo iš šeimos gydytojo?",
+                answer: [
+                    {
+                        text: "Daugeliu atvejų norint gauti oftalmologo konsultaciją mūsų klinikoje siuntimo nereikia – galite kreiptis tiesiogiai ir registruotis vizitui jums patogiu laiku. Jei reikalingos papildomos, įskaitant kompensuojamas, procedūros ar tyrimai, apie tai jus informuos gydytojas konsultacijos metu.",
+                    },
+                ],
+            },
+            ru: {
+                question: "Нужно ли направление от семейного врача?",
+                answer: [
+                    {
+                        text: "В большинстве случаев для записи на консультацию в частную офтальмологическую клинику направление не требуется – вы можете обратиться напрямую. Если для вас будут актуальны дополнительные, в том числе компенсируемые процедуры или обследования, об этом расскажет врач на приёме.",
+                    },
+                ],
+            },
+            en: {
+                question: "Do I need a referral from a family doctor?",
+                answer: [
+                    {
+                        text: "In most cases, you do not need a referral from a family doctor to see an eye specialist at our clinic – you can book an appointment directly. If additional reimbursed procedures or tests are needed, your doctor will explain this during the consultation.",
                     },
                 ],
             },

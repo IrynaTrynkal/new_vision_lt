@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 
 import { normalizePhone } from "@/utils/normalizePhone";
 
-import { BOCemail, gogleMapLink, hotLineNumber } from "../assets/contacts";
+import { gogleMapLink, hotLineNumber, LTemail } from "../assets/contacts";
 import { GreenText } from "../shared/GreenText";
 import { IconArrow } from "../shared/icons/IconArrow";
 import { IconInvalid } from "../shared/icons/IconInvalid";
@@ -49,10 +49,10 @@ export const ContactsPage = () => {
                                 email
                             </h3>
                             <a
-                                href={`mailto:${BOCemail}`}
+                                href={`mailto:${LTemail}`}
                                 className="block transition-all duration-300 ease-in-out hover:underline"
                             >
-                                {BOCemail}
+                                {LTemail}
                             </a>
                         </div>
                         <div className="prepc:mb-0 mb-5">

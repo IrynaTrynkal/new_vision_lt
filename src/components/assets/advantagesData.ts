@@ -6,114 +6,114 @@ type AdvantageProps = {
 export const advantagesList: AdvantageProps[] = [
     {
         lt: {
-            title: "сучасне встаткування",
-            text: "Ми використовуємо високоточні технології для діагностики та лікування очних захворювань.",
+            title: "Šiuolaikinė įranga",
+            text: "Naudojame modernią, itin tikslią diagnostinę ir gydomąją aparatūrą, kuri leidžia anksti nustatyti akių ligas ir parinkti saugų, efektyvų gydymą.",
         },
         ru: {
             title: "Современное оборудование",
-            text: "Мы используем высокоточные технологии для диагностики и лечения глазных заболеваний.",
+            text: "Мы используем современное высокоточное диагностическое и лечебное оборудование, которое позволяет выявлять заболевания глаз на ранних стадиях и подбирать безопасное и эффективное лечение.",
         },
         en: {
             title: "Modern equipment",
-            text: "We use high-precision technologies for the diagnosis and treatment of eye diseases.",
+            text: "We use advanced, high-precision diagnostic and treatment technologies, allowing us to detect eye conditions at an early stage and choose the safest and most effective treatment options.",
         },
     },
     {
         lt: {
-            title: "Команда професіоналів",
-            text: "Наші лікарі мають високий рівень кваліфікації та досвід для успішного лікування офтальмологічних проблем.",
+            title: "Profesionali komanda",
+            text: "Mūsų akių gydytojai ir oftalmologai turi aukštą kvalifikaciją bei didelę klinikinę patirtį, todėl sėkmingai sprendžia įvairias oftalmologines problemas – nuo paprastų regos sutrikimų iki sudėtingų atvejų.",
         },
         ru: {
-            title: "Команда профессионалов",
-            text: "Наши врачи обладают высоким уровнем квалификации и опытом для успешного лечения офтальмологических проблем.",
+            title: "Профессиональная команда",
+            text: "Наши врачи-офтальмологи обладают высокой квалификацией и большим клиническим опытом, поэтому успешно справляются как с простыми нарушениями зрения, так и со сложными офтальмологическими случаями.",
         },
         en: {
-            title: "Team of professionals",
-            text: "Our doctors have a high level of expertise and experience to successfully treat ophthalmic conditions.",
+            title: "Professional team",
+            text: "Our ophthalmologists and eye specialists are highly qualified and experienced, successfully managing both common vision issues and complex ophthalmic cases.",
         },
     },
     {
         lt: {
-            title: "безпека",
-            text: "Ми працюємо згідно з сучасними українськими та міжнародними протоколами, суворо дотримуючись усіх стандартів якості та безпеки.",
+            title: "Saugumas",
+            text: "Dirbame pagal šiuolaikinius Lietuvos ir tarptautinius gydymo protokolus, griežtai laikomės kokybės ir saugos standartų kiekvieno vizito, tyrimo ir procedūros metu.",
         },
         ru: {
             title: "Безопасность",
-            text: "Мы работаем в соответствии с современными украинскими и международными протоколами, строго соблюдая все стандарты качества и безопасности.",
+            text: "Мы работаем в соответствии с актуальными национальными и международными протоколами, строго соблюдая все стандарты качества и безопасности на каждом этапе обследования и лечения.",
         },
         en: {
             title: "Safety",
-            text: "We operate in accordance with modern Ukrainian and international protocols, strictly following all quality and safety standards.",
+            text: "We work in accordance with up-to-date national and international treatment protocols, strictly following all quality and safety standards at every stage of examination and treatment.",
         },
     },
     {
         lt: {
-            title: "безболісність",
-            text: "Усі операції виконуються з використанням краплинної анестезії, що робить процедури максимально комфортними для пацієнта.",
+            title: "Be skausmo",
+            text: "Visos operacijos ir dauguma intervencinių procedūrų atliekamos taikant lašinamąją nejautrą, todėl gydymas yra maksimaliai komfortiškas ir psichologiškai lengviau priimamas pacientui.",
         },
         ru: {
             title: "Безболезненность",
-            text: "Все операции выполняются с применением капельной анестезии, что делает процедуры максимально комфортными для пациента.",
+            text: "Все операции и большинство интервенционных процедур проводятся с использованием капельной анестезии, что делает вмешательство максимально комфортным и практически безболезненным для пациента.",
         },
         en: {
             title: "Painless procedures",
-            text: "All surgeries are performed using drop anesthesia, making procedures as comfortable as possible for the patient.",
+            text: "All surgeries and most interventional procedures are performed under topical (drop) anaesthesia, making them as comfortable and virtually painless for the patient as possible.",
         },
     },
     {
         lt: {
-            title: "Наша статистика",
-            text: "У нашому центрі офтальмології проведено понад 1 млн. успішних проведених лазерних корекцій. Проведено понад 5 млн. консультацій.",
+            title: "Mūsų statistika",
+            text: "Mūsų akių gydymo centre atlikta daugiau kaip 1 mln. sėkmingų lazerinės regos korekcijos procedūrų ir suteikta per 5 mln. oftalmologo konsultacijų.",
         },
         ru: {
             title: "Наша статистика",
-            text: "В нашем офтальмологическом центре проведено более 1 млн успешных лазерных коррекций. Проведено более 5 млн консультаций.",
+            text: "В нашем центре офтальмологии проведено более 1 млн успешных лазерных коррекций зрения и выполнено свыше 5 млн консультаций врача-офтальмолога.",
         },
         en: {
             title: "Our statistics",
-            text: "Our ophthalmology center has performed over 1 million successful laser corrections and more than 5 million consultations.",
+            text: "Our eye centre has performed more than 1 million successful laser vision correction procedures and provided over 5 million ophthalmology consultations.",
         },
     },
     {
         lt: {
-            title: "Комплексний підхід",
-            text: "Ми надаємо повний спектр послуг: від первинної діагностики до повного відновлення в післяопераційний період.",
+            title: "Kompleksinis požiūris",
+            text: "Teikiame visą oftalmologijos paslaugų spektrą: nuo pirminės akių patikros ir diagnostikos iki pilno paciento stebėjimo ir regos atkūrimo po operacijos.",
         },
         ru: {
             title: "Комплексный подход",
-            text: "Мы предоставляем полный спектр услуг: от первичной диагностики до полного восстановления в послеоперационный период.",
+            text: "Мы предоставляем полный спектр офтальмологических услуг: от первичной диагностики и подбора метода лечения до полного сопровождения пациента в послеоперационный период.",
         },
         en: {
             title: "Comprehensive approach",
-            text: "We provide a full range of services: from initial diagnosis to complete recovery during the postoperative period.",
+            text: "We offer a full range of eye care services: from initial eye examination and diagnostics to complete follow-up and vision rehabilitation in the postoperative period.",
         },
     },
     {
         lt: {
-            title: "Високоякісний сервіс ",
-            text: "Кожна деталь продумана: від моменту відвідин клініки до завершення консультації. Ми створюємо комфортну та спокійну атмосферу для наших пацієнтів.",
+            title: "Aukštos kokybės aptarnavimas",
+            text: "Rūpinamės kiekviena detale – nuo pirmojo kontakto ir atvykimo į kliniką iki gydytojo konsultacijos pabaigos. Siekiame sukurti jaukią, ramią ir pacientui draugišką aplinką.",
         },
         ru: {
-            title: "Высококачественный сервис",
-            text: "Каждая деталь продумана: от момента посещения клиники до завершения консультации. Мы создаем комфортную и спокойную атмосферу для наших пациентов.",
+            title: "Высокий уровень сервиса",
+            text: "Мы продумываем каждую деталь: от первого обращения и визита в клинику до завершения консультации врача. Наша цель – создать для пациента комфортную, спокойную и доброжелательную атмосферу.",
         },
         en: {
             title: "High-quality service",
-            text: "Every detail is considered: from the moment of visiting the clinic to the end of the consultation. We create a comfortable and calm atmosphere for our patients.",
+            text: "Every detail is carefully considered – from your first contact and arrival at the clinic to the end of the doctor’s consultation. We aim to create a calm, comfortable and patient-friendly environment.",
         },
     },
     {
         lt: {
-            title: "Індивідуальний підхід",
-            text: "Ми намагаємося створити у нашій офтальмологічній клініці довірчі стосунки з нашими пацієнтами. Щоб отримати максимальний результат лікування, враховується безліч важливих чинників, до способу життя.",
+            title: "Individualus požiūris",
+            text: "Mūsų oftalmologijos klinikoje stengiamės kurti pasitikėjimu grįstą ryšį su kiekvienu pacientu. Siekdami geriausio gydymo rezultato, atsižvelgiame į daugelį veiksnių – ne tik į tyrimų duomenis, bet ir į jūsų gyvenimo būdą bei lūkesčius.",
         },
         ru: {
             title: "Индивидуальный подход",
-            text: "Мы стараемся создать в нашей офтальмологической клинике доверительные отношения с пациентами. Для достижения максимального результата лечения учитывается множество факторов, включая образ жизни.",
+            text: "В нашей офтальмологической клинике мы стремимся выстраивать доверительные отношения с каждым пациентом. Для достижения максимального результата лечения учитывается множество факторов, включая образ жизни, сопутствующие заболевания и личные ожидания.",
         },
         en: {
             title: "Individual approach",
-            text: "We strive to build trustful relationships with our patients. To achieve the best treatment results, many important factors are taken into account, including lifestyle.",
+            text: "In our ophthalmology clinic, we strive to build a trusting relationship with each patient. To achieve the best treatment outcome, we take into account many important factors, including your lifestyle, general health and personal expectations.",
         },
     },
 ];
