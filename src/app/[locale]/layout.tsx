@@ -84,7 +84,7 @@ export default async function RootLayout({
                     <main className="flex-1">
                         <div className="mx-auto max-w-[1600px]">{children}</div>
                     </main>
-                    <Footer />
+                    <Footer locale={locale} />
                     {/* <BinotelChat /> */}
                     {/* <GoogleAnalytics gaId={GAid} /> */}
                 </body>

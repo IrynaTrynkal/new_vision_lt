@@ -14,13 +14,16 @@ export const PhoneNumberList = ({
     return (
         <ul className={className}>
             {phoneList.map(item => (
-                <li key={item}>
+                <li key={item.number}>
                     <a
                         onClick={onClick}
-                        href={`tel:${normalizePhone(item)}`}
+                        href={`tel:${normalizePhone(item.number)}`}
                         className={`${dark ? "group-hover:text-grey-90 hover:text-black hover:underline" : "group-hover:text-grey-90 hover:!text-ivory"} transition-all duration-300`}
                     >
-                        {item}
+                        <span className="font-oswald text-grey prepc:text-base text-sm leading-none font-medium uppercase">
+                            {item.country} -
+                        </span>{" "}
+                        {item.number}
                     </a>
                 </li>
             ))}

@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-import { normalizePhone } from "@/utils/normalizePhone";
-
-import { hotLineNumber } from "../assets/contacts";
 import { ButtonClose } from "../shared/ButtonClose";
 import { PhoneNumberList } from "../shared/PhoneNumberList";
 
@@ -35,20 +32,8 @@ export const PhoneList = ({
                 </h3>
                 <PhoneNumberList
                     onClick={() => setIsPhoneListOpened(false)}
-                    className="mb-8 flex flex-col items-center gap-3 leading-none font-medium"
+                    className="mb-8 flex flex-col gap-3 leading-none font-medium"
                 />
-                <h3 className="font-oswald text-grey mb-3 text-center text-xs leading-none font-medium uppercase">
-                    {t("hotLine")}
-                </h3>
-                <div className="flex justify-center">
-                    <a
-                        onClick={() => setIsPhoneListOpened(false)}
-                        href={`tel:${normalizePhone(hotLineNumber)}`}
-                        className="leading-none font-medium"
-                    >
-                        {hotLineNumber}
-                    </a>
-                </div>
             </div>
         </motion.div>
     );

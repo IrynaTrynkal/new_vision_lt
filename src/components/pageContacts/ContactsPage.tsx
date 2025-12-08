@@ -1,8 +1,6 @@
 import { useTranslations } from "next-intl";
 
-import { normalizePhone } from "@/utils/normalizePhone";
-
-import { gogleMapLink, hotLineNumber, LTemail } from "../assets/contacts";
+import { gogleMapLink, LTemail } from "../assets/contacts";
 import { GreenText } from "../shared/GreenText";
 import { IconArrow } from "../shared/icons/IconArrow";
 import { IconInvalid } from "../shared/icons/IconInvalid";
@@ -34,14 +32,6 @@ export const ContactsPage = () => {
                         <h3 className="font-oswald text-grey mb-2.5 text-xs leading-none font-medium uppercase">
                             {t("hotLine")}
                         </h3>
-                        <div className="prepc:mb-0 mb-6">
-                            <a
-                                href={`tel:${normalizePhone(hotLineNumber)}`}
-                                className="leading-none font-medium transition-all duration-300 ease-in-out hover:underline"
-                            >
-                                {hotLineNumber}
-                            </a>
-                        </div>
                     </div>
                     <div className="prepc:w-[48%] prepc:flex prepc:flex-col prepc:justify-between">
                         <div className="prepc:mb-0 mb-3">

@@ -2,9 +2,10 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/navigation";
+import { LocaleType } from "@/types/LocaleType";
+import { getLocaleLogo } from "@/utils/getLocaleLogo";
 
 import { gogleMapLink } from "../assets/contacts";
-import { IconLogo } from "../shared/icons/IconLogo";
 import { IconPin } from "../shared/icons/IconPin";
 import { PhoneNumberList } from "../shared/PhoneNumberList";
 import { SocialLinks } from "../shared/SocialLinks";
@@ -12,7 +13,7 @@ import { MenuMain } from "./MenuMain";
 import { ServicesMenu } from "./ServicesMenu";
 import { UpButton } from "./UpButton";
 
-export const Footer = () => {
+export const Footer = ({ locale }: { locale: LocaleType }) => {
     const t = useTranslations("HomePage");
     const footerH3 =
         "font-oswald text-grey text-sm prepc:text-base leading-none font-medium uppercase";
@@ -21,9 +22,8 @@ export const Footer = () => {
             <section className="content prepc:max-w-[1600px] relative mx-auto">
                 <div className="prepc:flex prepc:mb-5">
                     <div className="prepc:mr-[17.2%] w-[224px]">
-                        <div className="flex gap-2">
-                            <IconLogo />
-                            <h3>{t("title")}</h3>
+                        <div className="h-11 w-auto">
+                            {getLocaleLogo({ locale })}
                         </div>
                         <p className="mt-4 mb-6 text-sm leading-[16.8px]">
                             {t("slogan")}
