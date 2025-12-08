@@ -52,6 +52,14 @@ export const discountShortDataType = defineType({
             },
         }),
         defineField({
+            name: "darken",
+            title: "Чи потрібно затемнити картинку?",
+            description:
+                "Якщо картинка світла, текст на ній буде не видно. Рекомендується затемнити.",
+            type: "boolean",
+            initialValue: false,
+        }),
+        defineField({
             name: "cost",
             title: "Вартість послуги зі знижкою, яка відображатиметься в картці",
             type: "number",

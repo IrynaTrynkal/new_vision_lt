@@ -1122,6 +1122,13 @@
                     },
                     "optional": true
                 },
+                "darken": {
+                    "type": "objectAttribute",
+                    "value": {
+                        "type": "boolean"
+                    },
+                    "optional": true
+                },
                 "cost": {
                     "type": "objectAttribute",
                     "value": {

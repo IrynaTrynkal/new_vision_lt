@@ -19,12 +19,12 @@ export const offersPageQuery = defineQuery(`
  discountFullData{"textRight":textRight[_key == $language][0].value, "textLeft":textLeft[_key == $language][0].value, 
                   "fractionDown":fractionDown[_key == $language][0].value, "fractionUp":fractionUp[_key == $language][0].value, 
                   "discountFullText":discountFullText[_key == $language][0].value}, 
- discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}`);
+ discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, darken, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}`);
 
 export const offersShortQuery = defineQuery(`
     *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]
-{servicesKey, "title":title[_key == $language][0].value,
- discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}`);
+{servicesKey, "title":title[_key == $language][0].value, 
+ discountShortData{"bgimage":bgimage.asset->url, darken, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}`);
 
 export const doctorsListQuery = defineQuery(`
     *[_type == "doctor" && !(_id in path("drafts.**"))]

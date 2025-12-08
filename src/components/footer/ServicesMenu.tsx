@@ -16,7 +16,9 @@ export const ServicesMenu = ({
     const locale = useLocale();
 
     return (
-        <ul className={`prepc:gap-9 relative columns-2 gap-3 ${className} `}>
+        <ul
+            className={`prepc:gap-9 prepc:columns-1 relative columns-2 gap-3 ${className} `}
+        >
             {servicesList.map((item, idx) => {
                 return (
                     <li key={idx}>

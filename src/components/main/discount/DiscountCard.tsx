@@ -27,9 +27,11 @@ export const DiscountCard = ({
                 </div>
             )}
             <div
-                className={`tab:p-3 relative flex w-full flex-col justify-between bg-cover bg-center p-2 ${data.discountShortData?.premium ? "tab:h-[265px] h-[154px]" : "h-full"}`}
+                className={`tab:p-3 relative flex w-full flex-col justify-between bg-cover bg-center p-2 ${data.discountShortData?.darken ? "bg-blend-multiply" : ""} ${data.discountShortData?.premium ? "tab:h-[265px] h-[154px]" : "h-full"}`}
                 style={{
-                    backgroundImage: `url(${data.discountShortData?.bgimage ?? "/images/main-offer.jpg"})`,
+                    backgroundImage: data.discountShortData?.darken
+                        ? `linear-gradient(#065d43, #065d43), url(${data.discountShortData?.bgimage ?? "/images/main-offer.jpg"})`
+                        : `url(${data.discountShortData?.bgimage ?? "/images/main-offer.jpg"})`,
                 }}
             >
                 <div>
