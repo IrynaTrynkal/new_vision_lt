@@ -214,6 +214,7 @@ export type DiscountShortData = {
         crop?: SanityImageCrop;
         _type: "image";
     };
+    darken?: boolean;
     cost?: number;
     learnMore?: boolean;
 };
@@ -617,7 +618,7 @@ export type PricesShortQueryResult = Array<{
     }> | null;
 }> | null;
 // Variable: offersPageQuery
-// Query: *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]{servicesKey, "title":title[_key == $language][0].value, discountFullData{"textRight":textRight[_key == $language][0].value, "textLeft":textLeft[_key == $language][0].value,                   "fractionDown":fractionDown[_key == $language][0].value, "fractionUp":fractionUp[_key == $language][0].value,                   "discountFullText":discountFullText[_key == $language][0].value},  discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}
+// Query: *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]{servicesKey, "title":title[_key == $language][0].value, discountFullData{"textRight":textRight[_key == $language][0].value, "textLeft":textLeft[_key == $language][0].value,                   "fractionDown":fractionDown[_key == $language][0].value, "fractionUp":fractionUp[_key == $language][0].value,                   "discountFullText":discountFullText[_key == $language][0].value},  discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, darken, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}
 export type OffersPageQueryResult = Array<{
     servicesKey: ServicesKey | null;
     title: string | null;
@@ -631,6 +632,7 @@ export type OffersPageQueryResult = Array<{
     discountShortData: {
         bgimage: string | null;
         icon: string | null;
+        darken: boolean | null;
         premium: boolean | null;
         premiumText: string | null;
         shortText: string | null;
@@ -640,12 +642,13 @@ export type OffersPageQueryResult = Array<{
     } | null;
 }> | null;
 // Variable: offersShortQuery
-// Query: *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]{servicesKey, "title":title[_key == $language][0].value, discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}
+// Query: *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]{servicesKey, "title":title[_key == $language][0].value,  discountShortData{"bgimage":bgimage.asset->url, darken, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}
 export type OffersShortQueryResult = Array<{
     servicesKey: ServicesKey | null;
     title: string | null;
     discountShortData: {
         bgimage: string | null;
+        darken: boolean | null;
         icon: string | null;
         premium: boolean | null;
         premiumText: string | null;
@@ -810,8 +813,8 @@ declare module "@sanity/client" {
     interface SanityQueries {
         '\n    *[_type == "pricesPage" && !(_id in path("drafts.**"))][0].priceBlocks[]\n {servicesKey, "servicesName": servicesName[_key == $language][0].value, linkToPage, \n   "list":list[]{new, price, lowerPriceLimit, discountPrice, lowerDiscountLimit, specialPrice,\n                 "serviceName": serviceName[_key == $language][0].value,\n                 "serviceDescription":serviceDescription[_key == $language][0].value}, \n   "servicesDescription":servicesDescription[_key == $language][0].value }': PricesPageQueryResult;
         '\n    *[_type == "pricesPage" && !(_id in path("drafts.**"))][0].priceBlocks[]\n {servicesKey, \n   "list":list[]{price, lowerPriceLimit, discountPrice, lowerDiscountLimit}}': PricesShortQueryResult;
-        '\n    *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]\n{servicesKey, "title":title[_key == $language][0].value,\n discountFullData{"textRight":textRight[_key == $language][0].value, "textLeft":textLeft[_key == $language][0].value, \n                  "fractionDown":fractionDown[_key == $language][0].value, "fractionUp":fractionUp[_key == $language][0].value, \n                  "discountFullText":discountFullText[_key == $language][0].value}, \n discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}': OffersPageQueryResult;
-        '\n    *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]\n{servicesKey, "title":title[_key == $language][0].value,\n discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}': OffersShortQueryResult;
+        '\n    *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]\n{servicesKey, "title":title[_key == $language][0].value,\n discountFullData{"textRight":textRight[_key == $language][0].value, "textLeft":textLeft[_key == $language][0].value, \n                  "fractionDown":fractionDown[_key == $language][0].value, "fractionUp":fractionUp[_key == $language][0].value, \n                  "discountFullText":discountFullText[_key == $language][0].value}, \n discountShortData{"bgimage":bgimage.asset->url, "icon":icon.asset->url, darken, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}': OffersPageQueryResult;
+        '\n    *[_type == "offersPage" && !(_id in path("drafts.**"))][0].discountsData[]\n{servicesKey, "title":title[_key == $language][0].value, \n discountShortData{"bgimage":bgimage.asset->url, darken, "icon":icon.asset->url, premium, "premiumText":premiumText[_key == $language][0].value, "shortText":shortText[_key == $language][0].value, period, cost, learnMore },}': OffersShortQueryResult;
         '\n    *[_type == "doctor" && !(_id in path("drafts.**"))]\n{"name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value}': DoctorsListQueryResult;
         '\n    *[_type == "doctor" && slug.current == $slug][0]\n{"name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value}': DoctorQueryResult;
         '\n     *[_type == "blog" && !(_id in path("drafts.**"))]{\n   service, "title":title[_key == $language][0].value,\n     "slug":slug.current, publication, "image":image.asset->url,\n     "shortText":shortText[_key == $language][0].value,\n     "content": content[_key == $language][0].value}': BlogsListQueryResult;

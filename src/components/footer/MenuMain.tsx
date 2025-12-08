@@ -14,9 +14,7 @@ export const MenuMain = ({
     const t = useTranslations("Menu");
 
     return (
-        <ul
-            className={`prepc:grid-cols-1 group relative grid grid-cols-2 gap-2 ${className} `}
-        >
+        <ul className={`group relative grid grid-cols-2 gap-2 ${className} `}>
             {footerMainMenu.map((item, idx) => {
                 return (
                     <li

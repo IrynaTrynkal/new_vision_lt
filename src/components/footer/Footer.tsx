@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 import { gogleMapLink } from "../assets/contacts";
-import { IconBigLogo } from "../shared/icons/IconBigLogo";
+import { IconLogo } from "../shared/icons/IconLogo";
 import { IconPin } from "../shared/icons/IconPin";
 import { PhoneNumberList } from "../shared/PhoneNumberList";
 import { SocialLinks } from "../shared/SocialLinks";
@@ -21,23 +21,26 @@ export const Footer = () => {
             <section className="content prepc:max-w-[1600px] relative mx-auto">
                 <div className="prepc:flex prepc:mb-5">
                     <div className="prepc:mr-[17.2%] w-[224px]">
-                        <IconBigLogo />
+                        <div className="flex gap-2">
+                            <IconLogo />
+                            <h3>{t("title")}</h3>
+                        </div>
                         <p className="mt-4 mb-6 text-sm leading-[16.8px]">
                             {t("slogan")}
                         </p>
                     </div>
-                    <div className="prepc:mb-0 prepc:mr-[14.3%] prepc:w-[145px] mb-[30px]">
-                        <h3 className={`${footerH3} mb-[14px]`}>
-                            {t("navigation")}
-                        </h3>
-                        <MenuMain />
-                    </div>
-                    <div className="prepc:w-[445px] prepc:mb-0 mb-6">
+                    <div className="prepc:mb-0 prepc:mr-[10%] prepc:w-[200px] mb-[30px]">
                         <h3 className={`${footerH3} mb-1.5`}>
                             {t("paslaugos")}
                         </h3>
                         <div className="bg-grey prepc:hidden mb-1.5 h-[1px] w-full" />
                         <ServicesMenu />
+                    </div>
+                    <div className="prepc:w-[445px] prepc:mb-0 mb-6">
+                        <h3 className={`${footerH3} mb-[14px]`}>
+                            {t("navigation")}
+                        </h3>
+                        <MenuMain />
                     </div>
                 </div>
 
@@ -48,8 +51,8 @@ export const Footer = () => {
                         </h3>
                         <SocialLinks className="w-1/2" footer />
                     </div>
-                    <div className="prepc:mr-[14.3%] flex">
-                        <div className="prepc:w-[145px] w-1/2">
+                    <div className="prepc:mr-[10%] flex">
+                        <div className="prepc:w-[200px] w-1/2">
                             <h3 className={`${footerH3} mb-3`}>
                                 {t("kontaktai")}
                             </h3>
