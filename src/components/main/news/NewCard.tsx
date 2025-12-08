@@ -42,7 +42,7 @@ export const NewCard = ({
                     {news.shortText}
                 </p>
             </div>
-            <div className="pc:gap-5 flex items-center justify-between">
+            <div className="pc:gap-5 flex justify-between gap-1">
                 <p className="pc:text-sm pc:py-[3px] w-full border-b border-black px-3 py-0.5 text-xs leading-none text-gray-500 uppercase">
                     {news.publication &&
                         format(new Date(news.publication), "dd.MM.yyyy")}
