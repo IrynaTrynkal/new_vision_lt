@@ -16,6 +16,7 @@ type Props = Array<{
     discountShortData: {
         bgimage: string | null;
         icon: string | null;
+        darken: boolean | null;
         premium: boolean | null;
         premiumText: string | null;
         shortText: string | null;
