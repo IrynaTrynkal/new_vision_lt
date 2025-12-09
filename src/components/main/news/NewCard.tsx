@@ -49,7 +49,7 @@ export const NewCard = ({
                 </p>
                 <Link
                     href={`/blog/${news.slug}` as any}
-                    className="font-oswald tab:text-sm pc:text-base pc:hover:underline-offset-[2.5px] mr-3 text-sm leading-none font-medium whitespace-nowrap uppercase hover:underline hover:decoration-1 hover:underline-offset-[1.5px]"
+                    className="font-oswald tab:text-sm pc:text-base pc:hover:underline-offset-[2.5px] mr-3 py-0.5 text-sm leading-none font-medium whitespace-nowrap uppercase transition-all duration-300 ease-in-out hover:underline hover:decoration-1 hover:underline-offset-[1.5px]"
                 >
                     {btnName}
                 </Link>

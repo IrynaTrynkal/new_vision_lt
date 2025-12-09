@@ -90,7 +90,7 @@ export default async function BlogPage({ params }: PageProps) {
     return (
         <>
             <Breadcrumbs
-                className="prepc:mt-[104px] prepc:mb-12 mt-[72px] mb-6"
+                className="prepc:mt-[176px] prepc:mb-12 mt-30 mb-6"
                 breadcrumbsList={breadcrumb}
                 doctors
             />

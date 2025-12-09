@@ -25,7 +25,7 @@ export default function OffersPage() {
     return (
         <>
             <Breadcrumbs
-                className="prepc:mt-[104px] mt-[72px]"
+                className="prepc:mt-[176px] mt-30"
                 breadcrumbsList={breadcrumb}
             />
             <Hero />

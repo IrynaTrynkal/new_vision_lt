@@ -47,7 +47,7 @@ export default async function NewsPage({
         <>
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}
-                className="prepc:mt-[104px] prepc:mb-12 mt-[72px] mb-6"
+                className="prepc:mt-[176px] prepc:mb-12 mt-30 mb-6"
             />
             <HeroBlog />
             <div className="prepc:flex prepc:flex-row-reverse prepc:justify-between tab:px-6 pc:px-12 prepc:overflow-visible tab:pb-12 pc:pb-[120px] relative pb-[60px]">
