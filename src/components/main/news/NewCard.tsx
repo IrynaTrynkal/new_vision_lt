@@ -42,14 +42,14 @@ export const NewCard = ({
                     {news.shortText}
                 </p>
             </div>
-            <div className="pc:gap-5 flex items-center justify-between">
+            <div className="pc:gap-5 flex justify-between gap-1">
                 <p className="pc:text-sm pc:py-[3px] w-full border-b border-black px-3 py-0.5 text-xs leading-none text-gray-500 uppercase">
                     {news.publication &&
                         format(new Date(news.publication), "dd.MM.yyyy")}
                 </p>
                 <Link
                     href={`/blog/${news.slug}` as any}
-                    className="font-oswald tab:text-sm pc:text-base pc:hover:underline-offset-[2.5px] mr-3 text-sm leading-none font-medium whitespace-nowrap uppercase hover:underline hover:decoration-1 hover:underline-offset-[1.5px]"
+                    className="font-oswald tab:text-sm pc:text-base pc:hover:underline-offset-[2.5px] mr-3 py-0.5 text-sm leading-none font-medium whitespace-nowrap uppercase transition-all duration-300 ease-in-out hover:underline hover:decoration-1 hover:underline-offset-[1.5px]"
                 >
                     {btnName}
                 </Link>
