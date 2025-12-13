@@ -1866,18 +1866,18 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "лазерна \nкорекція зору ",
-                        text: "Цей метод дозволяє людям із поганим зором повернутися до нормального життя без окулярів та контактних лінз.",
+                        title: "Lazerinė \nregos korekcija",
+                        text: "Šis metodas padeda žmonėms, turintiems regėjimo sutrikimų, sugrįžti prie įprasto aktyvaus gyvenimo ir nebepriklausyti nuo nuolatinio akinių ar kontaktinių lęšių nešiojimo.",
                         adress: true,
                         videoSmallScreens: "/videos/lazer-hero-tab.mp4",
                         videoBigScreens: "/videos/lazer-desk-hero.mp4",
                         lazer: {
-                            listTitle: "рекомендовано при:",
+                            listTitle: "rekomenduojama esant:",
                             list: [
-                                "астигматизмі",
-                                "короткозорості",
-                                "міопії",
-                                "далекозорості",
+                                "astigmatizmui",
+                                "trumparegystei",
+                                "miopijai",
+                                "toliaregystei",
                             ],
                         },
                     },
@@ -1885,23 +1885,23 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        title: "Лазерна корекція зору в приватній клініці в Києві",
+                        title: "Lazerinė regos korekcija privačioje klinikoje Vilniuje",
                         text: [
-                            "Лазерна корекція зору – це сучасне лазерне відновлення зору, яке допомагає зменшити залежність від окулярів та лінз. Якщо ви думаєте, як відновити зір, як виправити зір або як повернути зір без окулярів, лікар може запропонувати коригування зору лазером після повного обстеження. Під час консультації оцінюємо ваш тип порушення зору та вирішуємо, чи дійсно доцільно зробити лазерну корекцію саме зараз.",
-                            "Наш центр – приватна офтальмологічна клініка, де ви проходите повне обстеження та отримуєте детальну консультацію лікаря. Ми чесно говоримо про реальні переваги, можливі недоліки та протипоказання, пояснюємо, як проходитиме відновлення після лазерної корекції зору і які будуть обмеження після лазерної корекції зору. Ви отримуєте зрозумілий план лікування та відповіді на всі запитання.",
+                            "Lazerinė regos korekcija – tai šiuolaikinis regėjimo korekcijos lazeriu metodas, leidžiantis reikšmingai sumažinti akinių ir kontaktinių lęšių poreikį. Jei ieškote, kaip atkurti regėjimą, pagerinti jo aštrumą ar gyventi be akinių, po išsamios akių diagnostikos oftalmologas gali pasiūlyti regėjimo korekciją lazeriu kaip vieną iš galimų sprendimų. Konsultacijos metu įvertiname regėjimo sutrikimo tipą ir nustatome, ar lazerinis akių gydymas šiuo metu yra optimalus sprendimas.",
+                            "Mūsų klinika Vilniuje – privati akių ligų klinika ir regos centras, kuriame atliekama kompleksinė akių patikra ir teikiama detali gydytojo oftalmologo konsultacija. Mes aiškiai ir skaidriai paaiškiname realius lazerinės regos korekcijos privalumus, galimas rizikas ir apribojimus, paaiškiname, kaip vyksta atsigavimas po lazerinės regos korekcijos ir kokių taisyklių būtina laikytis po procedūros. Jūs gaunate aiškų gydymo planą ir suprantamus atsakymus į visus rūpimus klausimus.",
                         ],
                         image: "/images/lazer-preview.jpg",
-                        textUp: "1 млн",
-                        textDown: "проведено \nлазерних корекцій",
+                        textUp: "1 mln",
+                        textDown: "atlikta \nlazerinių korekcijų",
                     },
                 },
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Унікальна технологія холодної лазерної корекції — тільки в нашій клініці",
-                        text: "Лише у нас застосовується холодний метод лазерної корекції зору, що забезпечує максимальну безпеку для ваших очей.",
+                        title: "Unikali „šaltos“ lazerinės regos korekcijos technologija – tik mūsų klinikoje",
+                        text: "Tik mūsų lazerinė akių klinika Vilniuje taiko modernų „šaltos“ lazerinės regos korekcijos metodą, kuris užtikrina maksimaliai švelnų poveikį akies audiniams ir padidina procedūros saugumą. Toks akių gydymas lazeriu padeda pasiekti stabilų ir prognozuojamą rezultatą, išsaugant aukštus saugumo standartus.",
                         greenText:
-                            "Для тих, хто вибирає найкраще і не готовий до компромісу",
+                            "Tiems, kurie renkasi geriausią ir nėra pasirengę kompromisams",
                         list: [
                             {
                                 image: "/images/eagle.jpg",
@@ -1924,42 +1924,42 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: false,
                         data: [
                             {
-                                title: "Кому підходить лазерне відновлення зору",
+                                title: "Kam tinka lazerinė regos korekcija",
                                 image: "/images/lazer1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Лазерна корекція зору розглядається, коли людина хоче не просто «бачити трішки краще», а суттєво змінити якість життя: працювати за комп’ютером без перевтоми, займатися спортом, вільно подорожувати без запасних лінз.",
+                                                text: "Lazerinė regos korekcija paprastai svarstoma tais atvejais, kai žmogus nori ne tik „šiek tiek geriau matyti“, bet ir iš esmės pagerinti gyvenimo kokybę: patogiai dirbti kompiuteriu be nuolatinės akių įtampos, užsiimti sportu, laisvai keliauti be atsarginių lęšių ir kelių akinių porų.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Вона може підходити пацієнтам із:",
+                                                text: "Ši procedūra gali būti tinkama pacientams, turintiems:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "короткозорістю (міопією);",
-                                                    "далекозорістю (гіперметропією);",
-                                                    "астигматизмом.",
+                                                    "trumparegystę (miopiją);",
+                                                    "toliaregystę (hipermetropiją);",
+                                                    "astigmatizmą.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "На прийомі лікар відповідає на головні питання:як вилікувати зір, як можна відновити зір, чи можна відновити зір без операції, чи потрібна саме операція. Частині пацієнтів ми рекомендуємо спостереження, лікування супутніх захворювань, зміну режиму роботи очей або інші методи – чесно пояснюючи, чому зробити лазерну корекцію зараз рано або недоцільно.",
+                                                text: "Konsultacijos metu oftalmologas atsako į pagrindinius klausimus: kaip pagerinti regėjimą, ar jūsų atveju įmanomas dalinis regėjimo pagerėjimas be operacijos ir ar tikrai būtina chirurginė akių regėjimo korekcija lazeriu. Kai kuriems pacientams rekomenduojame dinaminį stebėjimą, gretutinių akių ligų gydymą, regos krūvio režimo korekciją ar kitus metodus – detaliai paaiškindami, kodėl lazerinės regos korekcijos šiuo metu atlikti dar anksti arba ji nėra tikslinga.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Тому рішення ухвалюється не за рекламою, а на основі реального стану очей, відгуків інших пацієнтів, медичних показань і ваших очікувань.",
+                                                text: "Todėl sprendimas dėl lazerinės regos korekcijos priimamas ne remiantis reklama, o pagal realią akių būklę, pacientų atsiliepimus ir rekomendacijas, medicinines indikacijas, jūsų lūkesčius ir gyvenimo būdą.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Скільки коштує лазерна корекція зору",
+                                title: "Kiek kainuoja lazerinė regos korekcija",
                                 image: "/images/lazer2.jpg",
                                 text: [
                                     {
@@ -1967,15 +1967,21 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Перше запитання більшості пацієнтів – скільки коштує лазерна корекція зору, яка ціна на лазерну корекцію зору та корекція очей лазером ціна саме в нашій клініці. Вартість залежить від обраного методу, складності вашого випадку, стану рогівки та обсягу спостереження після операції. Під час обстеження та консультації лікаря ви отримуєте прозорий розрахунок: що входить у ціну на корекцію зору та відновлення зору лазером (діагностика, лікування, контрольні огляди, спостереження в післяопераційний період).",
+                                                text: "Vienas dažniausių pacientų klausimų – kiek kainuoja lazerinė regos korekcija Vilniuje, kaip formuojama lazerinės regėjimo korekcijos kaina ir kiek konkrečiai atsieis lazerinė akių korekcija mūsų klinikoje. Galutinė kaina priklauso nuo pasirinktos technologijos, klinikinės situacijos sudėtingumo, ragenos būklės ir tolesnio stebėjimo apimties.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Найточнішу відповідь на питання «скільки коштує відновлення зору лазером у моєму випадку?» ви отримаєте після очного прийому: лікар оцінить стан очей, пояснить переваги, можливі недоліки та протипоказання, а також дасть чесну рекомендацію, чи варто робити лазерну корекцію зору саме зараз і який формат лікування буде для вас найкращим.",
+                                                gap: true,
+                                                text: "Diagnostikos ir konsultacijos metu jūs gaunate aiškų paaiškinimą, kas tiksliai įskaičiuota į regėjimo korekcijos lazeriu kainą ir regos atkūrimo lazeriu sąnaudas: išsami akių diagnostika, pati procedūra, kontroliniai apsilankymai ir pooperacinė priežiūra.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "Tiksliausią atsakymą į klausimą „kiek kainuos regėjimo atkūrimas lazeriu būtent mano atveju?“ suteikia gydytojas po tiesioginio akių ištyrimo: įvertinama akių būklė, paaiškinama galima nauda, galimos rizikos ir apribojimai, taip pat pateikiama sąžininga rekomendacija, ar verta lazerinę regos korekciją atlikti dabar ir koks gydymo variantas jums būtų tinkamiausias.",
                                             },
                                         ],
                                         greenText:
-                                            "Окремо ми інформуємо про чинні акції та знижки, щоб ви могли обрати найкращий варіант за ціною та умовами саме для себе.",
+                                            "Papildomai informuojame apie galiojančias akcijas, nuolaidas ir specialius pasiūlymus, kad galėtumėte pasirinkti optimalų gydymo variantą pagal kainą ir sąlygas Lietuvoje.",
                                     },
                                 ],
                             },
@@ -1987,24 +1993,28 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: false,
                         paddingBottom: false,
-                        listTitle: "Як відбувається лазерна корекція?",
+                        listTitle: "Kaip vyksta lazerinė regos korekcija?",
                         list: [
                             {
-                                itemTitle: "Діагностика зору",
+                                itemTitle: "Regos diagnostika",
                                 itemText: [
-                                    "Лазерна корекція зору завжди починається з повної діагностики та консультації. Спочатку пацієнт проходить комплексне обстеження: перевіряється гострота зору, робиться топографія рогівки, вимірюється її товщина та форма, лікар оглядає очне дно та оцінює загальний стан очей. На основі цих даних лікар пояснює, як у вашому випадку можна відновити зір, чи підходить вам лазерне відновлення зору, які є переваги, можливі недоліки та протипоказання, і дає попередні рекомендації щодо підготовки до процедури.",
+                                    "Bet kuri lazerinė regos korekcija prasideda nuo išsamios instrumentinės diagnostikos ir oftalmologo konsultacijos. Pirmiausia atliekamas kompleksinis akių patikrinimas: įvertinama regėjimo aštrumas, atliekama ragenos topografija, matuojamas jos storis ir kreivumas, gydytojas apžiūri akių dugną ir bendrai įvertina akių būklę.",
+                                    "Remdamasis gautais duomenimis specialistas paaiškina, kaip jūsų atveju galima pagerinti regėjimą, ar jums tinka akių regėjimo korekcija lazeriu, kokie yra jos privalumai, galimi trūkumai ir kontraindikacijos, taip pat pateikia preliminarias rekomendacijas, kaip pasirengti procedūrai.",
                                 ],
                             },
                             {
-                                itemTitle: "лазерна корекція",
+                                itemTitle: "Lazerinė regos korekcija",
                                 itemText: [
-                                    "Це безпосередньо процедура лазерної корекції. Перед початком в очі закапують місцеву анестезію, щоб зняти дискомфорт. Після цього хірург проводить корекцію очей лазером за індивідуальними параметрами, змінюючи форму рогівки так, щоб світло правильно фокусувалось на сітківці. Робота лазера триває лічені хвилини, і більшість пацієнтів відзначають лише легкий тиск чи незвичні відчуття, а не виражений біль. Одразу після операції проводиться короткий огляд, лікар перевіряє стан очей та пояснює, як поводитися в перші години після втручання.",
+                                    "Šiame etape atliekama pati lazerinė regos korekcija. Prieš pradžią į akis sulašinami vietinio poveikio nuskausminantys lašai, kad procedūra būtų komfortiška ir neskausminga. Tuomet chirurgas pagal individualiai apskaičiuotus parametrus lazeriu koreguoja ragenos formą, kad šviesos spinduliai tinkamai fokusuotųsi tinklainėje. Lazerio darbas trunka vos kelias minutes, o dauguma pacientų jaučia tik lengvą spaudimą ar neįprastą pojūtį, bet ne ryškų skausmą.",
+                                    "Iškart po procedūros atliekamas trumpas patikrinimas, gydytojas įvertina akių būklę ir paaiškina, kaip elgtis pirmosiomis valandomis po intervencijos.",
                                 ],
                             },
                             {
-                                itemTitle: "контрольний огляд",
+                                itemTitle:
+                                    "Kontrolinis patikrinimas ir atsigavimas",
                                 itemText: [
-                                    "Відновлення після лазерної корекції зору та дотримання рекомендацій. Пацієнт отримує чіткі письмові інструкції: як закапувати краплі, скільки відпочивати, які саме обмеження після лазерної корекції зору діють у перші дні та тижні. Лікар розповідає, коли можна повернутися до роботи за комп’ютером, активного спорту, відвідування басейну та сауни, а також пояснює, які симптоми є нормальними в період загоєння, а в яких випадках потрібно звернутися за терміновою допомогою. Регулярні контрольні огляди допомагають відстежити процес загоєння, закріпити результат та довгостроково вилікувати зір.",
+                                    "Toliau seka atsigavimo po lazerinės regos korekcijos laikotarpis ir rekomendacijų laikymasis. Pacientui pateikiamos išsamios rašytinės instrukcijos: kaip taisyklingai lašinti akių lašus, kiek laiko skirti poilsiui, kokie apribojimai galioja po lazerinės korekcijos artimiausiomis dienomis ir savaitėmis.",
+                                    "Gydytojas paaiškina, kada galima sugrįžti prie darbo kompiuteriu, aktyvių treniruočių, baseino ar pirties, taip pat paaiškina, kokie pojūčiai yra normalūs gijimo laikotarpiu ir kokiais atvejais būtina skubi pagalba bei nedelsiant kreiptis į kliniką. Reguliarūs kontroliniai vizitai leidžia stebėti gijimo eigą, įtvirtinti rezultatą ir ilgalaikiai pagerinti regėjimo kokybę.",
                                 ],
                             },
                         ],
@@ -2022,21 +2032,21 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         paddingBottom: false,
-                        title: "Переваги лазерної корекції зору в Києві в Британському Офтальмологічному Центрі",
-                        text: "Ви можете бути впевнені в якості послуг, що надаються, так як довіряєте свій зір сучасній клініці",
+                        title: "Lazerinės regos korekcijos privalumai mūsų klinikoje Vilniuje",
+                        text: "Galite būti tikri dėl teikiamų paslaugų kokybės, nes patikite savo regėjimą moderniai oftalmologijos ir akių ligų klinikai Lietuvoje",
                         list: [
                             {
-                                title: "Досвідчені хірурги та команда",
-                                text: "Операції проводять офтальмохірурги, які спеціалізуються саме на лазерному відновленні зору. Постійне навчання, участь у конгресах і фахові курси – основа безпечного лікування.",
+                                title: "Patyrę chirurgai ir komanda",
+                                text: "Operacijas atlieka oftalmologai–chirurgai, kurie specializuojasi lazerinėje regos korekcijoje ir ragenos ligų chirurginiame gydyme. Nuolatinis dalyvavimas tarptautiniuose kongresuose, seminaruose ir mokymuose užtikrina šiuolaikinių metodikų taikymą ir aukštą saugumo lygį.",
                             },
                             {
-                                title: "Відгуки та рекомендації пацієнтів",
-                                text: "Реальні відгуки, особисті історії, коментарі, відео- та текстові рекомендації допомагають побачити не лише медичну сторону, а й емоційний результат: як люди описують своє життя після того, як вирішили зробити лазерну корекцію.",
+                                title: "Pacientų atsiliepimai ir rekomendacijos",
+                                text: "Realūs pacientų atsiliepimai, istorijos, komentarai, taip pat vaizdo ir teksto rekomendacijos padeda pamatyti ne tik medicininį rezultatą, bet ir tai, kaip pasikeičia žmonių gyvenimas po to, kai jie pasirenka lazerinę regos korekciją Vilniuje.",
                             },
                             { imageOnly: "/images/safety3.jpg" },
                             {
-                                title: "Повний цикл: від обстеження до відновлення",
-                                text: "Наші пацієнти отримують все в одному місці: обстеження, консультацію лікаря, операцію, план відновлення після лазерної корекції зору та довгостроковий нагляд. Не потрібно шукати, «куди піти» і кого попросити порадити – у нас усе в одній клініці.",
+                                title: "Pilnas gydymo ciklas: nuo diagnostikos iki atsigavimo",
+                                text: "Mūsų pacientai visas paslaugas gauna vienoje vietoje: kompleksinį akių patikrinimą, oftalmologo konsultaciją, lazerinę operaciją, detalų atsigavimo po lazerinės regos korekcijos planą ir ilgalaikį stebėjimą. Jums nereikia atskirai ieškoti, kur atlikti diagnostiką ir kur kreiptis dėl rekomendacijų – visa reikalinga pagalba teikiama mūsų regos klinikoje.",
                             },
                         ],
                     },
@@ -2044,8 +2054,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenCard",
                     data: {
-                        title: "Операція безболісна та триває не більше 7 хвилин",
-                        text: "Використовується високоточне лазерне обладнання та діагностичні системи, що дозволяють максимально індивідуалізувати коригування зору лазером і зменшити ризики.",
+                        title: "Procedūra praktiškai neskausminga ir trunka ne ilgiau kaip 7 minutes",
+                        text: "Naudojame aukštos raiškos lazerinę įrangą ir pažangias diagnostikos sistemas, leidžiančias maksimaliai individualizuoti lazerinę regos korekciją, sumažinti rizikas ir užtikrinti prognozuojamą rezultatą.",
                     },
                 },
                 {
@@ -2059,85 +2069,85 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про лазерну корекцію зору",
+                        title: "Dažniausiai užduodami klausimai apie lazerinę regos korekciją",
                         content: [
                             {
                                 question:
-                                    "Що таке лазерна корекція зору і чим вона відрізняється від «звичайного лікування»?",
+                                    "Kas yra lazerinė regos korekcija ir kuo ji skiriasi nuo „įprasto gydymo“?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Лазерна корекція зору – це лазерне відновлення зору, під час якого змінюється форма рогівки, щоб світло правильно фокусувалося на сітківці. Це не просто «краплі чи вправи», а хірургічний метод для тих, хто хоче суттєво зменшити залежність від окулярів та лінз.",
+                                        text: "Lazerinė regos korekcija – tai regos atkūrimo lazeriu metodas, kurio metu pakeičiama ragenos forma taip, kad šviesa tinkamai fokusuotųsi tinklainėje. Tai nėra lašų kursas ar akių mankšta, o chirurginė technologija tiems, kurie nori reikšmingai sumažinti priklausomybę nuo akinių ir kontaktinių lęšių ir siekia stabilesnės regėjimo kokybės.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки коштує лазерна корекція зору?",
+                                    "Kiek kainuoja lazerinė regos korekcija?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Ціна на лазерну корекцію зору, так само як і відновлення зору лазером ціна, залежить від методу, складності випадку та обсягу спостереження. Точну вартість ви дізнаєтеся після повного обстеження і консультації. Адміністратор також розповість про актуальні акції та знижки.",
+                                        text: "Lazerinės regos korekcijos kaina, kaip ir regos atkūrimo lazeriu sąnaudos, priklauso nuo taikomo metodo, klinikinio atvejo sudėtingumo ir tolesnio stebėjimo apimties. Konkrečią gydymo kainą mūsų klinikoje Vilniuje sužinosite po pilnos diagnostikos ir išsamios oftalmologo konsultacijos. Administratorius papildomai informuos apie galiojančias akcijas, nuolaidas ir galimus sutaupymo būdus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи можна відновити зір без операції?",
+                                    "Ar galima atkurti regėjimą be operacijos?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "У деяких ситуаціях можна частково відновити зір без операції – за рахунок правильно підібраних окулярів, лінз, лікування супутніх захворювань, корекції режиму роботи. Але якщо ви хочете суттєво змінити якість зору, лікар може порадити корекцію очей лазером як найефективніший варіант.",
+                                        text: "Kai kuriais atvejais regėjimą iš dalies pagerinti be operacijos tikrai įmanoma – parinkus tinkamus akinius ar kontaktinius lęšius, gydant gretutines akių ligas ir koreguojant regos krūvio įpročius. Tačiau jei siekiate kuo labiau sumažinti priklausomybę nuo optikos ir gauti stabilesnį rezultatą, gydytojas gali rekomenduoti lazerinę regos korekciją kaip efektyviausią regos atkūrimo metodą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які є протипоказання до лазерної корекції зору?",
+                                    "Kokios yra lazerinės regos korekcijos kontraindikacijos?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Є ситуації, коли ми не рекомендуємо зробити лазерну корекцію: занадто тонка рогівка, активні запальні процеси, деякі системні захворювання, вагітність і лактація, нестабільний зір тощо. Лікар пояснить протипоказання саме у вашому випадку і, за потреби, запропонує альтернативне лікування.",
+                                        text: "Yra situacijų, kai lazerinė regos korekcija nerekomenduojama: ryškiai suplonėjusi ragena, aktyvūs uždegiminiai procesai akyse, tam tikros sisteminės ligos, nėštumas ir žindymo laikotarpis, nestabilus regėjimas ir kitos būklės. Oftalmologas detaliai paaiškins kontraindikacijas būtent jūsų atveju ir pasiūlys alternatyvius gydymo būdus, jei lazerinė operacija laikinai ar visam laikui jums netinka.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які обмеження після лазерної корекції зору?",
+                                    "Kokie apribojimai taikomi po lazerinės regos korekcijos?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Перший час важливо дотримуватися обмежень після лазерної корекції зору: не терти очі, уникати басейну, сауни, сильних фізичних навантажень, пилу та бруду. Ви отримаєте письмові рекомендації по відновленню після лазерної корекції зору та графік контрольних оглядів.",
+                                        text: "Pirmosiomis dienomis po procedūros ypač svarbu griežtai laikytis apribojimų: netrinti akių, vengti baseino, pirties, intensyvios fizinės veiklos, dulkių ir kitų teršalų patekimo į akis. Jums bus pateiktos rašytinės rekomendacijos dėl atsigavimo, akių lašų vartojimo schemos ir individualus kontrolinių vizitų grafikas mūsų klinikoje Vilniuje.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які можливі побічні ефекти та коли потрібна термінова допомога?",
+                                    "Kokie galimi šalutiniai reiškiniai ir kada būtina skubi pagalba?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Нормально, якщо тимчасово відчувається сухість, легке печіння, чутливість до світла. Якщо ж з’являється різкий біль, раптове погіршення зору, «затемнення» або сильний набряк – це привід негайно звернутися за терміновою допомогою в клініку.",
+                                        text: "Gijimo laikotarpiu normalūs pojūčiai yra laikinas akių sausumas, lengvas perštėjimas, „smėlio“ pojūtis akyse ir padidėjęs jautrumas šviesai. Tačiau jei atsiranda staigus skausmas, netikėtas regėjimo pablogėjimas, „pataamsėjimas“ ar ryškus tinimas, tai yra priežastis nedelsiant kreiptis dėl skubios pagalbos į kliniką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи боляче робити лазерну корекцію зору?",
+                                    "Ar skauda atliekant lazerinę regos korekciją?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Процедура проходить під місцевою крапельною анестезією. Більшість пацієнтів відзначають лише відчуття тиску або легкого дискомфорту. У відгуках пацієнти часто пишуть, що процедура була значно легшою, ніж вони очікували.",
+                                        text: "Procedūra atliekama taikant vietinę lašinę nejautrą. Dauguma pacientų mini tik lengvą spaudimą ar neįprastą diskomfortą, tačiau ne ryškų skausmą. Daugybėje atsiliepimų žmonės pažymi, kad lazerinė regos korekcija realybėje toleruojama daug lengviau, nei jie tikėjosi prieš operaciją.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Як обрати клініку для корекції очей лазером?",
+                                    "Kaip išsirinkti kliniką lazerinei regos korekcijai?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Зважайте на досвід лікарів, обладнання, прозорість інформації про вартість, наявність реальних відгуків та рекомендацій. Якщо ви не знаєте, куди піти і кого запитати, можна записатися на консультацію лікаря у нашу клініку: ви отримаєте професійний огляд, чесну оцінку стану очей і відповідь на питання «чи варто мені робити лазерну корекцію зору».",
+                                        text: "Rinkdamiesi kliniką lazerinei regos korekcijai atkreipkite dėmesį į oftalmologų–chirurgų patirtį, naudojamą įrangą, kainodaros skaidrumą, realius pacientų atsiliepimus ir rekomendacijas. Jei dar nesate apsisprendę, kur kreiptis Vilniuje, galite registruotis konsultacijai mūsų klinikoje: atliksime profesionalų akių patikrinimą, sąžiningai įvertinsime jūsų akių būklę ir atsakysime į klausimą, ar lazerinė regos korekcija jums tinkama dabar ir koks gydymo variantas būtų geriausias būtent jums.",
                                     },
                                 ],
                             },
@@ -2163,7 +2173,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "Laser \nVision Correction",
-                        text: "This method allows people with poor vision to return to normal life without glasses or contact lenses.",
+                        text: "This method helps people with visual disorders return to their usual active lifestyle without constantly depending on glasses or contact lenses.",
                         adress: true,
                         videoSmallScreens: "/videos/lazer-hero-tab.mp4",
                         videoBigScreens: "/videos/lazer-desk-hero.mp4",
@@ -2172,10 +2182,10 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        title: "Laser Vision Correction in a Private Clinic in Kyiv",
+                        title: "Laser vision correction at a private clinic in Vilnius",
                         text: [
-                            "Laser vision correction is a modern laser eye treatment that helps reduce dependence on glasses and contact lenses. If you are wondering how to restore your vision, how to correct your eyesight, or how to improve your vision without glasses, the doctor may recommend laser vision correction after a full examination. During the consultation, we assess your type of refractive error and determine whether it is truly advisable to undergo laser correction at this time.",
-                            "Our center is a private ophthalmology clinic where you undergo a complete examination and receive a detailed consultation with a doctor. We openly discuss the real benefits, possible drawbacks, and contraindications, and we explain what the recovery after laser vision correction will look like and what restrictions you may have after the procedure. You receive a clear treatment plan and answers to all your questions.",
+                            "Laser vision correction is a modern method of correcting vision with a laser, allowing you to significantly reduce the need for glasses and contact lenses. If you are looking for a way to restore your vision, improve its sharpness or live without glasses, an ophthalmologist may recommend laser vision correction as one of the options after a comprehensive eye examination. During the consultation, we assess the type of refractive error and determine whether laser eye treatment is currently the optimal solution.",
+                            "Our clinic in Vilnius is a private eye clinic and vision centre where you undergo comprehensive eye diagnostics and receive a detailed consultation with an ophthalmologist. We clearly and transparently explain the real benefits of laser vision correction, possible risks and limitations, and describe how recovery after laser correction proceeds and which rules are important to follow after the procedure. You receive a clear treatment plan and straightforward answers to all your questions.",
                         ],
                         image: "/images/lazer-preview.jpg",
                         textUp: "1 m",
@@ -2185,8 +2195,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Unique cold laser correction technology — only in our clinic",
-                        text: "Only we use the cold laser vision correction method, ensuring maximum safety for your eyes.",
+                        title: "Unique “cold” laser vision correction technology – only in our clinic",
+                        text: "Only our laser eye clinic in Vilnius uses a modern “cold” laser vision correction method, which ensures an exceptionally gentle effect on the eye tissues and increases the safety of the procedure. This type of laser eye treatment helps achieve a stable and predictable result while maintaining high safety standards.",
                         greenText:
                             "For those who choose the best and accept no compromise",
 
@@ -2212,35 +2222,35 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: false,
                         data: [
                             {
-                                title: "Who Laser Vision Correction Is Suitable For",
+                                title: "Who is laser vision correction suitable for?",
                                 image: "/images/lazer1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Laser vision correction is considered when a person wants not just to “see a bit better” but to significantly improve their quality of life: work at a computer without eye strain, play sports, travel freely without carrying spare lenses.",
+                                                text: "Laser vision correction is usually considered in cases where a person wants not just to “see a bit better”, but to substantially improve their quality of life: to work comfortably at a computer without constant eye strain, to play sports, to travel freely without spare lenses and several pairs of glasses.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "It may be suitable for patients with:",
+                                                text: "The procedure may be suitable for patients with:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "myopia (nearsightedness);",
-                                                    "hyperopia (farsightedness);",
+                                                    "myopia (short-sightedness);",
+                                                    "hyperopia (long-sightedness);",
                                                     "astigmatism.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "During the appointment, the doctor answers key questions: how to improve vision, whether vision can be restored without surgery, and whether surgery is actually necessary. For some patients, we recommend monitoring, treatment of accompanying conditions, adjusting visual habits, or other methods — honestly explaining why laser correction may be premature or not advisable right now.",
+                                                text: "During the consultation, the ophthalmologist answers key questions: how your vision can be improved, whether partial improvement is possible in your case without surgery, and whether surgical laser vision correction is truly necessary. For some patients, we recommend dynamic monitoring, treatment of concomitant eye conditions, adjustment of visual load, or other methods – explaining in detail why it may be too early or not reasonable to perform laser correction at this time.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Therefore, the decision is not based on advertising, but on the actual condition of your eyes, feedback from other patients, medical indications, and your expectations.",
+                                                text: "Therefore, the decision about laser vision correction is made not on the basis of advertising, but according to the real condition of your eyes, patient feedback and recommendations, medical indications, and your expectations and lifestyle.",
                                             },
                                         ],
                                     },
@@ -2255,15 +2265,21 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "The first question most patients ask is how much laser vision correction costs, what the price of laser eye correction is, and what the cost of laser eye surgery is specifically in our clinic. The price depends on the chosen method, the complexity of your case, the condition of the cornea, and the volume of postoperative follow-up. During your examination and consultation, you receive a transparent breakdown of what is included in the cost of laser correction and vision restoration (diagnostics, treatment, follow-up visits, postoperative care).",
+                                                text: "One of the most common questions patients ask is: how much does laser vision correction in Vilnius cost, how is the price of laser vision correction determined, and what will laser eye correction cost specifically at our clinic? The final price depends on the chosen technology, the complexity of the clinical situation, the condition of the cornea, and the scope of further follow-up.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "The most accurate answer to the question “how much will laser vision restoration cost in my case?” you will receive after an in-person visit: the doctor will evaluate the condition of your eyes, explain the benefits, possible risks, and contraindications, and give an honest recommendation on whether you should undergo laser correction now and which treatment approach will be best for you.",
+                                                gap: true,
+                                                text: "During diagnostics and consultation, you receive a clear explanation of what exactly is included in the price of laser vision correction and laser vision restoration: comprehensive eye diagnostics, the procedure itself, follow-up visits and postoperative care.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "The most accurate answer to the question “how much will laser vision restoration cost in my case?” is given by the doctor after a face-to-face examination: the condition of your eyes is assessed, potential benefits, risks and limitations are explained, and an honest recommendation is provided as to whether it is worth performing laser correction now and which treatment option would be the most suitable for you.",
                                             },
                                         ],
                                         greenText:
-                                            "We also inform you about current promotions and discounts so you can choose the best option in terms of price and conditions.",
+                                            "We additionally inform you about current promotions, discounts and special offers so that you can choose the optimal treatment option in terms of price and conditions in Lithuania.",
                                     },
                                 ],
                             },
@@ -2275,24 +2291,27 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: false,
                         paddingBottom: true,
-                        listTitle: "How does laser vision correction work?",
+                        listTitle: "How is laser vision correction performed?",
                         list: [
                             {
                                 itemTitle: "Vision diagnostics",
                                 itemText: [
-                                    "Laser vision correction always begins with a full diagnostic examination and consultation. First, the patient undergoes a comprehensive check-up: visual acuity is tested, corneal topography is performed, its thickness and shape are measured, the doctor examines the fundus and assesses the overall condition of the eyes. Based on this data, the doctor explains how vision can be restored in your case, whether laser vision correction is suitable for you, what advantages, possible drawbacks, and contraindications there are, and provides preliminary preparation recommendations.",
+                                    "Any laser vision correction begins with comprehensive instrumental diagnostics and an ophthalmologist’s consultation. First, a full eye examination is carried out: visual acuity is assessed, corneal topography is performed, its thickness and curvature are measured, the fundus is examined and the overall condition of the eyes is evaluated.",
+                                    "Based on these data, the specialist explains how your vision can be improved in your specific case, whether laser vision correction is suitable for you, what its advantages, possible drawbacks and contraindications are, and provides preliminary recommendations on how to prepare for the procedure.",
                                 ],
                             },
                             {
-                                itemTitle: "Laser correction",
+                                itemTitle: "Laser vision correction",
                                 itemText: [
-                                    "This is the laser correction procedure itself. Before starting, local anesthetic drops are applied to relieve discomfort. After that, the surgeon performs laser eye correction based on individual parameters, reshaping the cornea so that light focuses correctly on the retina. The laser work lasts only a few minutes, and most patients report only mild pressure or unusual sensations rather than real pain. Immediately after the procedure, a short examination is performed — the doctor checks the condition of the eyes and explains how to behave in the first hours after the intervention.",
+                                    "At this stage, the laser vision correction procedure itself is performed. Before the procedure, local anaesthetic eye drops are instilled to ensure comfort and eliminate pain. The surgeon then reshapes the cornea with a laser according to individually calculated parameters so that light rays are properly focused on the retina. The laser work itself takes only a few minutes, and most patients report only mild pressure or an unusual sensation, but not marked pain.",
+                                    "Immediately after the procedure, a short examination is performed, the doctor evaluates the condition of the eyes and explains how to behave during the first hours after the intervention.",
                                 ],
                             },
                             {
-                                itemTitle: "Follow-up examination",
+                                itemTitle: "Follow-up visit and recovery",
                                 itemText: [
-                                    "Recovery after laser vision correction and following the recommendations. The patient receives clear written instructions: how to use the eye drops, how much rest is needed, and what restrictions apply in the first days and weeks after laser correction. The doctor explains when you can return to computer work, active sports, swimming pool activities, or sauna visits, as well as which symptoms are normal during healing and in which cases you should seek urgent medical help. Regular follow-up visits help monitor the healing process, maintain the result, and ensure long-term vision improvement.",
+                                    "The next phase is the recovery period after laser vision correction and adherence to the given recommendations. The patient receives detailed written instructions: how to apply eye drops correctly, how much time to allocate for rest, and which restrictions apply in the first days and weeks after laser correction.",
+                                    "The doctor explains when it is possible to return to computer work, active training, using the swimming pool or sauna, and also clarifies which sensations are normal during healing and in which situations urgent medical attention is required. Regular follow-up visits make it possible to monitor the healing process, consolidate the result and improve the quality of vision over the long term.",
                                 ],
                             },
                         ],
@@ -2310,21 +2329,21 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         paddingBottom: false,
-                        title: "Advantages of laser vision correction in Kyiv at the British Ophthalmology Center",
-                        text: "You can be confident in the quality of the services provided, as you entrust your vision to a modern clinic.",
+                        title: "Advantages of laser vision correction at our clinic in Vilnius",
+                        text: "You can be confident in the quality of the care you receive, as you entrust your vision to a modern ophthalmology and eye disease clinic in Lithuania.",
                         list: [
                             {
                                 title: "Experienced surgeons and team",
-                                text: "The procedures are performed by ophthalmic surgeons who specialize specifically in laser vision correction. Continuous training, participation in congresses, and professional courses form the foundation of safe treatment.",
+                                text: "Procedures are performed by ophthalmic surgeons who specialise in laser vision correction and surgical treatment of corneal diseases. Their ongoing participation in international congresses, seminars and training programmes ensures the use of up-to-date techniques and a high level of safety.",
                             },
                             {
-                                title: "Patient reviews and recommendations",
-                                text: "Real reviews, personal stories, comments, and video or text testimonials help you see not only the medical aspect but also the emotional result — how people describe their life after deciding to undergo laser vision correction.",
+                                title: "Patient feedback and recommendations",
+                                text: "Real patient reviews, personal stories, comments, as well as video and written testimonials help you see not only the medical outcome, but also how people’s lives change after they choose laser vision correction in Vilnius.",
                             },
                             { imageOnly: "/images/safety3.jpg" },
                             {
-                                title: "Full cycle: from diagnostics to recovery",
-                                text: "Our patients receive everything in one place: examination, doctor’s consultation, surgery, a recovery plan after laser vision correction, and long-term follow-up. There’s no need to search for where to go or whom to ask for advice — everything is provided within our clinic.",
+                                title: "Full treatment cycle: from diagnostics to recovery",
+                                text: "Our patients receive all stages of care in one place: comprehensive eye examination, ophthalmologist consultation, laser surgery, a detailed recovery plan after laser vision correction and long-term follow-up. You do not need to separately look for where to undergo diagnostics or where to get recommendations – all the necessary assistance is provided in our vision clinic.",
                             },
                         ],
                     },
@@ -2332,8 +2351,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenCard",
                     data: {
-                        title: "The procedure is painless and lasts no more than 7 minutes",
-                        text: "High-precision laser equipment and diagnostic systems are used, allowing vision correction with a laser to be highly individualized and minimizing risks.",
+                        title: "The procedure is virtually painless and takes no longer than 7 minutes",
+                        text: "We use high-precision laser equipment and advanced diagnostic systems, which allow us to maximise the individualisation of laser vision correction, reduce risks and ensure a predictable outcome.",
                     },
                 },
                 {
@@ -2352,11 +2371,11 @@ export const servicesData: ServicesProps[] = [
                         content: [
                             {
                                 question:
-                                    "What is laser vision correction and how is it different from “regular treatment”?",
+                                    "What is laser vision correction and how does it differ from “usual treatment”?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Laser vision correction is a laser eye procedure that reshapes the cornea so that light focuses properly on the retina. It is not just “drops or exercises”, but a surgical method for those who want to significantly reduce their dependence on glasses or contact lenses.",
+                                        text: "Laser vision correction is a method of restoring vision with a laser, in which the shape of the cornea is changed so that light is properly focused on the retina. It is not a course of eye drops or eye exercises, but a surgical technology for those who want to significantly reduce their dependence on glasses and contact lenses and achieve more stable visual quality.",
                                     },
                                 ],
                             },
@@ -2366,17 +2385,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The price of laser vision correction, as well as the cost of laser eye restoration, depends on the method, case complexity, and follow-up volume. You will learn the exact cost after a full examination and consultation. The administrator will also inform you about current promotions and discounts.",
+                                        text: "The cost of laser vision correction, as well as the cost of laser vision restoration, depends on the technique used, the complexity of the clinical case, and the scope of further follow-up. You will learn the exact price of treatment at our clinic in Vilnius after a full examination and a detailed consultation with an ophthalmologist. Our administrator will additionally inform you about current promotions, discounts and possible ways to save.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Is it possible to improve vision without surgery?",
+                                    "Can vision be restored without surgery?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "In some cases, vision can be partially improved without surgery—through properly selected glasses or lenses, treatment of related conditions, and adjusting visual workload. But if you want a significant improvement in vision quality, the doctor may recommend laser eye correction as the most effective option.",
+                                        text: "In some cases, it is indeed possible to partially improve vision without surgery – by selecting appropriate glasses or contact lenses, treating concomitant eye diseases and changing visual habits. However, if you wish to minimise your dependence on optical aids and achieve a more stable result, your doctor may recommend laser vision correction as the most effective method of restoring vision.",
                                     },
                                 ],
                             },
@@ -2386,27 +2405,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "There are situations in which we do not recommend undergoing laser correction: a cornea that is too thin, active inflammation, certain systemic diseases, pregnancy or breastfeeding, unstable vision, etc. The doctor will explain the contraindications in your specific case and offer alternative treatment if needed.",
+                                        text: "There are situations in which laser vision correction is not recommended: a significantly thinned cornea, active inflammatory processes in the eyes, certain systemic diseases, pregnancy and breastfeeding, unstable vision, and a number of other conditions. The ophthalmologist will explain in detail the contraindications in your specific case and offer alternative treatment options if laser surgery is temporarily or permanently unsuitable for you.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What restrictions should be followed after laser vision correction?",
+                                    "What restrictions apply after laser vision correction?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "At first, it is important to follow restrictions after laser correction: avoid rubbing your eyes, swimming pools, saunas, intense physical activity, dust, and dirt. You will receive written postoperative recommendations and a schedule of follow-up visits.",
+                                        text: "In the first days after the procedure, it is particularly important to strictly follow the restrictions: do not rub your eyes, avoid swimming pools, saunas, intense physical activity, dust and contaminants entering the eyes. You will receive written recommendations for recovery, an eye-drop regimen and an individual schedule of follow-up visits at our clinic in Vilnius.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What side effects are possible and when is urgent help needed?",
+                                    "What possible side effects may occur and when is urgent help needed?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Temporary dryness, mild burning, or light sensitivity are normal. However, severe pain, sudden vision loss, “darkening”, or significant swelling are reasons to immediately seek urgent medical help at the clinic.",
+                                        text: "During the healing period, temporary eye dryness, mild burning, a sensation of “grit” in the eyes and increased sensitivity to light are considered normal. However, if you experience sudden pain, a rapid deterioration in vision, “darkening” of the image or pronounced swelling, this is a reason to seek urgent ophthalmic care at the clinic without delay.",
                                     },
                                 ],
                             },
@@ -2415,17 +2434,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The procedure is performed under local drop anesthesia. Most patients report only pressure or mild discomfort. Many note in their reviews that the procedure was much easier than they expected.",
+                                        text: "The procedure is performed under local topical anaesthesia. Most patients report only a feeling of mild pressure or unusual discomfort, but not marked pain. Many reviews note that laser vision correction in reality is tolerated much more easily than patients expected before surgery.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How to choose a clinic for laser eye correction?",
+                                    "How to choose a clinic for laser vision correction?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Consider the doctors’ experience, equipment, transparent pricing, real reviews, and recommendations. If you are unsure where to go, you can book a consultation at our clinic: you will receive a professional examination, an honest assessment of your eye condition, and an answer to the question “should I undergo laser vision correction?”.",
+                                        text: "When choosing a clinic for laser vision correction, pay attention to the experience of the ophthalmic surgeons, the level of equipment, price transparency, and the availability of real patient reviews and recommendations. If you have not yet decided where to go in Vilnius, you can book a consultation at our clinic: we will carry out a professional eye examination, honestly assess the condition of your eyes and answer whether laser vision correction is suitable for you now and which treatment option will be the most reasonable in your situation.",
                                     },
                                 ],
                             },
@@ -2451,7 +2470,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "Лазерная \nкоррекция зрения",
-                        text: "Этот метод позволяет людям с плохим зрением вернуться к нормальной жизни без очков и контактных линз.",
+                        text: "Этот метод помогает людям с нарушениями зрения вернуться к привычной активной жизни без постоянной зависимости от очков и контактных линз.",
                         adress: true,
                         videoSmallScreens: "/videos/lazer-hero-tab.mp4",
                         videoBigScreens: "/videos/lazer-desk-hero.mp4",
@@ -2460,10 +2479,10 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        title: "Лазерная коррекция зрения в частной клинике в Киеве",
+                        title: "Лазерная коррекция зрения в частной клинике в Вильнюсе",
                         text: [
-                            "Лазерная коррекция зрения — это современное лазерное восстановление зрения, которое помогает уменьшить зависимость от очков и контактных линз. Если вы задаётесь вопросом, как восстановить зрение, как улучшить остроту зрения или как обойтись без очков, врач может предложить лазерную коррекцию после полного обследования. Во время консультации мы оцениваем тип вашего нарушения зрения и определяем, действительно ли сейчас целесообразно выполнять лазерную коррекцию.",
-                            "Наш центр — частная офтальмологическая клиника, где вы проходите полное обследование и получаете детальную консультацию врача. Мы честно рассказываем о реальных преимуществах, возможных недостатках и противопоказаниях, объясняем, как будет проходить восстановление после лазерной коррекции и какие ограничения будут после процедуры. Вы получаете понятный план лечения и ответы на все вопросы.",
+                            "Лазерная коррекция зрения — это современный метод лазерного улучшения зрения, который позволяет значительно снизить необходимость в очках и контактных линзах. Если вы ищете способ, как восстановить зрение, повысить его остроту или жить без очков, после полноценного обследования офтальмолог может предложить лазерную коррекцию как один из вариантов. На консультации мы оцениваем тип нарушения зрения и определяем, действительно ли лазерное лечение зрения сейчас является оптимальным решением.",
+                            "Наша клиника в Вильнюсе — частный офтальмологический центр, где вы проходите комплексную диагностику и получаете подробную консультацию врача. Мы прозрачно рассказываем о реальных преимуществах, возможных рисках и ограничениях, объясняем, как проходит восстановление после лазерной коррекции и какие правила важно соблюдать после процедуры. Вы получаете чёткий план лечения и ясные ответы на все ваши вопросы.",
                         ],
                         image: "/images/lazer-preview.jpg",
                         textUp: "1 млн",
@@ -2474,7 +2493,7 @@ export const servicesData: ServicesProps[] = [
                     type: "methodsSection",
                     data: {
                         title: "Уникальная технология холодной лазерной коррекции – только в нашей клинике",
-                        text: "Только у нас применяется холодный метод лазерной коррекции зрения, обеспечивающий максимальную безопасность для ваших глаз.",
+                        text: "Только в нашей клинике в Вильнюсе используется современный «холодный» метод лазерной коррекции зрения, который обеспечивает максимально бережное воздействие на ткани глаза и повышает безопасность процедуры.",
                         greenText:
                             "Для тех, кто выбирает лучшее и не готов к компромиссам",
                         list: [
@@ -2506,11 +2525,11 @@ export const servicesData: ServicesProps[] = [
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Лазерная коррекция зрения рассматривается в тех случаях, когда человек хочет не просто «видеть немного лучше», а значительно улучшить качество жизни: работать за компьютером без переутомления глаз, заниматься спортом, свободно путешествовать без запасных линз.",
+                                                text: "Лазерная коррекция зрения рассматривается в тех случаях, когда человек хочет не просто «немного лучше видеть», а заметно улучшить качество жизни: комфортно работать за компьютером без постоянного напряжения глаз, заниматься спортом, свободно путешествовать без запасных линз и нескольких пар очков.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Она может подходить пациентам с:",
+                                                text: "Она может подойти пациентам с:",
                                             },
                                             {
                                                 type: "list",
@@ -2523,11 +2542,11 @@ export const servicesData: ServicesProps[] = [
                                             },
                                             {
                                                 type: "text",
-                                                text: "На приёме врач отвечает на главные вопросы: как улучшить зрение, можно ли восстановить зрение без операции и нужна ли операция в вашем случае. Некоторым пациентам мы рекомендуем наблюдение, лечение сопутствующих заболеваний, изменение режима зрительной нагрузки или другие методы — честно объясняя, почему лазерную коррекцию пока рано или нецелесообразно выполнять.",
+                                                text: "Во время приёма офтальмолог отвечает на ключевые вопросы: как улучшить зрение, можно ли в вашем случае частично восстановить зрение без операции и действительно ли необходима хирургическая коррекция. Некоторым пациентам мы рекомендуем динамическое наблюдение, лечение сопутствующих заболеваний, изменение режима зрительной нагрузки или другие методы — подробно объясняя, почему лазерную коррекцию сейчас выполнять рано или нецелесообразно.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Поэтому решение принимается не по рекламе, а на основании реального состояния глаз, отзывов других пациентов, медицинских показаний и ваших ожиданий.",
+                                                text: "Поэтому решение о лазерной коррекции принимается не по рекламе, а на основе реального состояния глаз, отзывов пациентов, медицинских показаний, ваших ожиданий и образа жизни.",
                                             },
                                         ],
                                     },
@@ -2542,15 +2561,21 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Первый вопрос, который задаёт большинство пациентов — сколько стоит лазерная коррекция зрения, какова цена на лазерную коррекцию зрения и сколько стоит лазерная коррекция глаз именно в нашей клинике. Стоимость зависит от выбранного метода, сложности вашего случая, состояния роговицы и объёма наблюдения после операции. Во время обследования и консультации вы получаете прозрачный расчёт: что входит в стоимость коррекции зрения и восстановления зрения лазером (диагностика, лечение, контрольные осмотры, послеоперационное наблюдение).",
+                                                text: "Один из первых вопросов, который задают пациенты: сколько стоит лазерная коррекция зрения в Вильнюсе, как формируется цена лазерной коррекции зрения и сколько будет стоить лазерная коррекция глаз именно в нашей клинике. Итоговая стоимость зависит от выбранной технологии, сложности клинической ситуации, состояния роговицы и объёма последующего наблюдения.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Наиболее точный ответ на вопрос «сколько стоит восстановление зрения лазером в моём случае?» вы получите после очного приёма: врач оценит состояние глаз, объяснит преимущества, возможные риски и противопоказания, а также даст честную рекомендацию, стоит ли делать лазерную коррекцию именно сейчас и какой формат лечения подойдёт вам лучше всего.",
+                                                gap: true,
+                                                text: "В ходе диагностики и консультации вы получаете понятный расчет, что именно входит в стоимость коррекции зрения и восстановления зрения лазером: обследование, само лечение, контрольные осмотры и послеоперационное сопровождение.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "аиболее точный ответ на вопрос «сколько будет стоить восстановление зрения лазером именно в моём случае?» вы получаете после очного осмотра: врач оценивает состояние глаз, объясняет потенциальные преимущества, возможные риски и ограничения, а также даёт честную рекомендацию, стоит ли выполнять лазерную коррекцию сейчас и какой формат лечения подойдёт вам лучше всего.",
                                             },
                                         ],
                                         greenText:
-                                            "Отдельно мы информируем о действующих акциях и скидках, чтобы вы могли выбрать лучший вариант по цене и условиям.",
+                                            "Отдельно мы информируем о действующих предложениях, акциях и скидках, чтобы вы могли выбрать оптимальный вариант по цене и условиям лечения зрения в Литве.",
                                     },
                                 ],
                             },
@@ -2567,19 +2592,22 @@ export const servicesData: ServicesProps[] = [
                             {
                                 itemTitle: "Диагностика зрения",
                                 itemText: [
-                                    "Лазерная коррекция зрения всегда начинается с полной диагностики и консультации. Сначала пациент проходит комплексное обследование: проверяется острота зрения, выполняется топография роговицы, измеряется её толщина и форма, врач осматривает глазное дно и оценивает общее состояние глаз. На основании этих данных врач объясняет, как можно восстановить зрение в вашем случае, подходит ли вам лазерное восстановление зрения, какие есть преимущества, возможные недостатки и противопоказания, а также даёт предварительные рекомендации по подготовке к процедуре.",
+                                    "Любая лазерная коррекция зрения начинается с полной инструментальной диагностики и консультации офтальмолога. Сначала пациент проходит комплексное обследование: проверяется острота зрения, выполняется топография роговицы, измеряются её толщина и кривизна, врач осматривает глазное дно и оценивает общее состояние глаз.",
+                                    "На основе этих данных специалист объясняет, как в вашем случае возможно улучшить зрение, подходит ли вам лазерное восстановление зрения, какие есть преимущества, потенциальные недостатки и противопоказания, а также даёт предварительные рекомендации по подготовке к процедуре.",
                                 ],
                             },
                             {
                                 itemTitle: "Лазерная коррекция",
                                 itemText: [
-                                    "Это непосредственно процедура лазерной коррекции. Перед началом в глаза закапывают местную анестезию, чтобы убрать дискомфорт. После этого хирург проводит коррекцию глаз лазером по индивидуальным параметрам, изменяя форму роговицы так, чтобы свет правильно фокусировался на сетчатке. Работа лазера занимает всего несколько минут, и большинство пациентов отмечают только лёгкое давление или необычные ощущения, а не выраженную боль. Сразу после операции проводится короткий осмотр, врач проверяет состояние глаз и объясняет, как себя вести в первые часы после вмешательства.",
+                                    "На этом этапе выполняется сама процедура лазерной коррекции. Перед началом в глаза закапывают местные анестезирующие капли, чтобы устранить болезненные ощущения. Затем хирург проводит коррекцию зрения лазером по индивидуальным параметрам, изменяя форму роговицы так, чтобы световые лучи правильно фокусировались на сетчатке. Работа лазера занимает всего несколько минут, и большинство пациентов описывают только лёгкое давление или необычные ощущения, но не выраженную боль.",
+                                    "Сразу после процедуры проводится короткий осмотр, врач оценивает состояние глаз и объясняет, как вести себя в первые часы после вмешательства.",
                                 ],
                             },
                             {
                                 itemTitle: "Контрольный осмотр",
                                 itemText: [
-                                    "Восстановление после лазерной коррекции зрения и соблюдение рекомендаций. Пациент получает чёткие письменные инструкции: как закапывать капли, сколько отдыхать, какие ограничения после лазерной коррекции действуют в первые дни и недели. Врач рассказывает, когда можно возвращаться к работе за компьютером, активному спорту, посещению бассейна и сауны, а также объясняет, какие симптомы являются нормальными в период заживления и в каких случаях нужно срочно обратиться за помощью. Регулярные контрольные осмотры помогают отслеживать процесс заживления, закреплять результат и надолго улучшать зрение.",
+                                    "Далее следует этап восстановления после лазерной коррекции зрения и соблюдения рекомендаций. Пациент получает подробные письменные инструкции: как правильно закапывать капли, сколько времени уделять отдыху, какие ограничения после лазерной коррекции действуют в ближайшие дни и недели.",
+                                    "Врач рассказывает, когда можно вернуться к работе за компьютером, активным тренировкам, посещению бассейна и сауны, а также объясняет, какие ощущения являются нормальными в период заживления и в каких ситуациях необходимо срочно связаться с клиникой. Регулярные контрольные визиты позволяют отслеживать процесс заживления, закреплять результат и надолго улучшать качество зрения.",
                                 ],
                             },
                         ],
@@ -2597,21 +2625,21 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         paddingBottom: false,
-                        title: "Преимущества лазерной коррекции зрения в Киеве в Британском Офтальмологическом Центре",
-                        text: "Вы можете быть уверены в качестве предоставляемых услуг, так как доверяете своё зрение современной клинике.",
+                        title: "Преимущества лазерной коррекции зрения в нашей клинике в Вильнюсе",
+                        text: "Вы можете быть уверены в качестве оказываемой помощи, так как доверяете своё зрение современной офтальмологической клинике в Литве.",
                         list: [
                             {
                                 title: "Опытные хирурги и команда",
-                                text: "Операции выполняют офтальмохирурги, которые специализируются именно на лазерном восстановлении зрения. Постоянное обучение, участие в конгрессах и профессиональные курсы — основа безопасного лечения.",
+                                text: "Операции выполняют офтальмохирурги, которые специализируются именно на лазерном восстановлении зрения и хирургическом лечении заболеваний роговицы. Постоянное участие в международных конгрессах, семинарах и обучающих программах обеспечивает актуальность методик и высокий уровень безопасности.",
                             },
                             {
                                 title: "Отзывы и рекомендации пациентов",
-                                text: "Реальные отзывы, личные истории, комментарии, видео- и текстовые рекомендации помогают увидеть не только медицинскую сторону, но и эмоциональный результат — как люди описывают свою жизнь после того, как решили сделать лазерную коррекцию зрения.",
+                                text: "Реальные отзывы, истории пациентов, комментарии, а также видео- и текстовые рекомендации помогают увидеть не только медицинский результат, но и то, как меняется жизнь людей после того, как они решили сделать лазерную коррекцию зрения в Вильнюсе.",
                             },
                             { imageOnly: "/images/safety3.jpg" },
                             {
-                                title: "Полный цикл: от обследования до восстановления",
-                                text: "Наши пациенты получают всё в одном месте: обследование, консультацию врача, операцию, план восстановления после лазерной коррекции зрения и долгосрочное наблюдение. Не нужно искать, «куда пойти» и к кому обратиться за советом — всё есть в нашей клинике.",
+                                title: "Полный цикл: от диагностики до восстановления",
+                                text: "Наши пациенты получают все этапы в одном месте: комплексное обследование, консультацию офтальмолога, лазерную операцию, детальный план восстановления после лазерной коррекции зрения и долгосрочное наблюдение. Вам не нужно искать, где пройти диагностику и куда обратиться за рекомендацией — вся необходимая помощь доступна в нашей клинике.",
                             },
                         ],
                     },
@@ -2620,7 +2648,7 @@ export const servicesData: ServicesProps[] = [
                     type: "greenCard",
                     data: {
                         title: "Операция безболезненная и длится не более 7 минут",
-                        text: "Используется высокоточное лазерное оборудование и диагностические системы, которые позволяют максимально индивидуализировать лазерную коррекцию зрения и снизить риски.",
+                        text: "Мы используем высокоточное лазерное оборудование и современные диагностические системы, которые позволяют максимально персонализировать лазерную коррекцию зрения, снизить риски и обеспечить прогнозируемый результат.",
                     },
                 },
                 {
@@ -2642,7 +2670,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Лазерная коррекция зрения — это лазерное восстановление зрения, при котором изменяется форма роговицы, чтобы свет правильно фокусировался на сетчатке. Это не просто «капли или упражнения», а хирургический метод для тех, кто хочет значительно уменьшить зависимость от очков и линз.",
+                                        text: "Лазерная коррекция зрения — это метод лазерного восстановления зрения, при котором изменяется форма роговицы, чтобы свет фокусировался на сетчатке правильно. Это не курсовые капли и не гимнастика для глаз, а хирургическая технология для тех, кто хочет существенно снизить зависимость от очков и контактных линз и получить более стабильное качество зрения.",
                                     },
                                 ],
                             },
@@ -2652,7 +2680,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Цена лазерной коррекции зрения, так же как и стоимость восстановления зрения лазером, зависит от метода, сложности случая и объёма наблюдения. Точную стоимость вы узнаете после полного обследования и консультации. Администратор также расскажет об актуальных акциях и скидках.",
+                                        text: "Цена лазерной коррекции зрения, как и стоимость восстановления зрения лазером, определяется методом проведения, сложностью клинического случая и объёмом дальнейшего наблюдения. Конкретную стоимость лечения зрения в нашей клинике в Вильнюсе вы узнаете после полного обследования и консультации офтальмолога. Администратор дополнительно расскажет об актуальных акциях, специальных предложениях и возможных вариантах экономии.",
                                     },
                                 ],
                             },
@@ -2662,7 +2690,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "В некоторых случаях можно частично восстановить зрение без операции — благодаря правильно подобранным очкам, линзам, лечению сопутствующих заболеваний и коррекции зрительной нагрузки. Но если вы хотите существенно улучшить качество зрения, врач может порекомендовать лазерную коррекцию как наиболее эффективный вариант.",
+                                        text: "В ряде случаев частично улучшить зрение без операции действительно возможно — с помощью правильно подобранных очков или контактных линз, лечения сопутствующей патологии и изменения зрительных привычек. Однако если вы хотите максимально избавиться от зависимости от оптики и получить более устойчивый результат, врач может рекомендовать лазерную коррекцию как наиболее эффективный метод восстановления зрения.",
                                     },
                                 ],
                             },
@@ -2672,7 +2700,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Есть ситуации, когда мы не рекомендуем проводить лазерную коррекцию: слишком тонкая роговица, активные воспалительные процессы, некоторые системные заболевания, беременность и лактация, нестабильное зрение и др. Врач объяснит противопоказания именно в вашем случае и предложит альтернативное лечение, если это необходимо.",
+                                        text: "Существуют ситуации, когда лазерная коррекция зрения не рекомендуется: выраженно тонкая роговица, активные воспалительные процессы в глазах, некоторые системные заболевания, беременность и период грудного вскармливания, нестабильное зрение и ряд других состояний. Офтальмолог подробно объяснит противопоказания именно в вашем случае и предложит альтернативные варианты лечения, если лазерная операция временно или постоянно не подходит.",
                                     },
                                 ],
                             },
@@ -2682,7 +2710,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "В первые дни важно соблюдать ограничения после лазерной коррекции: не тереть глаза, избегать бассейна, сауны, сильных физических нагрузок, пыли и грязи. Вы получите письменные рекомендации по восстановлению и график контрольных осмотров.",
+                                        text: "В первые дни после процедуры важно строго соблюдать ограничения: не тереть глаза, избегать бассейна, сауны, интенсивных физических нагрузок, попадания пыли и загрязнений. Вы получите письменные рекомендации по восстановлению, схему закапывания капель и индивидуальный график контрольных осмотров в нашей клинике в Вильнюсе.",
                                     },
                                 ],
                             },
@@ -2692,7 +2720,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Нормально, если временно ощущается сухость, лёгкое жжение или светочувствительность. Но если появляется резкая боль, внезапное ухудшение зрения, «потемнение» или сильный отек — это повод срочно обратиться за медицинской помощью в клинику.",
+                                        text: "Нормальными в период заживления считаются временная сухость глаз, лёгкое жжение, ощущение «песка» и повышенная чувствительность к свету. Однако если возникает резкая боль, внезапное ухудшение зрения, «потемнение» изображения или выраженный отёк, это повод немедленно обратиться за неотложной офтальмологической помощью в клинику.",
                                     },
                                 ],
                             },
@@ -2702,7 +2730,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Процедура проводится под местной капельной анестезией. Большинство пациентов отмечают лишь ощущение давления или лёгкого дискомфорта. Во многих отзывах пациенты пишут, что процедура оказалась значительно легче, чем они ожидали.",
+                                        text: "Процедура проводится под местной капельной анестезией. Большинство пациентов отмечают только ощущение лёгкого давления или непривычного дискомфорта, но не выраженную боль. Во многих отзывах люди пишут, что лазерная коррекция зрения в реальности переносится гораздо легче, чем они ожидали до операции.",
                                     },
                                 ],
                             },
@@ -2712,7 +2740,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Обращайте внимание на опыт врачей, оборудование, прозрачность цен, наличие реальных отзывов и рекомендаций. Если вы не знаете, куда обратиться, можно записаться на консультацию в нашу клинику: вы получите профессиональный осмотр, честную оценку состояния глаз и ответ на вопрос «стоит ли мне делать лазерную коррекцию зрения».",
+                                        text: "При выборе клиники обращайте внимание на опыт офтальмохирургов, уровень оборудования, прозрачность цен, наличие реальных отзывов и рекомендаций. Если вы пока не решили, куда обратиться в Вильнюсе, вы можете записаться на консультацию в нашу клинику: мы проведём профессиональный осмотр, честно оценим состояние ваших глаз и ответим на вопрос, подходит ли вам лазерная коррекция зрения сейчас и какой вариант лечения будет наиболее разумным именно для вас.",
                                     },
                                 ],
                             },
