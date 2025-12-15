@@ -1190,37 +1190,36 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "лікування катаракти",
+                        title: "Kataraktos gydymas",
                         image: "/images/cataract-hero.jpg",
                         imgPositionMobile: "right 20% center",
                         adress: true,
                         adressDarkBG: true,
                         cataract: [
-                            "дітям",
-                            "травматична катаракта",
-                            "виправляємо наслідки «невдалих» операцій в інших клініках",
-                            "беремося за найскладніші випадки",
+                            "trauminė katarakta",
+                            "koreguojame nesėkmingų operacijų kitose klinikose pasekmes",
+                            "imamės iš tiesų sudėtingų klinikinių atvejų",
                         ],
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "Катаракта в нашому центрі лікується «англійським водним потоком iQ-5 minutes»",
+                        title: "Kataraktos gydymas mūsų centre Vilniuje pagal protokolą „AquaStream iQ-5 minutes",
                         text: [
-                            "Це сучасний варіант факоемульсифікації катаракти, який вважається «золотим стандартом» у світовій офтальмології. Лікування катаракти проводиться через мікропрокол, без швів, під місцевою анестезією краплями. Такий підхід робить операцію швидкою, безпечною та максимально комфортною для пацієнта, а повернення до звичного життя можливе вже через кілька днів.",
-                            "Ми застосовуємо передові технології лікування катаракти, ретельно підбираємо інтраокулярну лінзу під кожного пацієнта, враховуючи стан рогівки, сітківки, тип катаракти (вікова, травматична, ускладнена) та особливості зору. Лікування катаракти в нашій клініці — це не просто видалення помутнілого кришталика, а відновлення максимально можливої якості зору на близькій, середній та далекій відстані.",
+                            "Kataraktos operacija mūsų centre atliekama pagal protokolą „AquaStream iQ-5 minutes“. Tai šiuolaikinė kataraktos fakoemulsifikacijos (kataraktos šalinimo) metodika, tarptautinėje praktikoje laikoma „auksiniu standartu“. Intervencija atliekama per mikroįpjovą, be siūlių, taikant vietinę lašinę nejautrą, vadovaujantis Europos klinikiniais protokolais, su tikslia navigacija ir nuolatine parametrų kontrole. Toks požiūris leidžia procedūrą atlikti greitai, prognozuojamai ir pacientui maksimaliai komfortiškai, o į įprastą ritmą dažniausiai galima grįžti per kelias dienas.",
+                            "Naudojame aktualias kataraktos chirurgijos technologijas ir kiekvienam pacientui individualiai parenkame intraokulinį lęšį (IOL), atsižvelgdami į ragenos ir tinklainės būklę, kataraktos tipą (amžinę, trauminę, komplikuotą) bei regos ypatumus. Kataraktos gydymas mūsų klinikoje Lietuvoje – tai ne tik drumsto natūralaus lęšiuko pašalinimas, bet ir maksimaliai įmanomos regos kokybės atkūrimas arti, vidutiniu ir tolimu atstumu, atliekant lęšiuko implantavimą (dirbtinio lęšio įdėjimą).",
                         ],
                         image: "/images/cataract-preview.jpg",
-                        textUp: "500 тис+",
-                        textDown: "успішних \nвилучень катаракти",
+                        textUp: "500 tūkst.+",
+                        textDown: "sėkmingų \nkataraktos operacijų",
                     },
                 },
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Революційні технології лікування катаракти — тільки в нашій клініці",
-                        text: "Ми використовуємо найпередовішу методику факоемульсифікації катаракти — «Водний потік», яка вважається «золотим стандартом» в сучасній офтальмології.",
+                        title: "Inovatyvios kataraktos gydymo technologijos – mūsų klinikoje",
+                        text: "Taikome modernią kataraktos fakoemulsifikacijos metodiką „AquaStream“, plačiai pripažįstamą praktinėje oftalmologijoje.",
                         list: [
                             {
                                 image: "/images/iq-5-minute.jpg",
@@ -1243,7 +1242,7 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: false,
                         data: [
                             {
-                                title: "Що таке катаракта?",
+                                title: "Kas yra katarakta?",
                                 image: "/images/cataract1.jpg",
                                 imagePosition: "object-left",
                                 text: [
@@ -1252,23 +1251,23 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "Катаракта — це захворювання, при якому природний кришталик ока втрачає прозорість, стає мутним і щільним. У нормі кришталик пропускає світло і фокусує його на сітківці, забезпечуючи чітке зображення. ",
+                                                text: "Katarakta – tai liga, kai natūralus akies lęšiukas praranda skaidrumą, tampa drumstas ir tankesnis. Įprastai lęšiukas praleidžia šviesą ir sufokusuoja ją į tinklainę, užtikrindamas ryškų vaizdą.",
                                             },
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "При катаракті цей процес порушується, зір стає нечітким, з’являється відчуття «туману» або «димки» перед очима, погіршується якість зору при яскравому світлі та в сутінках, змінюється сприйняття кольорів. ",
+                                                text: "Sergant katarakta šis mechanizmas sutrinka: regėjimas tampa neryškus, gali atsirasti „rūko“ ar „dūmelio“ pojūtis prieš akis, pablogėja regos kokybė ryškioje šviesoje ir prieblandoje, pakinta spalvų suvokimas.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Єдиний ефективний метод лікування катаракти — хірургічне видалення помутнілого кришталика з імплантацією штучної лінзи.",
+                                                text: "Efektyvus kataraktos gydymo metodas yra chirurginis – drumsto lęšiuko pašalinimas ir dirbtinio lęšio implantavimas, t. y. akių lęšių keitimo operacija (taip pat vartojama: akies lęšiuko keitimas, akių lęšiuko keitimas, lęšiuko keitimas).",
                                             },
                                         ],
                                     },
                                 ],
                                 btn: [
                                     {
-                                        btnName: "читати про катаракту",
+                                        btnName: "skaitykite apie kataraktą",
                                         btnLink: "/akiu-ligos/katarakta",
                                         btnSecondary: true,
                                     },
@@ -1281,28 +1280,28 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціни на видалення катаракти у Києві",
+                        title: "Kataraktos gydymo kainos Vilniuje",
                     },
                 },
                 {
                     type: "advantages",
                     data: {
                         paddingTop: false,
-                        title: "Переваги лікування катаракти в Києві у Британському Офтальмологічному Центрі",
-                        text: "Ви можете бути впевнені в якості послуг, що надаються, так як довіряєте свій зір сучасній клініці",
+                        title: "Kataraktos gydymo Vilniuje privalumai mūsų oftalmologijos centre",
+                        text: "Galite būti tikri paslaugų kokybe, nes patikite regėjimą šiuolaikinei klinikai",
                         list: [
                             {
-                                title: "100% безпеки",
-                                text: "Процедура проходить без болю, без уколів і без швів. Це швидкий, безпечний і комфортний метод, що дозволяє пацієнтам повернутися до звичного життя вже за кілька днів.",
+                                title: "Aukštas saugumo lygis ir komfortas",
+                                text: "Procedūra paprastai atliekama be skausmo, be injekcijų ir be siūlių. Tai greitas, saugus ir pacientui komfortiškas metodas, padedantis per trumpą laiką grįžti prie kasdienės veiklos.",
                             },
                             {
-                                title: "Досвідчені хірурги",
-                                text: "Видалення катаракти проводять сертифіковані хірурги з міжнародним досвідом не менше 50 000 успішних операцій.",
+                                title: "Patyrę chirurgai",
+                                text: "Kataraktos šalinimą atlieka sertifikuoti chirurgai, turintys tarptautinės praktikos patirtį ir daugiau kaip 50 000 sėkmingų operacijų.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "без обмежень по віку",
-                                text: "Приймаємо пацієнтів від народження до старшого віку.",
+                                title: "Pacientai įvairaus amžiaus",
+                                text: "Priimame pacientus nuo kūdikystės iki vyresnio amžiaus.",
                             },
                         ],
                     },
@@ -1311,85 +1310,75 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про катаракту",
+                        title: "Dažniausiai užduodami klausimai apie kataraktą",
                         content: [
                             {
                                 question:
-                                    "Що таке катаракта і чому вона з’являється?",
+                                    "Kas yra katarakta ir kodėl ji atsiranda?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Катаракта — це помутніння природного кришталика ока, яке спричиняє поступове зниження гостроти зору. Найчастіше катаракта пов’язана з віковими змінами, порушенням обміну речовин, хронічними захворюваннями (цукровий діабет, гіпертонія), травмами ока або ускладненнями після інших операцій. Також існує травматична катаракта, коли кришталик ушкоджується після удару чи проникної рани. Без лікування катаракти зір продовжує погіршуватись, аж до повної втрати працездатного зору.",
+                                        text: "Katarakta – tai natūralaus akies lęšiuko drumstėjimas, lemiantis laipsnišką regėjimo aštrumo mažėjimą. Dažniausiai ji susijusi su amžiniais pokyčiais, medžiagų apykaitos sutrikimais, lėtinėmis ligomis (pvz., cukriniu diabetu, hipertenzija), akių traumomis arba komplikacijomis po kitų intervencijų. Taip pat pasitaiko trauminė katarakta, kai lęšiukas pažeidžiamas po smūgio ar prasiskverbiančios žaizdos. Negydant regėjimas gali toliau blogėti iki reikšmingo funkcinio regėjimo praradimo.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які симптоми можуть свідчити про розвиток катаракти?",
+                                    "Kokie simptomai gali rodyti kataraktos vystymąsi?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Перші ознаки катаракти — це нечіткий, «запітнілий» зір, відчуття, що дивитесь крізь матове скло або туман. Можуть з’являтися труднощі при читанні, необхідність частіше змінювати окуляри, погіршення зору у сутінках і при яскравому світлі, ореоли та засліплення від фар автомобілів чи ліхтарів. Інколи люди відмічають зниження контрастності та спотворення кольорів. Якщо такі симптоми з’явилися, варто пройти діагностику та обговорити можливе лікування катаракти з офтальмологом.",
+                                        text: "Pirmieji požymiai – neryškus, „užtemęs“ regėjimas, lyg žiūrėtumėte pro matinį stiklą ar dūmelį. Gali atsirasti skaitymo sunkumų, poreikis dažniau keisti akinius, prastesnis matymas prieblandoje ar ryškioje šviesoje, šviesos ratilai (halai), akinimas nuo automobilių žibintų ir gatvių apšvietimo. Kai kurie pacientai pastebi kontrasto sumažėjimą ir spalvų iškraipymą. Esant šiems simptomams svarbu atlikti diagnostiką ir su oftalmologu aptarti gydymo taktiką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи можна вилікувати катаракту без операції — краплями або таблетками?",
+                                    "Ar galima išgydyti kataraktą be operacijos – lašais ar tabletėmis?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Лікування катаракти без операції, на жаль, неможливе. Краплі, вітаміни чи інші препарати не здатні повернути прозорість помутнілому кришталику. Вони можуть лише на короткий час уповільнити прогресування процесу, але не усунути саму причину зниження зору. Єдиний метод лікування катаракти — хірургічне видалення кришталика з імплантацією інтраокулярної лінзи. Саме операція дозволяє реально відновити зір і повернути комфорт до повсякденного життя.",
+                                        text: "Deja, kataraktos išgydyti be operacijos neįmanoma. Lašai, vitaminai ar kiti preparatai negali sugrąžinti skaidrumo jau sudrumstėjusiam lęšiukui. Jie gali tik laikinai sulėtinti progresavimą, tačiau nepašalina regėjimo blogėjimo priežasties. Efektyvus gydymas yra chirurginis – drumsto lęšiuko pašalinimas ir lęšiuko implantavimas (IOL), t. y. lęšiuko keitimas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Коли потрібно робити операцію з лікування катаракти?",
+                                    "Kada reikia atlikti kataraktos operaciją?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Показання до операції визначає лікар-офтальмолог після повного обстеження очей. Операцію рекомендують тоді, коли катаракта починає суттєво заважати роботі, водінню авто, читанню, побутовій активності або коли з’являється ризик ускладнень. Не варто чекати, поки катаракта «дозріє» повністю: сучасні методи лікування катаракти дозволяють проводити операцію на більш ранніх етапах, коли структура кришталика ще не надто щільна, а відновлення зору проходить швидше та комфортніше.",
+                                        text: "Indikacijas nustato oftalmologas po išsamaus ištyrimo. Operacija rekomenduojama, kai katarakta pradeda pastebimai trukdyti darbui, vairavimui, skaitymui, kasdienei veiklai arba kai didėja komplikacijų rizika. Nebūtina laukti, kol katarakta visiškai „subręs“: šiuolaikinės technologijos leidžia operuoti ir ankstyvesnėse stadijose, kai lęšiukas mažiau tankus, o atsistatymas dažnai būna greitesnis ir komfortiškesnis.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Як проходить операція «англійським водним потоком iQ-5 minutes»?",
+                                    "Kaip atliekama „AquaStream iQ-5 minutes“ procedūra?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Операція з лікування катаракти виконується амбулаторно, через мікропрокол, без швів і, як правило, триває лише кілька хвилин. За технологією «англійський водний потік iQ-5 minutes» у око вводиться спеціальний збалансований розчин, що допомагає м’яко роздрібнити помутнілий кришталик. Далі фрагменти видаляються, а на їх місце імплантується прозора інтраокулярна лінза. Анестезія місцева, у вигляді крапель, тому лікування катаракти проходить безболісно, а пацієнт протягом того ж дня повертається додому.",
+                                        text: "Kataraktos gydymas atliekamas ambulatoriškai, per mikropjūvį, be siūlių, o pati procedūra paprastai trunka kelias minutes. Pagal protokolą „AquaStream iQ-5 minutes“ į akį naudojamas subalansuotas tirpalas, padedantis švelniai fragmentuoti sudrumstėjusį lęšiuką. Tuomet fragmentai pašalinami, o į jų vietą implantuojamas skaidrus intraokulinis lęšis. Taikoma vietinė lašinė nejautra, todėl procedūra paprastai yra neskausminga, o pacientas tą pačią dieną grįžta namo.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки триває відновлення після лікування катаракти і які є обмеження?",
+                                    "Kiek trunka atsistatymas po kataraktos gydymo ir kokie apribojimai taikomi?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Після операції лікування катаракти перші покращення зору пацієнт відчуває вже в той самий або наступний день. Повне стабілізування зору зазвичай займає від кількох днів до кількох тижнів, залежно від індивідуальних особливостей очей. У післяопераційний період важливо дотримуватися рекомендацій лікаря: не терти око, не піднімати важкого, уникати пилу та бруду, правильно закапувати призначені краплі. Дотримання цих правил допомагає мінімізувати ризики та отримати найкращий результат лікування катаракти.",
+                                        text: "Pirmuosius regėjimo pagerėjimus pacientai dažnai pajunta tą pačią arba kitą dieną. Visiška regėjimo stabilizacija gali užtrukti nuo kelių dienų iki kelių savaičių – priklausomai nuo individualių ypatumų. Po operacijos svarbu laikytis gydytojo rekomendacijų: netrinti akies, nekelti sunkių daiktų, saugotis dulkių ir nešvarumų, teisingai vartoti paskirtus lašus. Tai padeda mažinti rizikas ir pasiekti geriausią rezultatą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи потрібні окуляри після операції з видалення катаракти?",
+                                    "Ar po kataraktos operacijos reikės akinių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Після лікування катаракти результат залежить від типу імплантованої інтраокулярної лінзи. Якщо встановлюється монофокальна лінза, пацієнт добре бачить на одну дистанцію (зазвичай удалину), але для читання можуть знадобитися окуляри. За бажанням можна обрати мультифокальну або тріфокальну лінзу, яка забезпечує кращий зір на різних відстанях та мінімізує залежність від окулярів. Підбір лінзи для лікування катаракти здійснюється індивідуально, під час діагностики та консультації з хірургом.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Чи лікуєте ви катаракту у дітей та складні, «проблемні» випадки?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Так, у нашому центрі проводиться лікування катаракти у дітей, включаючи травматичну катаракту, а також виправлення наслідків «невдалих» операцій з катаракти, виконаних в інших клініках. Ми беремося за складні випадки, коли є рубцеві зміни, супутні патології сітківки чи глаукома, а також коли попереднє лікування катаракти не дало очікуваного результату. Кожен клінічний випадок розглядається індивідуально, з ретельною діагностикою та детальним плануванням операції. Наша мета — максимально відновити зір і якість життя пацієнта, незалежно від складності ситуації.",
+                                        text: "Rezultatas priklauso nuo implantuoto intraokulinio lęšio tipo. Monofokalinis lęšis užtikrina gerą regėjimą vienu atstumu (dažniausiai į tolį), todėl skaitymui gali prireikti akinių. Galima rinktis multifokalinį ar trifokalinį lęšį, padedantį geriau matyti skirtingais atstumais ir sumažinti priklausomybę nuo akinių. Lęšio parinkimas atliekamas individualiai diagnostikos ir konsultacijos su chirurgu metu.",
                                     },
                                 ],
                             },
@@ -1420,20 +1409,19 @@ export const servicesData: ServicesProps[] = [
                         adress: true,
                         adressDarkBG: true,
                         cataract: [
-                            "for children",
                             "traumatic cataract",
-                            "we correct the consequences of “unsuccessful” surgeries in other clinics",
-                            "we take on the most complex cases",
+                            "we manage truly complex clinical cases, including the correction of outcomes after unsuccessful",
+                            "procedures performed in other clinics",
                         ],
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "Cataracts in our center are treated with the 'English Water Flow iQ-5 minutes'",
+                        title: "Cataract surgery at our centre in Vilnius under the “AquaStream iQ-5 minutes” protocol",
                         text: [
-                            "This is a modern variant of cataract phacoemulsification, considered the 'gold standard' in global ophthalmology. Cataract treatment is performed through a micro-incision, without sutures, under local anesthetic eye drops. This approach makes the operation quick, safe, and as comfortable as possible for the patient, with a return to normal life possible within just a few days.",
-                            "We use advanced cataract treatment technologies, carefully selecting an intraocular lens for each patient, taking into account the condition of the cornea, retina, type of cataract (age-related, traumatic, complicated), and individual vision characteristics. Cataract treatment in our clinic is not just about removing the clouded lens but restoring the best possible quality of vision at near, intermediate, and far distances.",
+                            "Cataract treatment at our centre is performed under the “AquaStream iQ-5 minutes” protocol. This is a modern cataract phacoemulsification approach widely regarded as the “gold standard” in contemporary ophthalmology. Cataract surgery is carried out through a micro-incision, without sutures, using topical (drop) anaesthesia, in line with European clinical protocols, with precise navigation and continuous monitoring of key parameters. This approach allows the procedure to be performed efficiently and predictably, with a high level of comfort for the patient, and many people are able to return to their usual routine within a few days.",
+                            "We use up-to-date cataract surgery technologies and select an intraocular lens (IOL) individually for each patient, taking into account the condition of the cornea and retina, the cataract type (age-related, traumatic, complicated) and the patient’s visual needs. Cataract treatment at our clinic in Lithuania is not merely the removal of a clouded natural lens; it is a strategy aimed at restoring the highest achievable quality of vision at near, intermediate and distance ranges through IOL implantation.",
                         ],
                         image: "/images/cataract-preview.jpg",
                         textUp: "500 k+",
@@ -1443,8 +1431,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Revolutionary cataract treatment technologies — exclusively in our clinic",
-                        text: "We use the most advanced phacoemulsification technique — the 'Water Flow', which is considered the 'gold standard' in modern ophthalmology.",
+                        title: "Innovative cataract treatment technologies — at our clinic",
+                        text: "We apply a contemporary phacoemulsification technique, “AquaStream”, which is widely recognised in practical ophthalmology.",
                         list: [
                             {
                                 image: "/images/iq-5-minute.jpg",
@@ -1476,16 +1464,16 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "Cataract is a condition in which the natural lens of the eye loses its transparency, becomes cloudy and dense. Normally, the lens lets light pass through and focuses it on the retina, providing a clear image.",
+                                                text: "A cataract is a condition in which the eye’s natural crystalline lens loses its transparency, becomes cloudy and often denser. Under normal conditions, the lens transmits and focuses light onto the retina to produce a clear image.",
                                             },
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "With cataract, this process is disrupted: vision becomes blurry, there is a sensation of 'fog' or 'haze' in front of the eyes, visual quality deteriorates in bright light and at dusk, and color perception may change.",
+                                                text: "When a cataract develops, this mechanism is disrupted: vision becomes blurred, a “mist” or “haze” may appear in front of the eyes, visual quality can deteriorate in bright light and at dusk, and colour perception may change.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "The only effective method to treat cataract is surgical removal of the clouded lens with implantation of an artificial intraocular lens.",
+                                                text: "The effective treatment for cataract is surgical: removal of the clouded lens with implantation of an artificial intraocular lens — i.e., intraocular lens replacement (lens replacement surgery).",
                                             },
                                         ],
                                     },
@@ -1505,28 +1493,28 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Prices for cataract removal in Kyiv",
+                        title: "Prices for cataract treatment in Vilnius",
                     },
                 },
                 {
                     type: "advantages",
                     data: {
                         paddingTop: false,
-                        title: "Advantages of cataract treatment in Kyiv at the British Ophthalmological Center",
-                        text: "You can be confident in the quality of the services provided, as you are entrusting your vision to a modern clinic.",
+                        title: "Benefits of cataract treatment in Vilnius at our ophthalmology centre",
+                        text: "You can be confident in the quality of care, as you entrust your vision to a modern clinic.",
                         list: [
                             {
-                                title: "100% safety",
-                                text: "The procedure is performed without pain, injections, or stitches. It’s a fast, safe, and comfortable method that allows patients to return to their normal lives within just a few days.",
+                                title: "High level of safety and comfort",
+                                text: "The procedure is typically performed without injections and without sutures, using topical anaesthesia. It is a fast and comfortable approach that helps many patients return to everyday life within a few days.",
                             },
                             {
                                 title: "Experienced surgeons",
-                                text: "Cataract removal is performed by certified surgeons with international experience and more than 50,000 successful surgeries.",
+                                text: "Cataract removal is performed by certified surgeons with international clinical experience and more than 50,000 successful operations.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
                                 title: "No age restrictions",
-                                text: "We accept patients from birth to senior age.",
+                                text: "We see patients from infancy through to older age.",
                             },
                         ],
                     },
@@ -1535,74 +1523,75 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Frequently asked questions about cataracts",
+                        title: "Frequently asked questions about cataract",
                         content: [
                             {
                                 question:
-                                    "What is cataract and why does it occur?",
+                                    "What is cataract and why does it develop?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "A cataract is a clouding of the eye’s natural lens, which leads to gradual vision loss. Most often, a cataract is associated with age-related changes, metabolic disorders, chronic diseases (such as diabetes or hypertension), eye injuries, or complications after previous surgeries. There is also traumatic cataract, which develops when the lens is damaged after an impact or penetrating injury. Without treatment, vision continues to deteriorate and may eventually result in significant visual impairment.",
+                                        text: "A cataract is a clouding of the eye’s natural crystalline lens, leading to a gradual reduction in visual acuity. Most commonly, cataract is associated with age-related changes, metabolic disturbances, chronic conditions (such as diabetes and hypertension), eye injuries, or complications following other interventions. Traumatic cataract may develop when the lens is damaged after a blunt impact or a penetrating injury. Without treatment, vision can continue to worsen up to a significant loss of functional vision.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What symptoms may indicate the development of a cataract?",
+                                    "What symptoms may indicate cataract progression?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The first signs of cataract include blurry, “foggy” vision, the feeling of looking through frosted glass or mist. You may experience difficulty reading, the need to change your glasses more frequently, poor vision in low light or bright light, halos and glare from car headlights or street lamps. Some people notice reduced contrast sensitivity and changes in color perception. If such symptoms appear, it is important to undergo diagnostic testing and discuss possible treatment with an ophthalmologist.",
+                                        text: "Early signs include blurred or “foggy” vision, as if looking through frosted glass or a haze. You may notice difficulty reading, a need to change spectacles more often, reduced vision in low light or in bright light, halos and glare from car headlights and street lights. Some patients report reduced contrast sensitivity and colour distortion. If such symptoms occur, it is important to undergo a diagnostic assessment and discuss cataract treatment with an ophthalmologist.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Can cataract be treated without surgery — with drops or pills?",
+                                    "Can cataract be treated without surgery — with drops or tablets?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Unfortunately, cataract cannot be treated without surgery. Eye drops, vitamins, or other medications cannot restore the transparency of the clouded lens. They may temporarily slow the progression but cannot eliminate the cause of vision loss. The only effective cataract treatment is surgical removal of the lens with implantation of an intraocular lens. Surgery is the only way to truly restore vision and return comfort to daily life.",
-                                    },
-                                ],
-                            },
-                            {
-                                question: "When is cataract surgery necessary?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "The indications for surgery are determined by an ophthalmologist after a complete eye examination. Surgery is recommended when the cataract significantly interferes with work, driving, reading, daily activities, or when the risk of complications increases. You should not wait until the cataract becomes completely “mature”: modern surgical methods allow treatment at earlier stages, when the lens is less dense and recovery is quicker and more comfortable.",
+                                        text: "Unfortunately, cataract cannot be cured without surgery. Drops, vitamins or other medications cannot restore transparency to a lens that has already become cloudy. They may only temporarily slow progression, but they do not address the underlying cause of vision deterioration. The effective treatment is surgical removal of the lens with implantation of an intraocular lens (IOL). Only surgery can restore vision and improve day-to-day comfort.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How is the “English Water Flow iQ-5 minutes” cataract surgery performed?",
+                                    "When should cataract surgery be performed?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Cataract surgery is performed on an outpatient basis, through a micro-incision, without stitches, and usually takes only a few minutes. With the “English Water Flow iQ-5 minutes” technique, a special balanced solution is introduced into the eye to gently break up the cloudy lens. The fragments are then removed, and a clear intraocular lens is implanted in their place. Anesthesia is local, applied as drops, so the procedure is painless, and the patient can go home the same day.",
+                                        text: "The indication is determined by an ophthalmologist after a comprehensive examination. Surgery is typically recommended when cataract begins to interfere noticeably with work, driving, reading or daily activities, or when there is an increased risk of complications. There is no need to wait until the cataract fully “matures”: modern technology allows surgery at earlier stages, when the lens is less dense and recovery is often faster and more comfortable.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How long does recovery take after cataract treatment and what restrictions exist?",
+                                    "How is the “AquaStream iQ-5 minutes” procedure performed?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "After cataract surgery, most patients notice improvements in vision on the same or the following day. Full stabilization of vision usually takes from several days to a few weeks, depending on individual characteristics. During the postoperative period, it is important to follow the doctor’s instructions: avoid rubbing the eye, lifting heavy objects, exposure to dust or dirt, and properly apply the prescribed drops. Following these rules minimizes risks and ensures the best treatment results.",
+                                        text: "Cataract surgery is usually performed on an outpatient basis through a micro-incision, without sutures, and commonly takes only a few minutes. Under the “AquaStream iQ-5 minutes” protocol, a balanced solution is used to assist gentle fragmentation of the clouded lens. The fragments are then removed, and a clear intraocular lens is implanted. Anaesthesia is topical (drops), so the procedure is generally painless, and the patient returns home the same day.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Will I need glasses after cataract removal?",
+                                    "How long is recovery after cataract treatment and what restrictions apply?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The outcome after cataract surgery depends on the type of intraocular lens implanted. A monofocal lens provides clear vision at one distance (usually far), so reading glasses may still be needed. If desired, you can choose a multifocal or trifocal lens, which provides clearer vision at different distances and reduces dependence on glasses. Lens selection is personalized and determined during diagnostics and consultation with the surgeon.",
+                                        text: "Many patients notice an improvement in vision on the same day or the following day. Full visual stabilisation may take from several days to several weeks, depending on individual factors. During the postoperative period, it is important to follow the doctor’s instructions: avoid rubbing the eye, avoid heavy lifting, protect the eye from dust and contamination, and use prescribed drops correctly. Compliance helps reduce risks and achieve the best possible outcome.",
+                                    },
+                                ],
+                            },
+                            {
+                                question:
+                                    "Will I need glasses after cataract surgery?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "The outcome depends on the type of implanted intraocular lens. A monofocal lens provides good vision at one distance (typically distance vision), so reading glasses may be needed. If desired, a multifocal or trifocal lens can be selected to provide vision at different distances and reduce dependence on glasses. Lens selection is individual and is discussed during diagnostics and a consultation with the surgeon.",
                                     },
                                 ],
                             },
@@ -1637,26 +1626,25 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "лечение катаракты",
+                        title: "Лечение катаракты",
                         image: "/images/cataract-hero.jpg",
                         imgPositionMobile: "right 20% center",
                         adress: true,
                         adressDarkBG: true,
                         cataract: [
-                            "детям",
                             "травматическая катаракта",
-                            "исправляем последствия «неудачных» операций в других клиниках",
-                            "берёмся за самые сложные случаи",
+                            "корректируем последствия неудачных операций в других клиниках",
+                            "берёмся за действительно сложные случаи",
                         ],
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "Катаракта в нашем центре лечится «английским водным потоком iQ-5 minutes»",
+                        title: "Катаракта в нашем центре в Вильнюсе лечится по протоколу «AquaStream iQ-5 minutes»",
                         text: [
-                            "Это современный вариант факоэмульсификации катаракты, который считается «золотым стандартом» в мировой офтальмологии. Лечение катаракты проводится через микроразрез, без швов, под местной анестезией в виде капель. Такой подход делает операцию быстрой, безопасной и максимально комфортной для пациента, а возвращение к привычной жизни возможно уже через несколько дней.",
-                            "Мы применяем передовые технологии лечения катаракты, тщательно подбираем интраокулярную линзу для каждого пациента, учитывая состояние роговицы, сетчатки, тип катаракты (возрастная, травматическая, осложненная) и особенности зрения. Лечение катаракты в нашей клинике — это не просто удаление помутневшего хрусталика, а восстановление максимально возможного качества зрения на близком, среднем и дальнем расстоянии.",
+                            "Это современный формат факоэмульсификации катаракты, признанный «золотым стандартом» в мировой офтальмологии. Операция катаракты выполняется через микроразрез, без швов, под местной анестезией в виде капель. по европейским клиническим протоколам, с точной навигацией и постоянным контролем параметров. Такой подход делает вмешательство быстрым, предсказуемым и максимально комфортным для пациента, а возвращение к привычному ритму возможно уже через несколько дней.",
+                            "Мы используем актуальные технологии хирургии катаракты и индивидуально подбираем интраокулярную линзу каждому пациенту, учитывая состояние роговицы, сетчатки, тип катаракты (возрастная, травматическая, осложнённая) и особенности зрения. Лечение катаракты в нашей клинике в Литве — это не просто удаление помутневшего хрусталика, а восстановление максимально достижимого качества зрения на близком, среднем и дальнем расстоянии.",
                         ],
                         image: "/images/cataract-preview.jpg",
                         textUp: "500 тыс+",
@@ -1666,8 +1654,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Революционные технологии лечения катаракты — только в нашей клинике",
-                        text: "Мы используем передовую методику факоэмульсификации катаракты — «Водный поток», которая считается «золотым стандартом» в современной офтальмологии.",
+                        title: "Инновационные технологии лечения катаракты — в нашей клинике",
+                        text: "Мы применяем современную методику факоэмульсификации катаракты — «AquaStream», которая считается «золотым стандартом» в практической офтальмологии.",
                         list: [
                             {
                                 image: "/images/iq-5-minute.jpg",
@@ -1699,12 +1687,12 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "Катаракта — это заболевание, при котором естественный хрусталик глаза теряет прозрачность, становится мутным и плотным. В норме хрусталик пропускает свет и фокусирует его на сетчатке, обеспечивая чёткое изображение.",
+                                                text: "Катаракта — это заболевание, при котором естественный хрусталик глаза теряет прозрачность, становится мутным и более плотным. В норме хрусталик пропускает свет и фокусирует его на сетчатке, обеспечивая чёткое изображение.",
                                             },
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "При катаракте этот процесс нарушается: зрение становится нечетким, появляется ощущение 'тумана' или 'дымки' перед глазами, ухудшается качество зрения при ярком свете и в сумерках, изменяется восприятие цветов.",
+                                                text: "При катаракте этот механизм нарушается: зрение становится размытым, появляется ощущение «тумана» или «дымки» перед глазами, ухудшается качество зрения при ярком свете и в сумерках, меняется восприятие цветов.",
                                             },
                                             {
                                                 type: "text",
@@ -1728,23 +1716,23 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цены на удаление катаракты в Киеве",
+                        title: "Цены на лечение катаракты в Вильнюсе",
                     },
                 },
                 {
                     type: "advantages",
                     data: {
                         paddingTop: false,
-                        title: "Преимущества лечения катаракты в Киеве в Британском Офтальмологическом Центре",
-                        text: "Вы можете быть уверены в качестве предоставляемых услуг, ведь доверяете своё зрение современной клинике.",
+                        title: "Преимущества лечения катаракты в Вильнюсе в нашем офтальмологическом центре",
+                        text: "Вы можете быть уверены в качестве услуг, ведь доверяете своё зрение современной клинике.",
                         list: [
                             {
                                 title: "100% безопасность",
-                                text: "Процедура проходит без боли, без уколов и без швов. Это быстрый, безопасный и комфортный метод, который позволяет пациентам вернуться к привычной жизни уже через несколько дней.",
+                                text: "Процедура проходит без боли, без уколов и без швов. Это быстрый, безопасный и комфортный метод, который помогает пациентам вернуться к привычной жизни уже через несколько дней.",
                             },
                             {
                                 title: "Опытные хирурги",
-                                text: "Удаление катаракты выполняют сертифицированные хирурги с международным опытом и более чем 50 000 успешных операций.",
+                                text: "Удаление катаракты выполняют сертифицированные хирурги с международной практикой и более чем 50 000 успешных операций.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
@@ -1766,7 +1754,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Катаракта — это помутнение природного хрусталика глаза, которое вызывает постепенное снижение остроты зрения. Чаще всего катаракта связана с возрастными изменениями, нарушением обмена веществ, хроническими заболеваниями (сахарный диабет, гипертония), травмами глаза или осложнениями после других операций. Существует также травматическая катаракта, когда хрусталик повреждается после удара или проникающей раны. Без лечения зрение продолжает ухудшаться вплоть до значительной утраты функционального зрения.",
+                                        text: "Катаракта — это помутнение природного хрусталика глаза, приводящее к постепенному снижению остроты зрения. Чаще всего катаракта связана с возрастными изменениями, нарушением обмена веществ, хроническими заболеваниями (сахарный диабет, гипертония), травмами глаза или осложнениями после других вмешательств. Существует также травматическая катаракта, когда хрусталик повреждается после удара или проникающей раны. Без лечения зрение продолжает ухудшаться вплоть до существенной потери функционального зрения.",
                                     },
                                 ],
                             },
@@ -1776,7 +1764,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Первые признаки катаракты — это нечеткое, «затуманенное» зрение, ощущение, будто вы смотрите через матовое стекло или туман. Могут появляться трудности при чтении, необходимость чаще менять очки, ухудшение зрения в сумерках или при ярком свете, ореолы и ослепление от фар автомобилей и фонарей. Иногда люди отмечают снижение контрастности и искажение цветов. При появлении таких симптомов важно пройти диагностику и обсудить возможное лечение катаракты с офтальмологом.",
+                                        text: "Первые признаки катаракты — это нечеткое, «затуманенное» зрение, ощущение, будто вы смотрите через матовое стекло или дымку. Могут появляться трудности при чтении, необходимость чаще менять очки, ухудшение зрения в сумерках или при ярком свете, ореолы и ослепление от фар автомобилей и фонарей. Иногда пациенты отмечают снижение контрастности и искажение цветов. При появлении таких симптомов важно пройти диагностику и обсудить лечение катаракты с офтальмологом.",
                                     },
                                 ],
                             },
@@ -1786,7 +1774,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "К сожалению, лечение катаракты без операции невозможно. Капли, витамины или другие препараты не могут вернуть прозрачность помутневшему хрусталику. Они лишь на короткое время могут замедлить прогрессирование, но не устраняют причину ухудшения зрения. Единственный метод лечения катаракты — хирургическое удаление хрусталика с имплантацией интраокулярной линзы. Только операция позволяет реально восстановить зрение и вернуть комфорт в повседневную жизнь.",
+                                        text: "К сожалению, вылечить катаракту без операции невозможно. Капли, витамины или другие препараты не способны вернуть прозрачность помутневшему хрусталику. Они лишь временно могут замедлить прогрессирование, но не устраняют причину ухудшения зрения. Единственный метод лечения катаракты — хирургическое удаление хрусталика с имплантацией интраокулярной линзы. Только операция позволяет восстановить зрение и вернуть комфорт в повседневную жизнь.",
                                     },
                                 ],
                             },
@@ -1796,17 +1784,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Показания к операции определяет офтальмолог после полного обследования глаз. Операция рекомендуется, когда катаракта начинает значительно мешать работе, вождению, чтению, бытовой деятельности или когда появляется риск осложнений. Не стоит ждать, пока катаракта полностью «созреет»: современные методы позволяют проводить операцию на более ранних этапах, когда хрусталик менее плотный, а восстановление проходит быстрее и комфортнее.",
+                                        text: "Показания к операции определяет офтальмолог после полного обследования. Операция рекомендуется, когда катаракта начинает заметно мешать работе, вождению, чтению, бытовой активности или когда появляется риск осложнений. Не стоит ждать, пока катаракта полностью «созреет»: современные технологии позволяют выполнять операцию на ранних этапах, когда хрусталик менее плотный, а восстановление проходит быстрее и комфортнее.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Как проходит операция «английским водным потоком iQ-5 minutes»?",
+                                    "Как проходит операция «AquaStream iQ-5 minutes»?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Операция по лечению катаракты проводится амбулаторно, через микропрокол, без швов и обычно занимает всего несколько минут. По технологии «английский водный поток iQ-5 minutes» в глаз вводится специальный сбалансированный раствор, который помогает мягко раздробить помутневший хрусталик. Затем фрагменты удаляются, а на их место имплантируется прозрачная интраокулярная линза. Анестезия местная, в виде капель, поэтому процедура проходит безболезненно, и пациент возвращается домой в тот же день.",
+                                        text: "Операция по лечению катаракты проводится амбулаторно, через микропрокол, без швов и обычно занимает всего несколько минут. По протоколу «AquaStream iQ-5 minutes» в глаз вводится сбалансированный раствор, который помогает мягко фрагментировать помутневший хрусталик. Затем фрагменты удаляются, а на их место имплантируется прозрачная интраокулярная линза. Анестезия местная, в виде капель, поэтому процедура проходит безболезненно, и пациент возвращается домой в тот же день.",
                                     },
                                 ],
                             },
@@ -1816,7 +1804,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "После операции первые улучшения зрения пациенты ощущают в тот же или на следующий день. Полная стабилизация зрения обычно занимает от нескольких дней до нескольких недель, в зависимости от индивидуальных особенностей. В послеоперационный период важно соблюдать рекомендации врача: не тереть глаз, не поднимать тяжести, избегать пыли и грязи, правильно закапывать назначенные капли. Соблюдение этих правил помогает минимизировать риски и достичь наилучшего результата лечения.",
+                                        text: "После операции первые улучшения зрения пациенты ощущают в тот же или на следующий день. Полная стабилизация зрения обычно занимает от нескольких дней до нескольких недель, в зависимости от индивидуальных особенностей. В послеоперационный период важно соблюдать рекомендации врача: не тереть глаз, не поднимать тяжести, избегать пыли и грязи, правильно закапывать назначенные капли. Соблюдение этих правил помогает снизить риски и достичь наилучшего результата лечения.",
                                     },
                                 ],
                             },
@@ -1826,17 +1814,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Результат после операции зависит от типа установленной интраокулярной линзы. Монофокальная линза обеспечивает хорошее зрение на одной дистанции (обычно вдаль), поэтому для чтения могут понадобиться очки. По желанию можно выбрать мультифокальную или трифокальную линзу, которая обеспечивает хорошее зрение на разных расстояниях и уменьшает зависимость от очков. Подбор линзы проводится индивидуально во время диагностики и консультации с хирургом.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Лечите ли вы катаракту у детей и сложные, «проблемные» случаи?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Да, в нашем центре проводится лечение катаракты у детей, включая травматическую катаракту, а также коррекция последствий неудачных операций, выполненных в других клиниках. Мы беремся за сложные случаи, когда есть рубцовые изменения, сопутствующие патологии сетчатки, глаукома или когда предыдущее лечение не дало ожидаемого результата. Каждый клинический случай рассматривается индивидуально, с тщательной диагностикой и детальным планированием операции. Наша цель — максимально восстановить зрение и качество жизни пациента, независимо от сложности ситуации.",
+                                        text: "Результат после операции зависит от типа установленной интраокулярной линзы. Монофокальная линза обеспечивает хорошее зрение на одной дистанции (обычно вдаль), поэтому для чтения могут понадобиться очки. По желанию можно выбрать мультифокальную или трифокальную линзу, которая обеспечивает зрение на разных расстояниях и уменьшает зависимость от очков. Подбор линзы проводится индивидуально во время диагностики и консультации с хирургом.",
                                     },
                                 ],
                             },
