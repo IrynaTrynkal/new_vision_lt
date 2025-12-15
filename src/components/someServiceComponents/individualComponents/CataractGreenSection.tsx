@@ -12,7 +12,6 @@ export const CataractGreenSection = () => {
         t("catIndListItem1"),
         t("catIndListItem2"),
         t("catIndListItem3"),
-        t("catIndListItem4"),
     ];
     const raynerText = t.rich("raynerText", {
         bold: chunk => <span className="font-bold">{chunk}</span>,
