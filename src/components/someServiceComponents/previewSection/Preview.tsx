@@ -93,7 +93,7 @@ export const Preview = ({
                                         className={
                                             data.fractionUp
                                                 ? "hidden"
-                                                : "prepc:flex hidden"
+                                                : "prepc:flex mt-5 hidden"
                                         }
                                     />
                                 )}
