@@ -3670,69 +3670,53 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Рефракційна заміна кришталика ока (ленсектомія)",
+                        title: "Skaidraus lęšiuko chirurgija",
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "BiVision RLE — сучасна альтернатива лазерній корекції зору",
+                        title: "BiVision RLE – moderni lazerinės regos korekcijos alternatyva",
                         image: "/images/equipment1.jpg",
                         text: [
-                            "BiVision RLE — сучасна мікроінвазивна операція, під час якої природний кришталик ока замінюють на інтраокулярну лінзу (ІОЛ), щоб відновити чіткий зір поблизу, на середній відстані та вдалину. Підходить, коли лазерна корекція протипоказана або очікуваний результат лазеру недостатній (тонка/нерівна рогівка, високі діоптрії, комбіновані вади зору).",
-                            "Для кого: 45+ із пресбіопією, пацієнти з високою міопією/гіперметропією, астигматизмом, ранніми змінами кришталика або ризиком катаракти.",
+                            "BiVision RLE – tai itin tiksli mikrochirurginė procedūra, kurios metu natūralus akies lęšiukas pakeičiamas intraokuliniu lęšiu (IOL), siekiant atkurti aiškų matymą iš arti, vidutiniu atstumu ir į tolį. Metodas pasirenkamas, kai lazerinė korekcija nerekomenduojama arba jos prognozė ribota (plona / nelygi ragena, didelės dioptrijos, kombinuoti regos sutrikimai).",
+                            "Kam tinka: 45+ metų žmonėms, turintiems presbiopiją, pacientams su ryškia trumparegyste / toliaregyste, astigmatizmu, ankstyvais lęšiuko pakitimais arba padidėjusia kataraktos rizika.",
                         ],
                     },
                 },
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Чому варто вибрати метод BiVision RLE: ключові переваги",
-                        text: "Рефракційна хірургія в офтальмології підходить як при далекозорості , так і при короткозорості , включаючи астигматизм.",
+                        title: "Kodėl verta rinktis BiVision RLE metodą: pagrindiniai privalumai",
+                        text: "Refrakcinė chirurgija oftalmologijoje tinka tiek toliaregystei, tiek trumparegystei, įskaitant ir astigmatizmą.",
                         slider: [
                             {
-                                title: "Комплексна автоматизована діагностика",
-                                text: "Дозволяє визначити гостроту зору за допомогою спеціальних таблиць з цифрами, літерами або знаками.",
+                                title: "Ilgalaikis regėjimas be akinių",
+                                text: "BiVision technologija padeda atkurti matymą ir iš arti, ir į tolį, sumažindama priklausomybę nuo akinių net esant amžinei toliaregystei.",
                             },
                             {
-                                title: "IPL терапія",
-                                text: "Вимір внутрішньоочного тиску. Підвищений внутрішньоочний тиск є основною причиною виникнення глаукоми.",
+                                title: "Alternatyva lazerinei korekcijai",
+                                text: "Metodika tinka tiems, kuriems lazerinė intervencija kontraindikuotina, tačiau reikalinga trumparegystės, toliaregystės ar astigmatizmo korekcija.",
                             },
                             {
-                                title: "Масаж повік із застосуванням спеціальних методик",
-                                text: "Вимір внутрішньоочного тиску. Підвищений внутрішньоочний тиск є основною причиною виникнення глаукоми.",
+                                title: "Aukščiausios klasės Rayner lęšiai",
+                                text: "Mūsų klinikoje Vilniuje naudojami tik originalūs, aukštos kokybės britiški intraokuliniai lęšiai – be kompromisų dėl kokybės ir saugumo.",
                             },
                             {
-                                title: "Діагностика та лікування супутніх захворювань",
-                                text: "Вимір внутрішньоочного тиску. Підвищений внутрішньоочний тиск є основною причиною виникнення глаукоми.",
+                                title: "Kataraktos vystymosi profilaktika",
+                                text: "Operacijos metu natūralus lęšiukas pakeičiamas, todėl kataraktos rizika ateityje sumažinama iki minimumo. Papildomas kapsulės poliravimas gali padėti pagerinti regėjimo ryškumą ir kontrastą po procedūros.",
                             },
                             {
-                                title: "Довготривалий зір без окулярів",
-                                text: "За допомогою технології BiVision можна відновити зір як поблизу, так і вдалину, повністю позбавившись очкової залежності навіть за вікової далекозорості.",
+                                title: "Švelni lęšiuko pašalinimo technologija",
+                                text: "Taikome iQ 5 Minutes protokolą be ultragarso – naudojamas tik kontroliuojamas kryptinis vandens srautas. Tai mažina poveikį ragenai ir spartina reabilitaciją.",
                             },
                             {
-                                title: "Альтернатива лазерної корекції",
-                                text: "Методика ідеально підходить пацієнтам, яким протипоказано лазерне втручання, але потрібна корекція міопії, гіперметропії чи астигматизму.",
+                                title: "Aukšta chirurgų kvalifikacija",
+                                text: "Centro oftalmologai chirurgai mokėsi pirmaujančiose Europos mokyklose ir turi reikšmingą praktinę patirtį – ne mažiau kaip 10 metų akių mikrochirurgijoje.",
                             },
                             {
-                                title: "Преміальні лінзи від Rayner",
-                                text: "У клініці застосовуються виключно оригінальні англійські інтраокулярні лінзи високого класу – жодних компромісів із якістю та безпекою.",
-                            },
-                            {
-                                title: "Профілактика розвитку катаракти",
-                                text: "У процесі операції видаляється природний кришталик, що унеможливлює виникнення катаракти в майбутньому. Додаткове полірування капсули підвищує чіткість та яскравість зору після процедури.",
-                            },
-                            {
-                                title: "Ощадна технологія вилучення кришталика",
-                                text: "Застосовується авторська методика iQ 5 Minutes без ультразвуку, тільки за допомогою спрямованого водного потоку. Це мінімізує вплив на рогівку та забезпечує швидку реабілітацію.",
-                            },
-                            {
-                                title: "Високий професіоналізм хірургів",
-                                text: "Офтальмохірурги клініки навчалися в кращих європейських центрах і мають солідний практичний досвід — не менше десяти років у мікрохірургії ока.",
-                            },
-                            {
-                                title: "Доступ до передових медичних розробок",
-                                text: "Фахівці центру беруть участь у клінічному тестуванні інноваційного обладнання ще до його виходу на ринок, що дозволяє використовувати найсучасніші технології лікування зору.",
+                                title: "Prieiga prie pažangiausių medicinos sprendimų",
+                                text: "Specialistai dalyvauja klinikiniuose inovacijų vertinimuose dar iki plataus jų įdiegimo, kad praktikoje būtų taikomos aktualiausios regos gydymo technologijos.",
                             },
                         ],
                         btn: {
@@ -3748,7 +3732,7 @@ export const servicesData: ServicesProps[] = [
                         firstImageLeft: true,
                         data: [
                             {
-                                title: "Основні показання та симптоми, коли варто розглядати рефракційну заміну кришталика (RLE)",
+                                title: "Pagrindinės indikacijos ir simptomai, kada verta svarstyti refrakcinį lęšiuko keitimą (RLE)",
                                 image: "/images/perevirka2.jpg",
                                 text: [
                                     {
@@ -3756,16 +3740,16 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "RLE розглядають тоді, коли виникає поєднання вікової далекозорості з іншими порушеннями рефракції — наприклад, коли потрібні різні окуляри для роботи за комп’ютером і для читання, а до вечора очі швидко втомлюються і фокус «стрибає». Часто пацієнти скаржаться на туманне або менш контрастне зображення зранку, на бліки під час нічного кермування та на відчуття, що окуляри вже не дають бажаної чіткості. Якщо раніше офтальмолог відмовив у лазерній корекції через параметри рогівки, RLE стає логічною альтернативою, адже метод працює з кришталиком і не змінює рогівку. На ранніх етапах помутніння кришталика процедура ще й «прибирає» ризик катаракти в майбутньому, а людям з професійними вимогами до зору забезпечує більшу стабільність і контрастність зображення.",
+                                                text: "RLE svarstomas, kai amžinė toliaregystė derinasi su kitais refrakcijos sutrikimais – pavyzdžiui, kai reikalingi skirtingi akiniai skaitymui ir darbui kompiuteriu, o vakare akys greičiau pavargsta ir fokusavimas tampa nestabilus. Dažnai pacientai mini „miglotą“ vaizdą rytais, sumažėjusį kontrastą, akinimą vairuojant naktį ir pojūtį, kad akiniai nebeteikia ankstesnio aiškumo. Jei lazerinė korekcija anksčiau nebuvo rekomenduota dėl ragenos parametrų, RLE tampa praktiška alternatyva: metodas veikia lęšiuką ir nekeičia ragenos. Esant ankstyviems lęšiuko pakitimams, intervencija taip pat mažina kataraktos tikimybę ateityje, o žmonėms, turintiems aukštus regėjimo reikalavimus, padeda pasiekti stabilesnį vaizdą ir kontrastą.",
                                             },
                                         ],
                                         greenText:
-                                            "Рішення «два в одному». Оновлюємо зір і одночасно прибираємо ризик катаракти в майбутньому. Мінімальний розріз, швидке відновлення, максимум комфорту.",
+                                            "„Du viename“ sprendimas.** Geriname regėjimą ir kartu mažiname kataraktos riziką ateityje. Minimalus pjūvis, greitas atsistatymas, maksimalus komfortas.",
                                     },
                                 ],
                             },
                             {
-                                title: "Чому пацієнти обирають RLE",
+                                title: "Kodėl pacientai renkasi RLE",
                                 cta: true,
                                 text: [
                                     {
@@ -3773,7 +3757,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Вибір на користь RLE зазвичай зумовлений поєднанням клінічних і життєвих факторів:",
+                                                text: "Sprendimas rinktis RLE dažniausiai susijęs su medicininėmis indikacijomis ir gyvenimo būdo poreikiais:",
                                             },
                                             {
                                                 type: "text",
@@ -3782,7 +3766,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "1. Медичні показання",
+                                                        value: "1. Medicininės indikacijos",
                                                     },
                                                 ],
                                             },
@@ -3790,28 +3774,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Не можна або недоцільно робити лазерну корекцію рогівки.",
-                                                    "Потрібно ширший діапазон корекції (високі діоптрії, поєднання міопії/гіперметропії з астигматизмом).",
-                                                    "Є ризик або ранні прояви катаракти — заміна кришталика вирішує проблему наперед.",
-                                                ],
-                                            },
-                                            {
-                                                type: "text",
-                                                gap: true,
-                                                text: [
-                                                    {
-                                                        bold: true,
-                                                        subtitle: true,
-                                                        value: "2. Очікування від якості зору",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                type: "list",
-                                                gap: true,
-                                                list: [
-                                                    "Бажання бачити без окулярів поблизу, на середній відстані й у далечінь (мультифокальні/трифокальні ІОЛ).",
-                                                    "Потреба в стабільній чіткості протягом дня: робота з текстами, екранами, водіння, спорт.",
+                                                    "Ragenos lazerinės korekcijos atlikti negalima arba ji nesuteikia prognozuojamo rezultato.",
+                                                    "Reikalingas platesnis korekcijos diapazonas (didelės dioptrijos, trumparegystės / toliaregystės derinys su astigmatizmu).",
+                                                    "Yra kataraktos rizika ar ankstyvi požymiai – lęšiuko keitimas problemą išsprendžia iš anksto.",
                                                 ],
                                             },
                                             {
@@ -3821,7 +3786,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "3. Безпека та передбачуваність",
+                                                        value: "2. Lūkesčiai dėl regėjimo kokybės",
                                                     },
                                                 ],
                                             },
@@ -3829,9 +3794,28 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "RLE не впливає на рогівку — важливо при тонкій/проблемній рогівці.",
-                                                    "Профілактика катаракти: після видалення власного кришталика вона більше не розвивається.",
-                                                    "Персоналізований підбір ІОЛ під стиль життя (читання, комп’ютер, нічне водіння).",
+                                                    "Siekis matyti be akinių iš arti, vidutiniu atstumu ir į tolį (daugiažidiniai / trifokaliniai IOL).",
+                                                    "Poreikis išlaikyti stabilų ryškumą visą dieną: tekstai, ekranai, vairavimas, sportas.",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        subtitle: true,
+                                                        value: "3. Saugumas ir prognozuojamumas",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "RLE neveikia ragenos – tai svarbu esant plonai ar „problemiškai“ ragenai.",
+                                                    "Kataraktos profilaktika: pakeitus natūralų lęšiuką, ji daugiau nebesiformuoja.",
+                                                    "Individualus IOL parinkimas pagal įpročius ir užduotis (skaitymas, kompiuteris, naktinis vairavimas).",
                                                 ],
                                             },
                                         ],
@@ -3845,31 +3829,31 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "numberListSection",
                     data: {
-                        listTitle: "Етапи",
+                        listTitle: "Etapai",
                         list: [
                             {
                                 itemTitle:
-                                    "Запис на прийом та підготовка до діагностики",
+                                    "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Записатися можна телефоном або онлайн — це займе кілька хвилин.",
-                                    "Спеціальної підготовки не потрібно. Якщо носите м’які контактні лінзи — зніміть їх із вечора (бажано за 12 годин до візиту). Візьміть із собою поточні окуляри/рецепт та результати попередніх обстежень — ми оцінимо динаміку.",
-                                    "Рекомендуємо планувати візит без кермування одразу після прийому: під час огляду можливе розширення зіниць і тимчасове погіршення зору зблизька.",
+                                    "Užsiregistruoti galima telefonu arba internetu – tai užtrunka vos kelias minutes.",
+                                    "Specialus pasiruošimas dažniausiai nereikalingas. Jei nešiojate minkštus kontaktinius lęšius – nusiimkite juos iš vakaro (pageidautina likus 12 val. iki vizito). Atsineškite turimus akinius / receptą ir ankstesnių tyrimų rezultatus – įvertinsime dinamiką.",
+                                    "Rekomenduojame planuoti vizitą taip, kad po apžiūros nevairuotumėte patys: apžiūros metu gali būti plečiami vyzdžiai, todėl matymas iš arti laikinai pablogėja.",
                                 ],
                             },
                             {
-                                itemTitle: "Комп’ютерна діагностика зору",
+                                itemTitle: "Kompiuterinė regos diagnostika",
                                 itemText: [
-                                    "Тривалість — приблизно 2–2,5 години.",
-                                    "Проводимо повний комплекс вимірювань, необхідний для рефракційної заміни кришталика (RLE):авторефрактометрія та перевірка гостроти зору, біометрія та розрахунок сили ІОЛ, кератотопографія/томографія рогівки, вимір внутрішньоочного тиску, за потреби: ОКТ макули та зорового нерва, оцінка слізної плівки.",
-                                    "Для точності застосовуємо краплі для розширення зіниць — упродовж кількох годин після огляду зір зблизька може бути розмитим.",
+                                    "Trukmė – apie 2–2,5 valandas.",
+                                    "Atliekame pilną tyrimų kompleksą, reikalingą refrakciniam lęšiuko keitimui (RLE): autorefraktometriją ir regėjimo aštrumo įvertinimą, biometrinius matavimus ir IOL optinės galios skaičiavimą, ragenos keratotopografiją / tomografiją, tonometriją, prireikus – makulos ir regos nervo OKT, ašarų plėvelės vertinimą.",
+                                    "Tikslumui užtikrinti naudojami vyzdžius plečiantys lašai – kelias valandas po apžiūros matymas iš arti gali būti neryškus.",
                                 ],
                             },
                             {
-                                itemTitle: "консультація офтальмолога",
+                                itemTitle: "Oftalmologo konsultacija",
                                 itemText: [
-                                    "Після обстеження лікар пояснить результати, покаже прогнозований ефект та підбере тип інтраокулярної лінзи під ваш спосіб життя (моно-/EDOF/трифокальна, торична при астигматизмі).",
-                                    "Обговоримо показання й можливі обмеження, відповімо на запитання, надамо прозорий кошторис і календар підготовки. За потреби отримаєте перелік стандартних передопераційних аналізів та рекомендації.",
-                                    "Разом визначимо дату RLE і персональний план відновлення.",
+                                    "Po tyrimų gydytojas paaiškins rezultatus, aptars prognozę ir parinks intraokulinio lęšio tipą pagal jūsų gyvenimo būdą (mono-, EDOF, trifokalinis; esant astigmatizmui – torinis).",
+                                    "Aptarsime indikacijas ir galimus apribojimus, atsakysime į klausimus, pateiksime skaidrią sąmatą ir pasiruošimo planą. Prireikus gausite standartinių priešoperacinių tyrimų sąrašą ir rekomendacijas.",
+                                    "Kartu nustatysime RLE datą ir individualų atsistatymo planą.",
                                 ],
                             },
                         ],
@@ -3880,42 +3864,42 @@ export const servicesData: ServicesProps[] = [
                     type: "textsColumns",
                     data: {
                         paddingTop: true,
-                        title: "Інноваційне відновлення зору: рефракційна заміна кришталика (RLE)",
-                        text: "Рефракційна заміна кришталика (RLE, рефракційна ленсектомія) — хірургічний метод корекції зору, за якого природний кришталик ока замінюють на інтраокулярну лінзу (ІОЛ). RLE усуває міопію, гіперметропію, пресбіопію та астигматизм, є оптимальною альтернативою, коли лазерна корекція протипоказана (тонка рогівка, рубці, нестабільна рефракція) і дозволяє отримати стабільний чіткий зір без окулярів і контактних лінз.",
+                        title: "Inovatyvus regėjimo atkūrimas: refrakcinis lęšiuko keitimas (RLE)",
+                        text: "Refrakcinis lęšiuko keitimas (RLE, refrakcinė lensektomija) – regos korekcijos metodas, kai natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). RLE koreguoja trumparegystę, toliaregystę, presbiopiją ir astigmatizmą bei yra racionali alternatyva, kai lazerinė korekcija kontraindikuotina (plona ragena, randai, nestabili refrakcija) ir kai svarbus stabilus aiškumas be akinių bei kontaktinių lęšių.",
                         blocks: [
                             {
-                                title: "Чому варто обрати BiVision RLE у нас",
+                                title: "Kodėl verta rinktis BiVision RLE pas mus",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "У нашій клініці рефракційна заміна кришталика — це поєднання технології та досвіду. Після детальної діагностики ми підбираємо ІОЛ під реальні візуальні потреби пацієнта: читання, робота за комп’ютером, спорт чи нічне водіння. Замість ультразвуку під час вилучення кришталика застосовується керований водний потік (BiVision iQ 5 Minutes), що зменшує вплив на рогівку та прискорює відновлення. Працюємо лише з оригінальними лінзами Rayner — від мультифокальних до торичних — і дбаємо про довготривалий комфорт зору, а наші хірурги мають понад десять років практики у провідних європейських центрах.",
+                                        text: "Mūsų klinikoje Vilniuje refrakcinis lęšiuko keitimas apjungia technologinį tikslumą ir patyrusios komandos kompetenciją. Po išsamios diagnostikos parenkame IOL pagal realias regos užduotis: skaitymą, darbą kompiuteriu, aktyvų gyvenimo būdą, naktinį vairavimą. Lęšiuką pašaliname naudodami kontroliuojamą vandens srautą vietoje ultragarso (BiVision iQ 5 Minutes), taip sumažindami poveikį ragenai ir pagreitindami atsistatymą. Dirbame su originaliais Rayner lęšiais – nuo daugiažidinių iki torinių – ir orientuojamės į ilgalaikį regos komfortą. Chirurgai turi daugiau nei dešimties metų praktikos, įskaitant mokymus Europos centruose.",
                                     },
                                 ],
                             },
                             {
-                                title: "Підготовка та відновлення",
+                                title: "Pasiruošimas ir atsistatymas",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Підготовка зводиться до простої організації: візьміть із собою попередні медичні висновки, перелік ліків і дотримуйтеся рекомендацій щодо контактних лінз, якщо їх носите. У день операції бажано мати супровід, щоб комфортно дістатися додому. Після втручання ви користуєтеся краплями за схемою, уникаєте басейну та сауни протягом двох‑трьох тижнів і тимчасово обмежуєте інтенсивні навантаження. Повернення до керування авто узгоджується з хірургом на контрольному візиті.",
+                                        text: "Pasiruošimas apsiriboja paprasta organizacija: atsineškite ankstesnes medicinines išvadas, vartojamų vaistų sąrašą ir laikykitės rekomendacijų dėl kontaktinių lęšių, jei juos nešiojate. Operacijos dieną patartina atvykti su lydinčiu asmeniu, kad patogiai grįžtumėte namo. Po procedūros naudosite lašus pagal schemą, 2–3 savaites vengsite baseino ir saunos, laikinai ribosite intensyvius fizinius krūvius. Vairavimo atnaujinimas derinamas su chirurgu kontrolinio vizito metu.",
                                     },
                                 ],
                             },
                             {
-                                title: "Які інтраокулярні лінзи (ІОЛ) ми застосовуємо",
+                                title: "Kokius intraokulinius lęšius (IOL) naudojame",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Ми працюємо з лінійкою Rayner, Alcon обираючи конфігурацію під конкретні очі та спосіб життя. Для максимальної незалежності від окулярів пропонуємо трифокальні рішення; коли потрібно одночасно усунути астигматизм — використовуємо торичні моделі; якщо пріоритетом є природний візуальний комфорт і широка глибина різкості, доречні ІОЛ з розширеною глибиною фокусу. Остаточний вибір базується на біометрії, рогівковому астигматизмі та ваших щоденних задачах.",
+                                        text: "Dirbame su Rayner ir Alcon lęšių linijomis, parinkdami sprendimą pagal konkrečius akies parametrus ir gyvenimo būdą. Maksimaliai nepriklausomybei nuo akinių siūlome trifokalinius sprendimus; esant poreikiui koreguoti astigmatizmą naudojame torinius modelius; jei prioritetas – natūralus regėjimo komfortas ir išplėsta ryškumo zona, gali tikti EDOF lęšiai. Galutinis pasirinkimas grindžiamas biometrija, ragenos astigmatizmo dydžiu ir jūsų kasdienėmis užduotimis.",
                                     },
                                 ],
                             },
                             {
-                                title: "Вартість та що входить у ціну",
+                                title: "Kaina ir kas į ją įskaičiuota",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Вартість RLE у Києві залежить насамперед від вибраного типу інтраокулярної лінзи та індивідуальних клінічних особливостей. На консультації ви отримаєте персональний кошторис із роз’ясненням кожного етапу: від діагностики та самої операції й післяопераційного супроводу. За потреби менеджер підкаже актуальні програми лояльності та можливість оформлення розстрочки.",
+                                        text: "RLE kaina Vilniuje pirmiausia priklauso nuo intraokulinio lęšio tipo ir individualių klinikinių ypatumų. Konsultacijos metu gausite asmeninę sąmatą su kiekvieno etapo paaiškinimu: diagnostika, operacija ir pooperacinė priežiūra. Prireikus administratorius informuos apie aktualias lojalumo programas ir apmokėjimo galimybes.",
                                     },
                                 ],
                             },
@@ -3925,92 +3909,92 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціна на рефракційну ленсектомію в Києві",
+                        title: "Refrakcinės lęšio pašalinimo kaina (Vilnius)",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про рефракційну заміну кришталика ока (ленсектомію)",
+                        title: "Dažniausiai užduodami klausimai apie refrakcinį lęšiuko keitimą (lensektomiją)",
                         content: [
                             {
                                 question:
-                                    "Що таке рефракційна хірургія ока і чим є рефракційна заміна кришталика ока (RLE)?",
+                                    "Kas yra refrakcinė akių chirurgija ir kas yra refrakcinis lęšiuko keitimas (RLE)?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Рефракційна хірургія ока — це напрям офтальмології, який виправляє зір хірургічними методами. Рефракційна заміна кришталика ока (RLE) — мікроінвазивна операція на заміну кришталика, коли природний кришталик замінюють на інтраокулярну лінзу. Така заміна очного кришталика дозволяє коригувати пресбіопію, міопію, гіперметропію та астигматизм і є альтернативою лазерним методам. Перед втручанням обов’язкові обстеження й консультація лікаря.",
+                                        text: "Refrakcinė akių chirurgija – oftalmologijos sritis, koreguojanti regėjimą chirurginiais metodais. Refrakcinis lęšiuko keitimas (RLE) – mikroinvazinė operacija, kurios metu natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). Procedūra gali koreguoti presbiopiją, trumparegystę, toliaregystę ir astigmatizmą bei būti alternatyva lazeriniams metodams. Prieš operaciją būtina diagnostika ir gydytojo konsultacija.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Кому підходить заміна кришталика з рефракційною метою: при гіперметропії, міопії чи пресбіопії?",
+                                    "Kam tinka refrakcinis lęšiuko keitimas – esant toliaregystei, trumparegystei ar presbiopijai?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Рефракційна заміна кришталика при гіперметропії і рефракційна заміна кришталика при міопії актуальні, коли лазерні методи обмежені (тонка/нерівна рогівка, високі діоптрії). RLE ефективна при пресбіопії (вікова далекозорість), дозволяє позбутися «перескакування» між різними окулярами. Рішення приймається індивідуально після повного огляду у приватній клініці та детальної консультації.",
+                                        text: "RLE aktualus esant toliaregystei ir trumparegystei, kai lazerinė korekcija ribota (plona ar nelygi ragena, didelės dioptrijos). RLE taip pat veiksmingas presbiopijos (amžinės toliaregystės) atvejais ir padeda sumažinti poreikį nuolat keisti skirtingus akinius. Sprendimas visada priimamas individualiai po išsamios diagnostikos ir oftalmologo konsultacijos.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки коштує замінити кришталик ока? Яка ціна RLE у Києві?",
+                                    "Kiek kainuoja lęšiuko keitimas? Kokia RLE kaina Vilniuje?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Питання «скільки коштує замінити кришталик ока» залежить від типу ІОЛ (монофокальна, трифокальна, EDOF, торична), супутніх процедур і клінічної ситуації. Типові запити: «ленсектомія ціна», «кришталик заміна ціна», «рефракційна заміна кришталика ціна», «заміна кришталика ціна Київ» або «заміна кришталика Київ ціна». Остаточна вартість формується після обстеження і консультації; часто діють акції, знижки чи програми лояльності. Уточнити ціни можна під час прийому або за телефоном реєстратури.",
+                                        text: "Lęšiuko keitimo kaina priklauso nuo IOL tipo (monofokalinis, trifokalinis, EDOF, torinis), papildomų procedūrų ir klinikinių ypatumų. Dažnos paieškos frazės: „lensektomija kaina“, „lęšiuko keitimas Vilniuje kaina“, „refrakcinis lęšiuko keitimas kaina“. Galutinė kaina nustatoma po diagnostikos ir konsultacijos; kartais taikomos specialios programos. Tikslią informaciją gausite vizito metu arba telefonu.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чим RLE відрізняється від лазерної корекції та коли це «найкращий» варіант?",
+                                    "Kuo RLE skiriasi nuo lazerinės korekcijos ir kada tai yra tinkamiausias pasirinkimas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Лазер моделює рогівку, а RLE працює з кришталиком — тому рефракційна хірургія та офтальмологія розглядає RLE як «оперативне лікування далекозорості» і комбінованих вад зору у зрілому віці або при високих діоптріях. Для когось «найкращі» результати дає лазер, а для інших — імплантація кришталика. Ми пояснюємо переваги/недоліки, можливі побічні ефекти та протипоказання на очній консультації.",
+                                        text: "Lazerinė korekcija keičia ragenos profilį, o RLE veikia lęšiuką. Todėl RLE dažniau svarstomas esant amžinei toliaregystei ir kombinuotiems refrakcijos sutrikimams brandesniame amžiuje arba esant didelėms dioptrijoms. Vieniems tinkamesnę prognozę suteikia lazeris, kitiems – lęšio implantacija. Konsultacijos metu gydytojas paaiškins privalumus, galimus šalutinius reiškinius ir kontraindikacijas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи підходить RLE як лікування далекозорості та короткозорості? Яка ціна таких операцій?",
+                                    "Ar RLE tinka toliaregystės ir trumparegystės korekcijai? Kokia tokių operacijų kaina?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Так. Для лікування далекозорості (у т.ч. лікування пресбіопії) та короткозорості RLE може бути оптимальним, коли лазер не рекомендований. Типові запити: «далекозорість операція ціна», «лікування далекозорості лазером ціна» (порівняння з RLE), «скільки коштує операція на короткозорість», «операція короткозорість ціна», «корекція короткозорості ціна». Точну вартість підтверджуємо після діагностики; іноді доступні знижки чи акція.",
+                                        text: "Taip. Toliaregystės (įskaitant presbiopiją) ir trumparegystės korekcijai RLE gali būti optimalus sprendimas, kai lazerinė korekcija nerekomenduojama. Dažnos paieškos: „toliaregystės operacija kaina“, „lazerinė korekcija kaina“, „trumparegystės operacija kaina“. Tiksli suma patvirtinama po diagnostikos; kartais galioja pasiūlymai.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Де краще зробити операцію із заміни кришталика? На що звернути увагу за відгуками та рекомендаціями?",
+                                    "Kur geriau atlikti lęšiuko keitimo operaciją? Į ką atkreipti dėmesį atsiliepimuose?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Обирайте клініку з досвідом у рефракційній хірургії ока, сучасною діагностикою, прозорими цінами й реальною статистикою результатів. Читайте відгуки, незалежні коментарі і рекомендації, дивіться приклади клінічних випадків. На консультації запитайте про підбір ІОЛ під ваш стиль життя, алгоритм післяопераційного супроводу та обмеження. Якщо потрібна термінова допомога, з’ясуйте, як працює чергування лікаря та післяопераційний зв’язок.",
+                                        text: "Rinkitės kliniką, turinčią patirties refrakcinėje chirurgijoje, modernią diagnostinę įrangą, skaidrią sąmatą ir aiškią pooperacinę priežiūrą. Vertinkite atsiliepimus ir realius klinikinius pavyzdžius. Konsultacijos metu pasiteiraukite apie IOL parinkimą pagal gyvenimo būdą, kontrolinių vizitų grafiką ir apribojimus. Taip pat svarbu, kaip organizuojamas ryšys su gydytoju po operacijos.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які ризики, протипоказання та побічні ефекти має заміна кришталиків в очах?",
+                                    "Kokios yra rizikos, kontraindikacijos ir galimi šalutiniai poveikiai po lęšiuko keitimo?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Як і будь-яке хірургічне втручання, заміна кришталиків в очах має протипоказання (активні запальні процеси, декомпенсований ВОТ тощо) та можливі побічні ефекти (тимчасова сухість, бліки/ореоли, чутливість до світла). Більшість явищ — короткочасні та коригуються рекомендаціями. При хворобі кришталика ока або супутніх станах схему лікування кришталика ока ми індивідуально адаптуємо. Рішення про операцію на заміну кришталика ухвалюємо лише після повного огляду.",
+                                        text: "Kaip ir bet kuri intervencija, lęšiuko keitimas turi kontraindikacijų (aktyvūs uždegimai, nekontroliuojamas akispūdis) ir galimų šalutinių reiškinių (laikinas akių sausumas, šviesos blyksniai, jautrumas šviesai). Dauguma požymių yra trumpalaikiai ir koreguojami laikantis rekomendacijų. Esant gretutinėms ligoms, taktika parenkama individualiai. Sprendimas dėl operacijos priimamas tik po išsamios diagnostikos.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Як відбувається маршрут пацієнта: від першого прийому до відновлення? Чи можна «безкоштовно» отримати консультацію?",
+                                    "Kaip atrodo paciento kelias – nuo pirmos konsultacijos iki atsistatymo? Ar galima gauti nemokamą priėmimą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Спершу ви записуєтеся на консультацію та обстеження (біометрія, топографія, огляд сітківки). Потім лікар пропонує варіант ІОЛ, обговорює вартість і строки. У день операції виконується імплантація кришталика; більшість пацієнтів швидко повертаються до звичного режиму з контрольними візитами за графіком. Стосовно «безкоштовно»: інколи діє акція (знижений прийом або пакет), але стандартно первинна консультація є платною. Якщо сумніваєтесь, чи варто реєструватися саме зараз і куди піти, отримайте рекомендацію адміністратора — вам запропонують зручний кабінет і час візиту.",
+                                        text: "Pirmiausia registruojatės konsultacijai ir diagnostikai (biometrija, topografija, tinklainės apžiūra). Tuomet gydytojas parenka tinkamą IOL, aptaria kainą ir terminus. Operacijos dieną atliekama lęšio implantacija; dauguma pacientų grįžta į įprastą ritmą pagal kontrolinių vizitų grafiką. Dėl „nemokamai“: kartais taikomos akcijos, tačiau įprastai pirminė konsultacija yra mokama. Administratorius padės pasirinkti patogų laiką ir specialistą.",
                                     },
                                 ],
                             },
@@ -4035,7 +4019,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Refractive lens replacement (lensectomy)",
+                        title: "Clear Lens Surgery (lensectomy)",
                     },
                 },
                 {
@@ -4044,8 +4028,8 @@ export const servicesData: ServicesProps[] = [
                         title: "BiVision RLE — a modern alternative to laser vision correction",
                         image: "/images/equipment1.jpg",
                         text: [
-                            "BiVision RLE is a modern microinvasive procedure in which the eye’s natural lens is replaced with an intraocular lens (IOL) to restore clear vision at near, intermediate, and far distances. It is suitable when laser correction is contraindicated or its expected results are insufficient (thin/irregular cornea, high diopters, combined visual defects).",
-                            "Recommended for: people 45+ with presbyopia, patients with high myopia/hyperopia, astigmatism, early lens changes, or cataract risk.",
+                            "BiVision RLE is a high-precision microsurgical procedure in which the eye’s natural crystalline lens is replaced with an intraocular lens (IOL) to restore clear vision at near, intermediate, and distance ranges. The method is selected when laser correction is not recommended or when its predictability is limited (thin/irregular cornea, high dioptres, combined refractive errors).",
+                            "Who it is suitable for: people aged 45+ with presbyopia; patients with pronounced myopia/hyperopia, astigmatism, early lens changes, or an increased risk of cataract.",
                         ],
                     },
                 },
@@ -4056,48 +4040,32 @@ export const servicesData: ServicesProps[] = [
                         text: "Refractive surgery in ophthalmology is suitable for both farsightedness and nearsightedness, including astigmatism.",
                         slider: [
                             {
-                                title: "Comprehensive automated diagnostics",
-                                text: "Allows determining visual acuity using special charts with numbers, letters, or symbols.",
-                            },
-                            {
-                                title: "IPL therapy",
-                                text: "Measures intraocular pressure. Elevated pressure is the main cause of glaucoma.",
-                            },
-                            {
-                                title: "Eyelid massage using special techniques",
-                                text: "Measures intraocular pressure. Elevated pressure is the main cause of glaucoma.",
-                            },
-                            {
-                                title: "Diagnosis and treatment of related diseases",
-                                text: "Measures intraocular pressure. Elevated pressure is the main cause of glaucoma.",
-                            },
-                            {
                                 title: "Long-term vision without glasses",
-                                text: "With BiVision technology, it’s possible to restore both near and distance vision, completely eliminating dependence on glasses even with age-related farsightedness.",
+                                text: "BiVision technology helps restore both near and distance vision, reducing dependence on glasses even in age-related farsightedness.",
                             },
                             {
-                                title: "Alternative to laser correction",
-                                text: "This technique is ideal for patients who are not suitable for laser intervention but need correction of myopia, hyperopia, or astigmatism.",
+                                title: "An alternative to laser correction",
+                                text: "The technique is suitable for those who have contraindications to laser treatment but require correction of myopia, hyperopia, or astigmatism.",
                             },
                             {
                                 title: "Premium Rayner lenses",
-                                text: "The clinic uses only original high-class English intraocular lenses — no compromises in quality or safety.",
+                                text: "At our clinic in Vilnius, we use only original, premium-grade British intraocular lenses—without compromises in quality and safety. ",
                             },
                             {
-                                title: "Cataract prevention",
-                                text: "During the operation, the natural lens is removed, preventing cataract formation in the future. Additional capsule polishing enhances clarity and brightness of vision after the procedure.",
+                                title: "Prevention of cataract development",
+                                text: "During surgery, the natural lens is replaced; therefore, the future risk of cataract is minimised. Additional capsule polishing may help improve visual clarity and contrast after the procedure.",
                             },
                             {
-                                title: "Gentle lens extraction technology",
-                                text: "The proprietary iQ 5 Minutes technique is used — without ultrasound, only a directed water flow. This minimizes corneal impact and ensures fast recovery.",
+                                title: "Gentle lens removal technology",
+                                text: "We apply the iQ 5 Minutes protocol without ultrasound—only a controlled, directed fluid stream. This reduces the load on the cornea and accelerates recovery.",
                             },
                             {
-                                title: "High professionalism of surgeons",
-                                text: "Clinic surgeons trained in top European centers and have at least ten years of experience in eye microsurgery.",
+                                title: "High level of surgical expertise",
+                                text: "Our ophthalmic surgeons have trained in leading European schools and have extensive practical experience—at least 10 years in eye microsurgery.",
                             },
                             {
                                 title: "Access to advanced medical innovations",
-                                text: "Clinic specialists participate in clinical testing of innovative equipment even before it enters the market, allowing them to use the most advanced vision treatment technologies.",
+                                text: "Our specialists participate in clinical assessments of innovative solutions before widespread implementation in order to apply the most up-to-date vision treatment technologies.",
                             },
                         ],
                         btn: {
@@ -4113,7 +4081,7 @@ export const servicesData: ServicesProps[] = [
                         firstImageLeft: true,
                         data: [
                             {
-                                title: "Main indications and symptoms when refractive lens exchange (RLE) should be considered",
+                                title: "Key indications and symptoms when refractive lens exchange (RLE) may be considered",
                                 image: "/images/perevirka2.jpg",
                                 text: [
                                     {
@@ -4121,11 +4089,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "RLE is considered when age-related farsightedness is combined with other refractive disorders — for example, when different glasses are needed for computer work and for reading, and by evening the eyes quickly tire and focus 'jumps'. Patients often complain of foggy or less contrast vision in the morning, glare while driving at night, and a feeling that glasses no longer provide the desired clarity. If an ophthalmologist previously declined laser correction due to corneal parameters, RLE becomes a logical alternative, as the method works with the lens and does not affect the cornea. In early stages of lens opacity, the procedure also eliminates the future risk of cataract, and for people whose professions require sharp vision, it provides greater stability and contrast.",
+                                                text: "RLE is considered when age-related farsightedness is combined with other refractive errors—for example, when different glasses are needed for reading and computer work, and by evening the eyes tire more quickly and focus becomes less stable. Patients often report “hazy” vision in the morning, reduced contrast, glare during night driving, and a feeling that glasses no longer provide the same sharpness. If laser correction was previously not recommended due to corneal parameters, RLE becomes a practical alternative: the method works with the lens and does not alter the cornea. With early lens changes, the intervention may also reduce the likelihood of cataract in the future, and for people with high visual demands it can help achieve a more stable image and contrast.",
                                             },
                                         ],
                                         greenText:
-                                            "A ‘two-in-one’ solution. We restore vision and simultaneously eliminate the risk of future cataracts. Minimal incision, fast recovery, maximum comfort.",
+                                            "A “two-in-one” solution.** We improve vision while simultaneously reducing the long-term risk of cataract. Minimal incision, fast recovery, maximum comfort.",
                                     },
                                 ],
                             },
@@ -4138,7 +4106,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "The decision in favor of RLE is usually based on a combination of clinical and lifestyle factors:",
+                                                text: "The decision in favour of RLE is most often driven by a combination of medical indications and lifestyle needs:",
                                             },
                                             {
                                                 type: "text",
@@ -4155,9 +4123,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Laser corneal correction is impossible or not advisable.",
-                                                    "A wider correction range is needed (high diopters, combination of myopia/hyperopia with astigmatism).",
-                                                    "There is a risk or early signs of cataract — lens replacement solves the issue in advance.",
+                                                    "Corneal laser correction cannot be performed or does not provide the expected predictability.",
+                                                    "A wider correction range is required (high dioptres; combination of myopia/hyperopia with astigmatism).",
+                                                    "There is a risk of cataract or early manifestations—lens replacement addresses the issue proactively.",
                                                 ],
                                             },
                                             {
@@ -4175,8 +4143,8 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Desire to see clearly without glasses at near, intermediate, and far distances (multifocal/trifocal IOLs).",
-                                                    "Need for stable clarity throughout the day: working with texts, screens, driving, sports.",
+                                                    "The goal of seeing without glasses at near, intermediate, and distance ranges (multifocal/trifocal IOLs).",
+                                                    "The need for stable sharpness throughout the day: reading, screens, driving, sports.",
                                                 ],
                                             },
                                             {
@@ -4194,9 +4162,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "RLE does not affect the cornea — important for thin or problematic corneas.",
-                                                    "Cataract prevention: after removing the natural lens, cataracts no longer develop.",
-                                                    "Personalized selection of IOLs according to lifestyle (reading, computer use, night driving).",
+                                                    "RLE does not affect the cornea—important with a thin or “problematic” cornea.",
+                                                    "Cataract prevention: after replacing the natural lens, cataract can no longer develop in that lens.",
+                                                    "Personalised IOL selection based on tasks and habits (reading, computer work, night driving).",
                                                 ],
                                             },
                                         ],
@@ -4214,27 +4182,27 @@ export const servicesData: ServicesProps[] = [
                         list: [
                             {
                                 itemTitle:
-                                    "Appointment and preparation for diagnostics",
+                                    "Appointment booking and preparation for diagnostics",
                                 itemText: [
-                                    "You can schedule an appointment by phone or online — it only takes a few minutes.",
-                                    "No special preparation is required. If you wear soft contact lenses, remove them the night before (preferably 12 hours before your visit). Bring your current glasses/prescription and results of previous examinations — we’ll assess the dynamics.",
-                                    "We recommend planning your visit without driving right after the appointment: pupil dilation may temporarily blur your near vision.",
+                                    "You can book by phone or online—it takes only a few minutes.",
+                                    "Special preparation is usually not required. If you wear soft contact lenses, remove them the evening before (preferably 12 hours prior to the visit). Bring your current glasses/prescription and results of previous examinations so we can assess dynamics.",
+                                    "We recommend planning your visit without self-driving immediately afterwards: during the examination the pupils may be dilated, and near vision may temporarily worsen.",
                                 ],
                             },
                             {
-                                itemTitle: "Comprehensive eye diagnostics",
+                                itemTitle: "Computerised vision diagnostics",
                                 itemText: [
-                                    "Duration — approximately 2–2.5 hours.",
-                                    "We perform a full set of measurements required for refractive lens exchange (RLE): autorefractometry and visual acuity testing, biometry and IOL power calculation, corneal topography/tomography, intraocular pressure measurement, and if needed — OCT of the macula and optic nerve, tear film evaluation.",
-                                    "To ensure accuracy, dilating eye drops are used — near vision may be temporarily blurred for several hours after the exam.",
+                                    "Duration: approximately 2–2.5 hours.",
+                                    "We perform a complete set of measurements required for refractive lens exchange (RLE): autorefractometry and visual acuity assessment, biometry and IOL power calculation, corneal keratotopography/tomography, tonometry, and—if needed—OCT of the macula and optic nerve, as well as tear film evaluation.",
+                                    "To ensure accuracy, pupil-dilating drops may be used—near vision can remain blurred for several hours after the examination.",
                                 ],
                             },
                             {
                                 itemTitle: "Ophthalmologist consultation",
                                 itemText: [
-                                    "After the examination, the doctor will explain the results, show the expected outcome, and recommend the type of intraocular lens best suited to your lifestyle (mono-/EDOF/trifocal, toric for astigmatism).",
-                                    "We’ll discuss indications and possible limitations, answer your questions, provide a transparent cost estimate and preparation timeline. If needed, you’ll receive a list of standard preoperative tests and recommendations.",
-                                    "Together, we’ll set the RLE date and create a personalized recovery plan.",
+                                    "After the examination, the doctor will explain the findings, discuss the prognosis, and select the IOL type according to your lifestyle (mono/EDOF/trifocal; toric for astigmatism).",
+                                    "We will review indications and potential limitations, answer questions, provide a transparent estimate, and outline the preparation plan. If necessary, you will receive a list of standard preoperative tests and recommendations.",
+                                    "Together, we will determine the RLE date and an individual recovery plan.",
                                 ],
                             },
                         ],
@@ -4245,15 +4213,15 @@ export const servicesData: ServicesProps[] = [
                     type: "textsColumns",
                     data: {
                         paddingTop: true,
-                        title: "Innovative vision restoration: Refractive Lens Exchange (RLE)",
-                        text: "Refractive Lens Exchange (RLE, refractive lensectomy) is a surgical method of vision correction in which the eye’s natural lens is replaced with an intraocular lens (IOL). RLE corrects myopia, hyperopia, presbyopia, and astigmatism. It is an ideal alternative when laser correction is contraindicated (thin cornea, scars, unstable refraction) and provides stable, clear vision without glasses or contact lenses.",
+                        title: "Innovative vision restoration: refractive lens exchange (RLE)",
+                        text: "Refractive lens exchange (RLE, refractive lensectomy) is a vision correction method in which the natural lens is replaced with an intraocular lens (IOL). RLE can correct myopia, hyperopia, presbyopia, and astigmatism and is a rational alternative when laser correction is contraindicated (thin cornea, scarring, unstable refraction) and when stable clarity without glasses and contact lenses is important.",
                         blocks: [
                             {
                                 title: "Why choose BiVision RLE with us",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "In our clinic, refractive lens exchange combines technology and experience. After a detailed diagnostic evaluation, we select the IOL based on your actual visual needs — reading, computer work, sports, or night driving. Instead of ultrasound during lens removal, we use a controlled water flow system (BiVision iQ 5 Minutes), which minimizes corneal impact and speeds up recovery. We work exclusively with original Rayner lenses — from multifocal to toric models — ensuring long-term visual comfort. Our surgeons have over ten years of experience in leading European centers.",
+                                        text: "At our clinic in Vilnius, refractive lens exchange combines advanced technology with an experienced team. Following detailed diagnostics, we select an IOL based on real visual tasks: reading, computer work, activity, and night driving. During lens removal, we use a controlled fluid stream instead of ultrasound (BiVision iQ 5 Minutes), which reduces corneal impact and speeds up recovery. We work with original Rayner lenses—from multifocal to toric—and focus on long-term visual comfort. Our surgeons have more than ten years of practice, including training in European centres.",
                                     },
                                 ],
                             },
@@ -4262,7 +4230,7 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Preparation is simple: bring previous medical reports, a list of your medications, and follow contact lens recommendations if you wear them. On the day of surgery, it’s advisable to have someone accompany you for a safe trip home. After the procedure, you’ll use prescribed eye drops, avoid swimming pools and saunas for two to three weeks, and temporarily limit intense physical activity. The return to driving is discussed with your surgeon during the follow-up visit.",
+                                        text: "Preparation is straightforward: bring previous medical conclusions, a list of current medications, and follow contact lens recommendations if you use them. On the day of surgery, it is advisable to come with an accompanying person for a comfortable return home. After the procedure, you will use eye drops according to the prescribed regimen, avoid swimming pools and saunas for 2–3 weeks, and temporarily limit intensive physical activity. Resuming driving should be confirmed with the surgeon during a follow-up visit.",
                                     },
                                 ],
                             },
@@ -4271,16 +4239,16 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "We work with Rayner and Alcon lens lines, selecting the configuration based on each eye and lifestyle. For maximum independence from glasses, we offer trifocal solutions; when astigmatism correction is also needed — toric models are used; if natural visual comfort and extended depth of focus are priorities, we recommend EDOF IOLs. The final choice is based on biometry, corneal astigmatism, and your daily visual needs.",
+                                        text: "We work with Rayner and Alcon product lines, selecting the configuration according to your ocular parameters and lifestyle. For maximum independence from glasses, we offer trifocal solutions; if astigmatism correction is required, we use toric models; if the priority is natural visual comfort and extended depth of focus, EDOF IOLs may be suitable. The final choice is based on biometry, the degree of corneal astigmatism, and your everyday tasks.",
                                     },
                                 ],
                             },
                             {
-                                title: "Cost and what’s included",
+                                title: "Pricing and what is included",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "The cost of RLE in Kyiv primarily depends on the chosen intraocular lens type and individual clinical specifics. During your consultation, you’ll receive a personalized cost breakdown explaining each step — from diagnostics and the procedure itself to postoperative care. If needed, our manager will inform you about current loyalty programs and installment options.",
+                                        text: "The cost of RLE in Vilnius primarily depends on the type of intraocular lens and individual clinical features. During the consultation, you will receive a personalised estimate with an explanation of each stage: diagnostics, surgery, and postoperative care. If needed, our administrator will advise on current loyalty programmes and payment options.",
                                     },
                                 ],
                             },
@@ -4290,14 +4258,14 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Price for refractive lensectomy in Kyiv",
+                        title: "Price for refractive lensectomy in Vilnius",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Frequently asked questions about refractive lens exchange (RLE)",
+                        title: "Frequently asked questions about refractive lens exchange (lensectomy)",
                         content: [
                             {
                                 question:
@@ -4305,77 +4273,77 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Refractive eye surgery is a branch of ophthalmology that corrects vision through surgical methods. Refractive lens exchange (RLE) is a microinvasive lens replacement procedure in which the natural lens is replaced with an intraocular lens (IOL). This replacement helps correct presbyopia, myopia, hypermetropia, and astigmatism and serves as an alternative to laser procedures. A full examination and doctor’s consultation are required before surgery.",
+                                        text: "Refractive eye surgery is a branch of ophthalmology that corrects vision using surgical methods. Refractive lens exchange (RLE) is a micro-invasive procedure in which the natural lens is replaced with an intraocular lens (IOL). This procedure can correct presbyopia, myopia, hyperopia, and astigmatism and may be an alternative to laser methods. Diagnostics and a doctor’s consultation are mandatory before surgery.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Who is RLE suitable for — patients with hyperopia, myopia, or presbyopia?",
+                                    "Who is refractive lens exchange suitable for—hyperopia, myopia, or presbyopia?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "RLE for hyperopia or myopia is relevant when laser correction is limited (thin or irregular cornea, high diopters). RLE is also effective for presbyopia (age-related farsightedness) and helps eliminate the need for switching between different pairs of glasses. The decision is made individually after a comprehensive eye examination and consultation.",
+                                        text: "RLE for hyperopia and myopia is relevant when laser correction is limited (thin or irregular cornea, high dioptres). RLE is also effective for presbyopia (age-related farsightedness) and helps reduce the need to switch between different glasses. The decision is made individually after a full examination and an ophthalmologist’s consultation.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How much does lens replacement cost? What is the price of RLE in Kyiv?",
+                                    "How much does lens replacement cost? What is the price of RLE in Vilnius?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The cost of lens replacement depends on the type of IOL (monofocal, trifocal, EDOF, toric), additional procedures, and clinical factors. Typical search queries include: 'lens replacement price', 'RLE cost Kyiv', 'lens exchange Kyiv price'. The final cost is determined after examination and consultation; clinics often offer discounts or loyalty programs. You can check current prices during your visit or by calling the reception.",
+                                        text: "The cost of lens replacement depends on the type of IOL (monofocal, trifocal, EDOF, toric), any additional procedures, and clinical factors. Common searches include: “lensectomy price”, “lens replacement Vilnius price”, “refractive lens exchange cost”. The final cost is determined after diagnostics and consultation; special offers may apply at times. Prices can be clarified during a visit or by contacting the clinic.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How is RLE different from laser vision correction, and when is it the ‘best’ option?",
+                                    "How does RLE differ from laser correction, and when is it the preferred option?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Laser correction reshapes the cornea, while RLE replaces the lens. Therefore, in refractive surgery, RLE is considered an ‘operative treatment’ for hyperopia and combined refractive errors in mature patients or those with high diopters. For some, laser correction provides the best results; for others, lens implantation does. During consultation, we explain the pros and cons, possible side effects, and contraindications.",
+                                        text: "Laser correction changes the corneal profile, whereas RLE works with the lens. Therefore, RLE is considered in age-related farsightedness and combined refractive errors in mature patients or in cases of high dioptres. For some patients, laser provides a better prognosis; for others, lens implantation is more appropriate. During consultation, the doctor will explain benefits, potential side effects, and contraindications.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Is RLE suitable for treating farsightedness and nearsightedness? What is the price?",
+                                    "Is RLE suitable for treating farsightedness and nearsightedness, and what is the cost of such procedures?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yes. RLE can be an optimal solution for treating farsightedness (including presbyopia) and nearsightedness when laser correction is not recommended. Typical search queries include: 'farsightedness surgery price', 'laser vision correction cost', 'myopia surgery price', 'RLE cost'. The exact price is confirmed after diagnosis; promotions and discounts may be available.",
+                                        text: "Yes. For the correction of farsightedness (including presbyopia) and nearsightedness, RLE can be an optimal solution when laser correction is not recommended. Common searches include: “farsightedness surgery cost”, “laser vision correction cost”, “myopia surgery cost”. The exact cost is confirmed after diagnostics; promotions may be available.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Where is the best place to have lens replacement surgery? What should you pay attention to in reviews and recommendations?",
+                                    "Where is it better to undergo lens replacement surgery, and what should you look for in reviews?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Choose a clinic with experience in refractive eye surgery, modern diagnostics, transparent pricing, and proven results. Read reviews and independent comments, and look at real clinical cases. During consultation, ask about lens selection for your lifestyle, postoperative care, and activity restrictions. Also check how emergency care and after-surgery communication are organized.",
+                                        text: "Choose a clinic with experience in refractive surgery, modern diagnostic equipment, transparent pricing, and clear postoperative follow-up. Review patient feedback and real clinical examples. During consultation, ask about IOL selection based on lifestyle, follow-up visit schedule, and restrictions. Also clarify how communication with the doctor is organised after surgery.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What are the risks, contraindications, and side effects of lens replacement surgery?",
+                                    "What are the risks, contraindications, and possible side effects of lens replacement?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "As with any surgery, lens replacement has contraindications (such as active inflammation, uncontrolled intraocular pressure) and possible side effects (temporary dryness, glare/halos, light sensitivity). Most of these effects are short-term and managed with proper care. In case of other eye conditions, treatment is adjusted individually. Surgery is recommended only after a full ophthalmic examination.",
+                                        text: "As with any procedure, lens replacement has contraindications (active inflammation, uncontrolled intraocular pressure) and possible side effects (temporary dryness, glare/haloes, light sensitivity). Most effects are short-term and managed with appropriate recommendations. In the presence of comorbid conditions, the treatment approach is individual. The decision to proceed is made only after a full examination.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What is the patient journey from the first visit to recovery? Is a free consultation available?",
+                                    "What is the patient journey—from first consultation to recovery? Is a free appointment available?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "First, you schedule a consultation and examination (biometry, topography, retinal check). Then, the doctor recommends a suitable IOL, discusses costs and timing. On the day of surgery, lens implantation is performed, and most patients return to normal activities quickly, with scheduled follow-up visits. Regarding 'free consultations': sometimes promotional offers are available, but generally, the initial visit is paid. If you’re unsure where to go, our administrator will recommend a convenient time and doctor.",
+                                        text: "First, you book a consultation and diagnostics (biometry, topography, retinal examination). The doctor then selects a suitable IOL and discusses costs and timing. On the day of surgery, the IOL is implanted; most patients return to routine activities with follow-up visits according to schedule. Regarding “free”: promotional offers may occasionally be available, but the initial consultation is typically paid. An administrator will help you choose a convenient time and specialist.",
                                     },
                                 ],
                             },
@@ -4400,7 +4368,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Рефракционная замена хрусталика глаза (ленсектомия)",
+                        title: "Хирургия прозрачного хрусталика (ленсектомия)",
                     },
                 },
                 {
@@ -4409,8 +4377,8 @@ export const servicesData: ServicesProps[] = [
                         title: "BiVision RLE — современная альтернатива лазерной коррекции зрения",
                         image: "/images/equipment1.jpg",
                         text: [
-                            "BiVision RLE — это современная микроинвазивная операция, при которой естественный хрусталик глаза заменяется на интраокулярную линзу (ИОЛ) для восстановления чёткого зрения вблизи, на среднем расстоянии и вдаль. Подходит, когда лазерная коррекция противопоказана или ожидаемый результат лазера недостаточен (тонкая/неровная роговица, большие диоптрии, комбинированные нарушения зрения).",
-                            "Кому подходит: людям 45+ с пресбиопией, пациентам с высокой миопией/гиперметропией, астигматизмом, начальными изменениями хрусталика или риском катаракты.",
+                            "BiVision RLE — это высокоточная микрохирургическая процедура, при которой собственный хрусталик глаза заменяют на интраокулярную линзу (ИОЛ), чтобы восстановить чёткое зрение вблизи, на среднем расстоянии и вдаль. Метод выбирают, когда лазерная коррекция не рекомендована или её прогноз ограничен (тонкая/неровная роговица, большие диоптрии, комбинированные нарушения зрения).",
+                            "Кому подходит: людям 45+ с пресбиопией, пациентам с выраженной миопией/гиперметропией, астигматизмом, ранними изменениями хрусталика или повышенным риском катаракты.",
                         ],
                     },
                 },
@@ -4421,48 +4389,32 @@ export const servicesData: ServicesProps[] = [
                         text: "Рефракционная хирургия в офтальмологии подходит как при дальнозоркости, так и при близорукости, включая астигматизм.",
                         slider: [
                             {
-                                title: "Комплексная автоматизированная диагностика",
-                                text: "Позволяет определить остроту зрения с помощью специальных таблиц с цифрами, буквами или символами.",
-                            },
-                            {
-                                title: "IPL-терапия",
-                                text: "Измерение внутриглазного давления. Повышенное давление является основной причиной глаукомы.",
-                            },
-                            {
-                                title: "Массаж век с применением специальных методик",
-                                text: "Измерение внутриглазного давления. Повышенное давление является основной причиной глаукомы.",
-                            },
-                            {
-                                title: "Диагностика и лечение сопутствующих заболеваний",
-                                text: "Измерение внутриглазного давления. Повышенное давление является основной причиной глаукомы.",
-                            },
-                            {
                                 title: "Долговременное зрение без очков",
-                                text: "С помощью технологии BiVision можно восстановить зрение как вблизи, так и вдаль, полностью избавившись от очковой зависимости даже при возрастной дальнозоркости.",
+                                text: "Технология BiVision помогает восстановить зрение и вблизи, и вдаль, снижая зависимость от очков даже при возрастной дальнозоркости.",
                             },
                             {
                                 title: "Альтернатива лазерной коррекции",
-                                text: "Методика идеально подходит пациентам, которым противопоказано лазерное вмешательство, но требуется коррекция миопии, гиперметропии или астигматизма.",
+                                text: "Методика подходит тем, кому противопоказано лазерное вмешательство, но требуется коррекция миопии, гиперметропии или астигматизма.",
                             },
                             {
-                                title: "Премиальные линзы от Rayner",
-                                text: "В клинике используются исключительно оригинальные английские интраокулярные линзы высокого класса — никаких компромиссов в качестве и безопасности.",
+                                title: "Премиальные линзы Rayner",
+                                text: "В клинике в Вильнюсе используются только оригинальные английские интраокулярные линзы высокого класса — без компромиссов по качеству и безопасности.",
                             },
                             {
                                 title: "Профилактика развития катаракты",
-                                text: "Во время операции удаляется естественный хрусталик, что исключает развитие катаракты в будущем. Дополнительная полировка капсулы улучшает чёткость и яркость зрения после процедуры.",
+                                text: "Во время операции собственный хрусталик заменяется, поэтому риск катаракты в будущем сводится к минимуму. Дополнительная полировка капсулы помогает улучшить чёткость и контрастность зрения после процедуры.",
                             },
                             {
                                 title: "Щадящая технология удаления хрусталика",
-                                text: "Применяется авторская методика iQ 5 Minutes без ультразвука — только направленный водный поток. Это минимизирует воздействие на роговицу и обеспечивает быструю реабилитацию.",
+                                text: "Применяем протокол iQ 5 Minutes без ультразвука — только контролируемый направленный водный поток. Это уменьшает нагрузку на роговицу и ускоряет реабилитацию.",
                             },
                             {
                                 title: "Высокий профессионализм хирургов",
-                                text: "Офтальмохирурги клиники обучались в ведущих европейских центрах и имеют не менее десяти лет опыта в микрохирургии глаза.",
+                                text: "Офтальмохирурги центра проходили обучение в ведущих европейских школах и имеют значительный практический опыт — не менее 10 лет в микрохирургии глаза.",
                             },
                             {
                                 title: "Доступ к передовым медицинским разработкам",
-                                text: "Специалисты клиники участвуют в клинических испытаниях инновационного оборудования ещё до его выхода на рынок, что позволяет применять самые современные технологии лечения зрения.",
+                                text: "Специалисты участвуют в клинических оценках инновационных решений ещё до их широкого внедрения, чтобы применять самые актуальные технологии лечения зрения.",
                             },
                         ],
                         btn: {
@@ -4486,11 +4438,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "RLE рассматривают тогда, когда возрастная дальнозоркость сочетается с другими нарушениями рефракции — например, когда нужны разные очки для работы за компьютером и для чтения, а к вечеру глаза быстро устают и фокус «прыгает». Часто пациенты жалуются на туманное или менее контрастное изображение утром, блики при ночном вождении и ощущение, что очки уже не дают желаемой чёткости. Если офтальмолог ранее отказал в лазерной коррекции из-за параметров роговицы, RLE становится логичной альтернативой, ведь метод работает с хрусталиком и не изменяет роговицу. На ранних этапах помутнения хрусталика процедура также устраняет риск катаракты в будущем, а людям с профессиональными требованиями к зрению обеспечивает большую стабильность и контрастность изображения.",
+                                                text: "RLE рассматривают, когда возрастная дальнозоркость сочетается с другими нарушениями рефракции — например, когда нужны разные очки для чтения и для работы за компьютером, а к вечеру глаза быстрее устают и фокус становится нестабильным. Нередко пациенты отмечают «мутноватую» картинку по утрам, снижение контрастности, блики при ночном вождении и ощущение, что очки уже не дают прежней чёткости. Если ранее лазерную коррекцию не рекомендовали из-за параметров роговицы, RLE становится практичной альтернативой: метод работает с хрусталиком и не изменяет роговицу. При ранних изменениях хрусталика вмешательство также снижает вероятность катаракты в будущем, а людям с высокими требованиями к зрению помогает добиться более стабильной картинки и контраста.",
                                             },
                                         ],
                                         greenText:
-                                            "Решение «два в одном». Мы обновляем зрение и одновременно устраняем риск катаракты в будущем. Минимальный разрез, быстрое восстановление, максимум комфорта.",
+                                            "Решение «два в одном».** Мы улучшаем зрение и одновременно уменьшаем риск катаракты в перспективе. Минимальный разрез, быстрое восстановление, максимум комфорта.",
                                     },
                                 ],
                             },
@@ -4503,7 +4455,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Выбор в пользу RLE обычно обусловлен сочетанием клинических и жизненных факторов:",
+                                                text: "Выбор в пользу RLE чаще всего связан с сочетанием медицинских показаний и потребностей образа жизни:",
                                             },
                                             {
                                                 type: "text",
@@ -4520,9 +4472,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Лазерную коррекцию роговицы нельзя или нецелесообразно проводить.",
-                                                    "Необходим более широкий диапазон коррекции (высокие диоптрии, сочетание миопии/гиперметропии с астигматизмом).",
-                                                    "Есть риск или ранние проявления катаракты — замена хрусталика решает проблему заранее.",
+                                                    "Лазерную коррекцию роговицы нельзя проводить или она не даёт ожидаемого прогноза.",
+                                                    "Нужен более широкий диапазон коррекции (высокие диоптрии, сочетание миопии/гиперметропии с астигматизмом).",
+                                                    "Есть риск или ранние проявления катаракты — замена хрусталика решает вопрос заранее.",
                                                 ],
                                             },
                                             {
@@ -4540,8 +4492,8 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Желание видеть без очков вблизи, на среднем расстоянии и вдаль (мультифокальные/трифокальные ИОЛ).",
-                                                    "Необходимость стабильной чёткости в течение дня: работа с текстами, экранами, вождение, спорт.",
+                                                    "Стремление видеть без очков вблизи, на среднем расстоянии и вдаль (мультифокальные/трифокальные ИОЛ).",
+                                                    "Потребность в устойчивой чёткости в течение дня: тексты, экраны, вождение, спорт.",
                                                 ],
                                             },
                                             {
@@ -4559,9 +4511,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "RLE не влияет на роговицу — важно при тонкой или проблемной роговице.",
-                                                    "Профилактика катаракты: после удаления собственного хрусталика она больше не развивается.",
-                                                    "Персонализированный подбор ИОЛ под образ жизни (чтение, работа за компьютером, ночное вождение).",
+                                                    "RLE не воздействует на роговицу — важно при тонкой или «проблемной» роговице.",
+                                                    "Профилактика катаракты: после замены собственного хрусталика она больше не формируется.",
+                                                    "Персональный подбор ИОЛ под задачи и привычки (чтение, компьютер, ночное вождение).",
                                                 ],
                                             },
                                         ],
@@ -4582,24 +4534,24 @@ export const servicesData: ServicesProps[] = [
                                     "Запись на приём и подготовка к диагностике",
                                 itemText: [
                                     "Записаться можно по телефону или онлайн — это займёт всего несколько минут.",
-                                    "Специальная подготовка не требуется. Если вы носите мягкие контактные линзы — снимите их с вечера (желательно за 12 часов до визита). Возьмите с собой текущие очки/рецепт и результаты предыдущих обследований — мы оценим динамику.",
-                                    "Рекомендуем планировать визит без вождения сразу после приёма: во время осмотра возможно расширение зрачков и временное ухудшение зрения вблизи.",
+                                    "Специальная подготовка обычно не нужна. Если вы носите мягкие контактные линзы — снимите их с вечера (желательно за 12 часов до визита). Возьмите текущие очки/рецепт и результаты прошлых обследований — мы оценим динамику.",
+                                    "Рекомендуем планировать визит без самостоятельного вождения сразу после приёма: при осмотре могут расширять зрачки, и зрение вблизи временно ухудшается.",
                                 ],
                             },
                             {
                                 itemTitle: "Компьютерная диагностика зрения",
                                 itemText: [
                                     "Продолжительность — примерно 2–2,5 часа.",
-                                    "Проводим полный комплекс измерений, необходимых для рефракционной замены хрусталика (RLE): авторефрактометрия и проверка остроты зрения, биометрия и расчёт силы ИОЛ, кератотопография/томография роговицы, измерение внутриглазного давления, при необходимости — ОКТ макулы и зрительного нерва, оценка слёзной плёнки.",
-                                    "Для точности применяются капли для расширения зрачков — в течение нескольких часов после осмотра зрение вблизи может быть размытым.",
+                                    "Проводим полный комплекс измерений для рефракционной замены хрусталика (RLE): авторефрактометрия и проверка остроты зрения, биометрия и расчёт оптической силы ИОЛ, кератотопография/томография роговицы, тонометрия, при необходимости — ОКТ макулы и зрительного нерва, оценка слёзной плёнки.",
+                                    "Для точности применяются капли для расширения зрачков — несколько часов после осмотра зрение вблизи может быть размытым.",
                                 ],
                             },
                             {
                                 itemTitle: "Консультация офтальмолога",
                                 itemText: [
-                                    "После обследования врач объяснит результаты, покажет прогнозируемый эффект и подберёт тип интраокулярной линзы под ваш образ жизни (моно-/EDOF/трифокальная, торическая при астигматизме).",
-                                    "Обсудим показания и возможные ограничения, ответим на вопросы, предоставим прозрачную смету и календарь подготовки. При необходимости получите список стандартных предоперационных анализов и рекомендации.",
-                                    "Вместе определим дату RLE и персональный план восстановления.",
+                                    "После обследования врач разъяснит результаты, обсудит прогноз и подберёт тип интраокулярной линзы под ваш образ жизни (моно-/EDOF/трифокальная, торическая при астигматизме).",
+                                    "Обсудим показания и возможные ограничения, ответим на вопросы, предоставим прозрачную смету и план подготовки. При необходимости вы получите перечень стандартных предоперационных анализов и рекомендации.",
+                                    "Вместе определим дату RLE и индивидуальный план восстановления.",
                                 ],
                             },
                         ],
@@ -4611,14 +4563,14 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         title: "Инновационное восстановление зрения: рефракционная замена хрусталика (RLE)",
-                        text: "Рефракционная замена хрусталика (RLE, рефракционная ленсэктомия) — хирургический метод коррекции зрения, при котором естественный хрусталик глаза заменяется интраокулярной линзой (ИОЛ). RLE устраняет миопию, гиперметропию, пресбиопию и астигматизм, является оптимальной альтернативой, когда лазерная коррекция противопоказана (тонкая роговица, рубцы, нестабильная рефракция) и позволяет получить стабильное, чёткое зрение без очков и контактных линз.",
+                        text: "ефракционная замена хрусталика (RLE, рефракционная ленсэктомия) — метод коррекции зрения, при котором естественный хрусталик заменяется интраокулярной линзой (ИОЛ). RLE корректирует миопию, гиперметропию, пресбиопию и астигматизм и является рациональной альтернативой, когда лазерная коррекция противопоказана (тонкая роговица, рубцы, нестабильная рефракция) и когда важна стабильная чёткость без очков и контактных линз.",
                         blocks: [
                             {
                                 title: "Почему стоит выбрать BiVision RLE у нас",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "В нашей клинике рефракционная замена хрусталика — это сочетание технологий и опыта. После детальной диагностики мы подбираем ИОЛ под реальные зрительные потребности пациента: чтение, работа за компьютером, спорт или ночное вождение. Вместо ультразвука при удалении хрусталика используется контролируемый водный поток (BiVision iQ 5 Minutes), что снижает воздействие на роговицу и ускоряет восстановление. Мы работаем только с оригинальными линзами Rayner — от мультифокальных до торических — и заботимся о долгосрочном зрительном комфорте. Наши хирурги имеют более десяти лет практики в ведущих европейских центрах.",
+                                        text: "В нашей клинике в Вильнюсе рефракционная замена хрусталика сочетает технологичность и опыт команды. После детальной диагностики мы подбираем ИОЛ под реальные зрительные задачи: чтение, работа за компьютером, активность, ночное вождение. При удалении хрусталика используем контролируемый водный поток вместо ультразвука (BiVision iQ 5 Minutes), что снижает воздействие на роговицу и ускоряет восстановление. Мы работаем с оригинальными линзами Rayner — от мультифокальных до торических — и ориентируемся на долгосрочный зрительный комфорт. Хирурги имеют более десяти лет практики, включая обучение в европейских центрах.",
                                     },
                                 ],
                             },
@@ -4627,7 +4579,7 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Подготовка сводится к простой организации: возьмите с собой предыдущие медицинские заключения, список принимаемых лекарств и следуйте рекомендациям по ношению контактных линз, если вы их используете. В день операции желательно иметь сопровождение, чтобы комфортно добраться домой. После вмешательства вы используете капли по схеме, избегаете бассейна и сауны в течение двух-трёх недель и временно ограничиваете интенсивные нагрузки. Возобновление вождения согласовывается с хирургом на контрольном визите.",
+                                        text: "Подготовка сводится к простой организации: возьмите прежние медицинские заключения, список принимаемых препаратов и следуйте рекомендациям по контактным линзам, если вы ими пользуетесь. В день операции желательно прийти с сопровождением, чтобы комфортно добраться домой. После вмешательства вы используете капли по схеме, избегаете бассейна и сауны в течение 2–3 недель и временно ограничиваете интенсивные нагрузки. Возобновление вождения согласовывается с хирургом на контрольном визите.",
                                     },
                                 ],
                             },
@@ -4636,7 +4588,7 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Мы работаем с линейкой Rayner, Alcon, подбирая конфигурацию под конкретные глаза и образ жизни. Для максимальной независимости от очков предлагаем трифокальные решения; когда необходимо одновременно устранить астигматизм — используем торические модели; если приоритетом является естественный зрительный комфорт и большая глубина резкости, подойдут ИОЛ с расширенной глубиной фокуса. Окончательный выбор основывается на биометрии, роговичном астигматизме и ваших повседневных задачах.",
+                                        text: "Мы работаем с линейками Rayner и Alcon, подбирая конфигурацию под конкретные параметры глаз и образ жизни. Для максимальной независимости от очков предлагаем трифокальные решения; при необходимости коррекции астигматизма используем торические модели; если приоритет — естественный зрительный комфорт и расширенная глубина резкости, подойдут ИОЛ EDOF. Финальный выбор основывается на биометрии, величине роговичного астигматизма и ваших ежедневных задачах.",
                                     },
                                 ],
                             },
@@ -4645,7 +4597,7 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Стоимость RLE в Киеве зависит прежде всего от выбранного типа интраокулярной линзы и индивидуальных клинических особенностей. На консультации вы получите персональную смету с пояснением каждого этапа: от диагностики и самой операции до послеоперационного сопровождения. При необходимости менеджер подскажет актуальные программы лояльности и возможность оформления рассрочки.",
+                                        text: "Стоимость RLE в Вильнюсе зависит прежде всего от типа интраокулярной линзы и индивидуальных клинических особенностей. На консультации вы получите персональную смету с пояснением каждого этапа: диагностика, операция и послеоперационное сопровождение. При необходимости администратор подскажет актуальные программы лояльности и варианты оплаты.",
                                     },
                                 ],
                             },
@@ -4655,7 +4607,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цена на рефракционную ленсектомию в Киеве",
+                        title: "Цена на рефракционную ленсектомию в Вильнюсе",
                     },
                 },
                 { type: "doctors" },
@@ -4670,7 +4622,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Рефракционная хирургия глаза — это направление офтальмологии, которое корректирует зрение хирургическими методами. Рефракционная замена хрусталика (RLE) — микроинвазивная операция, при которой естественный хрусталик заменяется на интраокулярную линзу (ИОЛ). Такая операция корректирует пресбиопию, миопию, гиперметропию и астигматизм и служит альтернативой лазерным методам. Перед вмешательством обязательны обследование и консультация врача.",
+                                        text: "Рефракционная хирургия глаза — направление офтальмологии, которое корректирует зрение хирургическими методами. Рефракционная замена хрусталика (RLE) — микроинвазивная операция, при которой естественный хрусталик заменяют на интраокулярную линзу (ИОЛ). Такая процедура корректирует пресбиопию, миопию, гиперметропию и астигматизм и может быть альтернативой лазерным методам. Перед вмешательством обязательны обследование и консультация врача.",
                                     },
                                 ],
                             },
@@ -4680,17 +4632,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "RLE при гиперметропии и миопии актуальна, когда лазерная коррекция ограничена (тонкая или неровная роговица, высокие диоптрии). RLE также эффективна при пресбиопии (возрастная дальнозоркость) и помогает избавиться от необходимости менять разные очки. Решение принимается индивидуально после полного обследования и консультации врача.",
+                                        text: "RLE при гиперметропии и миопии актуальна, когда лазерная коррекция ограничена (тонкая или неровная роговица, высокие диоптрии). RLE также эффективна при пресбиопии (возрастная дальнозоркость) и помогает уменьшить необходимость постоянно менять разные очки. Решение принимается индивидуально после полного обследования и консультации офтальмолога.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Сколько стоит замена хрусталика? Какая цена RLE в Киеве?",
+                                    "Сколько стоит замена хрусталика? Какая цена RLE в Вильнюсе?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Стоимость замены хрусталика зависит от типа ИОЛ (монофокальная, трифокальная, EDOF, торическая), сопутствующих процедур и клинических особенностей. Часто ищут: «ленсэктомия цена», «замена хрусталика Киев цена», «рефракционная замена хрусталика стоимость». Окончательная стоимость определяется после обследования и консультации; часто действуют акции и программы лояльности. Уточнить цены можно на приёме или по телефону клиники.",
+                                        text: "Стоимость замены хрусталика зависит от типа ИОЛ (монофокальная, трифокальная, EDOF, торическая), дополнительных процедур и клинических особенностей. Часто ищут: «ленсэктомия цена», «замена хрусталика Вильнюс цена», «рефракционная замена хрусталика стоимость». Окончательная стоимость определяется после диагностики и консультации; иногда действуют специальные предложения. Уточнить цены можно на приёме или по телефону клиники.",
                                     },
                                 ],
                             },
@@ -4700,7 +4652,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Лазер моделирует роговицу, а RLE работает с хрусталиком. Поэтому RLE рассматривается как «оперативное лечение дальнозоркости» и комбинированных нарушений зрения у пациентов зрелого возраста или с высокими диоптриями. Для одних лучший результат даёт лазер, для других — имплантация линзы. На консультации врач объяснит преимущества, возможные побочные эффекты и противопоказания.",
+                                        text: "Лазер изменяет профиль роговицы, а RLE работает с хрусталиком. Поэтому RLE рассматривают при возрастной дальнозоркости и комбинированных нарушениях рефракции у пациентов зрелого возраста или при высоких диоптриях. Для одних лучший прогноз даёт лазер, для других — имплантация линзы. На консультации врач объяснит преимущества, возможные побочные эффекты и противопоказания.",
                                     },
                                 ],
                             },
@@ -4710,7 +4662,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Да. Для лечения дальнозоркости (в том числе пресбиопии) и близорукости RLE может быть оптимальным вариантом, когда лазерная коррекция не рекомендована. Часто ищут: «дальнозоркость операция цена», «лазерная коррекция зрения стоимость», «операция близорукость цена». Точная стоимость подтверждается после диагностики; иногда доступны акции и скидки.",
+                                        text: "Да. Для лечения дальнозоркости (включая пресбиопию) и близорукости RLE может быть оптимальным решением, когда лазерная коррекция не рекомендована. Часто ищут: «дальнозоркость операция цена», «лазерная коррекция зрения стоимость», «операция близорукость цена». Точная стоимость подтверждается после диагностики; иногда доступны акции и скидки.",
                                     },
                                 ],
                             },
@@ -4720,7 +4672,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Выбирайте клинику с опытом в рефракционной хирургии, современным оборудованием, прозрачными ценами и подтверждёнными результатами. Изучайте отзывы и реальные клинические случаи. На консультации уточните подбор ИОЛ под ваш образ жизни, особенности послеоперационного наблюдения и ограничения. Также узнайте, как работает экстренная помощь и связь с врачом после операции.",
+                                        text: "Выбирайте клинику с опытом в рефракционной хирургии, современным диагностическим оборудованием, прозрачной сметой и понятным послеоперационным сопровождением. Изучайте отзывы и реальные клинические примеры. На консультации уточните подбор ИОЛ под ваш образ жизни, график контрольных визитов и ограничения. Также узнайте, как организована связь с врачом после операции.",
                                     },
                                 ],
                             },
@@ -4730,7 +4682,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Как и любое хирургическое вмешательство, замена хрусталика имеет противопоказания (воспалительные процессы, неконтролируемое внутриглазное давление) и возможные побочные эффекты (временная сухость, блики, светочувствительность). Большинство из них кратковременны и корректируются рекомендациями. При сопутствующих заболеваниях схема лечения подбирается индивидуально. Решение о проведении операции принимается только после полного обследования.",
+                                        text: "Как и любое вмешательство, замена хрусталика имеет противопоказания (активные воспалительные процессы, неконтролируемое внутриглазное давление) и возможные побочные эффекты (временная сухость, блики, светочувствительность). Большинство проявлений кратковременны и корректируются рекомендациями. При сопутствующих заболеваниях тактика подбирается индивидуально. Решение о проведении операции принимается только после полного обследования.",
                                     },
                                 ],
                             },
@@ -4740,7 +4692,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Сначала вы записываетесь на консультацию и обследование (биометрия, топография, осмотр сетчатки). Затем врач подбирает подходящую ИОЛ, обсуждает стоимость и сроки. В день операции проводится имплантация хрусталика; большинство пациентов быстро возвращаются к привычному ритму жизни с контрольными визитами по графику. Что касается «бесплатно»: иногда действуют акции, но стандартно первичная консультация оплачивается. Если сомневаетесь, куда обратиться, администратор поможет выбрать удобное время и врача.",
+                                        text: "Сначала вы записываетесь на консультацию и диагностику (биометрия, топография, осмотр сетчатки). Затем врач подбирает подходящую ИОЛ, обсуждает стоимость и сроки. В день операции выполняется имплантация линзы; большинство пациентов возвращаются к привычному ритму с контрольными визитами по графику. Что касается «бесплатно»: иногда бывают акции, но стандартно первичная консультация оплачивается. Администратор поможет подобрать удобное время и специалиста.",
                                     },
                                 ],
                             },
