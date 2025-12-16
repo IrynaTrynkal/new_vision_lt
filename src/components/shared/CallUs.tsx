@@ -24,11 +24,11 @@ export const CallUs = ({ className }: { className?: string }) => {
             </p>
             <div className="prepc:flex prepc:justify-between">
                 <div className="tab:mb-6 prepc:mb-0 mb-14">
-                    <p className="text-ivory mb-2 leading-[18px] font-medium uppercase">
-                        {tA("ctaWorkHours")}
-                    </p>
-                    <p className="text-ivory text-sm leading-4 font-medium uppercase">
+                    <p className="text-ivory mb-2 text-sm leading-4 font-medium uppercase">
                         {tA("ctaRest")}
+                    </p>
+                    <p className="text-ivory leading-[18px] font-medium uppercase">
+                        {tA("ctaWorkHours")}
                     </p>
                 </div>
                 <LinkAction

@@ -114,6 +114,8 @@ export type NumberListProps = {
 export type TitleTextType = { title: string; text: string };
 
 export type GreenSliderSectionProps = {
+    paddingTop?: boolean;
+    paddingBottom?: boolean;
     title: string;
     text: string;
     btn?: BtnType;
@@ -2748,20 +2750,20 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/children-service.jpg",
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
-                        title: "Дитяча клініка \n«Злата»",
-                        text: "Приватна офтальмологія для дітей: перевірка зору у дітей від немовлят до підлітків, комплексна діагностика (циклоплегія, топографія, біометрія) та апаратне лікування",
+                        title: "Vaikų klinika",
+                        text: "Privati vaikų oftalmologija Vilniuje: vaikų regos patikrinimas nuo kūdikystės iki paauglystės, išplėstinė diagnostika (frakcinė cikloplegija, ragenos topografija, biometriniai matavimai) ir aparatinis gydymas.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/zlata2.jpg",
-                        title: "Дитяча клініка Злата — дитяча офтальмологія у Києві",
+                        title: "Vaikų klinika — vaikų akių patikra Vilniuje",
                         text: [
-                            "У Дитячій клініці Злата проводимо перевірку зору у дітей від немовлят до підлітків: точні обстеження, індивідуальне лікування, зрозумілі рекомендації для батьків. Якщо шукаєте, де перевірити дитині зір і як перевірити зір дитині швидко та без стресу — записуйтеся на консультацію лікаря. У реєстратурі Дитячої клініки Злата підкажуть актуальні ціни/вартість, наявні акції та знижки, допоможуть обрати зручний прийом у приватній офтальмологічній дитячій клініці.",
+                            "Vaikų klinikoje atliekama vaikų akių patikra ir vaikų regos patikrinimas nuo kūdikių iki paauglių: tikslūs tyrimai, individuali taktika ir aiškios rekomendacijos tėvams. Jei ieškote, kur atlikti akių patikrinimą vaikams ramiai ir be papildomo streso — užsiregistruokite vizitui pas vaikų oftalmologą. Centro administratoriai suteiks informaciją apie aktualias kainas, galiojančius pasiūlymus ir galimas nuolaidas, taip pat padės pasirinkti patogų vizito laiką privačiai vaikų akių apžiūrai Vilniuje.",
                         ],
-                        textUp: "1 млн",
-                        textDown: "консультацій проведено",
+                        textUp: "1 mln",
+                        textDown: "konsultacijų \natlikta",
                         fractionUp: true,
                     },
                 },
@@ -2772,7 +2774,7 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Коли звертатися: перші сигнали",
+                                title: "Kada kreiptis: pirmieji signalai",
                                 image: "/images/zlata5.jpg",
                                 text: [
                                     {
@@ -2780,18 +2782,18 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Дитяча клініка Злата радить не відкладати огляд і обстеження, якщо ви помічаєте навіть легкі зміни у поведінці чи звичках дитини. Часті скарги на втому очей, «туман», двоїння, головний біль наприкінці дня, мруження або піднесення гаджетів занадто близько можуть свідчити про початок міопії, гіперметропії, астигматизму чи порушення бінокулярного зору. У дошкільнят додатковими маркерами є часте тертя очей, надмірне моргання, уникання пазлів/дрібних ігор; у школярів — падіння уваги, зниження успішності при читанні з дошки, неправильна постава, наближення обличчя до зошита.",
+                                                text: "Vaikų klinika rekomenduoja neatidėlioti, jei pastebite net nedidelius vaiko elgesio ar įpročių pokyčius. Nusiskundimai akių nuovargiu, „rūku“, dvejinimusi, vakariniais galvos skausmais, prisimerkimais ar pernelyg arti laikomais įrenginiais gali rodyti prasidedančią trumparegystę, toliaregystę, astigmatizmą ar binokulinio regėjimo sutrikimus. Ikimokyklinio amžiaus vaikams nerimą kelia dažnas akių trynimas, sustiprėjęs mirksėjimas, atsisakymas dėlionių ir smulkių žaidimų; mokyklinio amžiaus vaikams — suprastėjusi koncentracija, sunkumai skaitant nuo lentos, netaisyklinga laikysena, sąsiuvinio artinimas prie veido.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Зверніть увагу, якщо очі «роз’їжджаються», з’являється періодичне косування на фото, або «червоне око» на знімках виражене асиметрично — це привід записатися на консультацію в Дитячу клініку Злата. Також показанням до візиту є ранній старт гаджетів, сімейна історія короткозорості, недоношеність, алергії та скарги на сухість/печіння після занять. Планова перевірка зору для дітей у нас включає тести з урахуванням віку, а за потреби — діагностику з фракційною циклоплегією, топографію рогівки та контроль аксіальної довжини, щоб своєчасно зупинити прогресування порушень і запобігти амбліопії.",
+                                                text: "Atkreipkite dėmesį, jei akys „išsiskiria“, nuotraukose matomas epizodinis žvairumas arba „raudona akis“ atrodo asimetriška — tai priežastis užsiregistruoti konsultacijai Vaikų klinikoje. Taip pat indikacijos gali būti ankstyvas ir ilgas naudojimasis ekraniniais įrenginiais, paveldima trumparegystė, neišnešiotumas, alergijos bei nusiskundimai sausumu ar deginimu po užsiėmimų. Mūsų profilaktinė akių patikra vaikams apima amžiui pritaikytus testus, o prireikus — diagnostiką su frakcine cikloplegija, ragenos topografiją ir akies ašinio ilgio kontrolę, kad laiku koreguotume rizikas, sulėtintume nepageidaujamą dinamiką ir sumažintume ambliopijos tikimybę.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Комплексна перевірка: точна діагностика та план",
+                                title: "Kompleksinis patikrinimas: tiksli diagnostika ir gydymo planas",
                                 image: "/images/perevirka3.jpg",
                                 text: [
                                     {
@@ -2799,11 +2801,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "У Дитячій клініці Злата оцінюємо рефракцію (в т.ч. з фракційною циклоплегією), стереозір, фузійні резерви, положення очей, стан очного дна й темпи росту очного яблука. За результатами лікар Дитячої клініки Злата формує персональний маршрут: оптична корекція, апаратне лікування зору у дітей, графік спостережень і домашні вправи. Батьки отримують зрозумілий висновок, прозорі ціни, чіткі рекомендації та орієнтацію «скільки коштує» кожен етап. Додаємо прогноз динаміки (коли чекати перших змін), пояснюємо переваги/недоліки кожної методики простими словами та надаємо пам’ятку з правилами гігієни зору для дому.",
+                                                text: "Vaikų klinikoje vertinama refrakcija (įskaitant frakcinę cikloplegiją), stereoregėjimas, fuziniai rezervai, akių padėtis, akių dugno būklė ir akies obuolio augimo tempai. Pagal rezultatus gydytojas sudaro individualų planą: optinė korekcija, aparatinis regos gydymas vaikams, stebėjimo grafikas ir pratimai namuose. Tėvai gauna aiškią išvadą, skaidrias kainas, rekomendacijas ir informaciją, kiek kainuoja kiekvienas etapas. Taip pat aptariame tikėtiną dinamiką (kada gali pasirodyti pirmieji pokyčiai), paprastai paaiškiname kiekvienos metodikos privalumus ir ribojimus bei įteikiame regos higienos namuose atmintinę.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Усі процедури проводяться в ігровому форматі без стресу, а контрольні обстеження в Дитячій клініці Злата плануємо за індивідуальним календарем (з урахуванням навчання, гуртків і навантаження на зір), щоб забезпечити стабільне відновлення зору у дітей.",
+                                                text: "Visos procedūros vyksta žaismingai ir draugiškai, o kontroliniai patikrinimai planuojami individualiai (atsižvelgiant į mokyklą, būrelius ir regos krūvį), kad būtų palaikomas stabilus vaikų funkcinių rodiklių gerėjimas.",
                                             },
                                         ],
                                     },
@@ -2818,34 +2820,34 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Чому обирають Дитячу клініку Злата",
+                        title: "Kodėl renkasi Vaikų kliniką",
                         text: [
-                            "Приватна дитяча клініка зору у форматі «все в одному»: діагностика, лікування й контроль ефекту. Комфортний кабінет, сучасні прилади, ігрові методики, детальні висновки для школи/садка.",
-                            "У Дитячій клініці Злата пояснюємо показання, переваги й можливі недоліки методик, даємо чесні рекомендації, відкрито говоримо про ціни та надаємо відгуки/коментарі пацієнтів.",
+                            "Privati vaikų oftalmologijos klinika „viskas vienoje vietoje“: diagnostika, gydymas ir rezultatų kontrolė. Patogi aplinka, moderni įranga, žaidybiniai metodai ir išsamios išvados mokyklai / darželiui.",
+                            "Vaikų klinikoje paaiškiname indikacijas, metodikų privalumus ir galimus ribojimus, teikiame subalansuotas rekomendacijas, atvirai kalbame apie kainas ir pateikiame pacientų atsiliepimus.",
                         ],
                         image: "/images/children-hero.jpg",
-                        listTitle:
-                            "Етапи дитячої діагностики в Дитячій клініці Злата",
+                        listTitle: "Vaikų diagnostikos etapai klinikoje",
                         list: [
                             {
-                                itemTitle: "Первинний скринінг і консультація",
+                                itemTitle:
+                                    "Pirminis patikrinimas ir konsultacija",
                                 itemText: [
-                                    "Записатись на діагностику зору можна всього за кілька хвилин телефоном або онлайн на сайті.",
-                                    "У Дитячій клініці Злата збираємо скарги та анамнез, робимо ігровий скринінг гостроти, базову оцінку бінокулярних функцій і положення очей, оглядаємо передній відрізок. Даємо первинні рекомендації щодо гігієни зору та вирішуємо, чи потрібне розширене обстеження (циклоплегія, топографія, біометрія). Одразу орієнтуємо по вартості наступного кроку.",
+                                    "Užsiregistruoti regėjimo patikrai vaikams galima per kelias minutes — telefonu arba internetu.",
+                                    "Vaikų klinikoje surenkame nusiskundimus ir anamnezę, atliekame žaismingą regėjimo aštrumo patikrą, bazinį binokulinių funkcijų bei akių padėties įvertinimą, apžiūrime priekinį akies segmentą. Pateikiame regos higienos rekomendacijas ir nustatome, ar reikalingas išplėstinis ištyrimas (cikloplegija, topografija, biometriniai matavimai). Iš karto pateikiame orientacinę kito etapo kainą.",
                                 ],
                             },
                             {
                                 itemTitle:
-                                    "Розширені вимірювання з циклоплегією",
+                                    "Išplėstiniai matavimai su cikloplegija",
                                 itemText: [
-                                    "В Дитячій клініці Злата проводимо рефрактометрію/скіаскопію під фракційною циклоплегією, кератотопографію/томографію для точного виявлення астигматизму, офтальмоскопію з медикаментозним розширенням, вимірюємо аксіальну довжину ока, перевіряємо стереозір і фузійні резерви. Пояснюємо результати простими словами й фіксуємо їх у протоколі.",
+                                    "Atliekame refraktometriją / skiaskopiją taikant frakcinę cikloplegiją, ragenos keratotopografiją / tomografiją tiksliam astigmatizmo nustatymui, oftalmoskopiją medikamentiškai išplėtus vyzdį, matuojame akies ašinį ilgį, tikriname stereoregėjimą ir fuzinius rezervus. Rezultatus paaiškiname suprantamai ir fiksuojame protokole.",
                                 ],
                             },
                             {
                                 itemTitle:
-                                    "Персональний план лікування і спостереження",
+                                    "Individualus gydymo ir stebėjimo planas",
                                 itemText: [
-                                    "Команда Дитячої клініки Злата обговорює результати з батьками, підбирає корекцію (окуляри/лінзи), призначає апаратне лікування (за показаннями), видає домашні вправи та графік контрольних прийомів. Надаємо письмовий висновок, вартісну частину («скільки коштує» курс) і посилання на відгуки.",
+                                    "Klinikos komanda aptaria rezultatus su tėvais, parenka korekciją (akiniai / lęšiai), esant indikacijoms paskiria aparatinį gydymą, pateikia pratimus namuose ir kontrolinių vizitų grafiką. Išduodame rašytinę išvadą, kurso kainos skaičiavimą ir nuorodas į atsiliepimus.",
                                 ],
                             },
                         ],
@@ -2854,87 +2856,49 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Перелік діагностичних обстежень",
-                        text: "Під час діагностики очей виконується ціла низка досліджень, спрямованих на всебічну оцінку стану зорової системи:",
+                        paddingBottom: true,
+                        title: "Diagnostinių tyrimų sąrašas",
+                        text: "Diagnostikos metu atliekami tyrimai, skirti išsamiai įvertinti regos sistemą:",
                         slider: [
                             {
-                                title: "Візіометрія (перевірка гостроти зору)",
-                                text: "У Дитячій клініці Злата вимірюємо, як дитина бачить удалині та зблизька. Для малюків — піктограми й картинки замість літер, для школярів — стандартні таблиці. Тест проводиться в ігровій формі, щоб дитина не хвилювалася.",
+                                title: "Viziometrija (regėjimo aštrumo patikra)",
+                                text: "Įvertiname, kaip vaikas mato į tolį ir iš arti. Mažiesiems naudojame paveikslėlius vietoj raidžių, mokyklinio amžiaus vaikams — standartines lenteles. Testas atliekamas žaismingai, kad vaikas nepatirtų streso.",
                             },
                             {
-                                title: "Тонометрія (внутрішньоочний тиск)",
-                                text: "Використовуємо безконтактну пневмотонометрію — це швидкий «подув повітря», який допомагає виключити ризики глаукоми та інших станів. Діти зазвичай сприймають процедуру спокійно, усе триває кілька секунд.",
+                                title: "Tonometria (akispūdis)",
+                                text: "Taikome bekontaktę pneumatonometrą — trumpą „oro srovę“, padedančią atmesti glaukomą ir kitas būkles. Procedūra trunka kelias sekundes ir paprastai toleruojama ramiai.",
                             },
                             {
-                                title: "Рефрактометрія",
-                                text: "На авторефрактометрі визначаємо заломлюючу силу ока: міопію, гіперметропію, астигматизм. За потреби додаємо скіаскопію та фракційну циклоплегію (краплі тимчасово «відключають» акомодацію), щоб отримати точні значення для рецепта окулярів/лінз.",
+                                title: "Refraktometrija",
+                                text: "Autorefraktometru nustatome akies lūžio galią: trumparegystę, toliaregystę, astigmatizmą. Prireikus papildome skiaskopija ir frakcine cikloplegija (lašai laikinai „išjungia“ akomodaciją), kad gautume tikslius duomenis akinių / lęšių receptui.",
                             },
                             {
-                                title: "Біометрія (аксіальна довжина та параметри ока)",
-                                text: "Безконтактно вимірюємо довжину ока, глибину передньої камери, товщину кришталика. Це важливо для контролю прогресування короткозорості у дітей і при підборі інтраокулярних лінз у старшому віці.",
+                                title: "Biometrija (ašinis ilgis ir akies parametrai)",
+                                text: "Bekontakčiai matuojame akies ilgį, priekinės kameros gylį, lęšiuko storį. Tai svarbu stebint trumparegystės progresavimą vaikams ir planuojant tolimesnę priežiūrą.",
                             },
                             {
-                                title: "Пахіметрія (товщина рогівки)",
-                                text: "Світловий або ультразвуковий прилад швидко й безболісно вимірює товщину рогівки. Дані потрібні для оцінки внутрішньоочного тиску, планування рефракційних втручань у майбутньому та контролю після травм/запалень.",
+                                title: "Pachimetrija (ragenos storis)",
+                                text: "Šviesos arba ultragarso prietaisu greitai ir neskausmingai išmatuojamas ragenos storis. Duomenys reikalingi akispūdžio interpretacijai, refrakcinių intervencijų planavimui ir kontrolei po traumų / uždegimų.",
                             },
                             {
-                                title: "Кератотопографія (карта рогівки)",
-                                text: "Визначаємо форму та кривизну рогівки. У дитячому віці це допомагає виявити астигматизм, ранні ознаки кератоконусу в підлітків і обрати правильну оптичну корекцію. Процедура безконтактна.",
+                                title: "Keratotopografija (ragenos „žemėlapis“)",
+                                text: "Nustatome ragenos formą ir kreivumą. Vaikams tai padeda aptikti astigmatizmą, ankstyvus keratokonuso požymius paaugliams ir parinkti tinkamą optinę korekciją. Procedūra bekontaktė.",
                             },
                             {
-                                title: "Периметрія (поле зору)",
-                                text: "Досліджуємо, яку частину простору дитина охоплює поглядом при фіксації. Корисно при підозрі на ураження зорового нерва, невроофтальмологічні стани, а також для контролю при глаукомних ризиках. Пояснюємо завдання просто, щоб дитині було легко виконувати тест.",
+                                title: "Perimetrija (regos laukas)",
+                                text: "Tiriame, kokią erdvės dalį vaikas aprėpia fiksuodamas žvilgsnį. Naudinga įtariant regos nervo pažeidimus, neurooftalmologines būkles ir rizikų kontrolei. Užduotį paaiškiname paprastai.",
                             },
                             {
-                                title: "Біомікроскопія (щілинна лампа)",
-                                text: "Це «мікроскоп для ока», яким ми детально оглядаємо повіки, рогівку, райдужку, кришталик. Діти сидять у зручному кріслі, лікар працює обережно, пояснюючи кожен крок — болю немає.",
+                                title: "Biomikroskopija (plyšinė lempa)",
+                                text: "Tai „akies mikroskopas“, kuriuo gydytojas detaliai apžiūri vokus, rageną, rainelę, lęšiuką. Vaikas sėdi patogiai, specialistas komentuoja kiekvieną žingsnį — skausmo nėra.",
                             },
                             {
-                                title: "Огляд очного дна фундус-лінзою",
-                                text: "Після крапель для розширення зіниці лікар оцінює сітківку, макулу та диск зорового нерва. Метод виявляє вроджені зміни, наслідки міопії, судинні та запальні стани. У разі чутливості застосовуємо місцеву анестезію краплями.",
+                                title: "Akių dugno apžiūra per lęšį",
+                                text: "Įlašinę vyzdį plečiančių lašų, įvertiname tinklainę, makulą ir regos nervo diską. Metodas leidžia nustatyti įgimtus ypatumus, trumparegystės pokyčius, kraujagyslinius ir uždegiminius procesus. Esant jautrumui, naudojame vietinę nejautrą lašais.",
                             },
                             {
-                                title: "Діоптриметрія (перевірка окулярів)",
-                                text: "Вимірюємо оптичну силу наявних окулярів: сферу, циліндр, вісь, міжцентрову відстань. Допомагає зрозуміти, чи підходять вони дитині й чи потрібне оновлення рецепта в Дитячій клініці Злата.",
-                            },
-                        ],
-                    },
-                },
-                {
-                    type: "advantages",
-                    data: {
-                        title: "Перелік апаратного лікування (Дитяча клініка Злата)",
-                        text: "Усе це можна пройти безпосередньо в Дитячій клініці Злата: індивідуальні програми під вік і діагноз дитини, курс зазвичай 10–15 занять по 30–40 хв у комфортному ігровому форматі. Запишіться на консультацію — підкажемо оптимальний маршрут та актуальну вартість/ціни.",
-                        list: [
-                            {
-                                title: "Плеоптика (АМБЛІОКОР)",
-                                text: "тренує «ледаче» око, підвищує гостроту зору та контрастну чутливість у дітей. Проводиться в ігровому форматі в Дитячій клініці Злата.",
-                            },
-                            {
-                                title: "Ортоптика / диплоптика (синаптофор)",
-                                text: "розвиває біфіксацію, фузійні резерви та стереозір, допомагає при косоокості. Курс і параметри підбирає лікар Дитячої клініки Злата.",
-                            },
-                            { videoOnly: "/videos/about-cta-mob.mp4" },
-                            {
-                                title: "Комп’ютерні програми",
-                                text: "(«Окуліст», «Клинок», ігрові тренажери) — мотивують дитину до занять, покращують координацію очей і зорову витривалість. Застосовуються в Дитячій клініці Злата як частина комплексної терапії.",
-                            },
-                            {
-                                title: "Підтримка оклюзійної терапії",
-                                text: "індивідуальні схеми «заклеювання» сильнішого ока, навчання сім’ї та контроль ефективності. Супровід проводиться спеціалістами Дитячої клініки Злата.",
-                            },
-                            {
-                                title: "Вправи на конвергенцію/дивергенцію",
-                                bgTransparent: true,
-                                text: "корекція недостатності конвергенції, стабілізація бінокулярної фіксації та комфортного читання (стрінг Брока, синоптофор, бінокулярні тренажери).",
-                            },
-                            {
-                                title: "Призматичні методики",
-                                text: "вирівнюють зорові осі, покращують злиття зображень та комфорт читання. Застосовуються за показаннями в Дитячій клініці Злата.",
-                            },
-                            {
-                                title: "Тренування акомодації",
-                                text: "вправи та прилади для покращення фокусування на близькій відстані, зменшення втоми й головного болю під час читання. Проводимо індивідуальні протоколи в Дитячій клініці Злата.",
+                                title: "Dioptrimetrija (akinių patikra)",
+                                text: "Išmatuojame turimų akinių optinę galią: sferą, cilindrą, ašį, tarpvydinį atstumą. Tai padeda įvertinti, ar akiniai tinka ir ar reikia atnaujinti receptą.",
                             },
                         ],
                     },
@@ -2942,7 +2906,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціна",
+                        title: "Vaikų akių patikros kaina Vilniuje",
                     },
                 },
                 { type: "giftCTA" },
@@ -2950,85 +2914,84 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про перевірку зору у дітей",
+                        title: "Dažnai užduodami klausimai apie vaikų akių patikrą",
                         content: [
                             {
                                 question:
-                                    "Скільки коштує перевірка зору у дітей у Дитячій клініці Злата і що входить у вартість?",
+                                    "Kiek kainuoja vaikų regos patikrinimas Vaikų klinikoje ir kas įeina į kainą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Залежить від обсягу: чи потрібні циклоплегія, топографія, біометрія. Реєстратура Дитячої клініки Злата підкаже пакетні ціни та допоможе обрати оптимальний прийом.",
+                                        text: "Kaina priklauso nuo tyrimų apimties: ar reikalinga cikloplegija, topografija ar biometrija. Registratūra pateiks paketų kainas ir padės pasirinkti optimalų vizitą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "З якого віку проходити огляд у Дитячій клініці Злата?",
+                                    "Nuo kokio amžiaus rekomenduojama atlikti akių apžiūrą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Перший скринінг — у немовлят; планові огляди: 1 рік, 3 роки, перед школою та щороку в школярів — навіть без скарг.",
+                                        text: "Pirmasis patikrinimas atliekamas kūdikiams; planiniai vizitai — 1 metų, 3 metų amžiaus, prieš mokyklą ir kasmet mokyklinio amžiaus vaikams, net jei nusiskundimų nėra.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи болісні обстеження та апаратне лікування в Дитячій клініці Злата?",
+                                    "Ar tyrimai ir aparatinis gydymas yra skausmingi?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Ні. Процедури безпечні, адаптовані для дітей, часто у форматі гри. Після крапель можлива короткочасна фотофобія.",
+                                        text: "Ne. Procedūros saugios, pritaikytos vaikams ir dažnai vyksta žaidimo forma. Po lašų gali būti trumpalaikis jautrumas šviesai.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи допоможе апаратне лікування без операції?",
+                                    "Ar aparatinis gydymas gali padėti be operacijos?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "За раннього виявлення амбліопії/порушень бінокулярного зору — так. Лікар Дитячої клініки Злата пояснить переваги/недоліки конкретних методик.",
+                                        text: "Taip, anksti nustačius ambliopiją ar binokulinio regėjimo sutrikimus. Gydytojas paaiškins konkrečių metodikų privalumus ir ypatumus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Як часто повторювати курси та контролі?",
+                                    "Kaip dažnai kartoti kursus ir kontrolinius vizitus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Типово 10–15 занять; повтор через 3–6 міс за показаннями. Графік контролів складає лікар Дитячої клініки Злата.",
+                                        text: "Dažniausiai skiriama 10–15 užsiėmimų; pakartojimas po 3–6 mėn. pagal indikacijas. Kontrolės grafiką sudaro gydytojas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи є відгуки/рекомендації про Дитячу клініку Злата?",
+                                    "Ar yra atsiliepimų ar rekomendacijų?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Так, доступні відгуки та коментарі батьків. Адміністратор надішле посилання або приклади.",
+                                        text: "Taip, tėvų atsiliepimai ir komentarai yra prieinami. Administratorius gali atsiųsti nuorodą arba pavyzdžius pagal užklausą.",
+                                    },
+                                ],
+                            },
+                            {
+                                question: "Ar taikomos akcijos ir nuolaidos?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "Periodiškai taikomos akcijos ir nuolaidos diagnostikos paketams bei gydymo kursams — pasitikslinkite registruojantis.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи є акції та знижки в Дитячій клініці Злата?",
+                                    "Privati ar valstybinė oftalmologija: ką rinktis?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Періодично діють акції й знижки на пакети діагностики та курси лікування — уточнюйте під час запису.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Приватна чи державна офтальмологія: що обрати?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Дитяча клініка Злата забезпечує швидкий запис, чіткий маршрут, детальні висновки та прозорі ціни. Остаточний вибір — за батьками; ми надамо всю потрібну інформацію.",
+                                        text: "Vaikų klinika užtikrina greitą priėmimą, aiškų maršrutą, išsamias išvadas ir skaidrias kainas. Galutinį sprendimą priima tėvai; mes suteiksime visą reikalingą informaciją.",
                                     },
                                 ],
                             },
@@ -3056,17 +3019,17 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/children-service.jpg",
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
-                        title: "Children's Clinic \n«Zlata»",
-                        text: "Private ophthalmology for children: eye examinations for kids from infants to teenagers, comprehensive diagnostics (cycloplegia, topography, biometry), and instrumental vision therapy.",
+                        title: "Children's Clinic",
+                        text: "Private paediatric ophthalmology in Vilnius: eye examinations for children from infants to teenagers, extended diagnostics (fractional cycloplegia, corneal topography, biometry) and device‑based treatment.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/zlata2.jpg",
-                        title: "Zlata Children’s Clinic — pediatric ophthalmology in Kyiv",
+                        title: "Children’s Clinic — paediatric ophthalmology in Vilnius",
                         text: [
-                            "At Zlata Children’s Clinic, we perform eye examinations for children from infancy to adolescence: accurate diagnostics, personalized treatment, and clear recommendations for parents. If you’re looking for where and how to check your child’s vision quickly and without stress — book a consultation with our doctor. Our reception staff will provide up-to-date prices, available promotions, and help you choose a convenient appointment time at our private pediatric eye clinic.",
+                            "At the Children’s Clinic we provide eye and vision checks for children from infancy to adolescence: precise assessments, an individual care plan and clear guidance for parents. If you are looking for a calm, stress‑free place to have your child’s eyes checked, book an ophthalmologist consultation. Our administrators will advise on current prices, active offers and possible discounts, and will help you choose a convenient appointment time at a private children’s ophthalmology clinic in Vilnius.",
                         ],
                         textUp: "1 m",
                         textDown: "consultations conducted",
@@ -3080,7 +3043,7 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "When to visit: first warning signs",
+                                title: "When to book: early warning signs",
                                 image: "/images/zlata5.jpg",
                                 text: [
                                     {
@@ -3088,18 +3051,18 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Zlata Children’s Clinic recommends not delaying an eye examination if you notice even slight changes in your child’s behavior or habits. Frequent complaints of eye fatigue, 'foggy' vision, double vision, headaches by the end of the day, squinting, or holding gadgets too close may indicate the onset of myopia, hyperopia, astigmatism, or binocular vision disorders. In preschoolers, additional warning signs include frequent eye rubbing, excessive blinking, or avoidance of puzzles and small toys; in school-aged children — decreased attention, poor performance when reading from the board, incorrect posture, or bringing the notebook too close to the face.",
+                                                text: "The Children’s Clinic recommends not postponing an examination if you notice even minor changes in your child’s behaviour or habits. Complaints of eye fatigue, “foggy” vision, double vision, evening headaches, squinting, or holding gadgets very close may indicate the onset of myopia, hyperopia, astigmatism or binocular vision disorders. In preschoolers, warning signs include frequent eye rubbing, excessive blinking and avoiding puzzles or fine‑motor games; in school‑age children — reduced concentration, difficulty reading the board, poor posture and bringing notebooks close to the face.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Pay attention if your child’s eyes ‘wander apart,’ if you notice occasional strabismus in photos, or if one eye appears redder than the other in pictures — these are reasons to schedule a consultation at Zlata Children’s Clinic. Other indications include early use of gadgets, a family history of myopia, prematurity, allergies, or complaints of dryness or burning after study sessions. Routine vision screening at our clinic includes age-appropriate tests and, if necessary, detailed diagnostics with fractional cycloplegia, corneal topography, and axial length control to prevent amblyopia and slow the progression of vision disorders.",
+                                                text: "Pay attention if the eyes appear to “drift”, intermittent strabismus is seen in photos, or a “red eye” looks asymmetrical — this is a reason to schedule a consultation at the Children’s Clinic. Other indications include early and prolonged screen use, hereditary myopia, prematurity, allergies, and complaints of dryness or burning after classes. Our routine vision check for children includes age‑appropriate tests, and, when needed, diagnostics with fractional cycloplegia, corneal topography and axial length monitoring to adjust risks in time, slow undesirable progression and reduce the likelihood of amblyopia.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Comprehensive check: accurate diagnosis and care plan",
+                                title: "Comprehensive assessment: accurate diagnosis and a treatment plan",
                                 image: "/images/perevirka3.jpg",
                                 text: [
                                     {
@@ -3107,11 +3070,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "At Zlata Children’s Clinic, we assess refraction (including with fractional cycloplegia), stereopsis, fusion reserves, eye alignment, fundus condition, and eye growth rates. Based on the results, the doctor creates a personalized care plan: optical correction, hardware vision therapy, monitoring schedule, and home exercises. Parents receive a clear report, transparent pricing, practical recommendations, and a breakdown of what each stage costs. We also include a progress forecast (when to expect improvements), explain the pros and cons of each method in simple terms, and provide a take-home vision hygiene guide.",
+                                                text: "At the Children’s Clinic we evaluate refraction (including under fractional cycloplegia), stereo vision, fusion reserves, ocular alignment, the condition of the fundus and the rate of eyeball growth. Based on the results, the doctor prepares a personalised plan: optical correction, device‑based vision therapy for children, a follow‑up schedule and home exercises. Parents receive a clear written summary, transparent pricing, recommendations and information on the cost of each step. We also discuss expected dynamics (when the first changes may appear), explain the benefits and limitations of each method in plain language, and provide a home vision‑hygiene checklist.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "All procedures are conducted in a playful, stress-free environment, and follow-up examinations are scheduled individually (considering school, activities, and visual load) to ensure stable visual recovery in children.",
+                                                text: "All procedures are carried out in a friendly, child‑oriented format, and follow‑up examinations are planned individually (taking into account school, extracurricular activities and visual workload) to support stable improvement in functional vision indicators.",
                                             },
                                         ],
                                     },
@@ -3120,39 +3083,40 @@ export const servicesData: ServicesProps[] = [
                         ],
                     },
                 },
+                { type: "cta" },
                 {
                     type: "numberListSection",
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Why parents choose Zlata Children’s Eye Clinic",
+                        title: "Why families choose the Children’s Clinic",
                         text: [
-                            "A private children’s eye clinic in an “all-in-one” format: diagnostics, treatment, and follow-up. A comfortable office, modern equipment, playful testing methods, and detailed reports for school or kindergarten.",
-                            "At Zlata Children’s Eye Clinic, we explain indications, advantages, and possible limitations of each method, give honest recommendations, are transparent about prices, and share real patient feedback.",
+                            "A private children’s ophthalmology clinic in an “all‑in‑one” format: diagnostics, treatment and outcome monitoring. Comfortable rooms, modern equipment, child‑friendly methods and detailed reports for school / kindergarten.",
+                            "At the Children’s Clinic we explain indications, advantages and possible limitations of each approach, provide balanced recommendations, speak openly about prices and share patient reviews.",
                         ],
                         image: "/images/children-hero.jpg",
                         listTitle:
-                            "Stages of children’s eye diagnostics at Zlata Clinic",
+                            "Paediatric diagnostics stages at the clinic",
                         list: [
                             {
                                 itemTitle: "Initial screening and consultation",
                                 itemText: [
-                                    "You can book an eye diagnostic appointment in just a few minutes — by phone or online.",
-                                    "At Zlata Children’s Eye Clinic, we collect complaints and history, perform playful visual acuity screening, basic binocular function and eye alignment tests, and examine the anterior segment. We provide initial vision hygiene advice and decide if extended testing is needed (cycloplegia, topography, biometry). The next step’s cost is discussed right away.",
+                                    "You can book a vision assessment in just a few minutes — by phone or online.",
+                                    "At the Children’s Clinic we collect complaints and medical history, perform a child‑friendly visual acuity screening, a basic assessment of binocular functions and eye alignment, and examine the anterior segment. We provide vision‑hygiene recommendations and determine whether extended testing is needed (cycloplegia, topography, biometry). We immediately advise on the approximate cost of the next stage.",
                                 ],
                             },
                             {
                                 itemTitle:
                                     "Extended measurements with cycloplegia",
                                 itemText: [
-                                    "We perform refraction/retinoscopy under fractional cycloplegia, corneal topography/tomography for accurate astigmatism detection, fundus examination with pupil dilation, measure axial length, and check stereovision and fusion reserves. Results are explained in simple words and recorded in a report.",
+                                    "We perform refractometry / retinoscopy under fractional cycloplegia, keratotopography / tomography to accurately determine astigmatism, ophthalmoscopy with pharmacological pupil dilation, measure axial length, and assess stereo vision and fusion reserves. We explain the results in plain language and record them in the protocol.",
                                 ],
                             },
                             {
                                 itemTitle:
-                                    "Personalized treatment and follow-up plan",
+                                    "Personalised treatment and follow‑up plan",
                                 itemText: [
-                                    "Our team discusses results with parents, prescribes correction (glasses/contact lenses), recommends hardware therapy if indicated, provides home exercises and a follow-up schedule. We issue a written report, treatment cost estimate, and links to reviews.",
+                                    "The clinic team discusses the results with parents, selects correction (glasses / contact lenses), prescribes device‑based therapy when indicated, provides home exercises and a schedule of follow‑up visits. We provide a written report, a course cost calculation and links to reviews.",
                                 ],
                             },
                         ],
@@ -3161,87 +3125,49 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenSliderSection",
                     data: {
+                        paddingBottom: true,
                         title: "List of diagnostic examinations",
-                        text: "During an eye exam, a range of tests is performed to comprehensively assess the visual system:",
+                        text: "During an eye check‑up, we carry out a set of tests aimed at a comprehensive assessment of the visual system:",
                         slider: [
                             {
                                 title: "Visiometry (visual acuity test)",
-                                text: "We measure how well a child sees at distance and near. For little ones — pictures and icons instead of letters, for school-age children — standard charts. The test is conducted in a playful way so the child feels comfortable.",
+                                text: "We assess how well the child sees at distance and near. For toddlers we use pictures instead of letters; for schoolchildren — standard charts. The test is performed in a child‑friendly format to reduce anxiety.",
                             },
                             {
                                 title: "Tonometry (Intraocular Pressure)",
-                                text: "We use non-contact air-puff tonometry — a quick puff of air that helps rule out glaucoma and other conditions. Children usually tolerate it calmly; the procedure takes only a few seconds.",
+                                text: "We use non‑contact air‑puff tonometry — a quick “air pulse” that helps rule out glaucoma and other conditions. Children usually tolerate it calmly; it takes just a few seconds.",
                             },
                             {
                                 title: "Refractometry",
-                                text: "Using an autorefractometer, we determine the eye’s refractive power: myopia, hyperopia, astigmatism. If needed, we add retinoscopy and fractional cycloplegia (drops temporarily ‘relax’ accommodation) to get precise prescription values.",
+                                text: "Using an autorefractor we determine the eye’s refractive power: myopia, hyperopia and astigmatism. When needed, we add retinoscopy and fractional cycloplegia (drops temporarily “switch off” accommodation) to obtain accurate data for a glasses / lenses prescription.",
                             },
                             {
-                                title: "Biometry (Axial Length and Eye Parameters)",
-                                text: "We non-invasively measure axial length, anterior chamber depth, and lens thickness. Important for monitoring myopia progression in children and for intraocular lens selection later in life.",
+                                title: "Biometry (axial length and ocular parameters)",
+                                text: "We non‑contactly measure eye length, anterior chamber depth and lens thickness. This is important for monitoring myopia progression in children and for correct long‑term planning.",
                             },
                             {
                                 title: "Pachymetry (Corneal Thickness)",
-                                text: "A light or ultrasound device quickly and painlessly measures corneal thickness. Data are needed for intraocular pressure evaluation, future refractive planning, and post-injury or inflammation control.",
+                                text: "A light‑based or ultrasound device quickly and painlessly measures corneal thickness. These data are used to interpret intraocular pressure, plan refractive interventions and monitor after trauma / inflammation.",
                             },
                             {
                                 title: "Keratotopography (Corneal Map)",
-                                text: "Determines corneal shape and curvature. In children, it helps detect astigmatism, early keratoconus signs in teens, and select proper optical correction. The procedure is non-contact.",
+                                text: "We determine the shape and curvature of the cornea. In children it helps detect astigmatism, early signs of keratoconus in teenagers, and supports accurate optical correction selection. The procedure is non‑contact.",
                             },
                             {
-                                title: "Perimetry (Visual Field Test)",
-                                text: "We assess what part of the visual field a child perceives while focusing on a point. Useful for detecting optic nerve issues, neuro-ophthalmic conditions, and glaucoma risk monitoring. Instructions are given simply for easy cooperation.",
+                                title: "Perimetry (visual field)",
+                                text: "We assess how much of the surrounding space the child can perceive while fixating. Useful when optic nerve damage or neuro‑ophthalmic conditions are suspected and for risk monitoring. We explain the task simply to make it easy for the child.",
                             },
                             {
                                 title: "Biomicroscopy (Slit-Lamp Exam)",
-                                text: "A ‘microscope for the eye’ that allows a detailed look at eyelids, cornea, iris, and lens. Children sit comfortably while the doctor gently explains each step — it’s completely painless.",
+                                text: "This is an “eye microscope” that allows the doctor to examine the eyelids, cornea, iris and lens in detail. The child sits comfortably; the specialist explains each step — there is no pain.",
                             },
                             {
-                                title: "Fundus Examination with a Lens",
-                                text: "After pupil-dilating drops, the doctor examines the retina, macula, and optic disc. Detects congenital changes, myopia-related damage, vascular and inflammatory conditions. Local anesthetic drops are used if needed.",
+                                title: "Fundus examination through a lens",
+                                text: "After instilling pupil‑dilating drops, the doctor evaluates the retina, macula and optic disc. The method helps identify congenital features, myopia‑related changes, vascular and inflammatory conditions. If sensitivity is present, we use local anaesthetic drops.",
                             },
                             {
-                                title: "Dioptrometry (Glasses Check)",
-                                text: "We measure the optical strength of current glasses: sphere, cylinder, axis, interpupillary distance. Helps assess if glasses are suitable and whether an updated prescription is needed.",
-                            },
-                        ],
-                    },
-                },
-                {
-                    type: "advantages",
-                    data: {
-                        title: "List of hardware vision therapy (Zlata Children's Clinic)",
-                        text: "All these procedures are available directly at Zlata Children's Clinic: personalized programs based on the child’s age and diagnosis. The usual course includes 10–15 sessions of 30–40 minutes in a comfortable, play-based format. Book a consultation — we’ll help you choose the best program and inform you about the current prices.",
-                        list: [
-                            {
-                                title: "Pleoptics (AMBLYOCOR)",
-                                text: "Trains the 'lazy' eye, improves visual acuity and contrast sensitivity in children. Conducted in a playful setting at Zlata Children's Clinic.",
-                            },
-                            {
-                                title: "Orthoptics / Diploptics (Synoptophore)",
-                                text: "Develops bifixation, fusion reserves, and stereovision; helps with strabismus. The course and parameters are selected by the doctor at Zlata Children's Clinic.",
-                            },
-                            { videoOnly: "/videos/about-cta-mob.mp4" },
-                            {
-                                title: "Computer Programs",
-                                text: "('Oculist', 'Blade', and game-based trainers) — motivate children to participate, improve eye coordination and visual endurance. Used at Zlata Children's Clinic as part of a comprehensive therapy program.",
-                            },
-                            {
-                                title: "Support for Occlusion Therapy",
-                                text: "Individual 'patching' schemes for the stronger eye, family guidance, and effectiveness monitoring. Managed by specialists at Zlata Children's Clinic.",
-                            },
-                            {
-                                title: "Convergence/Divergence Exercises",
-                                bgTransparent: true,
-                                text: "Correction of convergence insufficiency, stabilization of binocular fixation, and improvement of reading comfort (Brock string, synoptophore, binocular trainers).",
-                            },
-                            {
-                                title: "Prismatic Techniques",
-                                text: "Align the visual axes, enhance image fusion, and improve reading comfort. Applied as indicated at Zlata Children's Clinic.",
-                            },
-                            {
-                                title: "Accommodation Training",
-                                text: "Exercises and devices to improve focusing at near distances, reduce eye strain and headaches while reading. Individualized protocols are conducted at Zlata Children's Clinic.",
+                                title: "Lensometry (glasses check)",
+                                text: "We measure the optical power of existing glasses: sphere, cylinder, axis and pupillary distance. This helps determine whether the glasses are suitable and whether the prescription should be updated.",
                             },
                         ],
                     },
@@ -3249,7 +3175,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціна",
+                        title: "Cost of children's eye examination in Vilnius",
                     },
                 },
                 { type: "giftCTA" },
@@ -3261,81 +3187,81 @@ export const servicesData: ServicesProps[] = [
                         content: [
                             {
                                 question:
-                                    "How much does an eye examination for children cost at Zlata Children's Clinic, and what does it include?",
+                                    "How much does a children’s eye examination cost at the Children’s Clinic, and what is included?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "It depends on the scope: whether cycloplegia, topography, or biometry are needed. The reception at Zlata Children's Clinic will inform you about package prices and help choose the optimal appointment.",
+                                        text: "The cost depends on the scope of testing: whether cycloplegia, topography or biometry is required. Our reception team will advise on package prices and help choose the most suitable visit.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "From what age should a child be examined at Zlata Children's Clinic?",
+                                    "From what age should a child be examined at the Children’s Clinic?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The first screening is for infants; routine check-ups are recommended at 1 year, 3 years, before school, and annually during school years — even without complaints.",
+                                        text: "The first screening is performed in infancy; routine check‑ups — at 1 year, 3 years, before school and annually for school‑age children, even without complaints.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Are the examinations and hardware treatments at Zlata Children's Clinic painful?",
+                                    "Are the examinations and device‑based treatment painful?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "No. The procedures are safe, child-friendly, and often performed in a playful format. After using drops, short-term light sensitivity is possible.",
+                                        text: "No. Procedures are safe, adapted for children and often performed in a playful format. After drops, brief light sensitivity may occur.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Can hardware treatment help without surgery?",
+                                    "Can device‑based treatment help without surgery?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yes, if amblyopia or binocular vision disorders are detected early. The doctor at Zlata Children's Clinic will explain the advantages and limitations of each specific method.",
+                                        text: "Yes, when amblyopia or binocular vision disorders are detected early. The doctor will explain the benefits and specifics of the relevant methods.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How often should treatment courses and follow-ups be repeated?",
+                                    "How often are courses and follow‑up visits repeated?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Typically 10–15 sessions; repeated after 3–6 months if indicated. The follow-up schedule is created by the doctor at Zlata Children's Clinic.",
+                                        text: "Typically 10–15 sessions; repeat in 3–6 months if indicated. The follow‑up schedule is set by the doctor.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Are there reviews or recommendations about Zlata Children's Clinic?",
+                                    "Are there reviews or recommendations for the Children’s Clinic?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yes, reviews and comments from parents are available. The administrator can send a link or examples upon request.",
+                                        text: "Yes, parent reviews and comments are available. An administrator can send a link or examples upon request.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Are there promotions or discounts at Zlata Children's Clinic?",
+                                    "Are there promotions and discounts at the Children’s Clinic?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "From time to time, there are promotions and discounts for diagnostic packages and treatment courses — please check when scheduling an appointment.",
+                                        text: "Promotions and discounts for diagnostic packages and treatment courses may be available periodically — please уточните when booking.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Private or public ophthalmology — which to choose?",
+                                    "Private or public ophthalmology: what should you choose?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Zlata Children's Clinic offers quick appointments, a clear care path, detailed reports, and transparent pricing. The final decision is up to the parents; we provide all the necessary information.",
+                                        text: "The Children’s Clinic provides quick access, a clear patient pathway, detailed reports and transparent pricing. The final choice is for parents; we will provide all the necessary information.",
                                     },
                                 ],
                             },
@@ -3363,17 +3289,17 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/children-service.jpg",
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
-                        title: "Детская клиника \n«Злата»",
-                        text: "Частная офтальмология для детей: проверка зрения у детей от младенцев до подростков, комплексная диагностика (циклоплегия, топография, биометрия) и аппаратное лечение.",
+                        title: "Детская клиника",
+                        text: "Частная детская офтальмология в Вильнюсе: проверка зрения у детей от младенцев до подростков, расширенная диагностика (фракционная циклоплегия, топография, биометрия) и аппаратное лечение.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/zlata2.jpg",
-                        title: "Детская клиника Злата — детская офтальмология в Киеве",
+                        title: "Детская клиника — детская офтальмология в Вильнюсе",
                         text: [
-                            "В Детской клинике Злата проводится проверка зрения у детей от младенцев до подростков: точные обследования, индивидуальное лечение и понятные рекомендации для родителей. Если вы ищете, где проверить зрение ребёнку быстро и без стресса — запишитесь на консультацию врача. Администраторы клиники подскажут актуальные цены, акции и скидки, а также помогут выбрать удобное время визита в частную детскую офтальмологическую клинику.",
+                            "В Детской клинике выполняется проверка зрения у детей от младенцев до подростков: точные обследования, индивидуальная тактика и понятные рекомендации для родителей. Если вы ищете, где проверить зрение ребёнку спокойно и без лишнего стресса — запишитесь на консультацию офтальмолога. Администраторы центра подскажут актуальные цены, действующие предложения и возможные скидки, а также помогут выбрать удобное время визита в частную детскую офтальмологическую клинику в Вильнюсе.",
                         ],
                         textUp: "1 млн",
                         textDown: "консультаций проведено",
@@ -3395,11 +3321,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Детская клиника Злата рекомендует не откладывать обследование, если вы замечаете даже небольшие изменения в поведении или привычках ребёнка. Жалобы на усталость глаз, «туман», двоение, головные боли к вечеру, прищуривание или слишком близкое поднесение гаджетов могут говорить о начале миопии, гиперметропии, астигматизма или нарушений бинокулярного зрения. У дошкольников тревожными сигналами являются частое трение глаз, чрезмерное моргание, избегание пазлов и мелких игр; у школьников — снижение концентрации, трудности при чтении с доски, неправильная осанка, приближение тетради к лицу.",
+                                                text: "Детская клиника рекомендует не откладывать обследование, если вы замечаете даже небольшие изменения в поведении или привычках ребёнка. Жалобы на усталость глаз, «туман», двоение, головные боли к вечеру, прищуривание или слишком близкое поднесение гаджетов могут указывать на начало миопии, гиперметропии, астигматизма или нарушений бинокулярного зрения. У дошкольников настораживают частое трение глаз, усиленное моргание, отказ от пазлов и мелких игр; у школьников — снижение концентрации, трудности при чтении с доски, неправильная осанка, приближение тетради к лицу.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Обратите внимание, если глаза «разъезжаются», на фото появляется периодическое косоглазие или «красный глаз» выражен асимметрично — это повод записаться на консультацию в Детскую клинику Злата. Также показаниями являются раннее использование гаджетов, наследственная близорукость, недоношенность, аллергии и жалобы на сухость или жжение после занятий. Плановая проверка зрения для детей у нас включает возрастные тесты, а при необходимости — диагностику с фракционной циклоплегией, топографию роговицы и контроль аксиальной длины глаза, чтобы вовремя остановить прогрессирование нарушений и предотвратить амблиопию.",
+                                                text: "Обратите внимание, если глаза «разъезжаются», на фото появляется эпизодическое косоглазие или «красный глаз» выглядит асимметрично — это повод записаться на консультацию в Детскую клинику. Также показаниями могут быть раннее и длительное использование гаджетов, наследственная близорукость, недоношенность, аллергии и жалобы на сухость или жжение после занятий. Плановая проверка зрения для детей у нас включает возрастные тесты, а при необходимости — диагностику с фракционной циклоплегией, топографию роговицы и контроль аксиальной длины глаза, чтобы своевременно скорректировать риски, замедлить нежелательную динамику и снизить вероятность амблиопии.",
                                             },
                                         ],
                                     },
@@ -3414,11 +3340,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "В Детской клинике Злата оценивают рефракцию (в т.ч. с фракционной циклоплегией), стереозрение, фузионные резервы, положение глаз, состояние глазного дна и темпы роста глазного яблока. По результатам врач формирует персональный план: оптическая коррекция, аппаратное лечение зрения у детей, график наблюдений и домашние упражнения. Родители получают понятное заключение, прозрачные цены, рекомендации и информацию, сколько стоит каждый этап. Мы также добавляем прогноз динамики (когда ожидать первых улучшений), объясняем преимущества и ограничения каждой методики простыми словами и выдаём памятку по гигиене зрения дома.",
+                                                text: "В Детской клинике оценивают рефракцию (в т.ч. с фракционной циклоплегией), стереозрение, фузионные резервы, положение глаз, состояние глазного дна и темпы роста глазного яблока. По результатам врач формирует персональный план: оптическая коррекция, аппаратное лечение зрения у детей, график наблюдений и домашние упражнения. Родители получают понятное заключение, прозрачные цены, рекомендации и информацию, сколько стоит каждый этап. Мы также обсуждаем ожидаемую динамику (когда могут появиться первые изменения), объясняем преимущества и ограничения каждой методики простыми словами и выдаём памятку по гигиене зрения дома.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Все процедуры проходят в игровой, безстрессовой форме, а контрольные обследования планируются индивидуально (с учётом школы, кружков и нагрузки на зрение), чтобы обеспечить стабильное восстановление зрения у детей.",
+                                                text: "Все процедуры проходят в игровой, доброжелательной форме, а контрольные обследования планируются индивидуально (с учётом школы, кружков и нагрузки на зрение), чтобы поддерживать стабильное улучшение функциональных показателей у детей.",
                                             },
                                         ],
                                     },
@@ -3427,24 +3353,25 @@ export const servicesData: ServicesProps[] = [
                         ],
                     },
                 },
+                { type: "cta" },
                 {
                     type: "numberListSection",
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Почему выбирают Детскую клинику Злата",
+                        title: "Почему выбирают Детскую клинику",
                         text: [
-                            "Частная детская офтальмологическая клиника в формате «всё в одном»: диагностика, лечение и контроль результата. Комфортный кабинет, современное оборудование, игровые методики и подробные заключения для школы/детсада.",
-                            "В Детской клинике Злата мы объясняем показания, преимущества и возможные ограничения методик, даем честные рекомендации, открыто говорим о ценах и предоставляем отзывы пациентов.",
+                            "Частная детская офтальмологическая клиника в формате «всё в одном»: диагностика, лечение и контроль результатов. Комфортный кабинет, современное оборудование, игровые методики и подробные заключения для школы/детсада.",
+                            "В Детской клинике мы объясняем показания, преимущества и возможные ограничения методик, даём взвешенные рекомендации, открыто говорим о ценах и предоставляем отзывы пациентов.",
                         ],
                         image: "/images/children-hero.jpg",
-                        listTitle: "Этапы детской диагностики в клинике Злата",
+                        listTitle: "Этапы детской диагностики в клинике",
                         list: [
                             {
                                 itemTitle: "Первичный скрининг и консультация",
                                 itemText: [
                                     "Записаться на диагностику зрения можно за несколько минут — по телефону или онлайн.",
-                                    "В Детской клинике Злата собираем жалобы и анамнез, проводим игровой скрининг остроты зрения, базовую оценку бинокулярных функций и положения глаз, осматриваем передний отрезок. Даём рекомендации по гигиене зрения и определяем, нужно ли расширенное обследование (циклоплегия, топография, биометрия). Сразу ориентируем по стоимости следующего этапа.",
+                                    "В Детской клинике собираем жалобы и анамнез, проводим игровой скрининг остроты зрения, базовую оценку бинокулярных функций и положения глаз, осматриваем передний отрезок. Даём рекомендации по гигиене зрения и определяем, нужно ли расширенное обследование (циклоплегия, топография, биометрия). Сразу ориентируем по стоимости следующего этапа.",
                                 ],
                             },
                             {
@@ -3458,7 +3385,7 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Персональный план лечения и наблюдения",
                                 itemText: [
-                                    "Команда клиники Злата обсуждает результаты с родителями, подбирает коррекцию (очки/линзы), назначает аппаратное лечение (по показаниям), выдает домашние упражнения и график контрольных визитов. Предоставляем письменное заключение, расчёт стоимости курса и ссылки на отзывы.",
+                                    "Команда клиники обсуждает результаты с родителями, подбирает коррекцию (очки/линзы), назначает аппаратное лечение (по показаниям), выдаёт домашние упражнения и график контрольных визитов. Предоставляем письменное заключение, расчёт стоимости курса и ссылки на отзывы.",
                                 ],
                             },
                         ],
@@ -3467,12 +3394,13 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenSliderSection",
                     data: {
+                        paddingBottom: true,
                         title: "Список диагностических обследований",
                         text: "Во время диагностики глаз проводится ряд исследований, направленных на всестороннюю оценку состояния зрительной системы:",
                         slider: [
                             {
                                 title: "Визиометрия (проверка остроты зрения)",
-                                text: "Измеряем, как ребёнок видит вдаль и вблизи. Для малышей — картинки вместо букв, для школьников — стандартные таблицы. Тест проводится в игровой форме, чтобы ребёнок не волновался.",
+                                text: "Измеряем, как ребёнок видит вдаль и вблизи. Для малышей — картинки вместо букв, для школьников — стандартные таблицы. Тест проводится в игровой форме, чтобы ребёнок не переживал.",
                             },
                             {
                                 title: "Тонометрия (внутриглазное давление)",
@@ -3484,70 +3412,31 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Биометрия (аксиальная длина и параметры глаза)",
-                                text: "Безконтактно измеряем длину глаза, глубину передней камеры, толщину хрусталика. Важно для контроля прогрессирования близорукости у детей и подбора интраокулярных линз в будущем.",
+                                text: "Бесконтактно измеряем длину глаза, глубину передней камеры, толщину хрусталика. Важно для контроля динамики близорукости у детей и для корректного планирования в будущем.",
                             },
                             {
                                 title: "Пахиметрия (толщина роговицы)",
-                                text: "Световой или ультразвуковой прибор быстро и безболезненно измеряет толщину роговицы. Эти данные нужны для оценки внутриглазного давления, планирования рефракционных вмешательств и контроля после травм/воспалений.",
+                                text: "Световой или ультразвуковой прибор быстро и безболезненно измеряет толщину роговицы. Эти данные нужны для уточнения внутриглазного давления, планирования рефракционных вмешательств и контроля после травм/воспалений.",
                             },
                             {
                                 title: "Кератотопография (карта роговицы)",
-                                text: "Определяем форму и кривизну роговицы. В детском возрасте помогает выявить астигматизм, ранние признаки кератоконуса у подростков и подобрать правильную оптическую коррекцию. Процедура бесконтактная.",
+                                text: "Определяем форму и кривизну роговицы. В детском возрасте помогает выявить астигматизм, ранние признаки кератоконуса у подростков и подобрать корректную оптическую коррекцию. Процедура бесконтактная.",
                             },
                             {
                                 title: "Периметрия (поле зрения)",
-                                text: "Изучаем, какую часть пространства ребёнок охватывает взглядом при фиксации. Полезно при подозрении на поражение зрительного нерва, невроофтальмологических состояниях и для контроля глаукомных рисков. Задание объясняем просто, чтобы ребёнку было легко выполнять тест.",
+                                text: "Изучаем, какую часть пространства ребёнок охватывает взглядом при фиксации. Полезно при подозрении на поражение зрительного нерва, невроофтальмологических состояниях и для контроля рисков. Задание объясняем просто, чтобы ребёнку было легко выполнить тест.",
                             },
                             {
                                 title: "Биомикроскопия (щелевая лампа)",
-                                text: "Это «микроскоп для глаза», которым врач детально осматривает веки, роговицу, радужку, хрусталик. Дети сидят в удобном кресле, врач объясняет каждый шаг — боли нет.",
+                                text: "Это «микроскоп для глаза», которым врач детально осматривает веки, роговицу, радужку, хрусталик. Дети сидят в удобном кресле, специалист комментирует каждый шаг — боли нет.",
                             },
                             {
                                 title: "Осмотр глазного дна через линзу",
-                                text: "После закапывания капель для расширения зрачка врач оценивает сетчатку, макулу и диск зрительного нерва. Метод выявляет врождённые изменения, последствия миопии, сосудистые и воспалительные состояния. При чувствительности используем местную анестезию каплями.",
+                                text: "После закапывания капель для расширения зрачка врач оценивает сетчатку, макулу и диск зрительного нерва. Метод помогает выявить врождённые особенности, изменения при миопии, сосудистые и воспалительные состояния. При чувствительности используем местную анестезию каплями.",
                             },
                             {
                                 title: "Диоптриметрия (проверка очков)",
-                                text: "Измеряем оптическую силу имеющихся очков: сферу, цилиндр, ось, межцентровое расстояние. Помогает понять, подходят ли очки ребёнку и нужно ли обновление рецепта.",
-                            },
-                        ],
-                    },
-                },
-                {
-                    type: "advantages",
-                    data: {
-                        title: "Перечень аппаратного лечения (Детская клиника Злата)",
-                        text: "Все эти процедуры можно пройти непосредственно в Детской клинике Злата: индивидуальные программы с учётом возраста и диагноза ребёнка. Курс обычно включает 10–15 занятий по 30–40 минут в комфортном игровом формате. Запишитесь на консультацию — подскажем оптимальный маршрут и актуальные цены.",
-                        list: [
-                            {
-                                title: "Плеоптика (АМБЛИОКОР)",
-                                text: "Тренирует «ленивый» глаз, повышает остроту зрения и контрастную чувствительность у детей. Проводится в игровой форме в Детской клинике Злата.",
-                            },
-                            {
-                                title: "Ортоптика / диплоптика (синаптофор)",
-                                text: "Развивает бификсацию, фузионные резервы и стереозрение, помогает при косоглазии. Курс и параметры подбирает врач Детской клиники Злата.",
-                            },
-                            { videoOnly: "/videos/about-cta-mob.mp4" },
-                            {
-                                title: "Компьютерные программы",
-                                text: "('Окулист', 'Клинок', игровые тренажёры) — мотивируют ребёнка к занятиям, улучшают координацию глаз и зрительную выносливость. Применяются в Детской клинике Злата как часть комплексной терапии.",
-                            },
-                            {
-                                title: "Поддержка окклюзионной терапии",
-                                text: "Индивидуальные схемы «заклеивания» более сильного глаза, обучение семьи и контроль эффективности. Сопровождение проводится специалистами Детской клиники Злата.",
-                            },
-                            {
-                                title: "Упражнения на конвергенцию/дивергенцию",
-                                bgTransparent: true,
-                                text: "Коррекция недостаточности конвергенции, стабилизация бинокулярной фиксации и комфортного чтения (нить Брока, синаптофор, бинокулярные тренажёры).",
-                            },
-                            {
-                                title: "Призматические методики",
-                                text: "Выравнивают зрительные оси, улучшают слияние изображений и комфорт при чтении. Применяются по показаниям в Детской клинике Злата.",
-                            },
-                            {
-                                title: "Тренировка аккомодации",
-                                text: "Упражнения и приборы для улучшения фокусировки на близком расстоянии, снижения утомляемости и головной боли при чтении. Проводятся индивидуальные протоколы в Детской клинике Злата.",
+                                text: "Измеряем оптическую силу имеющихся очков: сферу, цилиндр, ось, межцентровое расстояние. Помогает понять, подходят ли очки ребёнку и нужно ли обновить рецепт.",
                             },
                         ],
                     },
@@ -3555,7 +3444,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціна",
+                        title: "Цена",
                     },
                 },
                 { type: "giftCTA" },
@@ -3567,17 +3456,17 @@ export const servicesData: ServicesProps[] = [
                         content: [
                             {
                                 question:
-                                    "Сколько стоит проверка зрения у детей в Детской клинике Злата и что входит в стоимость?",
+                                    "Сколько стоит проверка зрения у детей в Детской клинике и что входит в стоимость?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Стоимость зависит от объема обследования: требуется ли циклоплегия, топография или биометрия. Регистратура Детской клиники Злата подскажет пакетные цены и поможет выбрать оптимальный прием.",
+                                        text: "Стоимость зависит от объёма обследования: требуется ли циклоплегия, топография или биометрия. Регистратура Детской клиники подскажет пакетные цены и поможет выбрать оптимальный приём.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "С какого возраста проходить осмотр в Детской клинике Злата?",
+                                    "С какого возраста проходить осмотр в Детской клинике?",
                                 answer: [
                                     {
                                         type: "text",
@@ -3587,7 +3476,7 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 question:
-                                    "Болезненны ли обследования и аппаратное лечение в Детской клинике Злата?",
+                                    "Болезненны ли обследования и аппаратное лечение в Детской клинике?",
                                 answer: [
                                     {
                                         type: "text",
@@ -3601,7 +3490,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Да, при раннем выявлении амблиопии или нарушений бинокулярного зрения. Врач Детской клиники Злата объяснит преимущества и особенности конкретных методик.",
+                                        text: "Да, при раннем выявлении амблиопии или нарушений бинокулярного зрения. Врач Детской клиники объяснит преимущества и особенности конкретных методик.",
                                     },
                                 ],
                             },
@@ -3611,13 +3500,13 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Обычно 10–15 занятий; повтор через 3–6 месяцев по показаниям. График контрольных осмотров составляет врач Детской клиники Злата.",
+                                        text: "Обычно 10–15 занятий; повтор через 3–6 месяцев по показаниям. График контрольных осмотров составляет врач Детской клиники.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Есть ли отзывы или рекомендации о Детской клинике Злата?",
+                                    "Есть ли отзывы или рекомендации о Детской клинике?",
                                 answer: [
                                     {
                                         type: "text",
@@ -3627,7 +3516,7 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 question:
-                                    "Есть ли акции и скидки в Детской клинике Злата?",
+                                    "Есть ли акции и скидки в Детской клинике?",
                                 answer: [
                                     {
                                         type: "text",
@@ -3641,7 +3530,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Детская клиника Злата обеспечивает быстрый прием, четкий маршрут, подробные заключения и прозрачные цены. Окончательный выбор за родителями; мы предоставим всю необходимую информацию.",
+                                        text: "Детская клиника обеспечивает быстрый приём, понятный маршрут, подробные заключения и прозрачные цены. Окончательный выбор за родителями; мы предоставим всю необходимую информацию.",
                                     },
                                 ],
                             },
@@ -3719,7 +3608,7 @@ export const servicesData: ServicesProps[] = [
                             },
                         ],
                         btn: {
-                            btnName: "записатися на прийом",
+                            btnName: "Registracija vizitui",
                             btnLink: "#booking",
                         },
                     },

@@ -8,7 +8,7 @@ import { Doctors } from "@/components/main/doctors/Doctors";
 import { AboutCTA } from "@/components/pageAbout/cta/AboutCTA";
 import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
-import { FeedbackSection } from "@/components/shared/feedbackSection.tsx/FeedbackSection";
+import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSection";
 import { AdvantagesService } from "@/components/someServiceComponents/advantages/AdvantagesService";
 import { HeroRayner } from "@/components/someServiceComponents/individualComponents/HeroRayner";
 import { RaynerAbout } from "@/components/someServiceComponents/individualComponents/RaynerAbout";
