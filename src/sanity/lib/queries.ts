@@ -89,3 +89,9 @@ export const blogMetaSlugsQuery = defineQuery(`
 export const doctorMetaSlugsQuery = defineQuery(`
       *[_type == "doctor" && !(_id in path("drafts.**"))].slug.current
 `);
+
+export const feedbacksQuery = defineQuery(`
+    *[_type == "feedback" && !(_id in path("drafts.**"))]{"text": feedbackText[_key == $language][0].value,
+  "name": name[_key == $language][0].value,
+  "photo":photo,
+  service}`);

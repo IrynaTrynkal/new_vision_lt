@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { servicesList, ServicesListProps } from "@/components/assets/menu";
 import { servicesData } from "@/components/assets/servicesData";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -10,6 +9,8 @@ import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSec
 import { FAQService } from "@/components/someServiceComponents/faqSection/FAQService";
 import { HeroSomeService } from "@/components/someServiceComponents/HeroSomeService";
 import { ServicePageContent } from "@/components/someServiceComponents/ServicePage";
+import { sanityFetch } from "@/sanity/lib/client";
+import { feedbacksQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 
 type Props = {
@@ -86,10 +87,14 @@ export default async function ServicePage({ params }: ServicePageProps) {
         { name: displayedService.key, href: `/${displayedService.key}` },
     ];
 
+    const feedbacksList = await sanityFetch({
+        query: feedbacksQuery,
+        params: { language: locale },
+        tags: ["feedback"],
+    });
     const feedbackList = feedbacksList.filter(
         fb => fb.service === displayedService.key
     );
-
     const showedFeedbacks =
         feedbackList.length > 0 ? feedbackList : feedbacksList;
     const serviceData = servicesData.find(
@@ -115,7 +120,9 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 locale={locale as LocaleType}
                 serviceData={serviceData}
             />
-            <FeedbackSection list={showedFeedbacks} slideAmount={4} />
+            {showedFeedbacks?.length > 0 && (
+                <FeedbackSection list={showedFeedbacks} slideAmount={4} />
+            )}
             {faqList && faqList.content.length > 0 && (
                 <FAQService faqList={faqList} />
             )}
