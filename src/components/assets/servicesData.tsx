@@ -264,8 +264,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "діагностика зору",
-                        text: "У нашій клініці перевірка зору поєднує комплексну перевірку зору, комп'ютерну діагностику зору, лазерне обстеження очей та класичні способи перевірки зору.",
+                        title: "Regėjimo diagnostika",
+                        text: "Mūsų klinikoje Vilniuje regėjimo patikrinimas apima išplėstinę akių patikrą: papildomai atliekama kompiuterinė regėjimo diagnostika, lazerinis akių tyrimas ir taikomi tradiciniai regos vertinimo metodai.",
                         image: "/images/perevirka-zoru-hero.jpg",
                         imgPositionDesktop: "right -200px top -140px",
                     },
@@ -274,14 +274,14 @@ export const servicesData: ServicesProps[] = [
                     type: "preview",
                     data: {
                         fractionUp: true,
-                        title: "Сучасне обстеження зору щодо стандартів ЄС",
+                        title: "Šiuolaikinis regėjimo ištyrimas pagal ES standartus",
                         text: [
-                            "Сучасне обстеження зору в нашій клініці перевірки зору проводиться з використанням високоточного цифрового обладнання, яке відповідає нормам та протоколам Євросоюзу. Така комп'ютерна перевірка зору дає можливість отримати об'єктивні дані про стан органів зору, провести повну діагностику очей та підібрати максимально ефективне лікування – як хірургічне, так і консервативне.",
-                            "Розшифровкою результатів займається лікар-офтальмолог найвищої кваліфікаційної категорії. Під час консультації лікаря всі висновки, протипоказання, можливі побічні ефекти та переваги різних варіантів лікування пояснюються у зрозумілій формі, щоб пацієнт чітко розумів діагноз, способи перевірки зору, та які методи корекції будуть найкращі саме у його випадку.",
+                            "Šiuolaikinė akių diagnostika mūsų centre atliekama naudojant didelio tikslumo skaitmeninę įrangą, atitinkančią Europos Sąjungos reikalavimus ir klinikinius protokolus. Tokia kompiuterinė regėjimo patikra leidžia gauti objektyvius duomenis apie regos sistemą, atlikti išsamią diagnostinę akių apžiūrą ir parinkti veiksmingiausią gydymą – tiek chirurginį, tiek konservatyvų.",
+                            "Tyrimų rezultatų interpretaciją atlieka aukščiausios kvalifikacijos gydytojas oftalmologas. Konsultacijos metu specialistas aiškiai paaiškina išvadas, galimus apribojimus, galimas nepageidaujamas reakcijas ir skirtingų gydymo variantų privalumus, kad pacientas tiksliai suprastų diagnozę, regos sutrikimų nustatymo metodus ir kokie korekcijos sprendimai jam bus optimaliausi.",
                         ],
                         image: "/images/perevirka-zoru-preview.jpg",
-                        textUp: "5 млн",
-                        textDown: "консультацій \nпроведено",
+                        textUp: "5 mln",
+                        textDown: "konsultacijų \natlikta",
                     },
                 },
                 {
@@ -291,35 +291,35 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Повна діагностика зору включає",
+                                title: "Išsami regėjimo diagnostika apima",
                                 image: "/images/perevirka-round.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Повна діагностика зору – це комплексне обстеження зору, під час якого ми не лише перевіряємо гостроту зору, а й детально аналізуємо стан усіх структур ока. Комп'ютерна діагностика зору включає:",
+                                                text: "Išsami regėjimo diagnostika – tai kompleksiniai akių sveikatos tyrimai, kurių metu ne tik įvertiname regėjimo aštrumą, bet ir detaliai įvertiname visų akies struktūrų būklę. Kompiuterinė regėjimo diagnostika apima:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Вимірювання параметрів ока на цифрових приладах. Це комп'ютерне обстеження очей, яке дозволяє оцінити рефракцію, кривизну рогівки, довжину ока та інші ключові показники.",
-                                                    "Аналіз медичної документації. Лікар ретельно вивчає попередні огляди та лікування, щоб порівняти стан зору в динаміці.",
-                                                    "Спеціальні діагностичні тести для кожного ока окремо та у поєднаному режимі. Таке комплексне обстеження очей допомагає виявити навіть приховані порушення.",
-                                                    "Мікроскопічний огляд анатомічних структур ока. Застосовується сильне збільшення для детального очного обстеження рогівки, кришталика, райдужки та інших структур.",
+                                                    "Akių parametrų matavimą skaitmeniniais prietaisais. Toks kompiuterinis akių ištyrimas leidžia įvertinti refrakciją, ragenos kreivumą, akies ilgį ir kitus svarbius rodiklius.",
+                                                    "Medicininės dokumentacijos analizę. Gydytojas atidžiai peržiūri ankstesnių apžiūrų ir gydymo duomenis, kad įvertintų regėjimo būklės pokyčius dinamikoje.",
+                                                    "Specializuotus diagnostinius testus kiekvienai akiai atskirai ir kombinuotu režimu. Toks diagnostinis akių tyrimas padeda nustatyti net ir paslėptus sutrikimus.",
+                                                    "Mikroskopinį akies anatominių struktūrų įvertinimą. Naudojamas didelis didinimas kruopščiam ragenos, lęšiuko, rainelės ir kitų struktūrų įvertinimui.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Весь процес обстеження очей проходить у щадному, комфортному режимі, переважно безконтактно, підходить як дорослим, так і дітям. За відгуками пацієнтів, така комп'ютерна діагностика зору є одним з найкращих способів швидко та безболісно перевірити зір.",
+                                                text: "Visas ištyrimo procesas vyksta tausojančiu, pacientui komfortišku režimu, dažniausiai bekontakčiu būdu, todėl tinka tiek suaugusiesiems, tiek vaikams. Remiantis pacientų atsiliepimais, tokia kompiuterinė akių patikra yra vienas geriausių būdų greitai ir neskausmingai patikrinti regėjimą.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Регулярна перевірка зору – основа профілактики захворювань",
+                                title: "Reguliarus regėjimo patikrinimas – ligų profilaktikos pagrindas",
                                 image: "/images/perevirka1.jpg",
                                 text: [
                                     {
@@ -327,17 +327,17 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Регулярна перевірка зору – це не просто спосіб перевірити очі, а важлива частина профілактики багатьох захворювань. Під час очного обстеження офтальмолог може побачити зміни у судинах сітківки, які відображають стан серцево-судинної системи, виявити перші ознаки діабету, гіпертонії та інших системних патологій. Саме тому періодична діагностика очей важлива навіть за відсутності скарг.",
+                                                text: "Reguliarus akių patikrinimas – tai ne tik galimybė pasitikrinti akis, bet ir svarbi daugelio ligų profilaktikos dalis. Apžiūros metu gydytojas oftalmologas gali pastebėti tinklainės kraujagyslių pokyčius, kurie atspindi širdies ir kraujagyslių sistemos būklę, nustatyti ankstyvus diabeto, hipertenzijos ir kitų sisteminių patologijų požymius. Todėl periodinė regėjimo patikra svarbi net ir nesant nusiskundimų.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Багато порушень розвиваються приховано, без симптомів, і тільки комплексна перевірка зору дозволяє вчасно діагностувати патологію.",
+                                                text: "Daugelis sutrikimų vystosi nepastebimai, be simptomų, ir tik kompleksinis regėjimo patikrinimas leidžia laiku diagnozuoti patologiją.",
                                             },
                                         ],
                                     },
                                     {
                                         greenText:
-                                            "Оптимальна частота відвідування офтальмолога – один раз на рік. Це правило актуальне навіть для тих, хто не має проблем із зором. Профілактика завжди ефективніша, ніж лікування - особливо коли йдеться про очі.",
+                                            "Optimali apsilankymo pas akių ligų gydytojus dažnis – kartą per metus. Ši taisyklė aktuali net tiems, kurie nejaučia regėjimo problemų. Profilaktika visada veiksmingesnė už gydymą – ypač kalbant apie akis.",
                                     },
                                 ],
                             },
@@ -351,33 +351,33 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         paddingBottom: true,
                         image: "/images/choice.jpg",
-                        title: "Комп'ютерна діагностика зору: навіщо проводиться та як проходить процедура",
+                        title: "Kompiuterinė regėjimo diagnostika: kam ji reikalinga ir kaip atliekama",
                         text: [
-                            "Перед тим, як обрати метод корекції – окуляри, лінзи, лазерне лікування, – важливо пройти детальне комп'ютерне обстеження очей.",
-                            "Комп'ютерна діагностика зору – це сучасний, щадний і дуже інформативний спосіб перевірки зору, який дозволяє уточнити всі параметри ока без болю та дискомфорту.",
+                            "Prieš pasirenkant korekcijos metodą – akinius, kontaktinius lęšius ar lazerinį gydymą – svarbu atlikti išsamų kompiuterinį akių ištyrimą.",
+                            "Kompiuterinė regėjimo diagnostika – tai šiuolaikinis, tausojantis ir itin informatyvus regėjimo tikrinimas, leidžiantis tiksliai nustatyti akies parametrus be skausmo ir diskomforto.",
                         ],
-                        listTitle: "Як проходить комп'ютерна діагностика зору",
+                        listTitle:
+                            "Kaip atliekama kompiuterinė regėjimo diagnostika",
                         list: [
                             {
                                 itemTitle:
-                                    "Запис на прийом та підготовка до діагностики",
+                                    "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Записатись на діагностику зору можна телефоном або онлайн – це займає кілька хвилин. Якщо ви носите м’які контактні лінзи, рекомендується зняти їх за 12 годин до обстеження. Візьміть із собою окуляри, попередні висновки та результати обстежень, щоб лікар міг оцінити динаміку. Бажано приїхати не за кермом, оскільки після закапування крапель для розширення зіниць можливий короткочасний зоровий дискомфорт.",
+                                    "Užsiregistruoti regėjimo patikrinimui galima telefonu arba internetu – tai užtrunka vos kelias minutes. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti likus 12 valandų iki tyrimo. Atsineškite akinius, ankstesnes išvadas ir tyrimų rezultatus, kad gydytojas galėtų įvertinti pokyčius dinamikoje. Pageidautina neplanuoti vairavimo, nes po lašų, plečiančių vyzdžius, gali pasireikšti trumpalaikis regėjimo diskomfortas.",
                                 ],
                             },
                             {
-                                itemTitle: "Комп’ютерна діагностика зору",
+                                itemTitle: "Kompiuterinė regėjimo diagnostika",
                                 itemText: [
-                                    "Саме очне обстеження проводиться на новітніх приладах та включає комплексне обстеження зору: вимірювання внутрішньоочного тиску, аналіз рогівки, рефракції, стану очного дна. Тривалість повного обстеження в середньому становить 2–2,5 години. Одним із ключових етапів є перевірка гостроти зору за таблицями, що дозволяє точно підібрати оптику.",
-                                    "У разі потреби лікар використовує краплі для розширення зіниць, щоб детально перевірити очне дно та виключити приховані захворювання. Така комплексна перевірка зору та лазерне обстеження очей за допомогою сучасних систем візуалізації забезпечує максимальну точність діагнозу.",
+                                    "Pats ištyrimas atliekamas naujausiais prietaisais ir apima kompleksinę akių patikrą: akispūdžio matavimą, ragenos analizę, refrakcijos įvertinimą ir akių dugno būklės įvertinimą. Visos apžiūros trukmė vidutiniškai siekia 2–2,5 val. Vienas svarbiausių etapų – regėjimo aštrumo patikrinimas pagal lenteles, leidžiantis tiksliai parinkti optiką.",
+                                    "Jei reikia, gydytojas naudoja vyzdžius plečiančius lašus, kad detaliai įvertintų akių dugną ir atmestų paslėptas ligas. Toks kompleksinis regėjimo patikrinimas ir lazerinis akių tyrimas, taikant šiuolaikines vizualizacijos sistemas, užtikrina maksimalų diagnostikos tikslumą.",
                                 ],
                             },
                             {
-                                itemTitle:
-                                    "Висновок за результатами обстеження",
+                                itemTitle: "Išvada pagal tyrimų rezultatus",
                                 itemText: [
-                                    "Після обстеження очей пацієнт отримує офіційний протокол із результатами: параметри зору, дані про внутрішньоочний тиск, стан рогівки та очного дна. На консультації лікар-офтальмолог детально пояснює результати, дає рекомендації щодо лікування, профілактики або підготовки до операції.",
-                                    "Обговорюються можливі недоліки та переваги кожного методу, протипоказання та потенційні побічні ефекти, щоб ви могли ухвалити виважене рішення.",
+                                    "Po akių patikros pacientas gauna oficialų protokolą su rezultatais: regėjimo parametrais, akispūdžio duomenimis, ragenos ir akių dugno būkle. Konsultacijos metu gydytojas oftalmologas išsamiai paaiškina rezultatus ir pateikia rekomendacijas dėl gydymo, profilaktikos ar pasiruošimo operacijai.",
+                                    "Aptariami kiekvieno metodo privalumai ir trūkumai, kontraindikacijos bei galimos nepageidaujamos reakcijos, kad galėtumėte priimti pagrįstą sprendimą.",
                                 ],
                             },
                         ],
@@ -386,52 +386,52 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Комплексне обстеження зору: які \nтести проводять",
-                        text: "Під час повної діагностики очей застосовуються різні способи перевірки зору та комп'ютерна діагностика зору:",
+                        title: "Kompleksinė akių patikra: kokie \ntestai atliekami",
+                        text: "Išsamios akių diagnostikos metu taikomi įvairūs regėjimo patikrinimo metodai ir kompiuterinė diagnostika:",
                         btn: {
-                            btnName: "записатися на прийом",
+                            btnName: "susitarti dėl susitikimo",
                             btnLink: "#booking",
                         },
                         slider: [
                             {
-                                title: "Візіометрія",
-                                text: "Перевірка гостроти зору вдалину та поблизу за спеціальними таблицями. Це базова перевірка зору, з якої починається будь-яке обстеження.",
+                                title: "Viziometrija",
+                                text: "Regėjimo aštrumo patikrinimas į tolį ir iš arti pagal specialias lenteles. Tai bazinis regėjimo tikrinimas, nuo kurio pradedamas bet koks ištyrimas.",
                             },
                             {
-                                title: "Тонометрія",
-                                text: "Вимірювання внутрішньоочного тиску для раннього виявлення глаукоми.",
+                                title: "Tonometria",
+                                text: "Akispūdžio matavimas ankstyvam glaukomos nustatymui.",
                             },
                             {
-                                title: "Рефрактометрія",
-                                text: "Автоматичне визначення заломлюючої сили ока, що дозволяє точно встановити міопію, гіперметропію та астигматизм.",
+                                title: "Refraktometrija",
+                                text: "Automatinis akies lūžio galios nustatymas, padedantis tiksliai įvertinti trumparegystę, toliaregystę ir astigmatizmą.",
                             },
                             {
-                                title: "Біометрія",
-                                text: "Безконтактне комп'ютерне обстеження очей, під час якого вимірюють довжину очного яблука, глибину передньої камери, товщину кришталика – особливо важливо перед операціями та підбором інтраокулярної лінзи.",
+                                title: "Biometrija",
+                                text: "Bekontaktis kompiuterinis akių ištyrimas, matuojant akies obuolio ilgį, priekinės kameros gylį ir lęšiuko storį – ypač svarbu prieš operacijas ir parenkant intraokulinį lęšį.",
                             },
                             {
-                                title: "Пахіметрія",
-                                text: "Визначення товщини рогівки світловим або ультразвуковим методом, обов'язкове перед лазерним обстеженням очей і рефракційною хірургією.",
+                                title: "Pachimetrija",
+                                text: "Ragenos storio nustatymas šviesiniu arba ultragarsiniu metodu; būtina prieš lazerinį akių tyrimą ir refrakcinę chirurgiją.",
                             },
                             {
-                                title: "Кератотопографія",
-                                text: "Оцінка форми та кривизни рогівки, що допомагає діагностувати кератоконус та інші патології.",
+                                title: "Keratotopografija",
+                                text: "Ragenos formos ir kreivumo įvertinimas, padedantis diagnozuoti keratokonusą ir kitas patologijas.",
                             },
                             {
-                                title: "Кінетична периметрія",
-                                text: "Дослідження поля зору, необхідне при глаукомі, ураженні зорового нерва та патології сітківки.",
+                                title: "Kinetinė perimetrija",
+                                text: "Regėjimo lauko tyrimas, reikalingas sergant glaukoma, esant regos nervo pažeidimams ar tinklainės patologijoms.",
                             },
                             {
-                                title: "Біомікроскопія",
-                                text: "Огляд переднього відрізка ока за допомогою щілинної лампи з великим збільшенням.",
+                                title: "Biomikroskopija",
+                                text: "Priekinio akies segmento apžiūra plyšine lempa, naudojant didelį didinimą.",
                             },
                             {
-                                title: "Огляд очного дна фундус-лінзою",
-                                text: "Детальне обстеження очного дна, макули та судин.",
+                                title: "Akių dugno apžiūra su funduso lęšiu",
+                                text: "Išsamus tinklainės, geltonosios dėmės ir kraujagyslių įvertinimas.",
                             },
                             {
-                                title: "Діоптриметрія",
-                                text: "Визначення параметрів окулярів, які вже використовує пацієнт, щоб переконатися в правильності їх підбору.",
+                                title: "Dioptrimetrija",
+                                text: "Jau naudojamų akinių parametrų nustatymas, siekiant patikrinti, ar jie parinkti teisingai.",
                             },
                         ],
                     },
@@ -439,21 +439,21 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "advantages",
                     data: {
-                        title: "Переваги комп'ютерного обстеження очей",
-                        text: "У нашій офтальмологічній клініці у Києві діагностика проводиться із застосуванням передових технологій та обладнання, сертифікованого за стандартами ЄС.",
+                        title: "Kompiuterinio akių ištyrimo privalumai",
+                        text: "Mūsų oftalmologijos klinikoje Vilniuje regėjimo diagnostika atliekama taikant pažangias technologijas ir ES standartus atitinkančią, sertifikuotą įrangą.",
                         list: [
                             {
-                                title: "точний діагноз",
-                                text: "Цифрові методи мінімізують помилки та дозволяють визначити всі ключові параметри ока.",
+                                title: "Tikslus diagnozės nustatymas",
+                                text: "Skaitmeniniai metodai sumažina paklaidų tikimybę ir leidžia įvertinti visus pagrindinius akies parametrus.",
                             },
                             {
-                                title: "комплексний підхід",
-                                text: "Комп'ютерна перевірка зору поєднується з класичними тестами та, за потреби, лазерним обстеженням очей.",
+                                title: "Kompleksinis požiūris",
+                                text: "Kompiuterinė regėjimo patikra apjungia klasikinius testus ir, prireikus, lazerinį akių tyrimą.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "індивідуальне лікування",
-                                text: "На основі результатів повної діагностики очей лікар пропонує оптимальний план лікування: від консервативних методів до лазерної корекції або хірургії.",
+                                title: "Individualus gydymo planas",
+                                text: "Remiantis išsamios akių diagnostikos rezultatais, gydytojas parenka optimalų gydymo planą – nuo konservatyvių metodų iki lazerinės korekcijos ar chirurginio gydymo.",
                             },
                         ],
                     },
@@ -461,7 +461,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціни на консультацію та діагностику зору у Києві",
+                        title: "Konsultacijos ir regos diagnostikos kainos Vilniuje",
                     },
                 },
                 { type: "giftCTA" },
@@ -469,85 +469,85 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про перевірку зору",
+                        title: "Dažniausiai užduodami klausimai apie regėjimo patikrinimą",
                         content: [
                             {
                                 question:
-                                    "Як зрозуміти, що мені потрібна перевірка зору?",
+                                    "Kaip suprasti, kad man reikalingas regėjimo patikrinimas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Регулярна перевірка зору потрібна навіть без скарг. Якщо ви відчуваєте втому очей, нечіткість, «туман», сльозотечу, головний біль або працюєте за комп’ютером, варто записатися на комплексне обстеження очей. У нашій клініці перевірка зору включає перевірку гостроти зору, комп’ютерну діагностику зору та огляд очного дна, щоб вчасно виявити зміни та підібрати лікування.",
+                                        text: "Reguliarus akių patikrinimas rekomenduojamas net ir nesant nusiskundimų. Jei jaučiate akių nuovargį, neryškų matymą, „rūką“, ašarojimą, galvos skausmus ar daug dirbate kompiuteriu, verta užsiregistruoti kompleksinei akių patikrai. Mūsų klinikoje regėjimo patikrinimas apima regėjimo aštrumo įvertinimą, kompiuterinę diagnostiką ir akių dugno apžiūrą, kad pokyčiai būtų nustatyti laiku ir parinktas tinkamas gydymas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Що входить у комплексну перевірку зору та повну діагностику очей?",
+                                    "Kas įeina į kompleksinę regėjimo patikrą ir išsamią akių diagnostiką?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Комплексна перевірка зору та повна діагностика очей включають візометрію (перевірка гостроти зору), тонометрію, рефрактометрію, комп’ютерне обстеження очей, огляд очного дна, біомікроскопію. Таке комплексне обстеження зору дозволяє не лише перевірити очі, а й виявити приховані захворювання та визначити, який спосіб лікування буде найкращий.",
+                                        text: "Kompleksinė regėjimo patikra ir išsami akių diagnostika apima viziometriją (regėjimo aštrumo patikrinimą), tonometriją, refraktometriją, kompiuterinį akių ištyrimą, akių dugno apžiūrą ir biomikroskopiją. Toks diagnostinis akių tyrimas leidžia ne tik patikrinti regėjimą, bet ir nustatyti paslėptas ligas bei parinkti veiksmingiausią gydymo metodą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чим відрізняється комп’ютерна перевірка зору від звичайної перевірки за таблицею?",
+                                    "Kuo skiriasi kompiuterinė regėjimo patikra nuo įprasto patikrinimo pagal lentelę?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Звичайна перевірка гостроти зору за таблицею показує, наскільки добре ви бачите вдалину чи поблизу. Комп’ютерна перевірка зору та комп’ютерна діагностика зору додають точні цифрові дані про рефракцію, кривизну рогівки та інші параметри. Таке комп’ютерне обстеження очей допомагає точніше підібрати окуляри або лінзи та оцінити, чи підходить вам лазерне обстеження очей або хірургічне лікування.",
+                                        text: "Patikrinimas pagal lentelę parodo, kaip gerai matote į tolį ar iš arti. Kompiuterinė regėjimo patikra ir akių diagnostika pateikia tikslius skaitmeninius duomenis apie refrakciją, ragenos kreivumą ir kitus parametrus. Tai padeda tiksliau parinkti akinius ar lęšius ir įvertinti, ar reikalinga lazerinė diagnostika arba chirurginis gydymas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи боляче проходити обстеження очей? Чи є побічні ефекти?",
+                                    "Ar akių patikra yra skausminga? Ar būna šalutinių poveikių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Комплексне обстеження очей та комп’ютерна діагностика зору проводяться безболісно та переважно безконтактно. Інколи використовують краплі для розширення зіниць – тимчасово погіршується зір поблизу, але це нормальний ефект. Серйозні побічні ефекти виникають вкрай рідко, протипоказання оцінює лікар під час консультації. У нашій клініці перевірка зору відповідає європейським стандартам безпеки.",
+                                        text: "Kompleksinė akių patikra ir kompiuterinė regėjimo diagnostika atliekamos neskausmingai ir dažniausiai bekontakčiu būdu. Kartais naudojami vyzdžius plečiantys lašai – trumpam gali suprastėti matymas iš arti, tačiau tai normali reakcija. Rimti nepageidaujami poveikiai pasitaiko itin retai; kontraindikacijas konsultacijos metu įvertina gydytojas. Regėjimo patikrinimas mūsų klinikoje atitinka europinius saugumo standartus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки коштує перевірити зір? Яка вартість діагностики зору?",
+                                    "Kiek kainuoja regėjimo patikrinimas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Вартість перевірки зору та вартість діагностики зору залежать від обсягу обстеження: базова перевірка зору, комплексне обстеження очей чи розширена комп’ютерна діагностика зору. Ціна перевірки зору та ціни на повну діагностику очей завжди прозорі – детальну інформацію можна уточнити у реєстратурі або під час онлайн-запису. Періодично діють акція та знижка, а окремі скринінгові огляди чи консультація лікаря можуть проводитися умовно безкоштовно в рамках спецпропозицій.",
+                                        text: "Regėjimo tikrinimo kaina priklauso nuo apžiūros apimties: bazinė patikra, kompleksinis akių ištyrimas ar išplėstinė kompiuterinė diagnostika. Kainodara yra skaidri – detalią informaciją galite sužinoti registratūroje arba registruojantis internetu. Periodiškai gali būti taikomos akcijos, o kai kurios atrankinės patikros ar konsultacijos – teikiamos pagal specialius pasiūlymus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи можна одразу отримати лікування після діагностики очей?",
+                                    "Ar po akių diagnostikos galima iš karto pradėti gydymą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Так, після того як лікар завершить обстеження очей і розшифрує результати, ви отримаєте рекомендації та план лікування. За потреби буде запропоновано консервативне лікування, комп’ютерну корекцію, лазерне обстеження очей перед операцією або хірургічне втручання. Консультація лікаря включає пояснення переваг і можливих недоліків кожного методу, щоб ви могли прийняти зважене рішення.",
+                                        text: "Taip. Baigus akių diagnostiką ir įvertinus rezultatus, gausite rekomendacijas ir gydymo planą. Prireikus bus pasiūlytas konservatyvus gydymas, korekcija akiniais ar lęšiais, lazerinė diagnostika prieš operaciją arba chirurginis gydymas. Konsultacijos metu gydytojas paaiškins kiekvieno metodo privalumus ir galimus trūkumus, kad sprendimą priimtumėte sąmoningai.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Куди краще піти перевірити зір: оптика чи офтальмологічна клініка?",
+                                    "Kur geriau tikrintis regėjimą: optikoje ar oftalmologijos klinikoje?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Якщо потрібно просто оновити окуляри, базова перевірка гостроти зору можлива в оптиці. Але для повної діагностики очей, комп’ютерної перевірки зору, оцінки очного дна та підбору лікування безпечніше звернутися у спеціалізовану клініку перевірки зору. У нашому офтальмологічному центрі є повний набір обладнання для комплексного обстеження зору, а відгуки пацієнтів і рекомендації підтверджують якість діагностики та сервісу.",
+                                        text: "Jei reikia tik atnaujinti akinių stiprumą, bazinį regėjimo aštrumo patikrinimą galima atlikti optikoje. Tačiau išsamesnei akių diagnostikai, kompiuteriniam akių ištyrimui, akių dugno apžiūrai ir gydymo parinkimui saugiau kreiptis į specializuotą kliniką. Mūsų centre yra visa reikalinga įranga kompleksinei diagnostikai, o pacientų atsiliepimai patvirtina paslaugų kokybę.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи всім можна проходити комп’ютерне обстеження очей? Є протипоказання?",
+                                    "Ar kompiuterinė regėjimo diagnostika tinka visiems? Ar yra kontraindikacijų?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Комп’ютерна діагностика зору підходить більшості пацієнтів: дорослим, підліткам, людям після операцій. Лікар обов’язково враховує супутні захворювання, вагітність, прийом ліків, можливі протипоказання для лазерного обстеження очей або хірургії. Якщо є обмеження, фахівець запропонує альтернативні способи перевірки зору та безпечне лікування. Саме тому важливо не лише перевірити зір, а й отримати професійну консультацію лікаря.",
+                                        text: "Kompiuterinė regėjimo diagnostika tinka daugumai pacientų: suaugusiesiems, paaugliams, asmenims po operacijų. Gydytojas įvertina gretutines ligas, nėštumą, vartojamus vaistus ir galimas kontraindikacijas lazerinei diagnostikai ar chirurgijai. Jei yra apribojimų, specialistas pasiūlys alternatyvius regos patikros metodus ir saugų gydymą. Todėl svarbu ne tik atlikti regėjimo patikrinimą, bet ir gauti profesionalią akių ligų gydytojo konsultaciją, įskaitant situacijas, kai įtariama trumparegystė vaikui.",
                                     },
                                 ],
                             },
@@ -572,18 +572,18 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "eye diagnostics",
-                        text: "In our clinic, vision testing combines a comprehensive eye examination, computer-based vision diagnostics, laser eye assessment, and classic vision testing methods.",
+                        title: "Vision Diagnostics",
+                        text: "At our clinic in Vilnius, a vision check includes an expanded eye examination, including computer-based vision diagnostics, laser eye assessment, and traditional methods of evaluating visual function.",
                         image: "/images/perevirka-zoru-hero.jpg",
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "Modern eye examination according to EU standards",
+                        title: "Modern vision examination according to EU standards",
                         text: [
-                            "Modern eye examinations in our vision diagnostics clinic are performed using high-precision digital equipment that meets EU standards and protocols. This type of computer-based vision testing makes it possible to obtain objective data about the condition of the eyes, conduct a full eye diagnosis, and choose the most effective treatment — both surgical and conservative.",
-                            "The results are interpreted by an ophthalmologist of the highest qualification category. During the doctor's consultation, all conclusions, contraindications, possible side effects, and the advantages of different treatment options are explained in a clear and understandable way so that the patient fully understands the diagnosis, the vision testing methods, and which correction approaches will be the most suitable in their specific case.",
+                            "Modern eye diagnostics at our centre are performed using high-precision digital equipment that complies with the requirements and clinical protocols of the European Union. This computer-based vision assessment provides objective data on the visual system, enables a comprehensive diagnostic eye examination, and supports the selection of the most effective treatment plan—both surgical and conservative.",
+                            "The interpretation of results is provided by a highly qualified ophthalmologist. During the consultation, the specialist explains the findings, potential limitations, possible adverse reactions, and the advantages of different therapeutic options in a clear manner so that the patient fully understands the diagnosis, the methods used for identifying visual disturbances, and which correction options are most appropriate in their specific case.",
                         ],
                         image: "/images/perevirka-zoru-preview.jpg",
                         textUp: "5 m",
@@ -597,35 +597,35 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Comprehensive vision diagnostics includes",
+                                title: "Comprehensive vision diagnostics include",
                                 image: "/images/perevirka-round.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "A full vision diagnosis is a comprehensive eye examination during which we not only check visual acuity but also thoroughly analyze the condition of all eye structures. Computer-based vision diagnostics include:",
+                                                text: "Comprehensive vision diagnostics are a set of eye health examinations in which we not only assess visual acuity but also carefully evaluate the condition of all ocular structures. Computer-based vision diagnostics include:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Measuring eye parameters using digital devices. This computer eye examination makes it possible to assess refraction, corneal curvature, eye length, and other key indicators.",
-                                                    "Analysis of medical records. The doctor carefully reviews previous examinations and treatments to compare changes in vision over time.",
-                                                    "Special diagnostic tests for each eye separately and in combined mode. Such a comprehensive eye assessment helps detect even hidden disorders.",
-                                                    "Microscopic examination of anatomical eye structures. High magnification is used for detailed evaluation of the cornea, lens, iris, and other structures.",
+                                                    "Measurement of ocular parameters using digital instruments. This computer-based eye examination allows assessment of refraction, corneal curvature, axial length, and other key indicators.",
+                                                    "Review of medical documentation. The physician carefully analyses previous examinations and treatments to evaluate changes in vision over time.",
+                                                    "Specialised diagnostic tests for each eye separately and in combined mode. This diagnostic eye assessment helps identify even subtle or hidden disorders.",
+                                                    "Microscopic evaluation of anatomical ocular structures. High magnification is used for a thorough assessment of the cornea, lens, iris, and other structures.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "The entire eye examination process is gentle and comfortable, mostly non-contact, and suitable for both adults and children. According to patient feedback, this type of computer vision diagnostics is one of the best ways to check your eyesight quickly and painlessly.",
+                                                text: "The entire examination is conducted in a gentle, patient-friendly manner, predominantly non-contact, and is suitable for both adults and children. According to patient feedback, such computer-based vision diagnostics are among the best ways to check vision quickly and without pain.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Regular vision check-ups — the foundation of disease prevention",
+                                title: "Regular vision checks are the basis of disease prevention",
                                 image: "/images/perevirka1.jpg",
                                 text: [
                                     {
@@ -633,17 +633,17 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Regular vision check-ups are not only a way to test your eyes but an important part of preventing many diseases. During an eye examination, an ophthalmologist can see changes in the retinal vessels that reflect the condition of the cardiovascular system and detect early signs of diabetes, hypertension, and other systemic disorders. That is why periodic eye diagnostics are important even in the absence of symptoms.",
+                                                text: "Regular eye checks are not only an opportunity to test vision, but an important part of preventing many conditions. During the examination, an ophthalmologist may detect changes in retinal vessels that reflect cardiovascular health, identify early signs of diabetes, hypertension, and other systemic conditions. Therefore, periodic eye diagnostics are important even in the absence of complaints.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Many disorders develop silently, without symptoms, and only a comprehensive vision check-up allows timely diagnosis of pathology.",
+                                                text: "Many disorders develop imperceptibly, without symptoms, and only a comprehensive vision examination enables timely identification of pathology.",
                                             },
                                         ],
                                     },
                                     {
                                         greenText:
-                                            "The optimal frequency of visiting an ophthalmologist is once a year. This rule applies even to those who have no vision problems. Prevention is always more effective than treatment — especially when it comes to your eyes.",
+                                            "The optimal frequency of an ophthalmology visit is once per year. This rule applies even to those who do not experience vision problems. Prevention is always more effective than treatment—especially when it comes to the eyes.",
                                     },
                                 ],
                             },
@@ -657,34 +657,34 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         paddingBottom: true,
                         image: "/images/choice.jpg",
-                        title: "Computer Vision Diagnostics: Purpose and Procedure",
+                        title: "Computer-based vision diagnostics: why it is performed and how the procedure is carried out",
                         text: [
-                            "Before choosing a correction method — glasses, lenses, or laser treatment — it is important to undergo a detailed computer-based eye examination.",
-                            "Computer vision diagnostics is a modern, gentle, and highly informative way to check vision, allowing all eye parameters to be assessed without pain or discomfort.",
+                            "Before choosing a correction method—glasses, contact lenses, or laser treatment—it is important to undergo a detailed computer-based eye examination.",
+                            "Computer-based vision diagnostics is a modern, gentle, and highly informative way to check vision, allowing precise assessment of ocular parameters without pain or discomfort.",
                         ],
                         listTitle:
-                            "How computer vision diagnostics is conducted",
+                            "How computer-based vision diagnostics is performed",
                         list: [
                             {
                                 itemTitle:
-                                    "Appointment scheduling and preparation for diagnostics",
+                                    "Appointment booking and preparation",
                                 itemText: [
-                                    "You can schedule a vision diagnostics appointment by phone or online — it takes just a few minutes. If you wear soft contact lenses, it is recommended to remove them 12 hours before the examination. Bring your glasses, previous conclusions, and examination results so the doctor can assess the dynamics. It is advisable not to drive, as eye drops for pupil dilation may cause temporary visual discomfort.",
+                                    "You can book a vision check by phone or online in just a few minutes. If you wear soft contact lenses, it is recommended to remove them 12 hours before the examination. Please bring your glasses, previous conclusions, and test results so that the physician can assess changes over time. It is advisable not to drive, as eye drops used to dilate pupils may cause temporary visual discomfort.",
                                 ],
                             },
                             {
-                                itemTitle: "Computer vision diagnostics",
+                                itemTitle: "Computer-based vision diagnostics",
                                 itemText: [
-                                    "The eye examination is performed using the latest devices and includes a comprehensive vision assessment: measurement of intraocular pressure, corneal analysis, refraction, and fundus condition. The full examination typically lasts 2–2.5 hours. A key stage is checking visual acuity using charts, which allows precise selection of optics.",
-                                    "If necessary, the doctor may use pupil-dilating drops to examine the fundus in detail and rule out hidden conditions. Such comprehensive vision testing and laser eye examination using modern imaging systems ensures maximum diagnostic accuracy.",
+                                    "The examination is performed using the latest devices and includes a comprehensive vision assessment: measurement of intraocular pressure, corneal analysis, refraction assessment, and evaluation of the ocular fundus. The full examination typically takes 2–2.5 hours. One of the key stages is checking visual acuity using charts, which helps accurately prescribe optical correction.",
+                                    "If necessary, the physician uses pupil-dilating drops to thoroughly evaluate the ocular fundus and rule out hidden conditions. This comprehensive vision check and laser eye assessment using modern visualisation systems ensure maximum diagnostic accuracy.",
                                 ],
                             },
                             {
                                 itemTitle:
-                                    "Conclusions based on examination results",
+                                    "Clinical conclusion based on examination results",
                                 itemText: [
-                                    "After the eye examination, the patient receives an official report with results: vision parameters, intraocular pressure data, and the condition of the cornea and fundus. During the consultation, the ophthalmologist explains the results in detail and provides recommendations regarding treatment, prevention, or preparation for surgery.",
-                                    "The possible advantages and disadvantages of each method, contraindications, and potential side effects are discussed so that you can make a well-informed decision.",
+                                    "After the eye examination, the patient receives an official report with results: vision parameters, intraocular pressure data, and the condition of the cornea and ocular fundus. During the consultation, the ophthalmologist explains the results in detail and provides recommendations regarding treatment, prevention, or preparation for surgery.",
+                                    "The advantages and disadvantages of each method, contraindications, and potential adverse effects are discussed so that you can make an informed decision.",
                                 ],
                             },
                         ],
@@ -693,8 +693,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Comprehensive Eye Examination: Which \ntests are performed",
-                        text: "During a full eye diagnostic, various vision tests and computer vision diagnostics are applied:",
+                        title: "Comprehensive vision examination: which \ntests are performed",
+                        text: "During a full eye assessment, various vision-check methods and computer-based diagnostics are used:",
                         btn: {
                             btnName: "book an appointment",
                             btnLink: "#booking",
@@ -702,7 +702,7 @@ export const servicesData: ServicesProps[] = [
                         slider: [
                             {
                                 title: "Visiometry",
-                                text: "Testing visual acuity for distance and near vision using special charts. This is the basic vision test that begins any examination.",
+                                text: "Assessment of distance and near visual acuity using standard charts. This is the basic vision check that starts any examination.",
                             },
                             {
                                 title: "Tonometry",
@@ -710,35 +710,35 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Refractometry",
-                                text: "Automatic determination of the eye's refractive power, allowing accurate detection of myopia, hyperopia, and astigmatism.",
+                                text: "Automated determination of the eye’s refractive power, enabling accurate assessment of myopia, hyperopia, and astigmatism.",
                             },
                             {
                                 title: "Biometry",
-                                text: "Non-contact computer eye examination measuring eyeball length, anterior chamber depth, and lens thickness — especially important before surgery and selecting an intraocular lens.",
+                                text: "Non-contact computer-based eye assessment measuring axial length, anterior chamber depth, and lens thickness—particularly important before surgery and when selecting an intraocular lens.",
                             },
                             {
                                 title: "Pachymetry",
-                                text: "Measurement of corneal thickness using light or ultrasound, mandatory before laser eye examination and refractive surgery.",
+                                text: "Measurement of corneal thickness using optical or ultrasound methods; required before laser eye assessment and refractive surgery.",
                             },
                             {
-                                title: "Keratotopography",
-                                text: "Assessment of corneal shape and curvature, helping to diagnose keratoconus and other pathologies.",
+                                title: "Corneal topography",
+                                text: "Assessment of corneal shape and curvature, supporting the diagnosis of keratoconus and other conditions.",
                             },
                             {
                                 title: "Kinetic perimetry",
-                                text: "Examination of the visual field, necessary for glaucoma, optic nerve damage, and retinal pathologies.",
+                                text: "Visual field testing required for glaucoma, optic nerve damage, and retinal pathologies.",
                             },
                             {
                                 title: "Biomicroscopy",
-                                text: "Examination of the anterior segment of the eye using a slit lamp with high magnification.",
+                                text: "Examination of the anterior segment using a slit lamp with high magnification.",
                             },
                             {
-                                title: "Fundus Examination with Fundus Lens",
-                                text: "Detailed examination of the retina, macula, and blood vessels.",
+                                title: "Fundus examination with a fundus lens",
+                                text: "Detailed assessment of the retina, macula, and vessels.",
                             },
                             {
-                                title: "Dioptrometry",
-                                text: "Determination of the parameters of the glasses already used by the patient to ensure they are correctly prescribed.",
+                                title: "Lensmeter (dioptometry)",
+                                text: "Assessment of the parameters of glasses already used by the patient to confirm they are prescribed correctly.",
                             },
                         ],
                     },
@@ -746,21 +746,21 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "advantages",
                     data: {
-                        title: "Advantages of computerized eye examination",
-                        text: "In our ophthalmology clinic in Kyiv, diagnostics are performed using advanced technologies and EU-certified equipment.",
+                        title: "Advantages of computer-based eye examinations",
+                        text: "At our ophthalmology clinic in Vilnius, diagnostics are performed using advanced technologies and EU-certified equipment.",
                         list: [
                             {
                                 title: "accurate diagnosis",
-                                text: "Digital methods minimize errors and allow determining all key parameters of the eye.",
+                                text: "Digital methods minimise the likelihood of errors and allow assessment of all key ocular parameters.",
                             },
                             {
                                 title: "comprehensive approach",
-                                text: "Computer vision diagnostics are combined with classical tests and, if necessary, laser eye examination.",
+                                text: "Computer-based vision checks combine classical tests and, when necessary, laser eye assessment.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "individual treatment",
-                                text: "Based on the results of the full eye diagnostic, the doctor offers the optimal treatment plan — from conservative methods to laser correction or surgery.",
+                                title: "Individualised treatment",
+                                text: "Based on comprehensive eye diagnostics, the physician proposes an optimal treatment plan—from conservative methods to laser correction or surgery.",
                             },
                         ],
                     },
@@ -768,7 +768,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Prices for consultation and vision diagnostics in Kyiv",
+                        title: "Prices for consultation and vision diagnostics in Vilnius",
                     },
                 },
                 { type: "giftCTA" },
@@ -776,35 +776,35 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Frequently asked questions about eye examination",
+                        title: "Frequently asked questions about vision checks",
                         content: [
                             {
                                 question:
-                                    "How do I know if I need an eye examination?",
+                                    "How do I know I need a vision check?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Regular eye examinations are necessary even if you have no complaints. If you experience eye strain, blurred vision, haze, tearing, headaches, or work at a computer, you should schedule a comprehensive eye check-up. At our clinic, an eye examination includes visual acuity testing, computer vision diagnostics, and a fundus examination to detect changes in time and choose the right treatment.",
+                                        text: "Regular vision checks are recommended even without complaints. If you experience eye fatigue, blurred vision, “fog”, tearing, headaches, or spend significant time at a computer, it is advisable to book a comprehensive eye examination. At our clinic, vision checks include visual acuity assessment, computer-based diagnostics, and fundus examination to identify changes in time and select appropriate treatment.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What is included in a comprehensive eye examination and full eye diagnostics?",
+                                    "What is included in a comprehensive vision check and full eye diagnostics?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "A comprehensive eye examination and full eye diagnostics include visometry (visual acuity testing), tonometry, refractometry, computer eye diagnostics, fundus examination, and biomicroscopy. Such a full examination helps not only check your eyes but also detect hidden conditions and determine which treatment method will be the most effective.",
+                                        text: "A comprehensive vision check and full eye diagnostics include visiometry (visual acuity assessment), tonometry, refractometry, computer-based eye examination, fundus assessment, and biomicroscopy. Such a comprehensive examination not only checks vision but also identifies hidden conditions and determines the most effective treatment approach.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How does computer-based eye testing differ from a standard chart test?",
+                                    "How does a computer-based vision check differ from a standard chart test?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "A standard eye chart test shows how well you see at distance or near. Computer-based eye testing and computer diagnostics provide precise digital data on refraction, corneal curvature, and other parameters. Such computer diagnostics help choose glasses or lenses more accurately and determine whether laser diagnostics or surgical treatment is suitable for you.",
+                                        text: "A chart test shows how well you see at distance or near. Computer-based vision checks and diagnostics provide precise digital data about refraction, corneal curvature, and other parameters. This helps prescribe glasses or lenses more accurately and assess whether laser diagnostics or surgical treatment may be appropriate.",
                                     },
                                 ],
                             },
@@ -814,47 +814,46 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Comprehensive eye examinations and computer diagnostics are painless and mostly non-contact. Sometimes eye drops are used to dilate the pupils — near vision temporarily worsens, but this is normal. Serious side effects are extremely rare, and contraindications are assessed by a doctor during the consultation. Eye examinations at our clinic meet European safety standards.",
+                                        text: "Comprehensive eye examinations and computer-based diagnostics are painless and predominantly non-contact. In some cases, pupil-dilating drops are used; near vision may temporarily worsen, which is a normal reaction. Serious adverse effects are extremely rare; contraindications are assessed by the physician during consultation. Vision checks at our clinic comply with European safety standards.",
+                                    },
+                                ],
+                            },
+                            {
+                                question: "How much does a vision check cost?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "The cost of a vision check depends on the scope of examination: basic testing, a comprehensive eye examination, or expanded computer-based diagnostics. Pricing is transparent—details can be clarified at reception or during online booking. From time to time, promotions may be available, and some screening checks or consultations may be provided under special offers.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How much does an eye examination cost? What is the price of eye diagnostics?",
+                                    "Can I start treatment immediately after eye diagnostics?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The cost of eye examinations and diagnostics depends on the scope of testing: basic eye check, comprehensive eye exam, or extended computer diagnostics. Prices are always transparent — you can confirm the details at the reception or during online booking. Discounts and promotions are available periodically, and certain screening tests or consultations may be provided free of charge as part of special offers.",
+                                        text: "Yes. After the examination and interpretation of results, you will receive recommendations and a treatment plan. If necessary, conservative treatment, correction with glasses or lenses, laser diagnostics before surgery, or surgical intervention may be proposed. During consultation, the physician explains the benefits and potential disadvantages of each option so that you can make an informed decision.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Can I receive treatment immediately after the eye diagnostics?",
+                                    "Where is it better to check vision: at an optician or at an ophthalmology clinic?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yes, after the doctor completes the examination and interprets the results, you will receive recommendations and a treatment plan. If necessary, conservative treatment, computer correction, laser diagnostics before surgery, or surgical intervention will be offered. The consultation includes clear explanations of the advantages and possible drawbacks of each method so you can make an informed decision.",
+                                        text: "If you simply need to update glasses, a basic visual acuity check can be performed at an optician. However, for full eye diagnostics, computer-based examination, fundus assessment, and treatment selection, it is safer to consult a specialised clinic. Our centre has all the necessary equipment for comprehensive diagnostics, and patient feedback confirms the quality of our services.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Where is it better to check my vision: at an optical store or an eye clinic?",
+                                    "Can everyone undergo a computer-based eye examination? Are there any contraindications?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "If you simply need to update your glasses, a basic visual acuity test can be done at an optical store. But for full eye diagnostics, computer-based testing, fundus examination, and treatment selection, it is safer to visit a specialized eye clinic. Our ophthalmology center has all the necessary equipment for comprehensive diagnostics, and patient reviews confirm the quality of service and examination.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Can everyone undergo computer-based eye diagnostics? Are there any contraindications?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Computer vision diagnostics are suitable for most patients: adults, teenagers, and people after surgery. The doctor will consider any accompanying conditions, pregnancy, medications, and potential contraindications for laser diagnostics or surgery. If limitations exist, the specialist will suggest alternative examination methods and safe treatments. That is why it is important not only to test your vision but also to receive a professional medical consultation.",
+                                        text: "Computer-based diagnostics are suitable for most patients: adults, adolescents, and individuals after surgery. The physician considers comorbidities, pregnancy, medications, and possible contraindications to laser diagnostics or surgery. If limitations exist, the specialist will propose alternative methods and safe treatment. Therefore, it is important not only to check vision, but also to receive professional consultation—including cases where myopia is suspected in a child.",
                                     },
                                 ],
                             },
@@ -880,7 +879,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "диагностика зрения",
-                        text: "В нашей клинике проверка зрения включает комплексное обследование, компьютерную диагностику зрения, лазерное обследование глаз и классические методы проверки зрения.",
+                        text: "В нашей клинике в Вильнюсе проверка зрения включает расширенное обследование, дополнительно компьютерную диагностику зрения, лазерное исследование глаз и традиционные методы оценки зрения.",
                         image: "/images/perevirka-zoru-hero.jpg",
                     },
                 },
@@ -889,8 +888,8 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         title: "Современное обследование зрения по стандартам ЕС",
                         text: [
-                            "Современное обследование зрения в нашей клинике проводится с использованием высокоточного цифрового оборудования, которое соответствует нормам и протоколам Европейского Союза. Такая компьютерная проверка зрения позволяет получить объективные данные о состоянии органов зрения, провести полную диагностику глаз и подобрать максимально эффективное лечение — как хирургическое, так и консервативное.",
-                            "Расшифровкой результатов занимается врач-офтальмолог высшей квалификационной категории. Во время консультации врача все выводы, противопоказания, возможные побочные эффекты и преимущества различных вариантов лечения объясняются в понятной форме, чтобы пациент чётко понимал диагноз, методы проверки зрения и какие способы коррекции будут лучшими именно в его случае.",
+                            "Современное обследование зрения в нашем центре выполняется на высокоточном цифровом оборудовании, которое соответствует требованиям и клиническим протоколам Европейского Союза. Такая компьютерная проверка зрения помогает получить объективные данные о состоянии зрительной системы, провести полную диагностику глаз и подобрать наиболее результативное лечение — как хирургическое, так и консервативное.",
+                            "Интерпретацией результатов занимается врач-офтальмолог высшей квалификационной категории. Во время консультации специалиста все выводы, ограничения, возможные побочные реакции и преимущества разных вариантов терапии объясняются доступно, чтобы пациент чётко понимал диагноз, методы проверки зрения и какие способы коррекции будут оптимальными именно в его случае.",
                         ],
                         image: "/images/perevirka-zoru-preview.jpg",
                         textUp: "5 млн",
@@ -911,16 +910,16 @@ export const servicesData: ServicesProps[] = [
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Полная диагностика зрения — это комплексное обследование, во время которого мы не только проверяем остроту зрения, но и подробно анализируем состояние всех структур глаза. Компьютерная диагностика зрения включает:",
+                                                text: "Полная диагностика зрения — это комплексное обследование, при котором мы не только проверяем остроту зрения, но и детально оцениваем состояние всех структур глаза. Компьютерная диагностика зрения включает:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Измерение параметров глаза на цифровых приборах. Такое компьютерное обследование позволяет оценить рефракцию, кривизну роговицы, длину глаза и другие ключевые показатели.",
-                                                    "Анализ медицинской документации. Врач тщательно изучает предыдущие осмотры и лечение, чтобы сравнить состояние зрения в динамике.",
-                                                    "Специальные диагностические тесты для каждого глаза отдельно и в комбинированном режиме. Такое комплексное обследование помогает выявить даже скрытые нарушения.",
-                                                    "Микроскопический осмотр анатомических структур глаза. Используется сильное увеличение для детального исследования роговицы, хрусталика, радужки и других структур.",
+                                                    "Измерение параметров глаза на цифровых приборах. Такое компьютерное обследование позволяет оценить рефракцию, кривизну роговицы, длину глаза и другие важные показатели.",
+                                                    "Анализ медицинской документации. Врач внимательно изучает предыдущие осмотры и лечение, чтобы сравнить состояние зрения в динамике.",
+                                                    "Специализированные диагностические тесты для каждого глаза отдельно и в комбинированном режиме. Такое комплексное обследование помогает выявить даже скрытые нарушения.",
+                                                    "Микроскопический осмотр анатомических структур глаза. Используется выраженное увеличение для тщательного исследования роговицы, хрусталика, радужки и других структур.",
                                                 ],
                                             },
                                             {
@@ -940,11 +939,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Регулярная проверка зрения — это не просто способ проверить глаза, а важная часть профилактики многих заболеваний. Во время обследования офтальмолог может увидеть изменения в сосудах сетчатки, которые отражают состояние сердечно-сосудистой системы, выявить первые признаки диабета, гипертонии и других системных патологий. Поэтому периодическая диагностика глаз важна даже при отсутствии жалоб.",
+                                                text: "Регулярная проверка зрения — это не просто возможность проверить глаза, а важная часть профилактики многих заболеваний. Во время обследования офтальмолог может заметить изменения в сосудах сетчатки, которые отражают состояние сердечно-сосудистой системы, выявить ранние признаки диабета, гипертонии и других системных патологий. Поэтому периодическая диагностика глаз важна даже при отсутствии жалоб.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Многие нарушения развиваются скрытно, без симптомов, и только комплексная проверка зрения позволяет вовремя диагностировать патологию.",
+                                                text: "Многие нарушения развиваются незаметно, без симптомов, и только комплексная проверка зрения позволяет вовремя диагностировать патологию.",
                                             },
                                         ],
                                     },
@@ -982,8 +981,8 @@ export const servicesData: ServicesProps[] = [
                             {
                                 itemTitle: "Компьютерная диагностика зрения",
                                 itemText: [
-                                    "Собственно обследование проводится на новейших приборах и включает комплексное обследование зрения: измерение внутриглазного давления, анализ роговицы, рефракции и состояния глазного дна. Продолжительность полного обследования в среднем составляет 2–2,5 часа. Одним из ключевых этапов является проверка остроты зрения по таблицам, что позволяет точно подобрать оптику.",
-                                    "При необходимости врач использует капли для расширения зрачков, чтобы детально проверить глазное дно и исключить скрытые заболевания. Такая комплексная проверка зрения и лазерное обследование глаз с помощью современных систем визуализации обеспечивает максимальную точность диагностики.",
+                                    "Само обследование проводится на новейших приборах и включает комплексное обследование зрения: измерение внутриглазного давления, анализ роговицы, рефракции и состояния глазного дна. Продолжительность полного обследования в среднем составляет 2–2,5 часа. Одним из ключевых этапов является проверка остроты зрения по таблицам, что позволяет точно подобрать оптику.",
+                                    "При необходимости врач использует капли для расширения зрачков, чтобы детально проверить глазное дно и исключить скрытые заболевания. Такая комплексная проверка зрения и лазерное обследование глаз с применением современных систем визуализации обеспечивает максимальную точность диагностики.",
                                 ],
                             },
                             {
@@ -1054,15 +1053,15 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         title: "Преимущества компьютерного обследования глаз",
-                        text: "В нашей офтальмологической клинике в Киеве диагностика проводится с применением передовых технологий и оборудования, сертифицированного по стандартам ЕС.",
+                        text: "В нашей офтальмологической клинике в Вильнюсе диагностика проводится с применением передовых технологий и оборудования, сертифицированного по стандартам ЕС.",
                         list: [
                             {
                                 title: "точный диагноз",
-                                text: "Цифровые методы минимизируют ошибки и позволяют определить все ключевые параметры глаза.",
+                                text: "Цифровые методы минимизируют вероятность ошибок и позволяют определить все ключевые параметры глаза.",
                             },
                             {
                                 title: "комплексный подход",
-                                text: "Компьютерная проверка зрения сочетает в себе классические тесты и, при необходимости, лазерное обследование глаз.",
+                                text: "Компьютерная проверка зрения объединяет классические тесты и, при необходимости, лазерное обследование глаз.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
@@ -1075,7 +1074,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цены на консультацию и диагностику зрения в Киеве",
+                        title: "Цены на консультацию и диагностику зрения в Вильнюсе",
                     },
                 },
                 { type: "giftCTA" },
@@ -1121,7 +1120,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Комплексное обследование глаз и компьютерная диагностика проводятся безболезненно и преимущественно бесконтактно. Иногда используются капли для расширения зрачков — временно ухудшается зрение вблизи, но это нормальная реакция. Серьёзные побочные эффекты крайне редки, противопоказания оценивает врач на консультации. Проверка зрения в нашей клинике соответствует европейским стандартам безопасности.",
+                                        text: "Комплексное обследование глаз и компьютерная диагностика проводятся безболезненно и преимущественно бесконтактно. Иногда применяются капли для расширения зрачков — временно ухудшается зрение вблизи, но это нормальная реакция. Серьёзные побочные эффекты крайне редки, противопоказания оценивает врач на консультации. Проверка зрения в нашей клинике соответствует европейским стандартам безопасности.",
                                     },
                                 ],
                             },
@@ -1141,7 +1140,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Да, после завершения обследования и расшифровки результатов вы получите рекомендации и план лечения. При необходимости будет предложено консервативное лечение, компьютерная коррекция, лазерная диагностика перед операцией или хирургическое вмешательство. На консультации врач объяснит преимущества и возможные недостатки каждого метода, чтобы вы могли принять осознанное решение.",
+                                        text: "Да, после завершения обследования и интерпретации результатов вы получите рекомендации и план лечения. При необходимости будет предложено консервативное лечение, компьютерная коррекция, лазерная диагностика перед операцией или хирургическое вмешательство. На консультации врач объяснит преимущества и возможные недостатки каждого метода, чтобы вы могли принять осознанное решение.",
                                     },
                                 ],
                             },
