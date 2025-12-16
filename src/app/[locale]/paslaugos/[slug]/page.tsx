@@ -6,7 +6,7 @@ import { servicesList, ServicesListProps } from "@/components/assets/menu";
 import { servicesData } from "@/components/assets/servicesData";
 import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
-import { FeedbackSection } from "@/components/shared/feedbackSection.tsx/FeedbackSection";
+import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSection";
 import { FAQService } from "@/components/someServiceComponents/faqSection/FAQService";
 import { HeroSomeService } from "@/components/someServiceComponents/HeroSomeService";
 import { ServicePageContent } from "@/components/someServiceComponents/ServicePage";

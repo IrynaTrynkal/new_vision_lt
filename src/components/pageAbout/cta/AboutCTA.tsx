@@ -45,11 +45,11 @@ export const AboutCTA = ({ data }: { data?: GreenCardType }) => {
                     <div
                         className={`prepc:absolute prepc:text-left prepc:top-8 prepc:left-8 prepc:mb-0 tab:mb-5 mb-10 ${data?.bigText ? "tab:hidden prepc:block" : ""}`}
                     >
-                        <p className="text-ivory mb-2 leading-[18px] font-medium uppercase">
-                            {t("ctaWorkHours")}
-                        </p>
-                        <p className="text-ivory text-sm leading-4 font-medium uppercase">
+                        <p className="text-ivory mb-2 text-sm leading-4 font-medium uppercase">
                             {t("ctaRest")}
+                        </p>
+                        <p className="text-ivory leading-[18px] font-medium uppercase">
+                            {t("ctaWorkHours")}
                         </p>
                     </div>
                     <BookingOnlineForm cta />

@@ -9,8 +9,12 @@ export const GreenSliderSection = ({
 }: {
     data: GreenSliderSectionProps;
 }) => {
+    const { paddingTop = false, paddingBottom = false } = data;
+
     return (
-        <section className="green-gradient content relative py-10">
+        <section
+            className={`green-gradient content relative py-10 ${paddingTop ? "tab:mt-12 pc:mt-30 mt-[60px]" : ""} ${paddingBottom ? "tab:mb-12 pc:mb-30 mb-[60px]" : ""}`}
+        >
             <div className="absolute inset-0 flex items-center justify-center">
                 <IconVision className="h-[calc(100%-170px)] w-auto" />
             </div>

@@ -13,7 +13,7 @@ import { StickySection } from "@/components/pageAbout/stickySection/StickySectio
 import { Team } from "@/components/pageAbout/team/Team";
 import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
-import { FeedbackSection } from "@/components/shared/feedbackSection.tsx/FeedbackSection";
+import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSection";
 import { sanityFetch } from "@/sanity/lib/client";
 import { blogsListQuery, doctorsOrderQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
