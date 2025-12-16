@@ -12,7 +12,11 @@ import { News } from "@/components/main/news/News";
 import { Services } from "@/components/main/services/Services";
 import { Booking } from "@/components/shared/booking/Booking";
 import { sanityFetch } from "@/sanity/lib/client";
-import { blogsListQuery, doctorsOrderQuery } from "@/sanity/lib/queries";
+import {
+    blogsListQuery,
+    doctorsOrderQuery,
+    feedbacksQuery,
+} from "@/sanity/lib/queries";
 
 export default async function Home({
     params,
@@ -21,7 +25,7 @@ export default async function Home({
 }) {
     const { locale } = await params;
 
-    const [blogList, doctorsList] = await Promise.all([
+    const [blogList, doctorsList, feedbacksList] = await Promise.all([
         sanityFetch({
             query: blogsListQuery,
             params: { language: locale },
@@ -31,6 +35,11 @@ export default async function Home({
             query: doctorsOrderQuery,
             params: { language: locale },
             tags: ["doctor", "orderDoctors"],
+        }),
+        sanityFetch({
+            query: feedbacksQuery,
+            params: { language: locale },
+            tags: ["feedback"],
         }),
     ]);
     return (
@@ -43,7 +52,7 @@ export default async function Home({
             <Approach />
             <AboutMain />
             <Doctors doctors={doctorsList} />
-            <Feedbacks />
+            {feedbacksList && <Feedbacks feedbacks={feedbacksList} />}
             <News blogList={blogList} />
             <FAQ faqList={faqMainList} />
             <Booking />

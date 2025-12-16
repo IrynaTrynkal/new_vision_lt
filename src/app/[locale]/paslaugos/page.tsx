@@ -5,7 +5,7 @@ import { AllServicesMain } from "@/components/pageServices/Main/AllServicesMain"
 import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { sanityFetch } from "@/sanity/lib/client";
-import { doctorsOrderQuery } from "@/sanity/lib/queries";
+import { doctorsOrderQuery, feedbacksQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 import { generatePageMetadata } from "@/utils/generatePageMetadata";
 
@@ -30,11 +30,18 @@ export default async function ServicesPage({
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
-    const doctorsList = await sanityFetch({
-        query: doctorsOrderQuery,
-        params: { language: locale },
-        tags: ["doctor", "orderDoctors"],
-    });
+    const [doctorsList, feedbacksList] = await Promise.all([
+        sanityFetch({
+            query: doctorsOrderQuery,
+            params: { language: locale },
+            tags: ["doctor", "orderDoctors"],
+        }),
+        sanityFetch({
+            query: feedbacksQuery,
+            params: { language: locale },
+            tags: ["feedback"],
+        }),
+    ]);
     const breadcrumb = [{ name: "paslaugos", href: "/paslaugos" }];
 
     return (
@@ -43,7 +50,7 @@ export default async function ServicesPage({
             <Breadcrumbs className="mt-5" breadcrumbsList={breadcrumb} />
             <AllServicesMain />
             <Doctors doctors={doctorsList} />
-            <Feedbacks />
+            <Feedbacks feedbacks={feedbacksList} />
             <Booking />
         </>
     );

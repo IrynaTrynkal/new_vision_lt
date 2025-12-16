@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 
-import { FeedbackType } from "@/components/assets/feedbacksData";
 import { Fraction } from "@/components/shared/Fraction";
 import { LinkAction } from "@/components/shared/LinkAction";
 import { shuffleArray } from "@/utils/shuffleArray";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { FeedbacksSliderShared } from "./FeedbacksSliderShared";
 
 export const FeedbackSection = ({
@@ -13,7 +13,7 @@ export const FeedbackSection = ({
     slideAmount,
     className,
 }: {
-    list: FeedbackType[];
+    list: FeedbacksQueryResult;
     slideAmount: number;
     className?: string;
 }) => {
@@ -72,11 +72,13 @@ export const FeedbackSection = ({
                 <h3 className="subtitle prepc:block prepc:mb-16 pc:mb-[104px] pc:w-[321px] hidden">
                     {t("feedbacksSubtitle")}
                 </h3>
-                <FeedbacksSliderShared
-                    className="prepc:mb-0"
-                    list={feedbacksToShow}
-                    slideAmount={slideAmount}
-                />
+                {feedbacksToShow && (
+                    <FeedbacksSliderShared
+                        className="prepc:mb-0"
+                        list={feedbacksToShow}
+                        slideAmount={slideAmount}
+                    />
+                )}
             </div>
             <LinkAction
                 secondary

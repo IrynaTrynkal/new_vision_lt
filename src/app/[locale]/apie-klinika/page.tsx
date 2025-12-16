@@ -1,5 +1,4 @@
 import { faqMainList } from "@/components/assets/faqData";
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { Doctors } from "@/components/main/doctors/Doctors";
 import { FAQ } from "@/components/main/faq/FAQ";
 import { News } from "@/components/main/news/News";
@@ -15,7 +14,11 @@ import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSection";
 import { sanityFetch } from "@/sanity/lib/client";
-import { blogsListQuery, doctorsOrderQuery } from "@/sanity/lib/queries";
+import {
+    blogsListQuery,
+    doctorsOrderQuery,
+    feedbacksQuery,
+} from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 import { generatePageMetadata } from "@/utils/generatePageMetadata";
 
@@ -40,7 +43,7 @@ export default async function AboutPage({
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
-    const [blogList, doctorsList] = await Promise.all([
+    const [blogList, doctorsList, feedbacksList] = await Promise.all([
         sanityFetch({
             query: blogsListQuery,
             params: { language: locale },
@@ -50,6 +53,11 @@ export default async function AboutPage({
             query: doctorsOrderQuery,
             params: { language: locale },
             tags: ["doctor", "orderDoctors"],
+        }),
+        sanityFetch({
+            query: feedbacksQuery,
+            params: { language: locale },
+            tags: ["feedback"],
         }),
     ]);
     const FEEDBACKS_SLIDES_TO_SHOW = 4;
@@ -71,11 +79,13 @@ export default async function AboutPage({
             <Team />
             <Doctors doctors={doctorsList} />
             <AboutCTA />
-            <FeedbackSection
-                className="prepc:pb-[60px]"
-                list={feedbacksList}
-                slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
-            />
+            {feedbacksList && (
+                <FeedbackSection
+                    className="prepc:pb-[60px]"
+                    list={feedbacksList}
+                    slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
+                />
+            )}
             <News blogList={blogList} />
             <FAQ faqList={faqMainList} />
             <Booking />

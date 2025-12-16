@@ -239,6 +239,37 @@ export type PriceItem = {
     >;
 };
 
+export type Feedback = {
+    _id: string;
+    _type: "feedback";
+    _createdAt: string;
+    _updatedAt: string;
+    _rev: string;
+    name?: Array<
+        {
+            _key: string;
+        } & InternationalizedArrayStringValue
+    >;
+    service?: ServicesKey;
+    photo?: {
+        asset?: {
+            _ref: string;
+            _type: "reference";
+            _weak?: boolean;
+            [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+        };
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+    };
+    feedbackText?: Array<
+        {
+            _key: string;
+        } & InternationalizedArrayPortableTextValue
+    >;
+};
+
 export type OrderDoctors = {
     _id: string;
     _type: "orderDoctors";
@@ -562,6 +593,7 @@ export type AllSanitySchemaTypes =
     | DiscountFullData
     | DiscountShortData
     | PriceItem
+    | Feedback
     | OrderDoctors
     | Blog
     | Doctor
@@ -806,6 +838,25 @@ export type BlogMetaSlugsQueryResult = Array<string | null>;
 // Variable: doctorMetaSlugsQuery
 // Query: *[_type == "doctor" && !(_id in path("drafts.**"))].slug.current
 export type DoctorMetaSlugsQueryResult = Array<string | null>;
+// Variable: feedbacksQuery
+// Query: *[_type == "feedback" && !(_id in path("drafts.**"))]{"text": feedbackText[_key == $language][0].value,  "name": name[_key == $language][0].value,  "photo":photo,  service}
+export type FeedbacksQueryResult = Array<{
+    text: PortableText | null;
+    name: string | null;
+    photo: {
+        asset?: {
+            _ref: string;
+            _type: "reference";
+            _weak?: boolean;
+            [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+        };
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        _type: "image";
+    } | null;
+    service: ServicesKey | null;
+}>;
 
 // Query TypeMap
 import "@sanity/client";
@@ -823,5 +874,6 @@ declare module "@sanity/client" {
         '\n*[_type == "orderDoctors"][0].\n  doctors[]->{\n    _id,\n  "name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value\n  }': DoctorsOrderQueryResult;
         '\n      *[_type == "blog" && !(_id in path("drafts.**"))].slug.current\n': BlogMetaSlugsQueryResult;
         '\n      *[_type == "doctor" && !(_id in path("drafts.**"))].slug.current\n': DoctorMetaSlugsQueryResult;
+        '\n    *[_type == "feedback" && !(_id in path("drafts.**"))]{"text": feedbackText[_key == $language][0].value,\n  "name": name[_key == $language][0].value,\n  "photo":photo,\n  service}': FeedbacksQueryResult;
     }
 }

@@ -1,4 +1,3 @@
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import {
     raynerAdvantageDataMob,
     raynerAdvantageDataTab,
@@ -16,7 +15,7 @@ import { RaynerCompare } from "@/components/someServiceComponents/individualComp
 import { RaynerUniq } from "@/components/someServiceComponents/individualComponents/RaynerUniq";
 import { RaynerVideo } from "@/components/someServiceComponents/individualComponents/RaynerVideo";
 import { sanityFetch } from "@/sanity/lib/client";
-import { doctorsOrderQuery } from "@/sanity/lib/queries";
+import { doctorsOrderQuery, feedbacksQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 import { generatePageMetadata } from "@/utils/generatePageMetadata";
 
@@ -41,11 +40,25 @@ export default async function RaynerPage({
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
-    const doctorsList = await sanityFetch({
-        query: doctorsOrderQuery,
-        params: { language: locale },
-        tags: ["doctor", "orderDoctors"],
-    });
+
+    const [doctorsList, feedbacksList] = await Promise.all([
+        sanityFetch({
+            query: doctorsOrderQuery,
+            params: { language: locale },
+            tags: ["doctor", "orderDoctors"],
+        }),
+        sanityFetch({
+            query: feedbacksQuery,
+            params: { language: locale },
+            tags: ["feedback"],
+        }),
+    ]);
+    const feedbacksFiltered = feedbacksList.filter(
+        fb => fb.service === "lazerine-akiu-korekcija"
+    );
+    const showedFeedbacks =
+        feedbacksFiltered.length > 0 ? feedbacksFiltered : feedbacksList;
+
     const breadcrumb = [
         { name: "paslaugos", href: "/paslaugos" },
         { name: "rayner-galaxy", href: "/rayner-galaxy-lt" },
@@ -72,7 +85,9 @@ export default async function RaynerPage({
                 doctors={doctorsList}
                 className="tab:mt-12 pc:mt-[120px] mt-[60px]"
             />
-            <FeedbackSection list={feedbacksList} slideAmount={4} />
+            {showedFeedbacks?.length > 0 && (
+                <FeedbackSection list={showedFeedbacks} slideAmount={4} />
+            )}
             <Booking />
         </>
     );

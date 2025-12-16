@@ -1,8 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { useLocale } from "next-intl";
 
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { servicesList, ServicesListProps } from "@/components/assets/menu";
 import { servicesData } from "@/components/assets/servicesData";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -11,6 +9,8 @@ import { FeedbackSection } from "@/components/shared/feedbackSection/FeedbackSec
 import { FAQService } from "@/components/someServiceComponents/faqSection/FAQService";
 import { HeroSomeService } from "@/components/someServiceComponents/HeroSomeService";
 import { ServicePageContent } from "@/components/someServiceComponents/ServicePage";
+import { sanityFetch } from "@/sanity/lib/client";
+import { feedbacksQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 
 type Props = {
@@ -67,7 +67,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-export default function CataractPage() {
+export default async function CataractPage({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}) {
+    const { locale } = await params;
     const displayedService: ServicesListProps | undefined = servicesList.find(
         service => service.key === "kataraktos-operacija"
     );
@@ -83,10 +88,14 @@ export default function CataractPage() {
             href: "/paslaugos/kataraktos-operacija",
         },
     ];
+    const feedbacksList = await sanityFetch({
+        query: feedbacksQuery,
+        params: { language: locale },
+        tags: ["feedback"],
+    });
     const feedbackList = feedbacksList.filter(
         fb => fb.service === displayedService.key
     );
-    const locale = useLocale();
 
     const serviceData = servicesData.find(
         service => service.name.key === displayedService.key

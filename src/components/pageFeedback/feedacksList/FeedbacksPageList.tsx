@@ -1,6 +1,6 @@
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { Pagination } from "@/components/shared/Pagination";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { FeedbackPageCard } from "./FeedbackPageCard";
 
 const ITEMS_PER_PAGE = 7;
@@ -8,20 +8,24 @@ const ITEMS_PER_PAGE = 7;
 export const FeedbacksPageList = ({
     pageNumber = 1,
     selectedCategory,
+    list,
     className,
     idScrollTo,
 }: {
     pageNumber?: number;
     selectedCategory?: string;
+    list: FeedbacksQueryResult;
     className?: string;
     idScrollTo?: string;
 }) => {
     const filteredFeedbacksList =
         selectedCategory === "all"
-            ? feedbacksList
-            : feedbacksList.filter(item => item.service === selectedCategory);
+            ? list
+            : list.filter(item => item.service === selectedCategory);
 
-    const totalPages = Math.ceil(filteredFeedbacksList.length / ITEMS_PER_PAGE);
+    const totalPages = filteredFeedbacksList
+        ? Math.ceil(filteredFeedbacksList.length / ITEMS_PER_PAGE)
+        : 0;
 
     const startIndex = (pageNumber - 1) * ITEMS_PER_PAGE;
     const currentItems = filteredFeedbacksList.slice(

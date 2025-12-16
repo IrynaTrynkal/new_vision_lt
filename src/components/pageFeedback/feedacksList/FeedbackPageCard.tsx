@@ -1,18 +1,22 @@
 import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
-import { FeedbackType } from "@/components/assets/feedbacksData";
-import { LocaleType } from "@/types/LocaleType";
+import { PortableTextRenderer } from "@/sanity/components/PortableTextComponents";
+import { urlFor } from "@/sanity/lib/image";
+
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 
 export const FeedbackPageCard = ({
     feedback,
     isFirst,
 }: {
-    feedback: FeedbackType;
+    feedback: NonNullable<FeedbacksQueryResult>[number];
     isFirst?: boolean;
 }) => {
     const t = useTranslations("Menu");
-    const locale = useLocale();
+    const imageUrl = feedback?.photo
+        ? urlFor(feedback.photo).url()
+        : "/images/feedback-default.jpg";
     return (
         <div className="border-grey overflow-hidden rounded-sm border">
             <div className="tab:gap-3 flex w-full">
@@ -22,12 +26,8 @@ export const FeedbackPageCard = ({
                     }`}
                 >
                     <Image
-                        src={
-                            feedback.photo
-                                ? feedback.photo
-                                : "/images/feedback-default.jpg"
-                        }
-                        alt={feedback[locale as LocaleType].name}
+                        src={imageUrl}
+                        alt={feedback.name!}
                         width={330}
                         height={330}
                         className="h-full w-full object-cover object-center"
@@ -39,22 +39,22 @@ export const FeedbackPageCard = ({
                         <div className="tab:w-[35%] prepc:w-[25%]">
                             <div className="tab:h-0.5 tab:w-6 tab:mb-4 mb-1 h-[1px] w-2.5 bg-black" />
                             <p className="font-oswald text-grey tab:text-base text-sm leading-none uppercase">
-                                {t(feedback.service)}
+                                {t(feedback.service!)}
                             </p>
                         </div>
                         <p className="font-oswald tab:w-[63%] tab:text-2xl tab:leading-7 tab:min-h-[57px] tab:mb-5 text-lg leading-5 font-medium uppercase">
-                            {feedback[locale as LocaleType].name}
+                            {feedback.name!}
                         </p>
                     </div>
-                    <p className="tab:block tab:leading-5 prepc:text-lg prepc:leading-[22px] hidden text-base">
-                        {feedback[locale as LocaleType].text}
-                    </p>
+                    <div className="tab:block tab:leading-5 prepc:text-lg prepc:leading-[22px] hidden text-base">
+                        <PortableTextRenderer value={feedback.text} />
+                    </div>
                 </div>
             </div>
             <div className="tab:hidden px-2 py-3">
-                <p className="leading-5">
-                    {feedback[locale as LocaleType].text}
-                </p>
+                <div className="leading-5">
+                    <PortableTextRenderer value={feedback.text} />
+                </div>
             </div>
         </div>
     );

@@ -1,19 +1,26 @@
 import { useTranslations } from "next-intl";
 import { useMemo } from "react";
 
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { Fraction } from "@/components/shared/Fraction";
 import { LinkAction } from "@/components/shared/LinkAction";
 import { shuffleArray } from "@/utils/shuffleArray";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { FeedbacksSlider } from "./FeedbacksSlider";
 import { FeedbacksSliderTab } from "./FeedbacksSliderTab";
 
 const FEEDBACKS_SLIDES_TO_SHOW = 4;
 
-export const Feedbacks = () => {
+export const Feedbacks = ({
+    feedbacks,
+}: {
+    feedbacks: FeedbacksQueryResult;
+}) => {
     const t = useTranslations("HomePage");
-    const shuffledFeedbacks = useMemo(() => shuffleArray(feedbacksList), []);
+    const shuffledFeedbacks = useMemo(
+        () => shuffleArray(feedbacks),
+        [feedbacks]
+    );
     const feedbacksToShow = shuffledFeedbacks.slice(
         0,
         FEEDBACKS_SLIDES_TO_SHOW
@@ -59,15 +66,19 @@ export const Feedbacks = () => {
                     {t("feedbacksText")}
                 </p>
             </div>
-            <FeedbacksSlider
-                className="tab:hidden"
-                list={feedbacksToShow}
-                slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
-            />
-            <FeedbacksSliderTab
-                list={feedbacksToShow}
-                slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
-            />
+            {feedbacksToShow && (
+                <FeedbacksSlider
+                    className="tab:hidden"
+                    list={feedbacksToShow}
+                    slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
+                />
+            )}
+            {feedbacksToShow && (
+                <FeedbacksSliderTab
+                    list={feedbacksToShow}
+                    slideAmount={FEEDBACKS_SLIDES_TO_SHOW}
+                />
+            )}
             <LinkAction
                 secondary
                 className="tab:hidden pc:ml-auto pc:mr-0 mx-auto"

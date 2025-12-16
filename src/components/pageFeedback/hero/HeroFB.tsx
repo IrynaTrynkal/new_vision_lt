@@ -21,7 +21,7 @@ export const HeroFB = () => {
                                 {t("description")}
                             </p>
                             <a
-                                href="https://bn.tc/HkzlhtI"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="font-oswald text-ivory prepc:flex hover:bg-ivory active:bg-ivory hover:shadow-button tab:h-12 tab:w-[200px] ${className} hidden h-11 w-[288px] items-center justify-center rounded-sm border border-black bg-black font-medium uppercase transition-all duration-300 ease-in-out hover:scale-[0.99] hover:text-black active:translate-y-[2px] active:scale-[0.99] active:text-black active:shadow-none"
@@ -38,7 +38,7 @@ export const HeroFB = () => {
                         className="tab:w-[52%] tab:max-w-[298px] tab:mt-0 prepc:mt-[67px] relative z-0 -mt-2.5 h-auto w-[60%] max-w-[250px]"
                     />
                     <a
-                        href="https://bn.tc/HkzlhtI"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-oswald text-ivory hover:bg-ivory active:bg-ivory hover:shadow-button tab:h-12 prepc:hidden tab:left-auto tab:right-[8%] tab:translate-x-0 tab:w-[200px] ${className} absolute bottom-4 left-1/2 z-[1] flex h-11 w-[288px] -translate-x-1/2 items-center justify-center rounded-sm border border-black bg-black font-medium uppercase transition-all duration-300 ease-in-out hover:scale-[0.99] hover:text-black active:translate-y-[2px] active:scale-[0.99] active:text-black active:shadow-none"

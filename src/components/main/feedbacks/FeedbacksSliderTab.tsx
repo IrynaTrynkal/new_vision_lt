@@ -2,20 +2,20 @@
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 
-import { FeedbackType } from "@/components/assets/feedbacksData";
 import {
     NextButton,
     PrevButton,
     usePrevNextButtons,
 } from "@/components/shared/slider/CarouselButtons";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { FeedbackCard } from "./FeedbackCard";
 
 export const FeedbacksSliderTab = ({
     list,
     slideAmount,
 }: {
-    list: FeedbackType[];
+    list: FeedbacksQueryResult;
     slideAmount: number;
 }) => {
     const options: EmblaOptionsType = {
@@ -30,6 +30,7 @@ export const FeedbacksSliderTab = ({
         onPrevButtonClick,
         onNextButtonClick,
     } = usePrevNextButtons(emblaApi);
+    if (!list || list.length === 0) return null;
 
     const feedbacksToShow = list.slice(0, slideAmount);
 
@@ -39,7 +40,7 @@ export const FeedbacksSliderTab = ({
                 <div className="flex">
                     {feedbacksToShow.map(feedback => (
                         <div
-                            key={feedback.en.name}
+                            key={feedback.name}
                             className="embla__slide tab:flex-[0_0_660px] tab:pr-3 pc:pr-5 w-full flex-[0_0_240px] pr-[14px]"
                         >
                             <FeedbackCard feedback={feedback} />

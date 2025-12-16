@@ -1,9 +1,10 @@
-import { feedbacksList } from "@/components/assets/feedbacksData";
 import { FeedbacksPageList } from "@/components/pageFeedback/feedacksList/FeedbacksPageList";
 import { HeroFB } from "@/components/pageFeedback/hero/HeroFB";
 import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { TopicFilter } from "@/components/shared/TopicFilter";
+import { sanityFetch } from "@/sanity/lib/client";
+import { feedbacksQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
 import { generatePageMetadata } from "@/utils/generatePageMetadata";
 
@@ -23,14 +24,22 @@ export async function generateMetadata({
 }
 
 export default async function ReviewsPage({
+    params,
     searchParams,
 }: {
+    params: Promise<{ locale: string }>;
     searchParams?: Promise<{ page?: string; category?: string }>;
 }) {
+    const { locale } = await params;
     const { page, category } = (await searchParams) || {};
     const pageNumber = page ? parseInt(page) : 1;
     const selectedCategory = category || "all";
     const breadcrumb = [{ name: "atsiliepimai", href: "/atsiliepimai" }];
+    const feedbacksList = await sanityFetch({
+        query: feedbacksQuery,
+        params: { language: locale },
+        tags: ["feedback"],
+    });
 
     return (
         <>
@@ -52,6 +61,7 @@ export default async function ReviewsPage({
                 <FeedbacksPageList
                     idScrollTo="#feedbacks-list"
                     pageNumber={pageNumber}
+                    list={feedbacksList}
                     selectedCategory={selectedCategory}
                     className="prepc:w-[calc(100%-227px)]"
                 />

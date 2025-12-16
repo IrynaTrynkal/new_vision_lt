@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import { FeedbackType } from "@/components/assets/feedbacksData";
 import { IconArrow } from "@/components/shared/icons/IconArrow";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { FeedbackCard } from "./FeedbackCard";
 
 const OFFSET_Y = 40;
@@ -14,7 +14,7 @@ export const FeedbacksSlider = ({
     slideAmount,
     className,
 }: {
-    list: FeedbackType[];
+    list: FeedbacksQueryResult;
     slideAmount: number;
     className?: string;
 }) => {
@@ -43,7 +43,7 @@ export const FeedbacksSlider = ({
             >
                 {getStackedFeedbacks().map((feedback, index) => (
                     <motion.div
-                        key={feedback.en.name}
+                        key={feedback.name}
                         className="bg-ivory absolute right-0 left-0 transition-all duration-500"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{
