@@ -1,7 +1,7 @@
 {
     "HomePage": {
-        "titleSEO": "NAUJAS REGĖJIMAS",
-        "descriptionSEO": "NAUJAS REGĖJIMAS",
+        "titleSEO": "Akių klinika Vilniuje. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Oftalmologo konsultacija – patikėkite savo regėjimą profesionalams. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Oftalmologijos centras – pasinaudokite akcijomis akių gydymui Vilniuje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "NAUJAS REGĖJIMAS",
         "description": "Lazerinė regos korekcija, astigmatizmo ir kataraktos gydymas – tai saugi ir moderni akių chirurgija, kurią atlieka patyrę oftalmologai, besispecializuojantys regos atkūrime.",
         "slogan": "Regos korekcija lazeriu ir astigmatizmo bei kataraktos gydymas – mūsų užduotis, kurią mes vykdome profesionaliai, efektyviai ir saugiai.",
@@ -14,7 +14,8 @@
         "modeDay": "Pr–Še \n9:00 – 18:00",
         "modeRest": "",
         "policy": "Privatumo politika",
-        "license": "Ліцензія",
+        "license": "licencija",
+        "cookiePolicy": "Cookie politika (ES)",
         "german": "німецький корпус",
         "heroTitle": "NAUJAS REGĖJIMAS",
         "adress": "Vilnius, \nSavičiaus g. 3A",
