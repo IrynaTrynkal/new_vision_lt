@@ -16,7 +16,7 @@ export const toIconComponentName = (key: string) => {
             return IconDityacheViddilennya;
         case "keratokonuso-gydymas":
             return IconLikuvannyaKeratokonusa;
-        case "lazerne-likuvannya-zahvoryuvan-oka":
+        case "lazerinis-akiu-ligu-gydymas":
             return IconLazerneLikuvannyaZahvoryuvanOka;
         case "skaidraus-lesio-operacija":
             return IconRefrakczijnaLensektomiya;

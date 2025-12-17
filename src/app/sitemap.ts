@@ -161,7 +161,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
         },
         {
-            url: `${baseUrl}/paslaugos/lazerne-likuvannya-zahvoryuvan-oka`,
+            url: `${baseUrl}/paslaugos/lazerinis-akiu-ligu-gydymas`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.8,

@@ -16,6 +16,9 @@ export type ServicesKeyType =
     | "kataraktos-operacija"
     | "vaiku-akiu-patikra"
     | "skaidraus-lesio-operacija"
+    | "lazerinis-akiu-ligu-gydymas"
+    | "glaukomos-gydymas"
+    | "syndrom-sukhoho-oka"
     | "all";
 
 export type ServicesListProps = {
@@ -27,15 +30,6 @@ export type ServicesListProps = {
 
 export const servicesList: ServicesListProps[] = [
     {
-        key: "lazerine-akiu-korekcija",
-        image: "lazerna-korekcziya-zoru.jpg",
-        slug: {
-            lt: "lazerine-akiu-korekcija",
-            en: "laser-eye-surgery",
-            ru: "lazernaya-korrekciya-zreniya",
-        },
-    },
-    {
         key: "akiu-patikrinimas",
         image: "perevirka-zoru.jpg",
         slug: {
@@ -45,12 +39,31 @@ export const servicesList: ServicesListProps[] = [
         },
     },
     {
+        key: "lazerine-akiu-korekcija",
+        image: "lazerna-korekcziya-zoru.jpg",
+        slug: {
+            lt: "lazerine-akiu-korekcija",
+            en: "laser-eye-surgery",
+            ru: "lazernaya-korrekciya-zreniya",
+        },
+    },
+
+    {
         key: "kataraktos-operacija",
         image: "likuvannya-katarakti.jpg",
         slug: {
             lt: "kataraktos-operacija",
             en: "cataract-surgery",
             ru: "udaleniye-katarakty",
+        },
+    },
+    {
+        key: "syndrom-sukhoho-oka",
+        image: "syndrom-sukhoho-oka.jpg",
+        slug: {
+            lt: "syndrom-sukhoho-oka",
+            en: "dry-eye-syndrome",
+            ru: "lechenie-sindroma-suhogo-glaza",
         },
     },
     {
@@ -62,15 +75,15 @@ export const servicesList: ServicesListProps[] = [
             ru: "detskoye-otdeleniye",
         },
     },
-    // {
-    //     key: "lazerne-likuvannya-zahvoryuvan-oka",
-    //     icon: true,
-    //     slug: {
-    //         lt: "lazerne-likuvannya-zahvoryuvan-oka",
-    //         en: "laser-treatment-of-eye-diseases",
-    //         ru: "lazernoye-lecheniye-zabolevaniy-glaza",
-    //     },
-    // },
+    {
+        key: "lazerinis-akiu-ligu-gydymas",
+        icon: true,
+        slug: {
+            lt: "lazerinis-akiu-ligu-gydymas",
+            en: "laser-treatment-of-eye-diseases",
+            ru: "lazernoye-lecheniye-zabolevaniy-glaza",
+        },
+    },
     {
         key: "skaidraus-lesio-operacija",
         icon: true,
@@ -80,6 +93,7 @@ export const servicesList: ServicesListProps[] = [
             ru: "khirurgiia-prozrachnogo-khrustalika",
         },
     },
+
     // {
     //     key: "vitreoretinalna-hirurgiya",
     //     icon: true,
@@ -98,15 +112,15 @@ export const servicesList: ServicesListProps[] = [
     //         ru: "intravitrealnyye-inyektsii",
     //     },
     // },
-    // {
-    //     key: "hirurgichne-likuvannya-glaukomi",
-    //     icon: true,
-    //     slug: {
-    //         lt: "hirurgichne-likuvannya-glaukomi",
-    //         en: "surgical-glaucoma-treatment",
-    //         ru: "khirurgicheskoye-lecheniye-glaukomy",
-    //     },
-    // },
+    {
+        key: "glaukomos-gydymas",
+        icon: true,
+        slug: {
+            lt: "glaukomos-gydymas",
+            en: "surgical-glaucoma-treatment",
+            ru: "khirurgicheskoye-lecheniye-glaukomy",
+        },
+    },
     // {
     //     key: "likuvannya-kosookosti",
     //     icon: true,
@@ -240,8 +254,8 @@ export const serviceSlugs = {
         en: "intravitreal-injections",
         ru: "intravitrealnyye-inyektsii",
     },
-    "lazerne-likuvannya-zahvoryuvan-oka": {
-        lt: "lazerne-likuvannya-zahvoryuvan-oka",
+    "lazerinis-akiu-ligu-gydymas": {
+        lt: "lazerinis-akiu-ligu-gydymas",
         en: "laser-treatment-of-eye-diseases",
         ru: "lazernoye-lecheniye-zabolevaniy-glaza",
     },
