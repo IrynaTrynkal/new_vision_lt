@@ -258,9 +258,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Комп'ютерна діагностика зору в Києві - Перевірка зору (обстеження очей) | EYES ",
+                            "Akių tikrinimas (akių patikra) – regėjimo patikrinimas Vilniuje, kompiuterinė regos diagnostika | Naujas Regėjimas",
                         descriptionSEO:
-                            "➔ Комплексне обстеження очей (перевірити зір) - Британський офтальмологічний центр 🇺🇦🇬🇧 в Києві. Кмп'ютерна перевірка зору (повна діагностика очей) -  довірте професіоналам! ➡️ Сучасна комп'ютерна діагностика 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "Pasitikrinkite regėjimą Vilniuje – regos sutrikimų nustatymas su modernia diagnostika. ✅ Kompiuterinė akių patikra suaugusiems už palankią kainą. 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -566,9 +566,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Computer Vision Diagnostics in Kyiv – Eye Examination (check your vision) | EYES",
+                            "Computerized Vision Diagnostics in Vilnius. Eye Examination and Diagnostics | Vision Testing Center – New Vision Clinic",
                         descriptionSEO:
-                            "➔ Comprehensive eye examination (check your vision) – British Ophthalmology Center 🇺🇦🇬🇧 in Kyiv. Computerized vision test (full eye diagnostics) – trust the professionals! ➡️ Modern computer diagnostics 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Vision diagnostics center. Comprehensive eye examination at New Vision Clinic. ✅ Modern and complete vision diagnostics with effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -872,9 +872,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Компьютерная диагностика зрения в Киеве – Проверка зрения (обследование глаз) | EYES",
+                            "Компьютерная диагностика зрения в Вильнюсе. Обследование и диагностика глаз | Центр проверки зрения - Клиника Новое Зрение",
                         descriptionSEO:
-                            "➔ Комплексное обследование глаз (проверить зрение) – Британский офтальмологический центр 🇺🇦🇬🇧 в Киеве. Компьютерная проверка зрения (полная диагностика глаз) – доверьте профессионалам! ➡️ Современная компьютерная диагностика 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Центр диагностики зрения. Комплексное обследование глаз в клинике - Новое Зрение. ✅ Современная и полная диагностика зрения и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -1183,9 +1183,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Операція при катаракті. Видалення катаракти у Києві - Хірургічне лікування катаракти | EYES ",
+                            "Kataraktos operacija – kataraktos gydymas ir šalinimas lazeriu Vilniuje | Naujas Regėjimas",
                         descriptionSEO:
-                            "➔ Операція з видалення катаракти. Лікування катаракти у Києві «англійським водним потоком iQ-5 minutes». ✅ Ми лікуємо катаракту у складних випадках. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "Chirurginis kataraktos pašalinimas. Patikėkite kataraktos operaciją - Naujas Regėjimas klinikos profesionalams Vilniuje. ✅ Kataraktos šalinimas angliška vandens srove iQ – vos per 5 min. ✴️ Gydome sudėtingiausius atvejus.👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -1396,9 +1396,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Cataract surgery. Cataract removal in Kyiv – Surgical cataract treatment | EYES",
+                            "Cataract Removal in Vilnius. Cataract Surgery (Lens Replacement) | New Vision Clinic",
                         descriptionSEO:
-                            "➔ Cataract removal surgery. Cataract treatment in Kyiv using the “English water flow iQ-5 minutes” technique. ✅ We treat cataracts even in complex cases. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Entrust cataract removal surgery (clouding of the eye lens) to the professionals at New Vision Clinic in Vilnius. ✅ Cataract surgery using the British fluid-flow technology iQ-5 minutes. ✴️ We treat cataracts even in the most complex cases. ✅ Advanced diagnostics and effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -1619,9 +1619,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Операция при катаракте. Удаление катаракты в Киеве – Хирургическое лечение катаракты | EYES",
+                            "Удаление катаракты в Вильнюсе. Операция по удалению катаракты (замена хрусталика) | Клиника Новое Зрение",
                         descriptionSEO:
-                            "➔ Операция по удалению катаракты. Лечение катаракты в Киеве по методике «английский водный поток iQ-5 minutes». ✅ Мы лечим катаракту даже в сложных случаях. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безукоризненная репутация ☎️ 0 800 507 077",
+                            "Операцию по удалению катаракты (помутнение хрусталика глаза) доверьте профессионалам клиники - Новое Зрение в Вильнюсе. ✅ Хирургия катаракты английским водным потоком iQ-5 minutes. ✴️ Мы лечим катаракту в самых сложных случаях✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -1837,9 +1837,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лазерна корекція зору в Києві. Лазерне відновлення зору - Британський офтальмологічний центр | EYES ",
+                            "Lazerine akiu korekcija Vilnius - Akių korekcijos operacija kaina. Lazerine akiu klinika - Naujas Regėjimas",
                         descriptionSEO:
-                            "Лазерна корекції зору (відновлення зору лазером) - 🇺🇦🇬🇧 Британський офтальмологічний центр. ❤️ Відмінний результат за лічені хвилини. Корекція зору в Києві сучасними методами. ✴️ Ціна корекції зору у Києві 14950 грн. 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "✅ Naujosios regėjimo korekcijos lazeriu technologijos. Lazerinė oftalmologinė klinika - Naujas Regėjimas klinikoje.  Palanki regėjimo korekcijos operacijos kaina Vilniuje ✴️ naudojant iQ-LASIK Oxygen metodą 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -2143,9 +2143,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Laser Vision Correction in Kyiv. Laser Vision Restoration – British Ophthalmology Center | EYES",
+                            "Laser Vision Correction in Vilnius. Laser Vision Restoration | New Vision Clinic",
                         descriptionSEO:
-                            "Laser vision correction (laser vision restoration) – 🇺🇦🇬🇧 British Ophthalmology Center. ❤️ Excellent results in just minutes. Modern methods of vision correction in Kyiv. ✴️ Vision correction price in Kyiv — 14,950 UAH. 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Laser vision restoration — advanced laser vision correction technologies at New Vision Clinic. ✴️ iQ-LASIK Oxygen technique. ✅ Advanced diagnostics and effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -2440,9 +2440,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лазерная коррекция зрения в Киеве. Лазерное восстановление зрения – Британский офтальмологический центр | EYES",
+                            "Лазерная коррекция зрения в Вильнюсе. Восстановление зрения лазером | Клиника Новое Зрение",
                         descriptionSEO:
-                            "Лазерная коррекция зрения (восстановление зрения лазером) – 🇺🇦🇬🇧 Британский офтальмологический центр. ❤️ Отличный результат за считанные минуты. Современные методы коррекции зрения в Киеве. ✴️ Цена коррекции зрения в Киеве — 14 950 грн. 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Лазерное восстановление зрения - Новые технологии лазерной коррекции зрения в клинике Новое Зрение ✴️ Методика iQ-LASIK Oxygen. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -2739,9 +2739,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Офтальмологія дитяча в Києві. Перевірка зору у дітей (діагностика зору, окуліст для дітей) | EYES",
+                            "Vaikų oftalmologas Vilniuje – akių patikra ir regos patikrinimas vaikams su siuntimu | Naujas Regėjimas",
                         descriptionSEO:
-                            "Офтальмологічна дитяча клініка в Києві - 🇺🇦🇬🇧 Британський офтальмологічний центр. ✴️ Довірте зір вашої дитини професіоналам. ✅ Апаратне лікування очей для дітей ✅ Вигідна вартість на перевірку зору у дитини 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "Vaikų oftalmologijos klinika „Naujas Regėjimas“. 👁️‍🗨️ Akių patikra vaikams ir vaikų regos diagnostika Vilniuje. ✴️ Profilaktinė apžiūra, regėjimo patikrinimas ir konsultacija pas vaikų oftalmologą. ✅ Palanki regos tyrimų kaina. 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -3008,9 +3008,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Pediatric Ophthalmology in Kyiv. Children's Eye Examination (vision diagnostics, pediatric ophthalmologist) | EYES",
+                            "Eye Clinic for Children in Vilnius – Pediatric Ophthalmology Clinic (Child Vision Testing) | New Vision Clinic",
                         descriptionSEO:
-                            "Pediatric ophthalmology clinic in Kyiv – 🇺🇦🇬🇧 British Ophthalmology Center. ✴️ Trust your child's vision to professionals. ✅ Hardware-based eye treatment for children ✅ Affordable prices for children's eye exams 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Pediatric ophthalmology clinic (eye doctor for children). Pediatric ophthalmologist consultation at New Vision Clinic. ✅ Vision testing for children — advanced diagnostics and effective treatment. ✅ Affordable vision examination prices. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -3278,9 +3278,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Детская офтальмология в Киеве. Проверка зрения у детей (диагностика зрения, окулист для детей) | EYES",
+                            "Глазная клиника для детей в Вильнюсе - Детская офтальмологическая клиника (проверка зрения у ребенка) | Клиника Новое Зрение",
                         descriptionSEO:
-                            "Детская офтальмологическая клиника в Киеве – 🇺🇦🇬🇧 Британский офтальмологический центр. ✴️ Доверьте зрение вашего ребенка профессионалам. ✅ Аппаратное лечение глаз для детей ✅ Выгодная стоимость проверки зрения у ребенка 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Детская офтальмологическая клиника (окулист для детей). Консультация детского офтальмолога в клинике - Новое Зрение. ✅ Проверка зрения у детей - Современная диагностика и эффективное лечение. ✅ Выгодная стоимость обследования зрения 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -3550,9 +3550,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Рефракційна заміна кришталика ока (ленсектомія) в Києві. Рефракційна хірургія ока | EYES ",
+                            "Akies lęšiuko keitimas. Akių lęšių keitimo operacija - lęšiuko implantavimas | Naujas Regėjimas",
                         descriptionSEO:
-                            "➔ Рефракційна заміна кришталика ока (ленсектомія) в Києві. Операція заміни кришталика (рефракційна хірургія та офтальмологія) - 🇺🇦🇬🇧 Британський офтальмологічний центр. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "✴️ Skaidriojo lęšio operacija. Presbiopijos gydymas klinikoje - Naujas Regėjimas. ✅ Lęšiuko keitimo operacijas atlieka gydytojai ekspertai, turintys daugiau nei 50 000 sėkmingų operacijų patirtį.",
                     },
                 },
                 {
@@ -3899,9 +3899,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Refractive Lens Exchange (Lensectomy) in Kyiv. Refractive Eye Surgery | EYES",
+                            "Lens Replacement Surgery in Vilnius – Lens Replacement Operation Price (Refractive Lens Exchange) | New Vision Clinic",
                         descriptionSEO:
-                            "➔ Refractive Lens Exchange (Lensectomy) in Kyiv. Lens replacement surgery (refractive surgery & ophthalmology) - 🇺🇦🇬🇧 British Eye Center. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Clear lens surgery (refractive lens replacement). Presbyopia treatment using the BiVision — RLE method at New Vision Clinic. ✅ BiVision lens replacement surgeries in our clinic are performed by expert doctors with experience of over 50,000 successful procedures. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -4248,9 +4248,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Рефракционная замена хрусталика глаза (ленсэктомия) в Киеве. Рефракционная хирургия глаза | EYES",
+                            "Замена хрусталика глаза в Вильнюсе - Операция по замене хрусталика цена (Рефракционная Ленсэктомия) | Клиника Новое Зрение",
                         descriptionSEO:
-                            "➔ Рефракционная замена хрусталика глаза (ленсэктомия) в Киеве. Операция по замене хрусталика (рефракционная хирургия и офтальмология) - 🇺🇦🇬🇧 Британский офтальмологический центр. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Хирургия прозрачного хрусталика (рефракционная замена хрусталика глаза). Лечение пресбиопии методом BiVision — RLE в клинике Новое Зрение. ✅ Операции по замене хрусталика BiVision в нашей клинике проводят доктора-эксперты с опытом более 50 000 успешных операций. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
