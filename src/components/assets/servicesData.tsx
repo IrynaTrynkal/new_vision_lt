@@ -4662,7 +4662,7 @@ export const servicesData: ServicesProps[] = [
                                             },
                                         ],
                                         greenText:
-                                            "„Du viename“ sprendimas.** Geriname regėjimą ir kartu mažiname kataraktos riziką ateityje. Minimalus pjūvis, greitas atsistatymas, maksimalus komfortas.",
+                                            "„Du viename“ sprendimas. Geriname regėjimą ir kartu mažiname kataraktos riziką ateityje. Minimalus pjūvis, greitas atsistatymas, maksimalus komfortas.",
                                     },
                                 ],
                             },
@@ -5011,7 +5011,7 @@ export const servicesData: ServicesProps[] = [
                                             },
                                         ],
                                         greenText:
-                                            "A “two-in-one” solution.** We improve vision while simultaneously reducing the long-term risk of cataract. Minimal incision, fast recovery, maximum comfort.",
+                                            "A “two-in-one” solution. We improve vision while simultaneously reducing the long-term risk of cataract. Minimal incision, fast recovery, maximum comfort.",
                                     },
                                 ],
                             },
@@ -5360,7 +5360,7 @@ export const servicesData: ServicesProps[] = [
                                             },
                                         ],
                                         greenText:
-                                            "Решение «два в одном».** Мы улучшаем зрение и одновременно уменьшаем риск катаракты в перспективе. Минимальный разрез, быстрое восстановление, максимум комфорта.",
+                                            "Решение «два в одном». Мы улучшаем зрение и одновременно уменьшаем риск катаракты в перспективе. Минимальный разрез, быстрое восстановление, максимум комфорта.",
                                     },
                                 ],
                             },
