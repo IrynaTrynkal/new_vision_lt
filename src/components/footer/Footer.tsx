@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { LocaleType } from "@/types/LocaleType";
 import { getLocaleLogo } from "@/utils/getLocaleLogo";
 
-import { gogleMapLink } from "../assets/contacts";
+import { gogleMapLink, licenceLink } from "../assets/contacts";
 import { IconPin } from "../shared/icons/IconPin";
 import { PhoneNumberList } from "../shared/PhoneNumberList";
 import { SocialLinks } from "../shared/SocialLinks";
@@ -104,12 +104,12 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                 </a>
                 <div className="tab:flex tab:justify-between pc:justify-normal tab:items-center text-center">
                     <a
-                        href="https://klinika.ua/"
+                        href={licenceLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="prepc:text-base prepc:px-2.5 pc:mr-[45.5%] hover:bg-ivory tab:mx-0 tab:mb-0 mx-auto mb-6 block w-fit border px-3 py-2.5 text-sm font-medium uppercase transition-all duration-300 ease-in-out hover:text-black"
                     >
-                        {t("german")}
+                        {t("license")}
                     </a>
                     <div className="tab:flex-row prepc:w-[418px] tab:mb-0 tab:gap-12 mb-4 flex flex-col gap-3 text-sm leading-[18px]">
                         <Link
@@ -119,11 +119,10 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                             {t("policy")}
                         </Link>
                         <a
-                            href="/files/Британский_офтальмологический_центр.pdf"
-                            target="_blank"
+                            href="/politika-konfidenczijnosti"
                             className="transition-all duration-300 ease-in-out hover:underline"
                         >
-                            {t("license")}
+                            {t("cookiePolicy")}
                         </a>
                     </div>
                     <p className="pc:ml-auto pc:mr-0 text-sm leading-[18px]">
