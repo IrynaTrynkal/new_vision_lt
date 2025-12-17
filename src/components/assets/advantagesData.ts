@@ -121,30 +121,30 @@ export const advantagesList: AdvantageProps[] = [
 export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
-            title: "Команда професіоналів",
-            text: "Всі наші лікарі — висококваліфіковані фахівці. «Британський офтальмологічний центр» — постійно навчає своїх фахівців за кордоном.",
+            title: "Profesionalų komanda",
+            text: "Visi mūsų gydytojai – aukštos kvalifikacijos specialistai. Mūsų klinika Vilniuje (Lietuva) nuolat kelia gydytojų kompetenciją, įskaitant mokymus ir stažuotes užsienyje.",
         },
         ru: {
             title: "Команда профессионалов",
-            text: "Все наши врачи — высококвалифицированные специалисты. «Британский офтальмологический центр» постоянно обучает своих специалистов за рубежом.",
+            text: "Все наши врачи — высококвалифицированные специалисты. Наша клиника в Вильнюсе (Литва) постоянно повышает уровень подготовки врачей, включая обучение и стажировки за рубежом.",
         },
         en: {
-            title: "Team of Professionals",
-            text: "All our doctors are highly qualified specialists. The 'British Ophthalmology Center' continuously trains its specialists abroad.",
+            title: "A Team of Professionals",
+            text: "All our doctors are highly qualified specialists. Our clinic in Vilnius (Lithuania) continuously improves physicians’ training, including education and international fellowships.",
         },
     },
     {
         lt: {
-            title: "точний діагноз",
-            text: "Ви отримуєте повну об’єктивну інформацію про своє захворювання і про всі ефективні методи лікування. При цьому, лікар будує схему лікування з урахуванням ваших індивідуальних особливостей.",
+            title: "Tikslus diagnozės nustatymas",
+            text: "Jūs gaunate išsamią, objektyvią informaciją apie savo būklę ir veiksmingus gydymo metodus. Gydytojas sudaro terapijos planą, atsižvelgdamas į Jūsų individualias ypatybes.",
         },
         ru: {
             title: "Точный диагноз",
-            text: "Вы получаете полную объективную информацию о своём заболевании и обо всех эффективных методах лечения. При этом врач строит схему лечения с учётом ваших индивидуальных особенностей.",
+            text: "Вы получаете полную объективную информацию о своём заболевании и обо всех эффективных методах лечения. При этом врач формирует план терапии с учётом ваших индивидуальных особенностей.",
         },
         en: {
             title: "Accurate Diagnosis",
-            text: "You receive complete and objective information about your condition and all effective treatment methods. The doctor develops a treatment plan taking into account your individual characteristics.",
+            text: "You receive comprehensive, objective information about your condition and the effective treatment options available. The physician develops a treatment plan tailored to your individual needs.",
         },
     },
     {
@@ -163,64 +163,64 @@ export const advantagesAboutList: AdvantageProps[] = [
     },
     {
         lt: {
-            title: "сучасне обладнання",
-            text: "Вся техніка і матеріали, які використовують наші фахівці, мають європейські сертифікати і пройшли необхідну реєстрацію в Міністерстві охорони здоров’я України.",
+            title: "Šiuolaikinė įranga",
+            text: "Visa įranga ir medžiagos, kurias naudoja mūsų specialistai, turi Europos sertifikatus ir yra patvirtintos naudoti pagal Lietuvoje galiojančius reikalavimus.",
         },
         ru: {
             title: "Современное оборудование",
-            text: "Вся техника и материалы, которые используют наши специалисты, имеют европейские сертификаты и прошли необходимую регистрацию в Министерстве здравоохранения Украины.",
+            text: "Вся техника и материалы, которые используют наши специалисты, имеют европейские сертификаты и проходят необходимые процедуры допуска в соответствии с требованиями, действующими в Литве.",
         },
         en: {
             title: "Modern Equipment",
-            text: "All the equipment and materials used by our specialists have European certificates and have been duly registered with the Ministry of Health of Ukraine.",
+            text: "All equipment and materials used by our specialists are CE-certified and undergo the required approval procedures in accordance with the regulations in force in Lithuania.",
         },
     },
     {
         lt: {
-            title: "відкритість",
-            text: "Ми надаємо пацієнтові можливість контролю якості операції. Ми записуємо і архівуємо весь процес операції для об’єктивного медичного контролю. Також ведеться аудіо і відео запис бесіди лікаря і пацієнта при постановці діагнозу і консультуванні пацієнта.",
+            title: "Atvirumas",
+            text: "Suteikiame pacientui galimybę kontroliuoti operacijos kokybę. Visą intervencijos procesą įrašome ir archyvuojame objektyviai medicininei kontrolei. Taip pat vykdoma gydytojo ir paciento pokalbio garso ir vaizdo įrašymo praktika diagnozės nustatymo ir konsultavimo metu.",
         },
         ru: {
             title: "Открытость",
-            text: "Мы предоставляем пациенту возможность контролировать качество операции. Мы записываем и архивируем весь процесс операции для объективного медицинского контроля. Также ведётся аудио- и видеозапись беседы врача и пациента при постановке диагноза и консультировании.",
+            text: "Мы предоставляем пациенту возможность контролировать качество операции. Мы записываем и архивируем весь процесс вмешательства для объективного медицинского контроля. Также ведётся аудио- и видеозапись беседы врача и пациента при постановке диагноза и консультировании.",
         },
         en: {
             title: "Transparency",
-            text: "We provide patients with the opportunity to monitor the quality of their surgery. We record and archive the entire operation process for objective medical control. Audio and video recordings of the consultation and diagnosis discussion are also made.",
+            text: "We provide patients with the opportunity to monitor the quality of surgery. We record and archive the entire procedure for objective medical oversight. Audio and video recording of the doctor–patient conversation is also conducted during diagnosis and consultation.",
         },
     },
     {
         lt: {
-            title: "Бездоганна репутація",
-            text: "Перед операцією з пацієнтом підписується договір, в якому обумовлюються всі права пацієнта і аспекти лікування.",
+            title: "Nepriekaištinga reputacija",
+            text: "Prieš operaciją su pacientu pasirašoma sutartis, kurioje aptariamos visos paciento teisės ir gydymo aspektai.",
         },
         ru: {
             title: "Безупречная репутация",
             text: "Перед операцией с пациентом подписывается договор, в котором оговариваются все права пациента и аспекты лечения.",
         },
         en: {
-            title: "Impeccable Reputation",
-            text: "Before surgery, a contract is signed with the patient, specifying all patient rights and details of the treatment process.",
+            title: "An Impeccable Reputation",
+            text: "Before surgery, a contract is signed with the patient outlining all patient rights and key aspects of treatment.",
         },
     },
     {
         lt: {
-            title: "швидкість",
-            text: "Операції проходять амбулаторно (Вам не потрібно лягати в стаціонар), тривають лічені хвилини і абсолютно безболісні.",
+            title: "Greitis",
+            text: "Operacijos atliekamos ambulatoriškai (nereikia gulėti stacionare), paprastai trunka vos kelias minutes ir dažniausiai nesukelia skausmo.",
         },
         ru: {
             title: "Скорость",
             text: "Операции проводятся амбулаторно (вам не нужно ложиться в стационар), длятся считанные минуты и абсолютно безболезненны.",
         },
         en: {
-            title: "Efficiency",
-            text: "Surgeries are performed on an outpatient basis (no need for hospital stay), take just a few minutes, and are completely painless.",
+            title: "Speed",
+            text: "Procedures are performed on an outpatient basis (no inpatient stay required), take only a few minutes, and are typically painless.",
         },
     },
     {
         lt: {
-            title: "комфорт",
-            text: "Ми спостерігаємо кожного пацієнта після операції до повного одужання. У Вас є можливість у будь-який час зв’язатися з черговим лікарем.",
+            title: "Komfortas",
+            text: "Po operacijos stebime kiekvieną pacientą iki visiško pasveikimo. Jūs turite galimybę bet kuriuo metu susisiekti su budinčiu gydytoju.",
         },
         ru: {
             title: "Комфорт",
@@ -228,7 +228,7 @@ export const advantagesAboutList: AdvantageProps[] = [
         },
         en: {
             title: "Comfort",
-            text: "We monitor every patient after surgery until full recovery. You can contact the on-duty doctor at any time.",
+            text: "We follow every patient after surgery until full recovery. You can contact the on-call doctor at any time.",
         },
     },
 ];

@@ -1,11 +1,10 @@
-import { faqMainList } from "@/components/assets/faqData";
+import { faqAboutList } from "@/components/assets/faqData";
 import { Doctors } from "@/components/main/doctors/Doctors";
 import { FAQ } from "@/components/main/faq/FAQ";
 import { News } from "@/components/main/news/News";
 import { AboutSection } from "@/components/pageAbout/about/AboutSection";
 import { Advantages } from "@/components/pageAbout/advantages/Advantages";
 import { AboutCTA } from "@/components/pageAbout/cta/AboutCTA";
-import { GermanSection } from "@/components/pageAbout/german/GermanSection";
 import { HeroAbout } from "@/components/pageAbout/hero/HeroAbout";
 import { Methods } from "@/components/pageAbout/methods/Methods";
 import { StickySection } from "@/components/pageAbout/stickySection/StickySection";
@@ -73,7 +72,6 @@ export default async function AboutPage({
             />
             <AboutSection />
             <StickySection />
-            <GermanSection />
             <Advantages />
             <Methods />
             <Team />
@@ -87,7 +85,7 @@ export default async function AboutPage({
                 />
             )}
             <News blogList={blogList} />
-            <FAQ faqList={faqMainList} />
+            <FAQ faqList={faqAboutList} />
             <Booking />
         </>
     );

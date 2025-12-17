@@ -21,16 +21,16 @@ export const stickyList: StickyCardType[] = [
         ],
         data: {
             lt: {
-                title: "безпека",
-                text: "Ми регулярно проводимо знезараження приміщень, беремо проби на присутність бактерій і вірусів, здійснюємо заміну і профілактичні роботи систем очищення повітря і вживаємо багато інших заходів, щоб повністю виключити ризик і людський фактор при проведенні операцій і гарантувати збереження здоров’я наших пацієнтів.",
+                title: "saugumas",
+                text: "Reguliariai atliekame patalpų dezinfekciją, imame mėginius bakterijų ir virusų kontrolei, vykdome oro valymo sistemų keitimą bei profilaktinę priežiūrą ir taikome daug kitų priemonių, kad maksimaliai sumažintume rizikas bei žmogiškojo faktoriaus įtaką operacijų metu ir užtikrintume pacientų saugumą.",
             },
             en: {
                 title: "safety",
-                text: "We regularly disinfect our premises, test for the presence of bacteria and viruses, carry out maintenance and replacement of air purification systems, and take many other measures to completely eliminate risks and the human factor during surgeries, ensuring the health and safety of our patients.",
+                text: "We regularly disinfect our facilities, collect samples to monitor the presence of bacteria and viruses, replace and service air purification systems, and implement many other measures to minimize risks and reduce the impact of the human factor during surgical procedures, ensuring the safety of our patients.",
             },
             ru: {
                 title: "безопасность",
-                text: "Мы регулярно проводим дезинфекцию помещений, берём пробы на наличие бактерий и вирусов, выполняем замену и профилактические работы систем очистки воздуха и предпринимаем множество других мер, чтобы полностью исключить риск и человеческий фактор при проведении операций и гарантировать сохранность здоровья наших пациентов.",
+                text: "Мы регулярно проводим обеззараживание помещений, берём пробы на присутствие бактерий и вирусов, выполняем замену и профилактические работы систем очищения воздуха и применяем множество других мер, чтобы полностью исключить риск и человеческий фактор при проведении операций и гарантировать безопасность наших пациентов.",
             },
         },
     },
@@ -45,16 +45,16 @@ export const stickyList: StickyCardType[] = [
         ],
         data: {
             lt: {
-                title: "обладнання",
-                text: "У всіх наших клініках використовується передове обладнання з діагностики та проведення операцій. Рівень оснащеності нашого медичного центру є орієнтиром для провідних європейських центрів з лікування хвороб ока.",
+                title: "įranga",
+                text: "Visuose padaliniuose naudojamos pažangios diagnostikos ir chirurgijos technologijos. Mūsų medicinos centro Vilniuje (Lietuva) įrangos lygis yra orientyras daugeliui Europos akių ligų gydymo centrų. ",
             },
             en: {
                 title: "equipment",
-                text: "All our clinics are equipped with advanced diagnostic and surgical equipment. The level of our medical center’s facilities serves as a benchmark for leading European eye disease treatment centers.",
+                text: "All departments use advanced diagnostic and surgical technologies. The level of equipment at our medical center in Vilnius (Lithuania) serves as a benchmark for leading European eye disease treatment centers.",
             },
             ru: {
                 title: "оборудование",
-                text: "Во всех наших клиниках используется передовое оборудование для диагностики и проведения операций. Уровень оснащённости нашего медицинского центра является ориентиром для ведущих европейских центров по лечению заболеваний глаз.",
+                text: "Во всех подразделениях используются передовые технологии диагностики и хирургии. Уровень оснащённости нашего медицинского центра в Вильнюсе (Литва) является ориентиром для ведущих европейских центров лечения заболеваний глаза.",
             },
         },
     },
@@ -69,16 +69,16 @@ export const stickyList: StickyCardType[] = [
         ],
         data: {
             lt: {
-                title: "приміщення",
-                text: "Наші будівлі облаштовано відповідно до сучасних і вимогливих європейських норм, що регламентують роботу медичних установ. ",
+                title: "kambariai",
+                text: "Pastatai ir kabinetai įrengti pagal šiuolaikinius, griežtus Europos reikalavimus, reglamentuojančius medicinos įstaigų veiklą.",
             },
             en: {
                 title: "facilities",
-                text: "Our buildings are designed and equipped in accordance with modern and demanding European standards regulating the operation of medical institutions.",
+                text: "Our buildings and consultation rooms are arranged in accordance with modern, stringent European standards governing medical facilities.",
             },
             ru: {
                 title: "помещения",
-                text: "Наши здания оборудованы в соответствии с современными и строгими европейскими нормами, регламентирующими работу медицинских учреждений.",
+                text: "Наши здания и кабинеты обустроены в соответствии с современными и строгими европейскими нормами, регламентирующими работу медицинских учреждений.",
             },
         },
     },
