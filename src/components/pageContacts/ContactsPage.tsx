@@ -3,7 +3,6 @@ import { useTranslations } from "next-intl";
 import { gogleMapLink, LTemail } from "../assets/contacts";
 import { GreenText } from "../shared/GreenText";
 import { IconArrow } from "../shared/icons/IconArrow";
-import { IconInvalid } from "../shared/icons/IconInvalid";
 import { IconNoParking } from "../shared/icons/IconNoParking";
 import { PhoneNumberList } from "../shared/PhoneNumberList";
 
@@ -23,15 +22,12 @@ export const ContactsPage = () => {
                 <p className="prepc:text-lg prepc:mb-10 pc:mb-[60px] mb-5 max-w-[437px] leading-[120%]">
                     {t("text")}
                 </p>
-                <div className="tab:flex tab:flex-wrap pc:mb-[60px] prepc:mb-10 tab:gap-4 tab:justify-between max-w-[662px]">
+                <div className="tab:flex tab:mb-3 tab:flex-wrap pc:mb-[60px] prepc:mb-10 tab:gap-4 tab:justify-between max-w-[662px]">
                     <div className="prepc:w-[48%]">
                         <h3 className="font-oswald prepc:mb-4 text-grey mb-3 font-medium uppercase">
                             {t("call")}
                         </h3>
-                        <PhoneNumberList dark className="group mb-3" />
-                        <h3 className="font-oswald text-grey mb-2.5 text-xs leading-none font-medium uppercase">
-                            {t("hotLine")}
-                        </h3>
+                        <PhoneNumberList dark className="group tab:mb-0 mb-3" />
                     </div>
                     <div className="prepc:w-[48%] prepc:flex prepc:flex-col prepc:justify-between">
                         <div className="prepc:mb-0 mb-3">
@@ -49,11 +45,8 @@ export const ContactsPage = () => {
                             <h3 className="font-oswald text-grey mb-3 font-medium uppercase">
                                 {t("mode")}
                             </h3>
-                            <p className="mb-2 leading-[18px] font-medium uppercase">
+                            <p className="tab:mb-0 mb-2 leading-[18px] font-medium uppercase">
                                 {t("modeDay")}
-                            </p>
-                            <p className="prepc:text-base prepc:leading-none text-sm leading-[15px] font-medium uppercase">
-                                {t("modeRest")}
                             </p>
                         </div>
                     </div>
@@ -63,11 +56,8 @@ export const ContactsPage = () => {
                         <h3 className="font-oswald text-grey mb-3 font-medium uppercase">
                             {t("adress")}
                         </h3>
-                        <p className="mb-2 leading-[18px] font-medium uppercase">
+                        <p className="tab:mb-0 mb-2 leading-[18px] font-medium uppercase">
                             {t("adressMap")}
-                        </p>
-                        <p className="text-grey leading-[18px] font-medium">
-                            {t("adressDirection")}
                         </p>
                     </div>
                     <a
@@ -86,36 +76,21 @@ export const ContactsPage = () => {
                     </a>
                 </div>
                 <GreenText
-                    className="prepc:text-xl prepc:mb-12 pc:mb-[65px] mb-5 max-w-[662px] leading-[120%]"
+                    className="prepc:text-xl prepc:mb-12 pc:mb-[65px] mb-5 max-w-[662px] leading-[140%] whitespace-pre-line"
                     text={t("attention")}
                 />
-                <h3 className="font-oswald prepc:text-2xl prepc:mb-6 mb-3 text-lg leading-[120%] uppercase">
-                    {t("rules")}
-                </h3>
-                <div className="tab:flex-row tab:flex-wrap pc:gap-5 flex flex-col gap-3">
-                    <div className="border-grey prepc:w-[48%] pc:w-[321px] max-w-[321px] rounded-lg border p-3">
-                        <div className="prepc:flex-col prepc:items-start prepc:mb-[34px] mb-[22px] flex items-center gap-3">
-                            <div className="h-10 w-10">
-                                <IconInvalid />
-                            </div>
-                            <h4 className="font-oswald prepc:text-base text-sm leading-[120%] uppercase">
-                                {t("rulesAutoTitle")}
-                            </h4>
-                        </div>
-                        <p className="leading-5">{t("rulesAutoText")}</p>
-                    </div>
-                    <div className="border-grey prepc:w-[48%] pc:w-[321px] max-w-[321px] rounded-lg border p-3">
-                        <div className="prepc:flex-col prepc:items-start prepc:mb-[34px] mb-[22px] flex items-center gap-3">
-                            <div className="h-10 w-10">
-                                <IconNoParking />
-                            </div>
-                            <h4 className="font-oswald prepc:text-base text-sm leading-[120%] uppercase">
-                                {t("rulesParkingTitle")}
-                            </h4>
-                        </div>
 
-                        <p className="leading-5">{t("rulesParkingText")}</p>
+                <div className="border-grey rounded-lg border p-3">
+                    <div className="prepc:flex-col prepc:items-start prepc:mb-[34px] mb-[22px] flex items-center gap-3">
+                        <div className="h-10 w-10">
+                            <IconNoParking />
+                        </div>
+                        <h4 className="font-oswald prepc:text-base text-sm leading-[120%] uppercase">
+                            {t("rulesParkingTitle")}
+                        </h4>
                     </div>
+
+                    <p className="leading-5">{t("rulesParkingText")}</p>
                 </div>
             </div>
         </section>
