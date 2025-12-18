@@ -18,7 +18,7 @@ export type ServicesKeyType =
     | "skaidraus-lesio-operacija"
     | "lazerinis-akiu-ligu-gydymas"
     | "glaukomos-gydymas"
-    | "syndrom-sukhoho-oka"
+    | "dry-eye-syndrome-treatment"
     | "all";
 
 export type ServicesListProps = {
@@ -58,12 +58,12 @@ export const servicesList: ServicesListProps[] = [
         },
     },
     {
-        key: "syndrom-sukhoho-oka",
+        key: "dry-eye-syndrome-treatment",
         image: "syndrom-sukhoho-oka.jpg",
         slug: {
-            lt: "syndrom-sukhoho-oka",
-            en: "dry-eye-syndrome",
-            ru: "lechenie-sindroma-suhogo-glaza",
+            lt: "dry-eye-syndrome-treatment",
+            en: "dry-eye-syndrome-treatment",
+            ru: "dry-eye-syndrome-treatment",
         },
     },
     {
@@ -117,8 +117,8 @@ export const servicesList: ServicesListProps[] = [
         icon: true,
         slug: {
             lt: "glaukomos-gydymas",
-            en: "surgical-glaucoma-treatment",
-            ru: "khirurgicheskoye-lecheniye-glaukomy",
+            en: "glaukomos-gydymas",
+            ru: "glaukomos-gydymas",
         },
     },
     // {
@@ -224,8 +224,8 @@ export const serviceSlugs = {
         en: "cataract-surgery",
         ru: "udaleniye-katarakty",
     },
-    "syndrom-sukhoho-oka": {
-        lt: "syndrom-sukhoho-oka",
+    "dry-eye-syndrome-treatment": {
+        lt: "dry-eye-syndrome-treatment",
         en: "dry-eye-syndrome",
         ru: "lechenie-sindroma-suhogo-glaza",
     },
@@ -261,8 +261,8 @@ export const serviceSlugs = {
     },
     "glaukomos-gydymas": {
         lt: "glaukomos-gydymas",
-        en: "surgical-glaucoma-treatment",
-        ru: "khirurgicheskoye-lecheniye-glaukomy",
+        en: "glaukomos-gydymas",
+        ru: "glaukomos-gydymas",
     },
     "hirurgiya-povik-i-konyunktivi": {
         lt: "hirurgiya-povik-i-konyunktivi",
