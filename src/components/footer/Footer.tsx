@@ -113,17 +113,17 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                     </a>
                     <div className="tab:flex-row prepc:w-[418px] tab:mb-0 tab:gap-12 mb-4 flex flex-col gap-3 text-sm leading-[18px]">
                         <Link
-                            href="/politika-konfidenczijnosti"
+                            href="/privatumo-politika"
                             className="transition-all duration-300 ease-in-out hover:underline"
                         >
                             {t("policy")}
                         </Link>
-                        <a
-                            href="/politika-konfidenczijnosti"
+                        <Link
+                            href={"/cookie-policy-eu" as any}
                             className="transition-all duration-300 ease-in-out hover:underline"
                         >
                             {t("cookiePolicy")}
-                        </a>
+                        </Link>
                     </div>
                     <p className="pc:ml-auto pc:mr-0 text-sm leading-[18px]">
                         &copy; {t("title")}

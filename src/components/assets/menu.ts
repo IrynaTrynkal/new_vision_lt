@@ -5,7 +5,7 @@ export const menuList = [
     { key: "akcijos" },
     { key: "gydytojai" },
     { key: "apie-klinika" },
-    // { key: "informatsiya-dlya-patsiyentiv" },
+    { key: "informatsiya-dlya-patsiyentiv" },
     { key: "atsiliepimai" },
     { key: "kontaktai" },
 ];

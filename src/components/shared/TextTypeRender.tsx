@@ -7,7 +7,7 @@ export const TextTypeRender = ({ data }: { data: TextType[] }) => {
     const renderTextSegment = (text: string | TextSegment[]) => {
         if (typeof text === "string") return text;
         return text.map((segment, i) => {
-            const { value, bold, subtitle } = segment;
+            const { value, bold, subtitle, link } = segment;
             if (bold && subtitle) {
                 return (
                     <span
@@ -30,6 +30,19 @@ export const TextTypeRender = ({ data }: { data: TextType[] }) => {
                     <span key={i} className="font-oswald uppercase">
                         {value}
                     </span>
+                );
+            }
+            if (link) {
+                return (
+                    <a
+                        key={i}
+                        href={link}
+                        className="underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {value}
+                    </a>
                 );
             }
             return <span key={i}>{value}</span>;

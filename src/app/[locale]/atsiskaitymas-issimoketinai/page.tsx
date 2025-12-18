@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 
-import { policyData } from "@/components/assets/policyData";
+import { partPayData } from "@/components/assets/policyData";
+import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { TextTypeRender } from "@/components/shared/TextTypeRender";
 import { HeroInstruction } from "@/components/someInstructionComponents/HeroInstruction";
@@ -15,36 +16,37 @@ export async function generateMetadata({
     const resolvedParams = await params;
     const { locale } = resolvedParams;
 
-    return generatePageMetadata(locale as LocaleType, "PolicyPage", {
-        lt: "/politika-konfidenczijnosti",
-        en: "/en/privacy-policy",
-        ru: "/ru/privacy-policy",
+    return generatePageMetadata(locale as LocaleType, "PartPay", {
+        lt: "/atsiskaitymas-issimoketinai",
+        en: "/en/atsiskaitymas-issimoketinai",
+        ru: "/ru/atsiskaitymas-issimoketinai",
     });
 }
 
-export default function Policy() {
+export default function PartPayment() {
     const breadcrumb = [
         {
-            name: "politika-konfidenczijnosti",
-            href: "/politika-konfidenczijnosti",
+            name: "atsiskaitymas-issimoketinai",
+            href: "/atsiskaitymas-issimoketinai",
         },
     ];
     const locale = useLocale();
-    const t = useTranslations("PolicyPage");
+    const t = useTranslations("PartPay");
     return (
         <>
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}
-                className="prepc:mt-[104px] prepc:mb-12 mt-[72px] mb-6"
+                className="prepc:mt-[176px] prepc:mb-12 mt-30 mb-6"
             />
             <HeroInstruction title={t("title")} />
             <section className="tab:pb-12 tab:px-6 pc:px-12 pc:pb-[120px] pb-[60px]">
                 <div className="bg-green-10 tab:mx-0 tab:max-w-[1117px] prepc:w-[83%] prepc:p-6 prepc:rounded-lg mx-auto max-w-[540px] rounded p-4">
                     <TextTypeRender
-                        data={policyData[locale as LocaleType].content}
+                        data={partPayData[locale as LocaleType].content}
                     />
                 </div>
             </section>
+            <Booking />
         </>
     );
 }

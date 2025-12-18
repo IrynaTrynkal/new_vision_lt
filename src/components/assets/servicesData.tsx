@@ -199,6 +199,7 @@ export type ComponentContent = {
 
 export type TableContent = {
     type: "table";
+    lowrcaseHeaders?: boolean;
     gap?: boolean;
     headers: string[];
     rows: string[][];
@@ -214,6 +215,7 @@ export type TextType =
 export type TextSegment = {
     value: string;
     bold?: boolean;
+    link?: string;
     subtitle?: boolean;
 };
 
