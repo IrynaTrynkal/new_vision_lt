@@ -157,7 +157,9 @@
         "childrens-ophthalmologists": "Children’s Ophthalmologists",
         "doctors-anesthesiologists": "Doctors anesthesiologists",
         "ophthalmic-surgeons": "Ophthalmic surgeons",
-        "politika-konfidenczijnosti": "Privacy Policy"
+        "privatumo-politika": "Privacy Policy",
+        "atsiskaitymas-issimoketinai": "Payment in installments",
+        "cookie-policy-eu": "Cookie Policy (EU)"
     },
     "Modals": {
         "callUs": "Contact us",
@@ -436,5 +438,15 @@
         "title": "Oops! Page not found",
         "text": "This page does not exist or has been moved. We suggest returning home.",
         "btn": "go back to the homepage"
+    },
+    "PartPay": {
+        "titleSEO": "Apmokėjimas dalimis | Британський офтальмологічний центр",
+        "descriptionSEO": "➔ Apmokėjimas dalimis. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "title": "Payment in installments"
+    },
+    "CookiePage": {
+        "titleSEO": "Politika dėl slapukų | Британський офтальмологічний центр",
+        "descriptionSEO": "➔ Politika dėl slapukų. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "title": "Cookie Policy (EU)"
     }
 }

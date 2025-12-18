@@ -16,7 +16,7 @@ export async function generateMetadata({
     const { locale } = resolvedParams;
 
     return generatePageMetadata(locale as LocaleType, "PolicyPage", {
-        lt: "/politika-konfidenczijnosti",
+        lt: "/privatumo-politika",
         en: "/en/privacy-policy",
         ru: "/ru/privacy-policy",
     });
@@ -25,8 +25,8 @@ export async function generateMetadata({
 export default function Policy() {
     const breadcrumb = [
         {
-            name: "politika-konfidenczijnosti",
-            href: "/politika-konfidenczijnosti",
+            name: "privatumo-politika",
+            href: "/privatumo-politika",
         },
     ];
     const locale = useLocale();
@@ -35,7 +35,7 @@ export default function Policy() {
         <>
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}
-                className="prepc:mt-[104px] prepc:mb-12 mt-[72px] mb-6"
+                className="prepc:mt-[176px] prepc:mb-12 mt-30 mb-6"
             />
             <HeroInstruction title={t("title")} />
             <section className="tab:pb-12 tab:px-6 pc:px-12 pc:pb-[120px] pb-[60px]">

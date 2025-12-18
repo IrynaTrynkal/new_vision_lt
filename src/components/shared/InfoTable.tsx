@@ -31,7 +31,7 @@ export const InfoTable = ({ data }: { data: TableContent }) => {
                                 key={i}
                                 className={`border border-[#0B7556]/30 px-3 py-2 ${
                                     i === 0
-                                        ? "font-oswald text-left uppercase"
+                                        ? `font-oswald text-left ${data.lowrcaseHeaders ? "" : "uppercase"}`
                                         : "text-center"
                                 }`}
                             >

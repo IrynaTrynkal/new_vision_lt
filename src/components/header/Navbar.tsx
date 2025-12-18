@@ -31,7 +31,7 @@ const Navbar = () => {
         }
     }, [isHeaderMenuOpened]);
     return (
-        <nav className="prepc:h-[72px] prepc:gap-8 border-grey flex h-12 items-center justify-between gap-6 border-b">
+        <nav className="prepc:h-[72px] prepc:gap-3 border-grey flex h-12 items-center justify-between gap-6 border-b">
             <div className="prepc:gap-4 flex items-center justify-center">
                 <Logo />
                 <MenuPC className="prepc:flex hidden" />
