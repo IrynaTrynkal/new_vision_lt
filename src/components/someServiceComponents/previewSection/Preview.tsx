@@ -97,7 +97,7 @@ export const Preview = ({
                                         }
                                     />
                                 )}
-                                <div className="tab:flex-row tab:gap-6 tab:justify-end flex flex-col justify-center gap-2.5">
+                                <div className="tab:flex-row tab:gap-6 tab:justify-end mt-5 flex flex-col justify-center gap-2.5">
                                     {price ? (
                                         <LinkAction
                                             secondary

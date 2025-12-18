@@ -2732,7 +2732,7 @@ export const servicesData: ServicesProps[] = [
         },
     },
     {
-        name: servicesList.find(s => s.key === "syndrom-sukhoho-oka")!,
+        name: servicesList.find(s => s.key === "dry-eye-syndrome-treatment")!,
         lt: {
             textMain:
                 "Ми забезпечуємо ефективний та індивідуальний підхід до усунення неприємних симптомів, щоб повернути комфорт та здоров'я вашим очам.",
@@ -2748,54 +2748,50 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "лікування синдрому сухого ока",
-                        text: "Багаторічний досвід роботи наших фахівців і сучасне діагностичне обладнання дозволяють усунути прогресування та ускладнення хвороби.",
+                        title: "Sausų akių sindromo gydymas",
+                        text: "Gydytojų patirtis ir šiuolaikinė diagnostika padeda sustabdyti ligos progresavimą ir sugrąžinti komfortą dirbant prie ekranų bei kasdienėje veikloje.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/dry-eye2.jpg",
-                        title: "Синдром сухого ока: діагностика та лікування",
+                        title: "Sausų akių sindromas: diagnostika ir medikamentinis gydymas",
                         text: [
-                            "Синдром сухого ока — це стан, коли слізна плівка втрачає стабільність і вже не захищає рогівку належним чином. Звідси сухість, печіння, «пісок», почервоніння і коливання чіткості зору, особливо наприкінці дня. Причини різні: дисфункція мейбомієвих залоз, рідке або неповне моргання за екранами, вікові та гормональні зміни, сухе повітря. Без точної діагностики симптоми закріплюються, тому важливо визначити, який шар сльози порушений, і підібрати цілеспрямоване лікування.",
-                            "В нашій клініці діагностика синдрому сухого ока здійснюється за допомогою унікального сертифікованого обладнання IDRA, яке розроблене в Італії спеціально для точного визначення всіх аспектів цієї проблеми.",
+                            "Sausų akių sindromas (SAS) – tai būklė, kai ašarų plėvelė tampa nestabili ir prasčiau apsaugo akies paviršių. Dėl to gali atsirasti sausumas, deginimas, „smėlio“ pojūtis, paraudimas, greitas akių nuovargis ir regėjimo aiškumo svyravimai, ypač vakare. Priežastys gali būti įvairios: meibomo liaukų veiklos sutrikimas, retas / nepilnas mirksėjimas, amžiniai ir hormoniniai pokyčiai, sausas oras, ilgalaikis darbas kompiuteriu, gretutinės ligos bei kai kurių vaistų vartojimas. ",
+                            "Akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) SAS ištyrimas atliekamas naudojant modernią įrangą, įskaitant diagnostinę sistemą IDRA (Italija), kad būtų objektyviai įvertinta ašarų plėvelės ir vokų būklė bei sudarytas individualus terapijos planas. Be tikslios diagnostikos simptomai dažnai įsitvirtina, todėl svarbu nustatyti, kuris mechanizmas dominuoja (nepakankama ašarų gamyba, padidėjęs garavimas, akies paviršiaus uždegimas) – ir parinkti tikslingą konservatyvų, įskaitant medikamentinį, gydymą.",
                         ],
                     },
                 },
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Особливості діагностики:",
-                        text: "Ми використовуємо перевірені технології та індивідуально підбираємо режим лікування для кожного пацієнта, діагностика проводится на професійному офтальмологічному апараті IDRA.",
+                        title: "Diagnostikos ypatumai:",
+                        text: "Taikome patikrintas metodikas ir gydymą parenkame individualiai. Diagnostika atliekama profesionalia oftalmologine įranga, įskaitant IDRA.",
                         slider: [
                             {
-                                title: "Комплексний аналіз складу слізної плівки",
-                                text: "Слізна плівка складається з кількох шарів, кожен з яких має певний набір функцій. Будь-які відхилення складу або кількості певного компоненту призводить до порушення балансу і, відповідно, загостренню проявів хвороби сухого ока.",
+                                title: "Išsamus ašarų plėvelės įvertinimas",
+                                text: "Ašarų plėvelę sudaro keli komponentai, o sutrikus bet kuriam iš jų, nukenčia drėkinimo pusiausvyra. Ištyrimo metu gydytojas nustato, kuris parametras labiausiai pakitęs, kad gydymas būtų kryptingas, o ne parenkamas „bandymų keliu“.",
                             },
                             {
-                                title: "Виявлення порушень роботи мейбомієвих залоз",
-                                text: "У повіках є залози, що виділяють жирний секрет — він захищає слізну плівку від висихання та мікробів. Порушення їхньої роботи викликає ячмінь, халязіон і блефарит. \n3D-зображення залоз допомагає лікарю оцінити їхній стан і контролювати лікування.",
+                                title: "Meibomo liaukų funkcijos įvertinimas",
+                                text: "Vokų storyje esančios liaukos gamina lipidinę sekreciją, kuri mažina ašarų garavimą ir palaiko ašarų plėvelės stabilumą. Jų disfunkcija dažnai siejama su blefaritu, pasikartojančiais uždegimais, chalazionu ir lėtiniu diskomfortu. Vizualizacija leidžia įvertinti pokyčių išreikštumą ir stebėti dinamiką gydymo metu.",
                             },
                             {
-                                title: "Перевірка якості кліпання",
-                                text: "Моргання — важливий процес для здоров’я повік. Штучні вії, старіння, операції чи стреси можуть погіршувати змикання повік, що знижує зволоження ока й оновлення слізної плівки. Без стимуляції мейбомієві залози поступово відмирають, посилюючи сухість.",
+                                title: "Mirksėjimo kokybės ir vokų užsimerkimo analizė",
+                                text: "Pilnas mirksėjimas būtinas, kad ašarų plėvelė pasiskirstytų tolygiai. Amžiniai pokyčiai, persirgtos ar atliktos operacijos, įprotis „sustingti“ prie ekrano, stresas ir kai kurie kosmetologiniai veiksniai gali pabloginti vokų susiglaudimą – tai didina garavimą ir sausumo simptomus.",
                             },
                             {
-                                title: "Обстеження протягом 1 хвилини",
-                                text: "Яскраве світло подразнює око, спричинюючи надмірну сльозотечу навіть у здорових пацієнтів. \nВимірювання на апараті IDRA займає по 30 секунд для кожного ока. Таким чином дискомфорт мінімальний, а результати – максимально достовірні.",
+                                title: "Greitai ir su minimaliu diskomfortu",
+                                text: "Diagnostiniai matavimai trunka vos kelias sekundes kiekvienai akiai. Tai leidžia gauti patikimus duomenis be papildomo akies paviršiaus dirginimo.",
                             },
                             {
-                                title: "Об’єктивний аналіз результатів",
-                                text: "Для обробки виміряний даних програмне забезпечення IDRA застосовує алгоритми із штучним інтелектом та машинним навчанням. Дані обробляються автоматично, мінімізуючи людський фактор. \nТаким чином ви отримуєте об’єктивне розуміння свого стану.",
-                            },
-                            {
-                                title: "Все задокументовано!",
-                                text: "Програмне забезпечення зберігає кожне фото та відео, відслідковує зміну параметрів для того, щоб ви були впевнені в доцільності та дієвості лікування.",
+                                title: "Objektyvūs rezultatai ir dinamikos fiksavimas",
+                                text: "Programiniai algoritmai padeda standartizuoti matavimus ir sumažinti subjektyvių veiksnių įtaką. Rezultatai išsaugomi protokolo, vaizdų ir parametrų forma, kad būtų galima lyginti rodiklius laikui bėgant ir koreguoti gydymą.",
                             },
                         ],
                         btn: {
-                            btnName: "записатися на прийом",
+                            btnName: "Registracija vizitui",
                             btnLink: "#booking",
                         },
                     },
@@ -2807,52 +2803,60 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Як лікують синдром сухого ока в нашій клініці?",
+                                title: "Kaip klinikoje „Naujas regėjimas“ gydomas sausų akių sindromas?",
                                 image: "/images/dry-eye12.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Ми застосовуємо схему лікування, що відповідає вимогам міжнародного товариства здоров’я очної поверхні (TFOS), яка включає:",
+                                                gap: true,
+                                                text: "Terapijos taktika parenkama pagal diagnostikos rezultatus ir dažniausiai apima konservatyvų gydymą, orientuotą į kasdienę simptomų kontrolę ir ašarų plėvelės stabilumo atkūrimą.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Medikamentinis gydymas",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "Gydytojas gali paskirti:",
                                             },
                                             {
                                                 gap: true,
                                                 type: "list",
                                                 list: [
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Медикаментозне лікування",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Розігрів застиглого секрету та його ефективне видалення",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "IPL терапія",
-                                                        },
-                                                    ],
+                                                    "drėkinamuosius lašus / gelius (dirbtines ašaras), parenkant sudėtį pagal jūsų SAS tipą;",
+                                                    "priešuždegiminį gydymą (pagal indikacijas), siekiant sumažinti akies paviršiaus uždegimą;",
+                                                    "ašarų plėvelę stabilizuojančias priemones ir priemones, gerinančias toleranciją ekranų apkrovai;",
+                                                    "meibomo liaukų disfunkcijos terapiją (pagal indikacijas), įskaitant vaistų schemas ir palaikomąją priežiūrą.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Після обстеження лікар пояснює результати, демонструє зображення та формує персональний план лікування: від щоденної гігієни повік до апаратних процедур і підтримувальної терапії.",
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Kasdienė priežiūra ir rizikos veiksnių korekcija",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "Po ištyrimo gydytojas paaiškina rezultatus, parodo pagrindinius parametrus ir sudaro aiškų planą: lašinimo režimą, vokų higieną, rekomendacijas darbui prie monitoriaus, mikroklimatui, kontaktiniams lęšiams ir kosmetikai. Svarbu, kad gydymas dažnai yra etapinis: pirmiausia mažinamas dirginimas ir uždegimas, vėliau taikoma palaikomoji terapija.",
                                             },
                                         ],
-                                        greenText:
-                                            "Програмне забезпечення з алгоритмами штучного інтелекту автоматично обробляє дані, усуваючи суб’єктивність, а результати зберігаються у вигляді фото та відео для подальшого моніторингу.",
                                     },
                                 ],
                             },
                             {
-                                title: "Причини сухості очей",
+                                title: "Akių sausumo priežastys",
                                 cta: true,
                                 text: [
                                     {
@@ -2860,7 +2864,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Сухість очей має різні механізми. Під час діагностики на IDRA ми вимірюємо показники слізної плівки, оцінюємо мейбомієві залози та якість моргання, щоб точно визначити причину й обрати лікування.",
+                                                text: "SAS gali atsirasti dėl skirtingų mechanizmų. Diagnostikos metu vertinami ašarų plėvelės parametrai, vokų būklė, meibomo liaukos ir mirksėjimo pobūdis, kad būtų parinktas efektyviausias gydymas.",
                                             },
                                             {
                                                 type: "text",
@@ -2869,7 +2873,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Фактори, пов’язані з недостатнім виробництвом водної частини сльози",
+                                                        value: "Veiksniai, susiję su nepakankama „vandeningąja“ ašarų dalimi",
                                                     },
                                                 ],
                                             },
@@ -2877,11 +2881,11 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Вікові зміни та природне зменшення секреції сльози;",
-                                                    "Гормональні коливання (менопауза, вагітність, ендокринні порушення);",
-                                                    "Системні захворювання та автоімунні стани (зокрема синдром Шегрена);",
-                                                    "Лікарські засоби, що «висушують» слизові (антигістамінні, антидепресанти, сечогінні тощо);",
-                                                    "Зневоднення, недостатній питний режим, хронічні захворювання, післяопераційні стани.",
+                                                    "amžiniai pokyčiai ir natūralus ašarų gamybos sumažėjimas;",
+                                                    "hormonų svyravimai (įskaitant menopauzę), endokrininiai sutrikimai;",
+                                                    "autoimuninės būklės (įskaitant Šegreno sindromą);",
+                                                    "vaistai, veikiantys gleivines (kai kurie antihistamininiai, antidepresantai, diuretikai ir kt.);",
+                                                    "dehidratacija, nepakankamas skysčių vartojimas, atsistatymas po ligų ar operacijų.",
                                                 ],
                                             },
                                             {
@@ -2891,7 +2895,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Фактори, пов’язані з підвищеним випаровуванням слізної плівки",
+                                                        value: "Veiksniai, susiję su padidėjusiu ašarų plėvelės garavimu",
                                                     },
                                                 ],
                                             },
@@ -2899,16 +2903,16 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Дисфункція мейбомієвих залоз та поганий ліпідний шар;",
-                                                    "Рідке або неповне моргання під час роботи з екранами;",
-                                                    "Сухе повітря, кондиціонери, опалення, вітер, пил, дим;",
-                                                    "Контактні лінзи, декоративна косметика, нарощування вій, агресивні засоби демакіяжу;",
-                                                    "Запальні стани краю повіки (блефарит, демодекоз), розацеа шкіри.",
+                                                    "meibomo liaukų disfunkcija ir silpnas lipidinis sluoksnis;",
+                                                    "retas / nepilnas mirksėjimas dirbant prie ekrano;",
+                                                    "sausas oras, šildymas, kondicionieriai, vėjas, dulkės, dūmai;",
+                                                    "kontaktiniai lęšiai, dekoratyvinė kosmetika, blakstienų priauginimas, agresyvus makiažo valymas;",
+                                                    "lėtiniai vokų krašto uždegimai (blefaritas, demodekozė), odos rožinė.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Якщо відчуваєте «пісок», печіння чи почервоніння — запишіться на діагностику. Точне визначення причини дозволяє підібрати ефективне лікування.",
+                                                text: "Jei jaučiate „smėlį“, deginimą ar pastebite paraudimą – verta atlikti ištyrimą. Tiksli priežastis padeda greičiau parinkti terapiją, kuri iš tiesų veikia.",
                                             },
                                         ],
                                     },
@@ -2921,112 +2925,30 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "numberListSection",
                     data: {
-                        listTitle: "Етапи",
+                        listTitle: "Etapai",
                         paddingTop: true,
                         paddingBottom: true,
                         list: [
                             {
                                 itemTitle:
-                                    "Запис на прийом та підготовка до діагностики",
+                                    "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Записатись на діагностику зору можна всього за кілька хвилин телефоном або онлайн на сайті.",
-                                    "Спеціальної підготовки не потрібно, але якщо носите м’які контактні лінзи, зніміть їх з вечора (рекомендовано за 12 годин до візиту). Окуляри необхідно взяти з собою для перевірки, а також офтальмологічні обстеження, які проходили раніше – лікар подивиться в динаміці, що змінилося за останній період. Бажано бути не за кермом, тому що буде незначний зоровий дискомфорт деякий час (зір поблизу буде не чітким).",
-                                ],
-                            },
-                            {
-                                itemTitle: "Комп’ютерна діагностика зору",
-                                itemText: [
-                                    "Саме обстеження відбувається швидко та комфортно. Використовуються прецизійні прилади, мікроскопічні методи візуалізації та адаптовані діагностичні тести, які лікар підбирає залежно від конкретної клінічної ситуації.",
-                                    "Тривалість діагностики складає 2-2,5 години. Один із найважливіших етапів обстеження — перевірка гостроти зору. Для цього пацієнт читає знаки або літери на таблицях, що розташовані на різних відстанях. Такі тести допомагають точно визначити ступінь порушення та правильно підібрати лінзи чи окуляри.",
-                                    "У ряді випадків лікар може використовувати краплі для розширення зіниць. Це необхідно, щоб тимчасово виключити вплив акомодаційної функції ока та отримати точніші дані при дослідженні очного дна.",
+                                    "Užsiregistruoti ištyrimui galima telefonu arba internetu klinikos „Naujas regėjimas“ svetainėje (Vilnius, Lietuva).",
+                                    "Specialaus pasiruošimo dažniausiai nereikia. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti iš anksto (dažnai patariama likus maždaug 12 val. iki vizito). Atsineškite akinius / lęšius ir ankstesnių tyrimų rezultatus – taip gydytojui lengviau įvertinti pokyčius ir sudaryti gydymo planą.",
                                 ],
                             },
                             {
                                 itemTitle:
-                                    "Висновок за результатами обстеження",
+                                    "Kompiuterinė regėjimo diagnostika ir akies paviršiaus ištyrimas",
                                 itemText: [
-                                    "Після проходження діагностики ви отримаєте офіційний протокол із оцінкою всіх параметрів зору та очного здоров'я. Лікар надасть рекомендації щодо подальших дій — від профілактики до конкретного плану лікування.",
-                                    "Якщо планується хірургічне втручання, то його обговорення стане ключовою частиною консультації. Усі важливі питання слід поставити та прояснити до моменту операції, щоб ухвалити виважене рішення.",
-                                ],
-                            },
-                        ],
-                    },
-                },
-                {
-                    type: "textsColumns",
-                    data: {
-                        title: "Інноваційне лікування методом IPL",
-                        text: "Сучасний апаратний підхід, який цілеспрямовано зменшує запалення краю повік і відновлює стабільність слізної плівки. Поєднання з діагностикою та доглядом забезпечує прогнозований результат і комфорт пацієнта.",
-                        blocks: [
-                            {
-                                title: "Показання для застосування IPL терапії:",
-                                text: [
-                                    {
-                                        type: "list",
-                                        list: [
-                                            "Синдром сухого ока з переважно випаровувальним компонентом.",
-                                            "Дисфункція мейбомієвих залоз і застій секрету, що не коригуються лише краплями.",
-                                            "Хронічний блефарит, рецидивні ячмені та халязіони.",
-                                            "Телеангіектазії та запалення краю повік при офтальморозацеа.",
-                                            "Демодекоз як складова комбінованого лікування.",
-                                            "Зниження комфорту при роботі за екранами, відчуття «піску», печіння, почервоніння попри регулярну гігієну повік.",
-                                        ],
-                                    },
+                                    "Apžiūra vyksta komfortiškai ir apima testus bei matavimus, kuriuos gydytojas parenka pagal jūsų situaciją: ašarų plėvelės įvertinimą, vokų būklę, mirksėjimo kokybę, regėjimo aštrumo patikrą ir prireikus papildomus tyrimus.",
+                                    "Kartais gydytojas gali naudoti vyzdį plečiančius lašus – sprendimas priimamas individualiai, siekiant padidinti diagnostikos tikslumą ir atmesti gretutines problemas.",
                                 ],
                             },
                             {
-                                title: "Переваги IPL-терапії",
-                                text: [
-                                    {
-                                        type: "list",
-                                        list: [
-                                            "Патогенетична дія: вплив на мікросудини та запальні механізми, що підтримують сухість.",
-                                            "Короткий сеанс без анестезії та періоду реабілітації; відразу можна повернутися до справ.",
-                                            "Кероване охолодження забезпечує безпеку для чутливої періорбітальної зони та знижує дискомфорт.",
-                                            "Можливість комбінування з апаратним масажем повік для підсилення ефекту.",
-                                            "Об’єктивний моніторинг результатів за даними інструментальних вимірювань і фотофіксації.",
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Структура процедури IPL",
-                                text: [
-                                    {
-                                        type: "list",
-                                        numeric: true,
-                                        list: [
-                                            "Первинна консультація та оцінка показань: збір анамнезу, огляд повік, інструментальна діагностика очної поверхні.",
-                                            "Підготовка зони: очищення шкіри, захисні окуляри, нанесення контактного гелю.",
-                                            "Проведення сеансу: серія світлових імпульсів у проєкції краю повік за офтальмологічним протоколом.",
-                                            "За потреби — апаратний розігрів і видалення секрету мейбомієвих залоз, рекомендації щодо домашнього догляду.",
-                                            "Фіксація результатів та планування наступного візиту.",
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Курс лікування та ефект:",
-                                text: [
-                                    {
-                                        type: "list",
-                                        list: [
-                                            "Кількість сеансів: зазвичай 3–4 процедури для стійкого результату; схема може коригуватися індивідуально.",
-                                            "Інтервали: 2–3 тижні між сеансами, щоб закріпити протизапальний ефект і відновлення залоз.",
-                                            "Тривалість: близько 10–15 хвилин на сеанс (+ час на підготовку та, за показами, масаж повік).",
-                                            "Проміжні відчуття: легке тепло або пощипування, короткочасна рожевість шкіри, що минає самостійно.",
-                                            "Очікуваний результат: зменшення сухості та подразнення, стабільніша слізна плівка, кращий комфорт під час читання та роботи за комп’ютером, рідші епізоди блефариту й ячменів.",
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Безпека та післяпроцедурний догляд:",
-                                text: [
-                                    {
-                                        type: "text",
-                                        text: "Метод має сприятливий профіль безпеки за умови дотримання протоколів і врахування протипоказань. Після сеансу рекомендуємо користуватися SPF 50+ у зоні обробки протягом 7–10 днів, уникати засмаги, сауни та басейну протягом 24–48 годин, відкласти агресивні пілінги чи скраби; макіяж у періорбітальній зоні — не раніше ніж через 12–24 години. Важливо підтримувати гігієну повік і призначений режим крапель. Контрольні огляди дають змогу оцінити динаміку та, за потреби, провести підтримувальні процедури раз на 6–12 місяців, щоб зберігати комфорт і стабільність результату.",
-                                    },
+                                itemTitle: "Išvada pagal tyrimo rezultatus",
+                                itemText: [
+                                    "Po diagnostikos gaunate oficialų protokolą ir rekomendacijas: nuo profilaktikos ir lašinimo režimo iki nuoseklaus medikamentinio gydymo ir kontrolės plano. Jei reikia, gydytojas nurodys pakartotinio vizito terminus, kad būtų įvertinta dinamika ir pakoreguota terapija.",
                                 ],
                             },
                         ],
@@ -3035,92 +2957,82 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціни на лікування синдрому сухого ока у Києві",
+                        title: "Sausų akių sindromo gydymo kainos Vilniuje",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Часті запитання про лікування синдрому сухого",
+                        title: "Dažnai užduodami klausimai apie burnos džiūvimo sindromo gydymą",
                         content: [
                             {
                                 question:
-                                    "Сухість в очах: які симптоми і коли потрібне лікування?",
+                                    "Akių sausumas: kokie simptomai ir kada reikalingas gydymas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Найчастіші ознаки — печіння, «пісок», почервоніння, затуманення зору наприкінці дня, світлобоязнь, дискомфорт у лінзах. Якщо відчуваєте сухість очей постійно або симптоми заважають роботі за екранами, це вже привід для обстеження й лікування ССО обох очей. Самолікування «випадковими» краплями рідко дає стабільний ефект — почніть із консультації офтальмолога.",
+                                        text: "Dažniausiai vargina deginimas, „smėlio“ pojūtis, paraudimas, matymo „apsiblausimas“ dienos pabaigoje, šviesos baimė, diskomfortas nešiojant lęšius ir prastesnė ekranų tolerancija. Jei simptomai kartojasi reguliariai arba trukdo darbui – tai signalas atlikti diagnostiką. Savarankiškas „pirmų pasitaikiusių lašų“ pasirinkimas retai suteikia ilgalaikį efektą: svarbu suprasti priežastį ir gydyti ją.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "ССО — це що і як лікують «сухе око»?",
+                                    "Kas yra SAS ir kaip gydoma „sausa akis“?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "ССО (синдром сухого ока) — порушення стабільності слізної плівки. Лікування підбирають індивідуально: гігієна повік, правильно підібрані зволожувальні краплі (засоби від сухого ока), корекція звичок за комп’ютером, апаратні методи. «Лазерне лікування синдрому сухого ока» як термін використовують неточно — у сучасній офтальмології для випаровувального типу ССО ефективною є IPL-терапія, а не лазер.",
+                                        text: "SAS – tai ašarų plėvelės stabilumo ir akies paviršiaus būklės sutrikimas. Gydymas parenkamas individualiai ir dažniausiai apima drėkinamąsias priemones, priešuždegiminį gydymą pagal indikacijas, vokų higienos rekomendacijas ir įpročių korekciją dirbant prie ekrano. Kasdienėje kalboje pasitaiko terminų, tokių kaip „sausos akies gydymas lazeriu“, tačiau standartinėje praktikoje pagrindą sudaro konservatyvi ir medikamentinė terapija, parinkta pagal diagnostikos rezultatus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "IPL-терапія синдрому сухого ока: що це і як працює?",
+                                    "Medikamentinis sausų akių gydymas: ką skiria ir kaip tai veikia?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "IPL (інтенсивне імпульсне світло) м’яко впливає на край повік, зменшує запалення й телеангіектазії, розріджує густий секрет мейбомієвих залоз і стабілізує ліпідний шар слізної плівки. У результаті сльоза менше випаровується — зникає сухість, «пісок» і втома очей. Процедура триває 10–15 хвилин, анестезія не потрібна; за показаннями комбінується з масажем повік (ACTIVA MED) та базовим доглядом.",
+                                        text: "Gydymo tikslas – sugrąžinti komfortą, sumažinti uždegimą ir stabilizuoti ašarų plėvelę. Priklausomai nuo SAS tipo, gydytojas gali rekomenduoti skirtingas dirbtinių ašarų formules (skirtingo klampumo ir sudėties), kursinius priešuždegiminius vaistus (pagal indikacijas), priemones akies paviršiaus apsaugai ir palaikymo schemas esant meibomo liaukų disfunkcijai. Svarbu laikytis režimo ir nekeisti preparatų savarankiškai be gydytojo kontrolės.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки потрібно сеансів і коли буде ефект?",
+                                    "Kiek laiko reikia, kad pasimatytų rezultatas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: " Класичний курс — 3–4 процедури з інтервалом 2–3 тижні. Більшість пацієнтів відчувають полегшення вже після 1–2 візитів, стабільний результат — до кінця курсу. Для контролю динаміки та точного налаштування лікування проводимо інструментальне обстеження (IDRA).",
+                                        text: "Daliai pacientų palengvėjimas juntamas jau per pirmąsias dienas, kai parenkamos tinkamos drėkinamosios priemonės. Tvaresnis efektas, ypač esant ryškiam uždegimui ar lėtinei eigai, dažniausiai reikalauja kurso ir stebėjimo dinamikoje. Pagal pakartotinės apžiūros rezultatus gydytojas koreguoja gydymo schemą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки це коштує: ціна/вартість обстеження і лікування?",
+                                    "Kiek tai kainuoja: diagnostikos ir gydymo kaina?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Вартість залежить від обсягу обстеження та індивідуального плану (кількість сеансів IPL, супровідні процедури). Актуальні ціни, наявні акції та знижки уточнюйте під час консультації лікаря або при онлайн-реєстрації. Ми прозоро озвучуємо, що входить у прийом і курс; безкоштовно надаємо попередні рекомендації щодо підготовки до візиту.",
+                                        text: "Kaina priklauso nuo ištyrimo apimties ir individualaus terapijos plano (tyrimų tipų, vaistų, kurso trukmės, kontrolinių vizitų). Aktualias kainas ir sąlygas patikslinsime registracijos metu. Konsultacijos metu gydytojas išsamiai paaiškina, kas įeina į planą, kokios yra alternatyvos ir kodėl parenkamas būtent toks sprendimas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Протипоказання, побічні ефекти, недоліки й переваги IPL",
+                                    "Kontraindikacijos ir galimi vaistų terapijos šalutiniai poveikiai",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "До типових протипоказань належать активні запальні процеси шкіри у зоні обробки, фоточутливість, деякі дерматологічні стани й вагітність/лактація — остаточно вирішує лікар після огляду. Побічні ефекти зазвичай легкі та короткочасні: почервоніння, відчуття тепла, рідше — тимчасова чутливість шкіри. Переваги — короткий час сеансу, відсутність реабілітації, вплив на першопричину (дисфункцію мейбомієвих залоз); можливий недолік — потрібен курс і підтримувальні візити.",
+                                        text: "Kaip ir visi vaistai, akių lašai ir priešuždegiminės schemos turi apribojimų ir galimų reakcijų (pvz., trumpalaikis perštėjimas po įlašinimo, individualus sudedamųjų dalių netoleravimas). Galutinį sprendimą dėl paskyrimų priima gydytojas po apžiūros ir anamnezės įvertinimo, kad gydymas būtų saugus ir veiksmingas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Лікування синдрому сухого ока IPL: відгуки й рекомендації",
+                                    "„Džiovina akis“ – ką padaryti dabar ir kur kreiptis?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Відгуки пацієнтів найчастіше відзначають зменшення печіння, «піску» та втоми під кінець дня, кращу переносимість екранів і контактних лінз. Ми радимо орієнтуватися не лише на коментарі, а й на об’єктивні вимірювання під час огляду (IDRA): це дозволяє побачити реальні зміни слізної плівки та отримати персональні рекомендації.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "«Сушить очі» — що робити зараз і куди піти?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Якщо виникла сухість очей і потрібна термінова допомога — уникайте «агресивних» засобів, зніміть лінзи, зробіть перерву від екранів і запишіться на обстеження до офтальмолога. У приватній клініці ви отримаєте швидку консультацію, точний огляд, пояснення «чи варто» робити IPL саме вам і прозорий план лікування. Можна реєструватися онлайн або телефоном; під час прийому лікар відповість на запитання про переваги/недоліки, протипоказання та вартість курсу.",
+                                        text: "Jei sausumas sustiprėjo: išsiimkite lęšius, padarykite pertrauką nuo ekranų, venkite dūmų ir vėjo, nenaudokite „agresyvių“ priemonių akims be paskyrimo. Optimalus žingsnis – užsiregistruoti diagnostikai į kliniką „Naujas regėjimas“ (Vilnius, Lietuva): gydytojas nustatys priežastį, paaiškins tyrimo rezultatus ir sudarys aiškų medikamentinio gydymo bei kontrolės planą.",
                                     },
                                 ],
                             },
@@ -3144,18 +3056,18 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "dry eye syndrome treatment",
-                        text: "Many years of experience of our specialists and modern diagnostic equipment allow us to eliminate the progression and complications of the disease.",
+                        title: "Dry Eye Syndrome Treatment",
+                        text: "Clinical experience and modern diagnostics help slow disease progression and restore comfort when working at screens and in daily life.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/dry-eye2.jpg",
-                        title: "Dry eye syndrome: diagnosis and treatment",
+                        title: "Dry Eye Syndrome: diagnostics and medical (drug) therapy",
                         text: [
-                            "Dry eye syndrome is a condition in which the tear film loses stability and no longer properly protects the cornea. This causes dryness, burning, a “sand-like” sensation, redness, and fluctuating vision clarity, especially at the end of the day. The reasons vary: meibomian gland dysfunction, infrequent or incomplete blinking while using screens, age- and hormone-related changes, dry air. Without accurate diagnostics, symptoms become chronic, so it is crucial to determine which tear film layer is affected and choose targeted treatment.",
-                            "In our clinic, the diagnosis of dry eye syndrome is performed using unique certified equipment — IDRA — developed in Italy specifically for accurate assessment of all aspects of this condition.",
+                            "Dry eye syndrome (DES) is a condition in which the tear film becomes unstable and provides less protection to the ocular surface. As a result, dryness, burning, a “gritty/sandy” sensation, redness, rapid eye fatigue, and fluctuations in visual clarity may occur—especially toward the evening. Causes vary and may include meibomian gland dysfunction, infrequent/incomplete blinking, age- and hormone-related changes, dry air, prolonged computer work, concomitant conditions, and the use of certain medications.",
+                            "At the eye clinic “Naujas regėjimas” (Vilnius, Lithuania), DES assessment is performed using modern equipment, including the IDRA diagnostic system (Italy), to objectively evaluate the tear film and eyelids and to develop a personalized treatment plan. Without accurate diagnostics, symptoms often persist; therefore, it is important to determine which mechanism predominates (reduced tear production, increased evaporation, inflammation of the ocular surface) and to select targeted conservative treatment, including medical (drug) therapy.",
                         ],
                     },
                 },
@@ -3163,31 +3075,27 @@ export const servicesData: ServicesProps[] = [
                     type: "greenSliderSection",
                     data: {
                         title: "Diagnostic features:",
-                        text: "We use proven technologies and tailor the treatment approach for each patient individually. Diagnostics are performed using the professional ophthalmic device IDRA.",
+                        text: "We use validated methods and tailor treatment individually. Diagnostics are performed with professional ophthalmic equipment, including IDRA.",
                         slider: [
                             {
-                                title: "Comprehensive tear film composition analysis",
-                                text: "The tear film consists of several layers, each with specific functions. Any imbalance or changes in the quantity of any component disrupt stability and increase the symptoms of dry eye disease.",
+                                title: "Comprehensive tear film assessment",
+                                text: "The tear film has several components; disruption of any of them impairs ocular surface hydration. During the examination, the physician determines which parameter is most affected so that treatment is targeted rather than selected by trial and error.",
                             },
                             {
-                                title: "Detection of meibomian gland dysfunction",
-                                text: "The eyelids contain glands that produce an oily secretion — it protects the tear film from evaporation and microbes. Dysfunction leads to stye, chalazion, and blepharitis.\n3D imaging of the glands helps the doctor assess their condition and monitor treatment.",
+                                title: "Meibomian gland function assessment",
+                                text: "Glands within the eyelids produce a lipid secretion that reduces tear evaporation and supports tear film stability. Dysfunction is often associated with blepharitis, recurrent inflammation, chalazion, and chronic discomfort. Imaging helps assess the severity of changes and monitor progress during treatment.",
                             },
                             {
-                                title: "Blink quality evaluation",
-                                text: "Blinking is essential for healthy eyelids. False eyelashes, aging, surgery, or stress may lead to incomplete blinking, reducing eye hydration and tear film renewal. Without stimulation, meibomian glands gradually degrade, worsening dryness.",
+                                title: "Blink quality and eyelid closure analysis",
+                                text: "Complete blinking is necessary for even distribution of the tear film. Age-related changes, previous surgeries, the habit of “staring” at screens, stress, and certain cosmetic factors may impair eyelid closure—this increases evaporation and worsens dryness symptoms.",
                             },
                             {
-                                title: "1-minute examination",
-                                text: "Bright light irritates the eye, causing excessive tearing even in healthy patients.\nMeasurement with the IDRA device takes about 30 seconds per eye — ensuring minimal discomfort and highly accurate results.",
+                                title: "Fast and with minimal discomfort",
+                                text: "Diagnostic measurements take only seconds per eye. This enables reliable data collection without unnecessary irritation of the ocular surface.",
                             },
                             {
-                                title: "Objective results analysis",
-                                text: "To process measurements, IDRA software uses artificial intelligence and machine-learning algorithms. Data is analyzed automatically, minimizing the human factor.\nThis ensures a clear and objective understanding of your eye condition.",
-                            },
-                            {
-                                title: "Everything documented!",
-                                text: "The software stores all photos and videos, tracks changes in parameters so that you can clearly see the progress and effectiveness of the treatment.",
+                                title: "Objective results and follow-up tracking",
+                                text: "Software algorithms help standardize measurements and reduce the influence of subjective factors. Results are saved as a protocol with images and parameters, allowing comparison over time and adjustment of treatment.",
                             },
                         ],
                         btn: {
@@ -3203,52 +3111,61 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "How is dry eye syndrome treated in our clinic?",
+                                title: "How is dry eye syndrome treated at the “Naujas regėjimas” clinic?",
                                 image: "/images/dry-eye12.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "We apply a treatment protocol that meets the standards of the Tear Film & Ocular Surface Society (TFOS), which includes:",
+                                                gap: true,
+                                                text: "Treatment strategy is determined by diagnostic results and typically includes conservative therapy aimed at daily symptom control and restoration of tear film stability.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Medical (drug) therapy",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "The physician may prescribe:",
                                             },
                                             {
                                                 gap: true,
                                                 type: "list",
                                                 list: [
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Medication therapy",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Warming up and clearing the blocked meibomian secretion",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "IPL therapy",
-                                                        },
-                                                    ],
+                                                    "lubricating drops/gels (artificial tears) with a formulation matched to your DES type;",
+                                                    "anti-inflammatory therapy (when indicated) to reduce ocular surface inflammation;",
+                                                    "agents to stabilize the tear film and improve tolerance to screen-related load;",
+                                                    "therapy for meibomian gland dysfunction (when indicated), including medication regimens and supportive care.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "After the examination, the doctor explains the results, shows the images, and creates a personalized treatment plan — from daily eyelid hygiene to hardware procedures and maintenance therapy.",
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Daily care and risk-factor modification",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "After the examination, the physician explains the results, highlights key parameters, and provides a clear plan: instillation schedule, eyelid hygiene, recommendations for monitor work, indoor microclimate, contact lenses, and cosmetics. Treatment is often staged: first reducing irritation and inflammation, then maintaining results with supportive therapy.",
                                             },
                                         ],
-                                        greenText:
-                                            "AI-based software automatically processes diagnostic data, eliminating subjectivity, while the results are stored as photos and videos for follow-up monitoring.",
                                     },
                                 ],
                             },
                             {
-                                title: "Causes of dry eyes",
+                                title: "Causes of eye dryness",
                                 cta: true,
                                 text: [
                                     {
@@ -3256,7 +3173,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Dry eyes can have different mechanisms. During IDRA diagnostics, we measure tear film parameters, assess meibomian glands, and blinking quality to accurately determine the cause and choose proper treatment.",
+                                                text: "DES may involve different mechanisms. During diagnostics, tear film parameters, eyelid condition, meibomian glands, and blink pattern are assessed to select the most effective treatment.",
                                             },
                                             {
                                                 type: "text",
@@ -3265,7 +3182,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Factors related to insufficient production of the aqueous layer of the tear film",
+                                                        value: "Factors associated with insufficient “aqueous” tear component",
                                                     },
                                                 ],
                                             },
@@ -3273,11 +3190,11 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Age-related changes and natural reduction of tear secretion;",
-                                                    "Hormonal fluctuations (menopause, pregnancy, endocrine disorders);",
-                                                    "Systemic diseases and autoimmune conditions (including Sjögren’s syndrome);",
-                                                    "Medications that ‘dry out’ mucous membranes (antihistamines, antidepressants, diuretics, etc.);",
-                                                    "Dehydration, low fluid intake, chronic illnesses, postoperative conditions.",
+                                                    "age-related changes and natural reduction in tear production;",
+                                                    "hormonal fluctuations (including menopause) and endocrine disorders;",
+                                                    "autoimmune conditions (including Sjögren’s syndrome);",
+                                                    "medications affecting mucous membranes (some antihistamines, antidepressants, diuretics, etc.);",
+                                                    "dehydration, inadequate fluid intake, recovery after illness or surgery.",
                                                 ],
                                             },
                                             {
@@ -3287,7 +3204,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Factors related to increased evaporation of the tear film",
+                                                        value: "Factors associated with increased tear film evaporation",
                                                     },
                                                 ],
                                             },
@@ -3295,16 +3212,16 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Meibomian gland dysfunction and poor lipid layer;",
-                                                    "Rare or incomplete blinking during screen use;",
-                                                    "Dry air, air conditioners, heating, wind, dust, smoke;",
-                                                    "Contact lenses, decorative cosmetics, eyelash extensions, harsh makeup removers;",
-                                                    "Inflammatory conditions of the eyelid margin (blepharitis, demodicosis), skin rosacea.",
+                                                    "meibomian gland dysfunction and a weak lipid layer;",
+                                                    "infrequent/incomplete blinking during screen work;",
+                                                    "dry air, heating, air conditioning, wind, dust, smoke;",
+                                                    "contact lenses, decorative cosmetics, eyelash extensions, aggressive makeup removal;",
+                                                    "chronic inflammation of the eyelid margin (blepharitis, demodicosis), cutaneous rosacea.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "If you feel sandiness, burning, or redness — schedule a diagnosis. Accurate identification of the cause allows for effective treatment selection.",
+                                                text: "If you experience a gritty sensation, burning, or redness, an evaluation is recommended. Identifying the exact cause helps quickly select therapy that works.",
                                             },
                                         ],
                                     },
@@ -3325,23 +3242,22 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Appointment and preparation for diagnostics",
                                 itemText: [
-                                    "You can schedule an eye diagnostics appointment within a few minutes by phone or online via the website.",
-                                    "No special preparation is needed, but if you wear soft contact lenses, remove them the night before (recommended 12 hours prior to the visit). Bring your eyeglasses for verification, as well as any previous ophthalmic examinations so the doctor can evaluate changes over time. It is recommended not to drive afterward because you may experience slight visual discomfort for a short time (near vision may be blurry).",
+                                    "You can schedule an examination by phone or online via the “Naujas regėjimas” clinic website (Vilnius, Lithuania).",
+                                    "Special preparation is usually not required. If you wear soft contact lenses, it is advisable to remove them in advance (often about 12 hours before the visit). Bring your glasses/lenses and previous test results—this helps the physician assess changes and plan treatment.",
                                 ],
                             },
                             {
-                                itemTitle: "Computer vision diagnostics",
+                                itemTitle:
+                                    "Computerized vision testing and ocular surface evaluation",
                                 itemText: [
-                                    "The examination is quick and comfortable. Precision devices, microscopic visualization methods, and adapted diagnostic tests are used, selected according to each specific clinical situation.",
-                                    "The diagnostics take 2–2.5 hours. One of the most important steps is visual acuity testing. The patient reads symbols or letters on charts placed at different distances. These tests help accurately determine the degree of impairment and correctly select lenses or glasses.",
-                                    "In some cases, the doctor may use eye drops to dilate the pupils. This is necessary to temporarily exclude the influence of accommodation and obtain more accurate data when examining the fundus.",
+                                    "The visit is comfortable and includes tests and measurements selected for your case: tear film assessment, eyelid evaluation, blink quality analysis, visual acuity testing, and additional examinations if needed.",
+                                    "In some cases, the physician may use pupil-dilating drops—this is decided individually to improve diagnostic accuracy and to rule out concomitant issues.",
                                 ],
                             },
                             {
-                                itemTitle: "Diagnostics results and conclusion",
+                                itemTitle: "Conclusion and recommendations",
                                 itemText: [
-                                    "After completing the diagnostics, you will receive an official report with an assessment of all vision parameters and eye health. The doctor will provide recommendations for further steps — from prevention to a specific treatment plan.",
-                                    "If surgical intervention is planned, its discussion will be a key part of the consultation. It is important to ask and clarify all critical questions before the operation to make an informed decision.",
+                                    "After diagnostics, you receive an official report and recommendations: from prevention and drop regimen to a step-by-step plan for medical therapy and follow-up. If necessary, the physician will indicate the timing of a repeat visit to evaluate dynamics and adjust therapy.",
                                 ],
                             },
                         ],
@@ -3350,92 +3266,82 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Prices for dry eye syndrome treatment in Kyiv",
+                        title: "Prices for dry eye syndrome treatment in Vilnius",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Frequently asked questions about dry eye treatment",
+                        title: "Frequently asked questions about dry eye diagnosis and treatment",
                         content: [
                             {
                                 question:
-                                    "Dry eyes: what are the symptoms and when is treatment needed?",
+                                    "Eye dryness: what symptoms require treatment?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The most common signs include burning, “grittiness”, redness, blurry vision by the end of the day, light sensitivity, and contact lens discomfort. If you constantly feel dryness or symptoms interfere with screen work, it’s already a reason for examination and treatment of dry eye disease in both eyes. Self-treatment with random drops rarely gives a stable effect — start with an ophthalmologist consultation.",
+                                        text: "Most commonly, patients report burning, a gritty sensation, redness, blurred vision toward the end of the day, light sensitivity, discomfort with contact lenses, and reduced tolerance to screens. If symptoms recur regularly or affect work, diagnostics are recommended. Selecting “any drops” on your own rarely produces a lasting effect—understanding the cause is essential.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "DED — what is dry eye disease and how is it treated?",
+                                    "What is DES and how is “dry eye” treated?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "DED (dry eye disease) is a condition where the tear film loses stability. Treatment is personalized: eyelid hygiene, properly selected lubricating eye drops, adjusting screen habits, and instrumental therapies. The term “laser treatment for dry eye” is often used incorrectly — in modern ophthalmology, IPL therapy is effective for evaporative DED rather than laser.",
+                                        text: "DES is a disturbance of tear film stability and ocular surface condition. Treatment is individualized and most often includes lubricants, anti-inflammatory therapy when indicated, eyelid hygiene, and habit modification for screen work. Terms such as “laser treatment for dry eye” may be encountered in everyday speech; however, in standard practice, the foundation is conservative and medical (drug) therapy guided by diagnostics.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "IPL therapy for dry eye: what is it and how does it work?",
+                                    "Medical therapy for dry eye: what may be prescribed and how does it work?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "IPL (Intense Pulsed Light) gently treats the eyelid margins, reduces inflammation and telangiectasias, liquefies thick meibomian gland secretions, and stabilizes the lipid layer of the tear film. As a result, the tear evaporates less — dryness, “grittiness”, and eye fatigue decrease. The procedure takes 10–15 minutes, local anesthesia is not required; if indicated, it is combined with eyelid massage (ACTIVA MED) and standard care.",
+                                        text: "The goal is to restore comfort, reduce inflammation, and stabilize the tear film. Depending on DES type, the physician may recommend different artificial tear formulations (with different viscosity and composition), short courses of anti-inflammatory medicines (when indicated), ocular surface protective agents, and support regimens for meibomian gland dysfunction. It is important to follow the regimen and not change medications without supervision.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How many sessions are needed and when will the effect appear?",
+                                    "How long does it take to see results?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "A standard course includes 3–4 procedures with an interval of 2–3 weeks. Most patients feel relief after 1–2 visits, while a stable result is achieved by the end of the course. To monitor dynamics and fine-tune treatment, we perform instrumental diagnostics (IDRA).",
+                                        text: "For some patients, relief occurs within the first days with properly selected lubricants. More sustained improvement—especially with significant inflammation or a chronic course—usually requires a course of treatment and follow-up over time. Based on repeat assessment, the physician adjusts the regimen.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How much does it cost: price of examination and treatment?",
+                                    "Cost: price of diagnostics and treatment",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The cost depends on the diagnostic amount and individual plan (number of IPL sessions, additional procedures). Current prices, promotions and discounts can be clarified during consultation or with online registration. We clearly explain what is included in the visit and the course; preliminary preparation recommendations are provided free of charge.",
+                                        text: "Cost depends on the scope of examination and the individual therapy plan (types of tests, medications, course duration, follow-up visits). Please уточняйте current prices and conditions when scheduling. During consultation, the physician explains what is included, available options, and the rationale for the selected approach.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Contraindications, side effects, disadvantages and advantages of IPL",
+                                    "Contraindications and possible side effects of drug therapy",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Typical contraindications include active skin inflammation in the treatment area, photosensitivity, certain dermatological conditions and pregnancy / breastfeeding — the final decision is made by the doctor after examination. Side effects are usually mild and short-term: redness, warmth, rarely — temporary skin sensitivity. Advantages: quick sessions, no downtime, addressing the root cause (meibomian gland dysfunction); possible drawback — a full course and maintenance visits are required.",
+                                        text: "As with any medications, eye drops and anti-inflammatory regimens may have limitations and possible reactions (e.g., short-term stinging after instillation, individual intolerance). The final prescribing decision is made by the physician after examination and medical history review to ensure safety and effectiveness.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Dry eye IPL treatment: reviews and recommendations",
+                                    "“My eyes feel dry”—what to do now and where to go?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Patients often report reduced burning, “grittiness” and end-of-day fatigue, and improved tolerance of screens and contact lenses. We recommend relying not only on reviews but also on objective measurements during diagnostics (IDRA): this shows real improvements in the tear film and helps personalize treatment.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "“Eyes feel dry” — what to do right now and where to go?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "If dryness appears and urgent help is needed — avoid harsh products, remove contact lenses, take a break from screens and book an eye examination. In a private clinic you receive quick consultation, accurate diagnostics, an explanation whether IPL is right for you, and a transparent treatment plan. You can register online or by phone; during the visit, the doctor will answer questions about benefits/risks, contraindications, and treatment cost.",
+                                        text: "If dryness has increased: remove contact lenses, take breaks from screens, avoid smoke and wind, and do not use “aggressive” eye products without a prescription. The optimal step is to schedule diagnostics at the “Naujas regėjimas” clinic (Vilnius, Lithuania): the physician will determine the cause, explain findings, and provide a clear medical treatment and follow-up plan.",
                                     },
                                 ],
                             },
@@ -3460,17 +3366,17 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "лечение синдрома сухого глаза",
-                        text: "Многолетний опыт работы наших специалистов и современное диагностическое оборудование позволяют устранить прогрессирование и усложнение болезни.",
+                        text: "Опыт врачей и современная диагностика помогают остановить прогрессирование заболевания и вернуть комфорт при работе за экраном и в повседневной жизни.",
                     },
                 },
                 {
                     type: "preview",
                     data: {
                         image: "/images/dry-eye2.jpg",
-                        title: "Синдром сухого глаза: диагностика и лечение",
+                        title: "Синдром сухого глаза: диагностика и медикаментозное лечение",
                         text: [
-                            "Синдром сухого глаза — это состояние, при котором слёзная плёнка теряет стабильность и перестаёт должным образом защищать роговицу. Из-за этого возникают сухость, жжение, ощущение «песка», покраснение и колебания чёткости зрения, особенно к концу дня. Причины разные: дисфункция мейбомиевых желез, редкое или неполное моргание при работе за экранами, возрастные и гормональные изменения, сухой воздух. Без точной диагностики симптомы закрепляются, поэтому важно определить, какой слой слезы нарушен, и подобрать целенаправленное лечение.",
-                            "В нашей клинике диагностика синдрома сухого глаза проводится с помощью уникального сертифицированного оборудования IDRA, разработанного в Италии специально для точного определения всех аспектов этого состояния.",
+                            "Синдром сухого глаза (ССГ) — состояние, при котором слёзная плёнка становится нестабильной и хуже защищает поверхность глаза. В результате появляются сухость, жжение, ощущение «песка», покраснение, быстрая утомляемость и колебания чёткости зрения, особенно к вечеру. Причины могут отличаться: нарушение работы мейбомиевых желез, редкое/неполное моргание, возрастные и гормональные изменения, сухой воздух, длительная работа за компьютером, сопутствующие заболевания и приём некоторых препаратов.",
+                            "В глазной клинике «Новое зрение» (Вильнюс, Литва) обследование при ССГ проводится на современном оборудовании, включая диагностическую систему IDRA (Италия), чтобы объективно оценить состояние слёзной плёнки и век и составить персональный план терапии. Без точной диагностики симптомы часто закрепляются, поэтому важно определить, какой механизм доминирует (недостаток слёзной жидкости, повышенное испарение, воспаление поверхности глаза) — и подобрать целевое консервативное, в том числе медикаментозное лечение.",
                         ],
                     },
                 },
@@ -3478,31 +3384,27 @@ export const servicesData: ServicesProps[] = [
                     type: "greenSliderSection",
                     data: {
                         title: "Особенности диагностики:",
-                        text: "Мы используем проверенные технологии и индивидуально подбираем режим лечения каждому пациенту. Диагностика проводится на профессиональном офтальмологическом оборудовании IDRA.",
+                        text: "Мы применяем проверенные методики и подбираем лечение индивидуально. Диагностика выполняется на профессиональном офтальмологическом оборудовании, включая IDRA.",
                         slider: [
                             {
-                                title: "Комплексный анализ состава слезной пленки",
-                                text: "Слезная пленка состоит из нескольких слоёв, каждый из которых выполняет важные функции. Любые отклонения состава или количества компонентов нарушают баланс и усиливают проявления синдрома сухого глаза.",
+                                title: "Комплексная оценка слёзной плёнки",
+                                text: "Слёзная плёнка состоит из нескольких компонентов, и сбой любого из них нарушает баланс увлажнения. Во время обследования врач определяет, какой параметр страдает больше всего, чтобы лечение было направленным, а не «наугад».",
                             },
                             {
-                                title: "Выявление нарушений работы мейбомиевых желез",
-                                text: "В веках есть железы, выделяющие жирный секрет — он защищает слезную пленку от пересыхания и микробов. Нарушение их работы вызывает ячмень, халязион и блефарит.\n3D-изображения желез помогают врачу оценить их состояние и контролировать лечение.",
+                                title: "Оценка работы мейбомиевых желез",
+                                text: "Железы в толще век вырабатывают липидный секрет, который снижает испарение слезы и поддерживает стабильность слёзной плёнки. Их дисфункция часто связана с блефаритом, рецидивирующими воспалениями, халязионом и хроническим дискомфортом. Визуализация помогает оценить выраженность изменений и отслеживать динамику на фоне лечения.",
                             },
                             {
-                                title: "Оценка качества моргания",
-                                text: "Моргание жизненно важно для здоровья век. Искусственные ресницы, возрастные изменения, операции или стресс могут ухудшать смыкание век, что снижает увлажнение глаза и обновление слезной пленки. Без стимуляции мейбомиевые железы постепенно атрофируются, усиливая сухость.",
+                                title: "Анализ качества моргания и смыкания век",
+                                text: "Полное моргание необходимо для равномерного распределения слёзной плёнки. Возрастные изменения, перенесённые операции, привычка «замирать» перед экраном, стресс и некоторые косметологические факторы могут ухудшать смыкание век — это усиливает испарение и симптомы сухости.",
                             },
                             {
-                                title: "Обследование за 1 минуту",
-                                text: "Яркий свет раздражает глаз и вызывает обильное слезотечение даже у здоровых людей.\nИзмерение на аппарате IDRA занимает около 30 секунд на каждый глаз — минимум дискомфорта и максимальная достоверность результатов.",
+                                title: "Быстро и с минимальным дискомфортом",
+                                text: "Диагностические измерения занимают считанные секунды на каждый глаз. Это позволяет получить достоверные данные без лишнего раздражения поверхности глаза.",
                             },
                             {
-                                title: "Объективный анализ результатов",
-                                text: "Для обработки данных программное обеспечение IDRA использует алгоритмы искусственного интеллекта и машинного обучения. Данные анализируются автоматически, минимизируя человеческий фактор.\nТак вы получаете максимально объективное понимание состояния глаз.",
-                            },
-                            {
-                                title: "Всё задокументировано!",
-                                text: "Программа сохраняет каждое фото и видео, отслеживает динамику параметров, чтобы вы были уверены в эффективности и обоснованности лечения.",
+                                title: "Объективные результаты и фиксация динамики",
+                                text: "Программные алгоритмы помогают стандартизировать измерения и уменьшить влияние субъективных факторов. Результаты сохраняются в виде протокола, изображений и параметров, чтобы сравнивать показатели в динамике и корректировать лечение.",
                             },
                         ],
                         btn: {
@@ -3518,47 +3420,56 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Как лечат синдром сухого глаза в нашей клинике?",
+                                title: "Как лечат синдром сухого глаза в клинике «Новое зрение»?",
                                 image: "/images/dry-eye12.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Мы применяем схему лечения, соответствующую рекомендациям Международного общества здоровья глазной поверхности (TFOS), которая включает:",
+                                                gap: true,
+                                                text: "Тактика терапии подбирается по результатам диагностики и обычно включает консервативное лечение, ориентированное на ежедневный контроль симптомов и восстановление стабильности слёзной плёнки.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Медикаментозное лечение",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "Врач может назначить:",
                                             },
                                             {
                                                 gap: true,
                                                 type: "list",
                                                 list: [
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Медикаментозное лечение",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "Прогревание застоявшегося секрета и его эффективное удаление",
-                                                        },
-                                                    ],
-                                                    [
-                                                        {
-                                                            bold: true,
-                                                            value: "IPL-терапия",
-                                                        },
-                                                    ],
+                                                    "увлажняющие капли/гели (искусственная слеза) с подбором состава под ваш тип ССГ;",
+                                                    "противовоспалительную терапию (по показаниям) для снижения воспаления поверхности глаза;",
+                                                    "средства для стабилизации слёзной плёнки и улучшения переносимости экранной нагрузки;",
+                                                    "терапию при дисфункции мейбомиевых желез (по показаниям), включая лекарственные схемы и поддерживающий уход.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "После обследования врач объясняет результаты, показывает изображения и формирует персональный план лечения: от ежедневной гигиены век до аппаратных процедур и поддерживающей терапии.",
+                                                text: [
+                                                    {
+                                                        bold: true,
+                                                        value: "Ежедневный уход и коррекция факторов риска",
+                                                    },
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "После обследования врач объясняет результаты, показывает ключевые параметры и формирует понятный план: режим инстилляций, гигиену век, рекомендации по работе за монитором, микроклимату, контактным линзам и косметике. Важно, что лечение часто требует этапности: сначала купирование раздражения и воспаления, затем — поддерживающая терапия.",
                                             },
                                         ],
-                                        greenText:
-                                            "Программное обеспечение с алгоритмами искусственного интеллекта автоматически обрабатывает данные, устраняя субъективность, а результаты сохраняются в виде фото и видео для последующего мониторинга.",
                                     },
                                 ],
                             },
@@ -3571,7 +3482,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Сухость глаз имеет разные механизмы. Во время диагностики на IDRA мы измеряем параметры слёзной плёнки, оцениваем мейбомиевые железы и качество моргания, чтобы точно определить причину и выбрать лечение.",
+                                                text: "ССГ имеет разные механизмы. Во время диагностики оцениваются параметры слёзной плёнки, состояние век, мейбомиевых желез и характер моргания, чтобы выбрать максимально эффективное лечение.",
                                             },
                                             {
                                                 type: "text",
@@ -3580,7 +3491,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Факторы, связанные с недостаточным образованием водной части слезы",
+                                                        value: "Факторы, связанные с недостаточной «водной» частью слезы",
                                                     },
                                                 ],
                                             },
@@ -3588,11 +3499,11 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Возрастные изменения и естественное снижение секреции слёз;",
-                                                    "Гормональные колебания (менопауза, беременность, эндокринные нарушения);",
-                                                    "Системные заболевания и аутоиммунные состояния (в том числе синдром Шегрена);",
-                                                    "Лекарственные средства, «высушивающие» слизистые (антигистаминные, антидепрессанты, мочегонные и др.);",
-                                                    "Обезвоживание, недостаток питьевого режима, хронические болезни, послеоперационные состояния.",
+                                                    "возрастные изменения и естественное снижение слезопродукции;",
+                                                    "гормональные колебания (в т.ч. менопауза), эндокринные нарушения;",
+                                                    "аутоиммунные состояния (включая синдром Шегрена);",
+                                                    "препараты, влияющие на слизистые (некоторые антигистаминные, антидепрессанты, диуретики и др.);",
+                                                    "обезвоживание, недостаточный питьевой режим, восстановление после болезней и операций.",
                                                 ],
                                             },
                                             {
@@ -3610,16 +3521,16 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Дисфункция мейбомиевых желез и плохой липидный слой;",
-                                                    "Редкое или неполное моргание при работе за экраном;",
-                                                    "Сухой воздух, кондиционеры, отопление, ветер, пыль, дым;",
-                                                    "Контактные линзы, декоративная косметика, наращивание ресниц, агрессивные средства для демакияжа;",
-                                                    "Воспалительные заболевания края века (блефарит, демодекоз), розацеа кожи.",
+                                                    "дисфункция мейбомиевых желез и слабый липидный слой;",
+                                                    "редкое/неполное моргание при работе за экраном;",
+                                                    "сухой воздух, отопление, кондиционеры, ветер, пыль, дым;",
+                                                    "контактные линзы, декоративная косметика, наращивание ресниц, агрессивный демакияж;",
+                                                    "хронические воспаления края век (блефарит, демодекоз), кожная розацеа.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Если вы чувствуете «песок», жжение или покраснение — запишитесь на диагностику. Точное определение причины позволяет подобрать эффективное лечение.",
+                                                text: "Если вы чувствуете «песок», жжение или покраснение — стоит пройти обследование. Точная причина помогает быстро подобрать терапию, которая действительно работает.",
                                             },
                                         ],
                                     },
@@ -3640,24 +3551,23 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Запись на приём и подготовка к диагностике",
                                 itemText: [
-                                    "Записаться на диагностику зрения можно всего за несколько минут по телефону или онлайн на сайте.",
-                                    "Специальная подготовка не требуется, но если вы носите мягкие контактные линзы, снимите их с вечера (рекомендуется за 12 часов до визита). Очки необходимо взять с собой для проверки, а также предыдущие офтальмологические обследования — врач оценит, что изменилось за последнее время. Желательно не быть за рулём, так как некоторое время может сохраняться лёгкий зрительный дискомфорт (ближнее зрение будет нечётким).",
+                                    "Записаться на обследование можно по телефону или онлайн на сайте клиники «Новое зрение» (Вильнюс, Литва).",
+                                    "Специальная подготовка обычно не нужна. Если вы носите мягкие контактные линзы, желательно снять их заранее (часто рекомендуют за 12 часов до визита). Возьмите с собой очки/линзы и результаты прошлых обследований — так врачу проще оценить изменения и подобрать план лечения.",
                                 ],
                             },
                             {
-                                itemTitle: "Компьютерная диагностика зрения",
+                                itemTitle:
+                                    "Компьютерная диагностика зрения и обследование поверхности глаза",
                                 itemText: [
-                                    "Обследование проходит быстро и комфортно. Используются прецизионные приборы, микроскопические методы визуализации и адаптированные диагностические тесты, которые врач подбирает в зависимости от клинической ситуации.",
-                                    "Продолжительность диагностики составляет 2–2,5 часа. Один из важнейших этапов — проверка остроты зрения. Пациент читает знаки или буквы на таблицах на разных расстояниях. Эти тесты помогают точно определить степень нарушения и правильно подобрать линзы или очки.",
-                                    "В ряде случаев врач может использовать капли для расширения зрачков. Это необходимо, чтобы временно исключить влияние аккомодации и получить более точные данные при исследовании глазного дна.",
+                                    "Осмотр проходит комфортно и включает тесты и измерения, которые врач подбирает по вашей ситуации: оценка слёзной плёнки, состояния век, качества моргания, проверка остроты зрения и дополнительные исследования при необходимости.",
+                                    "Иногда врач может использовать капли для расширения зрачка — это решается индивидуально, чтобы повысить точность диагностики и исключить сопутствующие проблемы.",
                                 ],
                             },
                             {
                                 itemTitle:
                                     "Заключение по результатам обследования",
                                 itemText: [
-                                    "После диагностики вы получите официальный протокол с оценкой всех параметров зрения и здоровья глаз. Врач предоставит рекомендации по дальнейшим действиям — от профилактики до конкретного плана лечения.",
-                                    "Если планируется хирургическое вмешательство, его обсуждение станет ключевой частью консультации. Важно задать и прояснить все вопросы до операции, чтобы принять взвешенное решение.",
+                                    "После диагностики вы получаете официальный протокол и рекомендации: от профилактики и режима капель до пошагового плана медикаментозного лечения и контроля. При необходимости врач обозначит сроки повторного визита, чтобы оценить динамику и скорректировать терапию.",
                                 ],
                             },
                         ],
@@ -3666,14 +3576,14 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цены на лечение синдрома сухого глаза в Киеве",
+                        title: "Цены на лечение синдрома сухого глаза в Вильнюсе",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Частые вопросы о лечении синдрома сухого глаза",
+                        title: "Частые вопросы о диагностике и лечении синдрома сухого глаза",
                         content: [
                             {
                                 question:
@@ -3681,77 +3591,67 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Наиболее частые признаки — жжение, «песок», покраснение, затуманивание зрения к концу дня, светобоязнь, дискомфорт при ношении линз. Если сухость возникает постоянно или симптомы мешают работе за компьютером — это повод для обследования и лечения синдрома сухого глаза обоих глаз. Самолечение случайными каплями редко даёт стабильный результат — начните с консультации офтальмолога.",
+                                        text: "Чаще всего беспокоят жжение, «песок», покраснение, затуманивание к концу дня, светобоязнь, дискомфорт при ношении линз и снижение переносимости экранов. Если симптомы повторяются регулярно или мешают работе — это повод пройти диагностику. Самостоятельный выбор «первых попавшихся капель» редко даёт устойчивый эффект: важно понять причину и лечить её.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "ССГ — что это такое и как лечат «сухой глаз»?",
+                                    "ССГ — что это и как лечат «сухой глаз»?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "ССГ (синдром сухого глаза) — нарушение стабильности слёзной плёнки. Лечение подбирается индивидуально: гигиена век, правильно подобранные увлажняющие капли, корректировка привычек при работе за экранами, аппаратные методы. Термин «лазерное лечение сухого глаза» часто используется неверно — в современной офтальмологии при испарительном типе ССГ эффективна IPL-терапия, а не лазер.",
+                                        text: "ССГ — это нарушение стабильности слёзной плёнки и состояния поверхности глаза. Лечение подбирается индивидуально и чаще всего включает увлажняющие средства, противовоспалительную терапию по показаниям, рекомендации по гигиене век и коррекции привычек при работе за экраном. Термины вроде «лазерное лечение сухого глаза» в быту встречаются часто, но в стандартной практике базой остаётся консервативная и медикаментозная терапия, подобранная по диагностике.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "IPL-терапия при синдроме сухого глаза: что это и как работает?",
+                                    "Медикаментозное лечение при сухом глазе: что назначают и как это работает?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "IPL (интенсивный импульсный свет) мягко воздействует на край век, уменьшает воспаление и телеангиэктазии, разжижает густой секрет мейбомиевых желёз и стабилизирует липидный слой слёзной плёнки. В итоге слеза меньше испаряется — исчезает сухость, «песок» и усталость глаз. Процедура длится 10–15 минут, анестезия не требуется; по показаниям сочетается с массажем век (ACTIVA MED) и базовым уходом.",
+                                        text: "Цель лечения — восстановить комфорт, уменьшить воспаление и стабилизировать слёзную плёнку. В зависимости от типа ССГ врач может рекомендовать различные формулы искусственной слезы (с разной вязкостью и составом), курсовые противовоспалительные препараты (по показаниям), средства для защиты поверхности глаза и схемы поддержки при дисфункции мейбомиевых желез. Важно соблюдать режим и не менять препараты самостоятельно без контроля.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Сколько нужно сеансов и когда будет результат?",
+                                    "Сколько времени нужно, чтобы был результат?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Классический курс — 3–4 процедуры с интервалом 2–3 недели. Большинство пациентов ощущают улучшение уже после 1–2 визитов, устойчивый результат — к концу курса. Для контроля динамики и точной настройки лечения выполняем инструментальное обследование (IDRA).",
+                                        text: "У части пациентов облегчение наступает в первые дни на фоне правильно подобранных увлажняющих средств. Более устойчивый эффект, особенно при выраженном воспалении или хроническом течении, обычно требует курса и контроля в динамике. По результатам повторного осмотра врач корректирует схему лечения.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Сколько это стоит: цена обследования и лечения?",
+                                    "Сколько это стоит: цена диагностики и лечения",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Стоимость зависит от объёма диагностики и индивидуального плана (количество сеансов IPL, сопутствующие процедуры). Актуальные цены, акции и скидки уточняйте при консультации или при онлайн-записи. Мы прозрачно озвучиваем, что входит в приём и курс; предварительные рекомендации по подготовке предоставляем бесплатно.",
+                                        text: "Стоимость зависит от объёма обследования и индивидуального плана терапии (виды тестов, препараты, длительность курса, контрольные визиты). Актуальные цены и условия уточняйте при записи. На консультации врач подробно объясняет, что входит в план, какие есть варианты и почему выбран именно этот подход.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Противопоказания, побочные эффекты, недостатки и преимущества IPL",
+                                    "Противопоказания и возможные побочные эффекты лекарственной терапии",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Типичные противопоказания: активные воспалительные процессы кожи в зоне обработки, фоточувствительность, некоторые дерматологические состояния, беременность/лактация — окончательное решение принимает врач после осмотра. Побочные эффекты обычно лёгкие и кратковременные: покраснение, ощущение тепла, реже — временная чувствительность кожи. Преимущества — короткий сеанс, отсутствие реабилитации, воздействие на первопричину (дисфункцию мейбомиевых желёз); возможный недостаток — необходим курс и поддерживающие визиты.",
+                                        text: "Как и у любых препаратов, у глазных капель и противовоспалительных схем есть ограничения и возможные реакции (например, кратковременное жжение после закапывания, индивидуальная непереносимость компонентов). Окончательное решение о назначениях принимает врач после осмотра и оценки анамнеза, чтобы лечение было безопасным и эффективным.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Лечение синдрома сухого глаза IPL: отзывы и рекомендации",
+                                    "«Сушит глаза» — что сделать прямо сейчас и куда обратиться?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Пациенты чаще всего отмечают уменьшение жжения, «песка» и усталости к концу дня, лучшую переносимость экранов и контактных линз. Мы рекомендуем ориентироваться не только на отзывы, но и на объективные измерения при осмотре (IDRA): это показывает реальные изменения слёзной плёнки и помогает персонализировать лечение.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "«Сушит глаза» — что делать сейчас и куда обратиться?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Если появилась сухость глаз и нужна срочная помощь — избегайте агрессивных средств, снимите линзы, сделайте перерыв от экранов и запишитесь к офтальмологу на обследование. В частной клинике вы получите быструю консультацию, точный осмотр, объяснение — подходит ли вам IPL, и прозрачный план лечения. Можно записаться онлайн или по телефону; на приёме врач ответит на вопросы о преимуществах/недостатках, противопоказаниях и стоимости курса.",
+                                        text: "Если сухость усилилась: снимите линзы, сделайте паузу от экранов, избегайте дыма и ветра, не используйте «агрессивные» средства для глаз без назначения. Оптимальный шаг — записаться на диагностику в клинику «Новое зрение» (Вильнюс, Литва): врач определит причину, объяснит результаты обследования и составит понятный план медикаментозного лечения и контроля.",
                                     },
                                 ],
                             },

@@ -64,7 +64,7 @@ export const NumberListSection = ({ data }: { data: NumberListProps }) => {
                     }
                 >
                     <h2
-                        className={`title-section tab:sticky tab:top-24 mb-6 ${
+                        className={`title-section tab:sticky tab:top-36 mb-6 ${
                             data.pdfCard ? "tab:pb-44 prepc:pb-36 pc:pb-50" : ""
                         }`}
                     >

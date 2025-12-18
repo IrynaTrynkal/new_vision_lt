@@ -28,7 +28,7 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/perevirka-zoru-hero.jpg)] text-black bg-blend-hard-light",
         "kataraktos-operacija":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] text-black bg-blend-hard-light",
-        "syndrom-sukhoho-oka":
+        "dry-eye-syndrome-treatment":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] text-black bg-blend-hard-light",
         "vaiku-akiu-patikra": "text-black",
         default: "hover-green-gradient text-black ",

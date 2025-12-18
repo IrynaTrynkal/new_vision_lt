@@ -143,7 +143,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
         },
         {
-            url: `${baseUrl}/paslaugos/syndrom-sukhoho-oka`,
+            url: `${baseUrl}/paslaugos/dry-eye-syndrome-treatment`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.8,
@@ -617,13 +617,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.64,
         },
         {
-            url: `${baseUrl}/en/services/surgical-glaucoma-treatment`,
+            url: `${baseUrl}/en/services/glaukomos-gydymas`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.64,
         },
         {
-            url: `${baseUrl}/ru/uslugi/khirurgicheskoye-lecheniye-glaukomy`,
+            url: `${baseUrl}/ru/uslugi/glaukomos-gydymas`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.64,
