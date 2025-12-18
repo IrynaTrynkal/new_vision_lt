@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from "next-intl";
 
 import { partPayData } from "@/components/assets/policyData";
+import { Booking } from "@/components/shared/booking/Booking";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { TextTypeRender } from "@/components/shared/TextTypeRender";
 import { HeroInstruction } from "@/components/someInstructionComponents/HeroInstruction";
@@ -45,6 +46,7 @@ export default function PartPayment() {
                     />
                 </div>
             </section>
+            <Booking />
         </>
     );
 }
