@@ -6237,7 +6237,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "хірургічне лікування глаукоми",
+                        title: "Glaukomos diagnostika ir gydymas",
                         text: "Сучасні малоінвазивні та класичні методи для стабілізації тиску й збереження зору.",
                     },
                 },
@@ -6247,7 +6247,7 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Хірургічне лікування глаукоми: мета, показання та результат",
+                                title: "Konservatyvus glaukomos gydymas: tikslas ir laukiami rezultatai",
                                 cta: true,
                                 text: [
                                     {
@@ -6255,18 +6255,18 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Хірургічне лікування глаукоми спрямоване на формування альтернативного шляху відтоку внутрішньоочної рідини, стабільне зниження внутрішньоочного тиску (ВОТ) і збереження зорових функцій. Якщо медикаментозна терапія, краплі та лазерні процедури не дають ефекту, операція глаукоми стає найкращим рішенням. У нашій приватній клініці в Києві проводиться діагностика та лікування глаукоми за міжнародними протоколами: обстеження, консультація лікаря-офтальмолога, індивідуальний підбір методу, післяопераційний огляд.",
+                                                text: "Medikamentinis glaukomos gydymas skirtas stabiliai kontroliuoti akispūdį (AKS), apsaugoti regos nervą ir sulėtinti ligos progresavimą. Pagrindinis gydytojo tikslas – parinkti tokią terapiją, kad akispūdis išliktų individualiai saugiose ribose, o regos laukas ir regos nervo būklė būtų išsaugomi kuo ilgiau.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Після втручання частині пацієнтів вдається повністю відмовитися від регулярних крапель або суттєво зменшити їх кількість. Хірургічні методи лікування глаукоми ефективні при відкритокутовій, закритокутовій, первинній та вторинній формі, а також у складних випадках, коли глаукома очей прогресує.",
+                                                text: "Akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) glaukomos diagnostika ir gydymas atliekami pagal šiuolaikinius klinikinius protokolus: atliekamas išsamus ištyrimas, oftalmologo konsultacija, sudaromas individualus gydymo planas, vykdoma dinaminė stebėsena ir, prireikus, koreguojama gydymo schema.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Непроникна глибока склеректомія (НГСЕ): щадний підхід при відкритокутовій глаукомі",
+                                title: "Glaukomos diagnostika: ką svarbu įvertinti prieš paskiriant akių lašus",
                                 image: "/images/perevirka-zoru-hero.jpg",
                                 text: [
                                     {
@@ -6274,25 +6274,59 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "НГСЕ — це щадна операція при глаукомі, за якої внутрішні структури ока залишаються герметичними, а відтік рідини відбувається через спеціально сформований тонкий канал. Метод забезпечує плавне зниження ВОТ без різких перепадів, мінімізує побічні ефекти та прискорює відновлення.",
+                                                text: "Siekiant nustatyti tikslią diagnozę ir tinkamai parinkti vaistus, būtina įvertinti ne tik akispūdį, bet ir regos nervo būklę bei akies skysčių nutekėjimo sistemą. Įprastai ištyrimas apima:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "akispūdžio matavimą (prireikus – skirtingu paros metu);",
+                                                    "pachimetriją (ragenos storis turi įtakos tonometrijos tikslumui);",
+                                                    "priekinės kameros kampo įvertinimą (gonioskopija) glaukomos tipui nustatyti;",
+                                                    "regos nervo disko įvertinimą;",
+                                                    "optinę koherentinę tomografiją (OKT) – nervinių skaidulų sluoksnių / makulos srities (pagal indikacijas);",
+                                                    "perimetriją (regos laukų tyrimą) funkciniams pakitimams nustatyti;",
+                                                    "gretutinių rizikos veiksnių ir bendros sveikatos būklės įvertinimą.",
+                                                ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Втручання виконується амбулаторно; зазвичай повернення до звичного режиму можливе протягом 1–2 діб. Непроникна глибока склеректомія може поєднуватися з видаленням катаракти — це зручно пацієнтам із одночасною катарактою, дозволяє скоротити терміни лікування та покращити зір. Якщо вас цікавить хірургічне лікування глаукоми — ціна, вартість обстеження та «скільки коштує» варіант із комбінованою операцією, детально обговорюємо все на консультації.",
+                                                text: "Toks požiūris leidžia atskirti glaukomą nuo kitų padidėjusio akispūdžio priežasčių, nustatyti ligos stadiją ir parinkti optimalią gydymo taktiką.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Проникна трабекулектомія: перевірений стандарт контролю тиску",
+                                title: "Glaukomos gydymas lašais: kaip parenkama schema",
                                 image: "/images/facilities3.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Трабекулектомія — класична проникна операція при глаукомі, під час якої створюють новий дренажний шлях і видаляють фрагмент трабекулярної мережі для кращого відтоку внутрішньоочної рідини. Метод показаний, коли глаукома прогресує, а консервативні підходи не забезпечують стабільного результату. Переваги: виражений і тривалий контроль ВОТ, можливість повторного втручання за потреби. Недоліки: довший реабілітаційний період, необхідність чітко дотримуватися післяопераційних рекомендацій. У нашому центрі ретельно оцінюємо показання, протипоказання, ризики та очікування, щоб запропонувати лікування глаукоми (операція) з оптимальним прогнозом для вашого зору.",
+                                                gap: true,
+                                                text: "Medikamentinė terapija dažniausiai pradedama nuo hipotenzinių akių lašų. Gydytojas vaistą parenka atsižvelgdamas į glaukomos tipą, pradinį akispūdį, regos nervo būklę, toleravimą, paciento gyvenimo būdą ir gretutines ligas.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "Klinikinėje praktikoje pagal indikacijas taikomos skirtingos vaistų grupės:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "preparatai, gerinantys akies skysčio nutekėjimą;",
+                                                    "preparatai, mažinantys jo gamybą;",
+                                                    "kombinuoti lašai, kai vienos grupės nepakanka;",
+                                                    "be konservantų formos, jei yra sausumas, alergija arba jautrumas konservantams.",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "Jei būtina greitai ir laikinai sumažinti akispūdį (pvz., esant reikšmingam jo padidėjimui), gydytojas gali paskirti papildomą trumpalaikę terapiją ir dažnesnę kontrolę.",
                                             },
                                         ],
                                     },
@@ -6308,28 +6342,46 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         data: [
                             {
-                                title: "Мікроінвазивна хірургія глаукоми (MIGS) та імплантовані дренажі",
-                                logo: true,
-                                text: [
-                                    {
-                                        content: [
-                                            {
-                                                type: "text",
-                                                text: "Сучасні мікроінвазивні технології (MIGS) та мікродренажні імпланти дозволяють лікувати глаукому з мінімальною травматичністю. Такі рішення доцільні на ранніх і середніх стадіях, а також у пацієнтів, які прагнуть швидкого відновлення та зменшення залежності від крапель. Лікар підбирає тип дренажу чи методику з урахуванням анатомії кута передньої камери, товщини рогівки, статусу зорового нерва, поля зору, супутніх захворювань. Мікрохірургічне лікування глаукоми часто поєднуємо з факоемульсифікацією катаракти — це підвищує комфорт і скорочує кількість візитів. Запитайте під час прийому, чи варто розглядати саме MIGS у вашому випадку.",
-                                            },
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Ціна операції при глаукомі в Києві: що входить у вартість і як обрати клініку",
+                                title: "Stebėsena sergant glaukoma: kodėl lašai be kontrolės neveikia",
                                 image: "/images/equipment1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Операція глаукоми — ціна в Києві та Україні залежить від типу втручання (НГСЕ, трабекулектомія, MIGS), складності клінічної ситуації, необхідності комбінованих процедур (наприклад, видалення катаракти), анестезії та обсягу післяопераційного спостереження. У вартість зазвичай входять: консультація, повне обстеження, операційний набір і сертифіковані витратні матеріали, контрольні огляди. Ми прозоро пояснюємо, скільки коштує лікування глаукоми, надаємо детальний кошторис і рекомендації щодо підготовки. Оберіть найкращий для вас варіант: запис на консультацію лікаря, огляд, індивідуальна тактика «глаукома та її лікування», реєстрація на операцію — усе в одному кабінеті координації пацієнта.",
+                                                text: "Glaukoma reikalauja sistemingo gydymo ir stebėsenos. Net esant geriems akispūdžio rodikliams, gydymo schema gali būti koreguojama, jei kinta regos laukai ar OKT duomenys. Todėl svarbu:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "laikytis instiliacijų režimo (įskaitant paros laiką);",
+                                                    "savarankiškai nenutraukti lašų, net jei „nieko nejaučiate“;",
+                                                    "reguliariai tikrinti akispūdį ir atlikti regos nervo tyrimus;",
+                                                    "informuoti gydytoją apie nepageidaujamus reiškinius (deginimą, paraudimą, sausumą, galvos skausmus, pulso pokyčius ir kt.).",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "Klinikoje „Naujas regėjimas“ Vilniuje pacientus stebime dinamiškai: vertiname gydymo veiksmingumą, toleravimą, gydymo režimo laikymąsi ir, esant poreikiui, parenkame patogesnę bei stabilesnę terapiją.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                title: "Glaukomos diagnostikos ir gydymo kaina Vilniuje: kas lemia kainą",
+                                logo: true,
+                                text: [
+                                    {
+                                        content: [
+                                            {
+                                                type: "text",
+                                                text: "Kaina priklauso nuo ištyrimo apimties (tonometrija, OKT, perimetrija ir kt.), klinikinės situacijos sudėtingumo, poreikio kartoti akispūdžio matavimus, taip pat kontrolinių vizitų dažnio.",
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "Konsultacijos metu gydytojas paaiškina, kokie tyrimai konkrečiai jums yra būtini, ir sudaro aiškų planą: diagnostika → gydymo pradžia → kontrolė → schemos korekcija.",
                                             },
                                         ],
                                     },
@@ -6341,92 +6393,91 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціни на лікування глаукоми в Києві",
+                        title: "Glaukomos gydymo kainos Vilniuje",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Часті питання про хірургічне лікування глаукоми",
+                        title: "Klausimai ir atsakymai",
                         content: [
                             {
                                 question:
-                                    "Коли показане хірургічне лікування глаукоми і чи варто чекати?",
+                                    "Ar glaukomą galima gydyti tik lašais?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Оперативне лікування глаукоми рекомендоване, коли краплі, лазер чи комбінації не контролюють тиск або хвороба прогресує. Зволікати не варто: своєчасна операція допомагає зберегти залишковий зір.",
+                                        text: "Daugeliu atvejų – taip. Tinkamai parinkti lašai gali metų metus išlaikyti akispūdį kontroliuojamą ir sulėtinti progresavimą. Esminė sąlyga – reguliarus stebėjimas ir disciplina vartojant vaistus.",
+                                    },
+                                ],
+                            },
+                            {
+                                question: "Kaip suprasti, kad lašai veikia?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "Veiksmingumas vertinamas pagal akispūdžio sumažėjimą iki tikslinio lygio ir OKT/regos laukų duomenų stabilumą dinamikoje, o ne vien pagal savijautą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки коштує операція на глаукому (ціна Київ, Україна)?",
+                                    "Kodėl akispūdis „šokinėja“, nors naudoju lašus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Вартість залежить від методу (НГСЕ, трабекулектомія, MIGS), складності, супутніх процедур. Точну ціну озвучуємо після обстеження та консультації. Ми надаємо прозорий кошторис «без прихованих платежів».",
+                                        text: "Priežasčių gali būti įvairių: praleistos dozės, netinkama lašinimo technika, netinkama vaistų grupė, individualūs paros svyravimai, sąveika su sisteminiais vaistais. Situacija sprendžiama atliekant kontrolinius matavimus ir koreguojant schemą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чим відрізняються непроникна глибока склеректомія та трабекулектомія?",
+                                    "Ar hipotenziniai lašai turi šalutinių poveikių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "НГСЕ — щадніша, із плавним зниженням ВОТ і швидшим відновленням; трабекулектомія — «золотий стандарт» із довготривалим контролем тиску, але з довшим періодом реабілітації.",
+                                        text: "Taip, galimos vietinės reakcijos (deginimas, sausumas, paraudimas) ir, kai kurių vaistų atveju, sisteminiai poveikiai. Gydytojas parenka terapiją įvertinęs kontraindikacijas ir prireikus pakeičia į alternatyvas (įskaitant be konservantų formas).",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи можна поєднати лікування глаукоми з видаленням катаракти?",
+                                    "Ar reikia atlikti OKT ir regos laukus, jei akispūdis normalus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Так, часто це доцільно. Комбінована операція зменшує кількість анестезій і візитів, може покращити якість зору та стабільність тиску.",
+                                        text: "Taip. Glaukoma – tai ne tik akispūdžio skaičiai. Progresavimas galimas ir esant „normaliam“ akispūdžiui, todėl regos nervo ir regos laukų kontrolė yra principinė.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Які побічні ефекти та протипоказання можливі?",
+                                    "Kaip dažnai reikia lankytis kontrolėje sergant glaukoma?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Як і будь-яка хірургія, втручання має ризики: запалення, коливання ВОТ, рубцювання фільтраційної подушки. Протипоказання індивідуальні; лікар обговорить їх на прийомі після огляду та аналізів.",
+                                        text: "Dažnis priklauso nuo ligos stadijos ir rodiklių stabilumo. Po gydymo paskyrimo ar pakeitimo kontrolė paprastai atliekama dažniau, vėliau – pagal individualų gydytojo sudarytą grafiką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Скільки триває відновлення і коли можна повернутися до роботи?",
+                                    "Ką daryti, jei pamirštu įsilašinti vaistus pagal grafiką?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Більшість пацієнтів після НГСЕ повертаються до легких справ за 1–2 дні; після трабекулектомії період відновлення довший. Обмеження фізичних навантажень і контрольні огляди обов’язкові.",
+                                        text: "Informuokite gydytoją – tai dažna situacija. Galima parinkti patogesnę schemą (pvz., kitą vartojimo režimą, kombinuotus lašus), taip pat aptarti priminimus ir taisyklingą instiliacijų techniką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чи буде потрібне подальше лікування після операції?",
+                                    "Jei lašai neužtikrina reikiamos kontrolės, kas toliau?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Післяопераційні краплі та спостереження — стандарти догляду. Частина пацієнтів повністю відмовляється від гіпотензивних крапель, іншим достатньо меншої кількості препаратів.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Як обрати клініку та лікаря для операції при глаукомі?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Орієнтуйтеся на досвід хірурга, спектр методик (НГСЕ, трабекулектомія, MIGS), сучасне обладнання, відгуки пацієнтів, прозорість ціни. Запишіться на консультацію — лікар запропонує індивідуальну тактику.",
+                                        text: "Jei, taikant korektišką terapiją, akispūdis išlieka per aukštas arba nustatomas progresavimas, gydytojas aptaria tolimesnį taktikos išplėtimą. Tačiau daugeliu atvejų pradinė ir bazinė strategija yra būtent tiksli diagnostika ir profesionaliai sudarytas medikamentinis gydymas.",
                                     },
                                 ],
                             },
@@ -6451,8 +6502,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "surgical treatment of glaucoma",
-                        text: "Modern minimally invasive and classical methods for stabilizing eye pressure and preserving vision.",
+                        title: "Glaucoma Diagnosis and Treatment",
+                        text: "Современные малоинвазивные и классические методы для стабилизации давления и сохранения зрения.",
                     },
                 },
                 {
@@ -6461,7 +6512,7 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Surgical treatment of glaucoma: purpose, indications, and outcomes",
+                                title: "Conservative Glaucoma Management: Goal and Expected Outcome",
                                 cta: true,
                                 text: [
                                     {
@@ -6469,18 +6520,18 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Surgical treatment of glaucoma aims to create an alternative pathway for aqueous humor drainage, achieve stable intraocular pressure (IOP) reduction, and preserve visual function. If medication, eye drops, or laser procedures are ineffective, glaucoma surgery becomes the best option. In our private clinic in Kyiv, we provide glaucoma diagnostics and treatment according to international protocols: examination, ophthalmologist consultation, personalized surgical method selection, and postoperative monitoring.",
+                                                text: "Pharmacological glaucoma management is aimed at maintaining stable control of intraocular pressure (IOP), protecting the optic nerve, and slowing disease progression. The physician’s primary objective is to select therapy that keeps IOP within an individually safe target range, while preserving the visual field and optic nerve status for as long as possible.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "After surgery, some patients can completely stop using eye drops or significantly reduce their use. Surgical glaucoma treatment is effective for open-angle, closed-angle, primary, and secondary glaucoma, as well as in complex progressive cases.",
+                                                text: "At the “Naujas regėjimas” Eye Clinic (Vilnius, Lithuania), glaucoma diagnosis and treatment are delivered in accordance with modern clinical protocols: comprehensive assessment, ophthalmologist consultation, an individualized treatment plan, ongoing follow‑up, and adjustment of the regimen when required.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Non-penetrating deep sclerectomy (NPDS): a gentle approach for open-angle glaucoma",
+                                title: "Glaucoma Diagnosis: What Should Be Assessed Before Prescribing Drops",
                                 image: "/images/perevirka-zoru-hero.jpg",
                                 text: [
                                     {
@@ -6488,25 +6539,59 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "NPDS is a gentle glaucoma surgery in which the inner eye structures remain sealed, and fluid drainage occurs through a specially formed thin channel. This technique ensures smooth IOP reduction without sharp fluctuations, minimizes side effects, and speeds up recovery.",
+                                                text: "For an accurate diagnosis and appropriate medication selection, it is important to evaluate not only IOP, but also the optic nerve and the eye’s aqueous outflow (drainage) system. The examination typically includes:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "intraocular pressure measurement (at different times of day if needed);",
+                                                    "pachymetry (corneal thickness influences tonometry accuracy);",
+                                                    "anterior chamber angle assessment (gonioscopy) to determine glaucoma type;",
+                                                    "evaluation of the optic nerve head (optic disc);",
+                                                    "optical coherence tomography (OCT) of the retinal nerve fiber layers / macular area (as indicated);",
+                                                    "perimetry (visual field testing) to detect functional changes;",
+                                                    "assessment of associated risk factors and overall health status.",
+                                                ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "The procedure is performed on an outpatient basis, and most patients can resume normal activities within 1–2 days. Non-penetrating deep sclerectomy can be combined with cataract removal — a convenient option for patients with coexisting cataracts that reduces treatment time and improves vision. If you are interested in glaucoma surgery — the price, diagnostic cost, or combined options — all details are discussed during consultation.",
+                                                text: "This approach helps distinguish glaucoma from other causes of elevated IOP, determine disease stage, and select the optimal treatment strategy.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Penetrating trabeculectomy: a proven standard for pressure control",
+                                title: "Glaucoma Treatment With Drops: How the Regimen Is Selected",
                                 image: "/images/facilities3.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Trabeculectomy is a classical penetrating glaucoma surgery that creates a new drainage pathway by removing part of the trabecular meshwork to improve aqueous outflow. It is indicated when glaucoma progresses and conservative treatment no longer provides stable results. Advantages: pronounced and long-lasting IOP control, with the option of repeated surgery if needed. Drawbacks: longer recovery and strict postoperative care. At our center, we carefully evaluate indications, contraindications, and expectations to offer the optimal glaucoma surgery plan for your vision.",
+                                                gap: true,
+                                                text: "Medical therapy most often begins with IOP‑lowering eye drops. The physician selects the medication based on glaucoma type, baseline IOP, optic nerve status, tolerability, lifestyle, and comorbid conditions.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "Different medication groups are used in clinical practice (as indicated):",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "agents that improve aqueous humor outflow;",
+                                                    "agents that reduce aqueous production;",
+                                                    "combination drops when one group is insufficient;",
+                                                    "preservative‑free formulations for dryness, allergy, or sensitivity to preservatives.",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "If rapid temporary IOP reduction is required (for example, in cases of markedly elevated pressure), the physician may prescribe additional short‑term therapy and closer monitoring.",
                                             },
                                         ],
                                     },
@@ -6522,28 +6607,46 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         data: [
                             {
-                                title: "Microinvasive glaucoma surgery (MIGS) and implanted drains",
-                                logo: true,
-                                text: [
-                                    {
-                                        content: [
-                                            {
-                                                type: "text",
-                                                text: "Modern microinvasive technologies (MIGS) and microdrainage implants allow glaucoma treatment with minimal trauma. These techniques are suitable for early and moderate stages, and for patients seeking quick recovery and reduced dependence on drops. The doctor selects the drainage type or technique based on anterior chamber angle anatomy, corneal thickness, optic nerve status, and visual field. Microglaucoma surgery is often combined with cataract phacoemulsification — improving comfort and reducing clinic visits. Ask your doctor whether MIGS is right for your case.",
-                                            },
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Glaucoma surgery cost in Kyiv: what’s included and how to choose a clinic",
+                                title: "Follow‑Up in Glaucoma: Why Drops Without Monitoring Are Not Effective",
                                 image: "/images/equipment1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "The cost of glaucoma surgery in Kyiv and Ukraine depends on the type of procedure (NPDS, trabeculectomy, MIGS), case complexity, need for combined operations (e.g. cataract removal), anesthesia, and postoperative care. The price usually includes consultation, complete diagnostics, surgical kit, certified materials, and follow-up visits. We provide transparent pricing, detailed estimates, and preparation guidance. Choose your best option: ophthalmologist consultation, eye examination, personalized 'glaucoma treatment' plan, and surgery registration — all in one patient coordination office.",
+                                                text: "Glaucoma requires systematic, long‑term management. Even when IOP readings are satisfactory, treatment may need adjustment if visual fields or OCT parameters change over time. Therefore, it is important to:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "adhere strictly to the instillation schedule (including time of day);",
+                                                    "not discontinue drops on your own, even if “nothing bothers you”;",
+                                                    "attend regular IOP checks and optic nerve examinations;",
+                                                    "inform your physician about side effects (burning, redness, dryness, headaches, pulse changes, etc.).",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "At “Naujas regėjimas” in Vilnius, we follow patients dynamically: we evaluate effectiveness, tolerability, and adherence, and if necessary we modify therapy to make it more convenient and stable.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                title: "Cost of Glaucoma Diagnosis and Treatment in Vilnius: What Affects the Price",
+                                logo: true,
+                                text: [
+                                    {
+                                        content: [
+                                            {
+                                                type: "text",
+                                                text: "The cost depends on the scope of testing (tonometry, OCT, perimetry, etc.), clinical complexity, the need for repeat IOP measurements, and the frequency of follow‑up visits.",
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "During the consultation, the physician explains which tests are truly necessary for you and outlines a clear pathway: diagnosis → initiation of therapy → monitoring → regimen adjustment.",
                                             },
                                         ],
                                     },
@@ -6555,92 +6658,92 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Prices for glaucoma treatment in Kyiv",
+                        title: "Prices for glaucoma diagnosis and treatment in Vilnius",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Frequently asked questions about glaucoma surgery",
+                        title: "Questions and Answers",
                         content: [
                             {
                                 question:
-                                    "When is glaucoma surgery indicated, and should I wait?",
+                                    "Can glaucoma be treated with drops only?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Surgical treatment is recommended when eye drops, laser, or combination therapy fail to control intraocular pressure or the disease continues to progress. Delaying treatment is not advisable — timely surgery helps preserve remaining vision.",
+                                        text: "In many cases, yes. Properly selected drops can keep IOP under control for years and slow progression. The key requirements are regular monitoring and consistent use of the prescribed medications.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How much does glaucoma surgery cost (price in Kyiv, Ukraine)?",
+                                    "How can I tell if the drops are working?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "The cost depends on the technique (NPDS, trabeculectomy, MIGS), complexity, and additional procedures. The exact price is provided after examination and consultation. We offer a transparent cost estimate with no hidden fees.",
+                                        text: "Effectiveness is assessed by achieving the target IOP and by stability of OCT/visual field results over time—not solely by how you feel.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What is the difference between non-penetrating deep sclerectomy and trabeculectomy?",
+                                    "Why does my IOP “fluctuate” even though I use the drops?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "NPDS is less invasive, provides gradual IOP reduction, and faster recovery; trabeculectomy is the 'gold standard' with long-term pressure control but a longer rehabilitation period.",
+                                        text: "Possible reasons include missed doses, incorrect instillation technique, an unsuitable medication group, individual diurnal IOP variation, or interactions with systemic medications. This is addressed through follow‑up measurements and regimen adjustment.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Can glaucoma surgery be combined with cataract removal?",
+                                    "Are there side effects from IOP‑lowering drops?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yes, it is often advisable. A combined procedure reduces the number of anesthesias and visits, and may improve vision quality and pressure stability.",
+                                        text: "Yes. Local reactions (burning, dryness, redness) are possible, and with some agents systemic effects may occur. The physician selects therapy considering contraindications and may switch to alternatives, including preservative‑free options.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "What side effects and contraindications are possible?",
+                                    "Do I need OCT and visual field tests if my IOP is normal?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "As with any surgery, there are risks: inflammation, fluctuations in IOP, scarring of the filtration bleb. Contraindications are individual — the doctor will discuss them after examination and tests.",
+                                        text: "Yes. Glaucoma is not only about IOP values. Progression may occur at “normal” IOP, therefore monitoring the optic nerve and visual fields is essential.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How long is recovery, and when can I return to work?",
+                                    "How often should I be monitored for glaucoma?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Most patients after NPDS return to light activities within 1–2 days; recovery after trabeculectomy takes longer. Physical restrictions and follow-up visits are essential.",
+                                        text: "Frequency depends on the stage and stability of findings. After starting or changing therapy, follow‑up is typically more frequent, and later follows an individualized schedule set by your physician.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Will further treatment be required after surgery?",
+                                    "What should I do if I forget to use the drops on schedule?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Postoperative eye drops and monitoring are standard care. Some patients completely stop using pressure-lowering drops, while others may need fewer medications.",
+                                        text: "Tell your physician—this is common. A more convenient regimen may be selected (e.g., different dosing, combination drops), and reminders and proper instillation technique can be discussed.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "How to choose a clinic and surgeon for glaucoma surgery?",
+                                    "If drops do not provide adequate control, what is next?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Focus on the surgeon’s experience, range of techniques (NPDS, trabeculectomy, MIGS), modern equipment, patient reviews, and price transparency. Schedule a consultation — the doctor will recommend an individual approach.",
+                                        text: "If IOP remains elevated or progression is detected despite appropriate therapy, the physician will discuss expanding the management strategy. However, in most cases the starting and baseline approach is precise diagnosis and a well‑structured pharmacological treatment plan.",
                                     },
                                 ],
                             },
@@ -6665,7 +6768,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "хирургическое лечение глаукомы",
+                        title: "Диагностика и лечение глаукомы",
                         text: "Современные малоинвазивные и классические методы для стабилизации давления и сохранения зрения.",
                     },
                 },
@@ -6675,7 +6778,7 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Хирургическое лечение глаукомы: цель, показания и результаты",
+                                title: "Консервативное лечение глаукомы: цель и ожидаемый результат",
                                 cta: true,
                                 text: [
                                     {
@@ -6683,18 +6786,18 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Хирургическое лечение глаукомы направлено на создание альтернативного пути оттока внутриглазной жидкости, стабильное снижение внутриглазного давления (ВГД) и сохранение зрительных функций. Если медикаменты, капли или лазерные процедуры не дают результата, операция глаукомы становится лучшим решением. В нашей частной клинике в Киеве проводится диагностика и лечение глаукомы по международным протоколам: обследование, консультация офтальмолога, индивидуальный подбор метода, послеоперационный контроль.",
+                                                text: "Медикаментозное лечение глаукомы направлено на стабильный контроль внутриглазного давления (ВГД), защиту зрительного нерва и замедление прогрессирования заболевания. Основная задача врача — подобрать терапию так, чтобы давление оставалось в индивидуально безопасном диапазоне, а поле зрения и состояние нерва сохранялись как можно дольше.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "После операции часть пациентов может полностью отказаться от капель или значительно сократить их использование. Хирургические методы лечения глаукомы эффективны при открытоугольной, закрытоугольной, первичной и вторичной форме, а также в сложных случаях, когда глаукома прогрессирует.",
+                                                text: "В клинике «Новое зрение» (Вильнюс, Литва) диагностика и лечение глаукомы проводятся по современным клиническим протоколам: комплексное обследование, консультация офтальмолога, персональный план терапии, динамическое наблюдение и корректировка схемы при необходимости.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Непроникающая глубокая склерэктомия (НГСЭ): щадящий подход при открытоугольной глаукоме",
+                                title: "Диагностика глаукомы: что важно проверить до назначения капель",
                                 image: "/images/perevirka-zoru-hero.jpg",
                                 text: [
                                     {
@@ -6702,25 +6805,59 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "НГСЭ — это щадящая операция при глаукоме, при которой внутренние структуры глаза остаются герметичными, а отток жидкости осуществляется через специально сформированный тонкий канал. Метод обеспечивает плавное снижение ВГД без резких перепадов, минимизирует побочные эффекты и ускоряет восстановление.",
+                                                text: "Для точного диагноза и корректного подбора препаратов важно оценить не только уровень ВГД, но и состояние зрительного нерва и дренажной системы глаза. Обычно обследование включает:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "измерение внутриглазного давления (в разные часы при необходимости);",
+                                                    "пахиметрию (толщина роговицы влияет на точность тонометрии);",
+                                                    "осмотр угла передней камеры (гониоскопия) для определения типа глаукомы;",
+                                                    "оценку диска зрительного нерва;",
+                                                    "ОКТ (слои нервных волокон/макулярная зона — по показаниям);",
+                                                    "периметрию (поля зрения) для выявления функциональных изменений;",
+                                                    "контроль сопутствующих факторов риска и общего состояния.",
+                                                ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Операция проводится амбулаторно; как правило, возвращение к обычному ритму возможно в течение 1–2 суток. Непроникающая глубокая склерэктомия может сочетаться с удалением катаракты — это удобно пациентам с сопутствующей катарактой, сокращает сроки лечения и улучшает зрение. Если вас интересует хирургическое лечение глаукомы — цена, стоимость обследования и варианты комбинированных операций — все детали обсуждаются на консультации.",
+                                                text: "Такой подход позволяет отличить глаукому от других причин повышения ВГД, определить стадию и выбрать тактику лечения.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Проникающая трабекулэктомия: проверенный стандарт контроля давления",
+                                title: "Лечение глаукомы каплями: как подбирается схема",
                                 image: "/images/facilities3.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Трабекулэктомия — классическая проникающая операция при глаукоме, во время которой создаётся новый путь оттока и удаляется часть трабекулярной сети для улучшения циркуляции жидкости. Метод показан при прогрессировании глаукомы, когда консервативное лечение не обеспечивает стабильного результата. Преимущества: выраженный и длительный контроль ВГД, возможность повторного вмешательства. Недостатки: более длительный период восстановления, необходимость строгого соблюдения рекомендаций. В нашем центре тщательно оцениваем показания, противопоказания и риски, чтобы предложить оптимальный прогноз лечения глаукомы (операция) для вашего зрения.",
+                                                gap: true,
+                                                text: "Медикаментозная терапия чаще всего начинается с гипотензивных глазных капель. Врач выбирает препарат с учетом типа глаукомы, исходного ВГД, состояния зрительного нерва, переносимости, образа жизни и сопутствующих заболеваний.",
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "В практике применяются разные группы препаратов (по показаниям):",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "средства, улучшающие отток внутриглазной жидкости;",
+                                                    "средства, снижающие её выработку;",
+                                                    "комбинированные капли, когда одной группы недостаточно;",
+                                                    "бесконсервантные формы, если есть сухость, аллергия или чувствительность к консервантам.",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                gap: true,
+                                                text: "Если требуется быстрое временное снижение ВГД (например, при выраженном повышении давления), врач может назначить дополнительную краткосрочную терапию и более частый контроль.",
                                             },
                                         ],
                                     },
@@ -6736,28 +6873,46 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         data: [
                             {
-                                title: "Микроинвазивная хирургия глаукомы (MIGS) и имплантируемые дренажи",
-                                logo: true,
-                                text: [
-                                    {
-                                        content: [
-                                            {
-                                                type: "text",
-                                                text: "Современные микроинвазивные технологии (MIGS) и микродренажные импланты позволяют лечить глаукому с минимальной травматичностью. Эти решения подходят на ранних и средних стадиях, а также для пациентов, стремящихся к быстрому восстановлению и снижению зависимости от капель. Врач подбирает тип дренажа или методику с учетом анатомии угла передней камеры, толщины роговицы, состояния зрительного нерва, поля зрения и сопутствующих заболеваний. Микрохирургическое лечение глаукомы часто сочетается с факоэмульсификацией катаракты — это повышает комфорт и сокращает количество визитов. Спросите на приеме, стоит ли рассматривать именно MIGS в вашем случае.",
-                                            },
-                                        ],
-                                    },
-                                ],
-                            },
-                            {
-                                title: "Стоимость операции при глаукоме в Киеве: что входит и как выбрать клинику",
+                                title: "Наблюдение при глаукоме: почему капли без контроля не работают",
                                 image: "/images/equipment1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Стоимость операции глаукомы в Киеве и Украине зависит от типа вмешательства (НГСЭ, трабекулэктомия, MIGS), сложности случая, необходимости комбинированных процедур (например, удаление катаракты), анестезии и объема послеоперационного наблюдения. В цену обычно входят: консультация, полное обследование, операционный набор, сертифицированные расходные материалы и контрольные осмотры. Мы подробно объясняем, сколько стоит лечение глаукомы, предоставляем детальную смету и рекомендации по подготовке. Выберите лучший вариант: консультация офтальмолога, осмотр, индивидуальный план «глаукома и её лечение», запись на операцию — всё в одном кабинете координации пациентов.",
+                                                text: "Глаукома требует системного ведения. Даже при хороших цифрах ВГД схема лечения может нуждаться в корректировке, если меняются поля зрения или показатели ОКТ. Поэтому важно:",
+                                            },
+                                            {
+                                                type: "list",
+                                                gap: true,
+                                                list: [
+                                                    "соблюдать режим инстилляций (вплоть до времени суток);",
+                                                    "не отменять капли самостоятельно, даже если «ничего не беспокоит»;",
+                                                    "регулярно проходить контроль ВГД и обследования зрительного нерва;",
+                                                    "сообщать врачу о побочных эффектах (жжение, покраснение, сухость, головные боли, изменения пульса и др.).",
+                                                ],
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "В «Новом зрении» в Вильнюсе мы ведем пациентов в динамике: оцениваем эффективность, переносимость, приверженность лечению и при необходимости меняем терапию на более удобную и стабильную.",
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                            {
+                                title: "Стоимость диагностики и лечения глаукомы в Вильнюсе: что влияет на цену",
+                                logo: true,
+                                text: [
+                                    {
+                                        content: [
+                                            {
+                                                type: "text",
+                                                text: "Стоимость зависит от объема обследования (тонометрия, ОКТ, периметрия и т. д.), сложности клинической ситуации, необходимости повторных измерений ВГД, а также частоты контрольных визитов.",
+                                            },
+                                            {
+                                                type: "text",
+                                                text: "На консультации врач объясняет, какие исследования действительно нужны именно вам, и формирует понятный план: диагностика → старт терапии → контроль → коррекция схемы.",
                                             },
                                         ],
                                     },
@@ -6769,92 +6924,91 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цены на лечение глаукомы в Киеве",
+                        title: "Цены на диагностику и лечение глаукомы в Вильнюсе",
                     },
                 },
                 { type: "doctors" },
                 {
                     type: "faq",
                     data: {
-                        title: "Частые вопросы о хирургическом лечении глаукомы",
+                        title: "Вопросы и ответы",
                         content: [
                             {
                                 question:
-                                    "Когда показано хирургическое лечение глаукомы и стоит ли ждать?",
+                                    "Можно ли лечить глаукому только каплями?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Операция рекомендована, если капли, лазер или их комбинации не контролируют внутриглазное давление или болезнь прогрессирует. Медлить не стоит — своевременное вмешательство помогает сохранить оставшееся зрение.",
+                                        text: "Во многих случаях — да: правильно подобранные капли позволяют годами удерживать ВГД под контролем и замедлять прогрессирование. Ключевое условие — регулярный мониторинг и дисциплина в применении препаратов.",
+                                    },
+                                ],
+                            },
+                            {
+                                question: "Как понять, что капли помогают?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "Эффективность оценивают по снижению ВГД до целевого уровня и по стабильности данных ОКТ/полей зрения в динамике, а не только по самочувствию.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Сколько стоит операция при глаукоме (цена Киев, Украина)?",
+                                    "Почему давление «скачет», хотя я капаю препараты?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Стоимость зависит от метода (НГСЭ, трабекулэктомия, MIGS), сложности и сопутствующих процедур. Точную цену сообщаем после обследования и консультации. Мы предоставляем прозрачный расчёт без скрытых платежей.",
+                                        text: "Причины бывают разные: пропуски доз, неправильная техника закапывания, неподходящая группа препарата, индивидуальные суточные колебания ВГД, взаимодействие с системными лекарствами. Это решается контрольными измерениями и корректировкой схемы.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Чем отличается непроникающая глубокая склерэктомия от трабекулэктомии?",
+                                    "Есть ли побочные эффекты от гипотензивных капель?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "НГСЭ — более щадящая операция с постепенным снижением ВГД и быстрым восстановлением; трабекулэктомия — «золотой стандарт» с долговременным контролем давления, но требует более длительной реабилитации.",
+                                        text: "Да, возможны местные реакции (жжение, сухость, покраснение) и, у некоторых препаратов, системные эффекты. Врач подбирает терапию с учетом противопоказаний и при необходимости переводит на альтернативы (включая бесконсервантные формы).",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Можно ли совместить лечение глаукомы с удалением катаракты?",
+                                    "Нужно ли делать ОКТ и поля зрения, если давление нормальное?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Да, часто это целесообразно. Комбинированная операция снижает количество анестезий и визитов, может улучшить качество зрения и стабильность давления.",
+                                        text: "Да. Глаукома — это не только цифры ВГД. Бывает прогрессирование при «нормальном» давлении, поэтому контроль зрительного нерва и поля зрения принципиален.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Какие побочные эффекты и противопоказания возможны?",
+                                    "Как часто нужно наблюдаться при глаукоме?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Как и любое хирургическое вмешательство, операция имеет риски: воспаление, колебания ВГД, рубцевание фильтрационной подушки. Противопоказания индивидуальны — врач обсудит их после осмотра и анализов.",
+                                        text: "Частота зависит от стадии и стабильности показателей. После назначения или смены терапии контроль обычно делают чаще, затем — по индивидуальному графику врача.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Сколько длится восстановление и когда можно вернуться к работе?",
+                                    "Что делать, если я забываю капать лекарства по расписанию?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Большинство пациентов после НГСЭ возвращаются к лёгким делам через 1–2 дня; после трабекулэктомии восстановление дольше. Ограничение физических нагрузок и контрольные осмотры обязательны.",
+                                        text: "Сообщите врачу — это частая ситуация. Можно подобрать более удобную схему (например, препараты с другим режимом, комбинированные капли), а также обсудить напоминания и правильную технику инстилляций.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Понадобится ли дальнейшее лечение после операции?",
+                                    "Если капли не дают нужного контроля, что дальше?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Послеоперационные капли и наблюдение — стандарт ухода. Некоторые пациенты полностью отказываются от гипотензивных капель, другим требуется меньшее количество препаратов.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "Как выбрать клинику и врача для операции при глаукоме?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Ориентируйтесь на опыт хирурга, набор методик (НГСЭ, трабекулэктомия, MIGS), современное оборудование, отзывы пациентов и прозрачность цен. Запишитесь на консультацию — врач предложит индивидуальную тактику лечения.",
+                                        text: "Если при корректной терапии ВГД остается высоким или есть прогрессирование, врач обсуждает расширение тактики. Но стартовая и базовая стратегия в большинстве случаев — именно точная диагностика и грамотно выстроенное медикаментозное лечение.",
                                     },
                                 ],
                             },
