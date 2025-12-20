@@ -7030,33 +7030,33 @@ export const raynerAdvantageDataTab: {
 } = {
     lt: {
         paddingBottom: false,
-        title: "Переваги встановлення Rayner GALAXY в Британському Офтальмологічному Центрі",
-        text: "Ми пропонуємо повний супровід пацієнта на всіх етапах — від діагностики до післяопераційного спостереження",
+        title: "Rayner GALAXY implantavimo privalumai akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva)",
+        text: "Užtikriname visapusišką paciento priežiūrą visais etapais – nuo diagnostikos iki pooperacinio stebėjimo",
         list: [
             {
-                title: "ексклюзивними постачальниками лінз Rayner GALAXY",
-                text: "Ця технологія доступна в Україні лише у нашій клініці",
+                title: "Išskirtiniai Rayner GALAXY lęšių tiekėjai",
+                text: "Ši technologija Lietuvoje prieinama akių klinikoje „Naujas regėjimas“",
             },
             {
-                title: "Новітнє обладнання",
-                text: "Обладнання та операційні зали, що відповідають міжнародним стандартам",
+                title: "Naujausia įranga",
+                text: "Įranga ir operacinės, atitinkančios tarptautinius standartus",
             },
             { videoOnly: "/videos/rayner-spiral.mp4" },
             {
-                title: "Індивідуальний підхід",
-                text: "Точна діагностика, підбір ІОЛ, контроль результату",
+                title: "Individualus požiūris",
+                text: "Tiksli diagnostika, IOL parinkimas ir rezultato kontrolė.",
             },
             {
-                title: "Досвідчені хірурги",
-                text: "Сертифіковані для роботи з сучасними інтраокулярними лінзами",
+                title: "Patyrę chirurgai",
+                text: "Sertifikuoti dirbti su šiuolaikiniais intraokuliniais lęšiais",
             },
             { imageOnly: "/images/rayner-box.png" },
             {
-                title: "100% безпеки",
-                text: "Максимальна безпека та комфорт під час кожного етапу лікування",
+                title: "100% saugumas",
+                text: "Maksimalus saugumas ir komfortas kiekviename gydymo etape.",
             },
             {
-                title: "Rayner GALAXY вже доступна до встановлення у нашій клініці",
+                title: "Rayner GALAXY jau galima implantuoti mūsų klinikoje",
                 text: "",
                 bgTransparent: true,
             },
@@ -7064,21 +7064,21 @@ export const raynerAdvantageDataTab: {
     },
     en: {
         paddingBottom: false,
-        title: "Advantages of Rayner GALAXY implantation at the British Ophthalmology Centre",
-        text: "We provide full patient support at every stage — from diagnosis to postoperative care",
+        title: "Benefits of Rayner GALAXY implantation at the “New Vision” Eye Clinic (Vilnius, Lithuania)",
+        text: "We provide full patient support at every stage—from diagnostics to post‑operative follow‑up",
         list: [
             {
-                title: "Exclusive suppliers of Rayner GALAXY lenses",
-                text: "This technology is available in Ukraine only at our clinic",
+                title: "Exclusive Rayner GALAXY lens suppliers",
+                text: "In Lithuania, this technology is available at the “New Vision” Eye Clinic.",
             },
             {
-                title: "State-of-the-art equipment",
-                text: "Facilities and operating rooms that meet international standards",
+                title: "State‑of‑the‑art equipment",
+                text: "Equipment and operating theatres that meet international standards.",
             },
             { videoOnly: "/videos/rayner-spiral.mp4" },
             {
-                title: "Individual approach",
-                text: "Accurate diagnostics, IOL selection, and results monitoring",
+                title: "Personalized approach",
+                text: "Accurate diagnostics, IOL selection, and outcome monitoring.",
             },
             {
                 title: "Experienced surgeons",
@@ -7090,7 +7090,7 @@ export const raynerAdvantageDataTab: {
                 text: "Maximum safety and comfort at every stage of treatment",
             },
             {
-                title: "Rayner GALAXY is now available for implantation in our clinic",
+                title: "Rayner GALAXY is now available for implantation at our clinic",
                 text: "",
                 bgTransparent: true,
             },
@@ -7098,12 +7098,12 @@ export const raynerAdvantageDataTab: {
     },
     ru: {
         paddingBottom: false,
-        title: "Преимущества установки Rayner GALAXY в Британском Офтальмологическом Центре",
+        title: "Преимущества установки Rayner GALAXY в клинике «Новое зрение» (Вильнюс, Литва)",
         text: "Мы обеспечиваем полное сопровождение пациента на всех этапах — от диагностики до послеоперационного наблюдения",
         list: [
             {
                 title: "Эксклюзивные поставщики линз Rayner GALAXY",
-                text: "Эта технология доступна в Украине только в нашей клинике",
+                text: "Эта технология доступна в Литве в клинике «Новое зрение»",
             },
             {
                 title: "Новейшее оборудование",
@@ -7135,12 +7135,12 @@ export const raynerAdvantageDataTab: {
 export const raynerCardsList = [
     {
         lt: {
-            title: "Значно менше відблисків і ореолів у темну пору доби",
-            text: "Мінімізована дисфотопія, особливо в умовах низької освітленості — для найвимогливіших пацієнтів.",
+            title: "Reikšmingai mažiau blyksnių ir aureolių tamsiuoju paros metu",
+            text: "Dysfotopsija sumažinama iki minimumo, ypač esant prastam apšvietimui – reikliausiems pacientams.",
         },
         en: {
-            title: "Significantly fewer glares and halos at night",
-            text: "Minimized dysphotopsia, especially in low-light conditions — for the most demanding patients.",
+            title: "Significantly less glare and fewer halos at night",
+            text: "Dysphotopsia is minimized, especially in low‑light conditions—for the most demanding patients.",
         },
         ru: {
             title: "Значительно меньше бликов и ореолов в тёмное время суток",
@@ -7151,11 +7151,11 @@ export const raynerCardsList = [
     },
     {
         lt: {
-            title: "Недифракційна оптика для 0% втрати світла при передачі",
-            text: "Преміум-лінза, яка максимізує передачу світла до сітківки.",
+            title: "Nedifrakcinė optika – 0 % šviesos nuostolio perduodant šviesą",
+            text: "Aukščiausios klasės lęšis, maksimaliai perduodantis šviesą į tinklainę.",
         },
         en: {
-            title: "Non-diffractive optics for 0% light loss during transmission",
+            title: "Non‑diffractive optics with 0% light loss in transmission",
             text: "A premium lens that maximizes light transmission to the retina.",
         },
         ru: {
@@ -7174,9 +7174,17 @@ export const raynerCTA: {
 } = {
     lt: {
         bigText: true,
-        title: "Поверніть собі якісний зір — легко та без окулярів",
-        text: "Ми дотримуємося високих стандартів безпеки та стерильності, приділяючи увагу кожному етапу лікування — від обстеження до післяопераційних оглядів, щоб забезпечити вам спокій та комфорт.",
+        title: "Susigrąžinkite kokybišką regėjimą – lengvai ir be akinių",
+        text: "Laikomės aukščiausių saugumo ir sterilumo standartų, skirdami dėmesį kiekvienam gydymo etapui – nuo ištyrimo iki pooperacinių apžiūrų, kad užtikrintume jūsų ramybę ir komfortą.",
     },
-    en: { title: "", text: "" },
-    ru: { title: "", text: "" },
+    en: {
+        bigText: true,
+        title: "Restore clear, high-quality vision — easily and without glasses",
+        text: "We adhere to the highest standards of safety and sterility, paying close attention to every stage of treatment — from examination to post-operative follow-ups — to ensure your peace of mind and comfort.",
+    },
+    ru: {
+        bigText: true,
+        title: "Верните себе качественное зрение — легко и без очков",
+        text: "Мы придерживаемся высоких стандартов безопасности и стерильности, уделяя внимание каждому этапу лечения — от обследования до послеоперационных осмотров, чтобы обеспечить вам спокойствие и комфорт.",
+    },
 };
