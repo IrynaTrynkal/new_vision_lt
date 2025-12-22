@@ -25,7 +25,6 @@ export function FAQServiceSchema({
                 .join(" ");
         }
 
-        // Якщо тип image — нічого не повертаємо
         return "";
     };
 

@@ -1,4 +1,3 @@
-// components/CustomSelect.tsx
 import { useEffect, useRef, useState } from "react";
 
 import { IconChevron } from "../icons/IconChevron";

@@ -93,25 +93,6 @@ export const servicesList: ServicesListProps[] = [
             ru: "khirurgiia-prozrachnogo-khrustalika",
         },
     },
-
-    // {
-    //     key: "vitreoretinalna-hirurgiya",
-    //     icon: true,
-    //     slug: {
-    //         lt: "vitreoretinalna-hirurgiya",
-    //         en: "vitreoretinal-surgery",
-    //         ru: "vitreoretinalnaya-khirurgiya",
-    //     },
-    // },
-    // {
-    //     key: "intravitrealni-inekczii",
-    //     icon: true,
-    //     slug: {
-    //         lt: "intravitrealni-inekczii",
-    //         en: "intravitreal-injections",
-    //         ru: "intravitrealnyye-inyektsii",
-    //     },
-    // },
     {
         key: "glaukomos-gydymas",
         icon: true,
@@ -121,42 +102,6 @@ export const servicesList: ServicesListProps[] = [
             ru: "glaukomos-gydymas",
         },
     },
-    // {
-    //     key: "likuvannya-kosookosti",
-    //     icon: true,
-    //     slug: {
-    //         lt: "likuvannya-kosookosti",
-    //         en: "strabismus-treatment",
-    //         ru: "lecheniye-kosoglaziya",
-    //     },
-    // },
-    // {
-    //     key: "hirurgiya-povik-i-konyunktivi",
-    //     icon: true,
-    //     slug: {
-    //         lt: "hirurgiya-povik-i-konyunktivi",
-    //         en: "eyelid-and-conjunctival-surgery",
-    //         ru: "khirurgiya-vek-i-konyunktivy",
-    //     },
-    // },
-    // {
-    //     key: "anesteziologichnij-posibnik",
-    //     icon: true,
-    //     slug: {
-    //         lt: "anesteziologichnij-posibnik",
-    //         en: "anesthesia-benefit",
-    //         ru: "anesteziologicheskoye-posobiye",
-    //     },
-    // },
-    // {
-    //     key: "ksenonoterapiya",
-    //     icon: true,
-    //     slug: {
-    //         lt: "ksenonoterapiya",
-    //         en: "xenon-therapy",
-    //         ru: "ksenonoterapiya",
-    //     },
-    // },
 ];
 export type PatientsListProps = {
     key: string;
