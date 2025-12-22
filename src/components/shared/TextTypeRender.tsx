@@ -20,7 +20,7 @@ export const TextTypeRender = ({ data }: { data: TextType[] }) => {
             }
             if (bold) {
                 return (
-                    <span key={i} className="font-medium">
+                    <span key={i} className="font-semibold">
                         {value}
                     </span>
                 );

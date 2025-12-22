@@ -44,7 +44,7 @@ export default async function EyesDiseasePage({
             href: "/akiu-ligos",
         },
     ];
-    const selectedDisease = disease || "glaukoma";
+    const selectedDisease = disease || "akiu-ligu-simptomai";
     const data = eyeDiseaseData.find(dis => dis.name.key === selectedDisease);
 
     return (

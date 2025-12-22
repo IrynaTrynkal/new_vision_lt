@@ -1,3 +1,3 @@
 export const MediumText = ({ children }: { children: React.ReactNode }) => (
-    <span style={{ fontWeight: 500 }}>{children}</span>
+    <span style={{ fontWeight: 600 }}>{children}</span>
 );
