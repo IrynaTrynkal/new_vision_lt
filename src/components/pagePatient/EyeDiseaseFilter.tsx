@@ -21,10 +21,13 @@ export const EyeDiseaseFilter = ({
     const searchParams = useSearchParams();
 
     const openedDisease =
-        (searchParams.get("disease") as EyeDiseaseSlugType) ?? "glaukoma";
+        (searchParams.get("disease") as EyeDiseaseSlugType) ??
+        "akiu-ligu-simptomai";
 
     const diseases = useMemo(() => {
-        return Array.from(new Set<EyeDiseaseSlugType>(list));
+        return Array.from(new Set<EyeDiseaseSlugType>(list)).sort((a, b) =>
+            a.localeCompare(b)
+        );
     }, [list]);
 
     const toggleSubmenu = (key: EyeDiseaseSlugType) => {

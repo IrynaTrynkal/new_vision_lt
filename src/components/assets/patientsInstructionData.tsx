@@ -3950,133 +3950,216 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Глаукома - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Глаукома: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Глаукома",
+            title: "Glaukoma",
             content: [
                 {
-                    title: "Що таке глаукома?",
+                    title: "Kas yra glaukoma?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Глаукома — це загальна назва для групи захворювань, що призводять до пошкодження зорового нерва і втрати зору. Глаукома в цілому є відстроченою формою втрати зору і при ранньому виявленні може бути вилікувана. На жаль, близько 10% людей, які отримують правильне лікування, тим не менше все ж втрачають зір. Глаукома часто не має очевидних ознак або симптомів до початку втрати зору. Кращим способом захисту є регулярна перевірка зору разом зі спеціальною перевіркою на глаукому.",
+                            text: "Glaukoma yra bendrinis pavadinimas, apibūdinantis gausybę sutrikimų, kurie pažeidžia regos nervą ir lemia apakimą. Paprastai susirgus šia liga, neišvengiamai gresia prarasti regėjimą, tačiau nustačius  anksti, glaukomą galima gydyti. Deja, net 10 % tinkamai gydytų žmonių vis tiek apanka. Dažnai glaukomos nelydi jokie akivaizdūs požymiai ar simptomai ir ji nustatoma tik tuomet, kai ima silpnėti rega. Geriausias apsisaugojimo būdas – reguliariai tikrintis akis dėl glaukomos.",
                         },
                     ],
                 },
                 {
-                    title: "Причини глаукоми",
+                    title: "Glaukomos priežastys",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "У більшості випадків пошкодження зорового нерва при глаукомі викликається підвищеним внутрішньоочним тиском, при якому зростає тиск рідини всередині ока, внаслідок чого здавлюється і пошкоджується зоровий нерв. Внутрішньоочний тиск підвищується, коли рідини, які виробляються в оці, втрачають здатність покидати око своїм звичайним шляхом, відомим як відкритий кут між райдужною оболонкою і рогівкою. Вони акумулюються в оці, що призводить до підвищення тиску. Однак у випадку глаукоми з нормальним тиском причина пошкодження зорового нерва не завжди ясна.",
+                            text: "Dažniausiai glaukomos žalą regos nervui sukelia padidėjęs akispūdis, kurį savo ruožtu sukelia daug įvairių faktorių, priklausomai nuo glaukomos tipo. Vis dėlto, išsivysčius normalaus akispūdžio glaukomai, žalos regos nervui priežastis ne visuomet yra žinoma.",
                         },
                     ],
                 },
                 {
-                    title: "Фактори ризику глаукоми",
+                    title: "Glaukomos rizikos faktoriai",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Глаукома є другою за поширеністю причиною сліпоти в світі. Так як ознаки і симптоми глаукоми часто незначні, її називають «тихим злодієм зору». Усім рекомендується регулярно проходити перевірки на глаукому в складі комплексної перевірки зору, особливо при наявності одного або декількох факторів ризику глаукоми.",
+                            text: "Glaukoma yra antra pagal paplitimą regos netekimo priežastis pasaulyje. Kadangi šios ligos požymių ir simptomų paprastai būna labai nedaug, ji vadinama „tyliu regos vagimi“. Rekomenduojama reguliariai tikrintis akis, ypač jei nustatomas vienas ar daugiau glaukomos rizikos faktorių.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Фактори ризику глаукоми різняться в залежності від виду глаукоми.",
+                            text: "Šie faktoriai skiriasi priklausomai nuo glaukomos tipo.",
                         },
                     ],
                 },
                 {
-                    title: "Первинна відкритокутова глаукома",
+                    title: "Atvirojo kampo glaukoma",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Первинна відкритокутова глаукома, при якій відкритий кут з часом закупорюється, — це найбільш поширена форма глаукоми. Фактори ризику глаукоми включають:",
+                            text: "Atvirojo kampo glaukoma, kartais dar vadinama pirmine atvirojo kampo glaukoma, siekiant ją atskirti nuo antrinės, yra labiausiai paplitęs glaukomos tipas. Jos rizikos faktoriai yra:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Вік. У осіб старше 60 років глаукома зустрічається в шість разів частіше.",
-                                "Сімейна історія. Якщо глаукома спостерігається в інших членів Вашої родини, Ваш ризик зростає в 4-9 разів.",
-                                "Медикаменти. Стероїди можуть підвищити ризик відкритокутової глаукоми на 40%.",
-                                "Стан здоров’я. Високий кров’яний тиск може підвищити ризик глаукоми.",
+                                "rasė: penkis kartus dažnesnė tarp afroamerikiečių nei baltaodžių ir dažnai išsivysto anksčiau;",
+                                "amžius: glaukomos išsivystymo tikimybė yra šešis kartus didesnė žmonėms, vyresniems nei 60 metų amžiaus;",
+                                "šeimos istorija: jei kiti šeimos nariai serga glaukoma, jos rizika asmeniui išauga 4–9 kartus;",
+                                "vaistai: steroidų vartojimas padidina atvirojo kampo glaukomos riziką iki 40 %;",
+                                "ligos: aukštas kraujo spaudimas padidina atvirojo kampo glaukomos riziką.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Закритокутова глаукома",
+                    title: "Uždarojo kampo glaukoma",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Закритокутова глаукома, також відома як гострокутна глаукома, виникає, коли райдужна оболонка виступає над кутом, блокуючи дренажні канали. Це призводить до швидкого і небезпечного зростання внутрішньоочного тиску. Фактори ризику глаукоми включають:",
+                            text: "Uždarojo kampo glaukoma, kartais dar vadinama ūmine arba siaurojo kampo glaukoma, išsivysto labai greitai ir baigiasi staigiu apakimu. Jos rizikos faktoriai yra:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Зір. Якщо у Вас далекозорість, то Ваш ризик підвищений.",
-                                "Вік. Ризик виникнення глаукоми підвищується з віком.",
-                                "Стать. Підвищеному ризику схильні жінки.",
+                                "prastas regėjimas: jei esate toliaregis, glaukomos rizika yra didesnė;",
+                                "amžius: senstant uždarojo kampo glaukomos rizika didėja;",
+                                "rasė: azijiečiai ir eskimų palikuonys patenka į didesnės rizikos grupę;",
+                                "lytis: tarp baltaodžių moterys glaukoma serga dažniau.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Вторинна глаукома",
+                    title: "Antrinė glaukoma",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Вторинна глаукома, при якій відкритий кут закупорюється через пошкодження ока, запалення, злоякісної пухлини, катаракти або діабету, може виникнути з наступних причин:",
+                            text: "Antrinė glaukoma – tai glaukoma, kurią lemia kitas sutrikimas. Antrinė glaukoma gali būti tiek atvirojo, tiek uždarojo kampo. Dažnos antrinės glaukomos priežastys yra:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Пошкодження ока. Як тупа, так і проникаюча травма ока можуть призвести до вторинної глаукоми.",
-                                "Стан здоров’я. Діабет і катаракта можуть підвищити ризик вторинної глаукоми.",
-                                "Стать і колір шкіри. Світлошкірі жінки схильні до ризику вторинної глаукоми певного типу.",
-                                "Медикаменти. Деякі медикаменти можуть підвищити ризик виникнення відкритокутової або глаукоми вторинного типу.",
+                                "akies trauma: tiek buku, tiek aštriu daiktu padaryta akies trauma gali būti antrinės glaukomos priežastis;",
+                                "ligos: cukrinis diabetas ir katarakta didina tam tikrų antrinių glaukomos formų riziką;",
+                                "rasė: skandinavų palikuonys dažniau serga vieno tipo antrine glaukoma, baltaodžiai – kito tipo;",
+                                "lytis: baltaodės moterys dažniau serga specifinio tipo antrine glaukoma;",
+                                "vaistai: kai kurie vaistai didina tiek atvirojo, tiek uždarojo kampo antrinės glaukomos riziką.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Захист зору",
+                    title: "Regos saugojimas",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Навіть якщо Ви не схильн до жодного з чинників ризику, у Вас все одно може розвинутися глаукома. Рекомендується проходити перевірки на глаукому.",
+                            text: "Glaukomos rizikos faktorių yra daug, tačiau net jei Jums netaikomas nė vienas iš anksčiau minėtų veiksnių, vis tiek galite susirgti glaukoma. Rekomenduojama reguliariai tikrinantis akis įtraukti ir patikrinimą dėl glaukomos, ypač senstant. Susisiekite su savo apylinkės oftalmologu, kuris atlieka glaukomos tyrimus, ir apsisaugokite nuo neišgydomo apakimo.",
                         },
                     ],
                 },
                 {
-                    title: "Лікування глаукоми",
+                    title: "Glaukomos diagnozavimas",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лікування глаукоми може запобігти сильну втрату зору, якщо хвороба діагностована досить рано. Варіанти лікування включають:",
+                            text: "Ankstyvas glaukomos aptikimas per reguliarius akių patikrinimus vaidina esminį vaidmenį ją gydant ir užkertant kelią regos netekimui. Per įprastinius akių patikrinimus turėtumėte pasitikrinti ir dėl glaukomos:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Очні каплі.",
-                                "Хірургічне втручання.",
-                                "Селективну лазерну трабекулопластику (SLT).",
+                                "kas 2–4 metus, jei Jums mažiau nei 40 metų;",
+                                "kas 1–3 metus, jei Jums nuo 40 iki 54 metų;",
+                                "kas 1–2 metus, jei Jums nuo 55 iki 64 metų;",
+                                "kasmet, jei Jums 65 ar daugiau metų.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "При виникненні глаукоми потрібно довічне лікування та спостереження. Якщо Вам призначили ліки від глаукоми, Вам необхідно приймати їх у відповідності з інструкціями лікаря. У глаукоми існують ознаки — її можна діагностувати до того, як Ви відчуєте які-небудь симптоми. Симптоми суб’єктивні і можуть бути чи не бути зрозумілі лікарю. Ознаки об’єктивні і зрозумілі лікарю, але можуть бути чи не бути помічені пацієнтом.",
+                            text: "Jei patenkate į didelės rizikos grupę, turėtumėte pradėti tikrintis akis dėl glaukomos nuo 35 metų ir daryti tai kas 1–2 metus.",
+                        },
+                    ],
+                },
+                {
+                    title: "Glaukomos tipai",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Glaukomos tipų yra daug ir įvairių. Dauguma jų siejami su padidėjusiu akispūdžiu, kada skysčio spaudimas akyje padidėja, todėl spaudžiamas ir pažeidžiamas regos nervas. Akispūdis didėja, kai akyje susikaupęs skystis negali pasišalinti per įprastinį kanalą, vadinamą atviruoju kampu, tarp rainelės ir ragenos. Skystis kaupiasi akyje, todėl akispūdis didėja. Šiuo metu žinomos glaukomos formos yra:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                [
+                                    {
+                                        bold: true,
+                                        value: "Pirminė atvirojo kampo glaukoma",
+                                    },
+                                    {
+                                        value: ", kai laikui bėgant atvirasis kampas užsikemša. Tai labiausiai paplitusi glaukomos forma.",
+                                    },
+                                ],
+                                [
+                                    {
+                                        bold: true,
+                                        value: "Uždarojo kampo glaukoma",
+                                    },
+                                    {
+                                        value: ", kitaip dar vadinama ūmine. Ji išsivysto, kai rainelė prisispaudžia prie kampo, užkimšdama ištekėjimo kanalus. Ši glaukoma gali sukelti staigų ir pavojingą akispūdžio padidėjimą.",
+                                    },
+                                ],
+                                [
+                                    { bold: true, value: "Antrinė glaukoma" },
+                                    {
+                                        value: ", kai atvirasis kampas užsikemša dėl akies traumos, uždegimo, akies auglio, kataraktos ar diabeto.",
+                                    },
+                                ],
+                                [
+                                    { bold: true, value: "Vaikų glaukoma " },
+                                    {
+                                        value: "– labiausiai paplitęs jos tipas yra įgimta glaukoma, kai vaikas gimsta jau su padidėjusiu akispūdžiu (įgimta būklė). Šia glaukoma serga maždaug 1 iš 10 000 kūdikių.",
+                                    },
+                                ],
+                                [
+                                    {
+                                        bold: true,
+                                        value: "Normalaus akispūdžio glaukoma ",
+                                    },
+                                    {
+                                        value: "– tai glaukoma, kuri išsivysto be akispūdžio padidėjimo.",
+                                    },
+                                ],
+                            ],
+                        },
+                    ],
+                },
+                {
+                    title: "Glaukomos gydymas",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Glaukomos gydymas gali užkirsti kelią regos netekimui, jei sutrikimas aptinkamas anksti. Glaukomos gydymo būdai yra:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "akių lašiukai;",
+                                "chirurginė operacija;",
+                                "selektyvusis lazerinis gydymas.",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Glaukoma neišgydoma. Ją galima tik kontroliuoti ir stebėti visą gyvenimą. Jei Jums buvo paskirti vaistai nuo šios ligos, privalote juos vartoti, kaip nurodė gydytojas. Glaukomos požymių YRA. Ligą galima diagnozuoti dar prieš pastebint simptomus. Juos pacientai vertina subjektyviai ir gydytojui jie ne visada gali būti aiškūs. Arba požymiai yra objektyvūs ir aiškūs gydytojui, tačiau pacientas gali jų nepastebėti.",
                         },
                     ],
                 },
@@ -4095,7 +4178,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaucoma is the common name for a group of diseases that lead to optic nerve damage and vision loss. Glaucoma is generally a preventable form of vision loss and can be cured if detected early. Unfortunately, about 10% of people who receive proper treatment nevertheless still lose their vision. Glaucoma often has no obvious signs or symptoms before vision loss begins. The best way to protect yourself is to have regular eye exams along with a special glaucoma screening.",
+                            text: "Glaucoma is a collective term describing a group of disorders that damage the optic nerve and can lead to blindness. Once the disease develops, there is a significant risk of vision loss; however, when detected early, glaucoma can be treated. Unfortunately, even about 10% of properly treated patients still lose their sight. Glaucoma often has no obvious signs or symptoms and is only detected once vision begins to deteriorate. The best prevention is regular eye examinations for glaucoma.",
                         },
                     ],
                 },
@@ -4105,7 +4188,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "In most cases, optic nerve damage in glaucoma is caused by increased intraocular pressure, in which fluid pressure inside the eye increases, causing compression and damage to the optic nerve. Intraocular pressure increases when the fluids produced in the eye lose their ability to leave the eye through their normal pathway, known as the open angle between the iris and cornea. They accumulate in the eye, resulting in an increase in pressure. However, in the case of glaucoma with normal pressure, the cause of optic nerve damage is not always clear.",
+                            text: "In most cases, optic nerve damage in glaucoma is caused by increased intraocular pressure, which may result from various factors depending on the type of glaucoma. However, in normal-tension glaucoma, the cause of optic nerve damage is not always known.",
                         },
                     ],
                 },
@@ -4115,54 +4198,52 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaucoma is the second most common cause of blindness in the world. Because the signs and symptoms of glaucoma are often subtle, it is called the “silent thief of sight.” Everyone is advised to get regular glaucoma screenings as part of a comprehensive eye exam, especially if one or more glaucoma risk factors are present.",
+                            text: "Glaucoma is the second leading cause of vision loss worldwide. Because signs and symptoms are often minimal, it is referred to as the “silent thief of sight.” Regular eye examinations are recommended, especially if one or more risk factors are present.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Risk factors for glaucoma vary depending on the type of glaucoma.",
+                            text: "These risk factors vary depending on the type of glaucoma.",
                         },
                     ],
                 },
                 {
-                    title: "Primary open angle glaucoma",
+                    title: "Open-angle glaucoma",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Primary open angle glaucoma, in which the open angle eventually clogs up, is the most common form of glaucoma. Risk factors for open-angle glaucoma include:",
+                            text: "Open-angle glaucoma, also known as primary open-angle glaucoma to distinguish it from secondary forms, is the most common type of glaucoma. Risk factors include:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Age. Individuals over age 60 are six times more likely to have glaucoma.",
-                                "Family history. If other members of your family have glaucoma, your risk increases four to nine times.",
-                                "Medications. Steroids can increase your risk of open-angle glaucoma by 40 percent.",
-                                "Health condition. High blood pressure can increase your risk of open-angle glaucoma.",
+                                "race: five times more common among African Americans than Caucasians and often develops earlier;",
+                                "age: the risk is six times higher in people over 60 years old;",
+                                "family history: the risk increases 4–9 times if close relatives have glaucoma;",
+                                "medications: steroid use increases the risk of open-angle glaucoma by up to 40%;",
+                                "medical conditions: high blood pressure increases the risk of open-angle glaucoma.",
                             ],
                         },
-                        {
-                            type: "text",
-                            text: "Risk factors for glaucoma vary depending on the type of glaucoma.",
-                        },
                     ],
                 },
                 {
-                    title: "Closed-angle glaucoma",
+                    title: "Angle-closure glaucoma",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Closed angle glaucoma, also known as acute angle glaucoma, occurs when the iris protrudes over the angle, blocking the drainage channels. This leads to a rapid and dangerous increase in intraocular pressure. Risk factors for closed-angle glaucoma include:",
+                            text: "Angle-closure glaucoma, also called acute or narrow-angle glaucoma, develops rapidly and can result in sudden blindness. Risk factors include:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Vision. If you have farsightedness, your risk is increased.",
-                                "Age. Your risk for closed-angle glaucoma increases with age.",
-                                "Gender. Women are at increased risk.",
+                                "refractive error: farsighted individuals have a higher risk;",
+                                "age: the risk increases with age;",
+                                "race: people of Asian descent and Inuit ancestry are at higher risk;",
+                                "gender: among Caucasians, women are affected more often.",
                             ],
                         },
                     ],
@@ -4173,27 +4254,63 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Secondary glaucoma, in which the open angle is occluded because of damage to the eye, inflammation, malignancy, cataracts, or diabetes, can occur for one of the following reasons:",
+                            text: "Secondary glaucoma develops as a result of another condition and may be either open-angle or angle-closure. Common causes include:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Damage to the eye. Both blunt and penetrating trauma to the eye can lead to secondary glaucoma.",
-                                "Health condition. Diabetes and cataracts can increase the risk of secondary glaucoma.",
-                                "Gender and skin color. Light-skinned women are at risk for certain types of secondary glaucoma.",
-                                "Medications. Certain medications may increase the risk of open-angle or closed-angle glaucoma of a secondary type.",
+                                "eye injury: trauma caused by blunt or sharp objects;",
+                                "diseases: diabetes and cataracts increase the risk of certain secondary glaucomas;",
+                                "race: specific types are more common among people of Scandinavian descent or Caucasians;",
+                                "gender: certain types occur more frequently in Caucasian women;",
+                                "medications: some drugs increase the risk of both open-angle and angle-closure secondary glaucoma.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Eye protection",
+                    title: "Protecting your vision",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Even if you are not exposed to any of the risk factors, you may still develop glaucoma. It is recommended that you get checked for glaucoma.",
+                            text: "There are many risk factors for glaucoma, but even without them, the disease may still develop. Regular glaucoma screening should be part of routine eye examinations, especially as you age. Contact your local ophthalmologist who performs glaucoma testing to protect yourself from irreversible blindness.",
+                        },
+                    ],
+                },
+                {
+                    title: "Diagnosing glaucoma",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Early detection of glaucoma through regular eye exams plays a crucial role in treatment and prevention of vision loss. Recommended screening intervals are:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "every 2–4 years if under 40;",
+                                "every 1–3 years between ages 40–54;",
+                                "every 1–2 years between ages 55–64;",
+                                "annually if 65 or older.",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Individuals at high risk should begin glaucoma screening at age 35 and repeat it every 1–2 years.",
+                        },
+                    ],
+                },
+                {
+                    title: "Types of glaucoma",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "There are many different types of glaucoma. Most are associated with increased intraocular pressure that damages the optic nerve.",
                         },
                     ],
                 },
@@ -4203,21 +4320,21 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Treating glaucoma can prevent severe vision loss if the disease is diagnosed early enough. Treatment options include:",
+                            text: "Glaucoma treatment can prevent vision loss if the condition is detected early. Treatment options include:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Eye drops;",
-                                "Surgery;",
-                                "Selective laser trabeculoplasty (SLT).",
+                                "eye drops;",
+                                "surgical treatment;",
+                                "selective laser therapy.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "When glaucoma occurs, lifelong treatment and monitoring is required. If you are prescribed glaucoma medication, you need to take it according to your doctor’s instructions. Glaucoma HAS signs – it can be diagnosed before you feel any symptoms. Symptoms are subjective and may or may not be understood by the doctor. Signs are objective and understood by the doctor, but may or may not be seen by the patient.",
+                            text: "Glaucoma is incurable. It can only be controlled and monitored throughout life. If you have been prescribed medication for this condition, you must take it exactly as directed by your doctor. Signs of glaucoma DO exist. The disease can be diagnosed even before symptoms become noticeable. Patients often perceive symptoms subjectively, and they may not always be clear to the doctor. Conversely, some signs may be objective and evident to the doctor, but unnoticed by the patient.",
                         },
                     ],
                 },
@@ -4236,7 +4353,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Глаукома – это общее название для группы заболеваний, приводящих к повреждению зрительного нерва и потере зрения. Глаукома в целом является предотвращаемой формой потери зрения и при раннем обнаружении может быть излечена. К сожалению, около 10% людей, получающих правильное лечение, тем не менее все же теряют зрение. Глаукома часто не имеет очевидных признаков или симптомов до начала потери зрения. Лучшим способом защиты является регулярная проверка зрения вместе со специальной проверкой на глаукому.",
+                            text: "Глаукома — это общее название группы заболеваний, которые поражают зрительный нерв и приводят к слепоте. Как правило, при развитии этого заболевания существует высокий риск потери зрения, однако при раннем выявлении глаукому можно лечить. К сожалению, даже около 10 % пациентов, получающих надлежащее лечение, всё равно теряют зрение. Часто глаукома не сопровождается явными признаками или симптомами и выявляется только тогда, когда начинает ухудшаться зрение. Лучший способ защиты — регулярные обследования глаз на наличие глаукомы.",
                         },
                     ],
                 },
@@ -4246,7 +4363,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "В большинстве случаев повреждение зрительного нерва при глаукоме вызывается повышенным внутриглазным давлением, при котором растет давление жидкости внутри глаза, в результате чего сдавливается и повреждается зрительный нерв. Внутриглазное давление повышается, когда жидкости, производимые в глазу, теряют способность покидать глаз по своему обычному пути, известному как открытый угол между радужной оболочкой и роговицей. Они аккумулируются в глазу, что приводит к повышению давления. Однако в случае глаукомы с нормальным давлением причина повреждения зрительного нерва не всегда ясна.",
+                            text: "Чаще всего повреждение зрительного нерва при глаукоме вызывается повышенным внутриглазным давлением, которое, в свою очередь, может быть обусловлено множеством факторов в зависимости от типа глаукомы. Однако при глаукоме нормального давления причина повреждения зрительного нерва не всегда известна.",
                         },
                     ],
                 },
@@ -4256,37 +4373,33 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Глаукома является второй по распространенности причиной слепоты в мире. Так как признаки и симптомы глаукомы часто незначительны, ее называют «тихим вором зрения». Всем рекомендуется регулярно проходить проверки на глаукому в составе комплексной проверки зрения, в особенности при наличии одного или нескольких факторов риска глаукомы.",
+                            text: "Глаукома является второй по распространённости причиной потери зрения в мире. Поскольку признаки и симптомы заболевания часто выражены слабо, её называют «тихим вором зрения». Рекомендуется регулярно проходить обследование глаз, особенно при наличии одного или нескольких факторов риска глаукомы.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Факторы риска глаукомы различаются в зависимости от вида глаукомы.",
+                            text: "Эти факторы различаются в зависимости от типа глаукомы.",
                         },
                     ],
                 },
                 {
-                    title: "Первичная открытоугольная глаукома",
+                    title: "Открытоугольная глаукома",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Первичная открытоугольная глаукома, при которой открытый угол со временем закупоривается, — это наиболее распространенная форма глаукомы. Факторы риска открытоугольной глаукомы включают:",
+                            text: "Открытоугольная глаукома, также называемая первичной открытоугольной глаукомой для отличия от вторичной, является наиболее распространённым типом глаукомы. К факторам риска относятся:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Возраст. У лиц старше 60 лет глаукома встречается в шесть раз чаще.",
-                                "Семейная история. Если глаукома наблюдается у других членов вашей семьи, ваш риск возрастает в 4-9 раз.",
-                                "Медикаменты. Стероиды могут повысить риск открытоугольной глаукомы на 40%.",
-                                "Состояние здоровья. Высокое кровяное давления может повысить риск открытоугольной глаукомы.",
+                                "раса: встречается в пять раз чаще у афроамериканцев, чем у европеоидов, и развивается раньше;",
+                                "возраст: риск развития глаукомы в шесть раз выше у людей старше 60 лет;",
+                                "семейный анамнез: при наличии глаукомы у родственников риск увеличивается в 4–9 раз;",
+                                "лекарственные препараты: приём стероидов повышает риск открытоугольной глаукомы до 40 %;",
+                                "заболевания: артериальная гипертензия увеличивает риск открытоугольной глаукомы.",
                             ],
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Факторы риска глаукомы различаются в зависимости от вида глаукомы.",
                         },
                     ],
                 },
@@ -4296,15 +4409,16 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Закрытоугольная глаукома, также известная как остроугольная глаукома, возникает, когда радужная оболочка выступает над углом, блокируя дренажные каналы. Это приводит к быстрому и опасному росту внутриглазного давления. Факторы риска закрытоугольной глаукомы включают:",
+                            text: "Закрытоугольная глаукома, также называемая острой или узкоугольной, развивается очень быстро и может привести к внезапной слепоте. Факторы риска включают:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Зрение. Если у вас дальнозоркость, то ваш риск повышен.",
-                                "Возраст. Риск возникновения закрытоугольной глаукомы повышается с возрастом.",
-                                "Пол. Повышенному риску подвержены женщины.",
+                                "нарушение рефракции: при дальнозоркости риск глаукомы выше;",
+                                "возраст: с возрастом риск закрытоугольной глаукомы увеличивается;",
+                                "раса: азиаты и потомки эскимосов относятся к группе повышенного риска;",
+                                "пол: среди европеоидов женщины болеют чаще.",
                             ],
                         },
                     ],
@@ -4315,27 +4429,63 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Вторичная глаукома, при которой открытый угол закупоривается из-за повреждения глаза, воспаления, злокачественной опухоли, катаракты или диабета, может возникнуть по одной из следующих причин:",
+                            text: "Вторичная глаукома — это глаукома, развивающаяся вследствие другого заболевания. Она может быть как открытоугольной, так и закрытоугольной. Частые причины вторичной глаукомы:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Повреждение глаза. Как тупая, так и проникающая травма глаза могут привести к вторичной глаукоме.",
-                                "Состояние здоровья. Диабет и катаракта могут повысить риск вторичной глаукомы.",
-                                "Пол и цвет кожи. Светлокожие женщины подвержены риску вторичной глаукомы определенного типа.",
-                                "Медикаменты. Некоторые медикаменты могут повысить риск возникновения открытоугольной или закрытоугольной глаукомы вторичного типа.",
+                                "травма глаза: повреждения тупыми или острыми предметами;",
+                                "заболевания: сахарный диабет и катаракта повышают риск некоторых форм вторичной глаукомы;",
+                                "раса: у потомков скандинавов чаще встречается один тип, у европеоидов — другой;",
+                                "пол: у европеоидных женщин чаще встречается определённый тип вторичной глаукомы;",
+                                "лекарственные препараты: некоторые медикаменты повышают риск как открытоугольной, так и закрытоугольной вторичной глаукомы.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Защита зрения",
+                    title: "Сохранение зрения",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Даже если вы не подвержены ни одному из факторов риска, у вас все равно может развиться глаукома. Рекомендуется проходить проверки на глаукому.",
+                            text: "Факторов риска глаукомы существует множество, однако даже при их отсутствии заболевание может развиться. Рекомендуется регулярно включать проверку на глаукому в план обследования глаз, особенно с возрастом. Обратитесь к офтальмологу, проводящему диагностику глаукомы, чтобы защитить себя от необратимой слепоты.",
+                        },
+                    ],
+                },
+                {
+                    title: "Диагностика глаукомы",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Раннее выявление глаукомы при регулярных осмотрах глаз играет ключевую роль в лечении и предотвращении потери зрения. Рекомендуемые интервалы обследований:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "каждые 2–4 года — до 40 лет;",
+                                "каждые 1–3 года — в возрасте 40–54 лет;",
+                                "каждые 1–2 года — в возрасте 55–64 лет;",
+                                "ежегодно — с 65 лет.",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "При высоком риске обследования на глаукому рекомендуется начинать с 35 лет и проходить их каждые 1–2 года.",
+                        },
+                    ],
+                },
+                {
+                    title: "Типы глаукомы",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Существует множество форм глаукомы. Большинство из них связано с повышенным внутриглазным давлением, которое приводит к повреждению зрительного нерва.",
                         },
                     ],
                 },
@@ -4345,21 +4495,21 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лечение глаукомы может предотвратить сильную потерю зрения, если болезнь диагностирована достаточно рано. Варианты лечения включают:",
+                            text: "Лечение глаукомы может предотвратить потерю зрения при раннем выявлении заболевания. Основные методы лечения:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Глазные капли.",
-                                "Хирургическое вмешательство.",
-                                "Селективную лазерную трабекулопластику (SLT).",
+                                "глазные капли;",
+                                "хирургическое вмешательство;",
+                                "селективное лазерное лечение.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "При возникновении глаукомы требуется пожизненное лечение и наблюдение. Если вам назначили лекарство от глаукомы, вам необходимо принимать его в соответствии с инструкциями врача. У глаукомы ЕСТЬ признаки – ее можно диагностировать до того, как вы почувствуете какие-либо симптомы. Симптомы субъективны и могут быть или не быть понятны врачу. Признаки объективны и понятны врачу, но могут быть или не быть замечены пациентом.",
+                            text: "Глаукома неизлечима. Её можно только контролировать и наблюдать на протяжении всей жизни. Если вам назначены препараты для лечения этого заболевания, вы обязаны принимать их строго по назначению врача. Признаки глаукомы СУЩЕСТВУЮТ. Заболевание можно диагностировать ещё до появления заметных симптомов. Пациенты воспринимают симптомы субъективно, и врачу они не всегда бывают очевидны. В то же время признаки могут быть объективными и понятными врачу, но оставаться незамеченными пациентом.",
                         },
                     ],
                 },
@@ -4373,25 +4523,25 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Астигматизм - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Астигматизм: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Астигматизм",
+            title: "Astigmatizmas",
             content: [
                 {
-                    title: "Що таке?",
+                    title: "Astigmatizmas – kas tai?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Астигматизм є причиною розпливчастого зору незалежно від відстані. Очі не ідеально круглої форми, вони більше схожі на м’яч для регбі, і їх поверхня не симетрична. Вона фокусує світло в одній площині краще, ніж в іншїй. В результаті зір стає розпливчастим, з’являється двоїння.",
+                            text: "Astigmatizmas – refrakcijos yda, nulemianti iškraipytą ar miglotą matymą įvairiais atstumais. Tai lemia pakitusi ragenos forma, kuri tampa panaši į regbio kamuolį, o ragenos paviršius darosi asimetriškas. Dėl tokio gaubtumo susidaro laužiamosios šviesos spindulių gebos skirtumas, todėl žmogaus regėjimas, nepriklausomai nuo atstumo, yra neryškus. Pavyzdžiui, vienu kampu daikto kontūrai gali atrodyti ryškesni, negu žiūrint kitu kampu.",
                         },
                     ],
                 },
                 {
-                    title: "Лікування астигматизма",
+                    title: "Astigmatizmo gydymas",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Погляньте на таблицю нижче, щоб зрозуміти, який тип операції може підійти особисто Вам.",
+                            text: "Peržvelgę šias lenteles galite numanyti, kokia operacija tiktų būtent Jums.",
                         },
                         {
                             type: "component",
@@ -4401,29 +4551,29 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                 },
                 {
-                    title: "Лазерна корекція зору",
+                    title: "Lazerinė regos korekcija",
                     text: [
                         {
                             type: "text",
-                            text: "Хоча окуляри й контактні лінзи допомагають впоратися з астигматизмом, їх можна порівняти з гіпсом і милицями, тобто це тимчасове рішення, яке дозволяє вийти з положення, але фактично не усуває причину проблеми так, як цього можна досягнути за допомогою хірургічного втручання.",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
+                        name: "daugiau detalių",
                         link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
-                    title: "Інтраокулярна корекція",
+                    title: "Intraokulinė korekcija",
                     text: [
                         {
                             type: "text",
-                            text: "Інтраокулярні лінзи призначені для корекції високого ступеня астигматизму. У тому випадку, якщо лазерна корекція Вам не підходить, не впадайте у відчай, тому що є й інші можливості досягнення бажаного. «Британський офтальмологічний центр» пропонує ряд операцій, які можуть Вам допомогти. Під час консультації, ми зможемо з’ясувати, чи не протипоказана Вам операція, і визначити найкращий варіант операції для Вас.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio astigmatizmą. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu mes nustatysime, ar galime Jus operuoti ir kokia operacija Jums tinkamiausia.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
-                        link: "paslaugos/skaidraus-lesio-operacija/",
+                        name: "daugiau detalių",
+                        link: "/paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -4436,12 +4586,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Astigmatism",
             content: [
                 {
-                    title: "What is it?",
+                    title: "Astigmatism – what is it?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Astigmatism causes blurred vision regardless of distance. The eyes are not perfectly round — they are more like a rugby ball, and their surface is not symmetrical. It focuses light better in one plane than in another, resulting in blurred or double vision.",
+                            text: "Astigmatism is a refractive error that causes distorted or blurred vision at various distances. It is caused by an altered shape of the cornea, which becomes similar to a rugby ball, making the corneal surface asymmetrical. Due to this curvature, differences in the refractive power of light rays occur, resulting in blurred vision regardless of distance. For example, the contours of an object may appear sharper from one angle than from another.",
                         },
                     ],
                 },
@@ -4451,7 +4601,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Take a look at the table below to understand which type of surgery may be right for you.",
+                            text: "By reviewing these tables, you can estimate which type of surgery may be suitable for you.",
                         },
                         {
                             type: "component",
@@ -4465,12 +4615,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Although glasses and contact lenses help to manage astigmatism, they can be compared to a cast and crutches — a temporary solution that helps you get by but doesn’t address the root cause of the problem as surgery can.",
+                            text: "Although glasses and contact lenses help correct certain visual impairments, they are more like bandages and crutches — a temporary aid that does not eliminate the underlying cause of the problem as surgery can.",
                         },
                     ],
                     btn: {
-                        name: "read more",
-                        link: "/services/laser-eye-surgery",
+                        name: "more details",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4478,11 +4628,11 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Intraocular lenses are designed to correct a high degree of astigmatism. If laser correction is not suitable for you, don’t despair — there are other options available to achieve the desired result. The British Ophthalmology Center offers a number of surgical procedures that can help. During a consultation, we will determine whether surgery is contraindicated for you and identify the best surgical option for your needs.",
+                            text: "Intraocular correction is performed to treat high-degree astigmatism. If it has been determined that laser vision correction is not suitable for you, do not lose hope — there are other ways to restore good vision. The eye clinic “New Vision” offers surgical procedures that may help you. During the consultation, we will determine whether surgery is possible for you and which procedure is most appropriate.",
                         },
                     ],
                     btn: {
-                        name: "read more",
+                        name: "more details",
                         link: "/services/refractive-lens-exchange",
                     },
                 },
@@ -4496,12 +4646,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Астигматизм",
             content: [
                 {
-                    title: "Что это такое?",
+                    title: "Астигматизм — что это?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Астигматизм вызывает размытое зрение независимо от расстояния. Глаза имеют не идеально круглую форму — они больше похожи на мяч для регби, и их поверхность несимметрична. Она лучше фокусирует свет в одной плоскости, чем в другой, в результате чего зрение становится размытым и появляется двоение.",
+                            text: "Астигматизм — это рефракционная ошибка, приводящая к искажённому или размытомy зрению на разных расстояниях. Причиной является изменённая форма роговицы, которая становится похожей на мяч для регби, из-за чего поверхность роговицы становится асимметричной. В результате такой кривизны возникает разница в преломляющей способности световых лучей, и зрение становится нечётким независимо от расстояния. Например, контуры предмета могут выглядеть более чёткими под одним углом, чем под другим.",
                         },
                     ],
                 },
@@ -4511,7 +4661,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Посмотрите таблицу ниже, чтобы понять, какой тип операции может подойти именно вам.",
+                            text: "Изучив эти таблицы, вы сможете предположить, какой вид операции может подойти именно вам.",
                         },
                         {
                             type: "component",
@@ -4525,12 +4675,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Хотя очки и контактные линзы помогают справиться с астигматизмом, их можно сравнить с гипсом и костылями — это временное решение, которое помогает выйти из положения, но не устраняет причину проблемы так, как это возможно с помощью хирургического вмешательства.",
+                            text: "Хотя очки и контактные линзы помогают корректировать некоторые нарушения зрения, они больше похожи на повязки и костыли — временную помощь, которая не устраняет причину проблемы так, как это делает операция.",
                         },
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/lazernaya-korrektsiya-zreniya",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4538,12 +4688,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Интраокулярные линзы предназначены для коррекции высокой степени астигматизма. Если лазерная коррекция вам не подходит, не отчаивайтесь — существуют и другие способы достичь желаемого результата. «Британский офтальмологический центр» предлагает ряд операций, которые могут вам помочь. Во время консультации мы определим, нет ли противопоказаний, и подберем оптимальный вариант операции для вас.",
+                            text: "Интраокулярная коррекция применяется при астигматизме высокой степени. Если установлено, что лазерная коррекция зрения вам не показана, не отчаивайтесь — существуют другие способы вернуть хорошее зрение. Глазная клиника «Новое зрение» предлагает операции, которые могут вам помочь. Во время консультации мы определим, возможна ли операция в вашем случае и какой метод будет наиболее подходящим.",
                         },
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/refraktsionnaya-lensektomiya",
+                        link: "/uslugi/khirurgiia-prozrachnogo-khrustalika",
                     },
                 },
             ],
@@ -4556,15 +4706,25 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Далекозорість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Далекозорість: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Далекозорість",
+            title: "Toliaregystė",
             content: [
                 {
-                    title: "Симптоми та причини",
+                    title: "Toliaregystės simptomai ir priežastys",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Далекозорість, яка інакше називається гіперметропія, виникає при уплощенні рогівки або при занадто короткому очному яблуці. Ці стани не дозволяють променям світла, що потрапляє в око, переломлюватися в ступені, достатньому для їх фокусування на сітківці. Замість цього зображення, які ви бачите, фокусуються за сітківкою. Для далекозорих людей ближні об’єкти виглядають більш розмитими, ніж об’єкти на відстані. Наприклад, якби ви сиділи на літньому майданчику ресторану, меню здавалося б розмитим, а навколишній пейзаж — у фокусі. Однак думка, що далекозорі завжди добре бачать вдалину, помилкова. Часто далекозорі бачать погано і зблизька, і вдалину. Однак люди, які страждають лише вікової далекозорістю (пресбіопією), добре бачать вдалину, тому що у них немає аномалій рефракцій і кришталик завжди знаходиться в розслабленому стані. Далекозорі люди часто відчувають головний біль при виконанні роботи поблизу.",
+                            text: "Toliaregystė arba hipermetropija – tai akomodacijos sutrikimas, kurio metu sumažėja galimybė ryškiai matyti daiktus, esančius arti. Dažniausiai toliaregystė pasitaiko vyresnio amžiaus žmonėms.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Jei esate toliaregis, arti esantys vaizdai atrodo labiau migloti nei tolimi. Pavyzdžiui, jei sėdėtumėte restorano vasaros terasoje, meniu atrodytų neryškus, o aplinkinis kraštovaizdis būtų matomas sufokusuotas. Tačiau klaidinga nuomonė, kad toliaregiai visada gerai mato į tolį. Sunkūs toliaregystės atvejai gali paveikti ir toli esančių objektų matymą.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Toliaregystė susiformuoja, kai ragena yra per daug plokščia arba akis yra per trumpa. Šios sąlygos neleidžia šviesos spinduliams, kurie patenka į Jūsų akis, reikiamai užlūžti ir fokusuotis tinklainėje. Vietoje to matomi vaizdai fokusuojami už tinklainės.",
                         },
                         {
                             type: "image",
@@ -4574,49 +4734,64 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Далекозорість розвивається набагато рідше, ніж короткозорість, і її поширення збільшується з віком пацієнтів. При далекозорості у висновку зазвичай стоїть цифра зі знаком плюс перед нею.",
+                            text: "Jei esate toliaregis (-ė), matomi vaizdai fokusuojami už tinklainės, o ne tinklainėje.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Maždaug 11,8 milijonų Jungtinių Valstijų gyventojų (arba maždaug 10 procentų populiacijos) turi tam tikro laipsnio toliaregystę. Toliaregystė išsivysto žymiai rečiau nei trumparegystė, o jos paplitimas dažnėja su pacientų amžiumi.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Kai akių gydytojas ištiria Jūsų akis, jis išrašo receptą, kuriame nurodomas refrakcijos ydos laipsnis. Toliaregystės receptuose paprastai prieš pirmąjį skaičių būna pliuso ženklas.",
                         },
                     ],
                 },
                 {
-                    title: "Варіанти лікування далекозорості",
+                    title: "Toliaregystės gydymo būdai",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Далекозорість може бути виправлена за допомогою як окулярів, так і контактних лінз, щоб змінити напрям променів світла в оці. Хворі часто змушені носити окуляри або контактні лінзи або весь час, або тільки для читання, роботи на комп’ютері та іншої роботи поблизу. Незайвим буде додержуватися порад щодо зміцнення зору. Якщо ви бажаєте раз і назавжди позбутися від окулярів і контактних лінз, можна звернутися до хірургічних методів лікування.",
+                            text: "Toliaregystės korekcija priklauso nuo keleto faktorių, pvz., amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais, pakeičiančiais šviesos spindulių kryptį akyje. Pacientams akinius ar kontaktinius lęšius tenka nešioti visą laiką arba tik skaitymui, darbui kompiuteriu ar dirbant kitus darbus, reikalaujančius gero regėjimo iš arti. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar lęšių receptą, o skiltį „Pratimai akims“ – norėdami gauti informacijos, kaip išvengti regėjimo problemų, atliekant akių stiprinimo pratimus.",
                         },
                         {
                             type: "component",
                             gap: true,
                             component: <FarsightednessTable />,
                         },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Jei norite ir esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių visam laikui, peržiūrėkite šias regos korekcijos galimybes:",
+                        },
                     ],
                 },
                 {
-                    title: "Лазерна корекція зору",
+                    title: "Lazerinė regos korekcija",
                     text: [
                         {
                             type: "text",
-                            text: "Хоча окуляри й контактні лінзи допомагають впоратися з далекозорістю, їх можна порівняти з гіпсом і милицями, тобто це тимчасове рішення, яке дозволяє вийти з положення, але фактично не усуває причину проблеми так, як цього можна досягнути за допомогою хірургічного втручання.",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
+                        name: "daugiau detalių",
                         link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
-                    title: "Інтраокулярна корекція",
+                    title: "Intraokulinė korekcija",
                     text: [
                         {
                             type: "text",
-                            text: "Інтраокулярні лінзи призначені для корекції високого ступеня астигматизму. У тому випадку, якщо лазерна корекція Вам не підходить, не впадайте у відчай, тому що є й інші можливості досягнення бажаного. «Британський офтальмологічний центр» пропонує ряд операцій, які можуть Вам допомогти. Під час консультації, ми зможемо з’ясувати, чи не протипоказана Вам операція, і визначити найкращий варіант операції для Вас.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio hiperopiją. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu mes nustatysime, ar Jus galima operuoti ir kokia operacija Jums tinkamiausia.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
-                        link: "paslaugos/skaidraus-lesio-operacija/",
+                        name: "daugiau detalių",
+                        link: "/paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -4629,12 +4804,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Farsightedness",
             content: [
                 {
-                    title: "Symptoms and causes",
+                    title: "Symptoms and causes of farsightedness",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Farsightedness, also known as hypermetropia, occurs when the cornea is too flat or the eyeball is too short. These conditions prevent light entering the eye from being refracted enough to focus directly on the retina. Instead, the image you see is focused behind the retina. For farsighted people, nearby objects appear blurrier than those at a distance. For example, if you were sitting on a restaurant terrace, the menu would appear blurry while the surrounding landscape would be in focus. However, the belief that farsighted people always see well at a distance is incorrect. Often, farsighted individuals see poorly both near and far. People who suffer only from age-related farsightedness (presbyopia) can see well at a distance because they have no refractive anomalies and their lens remains in a relaxed state. Farsighted people often experience headaches when doing close-up work.",
+                            text: "Farsightedness, or hypermetropia, is an accommodation disorder in which the ability to see objects clearly at close distances is reduced. Farsightedness most commonly occurs in older people.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "If you are farsighted, objects that are close appear more blurred than those that are far away. For example, if you were sitting on a restaurant’s summer terrace, the menu would look blurry, while the surrounding landscape would appear in focus. However, it is a misconception that farsighted people always see well at a distance. Severe cases of farsightedness can also affect the vision of distant objects.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Farsightedness develops when the cornea is too flat or the eye is too short. These conditions prevent light rays entering the eye from bending properly and focusing on the retina. Instead, images are focused behind the retina.",
                         },
                         {
                             type: "image",
@@ -4644,7 +4829,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Farsightedness develops much less frequently than myopia, and its prevalence increases with age. In a medical report, farsightedness is usually indicated by a number preceded by a plus sign.",
+                            text: "If you are farsighted, images are focused behind the retina rather than on the retina.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Approximately 11.8 million people in the United States (or about 10 percent of the population) have some degree of farsightedness. Farsightedness develops much less frequently than nearsightedness, and its prevalence increases with age.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "When an eye doctor examines your eyes, they issue a prescription that indicates the degree of refractive error. Prescriptions for farsightedness usually have a plus sign before the first number.",
                         },
                     ],
                 },
@@ -4654,12 +4849,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Farsightedness can be corrected with glasses or contact lenses to change the direction of light rays in the eye. Patients often need to wear glasses or lenses either all the time or only for reading, computer work, or other close-up tasks. It is also beneficial to follow recommendations for strengthening eyesight. If you wish to get rid of glasses and contact lenses once and for all, surgical treatment options are available.",
+                            text: "Correction of farsightedness depends on several factors, such as age, activities, and profession, but it is usually corrected with contact lenses or glasses that change the direction of light rays in the eye. Patients may need to wear glasses or contact lenses all the time or only for reading, computer work, or other tasks that require good near vision. Review the “Eye Examination” section to learn more about how to obtain a prescription for corrective glasses or lenses, and the “Eye Exercises” section to learn how to prevent vision problems by performing eye-strengthening exercises.",
                         },
                         {
                             type: "component",
                             gap: true,
                             component: <FarsightednessTable />,
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "If you want and are ready to permanently give up corrective glasses or contact lenses, review the following vision correction options:",
                         },
                     ],
                 },
@@ -4668,12 +4868,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Although glasses and contact lenses help to manage farsightedness, they can be compared to a cast and crutches — a temporary solution that allows you to function but does not eliminate the root cause of the problem as surgical intervention can.",
+                            text: "Although glasses and contact lenses help correct certain visual impairments, they are more like bandages and crutches — a temporary aid that does not eliminate the underlying cause of the problem as surgery can.",
                         },
                     ],
                     btn: {
-                        name: "read more",
-                        link: "/services/laser-eye-surgery",
+                        name: "more details",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4681,11 +4881,11 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Intraocular lenses are designed to correct a high degree of astigmatism. If laser correction is not suitable for you, don’t despair — there are other ways to achieve the desired result. The British Ophthalmology Center offers several types of surgeries that can help. During your consultation, we will determine whether surgery is contraindicated for you and choose the best surgical option for your case.",
+                            text: "Intraocular correction is performed to treat high-degree astigmatism. If it has been determined that laser vision correction is not suitable for you, do not lose hope — there are other ways to restore good vision. The eye clinic “New Vision” offers surgical procedures that may help you. During the consultation, we will determine whether surgery is possible for you and which procedure is most appropriate.",
                         },
                     ],
                     btn: {
-                        name: "read more",
+                        name: "more details",
                         link: "/services/refractive-lens-exchange",
                     },
                 },
@@ -4699,12 +4899,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Дальнозоркость",
             content: [
                 {
-                    title: "Симптомы и причины",
+                    title: "Симптомы и причины дальнозоркости",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Дальнозоркость, иначе называемая гиперметропией, возникает при уплощении роговицы или слишком коротком глазном яблоке. Эти состояния не позволяют световым лучам, попадающим в глаз, преломляться в достаточной степени, чтобы сфокусироваться на сетчатке. Вместо этого изображение фокусируется за сетчаткой. У дальнозорких людей близкие предметы выглядят более размытыми, чем дальние. Например, если вы сидите на летней террасе ресторана, меню будет казаться размытым, а окружающий пейзаж — в фокусе. Однако мнение, что дальнозоркие всегда хорошо видят вдаль, ошибочно. Часто дальнозоркие плохо видят и вблизи, и вдаль. Люди, страдающие только возрастной дальнозоркостью (пресбиопией), хорошо видят вдаль, так как у них нет аномалий рефракции и хрусталик находится в расслабленном состоянии. Дальнозоркие часто испытывают головные боли при работе на близком расстоянии.",
+                            text: "Дальнозоркость, или гиперметропия, — это нарушение аккомодации, при котором снижается способность чётко видеть предметы, находящиеся на близком расстоянии. Чаще всего дальнозоркость встречается у людей старшего возраста.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Если у вас дальнозоркость, объекты, расположенные близко, выглядят более размытыми, чем удалённые. Например, если бы вы сидели на летней террасе ресторана, меню выглядело бы нечетким, а окружающий пейзаж был бы в фокусе. Однако ошибочно полагать, что дальнозоркие люди всегда хорошо видят вдаль. Тяжёлые случаи дальнозоркости могут также влиять на зрение вдали.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Дальнозоркость формируется, когда роговица слишком плоская или глазное яблоко слишком короткое. Эти условия не позволяют световым лучам, попадающим в глаз, правильно преломляться и фокусироваться на сетчатке. Вместо этого изображение фокусируется за сетчаткой.",
                         },
                         {
                             type: "image",
@@ -4714,22 +4924,37 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Дальнозоркость развивается гораздо реже, чем близорукость, и её распространённость увеличивается с возрастом. В заключении врача дальнозоркость обычно указывается цифрой со знаком плюс перед ней.",
+                            text: "Если у вас дальнозоркость, изображение фокусируется за сетчаткой, а не на ней.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Около 11,8 миллиона жителей Соединённых Штатов (или примерно 10 процентов населения) имеют ту или иную степень дальнозоркости. Дальнозоркость развивается значительно реже, чем близорукость, и её распространённость увеличивается с возрастом пациентов.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Когда офтальмолог осматривает ваши глаза, он выписывает рецепт, в котором указывается степень рефракционного нарушения. В рецептах при дальнозоркости обычно перед первым числом стоит знак «плюс».",
                         },
                     ],
                 },
                 {
-                    title: "Варианты лечения дальнозоркости",
+                    title: "Методы лечения дальнозоркости",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Дальнозоркость может быть скорректирована с помощью очков или контактных линз, чтобы изменить направление световых лучей в глазу. Пациентам часто приходится носить очки или линзы постоянно или только для чтения, работы за компьютером и других занятий вблизи. Также полезно следовать рекомендациям по укреплению зрения. Если вы хотите навсегда избавиться от очков и контактных линз, можно рассмотреть хирургические методы лечения.",
+                            text: "Коррекция дальнозоркости зависит от нескольких факторов, таких как возраст, вид деятельности и профессия, но чаще всего она осуществляется с помощью контактных линз или очков, изменяющих направление световых лучей в глазу. Пациентам может потребоваться носить очки или контактные линзы постоянно или только для чтения, работы за компьютером или выполнения других задач, требующих хорошего зрения вблизи. Ознакомьтесь с разделом «Проверка зрения», чтобы узнать больше о том, как получить рецепт на корректирующие очки или линзы, а также с разделом «Упражнения для глаз», чтобы получить информацию о профилактике проблем со зрением с помощью укрепляющих упражнений для глаз.",
                         },
                         {
                             type: "component",
                             gap: true,
                             component: <FarsightednessTable />,
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Если вы хотите и готовы навсегда отказаться от корректирующих очков или контактных линз, ознакомьтесь со следующими возможностями коррекции зрения:",
                         },
                     ],
                 },
@@ -4738,12 +4963,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Хотя очки и контактные линзы помогают справиться с дальнозоркостью, их можно сравнить с гипсом и костылями — это временное решение, которое позволяет справляться с проблемой, но не устраняет её причину так, как это делает хирургическое вмешательство.",
+                            text: "Хотя очки и контактные линзы помогают корректировать некоторые нарушения зрения, они больше похожи на повязки и костыли — временную помощь, которая не устраняет причину проблемы так, как это делает операция.",
                         },
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/lazernaya-korrektsiya-zreniya",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -4751,12 +4976,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Интраокулярные линзы предназначены для коррекции высокой степени астигматизма. Если лазерная коррекция вам не подходит, не отчаивайтесь — существуют и другие способы достичь желаемого результата. «Британский офтальмологический центр» предлагает ряд операций, которые могут вам помочь. Во время консультации мы определим, нет ли противопоказаний, и подберём лучший вариант операции для вас.",
+                            text: "Интраокулярная коррекция применяется при астигматизме высокой степени. Если установлено, что лазерная коррекция зрения вам не показана, не отчаивайтесь — существуют другие способы вернуть хорошее зрение. Глазная клиника «Новое зрение» предлагает операции, которые могут вам помочь. Во время консультации мы определим, возможна ли операция в вашем случае и какой метод будет наиболее подходящим.",
                         },
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/refraktsionnaya-lensektomiya",
+                        link: "/uslugi/khirurgiia-prozrachnogo-khrustalika",
                     },
                 },
             ],
@@ -4769,19 +4994,19 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Катаракта - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Катаракта: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Катаракта",
+            title: "Каtarakta",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Катаракта – це захворювання, при якому порушується прозорість кришталика, що призводить до зниження гостроти зору. Назва цього захворювання походить від грецького слова katarrháktes, що означає «водоспад». Це з уявленнями древніх лікарів у тому, що захворювання розвивається внаслідок стікання каламутної рідини між райдужкою і кришталиком.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Виявити катаракту на стадії неможливо без офтальмологічного огляду. Видимих симптомів на ранній стадії взагалі немає. З розвитком захворювання погіршується зір: пацієнт починає бачити предмети нечітко, немов вони перебувають у тумані, підвищується чутливість при погляді яскраве світло, погіршується нічний зір, послаблюється колірне сприйняття.",
+                            text: [
+                                { bold: true, value: "Katarakta" },
+                                {
+                                    value: " – tai akies lęšiuko drumstis, dėl kurios žmogaus regėjimas tampa neryškus. Dar vienas kataraktos simptomas – blogas matymas, esant ryškiai šviesai. Jeigu liga negydoma, regėjimas vis blogėja, tampa miglotas ir neryškus, spalvos atrodo pritemdytos (su geltonu arba rudu atspalviu). Skaityti ar vairuoti mažai apšviestoje aplinkoje tampa sudėtinga, nes suprastėja regėjimas naktį, o aplink žibintus kartais matomi ratilai. Kartais pacientai jaučia akių skausmą būdami ryškioje saulės šviesoje ar matydami stiprų akinantį atspindį nuo paviršių, pvz., priekinių automobilių stiklų.  Šia liga dažniausiai serga 60–70 metų žmonės, nors pasitaiko atvejų, kai liga pasireiškia ir žymiai jaunesniame amžiuje.",
+                                },
+                            ],
                         },
                     ],
                 },
@@ -4791,12 +5016,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Незважаючи на те, що катаракта найчастіше розвивається внаслідок вікових змін очей, захворювання все частіше виявляється у віці 40-50 років або навіть молодше. У пацієнтів віком понад 80 років частота виявлення катаракти становить майже 100%.",
+                            text: "Pradinėje stadijoje kataraktos neįmanoma aptikti be oftalmologinio tyrimo. Ankstyvoje stadijoje apskritai nėra matomų ligos simptomų. Vystantis ligai, regėjimas pablogėja: pacientas pradeda neaiškiai matyti daiktus, tarsi jie būtų rūke, padidėja akių jautrumas žiūrint į ryškią šviesą, blogėja naktinis matymas, silpnėja spalvų suvokimas.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "У більшості людей зі старечою (віковою) катарактою захворювання розвивається дуже повільно та безболісно протягом багатьох років, і часто початковий діагноз ставиться при звичайному обстеженні у офтальмолога.",
+                            text: "Nepaisant to, kad katarakta dažniausiai išsivysto dėl su amžiumi susijusių akių pokyčių, liga vis dažniau nustatoma sulaukus 40–50 metų ar dar jaunesniems pacientams. Vyresnių nei 80 metų pacientų kataraktos aptikimo rodiklis yra beveik 100 %.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Daugumai senatvine (su amžiumi susijusia) katarakta sergančių žmonių liga daugelį metų vystosi labai lėtai ir neskausmingai, dažnai pradinė diagnozė nustatoma įprastos oftalmologo apžiūros metu.",
                         },
                         {
                             type: "text",
@@ -4804,14 +5034,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "Однак, хороша новина полягає в тому, що катаракту можна успішно вилікувати. У нашій клініці застосовується революційний метод водний потік iQ-5 minutes – видалення катаракти “водою”.",
+                                    value: "Tačiau gera žinia ta, kad katarakta gali būti sėkmingai gydoma. Mūsų klinikoje „Naujas regėjimas“ taikomas revoliucinis metodas „iQ-5 minutes“ – kataraktos šalinimas „vandeniu“.",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "У ході операції уражений катарактою кришталик видаляють, але в його місце встановлюється штучна інтраокулярна лінза (ИОЛ). Анестезія проводиться шляхом закопування сучасних знеболювальних крапель. Після операції зір одразу відновлюється.",
+                            text: "Kataraktos operacija atliekama be narkozės ir skausmo (su vietine anestezija, įlašinus specialių anestetinių lašų). Operacijos metu kataraktos paveiktas lęšis pašalinamas, o jo vietoje implantuojamas dirbtinis intraokulinis lęšis (IOL). Iš karto po operacijos Jūsų regėjimas sugrįžta ir Jūs viską matote puikiai.",
                         },
                     ],
                 },
@@ -4829,26 +5059,32 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Cataract is a disease in which the transparency of the crystalline lens is affected, resulting in decreased visual acuity. The name of the disease comes from the Greek word katarrháktes, which means “waterfall. This is due to the belief of ancient healers that the disease develops due to the flow of turbid fluid between the iris and the lens.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "It is impossible to detect cataract in its initial stages without an ophthalmic examination. At the early stage, there are no visible symptoms at all. As the disease develops, vision gets worse: Patient’s vision gets blurred, as if in a fog, sensitivity to bright light increases, night vision worsens, color perception weakens.",
+                            text: [
+                                { bold: true, value: "Cataract" },
+                                {
+                                    value: " is a clouding of the eye’s natural lens that causes blurred vision. Another symptom of cataracts is poor vision in bright light. If left untreated, vision gradually worsens, becoming hazy and unclear, and colors appear dull (with a yellow or brown tint). Reading or driving in low-light conditions becomes difficult due to deteriorating night vision, and halos may sometimes be seen around lights. In some cases, patients experience eye pain when exposed to bright sunlight or strong glare from reflective surfaces, such as car windshields. This condition most commonly affects people aged 60–70, although there are cases when it develops at a much younger age.",
+                                },
+                            ],
                         },
                     ],
                 },
+
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "In spite of the fact that cataract most often develops as a result of age-related changes in the eye, the disease is more often detected at the age of 40-50 or even younger. In patients over the age of 80, the detection rate of cataracts is virtually 100%.",
+                            text: "In the early stages, cataracts cannot be detected without an ophthalmological examination. At this stage, there are generally no visible symptoms of the disease. As the condition progresses, vision deteriorates: patients begin to see objects unclearly, as if through fog, sensitivity to bright light increases, night vision worsens, and color perception weakens.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Most people with senile (age-related) cataracts develop the disease very slowly and painlessly over many years, and often the initial diagnosis is made during a routine examination by an ophthalmologist.",
+                            text: "Although cataracts most often develop due to age-related changes in the eyes, the condition is increasingly diagnosed in patients aged 40–50 or even younger. In patients over the age of 80, the detection rate of cataracts is almost 100%.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "For most people with senile (age-related) cataracts, the disease develops very slowly and painlessly over many years, and the initial diagnosis is often made during a routine ophthalmologist’s examination.",
                         },
                         {
                             type: "text",
@@ -4856,14 +5092,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "However, the good news is that cataract can be successfully treated. Our clinic is using a revolutionary “iQ-5 water flow” method of cataract extraction.",
+                                    value: "However, the good news is that cataracts can be successfully treated. At our “Naujas regėjimas” clinic, we use the revolutionary “iQ-5 minutes” method – cataract removal using “water”.",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "The affected cataract is removed during the surgery, and an artificial intraocular lens (IOL) is implanted in its place. Anaesthesia is achieved through the use of modern anaesthetic drops. After the surgery, vision is restored immediately.",
+                            text: "Cataract surgery is performed without general anesthesia and without pain (using local anesthesia with special anesthetic eye drops). During the procedure, the lens affected by cataracts is removed and replaced with an artificial intraocular lens (IOL). Immediately after the surgery, your vision returns and you can see clearly.",
                         },
                     ],
                 },
@@ -4881,26 +5117,32 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Катаракта — это заболевание, при котором нарушается прозрачность хрусталика, что приводит к снижению остроты зрения. Название этого заболевания произошло от греческого слова katarrháktes, что означает «водопад». Это связано с представлениями древних врачевателей о том, что заболевание развивается вследствие стекания мутной жидкости между радужкой и хрусталиком.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Обнаружить катаракту на начальной стадии невозможно без офтальмологического осмотра. Видимых симптомов на ранней стадии вообще нет. С развитием заболевания ухудшается зрение: пациент начинает видеть предметы нечетко, словно они находятся в тумане, повышается чувствительность при взгляде на яркий свет, ухудшается ночное зрение, ослабляется цветовое восприятие.",
+                            text: [
+                                { bold: true, value: "Катаракта" },
+                                {
+                                    value: " — это помутнение естественного хрусталика глаза, из-за которого зрение становится нечетким. Еще один симптом катаракты — ухудшение зрения при ярком освещении. Если заболевание не лечить, зрение постепенно ухудшается, становится туманным и размытым, а цвета выглядят приглушенными (с желтым или коричневым оттенком). Чтение или вождение в условиях слабого освещения становится затруднительным из-за ухудшения ночного зрения, а вокруг источников света иногда появляются ореолы. В некоторых случаях пациенты испытывают боль в глазах при ярком солнечном свете или при виде сильных бликов от отражающих поверхностей, например лобовых стекол автомобилей. Чаще всего этим заболеванием страдают люди в возрасте 60–70 лет, однако встречаются случаи его развития и в значительно более молодом возрасте.",
+                                },
+                            ],
                         },
                     ],
                 },
+
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Несмотря на то, что катаракта чаще всего развивается в результате возрастных изменений глаз, заболевание все чаще выявляется в возрасте 40-50 лет или даже младше. У пациентов старше 80 лет частота выявления катаракты составляет практически 100%.",
+                            text: "На начальной стадии катаракту невозможно выявить без офтальмологического обследования. На раннем этапе, как правило, отсутствуют видимые симптомы заболевания. По мере развития болезни зрение ухудшается: пациент начинает видеть предметы нечетко, словно в тумане, повышается чувствительность глаз к яркому свету, ухудшается ночное зрение, ослабевает восприятие цветов.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "У большинства людей со старческой (возрастной) катарактой заболевание развивается очень медленно и безболезненно на протяжении многих лет, и часто первоначальный диагноз ставится при обычном обследовании у офтальмолога.",
+                            text: "Несмотря на то что катаракта чаще всего развивается из-за возрастных изменений глаз, заболевание все чаще диагностируется у пациентов в возрасте 40–50 лет или даже моложе. У пациентов старше 80 лет показатель выявления катаракты составляет почти 100%.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "У большинства людей с возрастной катарактой заболевание развивается очень медленно и безболезненно в течение многих лет, и первоначальный диагноз часто ставится во время планового осмотра у офтальмолога.",
                         },
                         {
                             type: "text",
@@ -4908,14 +5150,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "Однако, хорошая новость заключается в том, что катаракту можно успешно вылечить. В нашей клинике применяется революционный метод «водный поток iQ-5 minutes» – удаление катаракты “водой”. ",
+                                    value: "Однако хорошая новость заключается в том, что катаракта успешно поддается лечению. В нашей клинике «Naujas regėjimas» применяется революционный метод «iQ-5 minutes» — удаление катаракты с помощью «воды».",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "В ходе операции пораженный катарактой хрусталик удаляют, а на его место устанавливается искусственная интраокулярная линза (ИОЛ). Анестезия проводится путем закапывания современных обезболивающих капель. После операции зрение сразу восстанавливается.",
+                            text: "Операция по удалению катаракты проводится без общего наркоза и без боли (с применением местной анестезии — закапываются специальные анестезирующие капли). Во время операции пораженный катарактой хрусталик удаляется и на его место имплантируется искусственный интраокулярный хрусталик (IOL). Сразу после операции зрение возвращается, и вы начинаете видеть четко.",
                         },
                     ],
                 },
@@ -4929,10 +5171,10 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Короткозорість, міопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Короткозорість, міопія: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Короткозорість, міопія",
+            title: "Trumparegystė",
             content: [
                 {
-                    title: "Симптоми та причини",
+                    title: "Trumparegystės (arba miopijos) simptomai ir priežastys",
                     text: [
                         {
                             type: "image",
@@ -4941,22 +5183,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Якщо у Вас короткозорість, зображення об’єктів на відстані здаються розмитими. Ви можете виявити, що зображення стають чіткішими, якщо прищулитися. Наприклад, короткозорі студенти могли б легко читати книги і бачити сидячих поруч сусідів, але викладачі і, що більш важливо, слова на дошці здавалися б розмитими. Короткозорість, інакше міопія, виникає, коли промені світла, що потрапляють в око, заломлюються занадто сильно і сходяться в точці, не досягаючи сітківки. При короткозорості очне яблуко може бути довше норми або рогівка може бути занадто зігнутою. В результаті зображення, які Ви бачите, не фокусуються на сітківці належним чином.",
+                            text: "Jei esate trumparegis, toli esantys vaizdai atrodo migloti. Prisimerkus šie vaizdai tampa ryškesni. Pavyzdžiui, trumparegiai studentai gali skaityti knygas ir matyti arti esančius studentus, bet dėstytojas ir lenta atrodo miglotai. Trumparegystė (dar vadinama miopija) susiformuoja, kai į akį patenkantys spinduliai laužiami per daug, todėl sufokusuojami taške priešais tinklainę. Akys su trumparegyste taip pat gali būti ilgesnės nei įprasta arba jų ragena gali būti per daug išlinkusi, dėl to matomi vaizdai nefokusuojami tinklainėje.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Зазвичай короткозорість розвивається в дитинстві й вперше виявляється, коли батьки помічають, що дитина відчуває труднощі з читанням написів на дошці в школі. Короткозорість продовжує посилюватися протягом усього підліткового віку і до часу дорослішання стабілізується. Деякі фахівці вважають, що короткозорість передається нам у спадок. Вона може супроводжуватися або не супроводжуватися астигматизмом. У типовому висновку при короткозорості пишуть знак мінус перед першою цифрою.",
+                            text: "Kai esate trumparegis, matomi vaizdai fokusuojami ne akies galinėje dalyje, o  priešais tinklainę. Trumparegystė paprastai susiformuoja vaikystėje ir pirmą kartą nustatoma, kai tėvai sužino, jog vaikas mokykloje negali perskaityti ant lentos rašomo teksto. Trumparegystė pablogėja paauglystės laikotarpiu ir stabilizuojasi ankstyvajame pilnametystės etape. Kai kurie ekspertai mano, kad trumparegystė yra paveldima. Ji gali susiformuoti kartu su arba be astigmatizmo. Tipinis trumparegystės nurodymas akinių recepte yra minusas prieš pirmąjį skaičių.",
                         },
                     ],
                 },
                 {
-                    title: "Варіанти лікування короткозорості:",
+                    title: "Trumparegystės gydymo būdai",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лікування короткозорості залежить від декількох факторів, таких як вік, ступінь фізичної активності, рід занять. Лікування може полягати в призначенні контактних лінз або окулярів. Лікар також дасть поради щодо зміцнення зору. Якщо Ви бажаєте раз і назавжди позбутися від окулярів і контактних лінз, можна звернутися до хірургічних методів лікування.",
+                            text: "Trumparegystės korekcija priklauso nuo įvairių faktorių, pvz., amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais. Jie pagerina regėjimą nekeisdami akies anatomijos, tad juos nuėmus, blogas regėjimas vėl iškart sugrįžta. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar kontaktinių lęšių receptą, o skiltį „Pratimai akims“ – norėdami gauti informacijos, kaip išvengti regėjimo problemų, atliekant akių stiprinimo pratimus. Jei esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių, peržiūrėkite šias regos korekcijos galimybes:",
                         },
                         {
                             type: "image",
@@ -4966,31 +5208,61 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                 },
                 {
-                    title: "Лазерна корекція зору",
+                    title: "Lazerinė regos korekcija",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Хоча окуляри й контактні лінзи допомагають впоратися з короткозорістю, їх можна порівняти з гіпсом і милицями, тобто це тимчасове рішення, яке дозволяє вийти з положення, але фактично не усуває причину проблеми так, як цього можна досягнути за допомогою хірургічного втручання.",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija. Susipažinkite su dažniausiai taikomais lazerinės regos korekcijos metodais:",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "LASIK regėjimo korekcija",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK (lazeriu atliekama vidinė keratomaliacija) yra dažniausiai atliekama akių operacijos lazeriu forma nuo 1991 metų, kai buvo atlikti JAV klinikiniai tyrimai. Operacijos metu pakeičiama ragenos forma ir panaikinama arba sumažinama būtinybė nešioti akinius ar kontaktinius lęšius. Tai yra chirurginė procedūra, turinti tam tikrų rizikų.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "Regėjimo korekcija lazeriu – „iQ-LASIK“",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK gali padėti sumažinti būtinybę nešioti akinius arba kontaktinius lęšius, o metodas „iQ-LASIK“ sujungia pažangiausias šiuolaikines chirurgijos technologijas į vieną procedūrą. Rezultatas – funkcionalesnė ir efektyvesnė lazerinės regos korekcijos operacija. Praeityje kiekvienam pacientui buvo atliekama ta pati pagrindinė LASIK procedūra, neatsižvelgiant į unikalias paciento akies savybes. Metodas „iQ-LASIK“ yra kitoks. Tik „iQ-LASIK“ įgalina chirurgus sukurti gydymo planą su individualiomis parinktimis, atsižvelgus į Jūsų regėjimo poreikius, kad būtų užtikrinti geriausi regėjimo rezultatai. Jūsų akys nusipelno ypatingo gydymo. Atvykite individualiai konsultacijai pas mūsų profesionalius gydytojus oftalmologus, kad galėtume nustatyti, koks gydymas būtų tinkamiausias būtent Jums.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
+                        name: "daugiau detalių",
                         link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
-                    title: "Інтраокулярна корекція",
+                    title: "Intraokulinė korekcija",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Інтраокулярні лінзи призначені для корекції високого ступеня астигматизму. У тому випадку, якщо лазерна корекція Вам не підходить, не впадайте у відчай, тому що є й інші можливості досягнення бажаного. «Британський офтальмологічний центр» пропонує ряд операцій, які можуть Вам допомогти. Під час консультації, ми зможемо з’ясувати, чи не протипоказана Вам операція, і визначити найкращий варіант операції для Вас.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio toliaregystę. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu nustatysime, ar Jus galima operuoti ir kokia operacija Jums tinkamiausia.",
                         },
                     ],
                     btn: {
-                        name: "детальніше",
-                        link: "paslaugos/skaidraus-lesio-operacija/",
+                        name: "daugiau detalių",
+                        link: "/paslaugos/skaidraus-lesio-operacija/",
                     },
                 },
             ],
@@ -5003,8 +5275,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Nearsightedness, myopia",
             content: [
                 {
-                    title: "Symptoms and Causes",
-
+                    title: "Symptoms and causes of myopia",
                     text: [
                         {
                             type: "image",
@@ -5013,22 +5284,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "If you have myopia, distant objects appear blurry. You may find that squinting makes the image clearer. For example, nearsighted students can easily read books and see their neighbors sitting nearby, but teachers and, more importantly, words on the board would appear blurred. Myopia occurs when the light rays entering the eye refract too strongly and converge at a point before reaching the retina. The eyeball may be longer than normal or the cornea too curved. As a result, the images you see are not properly focused on the retina.",
+                            text: "If you are nearsighted, distant objects appear blurry. Squinting can make these objects appear clearer. For example, nearsighted students can read books and see classmates nearby, but the teacher and the board look blurred. Myopia (also known as nearsightedness) develops when light rays entering the eye are refracted too strongly and are focused at a point in front of the retina. Eyes with myopia may also be longer than normal or have an overly curved cornea, causing images not to focus on the retina.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Myopia usually develops in childhood and is often first noticed when parents see that their child has trouble reading the board at school. It tends to progress during adolescence and stabilizes in adulthood. Some experts believe myopia is hereditary. It may or may not be accompanied by astigmatism. In typical prescriptions for myopia, a minus sign appears before the first number.",
+                            text: "When you are nearsighted, images are focused not at the back of the eye but in front of the retina. Myopia usually develops in childhood and is first detected when parents learn that a child cannot read text written on the board at school. Myopia worsens during adolescence and stabilizes in early adulthood. Some experts believe that myopia is hereditary. It may develop with or without astigmatism. A typical indication of myopia in an eyeglass prescription is a minus sign before the first number.",
                         },
                     ],
                 },
                 {
-                    title: "Treatment Options for Myopia:",
+                    title: "Treatment options for myopia",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Treatment for myopia depends on several factors, such as age, level of physical activity, and occupation. It may include prescription contact lenses or glasses. The doctor will also recommend ways to strengthen your vision. If you want to permanently get rid of glasses and contact lenses, surgical treatment options are available.",
+                            text: "Correction of myopia depends on various factors, such as age, activities, and profession, but it is usually corrected with contact lenses or glasses. They improve vision without changing the anatomy of the eye, so once they are removed, poor vision immediately returns. See the “Eye examination” section for more information on how to obtain a prescription for corrective glasses or contact lenses, and the “Eye exercises” section to learn how to avoid vision problems by performing eye-strengthening exercises. If you are ready to give up corrective glasses or contact lenses, explore the following vision correction options:",
                         },
                         {
                             type: "image",
@@ -5045,10 +5316,40 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             gap: true,
                             text: "Although glasses and contact lenses help manage myopia, they can be compared to a cast or crutches — temporary solutions that help you cope but do not address the root cause, which can be corrected surgically.",
                         },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "LASIK vision correction",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK (laser-assisted in situ keratomileusis) is the most commonly performed form of laser eye surgery since 1991, when clinical trials were conducted in the United States. During the procedure, the shape of the cornea is altered, eliminating or reducing the need to wear glasses or contact lenses. It is a surgical procedure that involves certain risks.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "Laser vision correction – “iQ-LASIK”",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK can help reduce the need to wear glasses or contact lenses, and the “iQ-LASIK” method combines the most advanced modern surgical technologies into a single procedure. The result is a more functional and effective laser vision correction surgery. In the past, the same basic LASIK procedure was performed for every patient, regardless of the unique characteristics of the patient’s eyes. The “iQ-LASIK” method is different. Only “iQ-LASIK” enables surgeons to create a treatment plan with individualized options, taking your visual needs into account to ensure the best possible visual outcomes. Your eyes deserve special care. Visit our professional ophthalmologists for a personalized consultation so that we can determine which treatment is best suited for you.",
+                        },
                     ],
                     btn: {
                         name: "learn more",
-                        link: "/services/laser-eye-surgery",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -5075,8 +5376,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Короткозорість, міопія",
             content: [
                 {
-                    title: "Симптомы и причины",
-
+                    title: "Симптомы и причины близорукости (миопии)",
                     text: [
                         {
                             type: "image",
@@ -5085,22 +5385,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Если у вас близорукость, изображения удалённых предметов кажутся размытыми. Вы можете заметить, что изображение становится чётче, если прищуриться. Например, близорукие студенты легко читают книги и видят соседей рядом, но преподаватели и, что важнее, слова на доске будут расплываться. Близорукость, или миопия, возникает, когда лучи света, попадающие в глаз, преломляются слишком сильно и сходятся в точке перед сетчаткой. Глазное яблоко может быть длиннее нормы, а роговица — слишком изогнутой. В результате изображение не фокусируется на сетчатке должным образом.",
+                            text: "Если вы близоруки, удалённые объекты кажутся размытыми. При прищуривании эти объекты становятся более чёткими. Например, близорукие студенты могут читать книги и видеть находящихся рядом однокурсников, но преподаватель и доска выглядят размытыми. Близорукость (также называемая миопией) формируется, когда лучи света, попадающие в глаз, преломляются слишком сильно и фокусируются в точке перед сетчаткой. Глаза при близорукости также могут быть длиннее нормы или иметь чрезмерно изогнутую роговицу, из-за чего изображения не фокусируются на сетчатке.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Обычно близорукость развивается в детстве и впервые проявляется, когда родители замечают, что ребёнку трудно читать надписи на школьной доске. Близорукость прогрессирует в подростковом возрасте и стабилизируется к взрослому периоду. Некоторые специалисты считают, что миопия передаётся по наследству. Она может сопровождаться или не сопровождаться астигматизмом. В типичном рецепте при близорукости перед первой цифрой стоит знак минус.",
+                            text: "При близорукости изображения фокусируются не в задней части глаза, а перед сетчаткой. Близорукость обычно формируется в детстве и впервые выявляется, когда родители узнают, что ребёнок не может прочитать текст, написанный на доске в школе. В подростковом возрасте близорукость прогрессирует и стабилизируется в раннем взрослом возрасте. Некоторые специалисты считают, что близорукость является наследственной. Она может развиваться как с астигматизмом, так и без него. Типичным признаком близорукости в рецепте на очки является знак минус перед первым числом.",
                         },
                     ],
                 },
                 {
-                    title: "Варианты лечения близорукости:",
+                    title: "Методы лечения близорукости",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лечение близорукости зависит от нескольких факторов: возраста, уровня физической активности и рода занятий. Оно может включать назначение контактных линз или очков. Врач также даст рекомендации по укреплению зрения. Если вы хотите навсегда избавиться от очков и линз, можно рассмотреть хирургические методы коррекции.",
+                            text: "Коррекция близорукости зависит от различных факторов, таких как возраст, образ жизни и профессия, но обычно осуществляется с помощью контактных линз или очков. Они улучшают зрение, не изменяя анатомию глаза, поэтому после их снятия плохое зрение сразу возвращается. Ознакомьтесь с разделом «Проверка зрения», чтобы получить больше информации о том, как получить рецепт на корректирующие очки или контактные линзы, а также с разделом «Упражнения для глаз», чтобы узнать, как избежать проблем со зрением, выполняя упражнения для укрепления глаз. Если вы готовы навсегда отказаться от корректирующих очков или контактных линз, ознакомьтесь со следующими возможностями коррекции зрения:",
                         },
                         {
                             type: "image",
@@ -5117,10 +5417,40 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             gap: true,
                             text: "Хотя очки и контактные линзы помогают справиться с близорукостью, их можно сравнить с гипсом или костылями — это временное решение, которое облегчает жизнь, но не устраняет причину проблемы, как это делает хирургическое вмешательство.",
                         },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "Лазерная коррекция зрения LASIK",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK (лазерный кератомилёз in situ) является наиболее распространённой формой лазерной хирургии глаза с 1991 года, когда в США были проведены клинические исследования. Во время операции изменяется форма роговицы, что позволяет устранить или уменьшить необходимость ношения очков или контактных линз. Это хирургическая процедура, связанная с определёнными рисками.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    subtitle: true,
+                                    value: "Лазерная коррекция зрения — «iQ-LASIK»",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "LASIK помогает снизить необходимость ношения очков или контактных линз, а метод «iQ-LASIK» объединяет самые передовые современные хирургические технологии в одну процедуру. Результат — более функциональная и эффективная операция лазерной коррекции зрения. В прошлом всем пациентам выполнялась одна и та же базовая процедура LASIK без учёта индивидуальных особенностей глаз. Метод «iQ-LASIK» отличается иным подходом. Только «iQ-LASIK» позволяет хирургам создать индивидуальный план лечения с учётом ваших зрительных потребностей, чтобы обеспечить наилучшие результаты зрения. Ваши глаза заслуживают особого внимания. Приходите на индивидуальную консультацию к нашим профессиональным врачам-офтальмологам, чтобы мы могли определить, какое лечение подходит именно вам.",
+                        },
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/lazernaya-korrektsiya-zreniya",
+                        link: "/paslaugos/lazerine-akiu-korekcija",
                     },
                 },
                 {
@@ -5134,7 +5464,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                     btn: {
                         name: "подробнее",
-                        link: "/uslugi/refraktsionnaya-lensektomiya/",
+                        link: "/uslugi/khirurgiia-prozrachnogo-khrustalika",
                     },
                 },
             ],
@@ -5147,24 +5477,24 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Косоокість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Косоокість: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Косоокість",
+            title: "Žvairumas",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Гармонійне і правильне сприйняття навколишнього світу розвивається у людини з дитинства, за умови високої гостроти зору і рівного положення очей. Зоровий образ виходить чітким і об’ємним. Проте, нерідко очі відхиляються від паралельного положення зорових осей, і виникає косоокість. Косоокість є косметичною та функціональною проблемою, пов’язаною з порушенням балансу окорухових м’язів. Око може відхилятися до носа або назовні, більш рідкісні випадки відхилення ока по вертикалі. При гострому виникненні косоокості у підлітка або дорослої людини виникає дискомфорт і відчуття постійного двоїння, що значно порушує якість життя.",
+                            text: [
+                                { bold: true, value: "Žvairumas" },
+                                {
+                                    value: " – tai nuolatinis ar periodinis vienos akies nukrypimas nuo bendro fiksacijos taško, kai yra sutrikęs abiejų akių fiksacijos į vieną tašką mechanizmas. Viena akis gali žvelgti tiesiai, o kita būti nukrypusi į išorę, į vidų, žemyn arba į viršų. Žvairumas yra gana dažnas reiškinys, pasireiškiantis maždaug 3-4% vaikų, tačiau gali atsirasti ir suaugusiems. Žvairumas gali būti ir paveldimas.",
+                                },
+                            ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Своєчасне виявлення відхилення очей, правильна діагностика причин косоокості, вчасно розпочате лікування — це шанси на виправлення косметичного дефекту і досягнення високого зору обох очей.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Безсумнівно, лікування косоокості має починатися ще в дитинстві. Вчасно підібрані окуляри дозволяють зменшувати ступінь відхилення очей або навіть повністю усувають косоокість. Правильна очкова корекція в поєднанні з оклюзією (тимчасовим прикриванням здорового ока) дозволяє зберегти високий зір на проблемному оці. При недостатньому «вирівнюючому» ефекті очей, косоокість усувається хірургічною корекцією. Закріплення ефекту операції досягається тренуваннями на апаратах, які формують гармонію не тільки на рівні очних м’язів, а й на рівні зорового відділу головного мозку.",
+                            text: "Dėka didelio regėjimo aštrumo ir tolygios akių padėties asmuo nuo pat vaikystės formuoja harmoningą ir teisingą aplinkinio pasaulio suvokimą. Matomas vaizdas būna aiškus ir platus. Tačiau neretai akys nukrypsta nuo lygiagrečios regos ašių padėties ir atsiranda žvairumas. Tai yra kosmetinė ir funkcinė problema, susijusi su okulomotorinių (akį judinančių) raumenų disbalansu.",
                         },
                     ],
                 },
@@ -5173,19 +5503,29 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Таким чином, можливо виправлення косоокості з відновленням правильного бінокулярного зору. Важливо те, що навіть при неможливості поліпшення зору у деяких пацієнтів старшого віку (а це залежатиме від глибини змін в зоровій системі), досягнення гарного косметичного ефекту і гармонійне правильне положення очей також є нашою реальністю.",
+                            text: "Žvairumas gali būti vidinis – kai akys susieina ties nosimi, išorinis – kai jos išsiskiria į šalis, vertikalus – kai viena akis nukrypsta į viršų ar į apačią, vienpusis – kai tik viena akis žiūri netaisyklingai, pakaitinis – kai akys pakaitomis nukrypsta nuo regos ašies, ir paralyžinis – kai yra riboti akies judesiai pažeisto raumens link. Esant žvairumui, paauglys ar suaugęs žmogus patiria diskomfortą, skundžiasi greitu akių nuovargiu, galvos svaigimu, vaizdo dvejinimusi, kas labai pablogina gyvenimo kokybę.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Сучасні щадні методи хірургічної корекції косоокості й можливість регулювання швів дозволяють нам усувати косоокість навіть у пацієнтів з невисокою гостротою зору. У «Британському офтальмологічному центрі» ми здатні комплексно допомагати пацієнтам з косоокістю. Точна діагностика, правильна лікувальна тактика, уважне спостереження за динамікою процесу та надійне закріплення результату лікування — всі ці етапи повністю забезпечені в стінах нашої клініки.",
+                            text: "Kuo anksčiau pastebimas akių nuokrypis, teisingai diagnozuojamos žvairumo priežastys ir pradedamas gydymas – tuo didesnė tikimybė ištaisyti kosmetinį defektą ir pasiekti aukštą abiejų akių regėjimą.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Be abejo, žvairumą reikia pradėti gydyti vaikystėje, vos jį nustačius. Laiku parinkti akiniai gali sumažinti akies nuokrypio laipsnį ar net visiškai pašalinti žvairumą. Okulistas paskiria tinkamus akinukus, gydomųjų pratimų kompleksą, švitinimą įvairiais aparatais. Šių taikomų priemonių tikslas ne tik priversti akių raumenis dirbti taisyklingai, bet ir pagerinti regėjimą. Akinukus vaikai gali pradėti nešioti ir nuo 6 mėnesių. Kartais mažylio geriau matanti akis gali būti uždengiama, kad žvairuojanti akytė po truputį stiprėtų ir pradėtų žiūrėti taisyklingai. Gydyti reikia nuolat, nes nenešiojant akinukų nors dvi savaites, visas darbas gali nueiti veltui. Jei neužtenka gydymo akiniais, gydoma chirurginiu būdu – operuojami akį judinantys raumenys. Jie pailginami arba sutrumpinami. Kartais gali prireikti ir kelių operacijų.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Šiuolaikiniai akių ligų korekcijos metodai leidžia mums pašalinti žvairumą net ir pacientams, turintiems silpną regėjimo aštrumą. Akių klinikoje „Naujas regėjimas“ galime suteikti visapusišką žvairumu sergančių pacientų priežiūrą. Tiksli diagnostika, teisinga gydymo taktika, kruopštus proceso dinamikos stebėjimas ir patikimas gydymo rezultato užtvirtinimas – visi šie etapai pilnai įgyvendinami mūsų klinikoje.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     bold: true,
-                                    value: "Косоокість можливо перемогти в будь-якому віці!",
+                                    value: "Žvairumą galima nugalėti bet kuriame amžiuje. Leiskite Jums padėti!",
                                 },
                             ],
                         },
@@ -5205,17 +5545,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Harmonious and correct perception of the environment develops in childhood, with high visual acuity and an even position of the eyes. The visual image is clear and three-dimensional. However, often the eyes deviate from the parallel position of the visual axes, and strabismus occurs. Strabismus is a cosmetic and functional problem associated with an imbalance of the oculomotor muscles. The eye may be deviated toward the nose or outward, more rarely the eye is deviated vertically. When strabismus is acute, the teenager or adult has discomfort and a feeling of constant double vision which significantly impairs the quality of life.",
+                            text: [
+                                { bold: true, value: "Strabismus" },
+                                {
+                                    value: " is a constant or intermittent deviation of one eye from the common fixation point, caused by a disruption in the mechanism that allows both eyes to fixate on the same point. One eye may look straight ahead while the other deviates outward, inward, upward, or downward. Strabismus is a fairly common condition, occurring in approximately 3–4% of children, but it can also develop in adults. Strabismus may be hereditary.",
+                                },
+                            ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Timely detection of eye deviation, correct diagnosis of the causes of strabismus, and early treatment are the chances of correcting the cosmetic defect and reaching high vision in both eyes.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Strabismus treatment should undoubtedly start in childhood. Glasses selected in time could reduce the degree of strabismus deviation or even eliminate it completely. Correct spectacle correction combined with occlusion (temporary covering of the healthy eye) allows you to keep high vision in the problematic eye. If the “leveling” effect of the glasses is insufficient, strabismus is corrected by surgical correction. Consolidation of the surgical effect is achieved by training with apparatuses which form harmony not only at the level of the eye muscles, but also at the level of the visual department of the brain.",
+                            text: "Thanks to good visual acuity and proper eye alignment, a person forms a harmonious and accurate perception of the surrounding world from early childhood. The visual image is clear and wide. However, quite often the eyes deviate from their parallel visual axis alignment, resulting in strabismus. This is both a cosmetic and functional problem associated with an imbalance of the extraocular (eye-moving) muscles.",
                         },
                     ],
                 },
@@ -5224,19 +5564,29 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Thus, it is possible to correct strabismus with restoration of correct binocular vision. What is important is that even if it is not possible to improve vision in some older patients (and this will depend on the depth of changes in the visual system), achieving a good cosmetic effect and a harmonious correct position of the eyes is also our reality.",
+                            text: "Strabismus can be convergent (when the eyes turn toward the nose), divergent (when they turn outward), vertical (when one eye deviates upward or downward), unilateral (when only one eye deviates), alternating (when the eyes alternately deviate from the visual axis), or paralytic (when eye movements are limited toward the affected muscle). In cases of strabismus, adolescents or adults experience discomfort, complain of rapid eye fatigue, dizziness, and double vision, which significantly worsens quality of life.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "The modern sparing methods of surgical correction of strabismus and the possibility of adjusting stitches allow us to eliminate strabismus even in patients with low visual acuity. At the British Ophthalmological Center  we are able to provide comprehensive care for patients with strabismus. Perfect diagnostics, therapeutic tactics, careful observation of the dynamics of the process, and reliable consolidation of the treatment results – all these aspects are completely ensured within the walls of our clinic.",
+                            text: "The earlier eye deviation is detected, the causes of strabismus are correctly diagnosed, and treatment is started, the greater the likelihood of correcting the cosmetic defect and achieving good vision in both eyes.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Of course, strabismus should be treated in childhood as soon as it is detected. Properly selected glasses can reduce the degree of eye deviation or even completely eliminate strabismus. An ophthalmologist prescribes appropriate glasses, therapeutic eye exercises, and treatment using various devices. The goal of these measures is not only to make the eye muscles work correctly but also to improve vision. Children can start wearing glasses as early as 6 months of age. Sometimes the better-seeing eye is temporarily covered so that the squinting eye gradually strengthens and begins to fixate properly. Treatment must be continuous, because even a two-week break from wearing glasses can negate all progress. If optical treatment is insufficient, surgical treatment is performed—eye-moving muscles are operated on by shortening or lengthening them. In some cases, more than one surgery may be required.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Modern methods of eye disease correction allow us to eliminate strabismus even in patients with low visual acuity. At the “Naujas regėjimas” Eye Clinic, we provide comprehensive care for patients with strabismus. Accurate diagnostics, correct treatment strategy, careful monitoring of progress, and reliable consolidation of treatment results—all these stages are fully implemented in our clinic.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     bold: true,
-                                    value: "Strabismus can be conquered at any age!",
+                                    value: "Strabismus can be successfully treated at any age. Let us help you!",
                                 },
                             ],
                         },
@@ -5256,34 +5606,48 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Гармоничное и правильное восприятие окружающего мира развивается у человека с детства, при условии высокой остроты зрения и ровного положения глаз. Зрительный образ получается четким и объемным. Однако, нередко глаза отклоняются от параллельного положения зрительных осей, и возникает косоглазие. Косоглазие является косметической и функциональной проблемой, связанной с нарушением баланса глазодвигательных мышц. Глаз может отклоняться к носу или кнаружи, более редкие случаи отклонения глаза по вертикали. При остром возникновении косоглазия у подростка или взрослого человека возникает дискомфорт и чувство постоянного двоения, что значительно нарушает качество жизни.",
+                            text: [
+                                { bold: true, value: "Косоглазие" },
+                                {
+                                    value: " — это постоянное или периодическое отклонение одного глаза от общего фиксационного пункта, возникающее при нарушении механизма совместной фиксации обоих глаз на одной точке. Один глаз может смотреть прямо, а другой — отклоняться наружу, внутрь, вверх или вниз. Косоглазие является достаточно распространённым состоянием и встречается примерно у 3–4% детей, однако может развиваться и у взрослых. Косоглазие также может быть наследственным.",
+                                },
+                            ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Своевременное обнаружение отклонения глаза, правильная диагностика причин косоглазия, рано начатое лечение – это шансы на исправление косметического дефекта и достижение высокого зрения обоих глаз.",
+                            text: "Благодаря высокой остроте зрения и правильному положению глаз человек с раннего детства формирует гармоничное и правильное восприятие окружающего мира. Видимое изображение является чётким и широким. Однако нередко глаза отклоняются от параллельного положения зрительных осей, и возникает косоглазие. Это косметическая и функциональная проблема, связанная с дисбалансом глазодвигательных мышц.",
+                        },
+                    ],
+                },
+                {
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Косоглазие может быть сходящимся (когда глаза сходятся к носу), расходящимся (когда они расходятся в стороны), вертикальным (когда один глаз отклоняется вверх или вниз), односторонним (когда неправильно смотрит только один глаз), альтернирующим (когда глаза попеременно отклоняются от зрительной оси) и паралитическим (когда движения глаза ограничены в сторону поражённой мышцы). При косоглазии подростки и взрослые испытывают дискомфорт, жалуются на быструю утомляемость глаз, головокружение и двоение изображения, что значительно ухудшает качество жизни.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Несомненно, лечение косоглазия должно начинаться еще в детстве. Вовремя подобранные очки позволяют уменьшать степень отклонения глаза или даже полностью устраняют косоглазие. Правильная очковая коррекция в сочетании с окклюзией (временным прикрыванием здорового глаза) позволяет сохранить высокое зрение на проблемном глазу. При недостаточном «выравнивающем» эффекте очков, косоглазие устраняется хирургической коррекцией. Закрепление эффекта операции достигается тренировками на аппаратах, которые формируют гармонию не только на уровне глазных мышц, но и на уровне зрительного отдела головного мозга.",
+                            text: "Чем раньше выявлено отклонение глаз, правильно диагностированы причины косоглазия и начато лечение, тем выше вероятность устранения косметического дефекта и достижения высокой остроты зрения обоих глаз.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Таким образом, возможно исправление косоглазия с восстановлением правильного бинокулярного зрения. Важно то, что даже при невозможности улучшения зрения у некоторых пациентов старшего возраста (а это будет зависеть от глубины изменений в зрительной системе), достижение хорошего косметического эффекта и гармоничное правильное положение глаз также является нашей реальностью.",
+                            text: "Безусловно, лечение косоглазия необходимо начинать в детском возрасте, сразу после его выявления. Правильно подобранные очки могут уменьшить степень отклонения глаза или даже полностью устранить косоглазие. Офтальмолог назначает подходящие очки, комплекс лечебных упражнений и аппаратное лечение. Цель этих методов — не только заставить глазные мышцы работать правильно, но и улучшить зрение. Дети могут начинать носить очки уже с 6-месячного возраста. Иногда лучше видящий глаз временно закрывают, чтобы косящий глаз постепенно укреплялся и начинал правильно фиксировать взгляд. Лечение должно быть непрерывным, так как даже двухнедельный перерыв в ношении очков может свести на нет все усилия. Если оптического лечения недостаточно, применяется хирургическое лечение — операция на глазодвигательных мышцах с их укорочением или удлинением. В некоторых случаях может потребоваться несколько операций.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Современные щадящие методы хирургической коррекции косоглазия и возможность регулировки швов позволяют нам устранять косоглазие даже у пациентов с невысокой остротой зрения. В Британском офтальмологическом центре мы способны комплексно помогать пациентам с косоглазием. Точная диагностика, правильная лечебная тактика, внимательное наблюдение за динамикой процесса и надежное закрепление результата лечения – все эти этапы полностью обеспечены в стенах нашей клиники.",
+                            text: "Современные методы коррекции глазных заболеваний позволяют устранить косоглазие даже у пациентов с низкой остротой зрения. В глазной клинике «Naujas regėjimas» мы обеспечиваем комплексный уход за пациентами с косоглазием. Точная диагностика, правильная тактика лечения, тщательный контроль динамики процесса и надёжное закрепление результата лечения — все эти этапы полностью реализуются в нашей клинике.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     bold: true,
-                                    value: "Косоглазие возможно победить в любом возрасте!",
+                                    value: "Косоглазие можно успешно лечить в любом возрасте. Позвольте нам вам помочь!",
                                 },
                             ],
                         },
@@ -5299,44 +5663,106 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Пресбіопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Пресбіопія: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Пресбіопія",
+            title: "Presbiopija",
             content: [
                 {
-                    title: "Симптоми та причини",
+                    title: "Presbiopija – kas tai?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Вам потрібні окуляри для читання? Існує ймовірність того, що у Вас пресбіопія (стареча далекозорість) – аномалія рефракції ока, при якій людина не може розглянути дрібний шрифт або маленькі предмети на близькій відстані. Так само, як сивина і зморшки, пресбіопія є одним з вікових симптомів природного механізму старіння. Ранні симптоми пресбіопії очей в середньому спостерігаються у людини в 40-45 років. Саме в цей період вона починає відчувати перші труднощі в роботі з дрібними предметами або при читанні.",
+                            text: "Senstant akies lęšis netenka elastingumo, todėl darosi sunkiau matyti artimus daiktus. Sulaukęs 40–45 metų iki tol gerai matęs žmogus negali skaityti ar dirbti smulkių darbų iš įprasto atstumo. Tai vadinama senatvine toliaregyste (presbiopija).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Термін «пресбіопія» походить від грецького слова πρέσβυς, що означає «стара людина» або «старий» і новолатинського суфікса «-opia», що означає «короткозорість», а дослівний переклад буде звучати як «старі очі».",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "У той час як точна причина пресбіопиї все ще є предметом досліджень, прийнята теорія, що м’язові волокна навколо природного кришталика ока ущільнюються і втрачають еластичність, що знижує здатність ока змінювати форму кришталика. По мірі того як природний кришталик ока стає менш гнучким, око все гірше фокусується на близьких об’єктах. Перенесена травма, спосіб життя, рід занять, наприклад, багатогодинне сидіння перед комп’ютером, теж можуть грати роль у розвитку цього стану.",
+                            text: "Ar Jums reikia skaitymo akinių? Jei taip, tikriausiai Jums presbiopija, dėl kurios akis praranda galimybę fokusuoti. Tai paprastai įvyksta dėl natūralaus senėjimo proceso, kurį patiria kiekvienas. Pirmieji simptomai dažnai pastebimi sulaukus keturiasdešimties metų amžiaus, todėl tiek daug vidutinio amžiaus žmonių prireikia skaitymo arba dvižidinių akinių.",
                         },
                     ],
                 },
                 {
-                    title: "Варіанти лікування",
+                    title: "Presbiopijos priežastys",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Пресбіопію іноді неформально називають «хворобою довгих рук», оскільки деякий час компенсувати пресбіопію можна за допомогою розміщення предмета на відстані витягнутої руки. Однак коли цей метод перестає спрацьовувати, доводиться задуматися про корекцію пресбіопії доступними сучасній медицині методами.",
+                            text: "Presbiopijos priežastys vis dar tiriamos, tačiau dažniausiai manoma, kad skaidulos aplink natūralų akies lęšiuką sutvirtėja ir praranda elastingumą, taip sumažindamos akies galimybę keisti lęšio formą. Akies lęšiukui tampant mažiau elastingam, darosi sunkiau sufokusuoti artimus objektus. Trauma, gyvenimo būdas ir profesija, pvz., ilgas sėdėjimas priešais kompiuterį, taip pat gali būti presbiopijos priežastis.",
                         },
                     ],
                 },
                 {
-                    title: "Хірургія пресбіопії",
+                    title: "Presbiopija – tai natūralus procesas, o ne liga",
                     text: [
                         {
                             type: "text",
-                            text: "Якщо Ви не бажаєте носити окуляри або контактні лінзи з тих чи інших причин, то на допомогу приходить хірургічне лікування пресбіопії. Таким методом є заміна природного кришталика штучним (інтраокулярною лінзою). При цьому штучний кришталик може бути як простим, так і мультифокальним. Зазвичай інтраокулярні лінзи (ІОЛ) імплантують при видаленні катаракти, і деякі ІОЛ розроблені для лікування катаракти і пресбіопії одночасно.",
+                            gap: true,
+                            text: "Šis sutrikimas paprastai prasideda žmonėms nuo 40 iki 50 metų amžiaus. Presbiopija susiformuoja, kai natūralus akies lęšiukas sensta, todėl tampa kietesnis ir praranda lankstumą, dėl to paprastai prarandamas geras artimų objektų regėjimas ir reikia skaitymo akinių.",
+                        },
+                    ],
+                },
+                {
+                    title: "Kaip apsisaugoti nuo presbiopijos?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Deja, presbiopija atsiranda mums natūraliai senstant. Kol kas medikai nežino, kaip išvengti šios regėjimo degradacijos. Praktiškai visiems sulaukus 40-ties metų pasireikš presbiopijos simptomai, netgi jeigu jie ir neturėjo jokių regėjimo problemų. Tačiau svarbu žinoti, jog regėjimu reikia rūpintis visuomet, štai keli būdai apsaugoti Jūsų akis nuo bet kokių ligų:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Reguliariai tikrinkite regėjimą.",
+                                "Šviečiant ryškiai saulei, dėvėkite tamsius apsauginius akinius, tai padės apsaugoti akis nuo žalingo UV poveikio.",
+                                "Dažniau tikrinkite akis, jeigu esate rizikos grupėje – sergate diabetu ar hipotireoze.",
+                                "Būtinai dėvėkite apsauginius akinius, jeigu dirbate pavojingus darbus, nes net menkiausia akių trauma gali turėti įtakos sunkiai išgydomų ligų atsiradimui.",
+                                "Sveikai maitinkitės. Sveikas maistas – tai garantas, kad gausite pakankamai antioksidantų ir vitaminų. Tyrimai parodė, kad maistinės medžiagos, esančios vaisiuose, daržovėse ir žuvyje, gali sulėtinti natūralų akių senėjimo procesą.",
+                                "Atkreipkite dėmesį į tokius simptomus kaip galvos skausmas, stiprus akių nuovargis ar miglotas vaizdas.",
+                            ],
+                        },
+                    ],
+                },
+                {
+                    title: "Ar jaučiate presbiopijos simptomus?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Presbiopija vystosi palaipsniui, daugumai žmonių pirmi simptomai pasireiškia sulaukus 40-ties metų. Štai keli simptomai, kurie byloja apie pirmus presbiopijos požymius:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Miglotas vaizdas esant normaliam skaitymo atstumui, įskaitant atvejus, kai dėvite korekcinius akinius ar kontaktinius lęšius",
+                                "Galvos skausmas",
+                                "Nuovargis atliekant darbus, reikalaujančius aiškaus mažų detalių matymo, pvz., siuvimas",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Jeigu pajutote kuriuos nors iš šių išvardintų simptomų, rekomenduojame užsiregistruoti akių gydytojo konsultacijai.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    bold: true,
+                                    value: "Presbiopijos operacija",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Jei dėl vienokių ar kitokių priežasčių nenorite nešioti akinių ar kontaktinių lęšių su amžiumi išsivysčiusiai senatvinei (amžinei) toliaregystei koreguoti, tuomet Jums padėti gali chirurginis gydymas. Jis gali būti atliekamas lazerinės regos korekcijos metodais LASIK ir PRK. Jeigu nustatoma, kad pacientui negalima atlikti lazerinės regėjimo korekcijos, galimas kitas chirurginis presbiopijos gydymo metodas – natūralaus lęšio pakeitimas dirbtiniu (intraokuliniu lęšiu).",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Kviečiame atvykti į akių kliniką „Naujas regėjimas”, kur konsultacijos metu atliksime išsamius tyrimus ir nustatysime, ar Jums galima atlikti presbiopijos operaciją, kokia operacija Jums tinkamiausia ir kokių regos korekcijos rezultatų galima tikėtis.",
                         },
                     ],
                 },
@@ -5350,41 +5776,103 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Presbyopia",
             content: [
                 {
-                    title: "Symptoms and Causes",
+                    title: "Presbyopia – what is it?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Do you need reading glasses? Chances are you have presbyopia (senile farsightedness), an eye refractive abnormality in which a person cannot see small print or small objects at a close distance. Like gray hair and wrinkles, presbyopia is one of the age-related symptoms of the natural aging mechanism. The early symptoms of presbyopia eyes are on average seen in a person in their 40s and 45s. It is during this period that he or she begins to experience the first difficulties in handling small objects or reading",
+                            text: "As the eye ages, the lens loses elasticity, making it more difficult to see objects up close. At the age of 40–45, a person who previously had good vision may no longer be able to read or perform fine work at a normal distance. This condition is called age-related farsightedness (presbyopia).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "The term “presbyopia” comes from the Greek word πρέσβυς meaning “old man” or “old man” and the New Latin suffix “-opia” meaning “myopia”, and the literal translation would be “old eyes”.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "While the exact cause of presbyopia is still the subject of research, it is the accepted theory that the muscle fibers around the eye’s natural lens thicken and lose elasticity, which reduces the eye’s ability to reshape the lens. As the eye’s natural lens becomes less flexible, the eye has less and less ability to focus on close objects. Trauma, lifestyle, and occupation, such as sitting in front of a computer for hours on end, can also play a role in the development of this condition.",
+                            text: "Do you need reading glasses? If so, you most likely have presbyopia, a condition in which the eye loses its ability to focus. This usually occurs due to the natural aging process that everyone experiences. The first symptoms are often noticed around the age of forty, which is why so many middle-aged people need reading or bifocal glasses.",
                         },
                     ],
                 },
                 {
-                    title: "Treatment Options",
+                    title: "Causes of presbyopia",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Presbyopia is sometimes informally called “the disease of the long arms,” because for a while it is possible to compensate for presbyopia by placing an object at arm’s length. But when this method no longer works, we have to think about the correction of presbyopia with the methods available in modern medicine.",
+                            text: "The causes of presbyopia are still being studied, but it is most commonly believed that the fibers surrounding the natural eye lens become firmer and lose elasticity, thereby reducing the eye’s ability to change the shape of the lens. As the lens becomes less elastic, it becomes harder to focus on nearby objects. Trauma, lifestyle, and occupation, such as prolonged work at a computer, may also contribute to presbyopia.",
                         },
                     ],
                 },
                 {
-                    title: "Presbyopia surgery",
+                    title: "Presbyopia is a natural process, not a disease",
                     text: [
                         {
                             type: "text",
-                            text: "If you do not want to wear glasses or contact lenses for one or another reason, then surgical treatment of presbyopia comes to the rescue. This method involves replacing the natural lens with an artificial one (intraocular lens). The artificial lens can be either simple or multifocal. Intraocular lenses (IOLs) are usually implanted during cataract removal, and some IOLs are designed to treat cataracts and presbyopia simultaneously.",
+                            gap: true,
+                            text: "This condition usually begins between the ages of 40 and 50. Presbyopia develops as the natural lens of the eye ages, becoming harder and less flexible, which typically results in the loss of clear near vision and the need for reading glasses.",
+                        },
+                    ],
+                },
+                {
+                    title: "How to protect yourself from presbyopia?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Unfortunately, presbyopia occurs naturally as we age. So far, doctors do not know how to prevent this vision deterioration. Practically everyone will experience symptoms of presbyopia by the age of 40, even if they previously had no vision problems. However, it is important to know that you should always take care of your eyes. Here are some ways to protect your eyes from any diseases:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Regularly check your vision.",
+                                "Wear dark protective glasses in bright sunlight to protect your eyes from harmful UV exposure.",
+                                "Check your eyes more frequently if you are in a risk group – e.g., if you have diabetes or hypothyroidism.",
+                                "Always wear protective glasses when doing hazardous work, as even minor eye injuries can contribute to serious eye conditions.",
+                                "Eat a healthy diet. Healthy food ensures you get enough antioxidants and vitamins. Studies have shown that nutrients in fruits, vegetables, and fish can slow down the natural aging process of the eyes.",
+                                "Pay attention to symptoms such as headaches, severe eye fatigue, or blurred vision.",
+                            ],
+                        },
+                    ],
+                },
+                {
+                    title: "Do you notice presbyopia symptoms?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Presbyopia develops gradually, with most people noticing the first symptoms around the age of 40. Here are some symptoms that indicate early signs of presbyopia:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Blurred vision at normal reading distance, including when wearing corrective glasses or contact lenses",
+                                "Headaches",
+                                "Fatigue when performing tasks requiring clear near vision, e.g., sewing",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "If you experience any of these symptoms, we recommend scheduling a consultation with an eye doctor.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    bold: true,
+                                    value: "Presbyopia surgery",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "If, for some reason, you do not want to wear glasses or contact lenses to correct age-related presbyopia, surgical treatment may help. This can be done using LASIK or PRK laser vision correction methods. If laser correction is not suitable for the patient, another surgical presbyopia treatment option is replacing the natural lens with an artificial intraocular lens (IOL).",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "We invite you to the “New Vision” Eye Clinic, where during a consultation we will perform a comprehensive examination to determine whether presbyopia surgery is suitable for you, which operation is most appropriate, and what vision correction results can be expected.",
                         },
                     ],
                 },
@@ -5398,41 +5886,103 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
             title: "Пресбиопия",
             content: [
                 {
-                    title: "Симптомы и причины",
+                    title: "Пресбиопия — что это?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Вам нужны очки для чтения? Есть вероятность того, что у вас пресбиопия (старческая дальнозоркость) — аномалия рефракции глаза, при которой человек не может рассмотреть мелкий шрифт или маленькие предметы на близком расстоянии. Так же, как седина и морщины, пресбиопия является одним из возрастных симптомов естественного механизма старения. Ранние симптомы пресбиопии глаз в среднем наблюдаются у человека в 40-45 лет. Именно в этот период он начинает испытывать первые трудности в работе с мелкими предметами или при чтении.",
+                            text: "С возрастом хрусталик глаза теряет эластичность, из-за чего становится труднее видеть предметы на близком расстоянии. В возрасте 40–45 лет человек, ранее хорошо видевший, уже не может читать или выполнять мелкую работу с привычного расстояния. Это состояние называется возрастной дальнозоркостью (пресбиопией).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Термин «пресбиопия» происходит от греческого слова πρέσβυς, означающего «старый человек» или «старик» и новолатинского суффикса «-opia», означающего «близорукость», а дословный перевод будет звучать как «старые глаза».",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "В то время как точная причина пресбиопии все еще является предметом исследований, принята теория, что мышечные волокна вокруг естественного хрусталика глаза уплотняются и теряют эластичность, что снижает способность глаза изменять форму хрусталика. По мере того как естественный хрусталик глаза становится менее гибким, глаз все хуже фокусируется на близких объектах. Перенесенная травма, образ жизни, род занятий, например, многочасовое сидение перед компьютером, тоже могут играть роль в развитии этого состояния.",
+                            text: "Нужны ли вам очки для чтения? Если да, скорее всего, у вас пресбиопия, при которой глаз утрачивает способность к фокусировке. Обычно это происходит вследствие естественного процесса старения, через который проходит каждый человек. Первые симптомы часто появляются около сорока лет, поэтому так многим людям среднего возраста требуются очки для чтения или бифокальные очки.",
                         },
                     ],
                 },
                 {
-                    title: "Варианты лечения",
+                    title: "Причины пресбиопии",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Пресбиопию иногда неформально называют «болезнью длинных рук», поскольку некоторое время компенсировать пресбиопию можно с помощью размещения предмета на расстоянии вытянутой руки. Однако когда этот метод перестает срабатывать, приходится задуматься о коррекции пресбиопии доступными современной медицине методами.",
+                            text: "Причины пресбиопии продолжают изучаться, однако чаще всего считается, что волокна вокруг естественного хрусталика глаза уплотняются и теряют эластичность, тем самым снижая способность глаза изменять форму хрусталика. По мере того как хрусталик становится менее эластичным, становится сложнее фокусироваться на близких объектах. Травмы, образ жизни и профессия, например длительная работа за компьютером, также могут способствовать развитию пресбиопии.",
                         },
                     ],
                 },
                 {
-                    title: "Хирургия пресбиопии",
+                    title: "Пресбиопия — это естественный процесс, а не заболевание",
                     text: [
                         {
                             type: "text",
-                            text: "Если Вы не хотите носить очки или контактные линзы из тех или других причин, то на помощь приходит хирургическое лечение пресбиопии. Таким методом является замена природного хрусталика искусственным (интраокулярной линзой). При этом искусственный хрусталик может быть как простым, так и мультифокальным. Обычно интраокулярные линзы (ИОЛ) имплантируют при удалении катаракты, и некоторые ИОЛ разработаны для лечения катаракты и пресбиопии одновременно.",
+                            gap: true,
+                            text: "Это состояние обычно начинается в возрасте от 40 до 50 лет. Пресбиопия развивается по мере старения естественного хрусталика глаза, который становится более жёстким и менее гибким, что, как правило, приводит к ухудшению зрения вблизи и необходимости использования очков для чтения.",
+                        },
+                    ],
+                },
+                {
+                    title: "Как защитить себя от пресбиопии?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "К сожалению, пресбиопия возникает естественным образом с возрастом. Пока что врачи не знают, как предотвратить это ухудшение зрения. Практически у всех после 40 лет проявляются симптомы пресбиопии, даже если ранее у них не было проблем со зрением. Однако важно всегда заботиться о своих глазах. Вот несколько способов защитить глаза от любых заболеваний:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Регулярно проверяйте зрение.",
+                                "Носите тёмные защитные очки на ярком солнце, чтобы защитить глаза от вредного воздействия ультрафиолета.",
+                                "Чаще проверяйте глаза, если вы находитесь в группе риска – например, при диабете или гипотиреозе.",
+                                "Обязательно носите защитные очки при работе с опасными инструментами, так как даже незначительная травма глаза может привести к серьезным заболеваниям.",
+                                "Питайтесь правильно. Здоровая пища обеспечивает достаточное количество антиоксидантов и витаминов. Исследования показывают, что питательные вещества в фруктах, овощах и рыбе могут замедлить естественный процесс старения глаз.",
+                                "Обращайте внимание на такие симптомы, как головная боль, сильная усталость глаз или размытое зрение.",
+                            ],
+                        },
+                    ],
+                },
+                {
+                    title: "Чувствуете симптомы пресбиопии?",
+                    text: [
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Пресбиопия развивается постепенно, большинство людей замечают первые симптомы примерно в 40 лет. Вот несколько признаков, указывающих на ранние проявления пресбиопии:",
+                        },
+                        {
+                            type: "list",
+                            gap: true,
+                            list: [
+                                "Размытое зрение на обычном расстоянии для чтения, в том числе при ношении корректирующих очков или контактных линз",
+                                "Головная боль",
+                                "Усталость при выполнении задач, требующих чёткого зрения на близком расстоянии, например, шитьё",
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Если вы заметили какие-либо из этих симптомов, рекомендуем записаться на консультацию к офтальмологу.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: [
+                                {
+                                    bold: true,
+                                    value: "Операция при пресбиопии",
+                                },
+                            ],
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Если по каким-либо причинам вы не хотите носить очки или контактные линзы для коррекции возрастной пресбиопии, может помочь хирургическое лечение. Оно может выполняться методами лазерной коррекции зрения LASIK и PRK. Если лазерная коррекция невозможна, возможен другой хирургический метод лечения пресбиопии — замена естественного хрусталика на искусственный (интраокулярный) линз.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Приглашаем вас в офтальмологическую клинику «Новый взгляд», где во время консультации мы проведём полное обследование и определим, можно ли вам выполнить операцию при пресбиопии, какая операция наиболее подходит и каких результатов коррекции зрения можно ожидать.",
                         },
                     ],
                 },
@@ -5446,29 +5996,29 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                 "Симптоми захворювання очей - причини та лікування | Британський офтальмологічний центр | EYES",
             descriptionSEO:
                 "➔ Симптоми захворювання очей: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
-            title: "Симптоми захворювання очей",
+            title: "Akių ligų simptomai",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Якщо Ви читаєте цей текст, ймовірно, Ви вже знайомі з контактними лінзами або окулярами (або з тими й іншими) не один рік і занадто добре знаєте всю цю мороку і обмеження, які з ними пов’язані. Ось що насправді відбувається.",
+                            text: "Jei skaitote šį tekstą, tikriausiai akių ligos jums pažįstamos: greičiausiai metų metus nešiojate  kontaktinius lęšius ar akinius ir žinote viską apie jų trūkumus. Taigi kodėl suprastėja mūsų regėjimas?",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Переходячи з одного середовища в інше, наприклад, з повітря у воду, промені світла заломлюються. Це називається «рефракція». Коли промені проходять через тканини рогівки і кришталик, вони піддаються рефракції таким чином, який дозволяє їм фокусуватися на сітківці. Явище, коли око не може сфокусувати світло на сітківці, зазвичай через не зовсім правильну форму ока, називається порушенням рефракції.",
+                            text: "Šviesos spinduliams pereinant iš vienos medžiagos į kitą, pvz., iš oro į vandenį, jie lūžta. Tai vadinama refrakcija. Kai šie spinduliai patenka į ragenos ir lęšio audinius, jie taip pat laužiami taip, kad būtų sufokusuojami tinklainėje. Jei akys nebegali fokusuoti šviesos ant tinklainės, paprastai dėl to, kad akies forma nevisiškai taisyklinga, tai vadinama refrakcijos yda.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Нижче коротко описані найбільш типові порушення рефракції й захворювання очей, які зобов’язані своїм виникненням, головним чином, старіння й ущільнення або помутніння кришталика, яке може відбуватися в похилі роки.",
+                            text: "Pateikiame glaustą tipiškiausių refrakcijos sutrikimų ir akių problemų, kurios susiformuoja dėl senėjimo bei akies lęšiuko sukietėjimo arba drumstumo, apžvalgą. Norėdami sužinoti daugiau, spustelėkite kiekvieno regos sutrikimo pavadinimą.",
                         },
                     ],
                 },
                 {
-                    title: "Захворювання очей:",
+                    title: "Akių ligos:",
                     text: [
                         {
                             type: "text",
@@ -5476,7 +6026,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Короткозорість",
+                                    value: "Trumparegystė",
                                 },
                             ],
                         },
@@ -5488,7 +6038,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Короткозорість (розмитий зір вдалину), яка інакше називається міопія, — це найбільш часте порушення рефракції. Зазвичай вона виникає, коли очне яблуко занадто довге або рогівка занадто вигнута. Надлишкова довжина ока призводить до того, що промені світла від віддалених об’єктів фокусуються в точці, яка знаходиться ближче по осі і не досягає сітківки; при цьому промені світла розсіюються і в мозок потрапляє несфокусоване зображення.",
+                            text: "Trumparegystė, dar vadinama miopija (miglotas toli esančių objektų matymas), yra dažniausia refrakcijos yda. Paprastai susiformuoja, kai akis yra per ilga arba ragena per daug išlenkta. Dėl šio papildomo ilgio tolimi objektai fokusuojami priešais tinklainę, todėl šviesa išsisklaido ir teikia smegenims nesufokusuotą vaizdą. Trumparegystė – tai refrakcijos yda, dėl kurios akis nebemato toli esančių objektų. Trumparegystė koreguojama akiniais, kontaktiniais lęšiais arba refrakcijos operacija.",
                         },
                         {
                             type: "text",
@@ -5496,7 +6046,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Далекозорість",
+                                    value: "Toliaregystė",
                                 },
                             ],
                         },
@@ -5508,7 +6058,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Далекозорість (тобто нездатність чітко бачити об’єкти поблизу) – це загальновживаний термін для гіперметропії, — викликається тим, що очне яблуко занадто коротке або рогівка занадто плоска. Через недостатню довжину ока, рогівці і кришталику не вистачає місця для перетину променів світла в фокальній точці на сітківці, і тому зображення фокусується за сітківкою, а в мозок знову і знову вирушають неякісні сигнали.",
+                            text: "Toliaregystė yra arti esančių objektų nematymas, kurį sukelia per trumpa akis arba per daug plokščia ragena. Dėl nepakankamo akies ilgio ragena ir lęšiukas neturi pakankamai vietos šviesos spinduliams sufokusuoti tinklainės židinio taške, todėl vaizdas fokusuojamas už tinklainės ir smegenys gauna netikslius signalus.",
                         },
                         {
                             type: "text",
@@ -5516,7 +6066,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Астигматизм",
+                                    value: "Astigmatizmas",
                                 },
                             ],
                         },
@@ -5528,7 +6078,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Астигматизм — дефект зору, пов’язаний з порушенням форми кришталика, рогівки або ока, в результаті чого людина втрачає здатність до чіткого бачення на будь-якій відстані: і близько, і далеко. Якщо астигматизм не лікувати, він може призвести до косоокості і різкого падіння зору. Без корекції астигматизм може викликати головні болі і різь в очах.",
+                            text: "Kitas terminas prastam akių išlinkiui apibūdinti yra astigmatizmas, kuris susiformuoja, kai ragena nėra apvali, o regbio kamuolio formos, dėl to akis nebegali sufokusuoti šviesos iš bet kokio atstumo. Negydomas astigmatizmas gali sukelti žvairumą ir staigų regėjimo prastėjimą. Be korekcijos astigmatizmas gali sukelti galvos ir akių skausmus.",
                         },
                         {
                             type: "text",
@@ -5536,14 +6086,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Пресбіопія",
+                                    value: "Presbiopija",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Пресбіопія — вікова далекозорість, викликана природним старінням людини. Це аномалія рефракції ока, при якій людина не може розглянути дрібний шрифт або маленькі предмети на близькій відстані. Пресбіопія зазвичай починає вражати людей у віці від 40 до 50 років. Її найбільш ймовірна причина — втрата еластичності кришталиком.",
+                            text: "Presbiopija yra su amžiumi susijusi hiperopija, kurią sukelia natūralus žmogaus senėjimas. Tai yra akies refrakcijos anomalija, kai žmogus negali matyti smulkių šriftų ar smulkių daiktų iš arti. Šis sutrikimas paprastai pasireiškia žmonėms nuo 40 iki 50 metų amžiaus. Presbiopija susiformuoja, kai natūralus akių lęšiukas sensta, todėl tampa kietesnis ir praranda lankstumą, dėl to paprastai prarandamas artimų objektų regėjimas ir reikia skaitymo akinių.",
                         },
                         {
                             type: "text",
@@ -5551,14 +6101,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Катаракта",
+                                    value: "Katarakta",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Всупереч поширеному переконанню, катаракта — це не плівка, що утворюється на поверхні ока, а зміна прозорості кришталика всередині ока, яка не дає променям світла проходити через нього. Таке поступове помутніння робить зір менш гострим з часом. Промені світла, яким вдається проникнути до сітківки, розсіюються, і зір стає розмитим.",
+                            text: "Priešingai nei įprasta manyti, katarakta nėra sluoksnis, kuris susiformuoja ant akies paviršiaus, o yra akies viduje esančio lęšiuko skaidrumo pokytis, neleidžiantis pro jį prasiskverbti šviesos spinduliams. Dėl šio laipsniškai didėjančio miglotumo, laikui bėgant, regėjimas gali tapti nebe toks aštrus. Šviesa, kuri patenka į tinklainę, yra išskaidoma, todėl regėjimas tampa neryškus.",
                         },
                     ],
                 },
@@ -5576,17 +6126,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "If you’re reading this, you’ve probably already been familiar with contact lenses or glasses (or both) for years and know all too well the hassle and limitations that come with them. Here’s what’s really going on.",
+                            text: "If you are reading this text, you are probably familiar with eye diseases: most likely you have been wearing contact lenses or glasses for years and know all about their drawbacks. So why does our vision deteriorate?",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "As light rays move from one medium to another, from air to water, for example, they refract. This is called “refraction.” When rays pass through corneal and lens tissue, they undergo refraction in a way that allows them to focus on the retina. The phenomenon of the eye not being able to focus light onto the retina, usually because the eye is not quite rightly shaped, is called refractive impairment.",
+                            text: "When light rays pass from one medium to another, e.g., from air to water, they bend. This is called refraction. When these rays enter the cornea and lens tissues, they are also refracted to focus on the retina. If the eyes can no longer focus light on the retina, usually because the shape of the eye is not perfectly regular, this is called a refractive error.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "The following briefly describes the most common refractive disorders and eye diseases, which owe their occurrence mainly to aging and thickening or clouding of the lens, which may occur in advanced years.",
+                            text: "Here is a brief overview of the most common refractive errors and eye problems that develop due to aging and the hardening or clouding of the eye lens. To learn more, click on the name of each vision disorder.",
                         },
                     ],
                 },
@@ -5597,7 +6147,10 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             type: "text",
                             gap: true,
                             text: [
-                                { bold: true, subtitle: true, value: "Myopia" },
+                                {
+                                    subtitle: true,
+                                    value: "Myopia",
+                                },
                             ],
                         },
                         {
@@ -5608,16 +6161,15 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Myopia (blurred vision in the distance), otherwise known as myopia, is the most common refractive disorder. It usually occurs when the eyeball is too long or the cornea is too curved. The excessive length of the eye causes light rays from distant objects to be focused at a point that is closer in axis and does not reach the retina; the light rays are scattered and an unfocused image reaches the brain.",
+                            text: "Myopia, also called nearsightedness (blurred vision of distant objects), is the most common refractive error. It usually occurs when the eye is too long or the cornea is too curved. Due to this extra length, distant objects are focused in front of the retina, causing light to scatter and the brain to receive an unfocused image. Myopia is a refractive error that prevents the eye from seeing distant objects. It can be corrected with glasses, contact lenses, or refractive surgery.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
-                                    value: "Farsightedness",
+                                    value: "Hyperopia",
                                 },
                             ],
                         },
@@ -5629,14 +6181,13 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Farsightedness (that is, the inability to see objects clearly at close range) is the common term for hypermetropia, and is caused by the eyeball being too short or the cornea being too flat. Due to the insufficient length of the eye, the cornea and lens do not have enough space for the light rays to cross at the focal point on the retina, so the image is focused behind the retina, and poor quality signals are sent to the brain over and over again.",
+                            text: "Hyperopia is the inability to see nearby objects caused by a too-short eye or a too-flat cornea. Due to insufficient eye length, the cornea and lens do not have enough space to focus light on the retinal focal point, so the image is focused behind the retina and the brain receives inaccurate signals.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
                                     value: "Astigmatism",
                                 },
@@ -5650,14 +6201,13 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Astigmatism is a vision defect associated with the distortion of the shape of the lens, cornea or eye, as a result of which the person loses the ability to see clearly at any distance: both near and far. If astigmatism is left untreated, it can lead to strabismus and a sharp decline in vision. Without correction, astigmatism can cause headaches and eye pain.",
+                            text: "Another term for poor corneal curvature is astigmatism, which occurs when the cornea is not round but shaped like a rugby ball, preventing the eye from focusing light from any distance. Untreated astigmatism can cause strabismus and sudden vision deterioration. Without correction, astigmatism may also cause headaches and eye pain.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
                                     value: "Presbyopia",
                                 },
@@ -5666,14 +6216,13 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Presbyopia is age-related farsightedness caused by a person’s natural aging. It is an abnormality of refraction of the eye in which a person cannot see small print or small objects at close distances. Presbyopia usually begins to affect people between the ages of 40 and 50. It’s most likely cause is the loss of elasticity of the lens.",
+                            text: "Presbyopia is age-related hyperopia caused by natural human aging. It is a refractive anomaly in which a person cannot see small print or nearby objects clearly. This condition typically appears in people between 40 and 50 years of age. Presbyopia develops as the natural lens of the eye ages, becomes harder, and loses elasticity, usually resulting in the need for reading glasses.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
                                     value: "Cataract",
                                 },
@@ -5682,7 +6231,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Contrary to popular belief, a cataract is not a film that forms on the surface of the eye, but a change in the transparency of the lens inside the eye that prevents light rays from passing through it. This gradual clouding makes vision less sharp over time. Rays of light that manage to penetrate to the retina are scattered, and vision becomes blurred.",
+                            text: "Contrary to common belief, a cataract is not a layer forming on the surface of the eye but a change in the transparency of the lens inside the eye, which prevents light rays from passing through it. Due to this gradually increasing cloudiness, vision can become less sharp over time. Light entering the retina is scattered, resulting in blurred vision.",
                         },
                     ],
                 },
@@ -5700,31 +6249,30 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Якщо Ви читаєте цей текст, ймовірно, Ви вже знайомі з контактними лінзами або окулярами (або з тими й іншими) не один рік і занадто добре знаєте всю цю мороку і обмеження, які з ними пов’язані. Ось що насправді відбувається.",
+                            text: "Если вы читаете этот текст, вы, вероятно, знакомы с заболеваниями глаз: скорее всего, вы много лет носите контактные линзы или очки и знаете обо всех их недостатках. Так почему же ухудшается наше зрение?",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Переходячи з одного середовища в інше, наприклад, з повітря у воду, промені світла заломлюються. Це називається «рефракція». Коли промені проходять через тканини рогівки і кришталик, вони піддаються рефракції таким чином, який дозволяє їм фокусуватися на сітківці. Явище, коли око не може сфокусувати світло на сітківці, зазвичай через не зовсім правильну форму ока, називається порушенням рефракції.",
+                            text: "Когда световые лучи переходят из одной среды в другую, например из воздуха в воду, они преломляются. Это называется рефракцией. Когда эти лучи попадают в ткани роговицы и хрусталика, они также преломляются так, чтобы сфокусироваться на сетчатке. Если глаза больше не могут сфокусировать свет на сетчатке, обычно из-за того, что форма глаза не совсем правильная, это называется рефракционной аномалией.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Нижче коротко описані найбільш типові порушення рефракції й захворювання очей, які зобов’язані своїм виникненням, головним чином, старіння й ущільнення або помутніння кришталика, яке може відбуватися в похилі роки.",
+                            text: "Представляем краткий обзор наиболее типичных рефракционных нарушений и проблем с глазами, которые развиваются из-за старения и затвердевания или помутнения хрусталика. Чтобы узнать больше, нажмите на название каждого нарушения зрения.",
                         },
                     ],
                 },
                 {
-                    title: "Захворювання очей:",
+                    title: "Заболевания глаз:",
                     text: [
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
-                                    value: "Короткозорість",
+                                    value: "Близорукость",
                                 },
                             ],
                         },
@@ -5736,16 +6284,15 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Короткозорість (розмитий зір вдалину), яка інакше називається міопія, — це найбільш часте порушення рефракції. Зазвичай вона виникає, коли очне яблуко занадто довге або рогівка занадто вигнута. Надлишкова довжина ока призводить до того, що промені світла від віддалених об’єктів фокусуються в точці, яка знаходиться ближче по осі і не досягає сітківки; при цьому промені світла розсіюються і в мозок потрапляє несфокусоване зображення.",
+                            text: "Близорукость, также называемая миопией (размытое видение дальних объектов), является наиболее распространенной рефракционной аномалией. Обычно возникает, когда глаз слишком длинный или роговица слишком изогнута. Из-за этой дополнительной длины дальние объекты фокусируются перед сетчаткой, что приводит к рассеиванию света и формированию нечеткого изображения в мозге. Близорукость – это рефракционная аномалия, из-за которой глаз не видит дальние объекты. Она корректируется очками, контактными линзами или рефракционной операцией.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
-                                    value: "Далекозорість",
+                                    value: "Дальнозоркость",
                                 },
                             ],
                         },
@@ -5757,14 +6304,13 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Далекозорість (тобто нездатність чітко бачити об’єкти поблизу) – це загальновживаний термін для гіперметропії, — викликається тим, що очне яблуко занадто коротке або рогівка занадто плоска. Через недостатню довжину ока, рогівці і кришталику не вистачає місця для перетину променів світла в фокальній точці на сітківці, і тому зображення фокусується за сітківкою, а в мозок знову і знову вирушають неякісні сигнали.",
+                            text: "Дальнозоркость – это неспособность видеть близкие объекты, вызванная слишком коротким глазом или слишком плоской роговицей. Из-за недостаточной длины глаза роговица и хрусталик не имеют достаточного пространства для фокусировки света на точке сетчатки, поэтому изображение фокусируется за сетчаткой и мозг получает неточные сигналы.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
                                     value: "Астигматизм",
                                 },
@@ -5778,30 +6324,28 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Астигматизм — дефект зору, пов’язаний з порушенням форми кришталика, рогівки або ока, в результаті чого людина втрачає здатність до чіткого бачення на будь-якій відстані: і близько, і далеко. Якщо астигматизм не лікувати, він може призвести до косоокості і різкого падіння зору. Без корекції астигматизм може викликати головні болі і різь в очах.",
+                            text: "Другой термин для описания неправильной кривизны глаза – астигматизм, который возникает, когда роговица не круглая, а в форме регбийного мяча, из-за чего глаз не может сфокусировать свет с любого расстояния. Нелеченный астигматизм может вызвать косоглазие и резкое ухудшение зрения. Без коррекции астигматизм может также вызывать головные боли и боль в глазах.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
-                                    value: "Пресбіопія",
+                                    value: "Пресбиопия",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Пресбіопія — вікова далекозорість, викликана природним старінням людини. Це аномалія рефракції ока, при якій людина не може розглянути дрібний шрифт або маленькі предмети на близькій відстані. Пресбіопія зазвичай починає вражати людей у віці від 40 до 50 років. Її найбільш ймовірна причина — втрата еластичності кришталиком.",
+                            text: "Пресбиопия – возрастная дальнозоркость, вызванная естественным старением человека. Это рефракционная аномалия, при которой человек не может видеть мелкий шрифт или мелкие предметы вблизи. Это состояние обычно проявляется у людей в возрасте от 40 до 50 лет. Пресбиопия развивается, когда естественный хрусталик глаза стареет, становится тверже и теряет эластичность, из-за чего обычно теряется зрение на близком расстоянии и требуется ношение очков для чтения.",
                         },
                         {
                             type: "text",
                             gap: true,
                             text: [
                                 {
-                                    bold: true,
                                     subtitle: true,
                                     value: "Катаракта",
                                 },
@@ -5810,7 +6354,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Всупереч поширеному переконанню, катаракта — це не плівка, що утворюється на поверхні ока, а зміна прозорості кришталика всередині ока, яка не дає променям світла проходити через нього. Таке поступове помутніння робить зір менш гострим з часом. Промені світла, яким вдається проникнути до сітківки, розсіюються, і зір стає розмитим.",
+                            text: "Вопреки распространенному мнению, катаракта – это не слой, который формируется на поверхности глаза, а изменение прозрачности хрусталика внутри глаза, не позволяющее световым лучам проходить через него. Из-за постепенно увеличивающейся мутности со временем зрение может становиться менее четким. Свет, попадающий на сетчатку, рассеивается, в результате чего зрение становится размытым.",
                         },
                     ],
                 },
