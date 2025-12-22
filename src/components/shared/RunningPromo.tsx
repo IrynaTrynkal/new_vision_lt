@@ -27,10 +27,9 @@ export const RunningPromo = ({
         if (container && scroller) {
             const scrollerWidth = scroller.scrollWidth;
 
-            // половина, бо ми дублюємо children
             const totalWidth = scrollerWidth / 2;
 
-            const duration = totalWidth / speed; // seconds
+            const duration = totalWidth / speed;
             setAnimationDuration(duration);
         }
     }, [speed, children]);
