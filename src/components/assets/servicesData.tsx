@@ -254,7 +254,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "akiu-patikrinimas")!,
         lt: {
             textMain:
-                "Комплексне обстеження та перевірка зору з використанням сучасного обладнання.",
+                "Išsami regėjimo ir akių sveikatos patikra modernia įranga: tikslūs matavimai, tinklainės ir regos nervo įvertinimas, aiškios rekomendacijos ir tolimesnių veiksmų planas.",
             sections: [
                 {
                     type: "meta",
@@ -562,7 +562,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "Comprehensive examination and vision test using modern equipment.",
+                "A comprehensive vision and eye health assessment using modern equipment: precise measurements, evaluation of the retina and optic nerve, clear recommendations, and a next-step plan.",
             sections: [
                 {
                     type: "meta",
@@ -868,7 +868,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Комплексное обследование и проверка зрения с использованием современного оборудования.",
+                "Комплексная проверка зрения и здоровья глаз на современном оборудовании: точные измерения, оценка сетчатки и зрительного нерва, понятные рекомендации и план дальнейших действий.",
             sections: [
                 {
                     type: "meta",
@@ -1179,7 +1179,7 @@ export const servicesData: ServicesProps[] = [
         additionalIcon: "/icons/iq-life.svg",
         lt: {
             textMain:
-                "Хірургічне лікування катаракти, косоокості, кератоконуса та інших офтальмологічних патологій.",
+                "Mikrochirurginis drumsto lęšiuko pašalinimas ir dirbtinio intraokulinio lęšio implantavimas, siekiant atkurti ryškų regėjimą ir pagerinti gyvenimo kokybę.",
             sections: [
                 {
                     type: "meta",
@@ -1392,7 +1392,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "Surgical treatment of cataracts, strabismus, keratoconus and other ophthalmological pathologies.",
+                "Microsurgical removal of the clouded lens with implantation of an intraocular lens to restore clear vision and improve quality of life.",
             sections: [
                 {
                     type: "meta",
@@ -1615,7 +1615,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Хирургическое лечение катаракты, косоглазия, кератоконуса и других офтальмологических патологий.",
+                "Микрохирургическое удаление помутневшего хрусталика с имплантацией искусственной линзы для восстановления чёткости зрения и повышения качества жизни.",
             sections: [
                 {
                     type: "meta",
@@ -1831,7 +1831,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "dry-eye-syndrome-treatment")!,
         lt: {
             textMain:
-                "Ми забезпечуємо ефективний та індивідуальний підхід до усунення неприємних симптомів, щоб повернути комфорт та здоров'я вашим очам.",
+                "Individuali diagnostikos ir gydymo programa sausumo, deginimo ir „smėlio“ pojūčio akyse mažinimui: parenkami lašai, priežiūros priemonės ir procedūros, stebint gydymo rezultatą.",
             sections: [
                 {
                     type: "meta",
@@ -2139,7 +2139,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "We provide an effective and individual approach to eliminating unpleasant symptoms to restore comfort and health to your eyes.",
+                "A personalized diagnostic and treatment program to reduce dryness, burning, and gritty sensation: tailored eye drops, care products, and procedures with outcome monitoring.",
             sections: [
                 {
                     type: "meta",
@@ -2448,7 +2448,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Мы обеспечиваем эффективный и индивидуальный подход к устранению неприятных симптомов, чтобы вернуть комфорт и здоровье вашим глазам.",
+                "Персональная программа диагностики и терапии для уменьшения сухости, жжения и «песка» в глазах: подбор капель, уходовых средств и процедур с контролем результата.",
             sections: [
                 {
                     type: "meta",
@@ -2761,7 +2761,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "vaiku-akiu-patikra")!,
         lt: {
             textMain:
-                "У Дитячій клініці Злата проводимо перевірку зору у дітей від немовлят до підлітків.",
+                "Vaikų oftalmologija nuo pirmųjų gyvenimo mėnesių iki paauglystės: švelni apžiūra, išplėstiniai tyrimai, regėjimo sutrikimų profilaktika ir gydymas, pateikiant rekomendacijas tėvams.",
             sections: [
                 {
                     type: "meta",
@@ -3030,7 +3030,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "At Zlata Children's Clinic, we provide eye examinations for children — from infants to teenagers.",
+                "Pediatric ophthalmology from the first months of life through adolescence: gentle examinations, extended diagnostics, prevention and treatment of vision problems, with guidance for parents.",
             sections: [
                 {
                     type: "meta",
@@ -3300,7 +3300,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "В Детской клинике Злата проводится проверка зрения у детей — от младенцев до подростков.",
+                "Офтальмология для детей от первых месяцев жизни до подростков: мягкий осмотр, расширенная диагностика, профилактика и лечение нарушений зрения с рекомендациями для родителей.",
             sections: [
                 {
                     type: "meta",
@@ -3573,7 +3573,7 @@ export const servicesData: ServicesProps[] = [
         additionalIcon: "/icons/iq-lasik.svg",
         lt: {
             textMain:
-                "Сучасні методи виправлення рефракційних порушень відновлення чіткості зору.",
+                "Greitas ir tikslus būdas sumažinti priklausomybę nuo akinių ar kontaktinių lęšių esant trumparegystei, toliaregystei ar astigmatizmui; metodas parenkamas pagal ragenos parametrus ir Jūsų poreikius.",
 
             sections: [
                 {
@@ -3880,7 +3880,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "Modern methods of correcting refractive errors and restoring visual acuity.",
+                "A fast and precise way to reduce dependence on glasses or contact lenses for myopia, hyperopia, and astigmatism; the method is selected based on corneal parameters and your goals.",
             sections: [
                 {
                     type: "meta",
@@ -4177,7 +4177,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Современные методы устранения рефракционных нарушений восстановления четкости зрения.",
+                "Быстрый и точный способ уменьшить зависимость от очков и линз при близорукости, дальнозоркости и астигматизме; метод подбирается по параметрам роговицы и вашим задачам.",
             sections: [
                 {
                     type: "meta",
@@ -4476,7 +4476,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "skaidraus-lesio-operacija")!,
         lt: {
             textMain:
-                "BiVision RLE (рефракційна ленсектомія) — ефективний метод корекції пресбіопії (вікова далекозорість).",
+                "Natūralaus lęšiuko pakeitimas intraokuliniu lęšiu, siekiant pagerinti regėjimą skirtingais atstumais, kai lazerinė korekcija netinka arba prognozuojamas poveikis yra ribotas.",
             sections: [
                 {
                     type: "meta",
@@ -4825,7 +4825,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "BiVision RLE (refractive lensectomy) is an effective method of correcting presbyopia (age-related farsightedness).",
+                "Replacement of the natural lens with an intraocular lens to improve vision at different distances when laser correction is not suitable or the expected outcome is limited.",
             sections: [
                 {
                     type: "meta",
@@ -5174,7 +5174,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "BiVision RLE (рефракционная ленсектомия) – эффективный метод коррекции пресбиопии (возрастная дальнозоркость).",
+                "Замена собственного хрусталика на интраокулярную линзу для улучшения зрения на разных дистанциях, когда лазерная коррекция не подходит или ожидаемый эффект ограничен.",
             sections: [
                 {
                     type: "meta",
@@ -5526,7 +5526,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "lazerinis-akiu-ligu-gydymas")!,
         lt: {
             textMain:
-                "Можливість чітко візуалізувати патологічні зміни дозволяє лікарю виконувати процедуру гранично точно.",
+                "Ambulatorinės lazerinės procedūros akių būklei stabilizuoti ir komplikacijų prevencijai (tinklainės pažeidimai, antrinė katarakta ir kt.) be pjūvių ir ilgos hospitalizacijos.",
             sections: [
                 {
                     type: "meta",
@@ -5724,7 +5724,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "The ability to clearly visualize pathological changes allows the doctor to perform the procedure with extreme precision.",
+                "Outpatient laser procedures to stabilize the eye and prevent complications (retinal conditions, secondary cataract, etc.) without incisions or prolonged hospitalization.",
             sections: [
                 {
                     type: "meta",
@@ -5922,7 +5922,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Возможность четко визуализировать патологические изменения позволяет врачу выполнять процедуру предельно точно.",
+                "Амбулаторные лазерные процедуры для стабилизации состояния глаза и предотвращения осложнений (сетчатка, вторичная катаракта и др.) без разрезов и длительной госпитализации.",
             sections: [
                 {
                     type: "meta",
@@ -6123,7 +6123,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "glaukomos-gydymas")!,
         lt: {
             textMain:
-                "Ми лікуємо всі види глаукоми із застосуванням найсучасніших і ефективних хірургічних методик.",
+                "Ankstyvas glaukomos nustatymas ir akispūdžio kontrolė: ištyrimas, gydymo parinkimas, dinaminė stebėsena ir regėjimo praradimo prevencija.",
             sections: [
                 {
                     type: "meta",
@@ -6388,7 +6388,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "We treat all types of glaucoma using the most modern and effective surgical techniques.",
+                "Early detection of glaucoma and intraocular pressure control: assessment, tailored therapy, ongoing monitoring, and prevention of vision loss",
             sections: [
                 {
                     type: "meta",
@@ -6654,7 +6654,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Мы лечим все виды глаукомы с применением самых современных и эффективных хирургических методик.",
+                "Выявление глаукомы на ранних стадиях и контроль внутриглазного давления: обследование, подбор терапии, динамическое наблюдение и профилактика потери зрения.",
             sections: [
                 {
                     type: "meta",

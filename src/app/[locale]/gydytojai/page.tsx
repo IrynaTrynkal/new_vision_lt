@@ -24,7 +24,7 @@ export async function generateMetadata({
     });
 }
 
-export default async function OftalmolohyPage({
+export default async function gydytojaiPage({
     searchParams,
     params,
 }: {
