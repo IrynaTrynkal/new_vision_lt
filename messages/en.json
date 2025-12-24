@@ -75,7 +75,7 @@
         "readMore": "read more",
         "bookingSubtitle": "appointment booking",
         "bookingTitle": "Convenient booking and transparent consultation cost",
-        "bookingText": "We have made the process of contacting the clinic as simple as possible. You only need to book an appointment with an ophthalmologist in Kyiv online or by phone.",
+        "bookingText": "We have made the process of contacting the clinic as simple as possible. You only need to book an appointment with an ophthalmologist in Vilnius online or by phone.",
         "upButtonHint": "To the top of the page",
         "upButtonAria": "Return to top of page",
         "lazerna-korekcziya-zoru-cold": "Cold laser vision \ncorrection",
@@ -168,8 +168,8 @@
         "globalText": "Leave your contact information and we will get in touch with you shortly"
     },
     "Doctors": {
-        "titleSEO": "Doctors. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ Doctors. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "Doctors. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "➔ Doctors. Premium care for your vision. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "doctors",
         "heroText": "Our team consists of doctors and candidates of medical sciences, top-category specialists",
         "heroTextDown": "experts",
@@ -218,16 +218,16 @@
         "loading": "Sending..."
     },
     "FeedbackPage": {
-        "titleSEO": "Reviews. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ Reviews. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "Reviews. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "➔ Reviews. Premium care for your vision. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "reviews of our patients",
         "subtitle": "Leave your review",
         "description": "Join tens of thousands of our patients who have already helped us become the best in our field!",
         "leaveFeedbackBtn": "leave a review"
     },
     "AboutPage": {
-        "titleSEO": "About the Clinic. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ About the Clinic. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "About the Clinic. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "➔ About the Clinic. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "About the Clinic",
         "description": "We help you regain clear vision and a full life without glasses",
         "aboutTitle": "The “New Vision” Eye Clinic provides medical care with heightened attention to controlling every stage of treatment and ensuring patient safety.",
@@ -255,14 +255,14 @@
         "teamBtn": "all services"
     },
     "OffersPage": {
-        "titleSEO": "Promotions and Discounts. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ Promotions and Discounts. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "Promotions and Discounts. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "Promotions and Discounts. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "offers and discounts",
         "description": "Our clinic does not pay any fees to outside doctors for referring patients for surgical treatment"
     },
     "ServicesPage": {
-        "titleSEO": "Ophthalmology Services in Kyiv | British Ophthalmology Center",
-        "descriptionSEO": "Full list of ophthalmology services in Kyiv – 🇺🇦🇬🇧 British Ophthalmology Center. ✴️ Individual approach to every patient! ✅ Our eye clinic provides a full range of ophthalmology services.",
+        "titleSEO": "Ophthalmology Services in Vilnius | New Vision Clinic",
+        "descriptionSEO": "Full list of ophthalmology services in Vilnius ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "Ophthalmology services",
         "description": "The British Ophthalmology Center provides a full range of modern high-tech ophthalmological services for the treatment of eye diseases in people of all ages.",
         "sectionTitle": "We diagnose all eye diseases and perform microsurgical treatment",
@@ -346,8 +346,8 @@
         "raynerAboutItem": "This is the world’s first intraocular lens developed with the participation of artificial intelligence"
     },
     "PricePage": {
-        "titleSEO": "Prices. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ Prices. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "Prices. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "Prices. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "Prices",
         "paymentTitle": "Payment in installments",
         "paymentText": "We strive to make our services more accessible. Now you have the option to pay for your treatment in installments, without extra financial burden.",
@@ -362,8 +362,8 @@
         "servicesPrice": "from {price}"
     },
     "PatientsPage": {
-        "titleSEO": "For Patients. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ For Patients. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "For Patients. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "For Patients. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "Information for \npatients",
         "afterProcedure": "after the procedure:",
         "beforeProcedure": "before the procedure:",
@@ -373,8 +373,8 @@
         "farsightedness": "Farsightedness"
     },
     "Contacts": {
-        "titleSEO": "Contacts. British Ophthalmology Center | EYES",
-        "descriptionSEO": "➔ Contacts. Premium care for your vision. ✅ The best ophthalmologists in Kyiv ✅ A comprehensive approach to diagnostics and treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077",
+        "titleSEO": "Contacts. Eye Doctor Consultation | New Vision Clinic",
+        "descriptionSEO": "Contacts. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "contacts": "contacts",
         "center": "Ophthalmology Clinic “New Vision”",
         "text": "You can make an appointment by filling out the form below.",
@@ -389,8 +389,8 @@
         "rulesParkingText": "As the clinic is located in the very heart of the Old Town, there are no designated parking spaces for patients. If you plan to arrive by car, please drop the patient off at the entrance and use nearby parking zones. A blue parking zone operates near the clinic (€2.5 per hour), while a more distant red zone costs €1.2 per hour. The parking zone color is indicated on the parking meter. We apologize for any inconvenience."
     },
     "Blog": {
-        "titleSEO": "Ophthalmology News | British Ophthalmology Center",
-        "descriptionSEO": "Latest ophthalmology news and updates from the British Ophthalmology Center. 🇺🇦🇬🇧 Modern treatment methods, new equipment, promotions, doctor’s tips, and useful materials for patients.",
+        "titleSEO": "Ophthalmology News | New Vision Clinic",
+        "descriptionSEO": "Latest ophthalmology news ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "News ",
         "description": "Ми навчаємо та ділимось досвідом",
         "allTopics": "All topics",
@@ -412,12 +412,12 @@
         "ksenonoterapiya": "xenon therapy"
     },
     "Disease": {
-        "titleSEO": "Eye Diseases. General Information from Leading Ophthalmologists in Kyiv | EYES",
-        "descriptionSEO": "➔ Learn more about your eye condition from the best ophthalmologists in Kyiv ✅ Symptoms, causes, and treatment ✅ Advanced diagnostics and effective therapy 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077"
+        "titleSEO": "Eye Diseases. General Information from Leading Ophthalmologists in Vilnius | New Vision Clinic",
+        "descriptionSEO": "Learn more about your eye condition from the best ophthalmologists in Vilnius ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
     },
     "Rayner": {
-        "titleSEO": "Rayner GALAXY Intraocular Lens | #1 Choice Worldwide for Cataract Treatment | EYES",
-        "descriptionSEO": "➔ Rayner GALAXY — the new standard of vision, available exclusively at our clinic. Forget about glasses and contact lenses! ➡️ Advanced diagnostics and effective treatment 👍 Proven experience and an impeccable reputation ☎️ 0 800 507 077"
+        "titleSEO": "Rayner GALAXY Intraocular Lens | #1 Choice Worldwide for Cataract Treatment | New Vision Clinic",
+        "descriptionSEO": "➔ Rayner GALAXY — the new standard of vision, available exclusively at our clinic. Forget about glasses and contact lenses! ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
     },
     "ForentInstr": {
         "titleSEO": "For Out-of-Town Patients. British Ophthalmology Center | EYES",
@@ -429,8 +429,8 @@
     },
     "PolicyPage": {
         "title": "Privacy Policy",
-        "titleSEO": "Privacy Policy | Британський офтальмологічний центр",
-        "descriptionSEO": "British Eye Center LLC (“Company”, “We”) respects your privacy and is committed to protecting the personal data of users of www.eyes.ua (“Website”). This Privacy Policy explains what data we collect, how we process it, for what purpose, who we may share it with, and what rights you have."
+        "titleSEO": "Privacy Policy | New Vision Clinic",
+        "descriptionSEO": "The Eye Clinic “Naujas regėjimas”, legal entity code: 306081994, address: Savičiaus g. 3A-42, LT-01127 Vilnius (hereinafter – we), protects the personal data of its clients (hereinafter – you, your), applying the highest technical and legal protection standards in accordance with the European Union General Data Protection Regulation No. 2016/679 (GDPR) and other applicable legal requirements."
     },
     "NotFound": {
         "titleSEO": "Oops! Nothing to see here…",
@@ -440,13 +440,13 @@
         "btn": "go back to the homepage"
     },
     "PartPay": {
-        "titleSEO": "Apmokėjimas dalimis | Британський офтальмологічний центр",
-        "descriptionSEO": "➔ Apmokėjimas dalimis. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Payment in installments | New Vision Clinic",
+        "descriptionSEO": "Payment in installments. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "Payment in installments"
     },
     "CookiePage": {
-        "titleSEO": "Politika dėl slapukų | Британський офтальмологічний центр",
-        "descriptionSEO": "➔ Politika dėl slapukų. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Cookie Policy (EU) | New Vision Clinic",
+        "descriptionSEO": "Cookie Policy (EU). ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
         "title": "Cookie Policy (EU)"
     }
 }

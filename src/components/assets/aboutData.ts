@@ -92,22 +92,22 @@ export type AchievementsType = {
 
 export const achievementsList: AchievementsType[] = [
     {
-        lt: { up: "19", down: "років досвіду" },
+        lt: { up: "19", down: "metų patirtis" },
         en: { up: "19", down: "years of experience" },
         ru: { up: "19", down: "лет опыта" },
     },
     {
-        lt: { up: "5 млн", down: "консультацій проведено" },
+        lt: { up: "5 mln", down: "konsultacijų atlikta" },
         en: { up: "5 m", down: "consultations held" },
         ru: { up: "5 млн", down: "консультаций проведено" },
     },
     {
-        lt: { up: "1.5 млн", down: "операцій проведено" },
+        lt: { up: "1.5 mln", down: "atliktos operacijos" },
         en: { up: "1.5 m", down: "operations carried out" },
         ru: { up: "1.5 млн", down: "операций проведено" },
     },
     {
-        lt: { up: "1 млн", down: "задоволених клієнтів" },
+        lt: { up: "1 mln", down: "patenkinti klientai" },
         en: { up: "1 m", down: "satisfied customers" },
         ru: { up: "1 млн", down: "довольных клиентов" },
     },

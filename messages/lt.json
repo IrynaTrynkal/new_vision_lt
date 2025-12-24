@@ -163,13 +163,12 @@
     },
     "Modals": {
         "callUs": "Susisiekite su mumis",
-        "hotLine": "безкоштовна гаряча лінія в україні",
         "globalTitle": "Priimame pacientus iš kitų miestų ir šalių",
         "globalText": "Palikite savo duomenis ir mes susisieksime su jumis artimiausiu metu"
     },
     "Doctors": {
-        "titleSEO": "Лікарі. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Лікарі. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Gydytojai. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Gydytojai. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "gydytojai",
         "heroText": "Mūsų komanda – tai gydytojai ir medicinos mokslų kandidatai, aukščiausios kvalifikacijos specialistai",
         "heroTextDown": "ekspertai",
@@ -218,16 +217,16 @@
         "loading": "Siunčiama..."
     },
     "FeedbackPage": {
-        "titleSEO": "Відгуки. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Відгуки. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Atsiliepimai. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Atsiliepimai. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "mūsų pacientų atsiliepimai",
         "subtitle": "Palikite savo atsiliepimą",
         "description": "Prisijunkite prie dešimčių tūkstančių mūsų pacientų, kurie jau padėjo mums tapti geriausiais savo srityje!",
         "leaveFeedbackBtn": "palikti atsiliepimą"
     },
     "AboutPage": {
-        "titleSEO": "Про клініку. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Про клініку. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Apie kliniką. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Apie kliniką. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Apie kliniką",
         "description": "Mes padedame susigrąžinti regėjimą ir visavertį gyvenimą be akinių",
         "aboutTitle": "Akių klinika „Naujas regėjimas“ – tai medicinos paslaugos, kuriose ypatingas dėmesys skiriamas kiekvieno gydymo etapo kontrolei ir paciento saugai",
@@ -255,14 +254,14 @@
         "teamBtn": "visos paslaugos"
     },
     "OffersPage": {
-        "titleSEO": "Акції та знижки. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Акції та знижки. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Akcijos ir nuolaidos. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Akcijos ir nuolaidos. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "akcijos ir nuolaidos",
         "description": "Mūsų klinika nemoka atlygio tretiesiems gydytojams už pacientų siuntimą operaciniam gydymui."
     },
     "ServicesPage": {
-        "titleSEO": "Офтальмологічні послуги у Києві | Британський офтальмологічний центр",
-        "descriptionSEO": "Повний перелік офтальмологічних послуг в Києві - 🇺🇦🇬🇧 Британський офтальмологічний центр. ✴️ Індивідуальний підхід до кожного клієнта! ✅ Наша очна клініка, надає повний спектр офтальмологічних послуг",
+        "titleSEO": "Oftalmologijos paslaugos Vilniuje | Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Oftalmologijos paslaugos Vilniuje ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Офтальмологічні послуги",
         "description": "Британський Офтальмологічний Центр надає весь спектр сучасних високотехнологічних офтальмологічних послуг для лікування захворювань очей у людей будь-якого віку.",
         "sectionTitle": "Діагностуємо всі захворювання ока та  проводимо мікрохірургічне лікування",
@@ -346,8 +345,8 @@
         "raynerAboutItem": "Tai pirmasis pasaulyje intraokulinis lęšis, sukurtas pasitelkiant dirbtinį intelektą"
     },
     "PricePage": {
-        "titleSEO": "Ціни. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Ціни. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Kainos. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Kainos. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Kainos",
         "paymentTitle": "Atsiskaitymas išsimokėtinai",
         "paymentText": "Siekiame, kad mūsų paslaugos būtų prieinamesnės. Dabar turite galimybę už gydymą atsiskaityti dalimis, be papildomos finansinės naštos.",
@@ -362,8 +361,8 @@
         "servicesPrice": "nuo {price}"
     },
     "PatientsPage": {
-        "titleSEO": "Пацієнтам. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Пацієнтам. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Пацієнтам. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "➔ Пацієнтам. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Інформація для \nпацієнтів",
         "beforeProcedure": "до процедури:",
         "afterProcedure": "після процедури:",
@@ -373,8 +372,8 @@
         "farsightedness": "Toliaregystė"
     },
     "Contacts": {
-        "titleSEO": "Контакти. Британський офтальмологічний центр | EYES",
-        "descriptionSEO": "➔ Контакти. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Kontaktai. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Kontaktai. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "contacts": "kontaktai",
         "center": "Akių klinika «NAUJAS REGĖJIMAS»",
         "text": "Užsiregistruoti konsultacijai galite užpildę žemiau esančią formą.",
@@ -389,8 +388,8 @@
         "rulesParkingText": "Kadangi klinika įsikūrusi pačioje senamiesčio širdyje, pacientams skirtų parkavimo vietų nėra. Jei planuojate atvykti automobiliu, prašome išlaipinti pacientą prie įėjimo ir naudotis netoliese esančiomis parkavimo zonomis. Šalia klinikos galioja mėlynoji parkavimo zona (2,5 € už valandą), tolimesnėje raudonojoje zonoje — 1,2 € už valandą. Parkavimo zonos spalva nurodyta ant parkomato. Atsiprašome už galimus nepatogumus."
     },
     "Blog": {
-        "titleSEO": "Новини офтальмології | Британський офтальмологічний центр",
-        "descriptionSEO": "Актуальні новини офтальмології та оновлення Британського офтальмологічного центру. 🇺🇦🇬🇧 Сучасні методики лікування, нове обладнання, акції, поради лікарів та корисні матеріали для пацієнтів.",
+        "titleSEO": "Oftalmologijos naujienos | Naujas Regėjimas",
+        "descriptionSEO": "Oftalmologijos naujienos ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Naujienos",
         "allTopics": "visos temos",
         "moreNews": "Daugiau naujienų apie {service}",
@@ -411,25 +410,25 @@
         "ksenonoterapiya": "ksenonoterapiją"
     },
     "Disease": {
-        "titleSEO": "Захворювання очей. Загальна інформація від провідних оофтальмологів Києва | EYES",
-        "descriptionSEO": "➔ Дізнайтеся більше про ваше захворювання очей від найкращих офтальмологів Києва ✅ Симптоми, причини та лікування ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
+        "titleSEO": "Akių ligos. Bendra informacija iš pirmaujančių oftalmologų Vilniuje | Naujas Regėjimas",
+        "descriptionSEO": "Akių ligos. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     },
     "Rayner": {
-        "titleSEO": "Інтраокулярна лінза Rayner GALAXY | №1 вибір у світі для лікування катаракти | EYES ",
-        "descriptionSEO": "➔ Rayner GALAXY — новий стандарт зору, доступний ексклюзивно в нашій клініці. Забудьте за окуляри та лінзи! ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077"
+        "titleSEO": "Intraokulinis lęšis Nr. 1 pasaulyje kataraktos gydymui | Naujas Regėjimas",
+        "descriptionSEO": "Rayner GALAXY – tai naujas regėjimo standartas, prieinamas tik mūsų klinikoje. Pamirškite akinius ir lęšius! ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     },
     "ForentInstr": {
-        "titleSEO": "Для іногородніх пацієнтів. Британський офтальмологічний центр | EYES",
+        "titleSEO": "Для іногородніх пацієнтів | Naujas Regėjimas",
         "descriptionSEO": "➔ Для іногородніх пацієнтів. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
     },
     "Instructions": {
-        "titleSEO": "Пам’ятки та інструкції для пацієнтів. Британський офтальмологічний центр | EYES",
+        "titleSEO": "Пам’ятки та інструкції для пацієнтів | Naujas Regėjimas",
         "descriptionSEO": "➔ Пам’ятки та інструкції для пацієнтів. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
     },
     "PolicyPage": {
         "title": "Privatumo politika",
-        "titleSEO": "Політика конфіденційності | Британський офтальмологічний центр",
-        "descriptionSEO": "ТОВ «Британський офтальмологічний центр» (далі – «Компанія», «Ми») поважає Ваше право на приватність і зобов’язується захищати персональні дані користувачів сайту www.eyes.ua (далі – «Сайт»). Ця Політика конфіденційності пояснює, які дані ми збираємо, як їх обробляємо, для чого використовуємо, кому можемо передавати і які права має користувач."
+        "titleSEO": "Privatumo politika | Naujas Regėjimas",
+        "descriptionSEO": "Akių klinika „Naujas regėjimas“, juridinio asmens kodas: 306081994, adresas: Savičiaus g. 3A-42, LT-01127 Vilnius (toliau – mes), saugo savo klientų (toliau – Jūs, Jūsų) asmens duomenis, taikydama aukščiausius techninius ir teisinius apsaugos standartus pagal Europos Sąjungos Bendrąjį duomenų apsaugos reglamentą Nr. 2016/679 bei kitus teisės aktų reikalavimus."
     },
     "NotFound": {
         "titleSEO": "Ups! Čia nieko nėra…",
@@ -439,13 +438,13 @@
         "btn": "grįžti į pagrindinį puslapį"
     },
     "PartPay": {
-        "titleSEO": "Apmokėjimas dalimis | Британський офтальмологічний центр",
-        "descriptionSEO": "➔ Apmokėjimas dalimis. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Apmokėjimas dalimis | Naujas Regėjimas",
+        "descriptionSEO": "➔ Apmokėjimas dalimis. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Atsiskaitymas išsimokėtinai"
     },
     "CookiePage": {
-        "titleSEO": "Politika dėl slapukų | Британський офтальмологічний центр",
-        "descriptionSEO": "➔ Politika dėl slapukų. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+        "titleSEO": "Politika dėl slapukų | Naujas Regėjimas",
+        "descriptionSEO": "➔ Politika dėl slapukų. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Cookie politika (ES)"
     }
 }
