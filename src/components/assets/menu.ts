@@ -23,6 +23,7 @@ export type ServicesKeyType =
 
 export type ServicesListProps = {
     key: ServicesKeyType;
+    type: string;
     image?: string;
     icon?: boolean;
     slug: { lt: string; ru: string; en: string };
@@ -31,6 +32,7 @@ export type ServicesListProps = {
 export const servicesList: ServicesListProps[] = [
     {
         key: "akiu-patikrinimas",
+        type: "MedicalTest",
         image: "perevirka-zoru.jpg",
         slug: {
             lt: "akiu-patikrinimas",
@@ -40,6 +42,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "lazerine-akiu-korekcija",
+        type: "MedicalProcedure",
         image: "lazerna-korekcziya-zoru.jpg",
         slug: {
             lt: "lazerine-akiu-korekcija",
@@ -50,6 +53,7 @@ export const servicesList: ServicesListProps[] = [
 
     {
         key: "kataraktos-operacija",
+        type: "MedicalProcedure",
         image: "likuvannya-katarakti.jpg",
         slug: {
             lt: "kataraktos-operacija",
@@ -59,6 +63,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "dry-eye-syndrome-treatment",
+        type: "MedicalTherapy",
         image: "syndrom-sukhoho-oka.jpg",
         slug: {
             lt: "dry-eye-syndrome-treatment",
@@ -68,6 +73,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "vaiku-akiu-patikra",
+        type: "Service",
         icon: true,
         slug: {
             lt: "vaiku-akiu-patikra",
@@ -77,6 +83,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "lazerinis-akiu-ligu-gydymas",
+        type: "MedicalProcedure",
         icon: true,
         slug: {
             lt: "lazerinis-akiu-ligu-gydymas",
@@ -86,6 +93,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "skaidraus-lesio-operacija",
+        type: "MedicalProcedure",
         icon: true,
         slug: {
             lt: "skaidraus-lesio-operacija",
@@ -95,6 +103,7 @@ export const servicesList: ServicesListProps[] = [
     },
     {
         key: "glaukomos-gydymas",
+        type: "MedicalProcedure",
         icon: true,
         slug: {
             lt: "glaukomos-gydymas",
