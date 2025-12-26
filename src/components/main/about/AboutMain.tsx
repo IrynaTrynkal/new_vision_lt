@@ -1,25 +1,11 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-import { aboutSertification } from "@/components/assets/contacts";
 import { Fraction } from "@/components/shared/Fraction";
-import { GreenText } from "@/components/shared/GreenText";
 import { LinkAction } from "@/components/shared/LinkAction";
 
 export const AboutMain = () => {
     const t = useTranslations("HomePage");
-    const greenText = t.rich("aboutGreen", {
-        link: chunk => (
-            <a
-                href={aboutSertification}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-            >
-                {chunk}
-            </a>
-        ),
-    });
 
     return (
         <section className="content pc:py-[120px] tab:py-12 py-[60px]">
@@ -90,10 +76,7 @@ export const AboutMain = () => {
                             />
                         </div>
                     </div>
-                    <GreenText
-                        text={greenText}
-                        className="tab:block tab:w-[70%] pc:mb-1 pc:max-w-54 mb-7 hidden max-w-[333px]"
-                    />
+
                     <div className="pc:flex-row-reverse pc:items-end flex justify-between">
                         <Fraction textUp="20" textDown={t("aboutYears")} />
                         <LinkAction

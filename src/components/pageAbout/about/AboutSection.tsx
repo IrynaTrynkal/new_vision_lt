@@ -2,27 +2,13 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 
 import { achievementsList } from "@/components/assets/aboutData";
-import { aboutSertification } from "@/components/assets/contacts";
 import { Fraction } from "@/components/shared/Fraction";
-import { GreenText } from "@/components/shared/GreenText";
 import { LocaleType } from "@/types/LocaleType";
 
 export const AboutSection = () => {
     const t = useTranslations("AboutPage");
-    const tH = useTranslations("HomePage");
     const locale = useLocale();
-    const greenText = tH.rich("aboutGreen", {
-        link: chunk => (
-            <a
-                href={aboutSertification}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-            >
-                {chunk}
-            </a>
-        ),
-    });
+
     const text = [t("aboutText1"), t("aboutText2"), t("aboutText3")];
 
     return (
@@ -63,11 +49,6 @@ export const AboutSection = () => {
                                 {t}
                             </p>
                         ))}
-
-                        <GreenText
-                            text={greenText}
-                            className="tab:w-[70%] tab:mb-0 pc:max-w-54 prepc:mt-auto prepc:mb-0 prepc:mr-0 prepc:ml-auto prepc:max-w-[216px] mt-3 mb-[58px] max-w-[333px]"
-                        />
                     </div>
                 </div>
             </div>
