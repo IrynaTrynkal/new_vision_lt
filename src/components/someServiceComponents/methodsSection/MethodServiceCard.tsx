@@ -21,7 +21,7 @@ export const MethodServiceCard = ({ data }: { data: MethodCardProps }) => {
                     backgroundColor: "#065d43",
                 }}
             />
-            <h3 className="font-oswald text-white-100 prepc:text-[42px] tab:text-3xl absolute top-1/2 left-1/2 -translate-1/2 text-2xl leading-7 font-medium whitespace-nowrap uppercase transition-transform duration-300 ease-in-out group-hover:scale-110">
+            <h3 className="font-oswald text-white-100 prepc:text-[42px] tab:text-3xl absolute top-1/2 left-1/2 w-[70%] -translate-1/2 text-center text-2xl leading-[100%] font-medium uppercase transition-transform duration-300 ease-in-out group-hover:scale-110">
                 {data.title}
             </h3>
             <div className="bg-ivory tab:max-w-[447px] tab:left-auto tab:right-0 prepc:p-2 pc:p-3 absolute bottom-0 flex w-full items-center rounded p-[5.2px]">
