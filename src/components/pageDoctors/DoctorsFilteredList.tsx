@@ -8,7 +8,6 @@ const ITEMS_PER_PAGE = 6;
 export const DoctorsFilteredList = ({
     pageNumber = 1,
     list,
-    selectedDepartment,
     className,
 }: {
     pageNumber?: number;
@@ -16,24 +15,18 @@ export const DoctorsFilteredList = ({
     selectedDepartment?: DepartmentsKey;
     className?: string;
 }) => {
-    const filteredDoctorsList = !selectedDepartment
-        ? (list ?? [])
-        : (list ?? []).filter(item =>
-              item.departments?.includes(selectedDepartment as any)
-          );
-
-    const totalPages = Math.ceil(filteredDoctorsList.length / ITEMS_PER_PAGE);
+    const totalPages = Math.ceil((list ?? []).length / ITEMS_PER_PAGE);
 
     const startIndex = (pageNumber - 1) * ITEMS_PER_PAGE;
-    const currentItems = filteredDoctorsList.slice(
+    const currentItems = (list ?? []).slice(
         startIndex,
         startIndex + ITEMS_PER_PAGE
     );
     return (
         <div className={className}>
-            <ul className="tab:px-0 tab:max-w-full tab:flex-row tab:flex-wrap pc:gap-5 tab:justify-center prepc:justify-normal mx-auto flex max-w-[540px] flex-col gap-4 px-4">
+            <ul className="tab:px-0 tab:max-w-full tab:flex-row pc:justify-center tab:flex-wrap pc:gap-5 tab:justify-center prepc:justify-normal mx-auto flex max-w-[540px] flex-col gap-4 px-4">
                 {currentItems.map((doc, ind) => (
-                    <li key={ind} className="prepc:w-[32%]">
+                    <li key={ind}>
                         <DoctorCardDoctorsPage data={doc} />
                     </li>
                 ))}

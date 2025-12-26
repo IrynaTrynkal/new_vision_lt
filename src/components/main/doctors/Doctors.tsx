@@ -1,10 +1,7 @@
 "use client";
-import { useLocale, useTranslations } from "next-intl";
-import { useState } from "react";
+import { useTranslations } from "next-intl";
 
-import { departments, DepartmentsType } from "@/components/assets/doctorsData";
 import { LinkAction } from "@/components/shared/LinkAction";
-import { LocaleType } from "@/types/LocaleType";
 
 import { DoctorsOrderQueryResult } from "../../../../sanity.types";
 import { DoctorsSlider } from "../../shared/doctors/DoctorsSlider";
@@ -16,20 +13,9 @@ export const Doctors = ({
     className?: string;
     doctors: DoctorsOrderQueryResult;
 }) => {
-    const [openedDepartment, setOpenedDepartment] = useState<DepartmentsType>(
-        "consultation-and-diagnostic-ophthalmologists"
-    );
-
-    const toggleSubmenu = (key: DepartmentsType) => {
-        setOpenedDepartment(key);
-    };
-
     const t = useTranslations("HomePage");
-    const locale = useLocale();
     if (!doctors) return null;
-    const filteredDoctors = doctors.filter(doc =>
-        doc.departments?.includes(openedDepartment as any)
-    );
+
     return (
         <section
             className={`green-gradient tab:px-6 pc:px-12 tab:max-w-full tab:pt-10 tab:pb-[42px] pt-4 pb-7 ${className}`}
@@ -60,20 +46,9 @@ export const Doctors = ({
                     <p className="pc:text-lg text-ivory tab:text-justify tab:block pc:leading-[22px] pc:mb-[66px] mb-5 hidden leading-5">
                         {t("doctorsText")}
                     </p>
-                    <ul className="tab:flex-col tab:mr-0 tab:ml-auto tab:items-end tab:gap-3 pc:gap-4 tab:whitespace-normal tab:pl-0 flex h-full max-w-[268px] items-center pl-4 whitespace-nowrap">
-                        {departments.map(item => (
-                            <li
-                                key={item.key}
-                                onClick={() => toggleSubmenu(item.key)}
-                                className={`font-oswald text-ivory tab:pr-0 tab:text-right cursor-pointer pr-5 text-sm leading-4 uppercase transition-all duration-300 hover:underline ${item.key === openedDepartment ? "font-medium underline" : " "} `}
-                            >
-                                {item.translations[locale as LocaleType]}
-                            </li>
-                        ))}
-                    </ul>
                 </div>
                 <div className="tab:max-w-[71%] pc:max-w-[76%] tab:mx-0 mx-auto max-w-[540px]">
-                    <DoctorsSlider doctors={filteredDoctors} />
+                    <DoctorsSlider doctors={doctors} />
                 </div>
             </div>
             <LinkAction
