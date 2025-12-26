@@ -20,20 +20,20 @@ export async function generateMetadata({
     return generateInstructionMetadata(
         locale as LocaleType,
         "ForentInstr",
-        "informatsiya-dlya-inohorodnikh-patsiyentiv"
+        "information-for-out-of-town-patients"
     );
 }
 
 export default function PatientsNonresidentPage() {
     const breadcrumb = [
         {
-            name: "informatsiya-dlya-inohorodnikh-patsiyentiv",
-            href: "/informatsiya-dlya-inohorodnikh-patsiyentiv",
+            name: "information-for-out-of-town-patients",
+            href: "/information-for-out-of-town-patients",
         },
     ];
     const locale = useLocale();
     const data = pationtsInstructionsData.find(
-        instr => instr.name.key === "informatsiya-dlya-inohorodnikh-patsiyentiv"
+        instr => instr.name.key === "information-for-out-of-town-patients"
     );
     if (!data) return notFound();
 

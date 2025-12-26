@@ -4,7 +4,7 @@ import { TextType } from "./servicesData";
 
 export type InstructionsSulgType =
     | "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam"
-    | "informatsiya-dlya-inohorodnikh-patsiyentiv"
+    | "information-for-out-of-town-patients"
     | "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
     | "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
     | "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty"
@@ -116,11 +116,11 @@ export const keyEyeDisease: KeySlugPatientsType[] = [
 
 export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
     {
-        key: "informatsiya-dlya-inohorodnikh-patsiyentiv",
+        key: "information-for-out-of-town-patients",
         slug: {
-            lt: "informatsiya-dlya-inohorodnikh-patsiyentiv",
-            en: "information-for-nonresident-patients",
-            ru: "inogorodnim-patsiyentam",
+            lt: "information-for-out-of-town-patients",
+            en: "information-for-out-of-town-patients",
+            ru: "information-for-out-of-town-patients",
         },
     },
     {
@@ -192,125 +192,93 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
 export const pationtsInstructionsData: PationtsInstructionType[] = [
     {
         name: keySlugPatientsInstruction.find(
-            k => k.key === "informatsiya-dlya-inohorodnikh-patsiyentiv"
+            k => k.key === "information-for-out-of-town-patients"
         )!,
         lt: {
-            title: "Інформація для іногородніх пацієнтів",
+            title: "Informacija pacientams iš kitų miestų",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лікування в клініці «Британський офтальмологічний центр» проводиться в режимі «одного дня». Застосування новітніх технологій очної мікрохірургії в клініці «Британський офтальмологічний центр» забезпечує більш швидке відновлення зору, дає змогу скорочувати строки лікування, відмовитися від необхідності перебування в стаціонарі та дає змогу пацієнту самому дістатися додому вже через 1-2 години після операції.",
+                            text: "Gydymas klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) organizuojamas „vienos dienos“ formatu. Šiuolaikinių akių mikrochirurgijos technologijų taikymas leidžia paspartinti regėjimo atsistatymą, sutrumpinti bendrą gydymo trukmę, išvengti hospitalizacijos ir dažniausiai grįžti į gyvenamąją vietą jau po 1–2 valandų po procedūros ar operacijos.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Вам знадобиться перебування в Києві:",
+                            text: "Jums reikės būti Vilniuje:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "для проведення процедури лазерної корекції зору – 1 день, другий день, контрольний огляд, за бажанням пацієнта;",
-                                "для проведення операції з видалення катаракти або хірургічного лікування глаукоми – протягом щонайменше 1-2 днів;",
-                                "для проведення операції вітреоретинальних операцій – протягом 2 днів;",
-                                "для проведення лазерного лікування глаукоми – протягом 2 днів;",
-                                "для проведення лазерних процедур на сітківці – протягом 1 дня;",
-                                "для проведення мікрохірургічних операцій (косоокість, введення Луцентіса та ін.) - Протягом 2 днів;",
-                                "для проведення курсу консервативного лікування або апаратного лікування – залежно від призначення лікаря.",
+                                "regėjimo lazerinei korekcijai – 1 dieną; antrą dieną, paciento pageidavimu, atliekamas kontrolinis patikrinimas;",
+                                "kataraktos operacijai – ne trumpiau kaip 1–2 dienas;",
+                                "glaukomos lazeriniam gydymui – apie 2 dienas;",
+                                "tinklainės lazerinėms procedūroms – 1 dieną;",
+                                "konservatyvaus arba aparatūrinio gydymo kursui – pagal gydytojo paskyrimą.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Протягом зазначених термінів Вам буде проведено комплексну діагностику зору, підготовку до операції, розрахунок програми корекції або штучного кришталика, передопераційне обстеження (у разі, якщо потрібні лабораторні дослідження, пацієнт проходить за місцем проживання), безпосередньо саму процедуру або операцію та обов’язкові контрольні огляди. Подальший графік оглядів визначає лікар за індивідуальною схемою, виходячи зі стану пацієнта.",
+                            text: "Per nurodytą laiką Jums bus atlikta išsami regėjimo diagnostika, parengta intervencijai, apskaičiuota korekcijos programa arba parinkti dirbtinio lęšiuko parametrai, suorganizuotas priešoperacinis ištyrimas (jei reikalingi laboratoriniai tyrimai, pacientas gali juos atlikti savo gyvenamojoje vietoje), atlikta pati procedūra ar operacija, taip pat privalomi kontroliniai patikrinimai. Tolesnį stebėjimo grafiką gydytojas nustato individualiai, atsižvelgdamas į klinikinę situaciją ir atsistatymo dinamiką.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Для іногородніх пацієнтів співробітники центру медичної інформації та реєстрації допоможуть Вам забронювати готель, вирішать питання проживання, завдяки чому Ваше перебування в клініці і в місті буде максимально комфортним.",
+                            text: "Pacientams iš kitų miestų medicininės informacijos ir registracijos tarnybos darbuotojai padės parinkti ir rezervuoti viešbutį, taip pat suteiks informaciją organizaciniais klausimais, kad Jūsų vizitas į kliniką ir buvimas mieste būtų kuo patogesnis.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Для того щоб спростити пошук місця проживання на період перебування в Києві та проходження лікування в клініці «Британський офтальмологічний центр», ми пропонуємо Вам кілька варіантів готелів, які знаходяться недалеко від нашої клініки. Ви можете самостійно заздалегідь забронювати номер, щоб у день приїзду не турбуватися про це.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Список готелів, розташованих недалеко від клініки «Британський офтальмологічний центр»:",
-                        },
-                        {
-                            type: "list",
-                            list: [
-                                "Готель «Дніпро»: вул. Хрещатик, 1/2 – (044)254-67-77 http://www.dniprohotel.ua/",
-                                "Готель «Либідь»: Галицька пл., 1 – (044)239 –76-00 http://hotellybid.com.ua/",
-                                "Готель «Україна»: Алея Героїв Небесної Сотні, 4 – +380 44 590 44 00 http://www.ukraine-hotel.kiev.ua/ua",
-                                "Готель «Русь»: вулиця Госпітальна, 4 – +38 (044) 256 40 20 – http://www.hotelrus.kiev.ua/",
-                            ],
+                            text: "Kad būtų paprasčiau rasti apgyvendinimą viešnagės Vilniuje ir gydymo klinikoje „Naujas regėjimas“ laikotarpiu, siūlome keletą viešbučių variantų, esančių netoli klinikos. Pageidaujant, numerį galite rezervuoti savarankiškai iš anksto, kad atvykimo dieną nereikėtų spręsti šio klausimo.",
                         },
                     ],
                 },
             ],
         },
         en: {
-            title: "Information for Non-Resident Patients",
+            title: "Information for Out-of-Town Patients",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Treatment at the 'British Ophthalmologic Center' clinic is performed in a 'one-day' mode. The use of advanced eye microsurgery technologies at the 'British Ophthalmologic Center' ensures faster vision recovery, shortens treatment time, eliminates the need for hospitalization, and allows the patient to return home within 1–2 hours after the surgery.",
+                            text: "Treatment at the “Naujas regėjimas” clinic (Vilnius, Lithuania) is organized in a “one-day” format. The use of modern ophthalmic microsurgery technologies helps speed up visual recovery, reduce the overall duration of treatment, avoid hospitalization, and, as a rule, return to your place of residence within 1–2 hours after the procedure or surgery.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "You will need to stay in Kyiv for:",
+                            text: "You will need to stay in Vilnius for:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "laser vision correction – 1 day, second day for a follow-up exam if the patient wishes;",
-                                "cataract removal or glaucoma surgery – at least 1–2 days;",
-                                "vitreoretinal surgery – about 2 days;",
-                                "laser glaucoma treatment – about 2 days;",
-                                "laser retinal procedures – 1 day;",
-                                "microsurgical procedures (strabismus, Lucentis injections, etc.) – about 2 days;",
-                                "conservative or hardware treatment – depending on the doctor’s prescription.",
+                                "vision laser correction: 1 day; on the second day, a follow-up examination is available upon the patient’s request;",
+                                "cataract surgery: at least 1–2 days;",
+                                "laser glaucoma treatment: approximately 2 days;",
+                                "laser retinal procedures: 1 day;",
+                                "a course of conservative (non-surgical) or device-based treatment: as prescribed by the physician.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "During the specified period, you will undergo a full vision diagnosis, preparation for surgery, calculation of the correction program or artificial lens, preoperative examination (if laboratory tests are required, they are done at your place of residence), the procedure or operation itself, and mandatory follow-up checkups. The schedule of further checkups is determined individually by your doctor based on your condition.",
+                            text: "Within the timeframes indicated above, you will undergo a comprehensive eye examination, pre-procedure preparation, calculation of the correction plan or selection of intraocular lens parameters, and a pre-operative assessment (if laboratory tests are required, the patient may complete them at their place of residence). The procedure or surgery itself will then be performed, followed by mandatory follow-up examinations. The subsequent schedule of observation is determined individually by the physician, taking into account the clinical situation and the dynamics of recovery.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "For non-resident patients, the staff of the Medical Information and Registration Center will help you book a hotel and arrange accommodation, ensuring that your stay in the clinic and the city is as comfortable as possible.",
+                            text: "For out-of-town patients, our Medical Information and Appointment Service will help you choose and book a hotel and will also advise you on organizational matters to ensure that your visit to the clinic and your stay in the city are as comfortable as possible.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "To simplify your search for accommodation during your stay in Kyiv and treatment at the 'British Ophthalmologic Center', we offer several hotel options located near our clinic. You can book a room in advance to avoid any worries on the day of your arrival.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "List of hotels located near the 'British Ophthalmologic Center':",
-                        },
-                        {
-                            type: "list",
-                            list: [
-                                "Hotel 'Dnipro': 1/2 Khreshchatyk St. – (044)254-67-77 http://www.dniprohotel.ua/",
-                                "Hotel 'Lybid': 1 Halytska Sq. – (044)239-76-00 http://hotellybid.com.ua/",
-                                "Hotel 'Ukraina': 4 Alley of the Heroes of the Heavenly Hundred – +380 44 590 44 00 http://www.ukraine-hotel.kiev.ua/en",
-                                "Hotel 'Rus': 4 Hospitalna St. – +38 (044) 256 40 20 – http://www.hotelrus.kiev.ua/",
-                            ],
+                            text: "To make it easier to find accommodation for the period of your stay in Vilnius and treatment at the “Naujas regėjimas” clinic, we can suggest several hotel options located near the clinic. If you wish, you may also book a room independently in advance so that you do not need to address this matter on the day of arrival.",
                         },
                     ],
                 },
@@ -324,54 +292,38 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Лечение в клинике «Британский офтальмологический центр» проводится в режиме «одного дня». Применение новейших технологий глазной микрохирургии в клинике «Британский офтальмологический центр» обеспечивает более быстрое восстановление зрения, сокращает сроки лечения, избавляет от необходимости пребывания в стационаре и позволяет пациенту вернуться домой уже через 1–2 часа после операции.",
+                            text: "Лечение в клинике «Новое зрение» (Вильнюс, Литва) организовано в формате «одного дня». Использование современных технологий офтальмологической микрохирургии позволяет ускорить восстановление зрения, сократить общий срок лечения, избежать необходимости госпитализации и, как правило, вернуться к месту проживания уже через 1–2 часа после процедуры или операции.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Вам потребуется пребывание в Киеве:",
+                            text: "Вам потребуется пребывание в Вильнюсе:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
                                 "для проведения лазерной коррекции зрения – 1 день, второй день — контрольный осмотр по желанию пациента;",
-                                "для удаления катаракты или хирургического лечения глаукомы – не менее 1–2 дней;",
-                                "для проведения витреоретинальных операций – около 2 дней;",
+                                "для удаления катаракты – не менее 1–2 дней;",
                                 "для лазерного лечения глаукомы – около 2 дней;",
                                 "для лазерных процедур на сетчатке – 1 день;",
-                                "для микрохирургических операций (косоглазие, введение Луцентиса и др.) — около 2 дней;",
                                 "для прохождения курса консервативного или аппаратного лечения – в зависимости от назначения врача.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "В течение указанных сроков вам будет проведена комплексная диагностика зрения, подготовка к операции, расчет программы коррекции или искусственного хрусталика, предоперационное обследование (если требуются лабораторные анализы, пациент проходит их по месту жительства), непосредственно сама процедура или операция, а также обязательные контрольные осмотры. Дальнейший график осмотров врач определяет индивидуально, исходя из состояния пациента.",
+                            text: "В течение указанных сроков вам будет выполнена комплексная диагностика зрения, проведена подготовка к вмешательству, выполнен расчет программы коррекции или параметров искусственного хрусталика, организовано предоперационное обследование (если требуются лабораторные анализы, пациент может пройти их по месту жительства), проведена сама процедура или операция, а также обязательные контрольные осмотры. Дальнейший график наблюдения врач определяет индивидуально — с учетом клинической ситуации и динамики восстановления.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Для иногородних пациентов сотрудники Центра медицинской информации и регистрации помогут забронировать отель, решить вопросы проживания, чтобы ваше пребывание в клинике и городе было максимально комфортным.",
+                            text: "Для иногородних пациентов сотрудники службы медицинской информации и записи помогут подобрать и забронировать отель, а также сориентируют по организационным вопросам, чтобы ваше пребывание в клинике и в городе было максимально удобным.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Чтобы упростить поиск жилья на период пребывания в Киеве и лечения в клинике «Британский офтальмологический центр», мы предлагаем несколько вариантов отелей, расположенных недалеко от нашей клиники. Вы можете самостоятельно забронировать номер заранее, чтобы не беспокоиться об этом в день приезда.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "Список отелей, расположенных недалеко от клиники «Британский офтальмологический центр»:",
-                        },
-                        {
-                            type: "list",
-                            list: [
-                                "Отель «Днепр»: ул. Крещатик, 1/2 – (044)254-67-77 http://www.dniprohotel.ua/",
-                                "Отель «Лыбидь»: Галицкая пл., 1 – (044)239–76–00 http://hotellybid.com.ua/",
-                                "Отель «Украина»: Аллея Героев Небесной Сотни, 4 – +380 44 590 44 00 http://www.ukraine-hotel.kiev.ua/ru",
-                                "Отель «Русь»: ул. Госпитальная, 4 – +38 (044) 256 40 20 – http://www.hotelrus.kiev.ua/",
-                            ],
+                            text: "Чтобы упростить поиск жилья на период пребывания в Вильнюсе и лечения в клинике «Новое зрение», мы предлагаем несколько вариантов отелей, расположенных недалеко от клиники. При желании вы можете самостоятельно забронировать номер заранее, чтобы не возвращаться к этому вопросу в день приезда.",
                         },
                     ],
                 },
@@ -6370,7 +6322,7 @@ export type DataPatientsPageType = {
 
 export const dataPatientsPage: DataPatientsPageType[] = [
     {
-        key: "informatsiya-dlya-inohorodnikh-patsiyentiv",
+        key: "information-for-out-of-town-patients",
     },
     {
         key: "reminders-and-instructions-for-patients",
