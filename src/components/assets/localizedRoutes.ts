@@ -103,10 +103,10 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/services/cataract-treatment/iq-5-minutes",
         ru: "/uslugi/lechenie-katarakty/iq-5-minutes",
     },
-    "/posluhy/likuvannya-katarakti/iq-life-3d-vodnij-potik": {
-        lt: "/posluhy/likuvannya-katarakti/iq-life-3d-vodnij-potik",
-        en: "/services/cataract-treatment/iq-life-3d-water-flow",
-        ru: "/uslugi/lechenie-katarakty/iq-life-3d",
+    "/posluhy/likuvannya-katarakti/iq-life-3d": {
+        lt: "/posluhy/likuvannya-katarakti/iq-life-3d",
+        en: "/services/cataract-treatment/iq-life-3d-live-vision",
+        ru: "/uslugi/lechenie-katarakty/iq-life-3d-zhivoye-zreniye",
     },
     "/aktsiyi": { lt: "/aktsiyi", en: "/offers", ru: "/akcii" },
     "/akiu-ligos": {

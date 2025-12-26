@@ -1,5 +1,4 @@
 import { DepartmentsType } from "@/components/assets/doctorsData";
-import { DoctorsFilter } from "@/components/pageDoctors/DoctorsFilter";
 import { DoctorsFilteredList } from "@/components/pageDoctors/DoctorsFilteredList";
 import { HeroDoctors } from "@/components/pageDoctors/HeroDoctors";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -55,18 +54,11 @@ export default async function gydytojaiPage({
                 breadcrumbsList={breadcrumb}
                 className="tab:mt-5 prepc:mb-12 my-5"
             />
-            <div className="prepc:flex prepc:flex-row prepc:justify-between tab:px-6 pc:px-12 prepc:overflow-visible tab:pb-12 pc:pb-[120px] relative pb-[60px]">
-                <DoctorsFilter
-                    list={doctorsList}
-                    className="prepc:mb-0 prepc:top-36 prepc:w-[25%] prepc:max-w-[318px] prepc:mt-0 prepc:h-fit sticky top-12 z-10 mb-6"
-                />
-                <DoctorsFilteredList
-                    list={doctorsList}
-                    selectedDepartment={selectedDepartment}
-                    pageNumber={pageNumber}
-                    className="prepc:w-[74.7%]"
-                />
-            </div>
+            <DoctorsFilteredList
+                list={doctorsList}
+                pageNumber={pageNumber}
+                className="content tab:pb-12 prepc:pb-30 pb-[60px]"
+            />
             <Booking />
         </>
     );

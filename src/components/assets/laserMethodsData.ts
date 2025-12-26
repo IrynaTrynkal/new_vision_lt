@@ -565,87 +565,87 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-5-minutes",
                 title: "iq-5-minutes",
                 titleSEO:
-                    "iQ‑5 MINUTES – надшвидка операція катаракти за 5 хвилин | Британський офтальмологічний центр",
+                    "iQ-5 MINUTES – itin greita kataraktos operacija per 5 minutes | Британський офтальмологічний центр",
                 descriptionSEO:
-                    "➔ Нова методика видалення катаракти дисперсними розчинами 5 хвилин! Мінімум ультразвуку, реабілітація без стресу. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
-                subtitle: "Безкомпромісне рішення для професійних спортсменів",
+                    "Nauja kataraktos šalinimo metodika naudojant dispersinius tirpalus – per 5 minutes! Minimalus ultragarso naudojimas, reabilitacija be streso. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                subtitle:
+                    "Naujas kataraktos šalinimo metodas, naudojant disperguojamuosius tirpalus",
                 data: [
                     {
                         textTitle:
-                            "Вилучення катаракти: сучасний стандарт без компромісів",
+                            "Kataraktos šalinimas: šiuolaikinis standartas be kompromisų",
                         text: [
-                            "Еталонним підходом до хірургічного лікування катаракти сьогодні вважається безшовна мікроінвазивна операція навіть у складних клінічних випадках. Обов'язковим елементом такої процедури є встановлення інтраокулярної лінзи, а також використання сучасних захисних препаратів – віскоеластиків, які оберігають тканини ока в процесі втручання.",
-                            "Операція проводиться в повністю оснащеній операційній з використанням операційного мікроскопа та високоточного факоемульсифікатора - обладнання, що забезпечує максимальну точність та безпеку.",
-                            "Пацієнт перебуває під контролем анестезіолога, який веде безперервне спостереження за станом здоров'я за допомогою обладнання останнього покоління, забезпечуючи повну готовність до екстреної допомоги при необхідності.",
+                            "Šiandien etaloniniu kataraktos chirurginio gydymo metodu laikoma besiūlė, minimaliai invazinė mikrochirurginė operacija, taikoma net ir sudėtingais klinikiniais atvejais. Neatsiejama tokios procedūros dalis yra intraokulinio lęšio implantacija, taip pat šiuolaikinių apsauginių preparatų – viskoelastikų – naudojimas, kurie operacijos metu apsaugo akies audinius.",
+                            "Operacija atliekama pilnai įrengtoje operacinėje, naudojant chirurginį mikroskopą ir didelio tikslumo fakoemulsifikatorių – įrangą, užtikrinančią maksimalų tikslumą ir saugumą.",
+                            "Pacientą prižiūri anesteziologas, kuris nepertraukiamai stebi sveikatos būklę, naudodamas naujausios kartos monitoravimo įrangą, ir prireikus užtikrina visišką pasirengimą skubiai pagalbai.",
                         ],
                     },
                     {
                         textTitle:
-                            "Що відрізняється від iQ-5 MINUTES від стандартної хірургії катаракти?",
+                            "Kuo iQ-5 MINUTES metodas skiriasi nuo standartinės kataraktos chirurgijos?",
                     },
                     {
-                        textTitle: "1. Ультракороткий час втручання",
+                        textTitle: "1. Itin trumpa intervencijos trukmė",
                         text: [
-                            "Як випливає з назви, вся процедура триває трохи більше п'яти хвилин. Це дозволяє мінімізувати вплив на очне яблуко та знизити стрес для пацієнта.",
+                            "Kaip rodo pavadinimas, visa procedūra trunka ne ilgiau kaip penkias minutes. Tai leidžia sumažinti poveikį akies obuoliui ir mažinti paciento patiriamą stresą.",
                         ],
                     },
                     {
-                        textTitle: "2. Мінімальне використання ультразвуку",
+                        textTitle: "2. Minimalus ultragarso naudojimas",
                         text: [
-                            "Видалення кришталика здійснюється з мінімальним або повним винятком ультразвуку, що суттєво знижує навантаження на тканини ока. Для дбайливого впливу використовуються спеціальні розчини.",
+                            "Lęšiuko pašalinimas atliekamas naudojant minimalų ultragarso kiekį arba jo visiškai atsisakant, taip reikšmingai sumažinant apkrovą akies audiniams. Švelniam poveikiui taikomi specialūs disperguojamieji tirpalai.",
+                        ],
+                    },
+                    {
+                        textTitle: "3. Tarptautinė kokybės kontrolės programa",
+                        text: [
+                            "Kiekviena operacija yra įrašoma: vaizdas iš mikroskopo perduodamas į saugius serverius, kur jį analizuoja nepriklausomos kokybės kontrolės specialistai bendrovės biuruose Londone ir Vilniuje. Tai užtikrina išsamų auditą: vertinami aspiracijos ir irigacijos parametrai, chirurgo darbo technika, manipuliacijų atlikimo tikslumas ir taktiniai sprendimai.",
                         ],
                     },
                     {
                         textTitle:
-                            "3. Програма міжнародного контролю за якістю",
+                            "4. Aukščiausios klasės RAYNER lęšių implantacija (Jungtinė Karalystė)",
                         text: [
-                            "Кожна операція записується: зображення з мікроскопа відправляється на захищені сервери, де його аналізують фахівці незалежного контролю в офісах компанії у Лондоні та Вільнюсі. Це забезпечує детальний аудит: відстежуються параметри аспірації, іригації, робота хірурга, правильність виконання маніпуляцій та тактичні рішення.",
+                            "Aukštos kokybės britiški intraokuliniai lęšiai užtikrina puikius regėjimo aštrumo rodiklius po operacijos. Dėl didesnės kainos tokie gaminiai retai naudojami valstybinėse įstaigose ir mažesnėse klinikose, todėl šis pasirinkimas išskiria mūsų taikomą požiūrį.",
                         ],
                     },
                     {
-                        textTitle:
-                            "4. Установка преміальних лінз RAYNER (Великобританія)",
+                        textTitle: "5. Naujos kartos operacinė",
                         text: [
-                            "Високоякісні інтраокулярні лінзи британського виробництва забезпечують чудові показники гостроти зору після операції. Такі вироби практично не використовуються в державних установах та невеликих клініках через їхню високу вартість, що робить наш підхід унікальним для українського ринку.",
+                            "Procedūra atliekama visiškai kompiuterizuotoje operacinėje, atitinkančioje ES reikalavimus. Sterilumas užtikrinamas laminarinių oro srautų ir modernių oro valymo sistemų dėka.",
                         ],
                     },
                     {
-                        textTitle: "5. Операційна нова покоління",
+                        textTitle: "6. Maksimalus saugumas ir higiena",
                         text: [
-                            "Процедура проводиться в повністю комп'ютеризованій операційній, що відповідає вимогам ЄС. Забезпечується стерильність за рахунок ламінарних повітряних потоків та сучасних систем очищення повітря.",
-                        ],
-                    },
-                    {
-                        textTitle: "6. Максимальна безпека та гігієна",
-                        text: [
-                            "Ми використовуємо передові методи стерилізації хірургічних інструментів, а також одноразові матеріали, сертифіковані за європейськими стандартами. Це виключає ризик перехресної інфекції та забезпечує безпечне лікування.",
+                            "Taikome pažangius chirurginių instrumentų sterilizacijos metodus, taip pat naudojame vienkartines, pagal Europos standartus sertifikuotas medžiagas. Tai sumažina kryžminės infekcijos riziką ir užtikrina saugų gydymą.",
                         ],
                     },
                     {
                         textTitle: "iQ-5 MINUTES",
                         text: [
-                            "Це не просто операція з видалення катаракти. Це високотехнологічний комплекс, що поєднує точність, швидкість, безпеку та високу якість зору, якого неможливо досягти за допомогою стандартних підходів.",
+                            "Tai ne tik kataraktos šalinimo operacija. Tai aukštųjų technologijų kompleksas, sujungiantis tikslumą, greitį, saugumą ir ypač aukštą regėjimo kokybę, kurios neįmanoma pasiekti taikant standartinius metodus. Metodika taikoma klinikoje „Naujas regėjimas“ (Vilnius, Lietuva).",
                         ],
                     },
                 ],
             },
             ru: {
                 slug: "iq-5-minutes",
-                title: "SportLine LASEK",
+                title: "iq-5-minutes",
                 titleSEO:
                     "iQ-5 MINUTES – сверхбыстрая операция по удалению катаракты за 5 минут | Британский офтальмологический центр",
                 descriptionSEO:
                     "➔ Новая методика удаления катаракты дисперсными растворами за 5 минут! Минимум ультразвука, восстановление без стресса. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
                 subtitle:
-                    "Бескомпромиссное решение для профессиональных спортсменов",
+                    "Новая методика удаления катаракты с использованием дисперсионных растворов",
                 data: [
                     {
                         textTitle:
                             "Удаление катаракты: современный стандарт без компромиссов",
                         text: [
-                            "Эталонным подходом к хирургическому лечению катаракты сегодня считается бесшовная микроинвазивная операция даже в сложных клинических случаях. Обязательным элементом такой процедуры является установка интраокулярной линзы, а также использование современных защитных препаратов — вискоэластиков, оберегающих ткани глаза в процессе вмешательства.",
-                            "Операция проводится в полностью оснащённой операционной с использованием операционного микроскопа и высокоточного факоэмульсификатора — оборудования, обеспечивающего максимальную точность и безопасность.",
-                            "Пациент находится под контролем анестезиолога, который ведёт непрерывное наблюдение за состоянием здоровья при помощи оборудования последнего поколения, обеспечивая полную готовность к оказанию экстренной помощи при необходимости.",
+                            "Современным ориентиром в хирургическом лечении катаракты сегодня является бесшовная микроинвазивная операция, применимая в том числе при сложных клинических ситуациях. Неотъемлемая часть такого вмешательства — имплантация интраокулярной линзы, а также использование современных защитных препаратов (вискоэластиков), которые помогают бережно сохранить ткани глаза во время операции.",
+                            "Операция выполняется в полностью оборудованной операционной с применением операционного микроскопа и высокоточного факоэмульсификатора — техники, обеспечивающей предельную точность манипуляций и высокий уровень безопасности.",
+                            "Пациент находится под наблюдением анестезиолога, который непрерывно контролирует показатели жизнедеятельности с помощью оборудования последнего поколения, обеспечивая готовность к оперативной медицинской помощи при необходимости.",
                         ],
                     },
                     {
@@ -655,113 +655,113 @@ export const subpageCataractData: SubPageType[] = [
                     {
                         textTitle: "1. Ультракороткое время вмешательства",
                         text: [
-                            "Как следует из названия, вся процедура длится не более пяти минут. Это позволяет минимизировать воздействие на глазное яблоко и снизить стресс для пациента.",
+                            "Как отражено в названии, вся процедура занимает до пяти минут. Это позволяет сократить воздействие на структуры глаза и уменьшить стрессовую нагрузку для пациента.",
                         ],
                     },
                     {
                         textTitle: "2. Минимальное использование ультразвука",
                         text: [
-                            "Удаление хрусталика осуществляется с минимальным или полным исключением ультразвука, что существенно снижает нагрузку на ткани глаза. Для бережного воздействия используются специальные растворы.",
+                            "Удаление помутневшего хрусталика проводится с минимальным применением ультразвука либо с его максимально возможным исключением, что снижает нагрузку на ткани глаза. Для деликатного воздействия используются специальные дисперсионные растворы.",
                         ],
                     },
                     {
                         textTitle:
                             "3. Программа международного контроля качества",
                         text: [
-                            "Каждая операция записывается: изображение с микроскопа отправляется на защищённые серверы, где его анализируют специалисты независимого контроля в офисах компании в Лондоне и Вильнюсе. Это обеспечивает детальный аудит: отслеживаются параметры аспирации, ирригации, работа хирурга, правильность выполнения манипуляций и тактические решения.",
+                            "Каждая операция фиксируется: видеопоток с микроскопа передаётся на защищённые серверы, где запись анализируют специалисты независимого контроля в офисах компании в Лондоне и Вильнюсе. Такой подход обеспечивает детальный аудит: оцениваются параметры аспирации и ирригации, техника работы хирурга, корректность этапов вмешательства и принятые тактические решения.",
                         ],
                     },
                     {
                         textTitle:
                             "4. Установка премиальных линз RAYNER (Великобритания)",
                         text: [
-                            "Высококачественные интраокулярные линзы британского производства обеспечивают превосходные показатели остроты зрения после операции. Такие изделия практически не используются в государственных учреждениях и небольших клиниках из-за их высокой стоимости, что делает наш подход уникальным для украинского рынка.",
+                            "Премиальные интраокулярные линзы британского производства обеспечивают высокие показатели остроты зрения после операции и стабильное качество изображения. Их редко применяют в государственных учреждениях и небольших клиниках из-за стоимости, поэтому подобный уровень оснащения встречается нечасто.",
                         ],
                     },
                     {
                         textTitle: "5. Операционная нового поколения",
                         text: [
-                            "Процедура проводится в полностью компьютеризированной операционной, соответствующей требованиям ЕС. Обеспечивается стерильность за счёт ламинарных воздушных потоков и современных систем очистки воздуха.",
+                            "Процедура проводится в полностью компьютеризированной операционной, соответствующей требованиям ЕС. Стерильность поддерживается за счёт ламинарных воздушных потоков и современных систем очистки воздуха.",
                         ],
                     },
                     {
                         textTitle: "6. Максимальная безопасность и гигиена",
                         text: [
-                            "Мы используем передовые методы стерилизации хирургических инструментов, а также одноразовые материалы, сертифицированные по европейским стандартам. Это исключает риск перекрёстной инфекции и обеспечивает безопасное лечение.",
+                            "Мы применяем современные протоколы стерилизации хирургических инструментов и используем одноразовые материалы, сертифицированные по европейским стандартам. Это снижает риск перекрёстной инфекции и обеспечивает безопасное лечение.",
                         ],
                     },
                     {
                         textTitle: "iQ-5 MINUTES",
                         text: [
-                            "Это не просто операция по удалению катаракты. Это высокотехнологичный комплекс, объединяющий точность, скорость, безопасность и высочайшее качество зрения, которого невозможно достичь при помощи стандартных подходов.",
+                            "Это не просто операция по удалению катаракты. Это высокотехнологичный комплекс, который объединяет точность, скорость, безопасность и прогнозируемое качество зрения. Методика доступна в клинике «Новое зрение» (Вильнюс, Литва).",
                         ],
                     },
                 ],
             },
             en: {
                 slug: "iq-5-minutes",
-                title: "SportLine LASEK",
+                title: "iq-5-minutes",
                 titleSEO:
                     "iQ-5 MINUTES – ultra-fast cataract surgery in 5 minutes | British Ophthalmology Centre",
                 descriptionSEO:
                     "➔ New cataract removal technique using dispersive solutions in just 5 minutes! Minimal ultrasound, stress-free recovery. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
                 subtitle:
-                    "The uncompromising solution for professional athletes",
+                    "A new cataract removal technique using dispersive solutions.",
                 data: [
                     {
                         textTitle:
-                            "Cataract Extraction: The Modern Standard Without Compromise",
+                            "Cataract removal: a modern standard without compromise",
                         text: [
-                            "The benchmark approach to cataract surgery today is a sutureless, micro-invasive procedure — even in complex clinical cases. An essential component of this surgery is the implantation of an intraocular lens, as well as the use of modern protective substances (viscoelastics) that safeguard the eye’s tissues during the operation.",
-                            "The procedure is performed in a fully equipped operating room using a surgical microscope and a high-precision phacoemulsifier — equipment that ensures maximum accuracy and safety.",
-                            "The patient is monitored by an anesthesiologist who continuously tracks their condition using next-generation equipment, ensuring full readiness to provide emergency support if necessary.",
+                            "Today, the benchmark approach to surgical cataract treatment is a sutureless, micro‑invasive procedure that can be applied even in complex clinical cases. An integral part of such an intervention is the implantation of an intraocular lens, as well as the use of advanced protective agents (viscoelastics) that help preserve ocular tissues during surgery.",
+                            "The procedure is performed in a fully equipped operating theatre using a surgical microscope and a high‑precision phacoemulsification system—technology that ensures maximum accuracy and a high level of safety.",
+                            "The patient is monitored by an anaesthesiologist who continuously supervises vital signs using the latest-generation monitoring equipment, ensuring readiness to provide urgent medical assistance if required.",
                         ],
                     },
                     {
                         textTitle:
-                            "How Does iQ-5 MINUTES Differ From Standard Cataract Surgery?",
+                            "What distinguishes iQ-5 MINUTES from standard cataract surgery?",
                     },
                     {
-                        textTitle: "1. Ultra-Short Procedure Time",
+                        textTitle: "1. Ultra-short procedure time",
                         text: [
-                            "As the name suggests, the entire procedure takes just over five minutes. This minimizes stress on the eye and reduces overall discomfort for the patient.",
+                            "As the name suggests, the entire procedure takes no more than five minutes. This helps minimise the impact on ocular structures and reduces stress for the patient.",
                         ],
                     },
                     {
                         textTitle: "2. Minimal Use of Ultrasound",
                         text: [
-                            "Lens removal is performed with minimal or even complete avoidance of ultrasound, significantly reducing the load on eye tissues. Special solutions are used to ensure a gentle effect.",
+                            "Removal of the clouded lens is performed with minimal ultrasound exposure, or with ultrasound avoided as far as clinically possible, thereby reducing the load on ocular tissues. Special dispersive solutions are used to ensure gentle handling.",
                         ],
                     },
                     {
                         textTitle: "3. International Quality Control Program",
                         text: [
-                            "Each surgery is recorded: the microscope video is uploaded to secure servers, where it is analyzed by independent quality-control specialists in the company’s offices in London and Vilnius. This provides a detailed audit, including monitoring of aspiration and irrigation parameters, surgeon technique, correctness of surgical maneuvers, and tactical decisions.",
+                            "Every procedure is recorded: the microscope image stream is transmitted to secure servers, where it is analysed by independent quality-control specialists in the company’s offices in London and Vilnius. This approach enables a detailed audit: aspiration and irrigation parameters are assessed, the surgeon’s technique is reviewed, the correctness of each operative step is verified, and tactical decisions are evaluated.",
                         ],
                     },
                     {
                         textTitle:
                             "4. Implantation of Premium RAYNER Lenses (United Kingdom)",
                         text: [
-                            "High-quality British-made intraocular lenses provide excellent visual acuity after surgery. Such premium lenses are rarely used in public hospitals or small clinics due to their high cost, making our approach unique for the Ukrainian market.",
+                            "Premium British-made intraocular lenses deliver excellent postoperative visual acuity and stable image quality. Due to their cost, such lenses are rarely used in public institutions and smaller clinics, which is why this level of equipment is uncommon.",
                         ],
                     },
                     {
                         textTitle: "5. Next-Generation Operating Theatre",
                         text: [
-                            "The procedure is performed in a fully computerized operating room that meets EU standards. Sterility is ensured through laminar airflow systems and advanced air purification technologies.",
+                            "The procedure is carried out in a fully computerised operating theatre that meets EU requirements. Sterility is maintained through laminar airflow and advanced air purification systems.",
                         ],
                     },
                     {
                         textTitle: "6. Maximum Safety and Hygiene",
                         text: [
-                            "We use advanced sterilization methods for surgical instruments, as well as single-use materials certified to European standards. This eliminates the risk of cross-infection and ensures safe treatment.",
+                            "We apply modern sterilisation protocols for surgical instruments and use single‑use materials certified to European standards. This reduces the risk of cross‑infection and supports safe treatment.",
                         ],
                     },
                     {
                         textTitle: "iQ-5 MINUTES",
                         text: [
-                            "This is not just cataract surgery. It is a high-tech system that combines precision, speed, safety, and exceptional visual quality that cannot be achieved with standard techniques.",
+                            "This is more than cataract removal surgery. It is a high‑technology platform that combines precision, speed, safety and predictable visual quality. The technique is available at the “New Vision” Clinic (Vilnius, Lithuania).",
                         ],
                     },
                 ],
@@ -769,59 +769,59 @@ export const subpageCataractData: SubPageType[] = [
         },
     },
     {
-        key: "iq-life-3d-vodnij-potik",
+        key: "iq-life-3d",
         image: "/images/live.jpg",
         content: {
             lt: {
-                slug: "iq-life-3d-vodnij-potik",
-                title: "iQ-Life 3D «водний потік»",
+                slug: "iq-life-3d",
+                title: "IQ-Life 3D „Vandens srauto“ programa",
                 titleSEO:
-                    "iQ‑Life 3D «водний потік» - видалення катаракти без ультразвуку Живий зір у Британському офтальмологічному центрі",
+                    "IQ-Life 3D „Vandens srauto“ programa у Британському офтальмологічному центрі",
                 descriptionSEO:
                     "➔ Видаліть катаракту за методикою iQ‑Life 3D «водний потік» – без ультразвуку, болю та ускладнень. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
-                subtitle: "корекція без підвищення температури рогівки ока",
+                subtitle: "korekcija nepadidinant akies ragenos temperatūros",
                 data: [
                     {
                         textTitle:
-                            "Метод iQ-Life 3D «водний потік»: інновація в хірургії катаракти",
+                            "iQ-Life 3D „Vandens srauto“ metodas: inovacija kataraktos chirurgijoje",
                         text: [
-                            "Пацієнти, які звернулися в нашу офтальмологічну клініку, нерідко цікавляться запатентованою методикою видалення катаракти — iQ-Life 3D «Водний потік» . Ця технологія дійсно унікальна і доступна виключно в наших медичних центрах в Україні. лінзи та реабілітації.",
-                            "Катаракта є помутнінням кришталика, яке порушує проходження світла в око і призводить до погіршення зору. З віком структура кришталика ущільнюється, що ускладнює його видалення. У таких випадках ми застосовуємо новітню методику факоемульсифікації, засновану на технології водного потоку . Це визнаний міжнародний стандарт. Замість грубого механічного впливу використовується дбайливий потік рідини та спеціальні захисні речовини (віскоеластики), що забезпечують делікатне видалення кришталика без ушкодження вразливих внутрішніх структур ока.",
+                            "Pacientai, besikreipiantys į akių kliniką „Naujas regėjimas“ (Vilnius, Lietuva), dažnai domisi pažangiu kataraktos šalinimo metodu – iQ-Life 3D „Vandens srautas“. Ši technologija yra viena moderniausių mūsų praktikoje ir taikoma kaip kompleksinės gydymo programos dalis: nuo tikslios diagnostikos ir gydymo taktikos parinkimo iki intraokulinio lęšio implantavimo ir planinės reabilitacijos.",
+                            "Katarakta – tai akies lęšiuko drumstėjimas, dėl kurio šviesa prasčiau patenka į akį ir regėjimas palaipsniui silpnėja. Su amžiumi lęšiukas tampa tankesnis, todėl jo pašalinimui reikia ypač švelnaus ir tiksliai valdomo sprendimo. Tokiais atvejais taikoma mikroinvazinė fakoemulsifikacija, papildyta „vandens srauto“ principu. Tai atitinka šiuolaikinius tarptautinius standartus: vietoje ryškaus mechaninio poveikio naudojamas kontroliuojamas skysčio srautas ir apsauginės medžiagos (viskoelastikai), padedančios delikačiai pašalinti pakitusius audinius ir išsaugoti jautrias vidines akies struktūras.",
                         ],
                     },
                     {
-                        textTitle: "3D-технологія: хірургія нового покоління",
+                        textTitle: "3D technologija: naujos kartos chirurgija",
                         text: [
-                            "Метод iQ-Life 3D базується на сучасній стереоскопічній візуалізації. Він дозволяє лікарю бачити найдрібніші деталі внутрішньої будови ока у форматі реального часу та з високою точністю. Система включає:",
-                            "цифрова 3D-камера з ефектом глибини зображення;",
-                            "робочу станцію з функцією масштабування зони втручання;",
-                            "ультра-HD екран, який виводиться збільшене, об'ємне зображення операції.",
-                            "Інтелектуальне програмне забезпечення поєднує роботу хірургічного обладнання для ультразвукової емульсифікації із системою 3D-навігації. Це дає можливість стежити за ключовими параметрами: тиск усередині ока, потужність ультразвуку, об'єм рідини та швидкість водного потоку. Така інтеграція значно підвищує безпеку та знижує ризики.",
-                            "Додатковою перевагою є яскравого операційного світла, як із роботі під звичайним мікроскопом. Це робить втручання більш комфортним для пацієнта та знижує стомлення у хірурга.",
+                            "iQ-Life 3D metodas pagrįstas stereoskopine vizualizacija ir leidžia chirurgui dirbti maksimaliai tiksliai, realiuoju laiku matant akies anatomiją trimatėje erdvėje. Sistemą sudaro:",
+                            "skaitmeninė 3D kamera su vaizdo gylio efektu;",
+                            "darbo stotis su galimybe didinti operuojamą sritį;",
+                            "ultra HD ekranas, kuriame rodoma padidinta trimatė operacijos vaizdo projekcija.",
+                            "Išmanioji programinė įranga sujungia ultragarsinės emulsifikacijos įrangos darbą su 3D navigacijos sistema. Tai leidžia chirurgui nuolat stebėti esminius parametrus: akispūdį, ultragarsinės energijos intensyvumą, skysčio tūrį ir vandens srauto greitį. Tokia integracija didina procedūros saugumą ir mažina komplikacijų riziką.",
+                            "Papildomas privalumas – švelnesnis apšvietimas, palyginti su įprastu darbu per operacinį mikroskopą. Tai suteikia daugiau komforto pacientui ir sumažina regos nuovargį chirurgui.",
                         ],
                     },
                     {
-                        textTitle: "Чому «iQ»?",
+                        textTitle: "Kodėl „iQ“?",
                         text: [
-                            "Пацієнти часто запитують, що означає абревіатура iQ . У даному випадку йдеться не про рівень інтелекту, а про ідею ideal Quality - ідеальної якості . Це концепція, в якій важлива кожна деталь: від точності хірургічних рухів до вибору лінзи та кінцевого результату відновленого зору.",
-                            "Саме завдяки використанню інтраокулярних лінз останнього покоління ми можемо гарантувати високу гостроту зору після операції. Ці ІОЛ підбираються індивідуально та забезпечують чіткий зір без необхідності носити окуляри або лінзи.",
+                            "Pacientai neretai klausia, ką reiškia santrumpa iQ. Šiuo atveju kalbama ne apie intelekto koeficientą, o apie koncepciją **ideal Quality** – „ideali kokybė“. Šiame požiūryje svarbi kiekviena detalė: nuo chirurginių judesių tikslumo iki intraokulinio lęšio parinkimo ir galutinio rezultato – atkurtos regėjimo kokybės.",
+                            "Būtent šiuolaikiniai intraokuliniai lęšiai leidžia tikėtis didelio regėjimo aštrumo po operacijos. IOL parenkami individualiai, atsižvelgiant į akies parametrus ir paciento regos poreikius, siekiant užtikrinti aiškų ir komfortišką matymą, o kai kuriais atvejais – sumažinti priklausomybę nuo akinių.",
                         ],
                     },
                     {
                         textTitle:
-                            "Готові допомогти навіть у найскладніших ситуаціях",
+                            "Esame pasirengę padėti net sudėtingiausiais atvejais",
                         text: [
-                            "Методика iQ-Life 3D із застосуванням водного потоку демонструє високу ефективність навіть при запущеній катаракті та щільних кришталиках. Ми впевнено беремося за випадки від яких відмовляються інші клініки. Поєднання інноваційної технології, делікатного підходу, візуального контролю та застосування преміальних матеріалів дає впевненість у стабільному та якісному результаті.",
-                            "Якщо ви хочете не просто «зробити операцію», а отримати по-справжньому сучасне, безпечне та щадне лікування катаракти – метод iQ-Life 3D «Водний потік» створений для вас. Ми гарантуємо: ви побачите різницю.",
+                            "iQ-Life 3D „Vandens srauto“ metodika pasižymi dideliu efektyvumu net esant pažengusiai kataraktai ir tankiam lęšiukui. Klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) imamės ir kliniškai sudėtingų atvejų, kai reikalingas ypatingas tikslumas ir itin švelni chirurginė taktika. Technologijos, delikataus darbo principo, išplėstinės vizualinės kontrolės ir aukštos kokybės medžiagų derinys suteikia pagrindą stabiliam ir prognozuojamam rezultatui.",
+                            "Jeigu siekiate ne tik „atlikti operaciją“, bet gauti išties modernų, saugų ir maksimaliai tausojantį kataraktos gydymą – iQ-Life 3D „Vandens srauto“ metodas sukurtas būtent Jums. Skirtumą pajusite.",
                         ],
                     },
                 ],
             },
             ru: {
-                slug: "iq-life-3d",
-                title: "iQ-Life 3D «водный поток»",
+                slug: "iq-life-3d-zhivoye-zreniye",
+                title: "Программа IQ-Life 3D «Водный поток»",
                 titleSEO:
-                    "iQ-Life 3D «водный поток» – удаление катаракты без ультразвука | Живое зрение в Британском офтальмологическом центре",
+                    "Программа IQ-Life 3D «Водный поток» | Живое зрение в Британском офтальмологическом центре",
                 descriptionSEO:
                     "➔ Удалите катаракту по методике iQ-Life 3D «водный поток» – без ультразвука, боли и осложнений. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
                 subtitle: "коррекция без повышения температуры роговицы глаза",
@@ -830,41 +830,41 @@ export const subpageCataractData: SubPageType[] = [
                         textTitle:
                             "Метод iQ-Life 3D «Водный поток»: инновация в хирургии катаракты",
                         text: [
-                            "Пациенты, обратившиеся в нашу офтальмологическую клинику, нередко интересуются запатентованной методикой удаления катаракты — iQ-Life 3D «Водный поток». Эта технология действительно уникальна и доступна исключительно в наших медицинских центрах в Украине. Это не просто отдельный способ хирургии, а целостный подход, охватывающий все этапы лечения катаракты — от диагностики до имплантации линзы и реабилитации.",
-                            "Катаракта представляет собой помутнение хрусталика, которое нарушает прохождение света в глаз и приводит к ухудшению зрения. С возрастом структура хрусталика уплотняется, что усложняет его удаление. В таких случаях мы применяем новейшую методику факоэмульсификации, основанную на технологии водного потока. Это признанный международный стандарт. Вместо грубого механического воздействия используется бережный поток жидкости и специальные защитные вещества (вискоэластики), обеспечивающие деликатное удаление хрусталика без повреждения уязвимых внутренних структур глаза.",
+                            "Пациенты, которые обращаются в офтальмологическую клинику «Новое зрение» (Вильнюс, Литва), часто интересуются современной методикой удаления катаракты — iQ-Life 3D «Водный поток». Эта технология является одной из наиболее прогрессивных в нашей практике и применяется как часть комплексной программы лечения: от точной диагностики и выбора тактики до имплантации интраокулярной линзы и плановой реабилитации.",
+                            "Катаракта — это помутнение хрусталика, из-за которого свет хуже проходит в глаз и зрение постепенно снижается. С возрастом хрусталик становится более плотным, и его удаление требует особенно деликатного подхода. В таких случаях используется микроинвазивная факоэмульсификация, дополненная принципом «водного потока». Это соответствует современным международным стандартам: вместо выраженного механического воздействия применяется контролируемая подача жидкости и защитные препараты (вискоэластики), которые помогают бережно удалить изменённые ткани и сохранить внутренние структуры глаза.",
                         ],
                     },
                     {
                         textTitle: "3D-технология: хирургия нового поколения",
                         text: [
-                            "Метод iQ-Life 3D базируется на современной стереоскопической визуализации. Он позволяет врачу видеть мельчайшие детали внутреннего строения глаза в формате реального времени и с высокой точностью. Система включает:",
+                            "Метод iQ-Life 3D опирается на стереоскопическую визуализацию и позволяет хирургу работать с максимальной точностью, видя анатомию глаза в объёмном формате и в реальном времени. Система включает:",
                             "цифровую 3D-камеру с эффектом глубины изображения;",
-                            "рабочую станцию с функцией масштабирования зоны вмешательства;",
-                            "ультра-HD экран, на который выводится увеличенное, объёмное изображение операции.",
-                            "Интеллектуальное программное обеспечение объединяет работу хирургического оборудования для ультразвуковой эмульсификации с системой 3D-навигации. Это даёт возможность следить за ключевыми параметрами: давление внутри глаза, мощность ультразвука, объём жидкости и скорость водного потока. Такая интеграция значительно повышает безопасность и снижает риски.",
-                            "Дополнительным преимуществом является отсутствие яркого операционного света, как при работе под обычным микроскопом. Это делает вмешательство более комфортным для пациента и снижает утомление у хирурга.",
+                            "рабочую станцию с возможностью увеличения зоны вмешательства;",
+                            "ultra-HD экран, на который выводится увеличенное объёмное изображение операции.",
+                            "Интеллектуальное программное обеспечение синхронизирует работу оборудования для ультразвуковой эмульсификации с 3D-навигацией. Благодаря этому врач может контролировать ключевые параметры: внутриглазное давление, уровень ультразвуковой энергии, объём подаваемой жидкости и скорость потока. Такая интеграция повышает предсказуемость вмешательства и дополнительно усиливает профиль безопасности.",
+                            "Отдельное преимущество — более мягкий визуальный режим без привычного яркого «микроскопического» света. Это повышает комфорт пациента и снижает зрительную нагрузку на хирурга.",
                         ],
                     },
                     {
                         textTitle: "Почему «iQ»?",
                         text: [
-                            "Пациенты часто спрашивают, что означает аббревиатура iQ. В данном случае речь не об уровне интеллекта, а об идее ideal Quality — идеального качества. Это концепция, в которой важна каждая деталь: от точности хирургических движений до выбора линзы и конечного результата — восстановленного зрения.",
-                            "Именно благодаря использованию интраокулярных линз последнего поколения, мы можем гарантировать высокую остроту зрения после операции. Эти ИОЛ подбираются индивидуально и обеспечивают чёткое зрение без необходимости носить очки или линзы.",
+                            "Пациенты нередко спрашивают, что означает аббревиатура iQ. Здесь речь не про коэффициент интеллекта, а про концепцию **ideal Quality** — «идеальное качество». Подход предполагает контроль каждой детали: от точности действий во время операции до подбора интраокулярной линзы и итогового качества зрения после лечения.",
+                            "Именно применение современных интраокулярных линз позволяет рассчитывать на высокую остроту зрения после операции. ИОЛ подбираются индивидуально с учётом параметров глаза и зрительных задач пациента, чтобы обеспечить чёткое и комфортное зрение и, в ряде случаев, уменьшить зависимость от очков.",
                         ],
                     },
                     {
                         textTitle:
                             "Готовы помочь даже в самых сложных ситуациях",
                         text: [
-                            "Методика iQ-Life 3D с применением водного потока демонстрирует высокую эффективность даже при запущенной катаракте и плотных хрусталиках. Мы уверенно берёмся за случаи, от которых отказываются другие клиники. Совмещение инновационной технологии, деликатного подхода, визуального контроля и применения премиальных материалов даёт уверенность в стабильном и качественном результате.",
-                            "Если вы хотите не просто «сделать операцию», а получить по-настоящему современное, безопасное и щадящее лечение катаракты — метод iQ-Life 3D «Водный поток» создан для вас. Мы гарантируем: вы увидите разницу.",
+                            "Методика iQ-Life 3D «Водный поток» демонстрирует высокую эффективность даже при зрелой катаракте и плотных хрусталиках. В клинике «Новое зрение» (Вильнюс, Литва) мы берёмся за клинически сложные случаи, где требуется повышенная точность и особенно аккуратная хирургическая тактика. Сочетание технологии, щадящего принципа работы, расширенного визуального контроля и использования качественных материалов помогает добиваться стабильного результата.",
+                            "Если вы хотите не просто «сделать операцию», а получить действительно современное, безопасное и максимально бережное лечение катаракты — метод iQ-Life 3D «Водный поток» создан именно для этого. Мы уверены: разница будет заметна.",
                         ],
                     },
                 ],
             },
             en: {
-                slug: "iq-life-3d-water-flow",
-                title: "iQ-Life 3D «water flow»",
+                slug: "iq-life-3d-live-vision",
+                title: "IQ-Life 3D “Water Flow” Program",
                 titleSEO:
                     "iQ-Life 3D “water flow” – ultrasound-free cataract removal | Natural vision at the British Ophthalmology Centre",
                 descriptionSEO:
@@ -873,36 +873,36 @@ export const subpageCataractData: SubPageType[] = [
                 data: [
                     {
                         textTitle:
-                            "iQ-Life 3D “Water Flow” Method: Innovation in Cataract Surgery",
+                            "iQ-Life 3D “Water Flow” Method: An Innovation in Cataract Surgery",
                         text: [
-                            "Patients who come to our ophthalmology clinic often inquire about the patented iQ-Life 3D “Water Flow” cataract removal technique. This technology is truly unique and is available exclusively in our medical centers in Ukraine. It provides a safer, more precise approach to lens extraction and postoperative rehabilitation.",
-                            "A cataract is a clouding of the natural lens that disrupts the passage of light into the eye and leads to vision deterioration. With age, the lens becomes denser, making its removal more challenging. In such cases, we use the latest phacoemulsification technique based on water-flow technology. This is an internationally recognized standard. Instead of rough mechanical force, a gentle fluid stream and special protective substances (viscoelastics) are used to delicately remove the lens without damaging the sensitive internal structures of the eye.",
+                            "Patients who visit the “New Vision” ophthalmology clinic (Vilnius, Lithuania) often ask about the advanced cataract removal method—iQ-Life 3D “Water Flow”. This technology is among the most progressive in our practice and is implemented as part of a comprehensive treatment program: from precise diagnostics and surgical planning to intraocular lens implantation and scheduled rehabilitation.",
+                            "A cataract is a clouding of the natural crystalline lens, which impairs the passage of light into the eye and leads to a gradual decline in vision. With age, the lens becomes denser, and its removal requires an especially delicate approach. In such cases, micro-incisional phacoemulsification is performed, enhanced by the “water flow” principle. This aligns with contemporary international standards: instead of pronounced mechanical impact, a precisely controlled fluid stream and protective agents (viscoelastics) are used to gently remove altered lens tissue while safeguarding vulnerable intraocular structures.",
                         ],
                     },
                     {
                         textTitle: "3D Technology: Next-Generation Surgery",
                         text: [
-                            "The iQ-Life 3D method is based on advanced stereoscopic visualization. It allows the surgeon to see the smallest details of the eye’s internal structures in real time with exceptional precision. The system includes:",
+                            "The iQ-Life 3D method is based on stereoscopic visualization and enables the surgeon to operate with maximum precision, viewing the eye’s anatomy in a three-dimensional, real-time format. The system includes:",
                             "a digital 3D camera with depth perception;",
-                            "a workstation with zoom functionality for the surgical area;",
-                            "an Ultra-HD display that shows an enlarged, volumetric image of the procedure.",
-                            "Intelligent software synchronizes the operation of the ultrasonic phacoemulsification system with 3D navigation. This makes it possible to monitor key parameters: intraocular pressure, ultrasound power, fluid volume, and water-flow speed. Such integration significantly increases safety and reduces risks.",
-                            "Another important advantage is the bright surgical illumination, similar to that used with a traditional microscope. This makes the procedure more comfortable for the patient and reduces surgeon fatigue.",
+                            "a workstation with zoom and magnification functions;",
+                            "an ultra-HD display showing an enlarged, three-dimensional view of the procedure.",
+                            "Intelligent software integrates the ultrasound emulsification platform with 3D navigation. This allows the surgeon to continuously monitor key parameters: intraocular pressure, ultrasound power, fluid volume, and water-flow rate. Such integration improves predictability and further strengthens the safety profile of the procedure.",
+                            "An additional advantage is a more comfortable visual environment without the intense operative light typical of conventional microscopes. This increases patient comfort and reduces surgeon fatigue.",
                         ],
                     },
                     {
                         textTitle: "Why “iQ”?",
                         text: [
-                            "Patients often ask what the abbreviation iQ means. In this context, it does not refer to intelligence quotient, but to the concept of ideal Quality. It reflects an approach where every detail matters — from the precision of surgical maneuvers to the choice of intraocular lens and the final visual outcome.",
-                            "Thanks to the use of next-generation intraocular lenses, we can guarantee excellent visual acuity after surgery. These IOLs are selected individually and provide clear vision without the need for glasses or contact lenses.",
+                            "Patients often ask what “iQ” stands for. Here, it refers not to intelligence quotient, but to the concept of **ideal Quality**. The approach emphasizes every detail: from the precision of surgical maneuvers to the selection of the intraocular lens and the final outcome—restored vision.",
+                            "Thanks to modern intraocular lenses, high postoperative visual acuity can be expected. IOLs are selected individually to match ocular parameters and the patient’s visual needs, providing clear, comfortable vision and, in many cases, reducing dependence on glasses.",
                         ],
                     },
                     {
                         textTitle:
-                            "Ready to Help Even in the Most Complex Cases",
+                            "Ready to Help Even in the Most Complex Situations",
                         text: [
-                            "The iQ-Life 3D method with water-flow technology shows high effectiveness even in advanced cataracts and very dense lenses. We confidently take on cases that other clinics refuse. The combination of innovative technology, a delicate approach, precise visual control, and premium materials ensures stable and high-quality results.",
-                            "If you want not just to “have surgery,” but to receive truly modern, safe, and gentle cataract treatment — the iQ-Life 3D “Water Flow” method is made for you. We guarantee: you will see the difference.",
+                            "The iQ-Life 3D “Water Flow” method demonstrates high effectiveness even in advanced cataract and dense lenses. At the “New Vision” clinic (Vilnius, Lithuania), we undertake clinically complex cases where exceptional precision and a particularly gentle surgical strategy are required. Combining innovative technology, a tissue-sparing operating principle, enhanced visual control, and premium materials supports a stable and high-quality outcome.",
+                            "If you are looking not merely to “have surgery,” but to receive truly modern, safe, and maximally tissue-sparing cataract care, the iQ-Life 3D “Water Flow” method is designed for you. You will notice the difference.",
                         ],
                     },
                 ],
