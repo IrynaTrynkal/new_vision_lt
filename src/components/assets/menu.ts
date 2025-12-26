@@ -119,11 +119,11 @@ export type PatientsListProps = {
 
 export const patientsList: PatientsListProps[] = [
     {
-        key: "informatsiya-dlya-inohorodnikh-patsiyentiv",
+        key: "dovanu-kupono",
         slug: {
-            lt: "informatsiya-dlya-inohorodnikh-patsiyentiv",
-            en: "information-for-nonresident-patients",
-            ru: "inogorodnim-patsiyentam",
+            lt: "dovanu-kupono",
+            en: "dovanu-kupono",
+            ru: "dovanu-kupono",
         },
     },
     {

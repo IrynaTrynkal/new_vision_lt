@@ -83,10 +83,6 @@ export const routing = defineRouting({
                 en: "/information-for-patients-prior-to-microsurgery",
                 ru: "/informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
             },
-        "/informatsiya-dlya-inohorodnikh-patsiyentiv": {
-            en: "/information-for-nonresident-patients",
-            ru: "/inogorodnim-patsiyentam",
-        },
         "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru": {
             en: "/instructions-after-laser-vision-correction",
             ru: "/instruktsii-posle-korrektsii-zreniya",

@@ -147,10 +147,10 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/information-for-patients-prior-to-microsurgery",
         ru: "/informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
     },
-    "/informatsiya-dlya-inohorodnikh-patsiyentiv": {
-        lt: "/informatsiya-dlya-inohorodnikh-patsiyentiv",
-        en: "/information-for-nonresident-patients",
-        ru: "/inogorodnim-patsiyentam",
+    "/dovanu-kupono": {
+        lt: "/dovanu-kupono",
+        en: "/dovanu-kupono",
+        ru: "/dovanu-kupono",
     },
     "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru": {
         lt: "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",

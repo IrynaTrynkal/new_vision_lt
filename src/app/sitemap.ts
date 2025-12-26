@@ -341,7 +341,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.64,
         },
         {
-            url: `${baseUrl}/informatsiya-dlya-inohorodnikh-patsiyentiv`,
+            url: `${baseUrl}/dovanu-kupono`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.64,
@@ -701,7 +701,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.64,
         },
         {
-            url: `${baseUrl}/en/information-for-nonresident-patients`,
+            url: `${baseUrl}/en/dovanu-kupono`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.51,
@@ -809,7 +809,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.51,
         },
         {
-            url: `${baseUrl}/ru/inogorodnim-patsiyentam`,
+            url: `${baseUrl}/ru/dovanu-kupono`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.51,

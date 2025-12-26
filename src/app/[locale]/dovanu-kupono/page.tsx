@@ -1,9 +1,10 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useLocale } from "next-intl";
 
 import { pationtsInstructionsData } from "@/components/assets/patientsInstructionData";
+import { kuponoData } from "@/components/assets/policyData";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
-import { Global } from "@/components/shared/global/Global";
 import { TextTypeRender } from "@/components/shared/TextTypeRender";
 import { HeroInstruction } from "@/components/someInstructionComponents/HeroInstruction";
 import { LocaleType } from "@/types/LocaleType";
@@ -20,20 +21,20 @@ export async function generateMetadata({
     return generateInstructionMetadata(
         locale as LocaleType,
         "ForentInstr",
-        "informatsiya-dlya-inohorodnikh-patsiyentiv"
+        "dovanu-kupono"
     );
 }
 
 export default function PatientsNonresidentPage() {
     const breadcrumb = [
         {
-            name: "informatsiya-dlya-inohorodnikh-patsiyentiv",
-            href: "/informatsiya-dlya-inohorodnikh-patsiyentiv",
+            name: "dovanu-kupono",
+            href: "/dovanu-kupono",
         },
     ];
     const locale = useLocale();
     const data = pationtsInstructionsData.find(
-        instr => instr.name.key === "informatsiya-dlya-inohorodnikh-patsiyentiv"
+        instr => instr.name.key === "dovanu-kupono"
     );
     if (!data) return notFound();
 
@@ -46,12 +47,18 @@ export default function PatientsNonresidentPage() {
             <HeroInstruction title={data[locale as LocaleType].title} />
             <section className="tab:pb-12 tab:px-6 pc:px-12 pc:pb-[120px] pb-[60px]">
                 <div className="bg-green-10 tab:mx-0 tab:max-w-[1117px] prepc:w-[83%] prepc:p-6 prepc:rounded-lg mx-auto max-w-[540px] rounded p-4">
-                    {data[locale as LocaleType].content.map((item, ind) => (
-                        <TextTypeRender key={ind} data={item.text} />
-                    ))}
+                    <TextTypeRender
+                        data={kuponoData[locale as LocaleType].content}
+                    />
+                    <Image
+                        src="/images/kuponas.png"
+                        alt="dovanu kupono"
+                        width={1140}
+                        height={565}
+                        className="mx-auto rounded-lg"
+                    />
                 </div>
             </section>
-            <Global />
         </>
     );
 }
