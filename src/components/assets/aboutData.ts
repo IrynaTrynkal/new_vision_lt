@@ -125,39 +125,39 @@ export type AboutServicesType = {
 
 export const aboutServicesList: AboutServicesType[] = [
     {
-        key: "vitreoretinalna-hirurgiya",
-        link: "/paslaugos/vitreoretinalna-hirurgiya",
+        key: "lazerine-akiu-korekcija",
+        link: "/paslaugos/lazerine-akiu-korekcija",
         data: {
             lt: {
-                title: "Вітреоретинальна хірургія",
-                text: "Це складний комбінований метод оперативного лікування патології сітківки та скловидного тіла",
+                title: "Lazerine akiu korekcija",
+                text: "Greitas ir tikslus regėjimo korekcijos metodas, mažinantis priklausomybę nuo akinių ar kontaktinių lęšių",
             },
             en: {
-                title: "Vitreoretinal Surgery",
-                text: "A complex combined surgical method for treating retinal and vitreous body disorders.",
+                title: "Laser Vision Correction",
+                text: "A complex combined surgical method for treating retinal and vitreous body disorders",
             },
             ru: {
-                title: "Витреоретинальная хирургия",
-                text: "Это сложный комбинированный метод оперативного лечения патологии сетчатки и стекловидного тела.",
+                title: "Лазерная коррекция зрения",
+                text: "Быстрый и точный метод коррекции зрения, уменьшающий зависимость от очков или контактных линз",
             },
         },
     },
     {
-        key: "likuvannya-kosookosti",
-        link: "/paslaugos/likuvannya-kosookosti",
+        key: "kataraktos-operacija",
+        link: "/paslaugos/kataraktos-operacija",
 
         data: {
             lt: {
-                title: "Лікування косоокості методом «регульованих швів»",
-                text: "Коли проблему неможливо усунути консервативними методами",
+                title: "Kataraktos operacija",
+                text: "Mikrochirurginis drumsto lęšiuko pašalinimas su intraokulinio lęšio implantavimu, atkuriant ryškų regėjimą",
             },
             en: {
-                title: "Strabismus Treatment Using the 'Adjustable Sutures' Method",
-                text: "When the problem cannot be corrected by conservative methods.",
+                title: "Cataract Removal",
+                text: "Microsurgical removal of the clouded lens with intraocular lens implantation to restore clear vision",
             },
             ru: {
-                title: "Лечение косоглазия методом «регулируемых швов»",
-                text: "Когда проблему невозможно устранить консервативными методами.",
+                title: "Удаление катаракты",
+                text: "Микрохирургическое удаление помутневшего хрусталика с имплантацией интраокулярной линзы для восстановления чёткого зрения",
             },
         },
     },
@@ -166,8 +166,8 @@ export const aboutServicesList: AboutServicesType[] = [
         link: "/paslaugos/skaidraus-lesio-operacija",
         data: {
             lt: {
-                title: "Альтернатива лазерної корекції зору RLE",
-                text: "Коли проблему неможливо усунути консервативними методами",
+                title: "Lazerinės regos korekcijos RLE alternatyva",
+                text: "Kai problemos neįmanoma išspręsti konservatyviais metodais",
             },
             en: {
                 title: "Alternative to Laser Vision Correction — RLE",
