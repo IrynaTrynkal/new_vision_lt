@@ -152,6 +152,11 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/information-for-out-of-town-patients",
         ru: "/information-for-out-of-town-patients",
     },
+    "/dovanu-kupono": {
+        lt: "/dovanu-kupono",
+        en: "/dovanu-kupono",
+        ru: "/dovanu-kupono",
+    },
     "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru": {
         lt: "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
         en: "/instructions-after-laser-vision-correction",

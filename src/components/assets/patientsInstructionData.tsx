@@ -5,6 +5,7 @@ import { TextType } from "./servicesData";
 export type InstructionsSulgType =
     | "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam"
     | "information-for-out-of-town-patients"
+    | "dovanu-kupono"
     | "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
     | "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
     | "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty"
@@ -121,6 +122,14 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
             lt: "information-for-out-of-town-patients",
             en: "information-for-out-of-town-patients",
             ru: "information-for-out-of-town-patients",
+        },
+    },
+    {
+        key: "dovanu-kupono",
+        slug: {
+            lt: "dovanu-kupono",
+            en: "idovanu-kupono",
+            ru: "dovanu-kupono",
         },
     },
     {
@@ -328,6 +337,21 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                     ],
                 },
             ],
+        },
+    },
+    {
+        name: keySlugPatientsInstruction.find(k => k.key === "dovanu-kupono")!,
+        lt: {
+            title: "Akių klinikos UAB „Naujas regėjimas“ dovanų kupono naudojimo taisyklės",
+            content: [],
+        },
+        en: {
+            title: "Rules for the use of the gift voucher from the Eye Clinic „New Vision“",
+            content: [],
+        },
+        ru: {
+            title: "Правила использования подарочного сертификата от глазной клиники «Новое зрение»",
+            content: [],
         },
     },
     {
@@ -6325,34 +6349,11 @@ export const dataPatientsPage: DataPatientsPageType[] = [
         key: "information-for-out-of-town-patients",
     },
     {
+        key: "dovanu-kupono",
+    },
+    {
         key: "reminders-and-instructions-for-patients",
         data: [
-            {
-                listTitle: "before",
-                list: [
-                    keySlugPatientsInstruction.find(
-                        i =>
-                            i.key ===
-                            "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam"
-                    )!,
-                    keySlugPatientsInstruction.find(
-                        i => i.key === "preparation-for-surgery-for-strabismus"
-                    )!,
-                    keySlugPatientsInstruction.find(
-                        i =>
-                            i.key ===
-                            "reminder-before-a-comprehensive-pediatric-examination"
-                    )!,
-                    keySlugPatientsInstruction.find(
-                        i => i.key === "patient-information-before-IPL-therapy"
-                    )!,
-                    keySlugPatientsInstruction.find(
-                        i =>
-                            i.key ===
-                            "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
-                    )!,
-                ],
-            },
             {
                 listTitle: "after",
                 list: [
