@@ -30,91 +30,91 @@ export const subpageLazerData: SubPageType[] = [
             lt: {
                 slug: "sportlife-lasik",
                 title: "SportLine LASEK",
-                subtitle: "Безкомпромісне рішення для професійних спортсменів",
+                subtitle:
+                    "Bekompromisis sprendimas profesionaliems sportininkams",
                 titleSEO:
                     "SportLine LASEK - Лазерна корекція для спортсменів | Корекція зору спортсменам та для для активних людей - EYES ",
                 descriptionSEO:
                     "➔ SportLineLASEK - удосконалений метод лазерної корекції зору для спортсменів, військових та людей, які активно ведуть спосіб життя. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
                 data: [
                     {
-                        textTitle: "Максимальна свобода руху без оптики",
+                        textTitle: "Maksimali judėjimo laisvė be optikos",
                         text: [
-                            "Спорт та активний спосіб життя вимагають чіткого зору, надійності та повного контролю. Окуляри можуть сповзати, а лінзи викликати дискомфорт під час тренувань. Навіть незначні обмеження заважають зосередитись на результаті. Тим, хто не готовий миритися з компромісами, є сучасне рішення — лазерна корекція зору за технологією SportLife LASEK.",
+                            "Sportas ir aktyvus gyvenimo būdas reikalauja aiškaus matymo, patikimumo ir visiškos kontrolės. Akiniai gali trukdyti ir slysti, o kontaktiniai lęšiai – sausėti ir sukelti diskomfortą treniruočių metu. Net ir nedideli nepatogumai mažina susikaupimą ir trukdo siekti rezultato. Tiems, kurie nenori kompromisų, siūlomas šiuolaikiškas sprendimas – regos korekcija lazeriu taikant SportLine LASEK technologiją klinikoje „Naujas regėjimas“ (Vilnius, Lietuva).",
                         ],
                     },
                     {
-                        textTitle: "Корекція, що щадить, — максимум безпеки",
+                        textTitle: "Švelni korekcija – maksimalus saugumas",
                         text: [
-                            "SportLife LASEK - це вдосконалена поверхня корекції, спеціально адаптована для людей з підвищеним фізичним навантаженням або тонкою рогівкою. Процедура проводиться без формування рогівкового клаптя, що робить її особливо безпечною при активній діяльності. Вона зберігає структуру ока максимально природною, мінімізуючи ризики навіть при зіткненнях чи падіннях.",
+                            "SportLine LASEK – tai patobulinta paviršinė regos korekcijos metodika, pritaikyta asmenims, patiriantiems didesnį fizinį krūvį, taip pat pacientams, kurių ragena yra plonesnė. Procedūra atliekama nesuformuojant ragenos lopelio, todėl ji laikoma ypač saugia aktyviai gyvenantiems žmonėms. Taikant šį metodą išsaugoma natūrali ragenos struktūra ir sumažinamos rizikos net patyrus smūgius, susidūrimus ar kritimus.",
                         ],
                     },
                     {
-                        textTitle: "Технологія, створена для активних",
+                        textTitle: "Technologija sukurta aktyviems žmonėms",
                         text: [
-                            "Завдяки точному контролю лазера та сучасному програмному забезпеченню, процедура дозволяє змоделювати корекцію з урахуванням індивідуальних параметрів зору. SportLife LASEK ідеально підходить для спортсменів, захоплених єдиноборствами, зимовими та водними видами спорту, де особливо важлива механічна стабільність ока.",
+                            "Dėl tikslios lazerio kontrolės ir šiuolaikinės programinės įrangos korekcija modeliuojama atsižvelgiant į individualius regos parametrus. SportLine LASEK ypač tinka sportininkams, užsiimantiems kovos menais, žiemos ar vandens sportu, taip pat kitomis veiklomis, kur ypač svarbus akies mechaninis stabilumas.",
                         ],
                     },
                     {
-                        textTitle: "Вибір тих, хто не зупиняється",
+                        textTitle: "Pasirinkimas tiems, kurie nesustoja",
                         text: [
-                            "Наші пацієнти – професійні атлети, марафонці, тріатлети, танцюристи та тренери – цінують SportLife LASEK за її надійність, щадний вплив та можливість швидко повернутися до тренувань. Вже через кілька днів після процедури можна відновити легкі фізичні навантаження, а через короткий відновлювальний період повністю повернутися до колишнього ритму.",
-                            "Якщо ви шукаєте безоптичну свободу, не жертвуючи безпекою та якістю зору, SportLife LASEK стане вашим надійним рішенням. Ця технологія – оптимальний вибір для активних людей, які цінують результат та піклуються про своє здоров'я.",
-                        ],
-                    },
-                    {
-                        textTitle:
-                            "Лазерна корекція зору методом SportLine LASEK - вибір для активних людей та спортсменів",
-                        text: [
-                            "Метод SportLine LASEK – це сучасне рішення для тих, хто веде активний спосіб життя, займається спортом професійно чи на аматорському рівні. Ця технологія розроблена з урахуванням підвищених вимог до зору та безпеки, що робить її оптимальним варіантом для пацієнтів, яким важливі фізична активність, стабільний зір та мінімальні обмеження у реабілітаційний період.",
-                            "LASEK лазерна корекція відрізняється від традиційних методів тим, що не формує рогівковий клапоть, як при LASIK. Натомість епітелій тимчасово зсувається, проводиться лазерна дія на поверхню рогівки, після чого епітеліальний шар повертається на місце. Такий підхід знижує ризик травм та робить процедуру особливо придатною для активних людей.",
+                            "Mūsų pacientai – profesionalūs sportininkai, maratonininkai, triatlonininkai, šokėjai ir treneriai – vertina SportLine LASEK dėl patikimumo, švelnaus poveikio ir galimybės greitai sugrįžti į treniruočių ritmą. Paprastai jau po kelių dienų po procedūros galima atnaujinti lengvą fizinį aktyvumą, o po trumpo atsistatymo laikotarpio – visiškai grįžti prie įprastų krūvių.",
+                            "Jeigu siekiate regos laisvės be akinių ir lęšių, neaukodami saugumo ir regos kokybės, SportLine LASEK gali tapti patikimu sprendimu. Tai optimalus pasirinkimas aktyviems žmonėms, kurie vertina rezultatą ir rūpinasi savo sveikata.",
                         ],
                     },
                     {
                         textTitle:
-                            "Кому підходить лазерна корекція Sportline Lasek?",
+                            "Regos korekcija lazeriu SportLine LASEK metodu – pasirinkimas aktyviems žmonėms ir sportininkams",
                         text: [
-                            "Цей метод ідеально підходить для:",
-                            "професійних та аматорських спортсменів;",
-                            "представників силових професій;",
-                            "людей, чия діяльність пов'язана з активним способом життя;",
-                            "пацієнтів із тонкою рогівкою, для яких LASIK протипоказаний.",
-                            "Лазерна корекція для спортсменів має бути безпечною, надійною та не обмежувати фізичну активність у довгостроковій перспективі. Саме такий підхід забезпечує технологія SportLine.",
+                            "SportLine LASEK – moderni regos korekcijos technologija tiems, kurie gyvena aktyviai, reguliariai sportuoja ir siekia stabilaus rezultato. Metodika sukurta atsižvelgiant į aukštus saugumo reikalavimus, todėl yra tinkama pacientams, kuriems svarbu išlikti fiziškai aktyviems ir patirti kuo mažiau apribojimų reabilitacijos laikotarpiu.",
+                            "LASEK lazerinė regos korekcija nuo tradicinių metodų skiriasi tuo, kad nesuformuojamas ragenos lopelis, kaip LASIK atveju. Vietoje to epitelio sluoksnis laikinai švelniai atskiriamas, atliekamas lazerinis poveikis ragenos paviršiui, o vėliau epitelis grąžinamas į vietą. Toks sprendimas mažina traumų riziką ir yra ypač tinkamas aktyviems žmonėms.",
                         ],
                     },
                     {
                         textTitle:
-                            "Переваги корекції зору методом SportLine LASEK",
+                            "Kam tinka SportLine LASEK lazerinė regos korekcija?",
                         text: [
-                            "Мінімум ризиків. Відсутність рогівкового клаптя виключає можливість його усунення при травмах.",
-                            "Ощадна технологія. Корекція LASEK впливає лише на верхні шари рогівки, забезпечуючи швидке відновлення тканин.",
-                            "Підходить для активних. Лазерна корекція для активних людей не потребує тривалих обмежень після процедури.",
-                            "Міцна структура рогівки. Поверхнева дія зберігає природну міцність ока, що особливо важливо при спортивному навантаженні.",
-                            "Висока точність. Сучасне обладнання дозволяє досягти відмінного зору навіть при складних порушеннях рефракції.",
+                            "Šis metodas ypač tinkamas:",
+                            "- profesionaliems ir mėgėjams sportininkams;",
+                            "- jėgos ir dinamiškų profesijų atstovams;",
+                            "- žmonėms, kurių kasdienybė susijusi su aktyviu judėjimu;",
+                            "- pacientams, kurių ragena plona ir dėl to LASIK metodas gali būti netinkamas.",
+                            "Sportininkams skirta lazerinė regos korekcija turi būti saugi, patikima ir neturėti ilgalaikių apribojimų. Būtent tai ir užtikrina SportLine technologija.",
+                        ],
+                    },
+                    {
+                        textTitle: "SportLine LASEK privalumai",
+                        text: [
+                            "Mažesnė rizika. Nėra ragenos lopelio, todėl sumažėja jo pasislinkimo tikimybė patyrus traumą.",
+                            "Švelni technologija. LASEK veikia paviršinius ragenos sluoksnius, padėdama audiniams atsistatyti.",
+                            "Tinka aktyviems. Reabilitacijos laikotarpiu dažniausiai nereikia ilgalaikių apribojimų.",
+                            "Išsaugomas ragenos tvirtumas. Paviršinis poveikis padeda išlaikyti natūralų akies stabilumą, kuris svarbus sportuojant.",
+                            "Didelis tikslumas. Šiuolaikinė įranga leidžia pasiekti gerą regėjimą net esant sudėtingiems refrakcijos sutrikimams.",
                         ],
                     },
                     {
                         textTitle:
-                            "SportLine лазерна корекція - що це означає?",
+                            "Ką reiškia SportLine lazerinė regos korekcija?",
                         text: [
-                            "SportLine лазерна корекція - це не просто назва, а концепція, орієнтована на потреби людей, які не можуть дозволити собі випадання з процесу тренування надовго. Методика враховує особливості способу життя та знижує період реабілітації до мінімуму. Вже за кілька днів після процедури пацієнт може поступово повертатися до звичної активності.",
+                            "SportLine – tai ne tik pavadinimas, bet ir koncepcija, orientuota į žmones, kurie negali ilgam sustabdyti treniruočių ar aktyvios veiklos. Metodika atsižvelgia į gyvenimo būdą ir padeda sumažinti reabilitacijos laiką. Dažniausiai jau po kelių dienų pacientas gali palaipsniui grįžti prie įprasto aktyvumo, laikydamasis gydytojo rekomendacijų.",
                         ],
                     },
                     {
                         textTitle:
-                            "Чому спортсменам рекомендують LASEK лазерну корекцію?",
+                            "Kodėl sportininkams dažnai rekomenduojama LASEK korekcija?",
                         text: [
-                            "Відсутність ризику пошкодження рогівки під час контакту.",
-                            "Можливість відновлення відмінного зору без окулярів та лінз.",
-                            "Низький рівень інвазивності та короткий період відновлення.",
-                            "Безпека при екстремальних навантаженнях та активному русі.",
-                            "Для спортсменів та активних людей важливо, щоб зір не підвів у потрібний момент. Окуляри можуть запітніти або сповзати, контактні лінзи викликати дискомфорт. Лазерна корекція для спортсменів усуває ці незручності, покращуючи зір без постійної залежності від оптики.",
+                            "Mažesnė ragenos pažeidimo rizika kontaktinio sporto metu.",
+                            "Galimybė pasiekti aiškų matymą be akinių ir lęšių.",
+                            "Mažesnis invazyvumas ir prognozuojamas atsistatymas.",
+                            "Saugumas esant dideliems krūviams, aktyviam judėjimui ir intensyvioms treniruotėms.",
+                            "Sportininkams svarbu, kad regėjimas būtų patikimas kritiniu momentu. Akiniai gali rasoti ar slysti, o kontaktiniai lęšiai – sukelti diskomfortą. Lazerinė regos korekcija sportininkams padeda atsisakyti šių nepatogumų ir sumažina priklausomybę nuo optikos kasdienybėje.",
                         ],
                     },
                     {
-                        textTitle: "Запишіться на консультацію",
+                        textTitle: "Registracija konsultacijai",
                         text: [
-                            "Якщо ви ведете активне життя та розглядаєте лазерну корекцію зору , метод SportLine LASEK стане ідеальним рішенням. Ми пропонуємо сучасне обладнання, кваліфікованих лікарів та індивідуальний підхід до кожного пацієнта.",
-                            "Оцініть переваги лазерної корекції SportLine – технології, створеної для активних, енергійних та цілеспрямованих. Поверніть чіткий зір і продовжуйте жити в русі!",
+                            "Jeigu gyvenate aktyviai ir svarstote apie regos korekciją lazeriu, SportLine LASEK gali būti optimalus pasirinkimas. Klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) siūlome šiuolaikišką diagnostiką, patyrusius gydytojus ir individualų požiūrį kiekviename etape – nuo pirminės konsultacijos iki rezultato kontrolės.",
+                            "Įvertinkite SportLine LASEK privalumus – technologiją, sukurtą aktyviems, energingiems ir tikslo siekiantiems žmonėms. Susigrąžinkite aiškų regėjimą ir toliau gyvenkite judėjime.",
                         ],
                     },
                 ],
@@ -219,40 +219,42 @@ export const subpageLazerData: SubPageType[] = [
                     "SportLine LASEK – Laser Vision Correction for Athletes | Vision Correction for Athletes and Active People – EYES",
                 descriptionSEO:
                     "➔ SportLineLASEK – an advanced laser vision correction method for athletes, military personnel, and people with an active lifestyle. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
-                subtitle:
-                    "The uncompromising solution for professional athletes",
+                subtitle: "A no-compromise solution for professional athletes",
                 data: [
                     {
-                        textTitle: "Maximum Freedom of Movement Without Optics",
+                        textTitle:
+                            "Maximum freedom of movement without optical aids",
                         text: [
-                            "Sports and an active lifestyle require clear vision, reliability, and full control. Glasses can slip, and contact lenses may cause discomfort during training. Even minor limitations can prevent you from focusing on performance. For those who are not willing to compromise, there is a modern solution — laser vision correction using the SportLife LASEK technology.",
+                            "Sport and an active lifestyle require clear vision, reliability, and full control. Glasses may slip or interfere with motion, while contact lenses can dry out and cause discomfort during training. Even minor limitations may affect concentration and performance. For those who are not willing to accept compromises, a modern option is available—laser vision correction using the SportLine LASEK technique at the “New Vision” clinic (Vilnius, Lithuania).",
                         ],
                     },
                     {
                         textTitle: "Gentle Correction — Maximum Safety",
                         text: [
-                            "SportLife LASEK is an advanced surface correction method specially adapted for people with high physical activity or a thin cornea. The procedure is performed without creating a corneal flap, which makes it particularly safe for those with an active lifestyle. It preserves the natural structure of the eye, minimizing risks even in case of impacts or falls.",
-                        ],
-                    },
-                    {
-                        textTitle: "Technology Designed for Active People",
-                        text: [
-                            "Thanks to precise laser control and modern software, the procedure allows customized correction based on individual vision parameters. SportLife LASEK is ideal for athletes, martial arts enthusiasts, as well as those involved in winter and water sports — where mechanical stability of the eye is especially important.",
-                        ],
-                    },
-                    {
-                        textTitle: "The Choice of Those Who Keep Moving",
-                        text: [
-                            "Our patients — professional athletes, marathon runners, triathletes, dancers, and trainers — value SportLife LASEK for its reliability, gentle effect, and the ability to return to training quickly. Just a few days after the procedure, you can resume light physical activity, and after a short recovery period, fully return to your usual routine.",
-                            "If you seek freedom from optical aids without sacrificing safety and visual quality, SportLife LASEK is your trusted solution. This technology is the optimal choice for active individuals who value performance and care about their health.",
+                            "SportLine LASEK is an enhanced surface ablation technique, specifically adapted for people with high physical loads and for patients with a thin cornea. The procedure is performed without creating a corneal flap, which makes it particularly safe for active individuals. It preserves the corneal structure as naturally as possible and minimizes risks even in the event of collisions or falls.",
                         ],
                     },
                     {
                         textTitle:
-                            "SportLine LASEK Laser Vision Correction — The Choice for Active People and Athletes",
+                            "Technology designed for an active lifestyle",
                         text: [
-                            "The SportLine LASEK method is a modern solution for those who lead an active lifestyle and engage in sports professionally or recreationally. This technology was developed with increased safety and visual stability requirements in mind, making it ideal for patients who need reliable vision, physical freedom, and minimal rehabilitation limits.",
-                            "LASEK laser correction differs from traditional methods because it does not involve creating a corneal flap, as in LASIK. Instead, the epithelium is temporarily moved aside, the laser reshapes the corneal surface, and then the epithelial layer is repositioned. This approach reduces the risk of trauma and makes the procedure especially suitable for active people.",
+                            "Thanks to precise laser control and advanced software, the treatment can be planned with consideration of the patient’s individual visual parameters. SportLine LASEK is well suited for athletes involved in martial arts, winter sports, and water sports—areas where mechanical stability of the eye is especially important.",
+                        ],
+                    },
+                    {
+                        textTitle:
+                            "The choice of those who keep moving forward",
+                        text: [
+                            "Our patients—professional athletes, marathon runners, triathletes, dancers, and coaches—value SportLine LASEK for its reliability, gentle approach, and the opportunity to return to training promptly. In many cases, light physical activity can be resumed within a few days after the procedure, and after a short recovery period, patients can return fully to their usual routine.",
+                            "If you are looking for freedom from glasses and contact lenses without sacrificing safety and quality of vision, SportLine LASEK may be your reliable solution. This technology is an optimal choice for active people who value results and take care of their health.",
+                        ],
+                    },
+                    {
+                        textTitle:
+                            "Laser vision correction with the SportLine LASEK method—a choice for active people and athletes",
+                        text: [
+                            "The SportLine LASEK method is a modern solution for those who lead an active lifestyle and practice sports at a professional or amateur level. The technique is designed to meet increased requirements for vision and safety, making it an optimal option for patients who need physical activity, stable vision, and minimal restrictions during rehabilitation.",
+                            "LASEK laser correction differs from traditional methods in that it does not create a corneal flap, as in LASIK. Instead, the epithelium is gently displaced temporarily, the laser treatment is performed on the corneal surface, and the epithelial layer is then returned to its position. This approach reduces the risk of injury and makes the procedure particularly suitable for active individuals.",
                         ],
                     },
                     {
@@ -260,43 +262,46 @@ export const subpageLazerData: SubPageType[] = [
                         text: [
                             "This method is ideal for:",
                             "professional and amateur athletes;",
-                            "individuals in physically demanding professions;",
-                            "people whose lifestyle requires active movement;",
-                            "patients with a thin cornea who cannot undergo LASIK.",
-                            "Laser vision correction for athletes must be safe, reliable, and not limit physical activity in the long term. This is exactly the approach provided by the SportLine technology.",
+                            "people in physically demanding professions;",
+                            "those whose daily routine involves an active lifestyle;",
+                            "patients with a thin cornea for whom LASIK may be contraindicated.",
+                            "Laser vision correction for athletes must be safe, reliable, and should not limit physical activity in the long term. This is precisely the approach implemented by the SportLine technique.",
                         ],
                     },
                     {
-                        textTitle: "Advantages of the SportLine LASEK Method",
+                        textTitle:
+                            "Advantages of vision correction with SportLine LASEK",
                         text: [
-                            "Minimal risks. No corneal flap means no risk of displacement during impact.",
-                            "Gentle technology. LASEK affects only the upper layers of the cornea, ensuring quick tissue recovery.",
-                            "Ideal for active people. Laser correction does not require long-term activity restrictions.",
-                            "Strong corneal structure. Surface treatment preserves the natural strength of the eye — crucial during sports loads.",
-                            "High precision. Modern equipment ensures excellent vision even in cases of complex refractive errors.",
+                            "Minimal risks. The absence of a corneal flap eliminates the possibility of flap displacement in the event of trauma.",
+                            "Gentle technique. LASEK affects only the superficial layers of the cornea, supporting tissue recovery.",
+                            "Suitable for active lifestyles. Laser correction for active people generally does not require prolonged restrictions after the procedure.",
+                            "Preserved corneal strength. Surface treatment maintains the natural strength of the cornea, which is particularly important under sports-related loads.",
+                            "High precision. Modern equipment makes it possible to achieve excellent vision even in complex refractive errors.",
                         ],
                     },
                     {
-                        textTitle: "What Does SportLine Laser Correction Mean?",
+                        textTitle:
+                            "SportLine laser correction—what does it mean?",
                         text: [
-                            "SportLine laser correction is not just a name — it is a concept designed for people who cannot afford long breaks from training. The method considers lifestyle features and reduces rehabilitation time to a minimum. Just a few days after the procedure, the patient can gradually return to normal activity.",
+                            "SportLine laser correction is not merely a name; it is a concept focused on the needs of people who cannot afford a long interruption in training. The method takes lifestyle factors into account and minimizes rehabilitation time. In many cases, patients can gradually return to their usual activities within a few days after the procedure.",
                         ],
                     },
                     {
-                        textTitle: "Why Is LASEK Recommended for Athletes?",
+                        textTitle:
+                            "Why is LASEK laser correction often recommended for athletes?",
                         text: [
-                            "No risk of corneal flap injury during contact.",
-                            "The ability to restore excellent vision without glasses or contact lenses.",
+                            "No risk of corneal flap damage in contact sports.",
+                            "The ability to restore excellent vision without glasses and contact lenses.",
                             "Low invasiveness and a short recovery period.",
-                            "Safety during extreme loads and active movements.",
-                            "For athletes and active individuals, it is crucial that vision does not fail at the wrong moment. Glasses may fog up or slip, and contact lenses may cause discomfort. Laser correction eliminates these issues, providing clear vision without dependence on optical aids.",
+                            "Safety during extreme loads and intensive movement.",
+                            "For athletes and active individuals, it is essential that vision remains reliable at the critical moment. Glasses can fog up or slip, and contact lenses may cause discomfort. Laser correction for athletes eliminates these inconveniences, improving vision without continuous dependence on optical aids.",
                         ],
                     },
                     {
                         textTitle: "Book a Consultation",
                         text: [
-                            "If you lead an active lifestyle and are considering laser vision correction, the SportLine LASEK method will be the ideal solution. We offer modern equipment, experienced surgeons, and an individualized approach for every patient.",
-                            "Discover the benefits of SportLine laser correction — a technology created for active, energetic, and driven individuals. Restore clear vision and keep moving!",
+                            "If you lead an active lifestyle and are considering laser vision correction, SportLine LASEK may be an ideal solution. We offer modern equipment, qualified doctors, and an individualized approach for every patient at the “New Vision” clinic (Vilnius, Lithuania).",
+                            "Discover the advantages of SportLine LASEK—a technology created for active, energetic, and goal-oriented people. Restore clear vision and keep moving forward.",
                         ],
                     },
                 ],
@@ -310,7 +315,8 @@ export const subpageLazerData: SubPageType[] = [
             lt: {
                 slug: "iq-lasik-oxygen-3d",
                 title: "IQ-LASIK Oxygen 3D",
-                subtitle: "корекція без підвищення температури рогівки ока",
+                subtitle:
+                    "regėjimo korekcija nepadidinant ragenos audinių temperatūros",
                 titleSEO:
                     "Холодна лазерна корекція iQ‑LASIK Oxygen 3D | Щадна лазерна корекція зору | EYES ",
                 descriptionSEO:
@@ -318,72 +324,73 @@ export const subpageLazerData: SubPageType[] = [
                 data: [
                     {
                         textTitle:
-                            "Для тих, хто вибирає високу якість без компромісів",
+                            "Tiems, kurie renkasi aukštą kokybę be kompromisų",
                         text: [
-                            "Методика iQ-LASIK Oxygen 3D – це інноваційний та безпечний спосіб корекції зору з використанням рефракційного лазера. Розроблена на основі багаторічного досвіду, вона вже допомогла тисячам пацієнтів відновити зір та відмовитися від окулярів та контактних лінз.",
-                            "Щороку по всьому світу виконуються мільйони процедур лазерної корекції, і iQ-LASIK Oxygen 3D займає серед них особливе місце завдяки своїй ефективності та рівню безпеки. Технологія дозволяє швидко досягти відмінного результату – пацієнти починають бачити чітко та яскраво, без оптичних засобів.",
-                        ],
-                    },
-                    {
-                        textTitle: "Унікальна технологія без перегріву рогівки",
-                        text: [
-                            "Однією з ключових особливостей цієї методики є проведення корекції без підвищення температури тканин рогівки. Це так звана холодна лазерна процедура, що досягається за рахунок використання високоточного сучасного обладнання з індивідуальною схемою розподілу енергії (авторською номограмою), що дозволяє мінімізувати тепловий вплив на тканини.",
-                            "Під час корекції використовуються захисні компоненти, які мінімізують вплив вільних радикалів, що сприяє більш високій чіткості зору в післяопераційний період і знижує ризик ускладнень.",
-                            "iQ-LASIK Oxygen 3D - ідеальний вибір для тих, хто цінує точність, комфорт та результат без компромісів.",
+                            "iQ-LASIK Oxygen 3D metodika – tai šiuolaikinis ir saugus regėjimo korekcijos būdas, taikant refrakcinį lazerį. Ši technologija, sukurta remiantis klinikine patirtimi ir pažangiais technologiniais sprendimais, padėjo tūkstančiams pacientų pagerinti regėjimą ir sumažinti priklausomybę nuo akinių ar kontaktinių lęšių.",
+                            "Kasmet visame pasaulyje atliekami milijonai lazerinės regėjimo korekcijos procedūrų, o iQ-LASIK Oxygen 3D išsiskiria ypatingu tikslumu ir padidintais saugos standartais. Technologija leidžia per trumpą laiką pasiekti ryškų rezultatą – pacientai pradeda matyti aiškiai ir kontrastingai be optinių pagalbinių priemonių.",
                         ],
                     },
                     {
                         textTitle:
-                            "Лазерна корекція зору методом iQ-LASIK Oxygen 3D – сучасне рішення без компромісів",
+                            "Unikali technologija be ragenos perkaitinimo",
                         text: [
-                            "Метод iQ-LASIK Oxygen 3D – це інноваційна технологія в галузі рефракційної хірургії, яка поєднує високу точність, безпеку та щадний вплив на око. Ця холодна лазерна корекція розроблена для максимально дбайливого відновлення зору без перегріву рогівки та зі збереженням її структури. Такий підхід робить процедуру комфортною, безпечною та високоефективною.",
-                            "Якщо ви давно замислювалися про те, щоб відмовитися від окулярів або лінз, корекція зору ЛАСІК із застосуванням технології iQ-LASIK Oxygen 3D – один із найкращих варіантів. Метод ґрунтується на використанні холодного лазерного променя та індивідуальної номограми, що дозволяє точно розраховувати енергію впливу. У поєднанні із захисним розчином-протектором це забезпечує високий рівень безпеки та відмінні результати.",
-                        ],
-                    },
-                    {
-                        textTitle: "Переваги методу iQ-LASIK Oxygen 3D",
-                        text: [
-                            "Щільне вплив. Це щадна лазерна корекція зору , при якій немає перегріву тканин, що значно знижує ризики і прискорює відновлення.",
-                            "Холодна лазерна корекція. Спеціальна технологія унеможливлює підвищення температури рогівки — важливий фактор при збереженні її біомеханіки.",
-                            "Висока точність. Метод iQ-LASIK Oxygen 3D забезпечує точне центрування та стабільний результат навіть при складних порушеннях рефракції.",
-                            "Комфорт для пацієнта Процедура проводиться під крапельною анестезією і займає лише кілька хвилин, без болю та тривалого реабілітаційного періоду.",
-                            "Унікальний підхід. Індивідуальний розрахунок параметрів лазера дає змогу адаптувати процедуру під анатомічні особливості кожного пацієнта.",
-                        ],
-                    },
-                    {
-                        textTitle: "Що таке 3D LASIK і чим він відрізняється?",
-                        text: [
-                            "3D LASIK – це вдосконалена форма ЛАСІК, при якій контроль та моделювання виконуються у тривимірному форматі. У випадку з iQ-LASIK Oxygen 3D система відстежує найменші рухи ока та коригує вплив у реальному часі, забезпечуючи максимальну точність.",
-                            "Завдяки цій технології досягається ефект супрелазік (або супер LASIK ) - коли зір стає не просто нормальним, а надчітким. Багато пацієнтів зазначають, що бачать краще, ніж у окулярах чи лінзах до операції.",
-                        ],
-                    },
-                    {
-                        textTitle: "Фемто LASIK та безпека",
-                        text: [
-                            "Метод фемто LASIK використовується в найсучасніших клініках і дозволяє проводити безконтактне формування клаптя рогівки за допомогою фемтосекундного лазера. iQ-LASIK Oxygen 3D інтегрує ці технології в єдину систему, підвищуючи безпеку та результативність процедури.",
+                            "Vienas svarbiausių šios metodikos privalumų – korekcija atliekama nepadidinant ragenos audinių temperatūros. Tai vadinamoji „šaltojo lazerio“ procedūra, kuri užtikrinama itin tikslia įranga ir individualia energijos dozavimo schema (personalizuota nomograma). Toks požiūris padeda sumažinti šiluminę audinių apkrovą ir išsaugoti jų savybes.",
+                            "Procedūros metu naudojami apsauginiai komponentai, mažinantys laisvųjų radikalų poveikį. Tai prisideda prie kokybiškesnės regos reabilitacijos pooperaciniu laikotarpiu ir padeda sumažinti nepageidaujamų reakcijų tikimybę.",
+                            "iQ-LASIK Oxygen 3D – tinkamas pasirinkimas tiems, kurie vertina tikslumą, komfortą ir rezultatą be kompromisų.",
                         ],
                     },
                     {
                         textTitle:
-                            "Кому підходить лазерна корекція iQ-LASIK Oxygen 3D?",
+                            "Lazerinė regėjimo korekcija iQ-LASIK Oxygen 3D metodu – šiuolaikinis sprendimas be kompromisų",
                         text: [
-                            "Цей метод показаний пацієнтам з:",
-                            "короткозорістю;",
-                            "далекозорістю;",
-                            "астигматизм;",
-                            "тонкою рогівкою (за відсутності протипоказань).",
-                            "Також це оптимальний вибір для тих, хто шукає щадний спосіб корекції зору , боїться перегріву рогівки або раніше не підходив за стандартними критеріями для ЛАСІК.",
+                            "iQ-LASIK Oxygen 3D metodas – tai inovatyvi refrakcinės chirurgijos technologija, apjungianti tikslumą, saugumą ir itin švelnų poveikį akiai. Ši „šaltojo lazerio“ korekcija sukurta tam, kad regėjimas būtų atkuriamas maksimaliai tausojančiai – be ragenos perkaitinimo ir išlaikant jos struktūrą. Dėl to procedūra yra komfortiška, prognozuojama ir efektyvi.",
+                            "Jeigu jau seniai planavote atsisakyti akinių ar kontaktinių lęšių, LASIK regėjimo korekcija, taikant iQ-LASIK Oxygen 3D technologiją, gali būti vienas optimaliausių sprendimų. Metodas paremtas „šaltojo lazerio“ poveikiu ir individualia nomograma, leidžiančia tiksliai apskaičiuoti korekcijos parametrus. Kartu su apsauginiu protektoriniu tirpalu tai sustiprina saugos profilį ir padeda pasiekti stabilių rezultatų.",
                         ],
                     },
                     {
-                        textTitle: "Чому обирають нас?",
+                        textTitle: "iQ-LASIK Oxygen 3D metodo privalumai",
                         text: [
-                            "У нашій клініці ви можете пройти лазерну корекцію зору ЛАСІК із застосуванням методу iQ-LASIK Oxygen 3D. Ми використовуємо передове обладнання та індивідуальний підхід до кожного пацієнта. Наша команда фахівців має великий досвід у виконанні LASIK та інших методів високоточної корекції.",
-                            "Використовуємо лише перевірені безпечні технології",
-                            "Процедура проходить швидко та безболісно",
-                            "Індивідуальна номограма знижує ризики та підвищує результат",
-                            "Швидке відновлення – більшість пацієнтів повертаються до звичного життя наступного дня",
-                            "Відкрийте світ у новому світлі за допомогою технології iQ-LASIK Oxygen 3D – без болю, перегріву та компромісів. Запишіться на консультацію вже сьогодні та отримайте чіткий зір на довгі роки.",
+                            "Tausojantis poveikis. Tai švelni lazerinė regėjimo korekcija, kurios metu audiniai neperkaista – tai padeda mažinti rizikas ir spartinti atsistatymą.",
+                            "„Šaltojo lazerio“ korekcija. Specialus darbo algoritmas neleidžia didėti ragenos temperatūrai – tai svarbu išsaugant jos biomechanines savybes.",
+                            "Didelis tikslumas. iQ-LASIK Oxygen 3D užtikrina tikslią centraciją ir stabilų rezultatą, įskaitant sudėtingesnius refrakcijos sutrikimų atvejus.",
+                            "Paciento komfortas. Procedūra atliekama taikant vietinę (lašelinę) nejautrą ir trunka tik kelias minutes – be skausmo ir ilgo reabilitacijos laikotarpio.",
+                            "Individualus sprendimas. Personalizuoti skaičiavimai leidžia pritaikyti korekciją pagal kiekvieno paciento anatomines ypatybes.",
+                        ],
+                    },
+                    {
+                        textTitle: "Kas yra 3D LASIK ir kuo jis skiriasi?",
+                        text: [
+                            "3D LASIK – tai patobulintas LASIK formatas, kai kontrolė ir modeliavimas atliekami trimatėje erdvėje. iQ-LASIK Oxygen 3D sistemoje fiksuojami mikrojūdžiai ir lazerio poveikis koreguojamas realiu laiku, todėl padidėja procedūros atlikimo tikslumas.",
+                            "Šios technologijos dėka galima pasiekti vadinamąjį „Super LASIK“ efektą – kai regėjimas tampa ne tik „normalus“, bet maksimaliai ryškus. Daugelis pacientų pastebi, kad po procedūros mato geriau nei su akiniais ar lęšiais iki operacijos.",
+                        ],
+                    },
+                    {
+                        textTitle: "Femto LASIK ir saugumas",
+                        text: [
+                            "Femto LASIK metodas leidžia suformuoti ragenos lopelį nekontaktiniu būdu – femtosekundiniu lazeriu. iQ-LASIK Oxygen 3D integruoja šį etapą į bendrą protokolą, didindamas procedūros etapų tikslumą ir bendrą saugos lygį.",
+                        ],
+                    },
+                    {
+                        textTitle:
+                            "Kam tinka iQ-LASIK Oxygen 3D lazerinė korekcija?",
+                        text: [
+                            "Šis metodas rekomenduojamas pacientams, turintiems:",
+                            "- trumparegystę;",
+                            "- toliaregystę;",
+                            "- astigmatizmą;",
+                            "- plonesnę rageną (jei nėra kontraindikacijų).",
+                            "Taip pat tai tinkamas pasirinkimas tiems, kurie ieško švelnesnės regėjimo korekcijos, nerimauja dėl ragenos perkaitinimo arba anksčiau abejojo LASIK galimybe taikant standartinius kriterijus.",
+                        ],
+                    },
+                    {
+                        textTitle: "Kodėl pacientai renkasi mus?",
+                        text: [
+                            "Akių klinikoje „Naujasis regėjimas“ (Vilnius, Lietuva) galite atlikti LASIK lazerinę regėjimo korekciją taikant iQ-LASIK Oxygen 3D metodą. Naudojame šiuolaikinę įrangą ir taikome personalizuotą požiūrį kiekvienam pacientui. Klinikos specialistų komanda turi reikšmingą praktinę patirtį atliekant LASIK bei kitas aukšto tikslumo regėjimo korekcijos procedūras.",
+                            "Naudojame tik patikrintas ir saugias technologijas",
+                            "Procedūra atliekama greitai ir komfortiškai",
+                            "Individuali nomograma padeda mažinti rizikas ir didinti rezultato prognozuojamumą",
+                            "Greitas atsistatymas – daugelis pacientų grįžta į įprastą ritmą jau kitą dieną",
+                            "Atraskite pasaulį naujoje šviesoje su iQ-LASIK Oxygen 3D technologija – be skausmo, be perkaitinimo ir be kompromisų. Registruokitės konsultacijai jau šiandien ir džiaukitės aiškiu regėjimu ilgus metus.",
                         ],
                     },
                 ],
@@ -401,48 +408,48 @@ export const subpageLazerData: SubPageType[] = [
                         textTitle:
                             "Для тех, кто выбирает высокое качество без компромиссов",
                         text: [
-                            "Методика iQ-LASIK Oxygen 3D — это инновационный и безопасный способ коррекции зрения с использованием рефракционного лазера. Разработанная на основе многолетнего опыта, она уже помогла тысячам пациентов восстановить зрение и отказаться от очков и контактных линз.",
-                            "Ежегодно по всему миру выполняются миллионы процедур лазерной коррекции, и iQ-LASIK Oxygen 3D занимает среди них особое место благодаря своей эффективности и уровню безопасности. Технология позволяет быстро добиться отличного результата — пациенты начинают видеть чётко и ярко, без оптических средств.",
+                            "Методика iQ-LASIK Oxygen 3D — это современный и безопасный способ коррекции зрения с применением рефракционного лазера. Созданная на базе клинического опыта и технологических разработок, она помогла тысячам пациентов улучшить зрение и снизить зависимость от очков и контактных линз.",
+                            "Ежегодно во всём мире выполняются миллионы процедур лазерной коррекции, и iQ-LASIK Oxygen 3D выделяется среди них высокой точностью и повышенными стандартами безопасности. Технология позволяет в короткие сроки получить выраженный результат — пациенты начинают видеть чётко и контрастно, без оптических средств.",
                         ],
                     },
                     {
                         textTitle:
                             "Уникальная технология без перегрева роговицы",
                         text: [
-                            "Одной из ключевых особенностей данной методики является проведение коррекции без повышения температуры тканей роговицы. Это так называемая «холодная» лазерная процедура, достигаемая за счёт использования высокоточного современного оборудования с индивидуальной схемой распределения энергии (авторской номограммой), что позволяет минимизировать тепловое воздействие на ткани.",
-                            "Во время коррекции используются защитные компоненты, минимизирующие воздействие свободных радикалов, что способствует более высокой чёткости зрения в постоперационный период и снижает риск осложнений.",
-                            "iQ-LASIK Oxygen 3D — идеальный выбор для тех, кто ценит точность, комфорт и результат без компромиссов.",
+                            "Одной из ключевых особенностей данной методики является проведение коррекции без повышения температуры тканей роговицы. Это так называемая «холодная» лазерная процедура, которая реализуется благодаря высокоточному оборудованию и индивидуальной схеме дозирования энергии (персонализированной номограмме). Такой подход помогает снизить тепловую нагрузку на ткани и сохранить их свойства.",
+                            "Во время коррекции применяются защитные компоненты, которые уменьшают влияние свободных радикалов. Это способствует более качественной визуальной реабилитации в послеоперационном периоде и помогает снизить вероятность нежелательных реакций.",
+                            "iQ-LASIK Oxygen 3D — удачный выбор для тех, кто ценит точность, комфорт и результат без компромиссов.",
                         ],
                     },
                     {
                         textTitle:
                             "Лазерная коррекция зрения методом iQ-LASIK Oxygen 3D — современное решение без компромиссов",
                         text: [
-                            "Метод iQ-LASIK Oxygen 3D — это инновационная технология в области рефракционной хирургии, которая сочетает высокую точность, безопасность и щадящее воздействие на глаз. Эта холодная лазерная коррекция разработана для максимально бережного восстановления зрения без перегрева роговицы и с сохранением её структуры. Такой подход делает процедуру комфортной, безопасной и высокоэффективной.",
-                            "Если вы давно задумывались о том, чтобы отказаться от очков или линз, коррекция зрения ЛАСИК с применением технологии iQ-LASIK Oxygen 3D — один из лучших вариантов. Метод основан на использовании холодного лазерного луча и индивидуальной номограммы, позволяющей точно рассчитывать энергию воздействия. В сочетании с защитным раствором-протектором это обеспечивает высокий уровень безопасности и отличные результаты.",
+                            "Метод iQ-LASIK Oxygen 3D — это инновационная технология в области рефракционной хирургии, объединяющая точность, безопасность и деликатное воздействие на глаз. Данная «холодная» лазерная коррекция разработана для максимально бережного восстановления зрения без перегрева роговицы и с сохранением её структуры. Благодаря этому процедура остаётся комфортной, предсказуемой и эффективной.",
+                            "Если вы давно планировали отказаться от очков или линз, коррекция зрения ЛАСИК с применением технологии iQ-LASIK Oxygen 3D может стать одним из оптимальных решений. Метод базируется на холодном лазерном воздействии и индивидуальной номограмме, позволяющей точно рассчитывать параметры коррекции. В сочетании с защитным раствором-протектором это повышает уровень безопасности и помогает достигать стабильных результатов.",
                         ],
                     },
                     {
                         textTitle: "Преимущества метода iQ-LASIK Oxygen 3D",
                         text: [
-                            "Щадящее воздействие. Это щадящая лазерная коррекция зрения, при которой не происходит перегрева тканей, что значительно снижает риски и ускоряет восстановление.",
-                            "Холодная лазерная коррекция. Специальная технология исключает повышение температуры роговицы — важный фактор при сохранении её биомеханики.",
-                            "Высокая точность. Метод iQ-LASIK Oxygen 3D обеспечивает точную центровку и стабильный результат даже при сложных нарушениях рефракции.",
-                            "Комфорт для пациента. Процедура проводится под капельной анестезией и занимает всего несколько минут, без боли и длительного реабилитационного периода.",
-                            "Уникальный подход. Индивидуальный расчёт параметров лазера позволяет адаптировать процедуру под анатомические особенности каждого пациента.",
+                            "Щадящее воздействие. Это бережная лазерная коррекция зрения, при которой отсутствует перегрев тканей, что помогает снизить риски и ускорить восстановление.",
+                            "Холодная лазерная коррекция. Специальный алгоритм работы исключает повышение температуры роговицы — важный фактор для сохранения её биомеханики.",
+                            "Высокая точность. Метод iQ-LASIK Oxygen 3D обеспечивает точную центровку и устойчивый результат, включая случаи со сложными вариантами нарушений рефракции.",
+                            "Комфорт для пациента. Процедура проводится под капельной анестезией и занимает всего несколько минут, без боли и длительного периода реабилитации.",
+                            "Уникальный подход. Персональный расчёт параметров позволяет адаптировать коррекцию под анатомические особенности каждого пациента.",
                         ],
                     },
                     {
                         textTitle: "Что такое 3D LASIK и чем он отличается?",
                         text: [
-                            "3D LASIK — это усовершенствованная форма ЛАСИК, при которой контроль и моделирование выполняются в трёхмерном формате. В случае с iQ-LASIK Oxygen 3D система отслеживает малейшие движения глаза и корректирует воздействие в реальном времени, обеспечивая максимальную точность.",
-                            "Благодаря этой технологии достигается эффект супрелазик (или супер LASIK) — когда зрение становится не просто нормальным, а сверхчётким. Многие пациенты отмечают, что видят лучше, чем в очках или линзах до операции.",
+                            "3D LASIK — это усовершенствованный формат ЛАСИК, где контроль и моделирование выполняются в трёхмерном режиме. В случае iQ-LASIK Oxygen 3D система отслеживает микродвижения глаза и корректирует воздействие в реальном времени, что повышает точность выполнения коррекции.",
+                            "Благодаря этой технологии достигается эффект супер-LASIK — когда зрение становится не просто «нормальным», а максимально чётким. Многие пациенты отмечают, что после процедуры видят лучше, чем в очках или линзах до операции.",
                         ],
                     },
                     {
                         textTitle: "Фемто LASIK и безопасность",
                         text: [
-                            "Метод фемто LASIK используется в самых современных клиниках и позволяет проводить бесконтактное формирование лоскута роговицы с помощью фемтосекундного лазера. iQ-LASIK Oxygen 3D интегрирует эти технологии в единую систему, повышая безопасность и результативность процедуры.",
+                            "Метод фемто LASIK позволяет формировать роговичный лоскут бесконтактно — с помощью фемтосекундного лазера. iQ-LASIK Oxygen 3D интегрирует этот подход в общий протокол, повышая точность этапов и общий профиль безопасности процедуры.",
                         ],
                     },
                     {
@@ -450,21 +457,21 @@ export const subpageLazerData: SubPageType[] = [
                             "Кому подходит лазерная коррекция iQ-LASIK Oxygen 3D?",
                         text: [
                             "Этот метод показан пациентам с:",
-                            "близорукостью;",
-                            "дальнозоркостью;",
-                            "астигматизмом;",
-                            "тонкой роговицей (при отсутствии противопоказаний).",
-                            "Также это оптимальный выбор для тех, кто ищет щадящий способ коррекции зрения, боится перегрева роговицы или ранее не подходил по стандартным критериям для ЛАСИК.",
+                            "- близорукостью;",
+                            "- дальнозоркостью;",
+                            "- астигматизмом;",
+                            "- тонкой роговицей (при отсутствии противопоказаний).",
+                            "Также это подходящий вариант для тех, кто ищет более щадящую коррекцию зрения, переживает из‑за перегрева роговицы или ранее сомневался в возможности проведения ЛАСИК по стандартным критериям.",
                         ],
                     },
                     {
                         textTitle: "Почему выбирают нас?",
                         text: [
-                            "В нашей клинике в Киеве вы можете пройти лазерную коррекцию зрения ЛАСИК с применением метода iQ-LASIK Oxygen 3D. Мы используем передовое оборудование и индивидуальный подход к каждому пациенту. Наша команда специалистов имеет большой опыт в выполнении LASIK и других методов высокоточной коррекции.",
+                            "В глазной клинике «Новое зрение» (Вильнюс, Литва) вы можете пройти лазерную коррекцию зрения LASIK с применением метода iQ-LASIK Oxygen 3D. Мы используем современное оборудование и персонализированный подход к каждому пациенту. Команда специалистов клиники имеет значительный практический опыт выполнения LASIK и других методов высокоточной коррекции.",
                             "Используем только проверенные безопасные технологии",
                             "Процедура проходит быстро и безболезненно",
-                            "Индивидуальная номограмма снижает риски и повышает результат",
-                            "Быстрое восстановление — большинство пациентов возвращаются к привычной жизни на следующий день",
+                            "Индивидуальная номограмма помогает снизить риски и повысить предсказуемость результата",
+                            "Быстрое восстановление — многие пациенты возвращаются к привычному ритму уже на следующий день",
                             "Откройте мир в новом свете с помощью технологии iQ-LASIK Oxygen 3D — без боли, перегрева и компромиссов. Запишитесь на консультацию уже сегодня и получите чёткое зрение на долгие годы.",
                         ],
                     },
@@ -477,77 +484,77 @@ export const subpageLazerData: SubPageType[] = [
                     "Cold Laser Vision Correction iQ-LASIK Oxygen 3D | Gentle Laser Vision Correction | EYES",
                 descriptionSEO:
                     "➔ Innovative cold laser vision correction method (iQ-LASIK Oxygen 3D): 3D monitoring, no thermal damage to the cornea, recovery in 1–2 days. No glasses or lenses! ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
-                subtitle: "correction without increasing corneal temperature",
+                subtitle:
+                    "vision correction without increasing corneal tissue temperature",
                 data: [
                     {
                         textTitle:
-                            "For Those Who Choose High Quality Without Compromise",
+                            "For those who choose uncompromising quality",
                         text: [
-                            "The iQ-LASIK Oxygen 3D method is an innovative and safe way to correct vision using a refractive laser. Developed on the basis of many years of experience, it has already helped thousands of patients restore their vision and abandon glasses and contact lenses.",
-                            "Every year, millions of laser vision correction procedures are performed worldwide, and iQ-LASIK Oxygen 3D holds a special place among them thanks to its effectiveness and safety. The technology allows you to quickly achieve excellent results — patients begin to see clearly and vividly, without any optical aids.",
+                            "The iQ-LASIK Oxygen 3D technique is a modern and safe method of vision correction using an excimer (refractive) laser. Developed on the basis of clinical expertise and technological advances, it has helped thousands of patients improve vision and reduce dependence on glasses and contact lenses.",
+                            "Every year, millions of laser vision correction procedures are performed worldwide, and iQ-LASIK Oxygen 3D stands out for its high precision and enhanced safety standards. The technology makes it possible to achieve a noticeable result within a short time—patients begin to see clearly and with better contrast, without optical aids.",
                         ],
                     },
                     {
                         textTitle:
-                            "Unique Technology Without Corneal Overheating",
+                            "A unique approach without corneal overheating",
                         text: [
-                            "One of the key features of this method is performing the correction without increasing the temperature of the corneal tissues. This is a so-called cold laser procedure, achieved through the use of high-precision modern equipment with an individualized energy distribution scheme (a proprietary nomogram), which minimizes thermal impact on the tissues.",
-                            "During the correction, protective components are used to minimize the influence of free radicals, contributing to higher visual clarity in the postoperative period and reducing the risk of complications.",
-                            "iQ-LASIK Oxygen 3D is the ideal choice for those who value precision, comfort, and uncompromising results.",
+                            "One of the key features of this technique is that correction is performed without raising the temperature of corneal tissues. It is a so‑called “cold-laser” procedure enabled by high‑precision equipment and an individualized energy‑dosing plan (a personalized nomogram). This approach helps reduce thermal stress on tissues and preserve their properties.",
+                            "During the procedure, protective components are used to reduce the impact of free radicals. This supports a smoother visual recovery in the postoperative period and may help lower the likelihood of undesirable reactions.",
+                            "iQ-LASIK Oxygen 3D is a strong choice for patients who value precision, comfort, and results without compromise.",
                         ],
                     },
                     {
                         textTitle:
-                            "iQ-LASIK Oxygen 3D Vision Correction — A Modern Solution Without Compromise",
+                            "Laser vision correction with iQ-LASIK Oxygen 3D: a modern solution without compromise",
                         text: [
-                            "The iQ-LASIK Oxygen 3D method is an innovative technology in the field of refractive surgery that combines high precision, safety, and a gentle effect on the eye. This cold laser correction is designed for careful vision restoration without overheating the cornea and while preserving its structure. Such an approach makes the procedure comfortable, safe, and highly effective.",
-                            "If you have been considering giving up glasses or contact lenses, LASIK vision correction using the iQ-LASIK Oxygen 3D technology is one of the best options. The method is based on a cold laser beam and an individualized nomogram that allows precise calculation of the energy applied. Combined with a protective solution-shield, this ensures a high level of safety and excellent results.",
+                            "The iQ-LASIK Oxygen 3D method is an innovative refractive surgery technology combining precision, safety, and gentle impact on the eye. This “cold-laser” correction is designed for as careful vision restoration without overheating the cornea and while preserving its structure. As a result, the procedure remains comfortable, predictable, and effective.",
+                            "If you have been planning to stop wearing glasses or contact lenses, LASIK vision correction using iQ-LASIK Oxygen 3D may be one of the optimal options. The method is based on cold-laser exposure and a personalized nomogram that allows parameters to be calculated with high accuracy. Combined with a protective (protection) solution, this improves the safety profile and supports stable outcomes.",
                         ],
                     },
                     {
-                        textTitle:
-                            "Advantages of the iQ-LASIK Oxygen 3D Method",
+                        textTitle: "Benefits of iQ-LASIK Oxygen 3D",
                         text: [
-                            "Gentle effect. This is a sparing laser vision correction technique without tissue overheating, which significantly reduces risks and speeds up recovery.",
-                            "Cold laser correction. A special technology prevents any increase in corneal temperature — an important factor for preserving its biomechanics.",
-                            "High precision. The iQ-LASIK Oxygen 3D method ensures accurate centration and stable results even in cases of complex refractive errors.",
-                            "Patient comfort. The procedure is performed under drop anesthesia and takes only a few minutes, without pain and without a long rehabilitation period.",
-                            "A unique approach. Individual calculation of laser parameters makes it possible to adapt the procedure to the anatomical features of each patient.",
+                            "Gentle impact. A tissue-sparing laser vision correction approach with no overheating, helping reduce risks and speed up recovery.",
+                            "Cold-laser correction. A dedicated operating algorithm prevents corneal temperature rise—an important factor for preserving corneal biomechanics.",
+                            "High precision. iQ-LASIK Oxygen 3D provides accurate centration and stable outcomes, including in more complex refractive error cases.",
+                            "Patient comfort. The procedure is performed under topical (drop) anesthesia and takes only a few minutes, without pain or a long rehabilitation period.",
+                            "Personalized planning. Individual parameter calculation allows the correction to be adapted to each patient’s anatomy.",
                         ],
                     },
                     {
-                        textTitle: "What Is 3D LASIK and How Is It Different?",
+                        textTitle: "What is 3D LASIK and how is it different?",
                         text: [
-                            "3D LASIK is an advanced form of LASIK in which control and modeling are performed in a three-dimensional format. In the case of iQ-LASIK Oxygen 3D, the system tracks even the slightest eye movements and adjusts the laser impact in real time, ensuring maximum precision.",
-                            "This technology allows achieving the effect of super-LASIK — when vision becomes not just normal but ultra-sharp. Many patients report that they see better than they did in glasses or contact lenses before the surgery.",
+                            "3D LASIK is an advanced LASIK format where control and modeling are performed in a three‑dimensional mode. With iQ-LASIK Oxygen 3D, the system tracks micro‑movements of the eye and adjusts the laser impact in real time, increasing the precision of the correction.",
+                            "This technology can deliver a so‑called Super LASIK effect—when vision is not just “normal,” but as sharp. Many patients report that after the procedure they see better than they did with glasses or contact lenses before surgery.",
                         ],
                     },
                     {
                         textTitle: "Femto LASIK and Safety",
                         text: [
-                            "The femto LASIK method is used in the most advanced clinics and enables contactless creation of the corneal flap using a femtosecond laser. iQ-LASIK Oxygen 3D integrates these technologies into a single system, enhancing the safety and effectiveness of the procedure.",
+                            "Femto LASIK is used in modern ophthalmology centers and allows the corneal flap to be created without direct contact—using a femtosecond laser. iQ-LASIK Oxygen 3D integrates this approach into the overall protocol, improving the accuracy of each step and the overall safety profile.",
                         ],
                     },
                     {
-                        textTitle: "Who Is iQ-LASIK Oxygen 3D Suitable For?",
+                        textTitle: "Who is iQ-LASIK Oxygen 3D suitable for?",
                         text: [
-                            "This method is recommended for patients with:",
-                            "myopia (nearsightedness);",
-                            "hyperopia (farsightedness);",
-                            "astigmatism;",
-                            "thin cornea (in the absence of contraindications).",
-                            "It is also an ideal choice for those seeking a gentle method of laser correction, who are concerned about corneal overheating, or who previously did not qualify for standard LASIK.",
+                            "The method may be recommended for patients with:",
+                            "- myopia;",
+                            "- hyperopia;",
+                            "- astigmatism;",
+                            "- a thinner cornea (when there are no contraindications).",
+                            "It is also a suitable option for those looking for a more gentle type of vision correction, concerned about corneal overheating, or who previously doubted whether LASIK would be possible under standard criteria.",
                         ],
                     },
                     {
-                        textTitle: "Why Choose Us?",
+                        textTitle: "Why choose us?",
                         text: [
-                            "In our clinic, you can undergo LASIK vision correction using the iQ-LASIK Oxygen 3D method. We use advanced equipment and an individualized approach for every patient. Our team of specialists has extensive experience in performing LASIK and other high-precision correction methods.",
-                            "We use only proven and safe technologies",
-                            "The procedure is fast and painless",
-                            "An individualized nomogram reduces risks and improves results",
-                            "Quick recovery — most patients return to normal activities the next day",
-                            "Discover the world in a new light with iQ-LASIK Oxygen 3D — without pain, overheating, or compromise. Schedule a consultation today and enjoy clear vision for many years.",
+                            "At the “New Vision” Eye Clinic (Vilnius, Lithuania), you can undergo LASIK laser vision correction using iQ-LASIK Oxygen 3D. We use modern equipment and a personalized approach for every patient. Our team has substantial practical experience with LASIK and other high‑precision correction methods.",
+                            "We use only proven, safe technologies",
+                            "The procedure is fast and comfortable",
+                            "A personalized nomogram helps reduce risks and improve predictability",
+                            "Fast recovery—many patients return to their normal routine the next day",
+                            "Discover the world in a new light with iQ-LASIK Oxygen 3D—without pain, overheating, or compromise. Book a consultation today and enjoy clear vision for years to come.",
                         ],
                     },
                 ],
@@ -793,9 +800,9 @@ export const subpageCataractData: SubPageType[] = [
                         textTitle: "3D technologija: naujos kartos chirurgija",
                         text: [
                             "iQ-Life 3D metodas pagrįstas stereoskopine vizualizacija ir leidžia chirurgui dirbti maksimaliai tiksliai, realiuoju laiku matant akies anatomiją trimatėje erdvėje. Sistemą sudaro:",
-                            "skaitmeninė 3D kamera su vaizdo gylio efektu;",
-                            "darbo stotis su galimybe didinti operuojamą sritį;",
-                            "ultra HD ekranas, kuriame rodoma padidinta trimatė operacijos vaizdo projekcija.",
+                            "- skaitmeninė 3D kamera su vaizdo gylio efektu;",
+                            "- darbo stotis su galimybe didinti operuojamą sritį;",
+                            "- ultra HD ekranas, kuriame rodoma padidinta trimatė operacijos vaizdo projekcija.",
                             "Išmanioji programinė įranga sujungia ultragarsinės emulsifikacijos įrangos darbą su 3D navigacijos sistema. Tai leidžia chirurgui nuolat stebėti esminius parametrus: akispūdį, ultragarsinės energijos intensyvumą, skysčio tūrį ir vandens srauto greitį. Tokia integracija didina procedūros saugumą ir mažina komplikacijų riziką.",
                             "Papildomas privalumas – švelnesnis apšvietimas, palyginti su įprastu darbu per operacinį mikroskopą. Tai suteikia daugiau komforto pacientui ir sumažina regos nuovargį chirurgui.",
                         ],
@@ -838,9 +845,9 @@ export const subpageCataractData: SubPageType[] = [
                         textTitle: "3D-технология: хирургия нового поколения",
                         text: [
                             "Метод iQ-Life 3D опирается на стереоскопическую визуализацию и позволяет хирургу работать с максимальной точностью, видя анатомию глаза в объёмном формате и в реальном времени. Система включает:",
-                            "цифровую 3D-камеру с эффектом глубины изображения;",
-                            "рабочую станцию с возможностью увеличения зоны вмешательства;",
-                            "ultra-HD экран, на который выводится увеличенное объёмное изображение операции.",
+                            "- цифровую 3D-камеру с эффектом глубины изображения;",
+                            "- рабочую станцию с возможностью увеличения зоны вмешательства;",
+                            "- ultra-HD экран, на который выводится увеличенное объёмное изображение операции.",
                             "Интеллектуальное программное обеспечение синхронизирует работу оборудования для ультразвуковой эмульсификации с 3D-навигацией. Благодаря этому врач может контролировать ключевые параметры: внутриглазное давление, уровень ультразвуковой энергии, объём подаваемой жидкости и скорость потока. Такая интеграция повышает предсказуемость вмешательства и дополнительно усиливает профиль безопасности.",
                             "Отдельное преимущество — более мягкий визуальный режим без привычного яркого «микроскопического» света. Это повышает комфорт пациента и снижает зрительную нагрузку на хирурга.",
                         ],
@@ -883,9 +890,9 @@ export const subpageCataractData: SubPageType[] = [
                         textTitle: "3D Technology: Next-Generation Surgery",
                         text: [
                             "The iQ-Life 3D method is based on stereoscopic visualization and enables the surgeon to operate with maximum precision, viewing the eye’s anatomy in a three-dimensional, real-time format. The system includes:",
-                            "a digital 3D camera with depth perception;",
-                            "a workstation with zoom and magnification functions;",
-                            "an ultra-HD display showing an enlarged, three-dimensional view of the procedure.",
+                            "- a digital 3D camera with depth perception;",
+                            "- a workstation with zoom and magnification functions;",
+                            "- an ultra-HD display showing an enlarged, three-dimensional view of the procedure.",
                             "Intelligent software integrates the ultrasound emulsification platform with 3D navigation. This allows the surgeon to continuously monitor key parameters: intraocular pressure, ultrasound power, fluid volume, and water-flow rate. Such integration improves predictability and further strengthens the safety profile of the procedure.",
                             "An additional advantage is a more comfortable visual environment without the intense operative light typical of conventional microscopes. This increases patient comfort and reduces surgeon fatigue.",
                         ],
