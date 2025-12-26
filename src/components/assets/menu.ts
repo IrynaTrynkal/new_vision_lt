@@ -127,6 +127,14 @@ export const patientsList: PatientsListProps[] = [
         },
     },
     {
+        key: "dovanu-kupono",
+        slug: {
+            lt: "dovanu-kupono",
+            en: "dovanu-kupono",
+            ru: "dovanu-kupono",
+        },
+    },
+    {
         key: "reminders-and-instructions-for-patients",
         slug: {
             lt: "reminders-and-instructions-for-patients",

@@ -815,6 +815,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.51,
         },
         {
+            url: `${baseUrl}/dovanu-kupono`,
+            lastModified: new Date(),
+            changeFrequency: "yearly",
+            priority: 0.51,
+        },
+        {
+            url: `${baseUrl}/en/dovanu-kupono`,
+            lastModified: new Date(),
+            changeFrequency: "yearly",
+            priority: 0.51,
+        },
+        {
+            url: `${baseUrl}/ru/dovanu-kupono`,
+            lastModified: new Date(),
+            changeFrequency: "yearly",
+            priority: 0.51,
+        },
+        {
             url: `${baseUrl}/ru/reminders-and-instructions-for-patients`,
             lastModified: new Date(),
             changeFrequency: "yearly",
