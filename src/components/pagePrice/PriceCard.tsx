@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/navigation";
+import { PortableTextRenderer } from "@/sanity/components/PortableTextComponents";
 import { PortableTextPriceRenderer } from "@/sanity/components/PortableTextPriceComponents";
 import { LocaleType } from "@/types/LocaleType";
 
@@ -58,10 +59,6 @@ export const PriceCard = ({
                         const newTechnology = item.new;
                         const special = item.specialPrice;
                         const description = item.serviceDescription || [];
-                        // const firstGreen = description.find(
-                        //     d => d.greenText
-                        // )?.greenText;
-
                         const hasBadges = Boolean(newTechnology || special);
 
                         return (
@@ -104,11 +101,6 @@ export const PriceCard = ({
                                         <div
                                             className={`flex gap-1.5 ${hasBadges && description.length > 0 ? "mb-2" : ""}`}
                                         >
-                                            {/* {firstGreen && (
-                                                <p className="bg-green-10 prepc:text-sm font-oswald w-fit px-1 py-0.5 text-xs leading-none font-medium text-green-100 uppercase">
-                                                    {firstGreen}
-                                                </p>
-                                            )} */}
                                             {special && (
                                                 <p className="bg-green-10 prepc:text-sm font-oswald w-fit px-1 py-0.5 text-xs leading-none font-medium text-green-100 uppercase">
                                                     {t("specialPrice")}
@@ -130,6 +122,13 @@ export const PriceCard = ({
                             </div>
                         );
                     })}
+                {data.servicesDescription && (
+                    <div className="prepc:text-lg prepc:leading-[22px] prepc:p-5 border-grey-70 bg-green-10 border-t p-2 leading-5 font-medium">
+                        <PortableTextRenderer
+                            value={data.servicesDescription}
+                        />
+                    </div>
+                )}
             </div>
         </div>
     );
