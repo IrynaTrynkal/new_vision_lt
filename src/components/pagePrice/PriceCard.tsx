@@ -20,7 +20,7 @@ export const PriceCard = ({
     locale: LocaleType;
     someService?: boolean;
     className?: string;
-    ancor: string;
+    ancor?: string;
 }) => {
     const t = useTranslations("PricePage");
     const link = servicesList.find(service => service.key === data.servicesKey)
