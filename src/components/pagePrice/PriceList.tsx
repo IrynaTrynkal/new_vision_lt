@@ -17,11 +17,12 @@ export const PriceList = ({ data }: { data: PricesPageQueryResult }) => {
             </div>
             <div className="prepc:mr-0 prepc:ml-auto prepc:w-[72%] prepc:gap-[60px] tab:max-w-full mx-auto flex max-w-[540px] flex-col gap-6">
                 {data &&
-                    data.map(item => (
+                    data.map((item, ind) => (
                         <PriceCard
-                            key={item.servicesKey}
+                            key={`${item.servicesKey} + ${ind}`}
                             data={item}
                             locale={locale as LocaleType}
+                            ancor={`${item.servicesKey}${ind}`}
                         />
                     ))}
             </div>
