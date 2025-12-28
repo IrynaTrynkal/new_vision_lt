@@ -24,6 +24,7 @@ export async function sanityFetch<const Q extends string>({
     return client.fetch(query, params, {
         cache: isProd ? "force-cache" : "no-store",
         next: {
+            revalidate: 0,
             tags,
         },
     });
