@@ -14,19 +14,21 @@ export const PriceCard = ({
     locale,
     someService,
     className,
+    ancor,
 }: {
     data: NonNullable<PricesPageQueryResult>[number];
     locale: LocaleType;
     someService?: boolean;
     className?: string;
+    ancor: string;
 }) => {
     const t = useTranslations("PricePage");
     const link = servicesList.find(service => service.key === data.servicesKey)
         ?.slug[locale];
     return (
         <div
-            id={data.servicesKey as string}
-            className={`${someService ? "" : "tab:pr-0 pr-4"} ${className}`}
+            id={ancor}
+            className={`${someService ? "" : "tab:pr-0 pr-4"} ${className} prepc:scroll-mt-34 scroll-mt-30`}
         >
             {someService ? null : (
                 <div className="tab:flex tab:justify-between tab:mb-3">

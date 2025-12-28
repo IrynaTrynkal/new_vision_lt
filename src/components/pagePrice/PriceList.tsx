@@ -22,6 +22,7 @@ export const PriceList = ({ data }: { data: PricesPageQueryResult }) => {
                             key={`${item.servicesKey} + ${ind}`}
                             data={item}
                             locale={locale as LocaleType}
+                            ancor={`${item.servicesKey}${ind}`}
                         />
                     ))}
             </div>
