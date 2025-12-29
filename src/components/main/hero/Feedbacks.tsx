@@ -2,17 +2,21 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-import { feedbacksPhotoList } from "@/components/assets/feedbacksData";
 import { Link } from "@/i18n/navigation";
+import { urlFor } from "@/sanity/lib/image";
+
+import { FeedbackPhoto } from "./HeroMain";
 
 export const Feedbacks = ({
     text,
     title,
     className,
+    feedbacksPhotos,
 }: {
     text: string;
     title: string;
     className?: string;
+    feedbacksPhotos: FeedbackPhoto[];
 }) => {
     const containerRef = useRef<HTMLUListElement>(null);
     const [visibleCount, setVisibleCount] = useState(0);
@@ -44,17 +48,17 @@ export const Feedbacks = ({
                 {text}
             </p>
             <ul ref={containerRef} className="mb-1 flex">
-                {feedbacksPhotoList.slice(0, visibleCount).map((photo, ind) => (
+                {feedbacksPhotos.slice(0, visibleCount).map((photo, ind) => (
                     <li
                         key={ind}
-                        className="border-emerald -ml-[18px] h-11 w-11 rounded-full border-2 first:ml-0"
+                        className="border-emerald -ml-[18px] h-11 w-11 overflow-hidden rounded-full border-2 first:ml-0"
                     >
                         <Image
-                            src={photo}
+                            src={urlFor(photo).url()}
                             alt="feedback photo"
                             width={44}
                             height={44}
-                            className="object-cover"
+                            className="h-full w-full rounded-full object-cover"
                         />
                     </li>
                 ))}
