@@ -1,10 +1,17 @@
 import { useTranslations } from "next-intl";
 
+import { FeedbacksQueryResult } from "../../../../sanity.types";
 import { AdressHero } from "./AdressHero";
 import { Feedbacks } from "./Feedbacks";
 import { Rayner } from "./Rayner";
 
-export const HeroMain = () => {
+export type FeedbackPhoto = NonNullable<FeedbacksQueryResult[number]["photo"]>;
+
+export const HeroMain = ({
+    feedbacksPhotos,
+}: {
+    feedbacksPhotos: FeedbackPhoto[];
+}) => {
     const t = useTranslations("HomePage");
     const raynerText = t.rich("raynerText", {
         bold: chunk => <span className="font-bold">{chunk}</span>,
@@ -32,6 +39,7 @@ export const HeroMain = () => {
                     </div>
                     <div className="pc:flex-row-reverse tab:gap-6 flex gap-2">
                         <Feedbacks
+                            feedbacksPhotos={feedbacksPhotos}
                             className="pc:w-1/3 w-1/2"
                             title={t("feedTitle")}
                             text={t("feedText")}
