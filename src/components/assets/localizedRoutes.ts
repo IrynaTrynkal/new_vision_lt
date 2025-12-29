@@ -38,11 +38,6 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/services/children-department",
         ru: "/uslugi/detskoye-otdeleniye",
     },
-    "/posluhy/likuvannya-keratokonusa": {
-        lt: "/posluhy/likuvannya-keratokonusa",
-        en: "/services/keratoconus-treatment",
-        ru: "/uslugi/lecheniye-keratokonusa",
-    },
     "/posluhy/lazerne-likuvannya-zahvoryuvan-oka": {
         lt: "/posluhy/lazerne-likuvannya-zahvoryuvan-oka",
         en: "/services/laser-treatment-of-eye-diseases",
@@ -53,40 +48,10 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/services/refractive-lensectomy",
         ru: "/uslugi/intraokuliarnaya-korrekciya",
     },
-    "/posluhy/vitreoretinalna-hirurgiya": {
-        lt: "/posluhy/vitreoretinalna-hirurgiya",
-        en: "/services/vitreoretinal-surgery",
-        ru: "/uslugi/vitreoretinalnaya-khirurgiya",
-    },
-    "/posluhy/intravitrealni-inekczii": {
-        lt: "/posluhy/intravitrealni-inekczii",
-        en: "/services/intravitreal-injections",
-        ru: "/uslugi/intravitrealnyye-inyektsii",
-    },
     "/posluhy/hirurgichne-likuvannya-glaukomi": {
         lt: "/posluhy/hirurgichne-likuvannya-glaukomi",
         en: "/services/surgical-glaucoma-treatment",
         ru: "/uslugi/khirurgicheskoye-lecheniye-glaukomy",
-    },
-    "/posluhy/likuvannya-kosookosti": {
-        lt: "/posluhy/likuvannya-kosookosti",
-        en: "/services/strabismus-treatment",
-        ru: "/uslugi/lecheniye-kosoglaziya",
-    },
-    "/posluhy/hirurgiya-povik-i-konyunktivi": {
-        lt: "/posluhy/hirurgiya-povik-i-konyunktivi",
-        en: "/services/eyelid-and-conjunctival-surgery",
-        ru: "/uslugi/khirurgiya-vek-i-konyunktivy",
-    },
-    "/posluhy/anesteziologichnij-posibnik": {
-        lt: "/posluhy/anesteziologichnij-posibnik",
-        en: "/services/anesthesia-benefit",
-        ru: "/uslugi/anesteziologicheskoye-posobiye",
-    },
-    "/posluhy/ksenonoterapiya": {
-        lt: "/posluhy/ksenonoterapiya",
-        en: "/services/xenon-therapy",
-        ru: "/uslugi/ksenonoterapiya",
     },
     "/posluhy/lazerna-korekcziya-zoru/sportlife-lasik": {
         lt: "/posluhy/lazerna-korekcziya-zoru/sportlife-lasik",
@@ -115,8 +80,8 @@ export const localizedRoutes: LocalizedRoutes = {
         ru: "/glaznye-bolezni",
     },
     "/tsiny": { lt: "/tsiny", en: "/service-prices", ru: "/ceny" },
-    "/informatsiya-dlya-patsiyentiv": {
-        lt: "/informatsiya-dlya-patsiyentiv",
+    "/informacija-pacientams": {
+        lt: "/informacija-pacientams",
         en: "/patient-information",
         ru: "/informatsiya-dlya-patsiyentov",
     },
@@ -142,10 +107,10 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/ophthalmologists/[slug]",
         ru: "/oftalmologi/[slug]",
     },
-    "/informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam": {
-        lt: "/informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam",
-        en: "/information-for-patients-prior-to-microsurgery",
-        ru: "/informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
+    "/instructions-before-surgery": {
+        lt: "/instructions-before-surgery",
+        en: "/instructions-before-surgery",
+        ru: "/instructions-before-surgery",
     },
     "/information-for-out-of-town-patients": {
         lt: "/information-for-out-of-town-patients",

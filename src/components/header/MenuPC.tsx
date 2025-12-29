@@ -20,21 +20,20 @@ export const MenuPC = ({
     const t = useTranslations("Menu");
     const [openMenus, setOpenMenus] = useState<{ [key: string]: boolean }>({
         paslaugos: false,
-        "informatsiya-dlya-patsiyentiv": false,
+        "informacija-pacientams": false,
     });
 
     const handleOpen = (key: string) => {
         setOpenMenus({
             paslaugos: key === "paslaugos",
-            "informatsiya-dlya-patsiyentiv":
-                key === "informatsiya-dlya-patsiyentiv",
+            "informacija-pacientams": key === "informacija-pacientams",
         });
     };
 
     const closeSubmenus = () => {
         setOpenMenus({
             paslaugos: false,
-            "informatsiya-dlya-patsiyentiv": false,
+            "informacija-pacientams": false,
         });
     };
 
@@ -43,7 +42,7 @@ export const MenuPC = ({
             {menuList.map((item, idx) => {
                 const hasSubmenu =
                     item.key === "paslaugos" ||
-                    item.key === "informatsiya-dlya-patsiyentiv";
+                    item.key === "informacija-pacientams";
                 return (
                     <li
                         key={idx}
@@ -51,7 +50,7 @@ export const MenuPC = ({
                         onMouseLeave={() => hasSubmenu && closeSubmenus()}
                     >
                         <div
-                            className={`prepc:px-1.5 flex items-center justify-center ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
+                            className={`prepc:px-1.5 flex items-center justify-center ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informacija-pacientams" && openMenus["informacija-pacientams"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
                         >
                             <Link
                                 href={`/${item.key}` as any}
@@ -88,10 +87,10 @@ export const MenuPC = ({
                                     </motion.div>
                                 )}
 
-                            {item.key === "informatsiya-dlya-patsiyentiv" &&
-                                openMenus["informatsiya-dlya-patsiyentiv"] && (
+                            {item.key === "informacija-pacientams" &&
+                                openMenus["informacija-pacientams"] && (
                                     <motion.div
-                                        key="informatsiya-dlya-patsiyentiv"
+                                        key="informacija-pacientams"
                                         initial={{ height: 0 }}
                                         animate={{ height: "auto" }}
                                         exit={{ height: 0 }}

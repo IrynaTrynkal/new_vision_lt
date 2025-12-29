@@ -50,7 +50,7 @@ export const routing = defineRouting({
             en: "/price-list",
             ru: "/ceny-na-uslugi",
         },
-        "/informatsiya-dlya-patsiyentiv": {
+        "/informacija-pacientams": {
             en: "/patient-information",
             ru: "/informatsiya-dlya-patsiyentov",
         },
@@ -78,22 +78,13 @@ export const routing = defineRouting({
             en: "/doctors/[slug]",
             ru: "/vrachi/[slug]",
         },
-        "/informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam":
-            {
-                en: "/information-for-patients-prior-to-microsurgery",
-                ru: "/informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
-            },
+        "/instructions-before-surgery": {
+            en: "/instructions-before-surgery",
+            ru: "/instructions-before-surgery",
+        },
         "/instructions-after-laser-vision-correction": {
             en: "/instructions-after-laser-vision-correction",
             ru: "/instructions-after-laser-vision-correction",
-        },
-        "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu": {
-            en: "/patient-reminder-before-vitreoretinal-surgery",
-            ru: "/pamyatki-patsiyentu-pered-vitreoretinalnoy-khirurgiyey",
-        },
-        "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty": {
-            en: "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
-            ru: "/pamyatki-paczienta-posle-hirurgii-katarakty",
         },
         "/akiu-ligos/glaukoma": {
             en: "/eye-diseases/glaucoma",

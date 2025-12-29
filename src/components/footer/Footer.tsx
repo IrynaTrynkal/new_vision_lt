@@ -65,9 +65,6 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                             <p className="mb-1.5 text-sm leading-[15px] font-medium whitespace-pre-line uppercase">
                                 {t("modeDay")}
                             </p>
-                            <p className="prepc:text-base prepc:leading-none text-sm leading-[15px] font-medium uppercase">
-                                {t("modeRest")}
-                            </p>
                         </div>
                     </div>
                     <div className="prepc:block hidden">
@@ -76,9 +73,6 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                         </h3>
                         <p className="prepc:text-base prepc:leading-none prepc:mb-2.5 mb-1.5 text-sm leading-[15px] font-medium whitespace-pre-line uppercase">
                             {t("modeDay")}
-                        </p>
-                        <p className="prepc:text-base prepc:leading-none text-sm leading-[15px] font-medium uppercase">
-                            {t("modeRest")}
                         </p>
                     </div>
                     <UpButton className="prepc:flex prepc:ml-auto prepc:mr-0 mt-auto mb-0 hidden" />

@@ -5,7 +5,7 @@ export const menuList = [
     { key: "akcijos" },
     { key: "gydytojai" },
     { key: "apie-klinika" },
-    { key: "informatsiya-dlya-patsiyentiv" },
+    { key: "informacija-pacientams" },
     { key: "atsiliepimai" },
     { key: "kontaktai" },
 ];
@@ -50,7 +50,6 @@ export const servicesList: ServicesListProps[] = [
             ru: "lazernaya-korrekciya-zreniya",
         },
     },
-
     {
         key: "kataraktos-operacija",
         type: "MedicalProcedure",
@@ -159,7 +158,7 @@ export const footerMainMenu = [
     { key: "akcijos" },
     { key: "gydytojai" },
     { key: "apie-klinika" },
-    { key: "informatsiya-dlya-patsiyentiv" },
+    { key: "informacija-pacientams" },
     { key: "atsiliepimai" },
     { key: "blog" },
     { key: "kontaktai" },
@@ -196,26 +195,6 @@ export const serviceSlugs = {
         en: "refractive-lens-exchange",
         ru: "khirurgiia-prozrachnogo-khrustalika",
     },
-    "likuvannya-kosookosti": {
-        lt: "likuvannya-kosookosti",
-        en: "strabismus-treatment",
-        ru: "lecheniye-kosoglaziya",
-    },
-    "keratokonuso-gydymas": {
-        lt: "keratokonuso-gydymas",
-        en: "keratoconus-treatment",
-        ru: "lecheniye-keratokonusa",
-    },
-    "vitreoretinalna-hirurgiya": {
-        lt: "vitreoretinalna-hirurgiya",
-        en: "vitreoretinal-surgery",
-        ru: "vitreoretinalnaya-khirurgiya",
-    },
-    "intravitrealni-inekczii": {
-        lt: "intravitrealni-inekczii",
-        en: "intravitreal-injections",
-        ru: "intravitrealnyye-inyektsii",
-    },
     "lazerinis-akiu-ligu-gydymas": {
         lt: "lazerinis-akiu-ligu-gydymas",
         en: "laser-treatment-of-eye-diseases",
@@ -225,20 +204,5 @@ export const serviceSlugs = {
         lt: "glaukomos-gydymas",
         en: "glaukomos-gydymas",
         ru: "glaukomos-gydymas",
-    },
-    "hirurgiya-povik-i-konyunktivi": {
-        lt: "hirurgiya-povik-i-konyunktivi",
-        en: "eyelid-and-conjunctival-surgery",
-        ru: "khirurgiya-vek-i-konyunktivy",
-    },
-    "anesteziologichnij-posibnik": {
-        lt: "anesteziologichnij-posibnik",
-        en: "anesthesia-benefit",
-        ru: "anesteziologicheskoye-posobiye",
-    },
-    ksenonoterapiya: {
-        lt: "ksenonoterapiya",
-        en: "xenon-therapy",
-        ru: "ksenonoterapiya",
     },
 } as const;

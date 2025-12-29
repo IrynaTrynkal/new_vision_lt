@@ -55,7 +55,7 @@ export default function PatientsLazerInstructionPage() {
                         <TextTypeRender key={ind} data={item.text} />
                     ))}
                 </div>
-                <BottomLinkButtons text="pamyatka-patsiyenta-pislya-khirurhiyi-katarakty" />
+                <BottomLinkButtons text="instructions-before-surgery" />
             </section>
             <Booking />
         </>

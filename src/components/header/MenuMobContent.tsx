@@ -23,7 +23,7 @@ export const MenuMobContent = ({
 
     const [openMenus, setOpenMenus] = useState<{ [key: string]: boolean }>({
         paslaugos: true,
-        "informatsiya-dlya-patsiyentiv": false,
+        "informacija-pacientams": false,
     });
 
     const toggleSubmenu = (key: string) => {
@@ -35,7 +35,7 @@ export const MenuMobContent = ({
             {menuList.map((item, idx) => {
                 const hasSubmenu =
                     item.key === "paslaugos" ||
-                    item.key === "informatsiya-dlya-patsiyentiv";
+                    item.key === "informacija-pacientams";
 
                 return (
                     <li
@@ -43,7 +43,7 @@ export const MenuMobContent = ({
                         className={` ${item.key === "kainos" ? "relative" : ""}`}
                     >
                         <div
-                            className={`${item.key === "paslaugos" ? "w-full" : "w-[36%]"} font-oswald flex items-center justify-between ${item.key === "paslaugos" ? "h-10 px-2 text-sm" : "text-base"} font-medium uppercase ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informatsiya-dlya-patsiyentiv" && openMenus["informatsiya-dlya-patsiyentiv"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
+                            className={`${item.key === "paslaugos" ? "w-full" : "w-[36%]"} font-oswald flex items-center justify-between ${item.key === "paslaugos" ? "h-10 px-2 text-sm" : "text-base"} font-medium uppercase ${(item.key === "paslaugos" && openMenus.paslaugos) || (item.key === "informacija-pacientams" && openMenus["informacija-pacientams"]) ? "text-ivory bg-black" : "hover:text-ivory text-black hover:bg-black"}`}
                         >
                             <Link
                                 href={`/${item.key}` as any}
@@ -87,8 +87,8 @@ export const MenuMobContent = ({
                                     </motion.div>
                                 )}
 
-                            {item.key === "informatsiya-dlya-patsiyentiv" &&
-                                openMenus["informatsiya-dlya-patsiyentiv"] && (
+                            {item.key === "informacija-pacientams" &&
+                                openMenus["informacija-pacientams"] && (
                                     <motion.div
                                         key="patients"
                                         initial={{ height: 0, opacity: 0 }}

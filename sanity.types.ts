@@ -25,7 +25,6 @@ export type ServicesKey =
     | "akiu-patikrinimas"
     | "kataraktos-operacija"
     | "vaiku-akiu-patikra"
-    | "keratokonuso-gydymas"
     | "glaukomos-gydymas"
     | "skaidraus-lesio-operacija"
     | "pratimai-akims"
