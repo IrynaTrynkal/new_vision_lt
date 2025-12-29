@@ -3929,7 +3929,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
             k => k.key === "reminders-and-instructions-for-patients"
         )!,
         lt: {
-            title: "Пам’ятки та інструкції для пацієнтів",
+            title: "Priminimai ir instrukcijos pacientams",
             content: [],
         },
         en: { title: "Reminders and instructions for patients", content: [] },
