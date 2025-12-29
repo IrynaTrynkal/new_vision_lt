@@ -157,10 +157,10 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/dovanu-kupono",
         ru: "/dovanu-kupono",
     },
-    "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru": {
-        lt: "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
+    "/instructions-after-laser-vision-correction": {
+        lt: "/instructions-after-laser-vision-correction",
         en: "/instructions-after-laser-vision-correction",
-        ru: "/instruktsii-posle-korrektsii-zreniya",
+        ru: "/instructions-after-laser-vision-correction",
     },
     "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu": {
         lt: "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",

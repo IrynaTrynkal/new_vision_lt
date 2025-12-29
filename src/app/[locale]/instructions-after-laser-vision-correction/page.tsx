@@ -21,7 +21,7 @@ export async function generateMetadata({
     return generateInstructionMetadata(
         locale as LocaleType,
         "Instructions",
-        "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
+        "instructions-after-laser-vision-correction"
     );
 }
 
@@ -32,14 +32,13 @@ export default function PatientsLazerInstructionPage() {
             href: "/reminders-and-instructions-for-patients",
         },
         {
-            name: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
-            href: "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
+            name: "instructions-after-laser-vision-correction",
+            href: "/instructions-after-laser-vision-correction",
         },
     ];
     const locale = useLocale();
     const data = pationtsInstructionsData.find(
-        instr =>
-            instr.name.key === "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
+        instr => instr.name.key === "instructions-after-laser-vision-correction"
     );
     if (!data) return notFound();
 

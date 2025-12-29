@@ -6,7 +6,7 @@ export type InstructionsSulgType =
     | "informatsiya-dlya-patsiyentiv-pered-mikrokhirurhichnym-vtruchannyam"
     | "information-for-out-of-town-patients"
     | "dovanu-kupono"
-    | "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
+    | "instructions-after-laser-vision-correction"
     | "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
     | "pamyatka-patsiyenta-pislya-khirurhiyi-katarakty"
     | "reminder-before-a-comprehensive-pediatric-examination"
@@ -141,11 +141,11 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
         },
     },
     {
-        key: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
+        key: "instructions-after-laser-vision-correction",
         slug: {
-            lt: "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru",
+            lt: "instructions-after-laser-vision-correction",
             en: "instructions-after-laser-vision-correction",
-            ru: "instruktsii-posle-korrektsii-zreniya",
+            ru: "instructions-after-laser-vision-correction",
         },
     },
     {
@@ -1172,17 +1172,17 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
     },
     {
         name: keySlugPatientsInstruction.find(
-            k => k.key === "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
+            k => k.key === "instructions-after-laser-vision-correction"
         )!,
         lt: {
-            title: "Інструкції після лазерної корекції зору",
+            title: "Instrukcijos po regos lazerinės korekcijos",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Догляд за пацієнтом в «Британський офтальмологічний центр» не припиняється після його відновлення. Ми безплатно надаємо все необхідне післяопераційне обслуговування та відновне лікування протягом необхідного періоду, навіть після виписки. Це не стосується фізіологічних змін (погіршення стану) очей або інших ускладнень й захворювань, не пов’язаних з лазерною корекцією зору.",
+                            text: "Paciento priežiūra klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) nesibaigia Jums pasijutus geriau. Mes užtikriname pooperacinę priežiūrą, kontrolinius vizitus ir atkuriamąjį gydymą tiek laiko, kiek to reikia pagal gydytojo rekomendacijas, taip pat ir po išrašymo. Tai netaikoma fiziologiniams akių pokyčiams (būklės pablogėjimui) ar kitoms komplikacijoms bei ligoms, nesusijusioms su regos lazerine korekcija.",
                         },
                         {
                             type: "text",
@@ -1190,7 +1190,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Інструкція з проведення операції",
+                                    value: "Operacijos atlikimo instrukcija",
                                 },
                             ],
                             gap: true,
@@ -1201,7 +1201,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Для підготовки до операції:",
+                                    value: "Pasiruošimas operacijai:",
                                 },
                             ],
                         },
@@ -1209,11 +1209,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "добре ознайомтеся зі своєю заявою про згоду на проведення лазерної корекції зору;",
-                                "їжте і пийте як завжди (алкоголь не можна вживати за добу перед операцією);",
-                                "одягніть неволокнистий одяг з довгими рукавами, що не облягає та в якому ви почуваєтеся комфортно;",
-                                "не використовуйте макіяж, парфуми та лосьйон після гоління;",
-                                "візьміть із собою протисонцеві окуляри.",
+                                "atidžiai susipažinkite su sutikimo forma dėl regos lazerinės korekcijos;",
+                                "valgykite ir gerkite kaip įprastai (alkoholio nevartokite 24 val. iki operacijos);",
+                                "vilkėkite laisvus, nepūkuojančius, ilgomis rankovėmis drabužius, kuriuose Jums bus patogu;",
+                                "nenaudokite makiažo, kvepalų ir losjono po skutimosi;",
+                                "pasiimkite akinius nuo saulės.",
                             ],
                         },
                         {
@@ -1221,7 +1221,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Після проведення операції ви отримаєте:",
+                                    value: "Po operacijos Jums bus įteikta:",
                                 },
                             ],
                             gap: true,
@@ -1230,10 +1230,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "рецепт на ліки;",
-                                "інструкції для медичного застосування лікарських засобів;",
-                                "екстрений контактний номер телефону (для наступної після операції ночі);",
-                                "запрошення на післяопераційну консультацію.",
+                                "vaistų receptas;",
+                                "vaistinių preparatų vartojimo instrukcijos;",
+                                "skubios pagalbos kontaktinis telefono numeris (pirmajai nakčiai po operacijos);",
+                                "kvietimas pooperacinei konsultacijai.",
                             ],
                         },
                         {
@@ -1242,39 +1242,39 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     subtitle: true,
                                     bold: true,
-                                    value: "Повернення додому",
+                                    value: "Grįžimas namo",
                                 },
                             ],
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "Не залишайте клініку без супроводу, тому що вам може знадобитися допомога при поверненні додому. Буде добре, якщо в день операції вас супроводжуватиме друг чи родич. Якщо це неможливо, рекомендуємо заздалегідь домовитися про транспорт додому. Після операцій з лазерної корекції зору чи лікування катаракти користуватися повітряним транспортом не забороняється. Однак ми не рекомендуємо здійснювати польоти відразу після операції. Ваш зір може залишатися трохи розпливчастим з підвищеною чутливістю до світла. Також рекомендується порадитися з лікарем на післяопераційних консультаціях щодо планування будь-яких самостійних поїздок протягом першого місяця після операції.",
+                            text: "Neišeikite iš klinikos be palydos, nes grįžtant namo gali prireikti pagalbos. Geriausia, jei operacijos dieną Jus palydės artimas žmogus. Jei tai neįmanoma, rekomenduojame iš anksto pasirūpinti transportu. Skrydžiai po regos lazerinės korekcijos ar kataraktos operacijos nėra draudžiami, tačiau nerekomenduojame skristi iškart po operacijos. Regėjimas gali būti kiek neryškus, o jautrumas šviesai – padidėjęs. Taip pat patariame pooperacinių konsultacijų metu su gydytoju aptarti bet kokias keliones, planuojamas per pirmąjį mėnesį po operacijos.",
                         },
                         {
                             type: "text",
-                            text: "Поради на післяопераційний період",
+                            text: "Rekomendacijos pooperaciniu laikotarpiu",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "У перший день (наступний після операції):",
+                            text: "Pirmąją dieną (kitą dieną po operacijos):",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "намагайтеся перебувати в розслабленому стані;",
-                                "якомога менше рухайте очима;",
-                                "намагайтеся не заплющувати очі;",
-                                "НЕ ТРІТЬ очі;",
-                                "уникайте діяльності, що потребує візуальної концентрації (перегляд телевізора, використання комп’ютера).",
+                                "stenkitės išlikti ramūs;",
+                                "kiek įmanoma mažiau judinkite akis;",
+                                "stenkitės nesumerkti akių;",
+                                "NETRINKITE akių;",
+                                "venkite veiklų, reikalaujančių regos koncentracijos (televizoriaus žiūrėjimo, darbo kompiuteriu).",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Якщо у вас є маленькі діти, рекомендуємо заздалегідь організувати допомогу з боку родичів або друзів на перші два дні, особливо після операцій з лазерної корекції. Зведіть до мінімуму вживання алкоголю протягом перших 2–3 днів, оскільки він може вступити у взаємодію з лікарськими засобами та спричинити сухість очей. Якомога більше відпочивайте й уникайте непотрібної напруги очей.",
+                            text: "Jei turite mažų vaikų, rekomenduojame iš anksto suorganizuoti artimųjų ar draugų pagalbą pirmosioms dviem dienoms, ypač po regos lazerinės korekcijos. Pirmąsias 2–3 dienas kuo labiau ribokite alkoholio vartojimą, nes jis gali sąveikauti su vaistais ir didinti akių sausumą. Daugiau ilsėkitės ir venkite papildomos akių įtampos.",
                         },
                         {
                             type: "text",
@@ -1282,7 +1282,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Лікарські засоби",
+                                    value: "Vaistiniai preparatai",
                                 },
                             ],
                             gap: true,
@@ -1290,7 +1290,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Ви отримаєте рецепт на ліки з післяопераційного догляду. Їхня вартість не входить у вартість лікування. Використовуйте призначені лікарські засоби відповідно до інструкцій хірурга та зберігайте всі ліки у прохолодному, сухому місці.",
+                            text: "Jums bus išrašytas receptas pooperacinei priežiūrai skirtiems vaistams. Jų kaina nėra įtraukta į gydymo kainą. Naudokite preparatus griežtai pagal chirurgo nurodymus ir laikykite vėsioje, sausoje vietoje.",
                         },
                         {
                             type: "text",
@@ -1298,7 +1298,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Як правильно застосовувати очні краплі:",
+                                    value: "Kaip teisingai lašinti akių lašus:",
                                 },
                             ],
                         },
@@ -1306,16 +1306,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Завжди мийте руки перед застосуванням очних крапель;",
-                                "Закиньте голову назад і дивіться в стелю;",
-                                "Капніть ліки точно на очне яблуко. НЕ РОЗТЯГУЙТЕ ПОВІКУ;",
-                                "Постарайтеся не торкатися ока та повіки піпеткою флакона.",
+                                "prieš naudodami akių lašus visada nusiplaukite rankas;",
+                                "atloškite galvą atgal ir žiūrėkite į lubas;",
+                                "įlašinkite vaistą tiesiai ant akies obuolio. NETRAUKITE VOKO;",
+                                "stenkitės neliesti akies ar voko buteliuko antgaliu.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Пам’ятайте, що ваш зір може бути розпливчатим одразу після застосування очних крапель та мазей. Дотримуйтесь інструкцій лікарського засобу щодо того, які очні краплі повинні застосовуватися в першу чергу і з яким інтервалом. Якщо ви пропустили прийняття ліків, не приймайте дві або три дози за раз. Можливо, вам буде комфортніше, якщо хтось допомагатиме вам із застосуванням очних крапель, поки ваші очі не відновляться.",
+                            text: "Atminkite, kad iškart po lašų ar tepalų panaudojimo regėjimas gali laikinai tapti neryškus. Laikykitės preparatų instrukcijų, kuriuos lašus naudoti pirmiausia ir kokiais intervalais. Jei praleidote vaisto vartojimą, nenaudokite dviejų ar trijų dozių iš karto. Gali būti patogiau, jei pirmomis dienomis kas nors padės Jums įsilašinti lašus, kol akys atsistatys.",
                         },
                         {
                             type: "text",
@@ -1323,7 +1323,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Додаткові запобіжні заходи:",
+                                    value: "Papildomos atsargumo priemonės:",
                                 },
                             ],
                             gap: true,
@@ -1331,11 +1331,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "list",
                             list: [
-                                "не давайте іншим людям використовувати ваші краплі для очей;",
-                                "не торкайтеся шийкою флакона до ока чи іншої поверхні;",
-                                "відразу після застосування накривайте флакон з очними краплями або маззю кришкою;",
-                                "тримайте герметично закритий флакон у вертикальному положенні;",
-                                "викиньте всі краплі та мазі після закінчення курсу лікування.",
+                                "neleiskite kitiems žmonėms naudoti Jūsų akių lašų;",
+                                "nelieskite buteliuko kakleliu akies ar kito paviršiaus;",
+                                "iškart po naudojimo užsukite buteliuką ar tūbelę dangteliu;",
+                                "laikykite sandariai uždarytą buteliuką vertikalioje padėtyje;",
+                                "pasibaigus gydymo kursui, išmeskite visus lašus ir tepalus.",
                             ],
                         },
                         {
@@ -1343,7 +1343,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "НЕ ПЕРЕВИЩУЙТЕ РЕКОМЕНДОВАНУ ДОЗУ.",
+                                    value: "NEVIRŠYKITE REKOMENDUOJAMOS DOZĖS.",
                                 },
                             ],
                             gap: true,
@@ -1355,44 +1355,46 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Догляд за очима",
+                                    value: "Akių priežiūra",
                                 },
                             ],
                         },
                         {
                             type: "text",
-                            text: "Після проведення операції у вас можуть з’явитися такі симптоми:",
+                            text: "Po operacijos gali pasireikšti šie simptomai:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "сльозливість очей;",
-                                "світлочутливість (одягайте протисонцеві окуляри при виході на вулицю);",
-                                "відчуття смітинки в оці;",
-                                "запалення очей, важкість при їх відкритті;",
-                                "розширені зіниці;",
-                                "набряклі та/або відвислі повіки;",
-                                "мушки та плями перед очима.",
+                                "ašarojimas;",
+                                "šviesos baimė (eidami į lauką dėvėkite akinius nuo saulės);",
+                                "svetimkūnio pojūtis akyje;",
+                                "akių sudirginimas, sunkumas atmerkiant;",
+                                "išsiplėtę vyzdžiai;",
+                                "patinę ir / arba nusileidę vokai;",
+                                "„muselės“ ir dėmės regėjimo lauke.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Немає причин хвилюватися, оскільки це нормальні тимчасові наслідки операції.",
+                            text: "Paprastai tai yra laikini, normalūs pooperaciniai reiškiniai.",
                         },
                         {
                             type: "text",
-                            text: [{ bold: true, value: "Практичні поради:" }],
+                            text: [
+                                { bold: true, value: "Praktiniai patarimai:" },
+                            ],
                             gap: true,
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Якщо ви відчуваєте необхідність очистити область очей, використовуйте марлю, змочену в охолодженій кип’яченій воді, та намагайтеся не торкатися очей.",
-                                "Не користуйтеся комерційними рідинами для миття очей. Якщо у вас з’явилося відчуття смітинки в оці, сухості або здавленості в оці(-аx), скористайтеся краплями «штучна сльоза» без консервантів. Їх можна придбати в будь-якій аптеці без рецепта.",
-                                "Якщо ваші повіки набряклі, з’явився свербіж і почервоніння очей (навіть через кілька днів після операції), це може бути реакція на лікарські засоби. Зверніться до клініки за порадою щодо альтернативного засобу лікування.",
+                                "Jei jaučiate poreikį nuvalyti akių sritį, naudokite marlę, sudrėkintą atvėsintu virintu vandeniu, ir stenkitės neliesti akies paviršiaus.",
+                                "Nenaudokite komercinių akių plovimo skysčių. Jei atsiranda svetimkūnio pojūtis, sausumas ar spaudimas akyje(-se), naudokite konservantų neturinčius „dirbtinių ašarų“ lašus. Juos galima įsigyti bet kurioje vaistinėje be recepto.",
+                                "Jei vokai patino, atsirado niežėjimas ir akių paraudimas (net praėjus kelioms dienoms po operacijos), tai gali būti reakcija į vaistus. Kreipkitės į kliniką dėl alternatyvaus gydymo rekomendacijų.",
                             ],
                         },
                         {
@@ -1400,7 +1402,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "Відчуття дискомфорту в очах",
+                                    value: "Diskomforto pojūtis akyse",
                                 },
                             ],
                             gap: true,
@@ -1408,14 +1410,14 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Завдяки місцевому застосуванню крапель-анестетиків вся операція проходить безболісно. Відчуття дискомфорту через годину після операції – нормальне явище, оскільки анестезія перестає діяти. Дискомфорт може бути схожим на відчуття смітинки в оці й триватиме 24–38 годин. Лазерна корекція зору зазвичай практично безболісна, але після операції може з’явитися досить сильне відчуття дискомфорту, з яким допоможуть впоратися лікарські засоби та бандажні контактні лінзи.",
+                            text: "Dėl vietinių anestetikų (nuskausminančių lašų) operacija atliekama be skausmo. Diskomfortas praėjus maždaug valandai po operacijos yra normalus reiškinys, nes nuskausminimo poveikis silpnėja. Diskomfortas gali priminti svetimkūnio pojūtį ir tęstis 24–38 valandas. Regos lazerinė korekcija dažniausiai būna beveik neskausminga, tačiau po operacijos gali pasireikšti gana ryškus diskomfortas – jį sumažinti padeda vaistai ir bandomieji (tvarstomieji) kontaktiniai lęšiai.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     bold: true,
-                                    value: "Небезпека при сильному болю",
+                                    value: "Pavojus esant stipriam skausmui",
                                 },
                             ],
                             gap: true,
@@ -1423,12 +1425,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Якщо після 24 годин відчувається сильний біль, зверніться в очну клініку (з вівторка по суботу) для запису на післяопераційний прийом. Якщо клініка не працює або вам потрібна консультація у неділю, зателефонуйте за номером. Один з наших працівників зв’яжеться з вашим хірургом і домовиться з ним про те, щоб він передзвонив вам.",
+                            text: "Jei po 24 valandų išlieka stiprus skausmas, kreipkitės į akių kliniką, kad užsiregistruotumėte pooperacinei apžiūrai. Jei klinika nedirba arba konsultacijos reikia savaitgalį, skambinkite nurodytu numeriu. Vienas iš mūsų darbuotojų susisieks su Jūsų chirurgu ir suderins, kad jis Jums perskambintų.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Малоймовірно, що лікарі швидкої допомоги знайомі з ускладненнями після лазерних операцій. У разі ускладнення (що малоймовірно) якнайшвидше звертайтеся до клініки.",
+                            text: "Mažai tikėtina, kad greitosios medicinos pagalbos gydytojai yra susipažinę su komplikacijomis po lazerinių operacijų. Atsiradus komplikacijoms (nors tai mažai tikėtina), kuo greičiau kreipkitės į kliniką.",
                         },
                         {
                             type: "text",
@@ -1436,7 +1438,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Післяопераційне обслуговування",
+                                    value: "Pooperacinė priežiūra",
                                 },
                             ],
                             gap: true,
@@ -1444,55 +1446,55 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Обов’язково приходьте на призначені вам консультації відповідно до рекомендації лікаря. Один або два прийоми після операції є обов’язковими. Все післяопераційне обслуговування в «Британський офтальмологічний центр» включено у вартість операції й проводиться абсолютно безплатно.",
+                            text: "Būtinai atvykite į paskirtas kontrolines konsultacijas pagal gydytojo rekomendacijas. Vienas arba du vizitai po operacijos yra privalomi. Pooperacinė priežiūra klinikoje „Naujas regėjimas“ atliekama pagal nustatytą stebėjimo planą.",
                         },
                         {
                             type: "table",
                             gap: true,
                             headers: [
-                                "Лікування",
-                                "Перший візит",
-                                "Другий візит",
-                                "Третій візит",
+                                "Gydymas",
+                                "Pirmas vizitas",
+                                "Antras vizitas",
+                                "Trečias vizitas",
                             ],
                             rows: [
                                 [
                                     "LASIK",
-                                    "3-4 дні*",
-                                    "7-14 днів та виписка, якщо все гаразд",
-                                    "1 місяць",
+                                    "3-4 dienos*",
+                                    "7–14 dienų ir išrašymas, jei viskas gerai",
+                                    "1 mėnuo",
                                 ],
                                 [
                                     "LASEK",
-                                    "3-4 дні*",
-                                    "1 місяць та виписка, якщо все гаразд",
+                                    "3-4 dienos*",
+                                    "1 mėnuo ir išrašymas, jei viskas gerai",
                                     "",
                                 ],
                                 [
                                     "Катаракта",
-                                    "1 день",
-                                    "1 тиждень та виписка, якщо все гаразд",
-                                    "нема потреби",
+                                    "1 diena",
+                                    "1 savaitė ir išrašymas, jei viskas gerai",
+                                    "nereikia",
                                 ],
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "* Якщо необхідно зняти бандажні лінзи, то візит до нашого центру є обов’язковим через 3–4 дні або на 7–14 день.",
+                            text: "* Jei reikia nuimti tvarstomuosius lęšius, vizitas į mūsų centrą yra būtinas po 3–4 dienų arba 7–14-ą dieną.",
                         },
                         {
                             type: "text",
-                            text: "Скасувати прийом дозволяється за 3 дні, якщо пізніше — стягується плата у розмірі 50% вартості послуги. Якщо ви спізнюєтеся на прийом на двадцять і більше хвилин, вам доведеться записатися на інший час.",
+                            text: "Vizitą galima atšaukti likus 3 dienoms; jei vėliau – gali būti taikomas 50 % paslaugos kainos mokestis. Jei į vizitą vėluojate 20 ar daugiau minučių, reikės registruotis kitam laikui.",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "У деяких випадках хірург може призначити додаткові очні краплі. За виписаним рецептом призначений лікарський засіб можна придбати в аптеці.",
+                            text: "Kai kuriais atvejais chirurgas gali paskirti papildomų akių lašų. Paskirtus vaistus galima įsigyti vaistinėje pagal receptą.",
                         },
                         {
                             type: "text",
-                            text: "Якщо вам зручніше, ми можемо направити вас на післяопераційний огляд до одного з центрів оптичної корекції у вашому місті, послуги якого ви сплачуєте самі. Такий варіант може бути економнішим, ніж поїздка до клініки. Результати огляду буде надіслано до клініки та внесено у вашу медичну карту. У цьому випадку просіть копію післяопераційного огляду на руки.",
+                            text: "Jei Jums patogiau, galime nukreipti Jus pooperacinei apžiūrai į vieną iš optinės korekcijos centrų Jūsų mieste, kurių paslaugas apmokate savarankiškai. Tai gali būti ekonomiškiau nei kelionė į kliniką. Apžiūros rezultatai bus išsiųsti į kliniką ir įtraukti į Jūsų medicininę dokumentaciją. Tokiu atveju paprašykite pooperacinės apžiūros ataskaitos kopijos.",
                             gap: true,
                         },
                         {
@@ -1501,34 +1503,34 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Повернення до повсякденного життя",
+                                    value: "Grįžimas į kasdienį gyvenimą",
                                 },
                             ],
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "Корисні рекомендації",
+                            text: "Naudingos rekomendacijos",
                         },
                         {
                             type: "list",
                             list: [
-                                "Якщо ви працюєте в умовах пилу (наприклад, на будівельних майданчиках), захищайте очі за допомогою захисних окулярів типу «маска» принаймні протягом одного місяця.",
-                                "Працюючи з дисплеями, регулярно кожні 45 хвилин робіть 15-хвилинні перерви, щоб уникнути втоми очей у перші 2–3 тижні.",
-                                "Рекомендується надягати протисонцеві окуляри при виході надвір протягом перших кількох тижнів — це захистить очі від пилу та зменшить тимчасову чутливість до світла.",
-                                "Пацієнтам після операції з видалення катаракти слід уникати підйому тяжкості протягом перших 4-х тижнів.",
-                                "Під час післяопераційних консультацій лікар визначить, чи відповідає ваш зір необхідним стандартам.",
+                                "Jei dirbate dulkėtomis sąlygomis (pvz., statybvietėse), akis saugokite apsauginiais akiniais „kaukės“ tipo mažiausiai vieną mėnesį.",
+                                "Dirbant su ekranais kas 45 minutes darykite 15 minučių pertraukas, kad pirmąsias 2–3 savaites sumažintumėte akių nuovargį.",
+                                "Pirmąsias kelias savaites rekomenduojama lauke dėvėti akinius nuo saulės – tai apsaugos akis nuo dulkių ir sumažins laikiną šviesos jautrumą.",
+                                "Po kataraktos operacijos rekomenduojama vengti sunkių daiktų kėlimo pirmąsias 4 savaites.",
+                                "Pooperacinių konsultacijų metu gydytojas įvertins, ar Jūsų regėjimas atitinka reikiamus standartus.",
                             ],
                             gap: true,
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "НЕ СІДАЙТЕ ЗА КЕРМО, ДОКИ ЛІКАР НЕ ПІДТВЕРДИТЬ, ЩО ЦЕ БЕЗПЕЧНО.",
+                            text: "NEVAIRUOKITE, KOL GYDYTOJAS NEPATVIRTINS, KAD TAI SAUGU.",
                         },
                         {
                             type: "text",
-                            text: "За стандартами водіння ви маєте бути здатними читати номерний знак автомобіля на відстані 20,5 м. Якщо вам було прооперовано одне око, проявляйте особливу уважність під час водіння, адже ваш бінокулярний (стереоскопічний) зір тимчасово порушено й визначення відстаней може бути ускладнено.",
+                            text: "Pagal vairavimo standartus turite gebėti perskaityti automobilio numerio ženklą iš 20,5 metro atstumo. Jei operacija atlikta tik vienai akiai, vairuodami būkite itin atsargūs, nes Jūsų binokulinis (stereoskopinis) regėjimas laikinai gali būti sutrikęs, o atstumo suvokimas – pasunkėjęs.",
                             gap: true,
                         },
                         {
@@ -1538,56 +1540,68 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Спорт",
+                                    value: "Sportas",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Уникайте інтенсивних фізичних навантажень, поки ваші очі повністю не відновляться (зазвичай це займає близько місяця). Наведена нижче таблиця дає рекомендації щодо термінів відновлення для основних видів діяльності. Лікар може дати інші поради залежно від ваших індивідуальних обставин. Якщо ви професійно займаєтеся будь-яким із зазначених видів спорту або маєте питання щодо інших, обов’язково проконсультуйтеся зі своїм лікарем.",
+                            text: "Venkite intensyvaus fizinio krūvio, kol akys visiškai atsistatys (paprastai apie vieną mėnesį). Žemiau pateiktoje lentelėje nurodomi orientaciniai grįžimo prie pagrindinių veiklų terminai. Gydytojas gali pateikti kitokias rekomendacijas, atsižvelgdamas į individualią situaciją. Jei profesionaliai užsiimate kuriuo nors iš išvardytų sportų arba turite klausimų dėl kitų, būtinai pasitarkite su gydytoju.",
                         },
                         {
                             type: "table",
                             gap: true,
                             headers: [
-                                "Вид діяльності",
+                                "Veiklos rūšis",
                                 "iQ LASIK Oxygen",
                                 "SportLine LASEK",
                             ],
                             rows: [
-                                ["Оздоровчий біг", "2 тижні", "2 тижні"],
-                                ["Вправи з аеробіки", "1 тиждень", "1 тиждень"],
-                                ["Йога / пілатес", "1 тиждень", "1 тиждень"],
-                                ["Підняття ваги", "2 тижні", "2 тижні"],
-                                ["Сауна та парна", "1 місяць", "1 місяць"],
-                                ["Плавання", "1 місяць", "1 місяць"],
                                 [
-                                    "Футбол та безконтактні бойові мистецтва",
-                                    "1 місяць",
-                                    "1 місяць",
+                                    "Sveikatinamasis bėgimas",
+                                    "2 savaitės",
+                                    "2 savaitės",
+                                ],
+                                ["Aerobika", "1 savaitė", "1 savaitė"],
+                                ["Joga / pilatesas", "1 savaitė", "1 savaitė"],
+                                [
+                                    "Svarmenų kilnojimas",
+                                    "2 savaitės",
+                                    "2 savaitės",
                                 ],
                                 [
-                                    "Лижний спорт / сноубординг, теніс, сквош, крикет",
-                                    "1 місяць",
-                                    "1 місяць",
+                                    "Sauna ir garinė pirtis",
+                                    "1 mėnuo",
+                                    "1 mėnuo",
+                                ],
+                                ["Plaukimas", "1 mėnuo", "1 mėnuo"],
+                                [
+                                    "Futbolas ir nekontaktiniai kovos menai",
+                                    "1 mėnuo",
+                                    "1 mėnuo",
                                 ],
                                 [
-                                    "Регбі, контактні бойові мистецтва",
-                                    "3 місяці",
-                                    "6 тижнів",
+                                    "Slidinėjimas / snieglentė, tenisas, skvošas, kriketas",
+                                    "1 mėnuo",
+                                    "1 mėnuo",
                                 ],
                                 [
-                                    "Підводне плавання з аквалангом (30 футів і глибше)",
-                                    "3 місяці",
-                                    "3 місяці",
+                                    "Regbis, kontaktiniai kovos menai",
+                                    "3 mėnesiai",
+                                    "6 savaitės",
+                                ],
+                                [
+                                    "Nardymas (giliau nei 30 pėdų, apie 9 m)",
+                                    "3 mėnesiai",
+                                    "3 mėnesiai",
                                 ],
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Під час спортивних занять протягом як мінімум двох тижнів захищайте свої очі від попадання поту, надягаючи головну пов’язку.",
+                            text: "Sportuodami mažiausiai dvi savaites saugokite akis nuo prakaito – dėvėkite galvos juostą.",
                         },
                         {
                             type: "text",
@@ -1595,7 +1609,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Загальні рекомендації",
+                                    value: "Bendros rekomendacijos",
                                 },
                             ],
                             gap: true,
@@ -1605,7 +1619,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Прийняття душу та ванни",
+                                    value: "Dušas ir vonia",
                                 },
                             ],
                             gap: true,
@@ -1614,10 +1628,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Протягом перших семи днів після операції уникайте потрапляння води у вічі.",
-                                "Під час прийняття душу стійте спиною до душу на один крок далі, ніж зазвичай, щоб уникнути попадання води в очі.",
-                                "Під час миття голови закидайте її назад, щоб уникати потрапляння шампуню в очі.",
-                                "Якщо у вічі випадково потрапить шампунь, мило чи інший продукт — НЕ ТРІТЬ ОЧІ! Можна скористатися відсвіжувальними краплями, щоб вимити продукт з очей та послабити печіння.",
+                                "Pirmąsias 7 dienas po operacijos venkite, kad vanduo patektų į akis.",
+                                "Duše stovėkite šiek tiek toliau nei įprastai, kad vanduo nepatektų į akis.",
+                                "Plaudami galvą atloškite ją atgal, kad šampūnas nepatektų į akis.",
+                                "Jei šampūnas, muilas ar kita priemonė pateko į akis – NETRINKITE! Naudokite drėkinamuosius lašus, kad nuplautumėte ir sumažintumėte deginimą.",
                             ],
                         },
                         {
@@ -1625,7 +1639,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Макіяж",
+                                    value: "Makiažas",
                                 },
                             ],
                             gap: true,
@@ -1634,10 +1648,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Протягом перших двох тижнів після операції макіяж наносити не можна.",
-                                "Косметичними продуктами для обличчя (крем, тональний засіб, рум’яна тощо) можна користуватися пізніше, але не наносити їх надто близько до очей.",
-                                "Щонайменше місяць після операції не використовуйте водостійку туш, оскільки вона складніше знімається.",
-                                "Протягом місяця з дня проведення операції уникайте попадання будь-якого засобу макіяжу або продуктів для зняття макіяжу в очі. Якщо це сталося, вимийте продукт з очей за допомогою відсвіжувальних крапель і в жодному разі не тріть очі.",
+                                "Pirmąsias dvi savaites po operacijos makiažo naudoti negalima.",
+                                "Veido kosmetiką (kremą, makiažo pagrindą, skaistalus ir pan.) galima naudoti vėliau, tačiau netepkite per arti akių.",
+                                "Vandeniui atsparios tušo nenaudokite mažiausiai mėnesį – jį sunkiau pašalinti.",
+                                "Mėnesį po operacijos venkite, kad makiažo ar demakiažo priemonės patektų į akis. Jei taip nutiko, praplaukite akis lašais ir JOKIU BŪDU NETRINKITE.",
                             ],
                         },
                         {
@@ -1645,7 +1659,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Відпустка",
+                                    value: "Atostogos",
                                 },
                             ],
                             gap: true,
@@ -1654,9 +1668,9 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Не рекомендується виїжджати за кордон протягом тижня з дня проведення операції, адже ви маєте бути поблизу, щоб прийти на перші два післяопераційні огляди.",
-                                "Подорожуючи країною зі спекотним кліматом, носіть якісні протисонцеві окуляри з повним захистом від ультрафіолетових променів спектру А та В. Протягом одного місяця після операції не рекомендується засмагати.",
-                                "Під час занять зимовими видами спорту носіть якісні протисонцеві окуляри або окуляри типу «маска» з повним захистом від ультрафіолетових променів спектру А та В.",
+                                "Nerekomenduojama vykti į užsienį per pirmąją savaitę po operacijos, kad galėtumėte atvykti į pirmuosius du pooperacinius patikrinimus.",
+                                "Keliaudami į karštas šalis, dėvėkite kokybiškus akinius nuo saulės su pilna UVA ir UVB apsauga. Mėnesį po operacijos venkite deginimosi.",
+                                "Žiemos sporto metu dėvėkite kokybiškus akinius arba kaukę su pilna UVA ir UVB apsauga.",
                             ],
                         },
                         {
@@ -1664,7 +1678,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Читання",
+                                    value: "Skaitymas",
                                 },
                             ],
                             gap: true,
@@ -1673,8 +1687,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Залежно від рівня корекції, читання тексту дрібним шрифтом може бути ускладнено. Це нормально і триватиме лише декілька тижнів.",
-                                "Пацієнтам старше 45 років можуть знадобитися пресбіопічні окуляри. Це природний віковий процес для очей і може стати в пригоді тільки для видів діяльності, що вимагають гарного зору поблизу (таких як читання, шиття, в’язання тощо).",
+                                "Priklausomai nuo korekcijos apimties, smulkaus šrifto skaitymas kelias savaites gali būti sudėtingesnis – tai normalu.",
+                                "Vyresniems nei 45 metų pacientams gali prireikti akinių darbui iš arti. Tai natūralus su amžiumi susijęs procesas ir gali būti naudingas veikloms, reikalaujančioms gero regėjimo iš arti (skaitymui, siuvimui, mezgimui ir pan.).",
                             ],
                         },
                         {
@@ -1682,7 +1696,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Солярії",
+                                    value: "Soliariumas",
                                 },
                             ],
                             gap: true,
@@ -1691,7 +1705,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Протягом місяця після лазерної корекції та трьох місяців після процедур лікування катаракти не користуйтеся послугами соляріїв.",
+                                "Venkite soliariumo vieną mėnesį po lazerinės korekcijos ir tris mėnesius po kataraktos gydymo.",
                             ],
                         },
                         {
@@ -1699,7 +1713,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Куріння",
+                                    value: "Rūkymas",
                                 },
                             ],
                             gap: true,
@@ -1708,7 +1722,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Якщо це можливо, протягом одного тижня уникайте куріння або перебування в задимлених місцях.",
+                                "Jei įmanoma, venkite rūkymo ir buvimo dūmingose patalpose vieną savaitę.",
                             ],
                         },
                         {
@@ -1717,7 +1731,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     subtitle: true,
                                     bold: true,
-                                    value: "Додаткові рекомендації",
+                                    value: "Papildomos rekomendacijos",
                                 },
                             ],
                             gap: true,
@@ -1735,24 +1749,24 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Бандажні контактні лінзи",
+                            text: "Tvarstomieji kontaktiniai lęšiai",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Бандажні контактні лінзи переважно використовуються після операції LASEK з метою захисту епітелію (зовнішньої покривної тканини) та зменшення відчуття дискомфорту. Щоб їх зняти, через 3-4 дні вам знадобиться повернутися до клініки. Іноді пацієнти не переносять бандажні лінзи, в такому випадку їх доведеться зняти раніше. Під час використання та зняття бандажних лінз може з’явитися певний дискомфорт чи біль, який зазвичай зникає протягом 6-24 годин. Більше відпочивайте і приймайте знеболювальні засоби, але НІ В ЯКОМУ РАЗІ НЕ ПЕРЕВИЩУЙТЕ РЕКОМЕНДОВАНУ ДОЗУ І НІКОЛИ НЕ ЗНІМАЙТЕ КОНТАКТНІ ЛІНЗИ САМОСТІЙНО.",
+                            text: "Tvarstomieji lęšiai dažniausiai naudojami po LASEK operacijos, siekiant apsaugoti epitelį (išorinį sluoksnį) ir sumažinti diskomfortą. Po 3–4 dienų būtina grįžti į kliniką, kad jie būtų nuimti. Kartais pacientai lęšių netoleruoja – tuomet jie nuimami anksčiau. Nešiojant ar nuimant gali pasireikšti diskomfortas ar skausmas; paprastai tai praeina per 6–24 valandas. Ilsėkitės ir, jei reikia, vartokite skausmą malšinančius vaistus, tačiau NIEKADA NEVIRŠYKITE DOZĖS IR NENUIMKITE LĘŠIŲ PATYS.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "У разі випадіння бандажної лінзи може з’явитися певний дискомфорт. В такому випадку не намагайтеся вставити її назад в око. Продовжуйте використовувати лікарські краплі відповідно до рекомендацій та прийдіть на призначені вам післяопераційні консультації.",
+                            text: "Jei lęšis iškrito, gali atsirasti diskomfortas. Nebandykite jo įsidėti atgal. Toliau naudokite lašus pagal paskyrimą ir atvykite į kontrolinius vizitus.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Ефект відновлення (помутніння)",
+                                    value: "Atsistatymo efektas (drumstumas)",
                                 },
                             ],
                             gap: true,
@@ -1760,30 +1774,30 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Протягом 3-4 тижнів після операції LASEK пацієнти можуть мати легке помутніння рогівки ока. Для прооперованої області це нормальна реакція відновлення.",
+                            text: "Per 3–4 savaites po LASEK operacijos gali būti stebimas lengvas ragenos drumstumas. Tai normalus atsistatymo procesas.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Помутніння рогівки ока найчастіше слабо виражене, і більшість пацієнтів його не помічають. У поодиноких випадках воно проходить через 6-12 місяців. Ризик помутніння зростає у разі збільшення доз ліків, і ваш лікар дасть рекомендацію, якщо така ймовірність існує. У разі важкої форми помутніння зір може порушитись, в такому разі вам знадобиться обговорити курс лікування з вашим лікарем. У деяких випадках лікар призначає стероїдні краплі, які можна придбати в будь-якій аптеці, або інші методи лікування.",
+                            text: "Dažniausiai drumstumas būna silpnas ir beveik nepastebimas, tačiau retais atvejais gali išlikti 6–12 mėnesių. Rizika didėja vartojant kai kuriuos vaistus – gydytojas įspės, jei tai aktualu Jūsų atvejui. Esant ryškioms formoms regėjimas gali prastėti, tuomet reikalingas gydymas. Gali būti paskirti steroidiniai lašai ar kiti gydymo metodai.",
                         },
                         {
                             type: "text",
-                            text: "Наші спеціалісти зроблять все можливе для вашого зору.І тисячі наших пацієнтів, які повернули собі добрий зір, яскраве тому підтвердження.",
+                            text: "Mūsų specialistai padarys viską, kad Jūsų regėjimas atsistatytų kuo geriau. Tūkstančiai pacientų, susigrąžinusių gerą regėjimą, – geriausias to įrodymas.",
                         },
                     ],
                 },
             ],
         },
         en: {
-            title: "Instructions after laser vision correction",
+            title: "Post-Laser Vision Correction Instructions",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Patient care at «British Ophthalmology Center» does not end after recovery. We provide all necessary postoperative care and rehabilitation treatment free of charge for the required period, even after discharge. This does not apply to physiological changes (deterioration) of the eyes or other complications and diseases not related to laser vision correction.",
+                            text: "Patient care at “Naujas regėjimas” Clinic (Vilnius, Lithuania) does not end once you begin to feel better. We provide postoperative follow-up and recovery support for the required period in accordance with your doctor’s recommendations, including visits after discharge. This does not apply to physiological changes (deterioration of the condition) of the eyes or to complications and diseases not related to the performed laser vision correction.",
                         },
                         {
                             type: "text",
@@ -1791,7 +1805,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Surgery instructions",
+                                    value: "Surgical Procedure Instructions",
                                 },
                             ],
                             gap: true,
@@ -1802,7 +1816,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "To prepare for the surgery:",
+                                    value: "Preparing for surgery:",
                                 },
                             ],
                         },
@@ -1810,11 +1824,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Familiarize yourself with your consent form for laser vision correction;",
-                                "Eat and drink as usual (do not consume alcohol 24 hours before surgery);",
-                                "Wear non-fibrous, loose-fitting long-sleeve clothing in which you feel comfortable;",
-                                "Do not use makeup, perfume, or aftershave lotion;",
-                                "Bring sunglasses with you.",
+                                "carefully read your informed consent form for laser vision correction;",
+                                "eat and drink as usual (do not consume alcohol for 24 hours prior to surgery);",
+                                "wear loose, lint-free clothing with long sleeves that is comfortable for you;",
+                                "do not use makeup, perfume, or aftershave lotion;",
+                                "bring sunglasses with you.",
                             ],
                         },
                         {
@@ -1822,7 +1836,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "After the surgery, you will receive:",
+                                    value: "After surgery you will receive:",
                                 },
                             ],
                             gap: true,
@@ -1832,7 +1846,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "a prescription for medication;",
-                                "instructions for the medical use of the prescribed drugs;",
+                                "instructions for the medical use of the prescribed products;",
                                 "an emergency contact phone number (for the night after surgery);",
                                 "an invitation for a postoperative consultation.",
                             ],
@@ -1850,32 +1864,32 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Do not leave the clinic unaccompanied, as you may need assistance getting home. Ideally, a friend or family member should accompany you on the day of surgery. If this is not possible, we recommend arranging transportation home in advance. Air travel after laser vision correction or cataract treatment is not prohibited, but we do not recommend flying immediately after the procedure. Your vision may remain slightly blurry, and light sensitivity may increase. It is also advisable to consult your doctor during postoperative visits regarding any independent travel plans within the first month after surgery.",
+                            text: "Do not leave the clinic without an escort, as you may need assistance on your way home. Ideally, a friend or relative should accompany you on the day of surgery. If this is not possible, we recommend arranging transportation in advance. Air travel after laser vision correction or cataract surgery is not prohibited; however, we do not recommend flying immediately after the procedure. Your vision may remain slightly blurred and light sensitivity may be increased. We also advise discussing any trips planned within the first month after surgery during your postoperative consultations",
                         },
                         {
                             type: "text",
-                            text: "Postoperative care advice",
+                            text: "Recommendations for the postoperative period",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "On the first day (following the surgery):",
+                            text: "On the first day (the day after surgery):",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Try to stay relaxed;",
-                                "Move your eyes as little as possible;",
-                                "Try not to squeeze your eyes shut;",
-                                "Do NOT rub your eyes;",
-                                "Avoid activities that require visual focus (watching TV, using a computer).",
+                                "remain calm and avoid stress;",
+                                "if possible, limit eye movements;",
+                                "try not to squeeze your eyes shut;",
+                                "DO NOT RUB your eyes;",
+                                "avoid activities that require sustained visual focus (watching TV, working at a computer).",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "If you have small children, we recommend arranging help from family or friends for the first two days, especially after laser correction surgery. Minimize alcohol consumption during the first 2–3 days, as it may interact with medications and cause dry eyes. Get as much rest as possible and avoid unnecessary eye strain.",
+                            text: "If you have small children, we recommend arranging help from family or friends for the first two days, especially after laser vision correction. Minimize alcohol intake during the first 2–3 days, as it may interact with medications and increase eye dryness. Rest more and avoid unnecessary eye strain.",
                         },
                         {
                             type: "text",
@@ -1891,7 +1905,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "You will receive a prescription for postoperative medication. Their cost is not included in the treatment price. Use all prescribed medicines according to your surgeon’s instructions and store them in a cool, dry place.",
+                            text: "You will receive a prescription for postoperative care medications. Their cost is not included in the treatment price. Use the medicines strictly as prescribed by the surgeon and store them in a cool, dry place.",
                         },
                         {
                             type: "text",
@@ -1899,7 +1913,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "How to properly use eye drops:",
+                                    value: "How to instill eye drops correctly:",
                                 },
                             ],
                         },
@@ -1907,16 +1921,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Always wash your hands before applying eye drops;",
-                                "Tilt your head back and look up at the ceiling;",
-                                "Apply the drop directly to the eyeball. Do NOT pull on your eyelid;",
-                                "Try not to touch your eye or eyelid with the bottle tip.",
+                                "always wash your hands before using eye drops;",
+                                "tilt your head back and look at the ceiling;",
+                                "instill the medication directly onto the eyeball. DO NOT PULL DOWN THE EYELID;",
+                                "avoid touching the eye or eyelid with the bottle tip.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Remember that your vision may be blurry immediately after using eye drops and ointments. Follow the instructions for the medication regarding which eye drops should be applied first and at what intervals. If you miss a dose, do not take two or three doses at once. It may be more comfortable for you if someone helps you apply the eye drops until your eyes recover.",
+                            text: "Please remember that your vision may become blurred immediately after applying drops or ointments. Follow the instructions regarding which drops to use first and the required intervals. If you miss a dose, do not use two or three doses at once. During the recovery phase, it may be more convenient if someone helps you instill drops until your eyes have healed.",
                         },
                         {
                             type: "text",
@@ -1932,11 +1946,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "list",
                             list: [
-                                "do not let other people use your eye drops;",
-                                "do not touch the tip of the bottle to your eye or any other surface;",
-                                "immediately after applying, close the bottle of eye drops or ointment with its cap;",
-                                "keep the tightly closed bottle in an upright position;",
-                                "discard all drops and ointments after completing the treatment course.",
+                                "do not allow other people to use your eye drops;",
+                                "do not touch the bottle neck to the eye or any surface;",
+                                "close the bottle or tube immediately after use;",
+                                "keep the bottle tightly closed and in an upright position;",
+                                "discard all drops and ointments after completing the course of treatment.",
                             ],
                         },
                         {
@@ -1962,38 +1976,38 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "After the surgery, you may experience the following symptoms:",
+                            text: "After surgery you may experience:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "watery eyes;",
-                                "light sensitivity (wear sunglasses when going outside);",
-                                "a sensation of a foreign body in the eye;",
-                                "eye inflammation, heaviness when opening them;",
+                                "tearing;",
+                                "light sensitivity (wear sunglasses outdoors);",
+                                "a foreign body sensation / “gritty” feeling;",
+                                "eye irritation and heaviness when opening the eyes;",
                                 "dilated pupils;",
                                 "swollen and/or drooping eyelids;",
-                                "floaters and spots before the eyes.",
+                                "“floaters” and spots in your field of vision.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "There is no reason to worry, as these are normal temporary consequences of the surgery.",
+                            text: "In most cases, these are normal temporary effects of the procedure.",
                         },
                         {
                             type: "text",
-                            text: [{ bold: true, value: "Practical advice:" }],
+                            text: [{ bold: true, value: "Practical tips:" }],
                             gap: true,
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "If you feel the need to clean the eye area, use gauze soaked in cooled boiled water and try not to touch your eyes.",
-                                "Do not use commercial eye-washing liquids. If you feel a foreign body, dryness, or pressure in your eye(s), use preservative-free ‘artificial tear’ drops. They can be purchased at any pharmacy without a prescription.",
-                                "If your eyelids are swollen, itchy, and red (even several days after surgery), this may be a reaction to medication. Contact the clinic for advice on an alternative treatment.",
+                                "If you need to clean the area around the eyes, use gauze moistened with cooled boiled water and try not to touch the eye surface.",
+                                "Do not use commercial eye-wash solutions. If you feel a foreign body sensation, dryness, or pressure in one or both eyes, use preservative-free artificial tears. They are available at any pharmacy without a prescription.",
+                                "If your eyelids swell and you develop itching or redness (even several days after surgery), this may be a reaction to medications. Please contact the clinic for advice on alternative management.",
                             ],
                         },
                         {
@@ -2004,32 +2018,14 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Due to the local use of anesthetic drops, the entire operation is painless. Discomfort an hour after the surgery is normal, as the anesthesia wears off. The discomfort may feel like a foreign body in the eye and will last 24–38 hours. Laser vision correction is usually almost painless, but after the operation you may experience considerable discomfort, which can be relieved with medications and bandage contact lenses.",
-                        },
-                        {
-                            type: "text",
-                            text: [
-                                { bold: true, value: "Severe pain warning" },
-                            ],
-                            gap: true,
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "If you experience severe pain after 24 hours, contact the eye clinic (Tuesday to Saturday) to schedule a postoperative appointment. If the clinic is closed or you need consultation on Sunday, call the provided number. One of our staff members will contact your surgeon and arrange for them to call you back.",
-                        },
-                        {
-                            type: "text",
-                            gap: true,
-                            text: "It is unlikely that emergency doctors are familiar with complications after laser surgeries. In the unlikely event of a complication, contact the clinic as soon as possible.",
+                            text: "Thanks to local anesthetic drops, the procedure is painless. Discomfort about an hour after surgery is normal as the anesthesia wears off. The sensation may resemble a foreign body feeling and can last 24–38 hours. Laser vision correction is generally well tolerated; however, some patients may experience significant discomfort after surgery, which can be relieved with prescribed medications and bandage contact lenses.",
                         },
                         {
                             type: "text",
                             text: [
                                 {
                                     bold: true,
-                                    subtitle: true,
-                                    value: "Postoperative care",
+                                    value: "Danger in case of severe pain",
                                 },
                             ],
                             gap: true,
@@ -2037,7 +2033,28 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Be sure to attend your scheduled follow-up appointments as recommended by your doctor. One or two postoperative visits are mandatory. All postoperative care at the “British Ophthalmology Center” is included in the cost of the surgery and is provided completely free of charge.",
+                            text: "If severe pain persists after 24 hours, contact “Naujas regėjimas” Clinic (Vilnius, Lithuania) during working hours to schedule a postoperative appointment. If the clinic is closed or you need advice on a weekend, call the number provided—our staff will contact your surgeon and arrange a call back.",
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "It is unlikely that emergency physicians are familiar with the specifics of complications after laser procedures. If signs of complications occur (which is rare), contact the clinic as soon as possible.",
+                        },
+                        {
+                            type: "text",
+                            text: [
+                                {
+                                    bold: true,
+                                    subtitle: true,
+                                    value: "Postoperative follow-up",
+                                },
+                            ],
+                            gap: true,
+                        },
+                        {
+                            type: "text",
+                            gap: true,
+                            text: "Please attend all scheduled follow-up visits as recommended by your doctor. One or two visits after surgery are mandatory. Postoperative follow-up at “Naujas regėjimas” Clinic is provided in accordance with the established monitoring plan.",
                         },
                         {
                             type: "table",
@@ -2052,40 +2069,40 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 [
                                     "LASIK",
                                     "3–4 days*",
-                                    "7–14 days and discharge if everything is fine",
+                                    "7–14 days and discharge if all is well",
                                     "1 month",
                                 ],
                                 [
                                     "LASEK",
                                     "3–4 days*",
-                                    "1 month and discharge if everything is fine",
+                                    "1 month and discharge if all is fine",
                                     "",
                                 ],
                                 [
                                     "Cataract",
                                     "1 day",
-                                    "1 week and discharge if everything is fine",
-                                    "no need",
+                                    "1 week and discharge if all is fine",
+                                    "no required",
                                 ],
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "* If it is necessary to remove the bandage lenses, a visit to our center is required after 3–4 days or on day 7–14.",
+                            text: "* If bandage lenses need to be removed, a visit to our center is required after 3–4 days or on days 7–14.",
                         },
                         {
                             type: "text",
-                            text: "You may cancel your appointment up to 3 days in advance; if later, a 50% service fee will be charged. If you are 20 minutes or more late, you will need to schedule a new appointment.",
+                            text: "You can cancel an appointment at least 3 days in advance; cancellations made later may be charged at 50% of the service price. If you are 20 minutes or more late, you will need to reschedule for another time.",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "In some cases, the surgeon may prescribe additional eye drops. The prescribed medication can be purchased at a pharmacy with a prescription.",
+                            text: "In some cases, the surgeon may prescribe additional eye drops. Prescribed medicines can be purchased at a pharmacy with a prescription.",
                         },
                         {
                             type: "text",
-                            text: "If it is more convenient for you, we can refer you for a postoperative examination to one of the optical correction centers in your city, which you will pay for yourself. This option may be more economical than traveling to the clinic. The examination results will be sent to the clinic and added to your medical record. In this case, please request a copy of the postoperative report.",
+                            text: "If it is more convenient, we can refer you for a postoperative check-up to an optical correction center in your city; the cost of those services is paid by you directly. This may be more economical than traveling to the clinic. The examination results will be sent to the clinic and added to your medical record. In this case, please request a copy of the postoperative report.",
                             gap: true,
                         },
                         {
@@ -2094,34 +2111,34 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "Returning to daily life",
+                                    value: "Returning to everyday life",
                                 },
                             ],
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "Useful recommendations",
+                            text: "Helpful recommendations",
                         },
                         {
                             type: "list",
                             list: [
-                                "If you work in dusty environments (for example, on construction sites), protect your eyes with safety goggles of the “mask” type for at least one month.",
-                                "When working with screens, take a 15-minute break every 45 minutes to avoid eye fatigue during the first 2–3 weeks.",
-                                "It is recommended to wear sunglasses outdoors during the first few weeks — this will protect your eyes from dust and reduce temporary light sensitivity.",
-                                "Patients after cataract removal surgery should avoid heavy lifting for the first 4 weeks.",
-                                "During postoperative consultations, your doctor will determine whether your vision meets the necessary standards.",
+                                "If you work in dusty environments (e.g., construction sites), protect your eyes with “mask-style” safety goggles for at least one month.",
+                                "When working with screens, take a 15-minute break every 45 minutes to reduce eye fatigue during the first 2–3 weeks.",
+                                "For the first few weeks, wearing sunglasses outdoors is recommended—this protects your eyes from dust and reduces temporary light sensitivity.",
+                                "Patients after cataract surgery should avoid heavy lifting during the first 4 weeks.",
+                                "During postoperative consultations, the doctor will determine whether your vision meets the required standards.",
                             ],
                             gap: true,
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "DO NOT DRIVE UNTIL YOUR DOCTOR CONFIRMS THAT IT IS SAFE.",
+                            text: "DO NOT DRIVE UNTIL YOUR DOCTOR CONFIRMS IT IS SAFE.",
                         },
                         {
                             type: "text",
-                            text: "According to driving standards, you must be able to read a car’s license plate from a distance of 20.5 meters. If only one eye was operated on, be especially cautious when driving, as your binocular (stereoscopic) vision is temporarily affected and distance perception may be impaired.",
+                            text: "According to driving standards, you must be able to read a vehicle license plate from a distance of 20.5 meters. If surgery was performed on only one eye, exercise extra caution when driving, as binocular (stereoscopic) vision may be temporarily affected and distance perception can be more difficult.",
                             gap: true,
                         },
                         {
@@ -2138,7 +2155,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Avoid intense physical activity until your eyes have fully recovered (this usually takes about a month). The table below provides recommendations on recovery times for major activities. Your doctor may offer different advice depending on your individual circumstances. If you are a professional athlete or have questions about other types of sports, be sure to consult your doctor.",
+                            text: "Avoid intense physical activity until your eyes have fully recovered (typically about one month). The table below provides general guidance on return-to-activity timelines. Your doctor may advise differently depending on your individual circumstances. If you participate in sports professionally or have questions about other activities, please consult your doctor.",
                         },
                         {
                             type: "table",
@@ -2149,11 +2166,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 "SportLine LASEK",
                             ],
                             rows: [
-                                ["Jogging", "2 weeks", "2 weeks"],
+                                ["Recreational running", "2 weeks", "2 weeks"],
                                 ["Aerobics", "1 week", "1 week"],
                                 ["Yoga / Pilates", "1 week", "1 week"],
                                 ["Weight lifting", "2 weeks", "2 weeks"],
-                                ["Sauna and steam bath", "1 month", "1 month"],
+                                ["Sauna and steam room", "1 month", "1 month"],
                                 ["Swimming", "1 month", "1 month"],
                                 [
                                     "Football and non-contact martial arts",
@@ -2171,7 +2188,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                     "6 weeks",
                                 ],
                                 [
-                                    "Scuba diving (30 feet and deeper)",
+                                    "Diving (deeper than 30 feet / about 9 m)",
                                     "3 months",
                                     "3 months",
                                 ],
@@ -2198,7 +2215,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Showering and bathing",
+                                    value: "Shower and bath",
                                 },
                             ],
                             gap: true,
@@ -2208,38 +2225,40 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "Avoid getting water in your eyes during the first seven days after surgery.",
-                                "When showering, stand one step further back from the shower than usual to prevent water from entering your eyes.",
-                                "When washing your hair, tilt your head back to avoid shampoo getting into your eyes.",
-                                "If shampoo, soap, or any other product accidentally gets into your eyes — DO NOT RUB THEM! Use refreshing drops to rinse the product out and relieve the burning sensation.",
+                                "When showering, stand a step farther back than usual so water does not get into your eyes.",
+                                "When washing your hair, tilt your head back so shampoo does not run into your eyes.",
+                                "If shampoo, soap, or any product gets into your eyes—DO NOT RUB THEM. Use lubricating drops to rinse and relieve burning.",
                             ],
                         },
                         {
                             type: "text",
-                            text: [{ subtitle: true, value: "Make-up" }],
+                            text: [{ subtitle: true, value: "Makeup" }],
                             gap: true,
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Do not apply make-up during the first two weeks after surgery.",
-                                "Facial cosmetics (cream, foundation, blush, etc.) can be used later, but avoid applying them too close to your eyes.",
-                                "Avoid using waterproof mascara for at least one month, as it is harder to remove.",
-                                "Avoid getting any make-up or make-up remover products into your eyes for one month after surgery. If this happens, rinse them out with refreshing drops and DO NOT RUB YOUR EYES.",
+                                "Do not wear eye makeup for the first two weeks after surgery.",
+                                "Facial cosmetics (cream, foundation, blush, etc.) can be used later, but do not apply them too close to the eyes.",
+                                "Do not use waterproof mascara for at least one month, as it is harder to remove.",
+                                "For one month after surgery, avoid getting makeup or makeup-remover products into your eyes. If this happens, rinse your eyes with drops and DO NOT RUB THEM.",
                             ],
                         },
                         {
                             type: "text",
-                            text: [{ subtitle: true, value: "Vacation" }],
+                            text: [
+                                { subtitle: true, value: "Vacation / travel" },
+                            ],
                             gap: true,
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "It is not recommended to travel abroad within a week after surgery, as you should be nearby for your first two postoperative check-ups.",
-                                "When traveling to hot climates, wear high-quality sunglasses with full UVA and UVB protection. Avoid sunbathing for one month after surgery.",
-                                "When engaging in winter sports, wear high-quality sunglasses or ski goggles with full UVA and UVB protection.",
+                                "Traveling abroad is not recommended during the first week after surgery so you can attend the first two postoperative check-ups.",
+                                "When traveling to hot countries, wear high-quality sunglasses with full UVA and UVB protection. Avoid sunbathing for one month after surgery.",
+                                "During winter sports, wear quality sunglasses or a mask with full UVA and UVB protection.",
                             ],
                         },
                         {
@@ -2251,13 +2270,13 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Depending on the correction level, reading small print may be difficult for a few weeks — this is normal.",
-                                "Patients over 45 may need presbyopic glasses. This is a natural age-related process and may be useful for activities that require clear near vision (reading, sewing, knitting, etc.).",
+                                "Depending on the extent of correction, reading small print may be difficult for several weeks—this is normal.",
+                                "Patients over 45 may need reading glasses. This is a natural age-related process and can be helpful for near-vision tasks (reading, sewing, knitting, etc.).",
                             ],
                         },
                         {
                             type: "text",
-                            text: [{ subtitle: true, value: "Tanning beds" }],
+                            text: [{ subtitle: true, value: "Tanning bed" }],
                             gap: true,
                         },
                         {
@@ -2276,7 +2295,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "If possible, avoid smoking or staying in smoky environments for one week.",
+                                "If possible, avoid smoking and staying in smoky environments for one week.",
                             ],
                         },
                         {
@@ -2305,12 +2324,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Bandage contact lenses are mainly used after LASEK surgery to protect the epithelium (the outer tissue layer) and reduce discomfort. You’ll need to return to the clinic in 3–4 days to remove them. Some patients cannot tolerate these lenses — in such cases, they are removed earlier. Some discomfort or pain may occur during use or removal, usually resolving within 6–24 hours. Rest more and take painkillers, but NEVER EXCEED THE RECOMMENDED DOSE AND NEVER REMOVE CONTACT LENSES YOURSELF.",
+                            text: "Bandage lenses are most commonly used after LASEK to protect the epithelium (outer layer) and reduce discomfort. You must return to the clinic after 3–4 days for removal. Some patients do not tolerate lenses—then they are removed earlier. Discomfort and/or pain may occur while wearing or removing the lens; it usually resolves within 6–24 hours. Rest and take pain relief if needed, but NEVER EXCEED THE DOSE AND NEVER REMOVE THE LENSES YOURSELF.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "If a bandage lens falls out, you may feel some discomfort. Do not try to reinsert it. Continue using your prescribed eye drops and attend your scheduled follow-up consultations.",
+                            text: "If a lens falls out and discomfort occurs, do not try to put it back in. Continue using the prescribed drops and attend your follow-up visits.",
                         },
                         {
                             type: "text",
@@ -2325,16 +2344,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "For 3–4 weeks after LASEK surgery, patients may experience slight corneal haze. This is a normal part of the healing process.",
+                            text: "Mild corneal haze may occur within 3–4 weeks after LASEK. This is a normal part of the healing process.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Corneal haze is usually mild and unnoticeable, but in rare cases may last up to 6–12 months. The risk increases with certain medications — your doctor will advise you if that applies. In severe cases, vision may be affected, requiring further treatment. Steroid drops or other therapies may be prescribed.",
+                            text: "Haze is usually minimal and unnoticeable, but in rare cases it may persist for 6–12 months. The risk may increase with certain medications—your doctor will advise if this applies to you. In severe cases, vision may worsen and treatment may be required. Steroid drops or other therapies can be prescribed.",
                         },
                         {
                             type: "text",
-                            text: "Our specialists will do everything possible to ensure the best results for your vision. Thousands of our patients who have regained clear sight are living proof of this.",
+                            text: "Our specialists will do everything possible to protect and improve your vision. Thousands of patients who have regained comfortable vision are the best confirmation of modern technology and proper postoperative support.",
                         },
                     ],
                 },
@@ -2348,7 +2367,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Уход за пациентом в «Британском офтальмологическом центре» не прекращается после его восстановления. Мы бесплатно предоставляем всё необходимое послеоперационное обслуживание и восстановительное лечение в течение требуемого периода, даже после выписки. Это не относится к физиологическим изменениям (ухудшению состояния) глаз или другим осложнениям и заболеваниям, не связанным с лазерной коррекцией зрения.",
+                            text: "Уход за пациентом в клинике «Новое зрение» (Вильнюс, Литва) не заканчивается после того, как вы почувствовали улучшение. Мы обеспечиваем послеоперационное наблюдение и восстановительное сопровождение в течение необходимого периода согласно рекомендациям врача, включая визиты после выписки. Это не распространяется на физиологические изменения (ухудшение состояния) глаз или на осложнения и заболевания, не связанные с проведённой лазерной коррекцией зрения.",
                         },
                         {
                             type: "text",
@@ -2377,7 +2396,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             list: [
                                 "внимательно ознакомьтесь с вашей формой согласия на проведение лазерной коррекции зрения;",
                                 "ешьте и пейте как обычно (алкоголь нельзя употреблять за сутки до операции);",
-                                "наденьте неворсистую свободную одежду с длинными рукавами, в которой вам будет удобно;",
+                                "наденьте свободную, неворсистую одежду с длинными рукавами, в которой вам будет комфортно;",
                                 "не используйте макияж, парфюм и лосьон после бритья;",
                                 "возьмите с собой солнцезащитные очки.",
                             ],
@@ -2415,7 +2434,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Не покидайте клинику без сопровождения, так как вам может понадобиться помощь при возвращении домой. Лучше, если в день операции вас сопроводит друг или родственник. Если это невозможно, рекомендуем заранее договориться о транспорте. После операций по лазерной коррекции зрения или лечению катаракты перелёты не запрещены, однако мы не рекомендуем летать сразу после операции. Зрение может оставаться немного размытым, а чувствительность к свету — повышенной. Также желательно обсудить с врачом на послеоперационных консультациях любые поездки, запланированные в течение первого месяца после операции.",
+                            text: "Не покидайте клинику без сопровождения, поскольку при возвращении домой вам может потребоваться помощь. Оптимально, если в день операции вас проводит друг или родственник. Если такой возможности нет, рекомендуем заранее организовать транспорт. После лазерной коррекции зрения или лечения катаракты перелёты не запрещены, однако мы не советуем планировать полёт сразу после вмешательства. В этот период зрение может оставаться слегка размытым, а чувствительность к свету — повышенной. Также желательно обсудить с врачом на послеоперационных консультациях любые поездки, запланированные в течение первого месяца после операции.",
                         },
                         {
                             type: "text",
@@ -2430,8 +2449,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "старайтесь оставаться в спокойном состоянии;",
-                                "по возможности не двигайте глазами;",
+                                "старайтесь сохранять спокойствие;",
+                                "по возможности меньше двигайте глазами;",
                                 "постарайтесь не зажмуривать глаза;",
                                 "НЕ ТРИТЕ глаза;",
                                 "избегайте занятий, требующих зрительной концентрации (просмотр телевизора, работа за компьютером).",
@@ -2440,7 +2459,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Если у вас есть маленькие дети, рекомендуем заранее организовать помощь родственников или друзей на первые два дня, особенно после лазерной коррекции. Минимизируйте употребление алкоголя в течение первых 2–3 дней, так как он может взаимодействовать с лекарствами и вызывать сухость глаз. Больше отдыхайте и избегайте лишнего напряжения глаз.",
+                            text: "Если у вас есть маленькие дети, рекомендуем заранее организовать помощь родственников или друзей на первые два дня, особенно после лазерной коррекции. Сведите к минимуму употребление алкоголя в течение первых 2–3 дней, так как он может взаимодействовать с лекарствами и усиливать сухость глаз. Больше отдыхайте и не перегружайте глаза.",
                         },
                         {
                             type: "text",
@@ -2456,7 +2475,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Вы получите рецепт на лекарства для послеоперационного ухода. Их стоимость не входит в стоимость лечения. Используйте препараты строго в соответствии с инструкциями хирурга и храните их в прохладном, сухом месте.",
+                            text: "Вы получите рецепт на препараты для послеоперационного ухода. Их стоимость не входит в стоимость лечения. Применяйте лекарства строго по схеме, назначенной хирургом, и храните их в прохладном сухом месте.",
                         },
                         {
                             type: "text",
@@ -2472,7 +2491,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Всегда мойте руки перед использованием глазных капель;",
+                                "всегда мойте руки перед использованием глазных капель;",
                                 "Запрокиньте голову назад и смотрите в потолок;",
                                 "Капните лекарство прямо на глазное яблоко. НЕ ОТТЯГИВАЙТЕ ВЕКО;",
                                 "Старайтесь не касаться глаза и века кончиком флакона.",
@@ -2481,7 +2500,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Помните, что ваше зрение может быть размытым сразу после применения глазных капель и мазей. Соблюдайте инструкции к препарату о том, какие капли следует применять первыми и с каким интервалом. Если вы пропустили прием лекарства, не применяйте две или три дозы сразу. Возможно, вам будет удобнее, если кто-то поможет вам закапывать капли, пока ваши глаза не восстановятся.",
+                            text: "Помните: сразу после применения капель и мазей зрение может временно становиться размытым. Соблюдайте инструкцию, в каком порядке использовать препараты и какой интервал выдерживать. Если вы пропустили приём, не закапывайте две или три дозы подряд. На этапе восстановления может быть удобнее, если кто-то поможет вам с закапыванием.",
                         },
                         {
                             type: "text",
@@ -2497,11 +2516,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "list",
                             list: [
-                                "не позволяйте другим людям использовать ваши глазные капли;",
-                                "не прикасайтесь горлышком флакона к глазу или другой поверхности;",
+                                "не допускайте, чтобы другие люди пользовались вашими глазными каплями;",
+                                "не прикасайтесь горлышком флакона к глазу или любой поверхности;",
                                 "сразу после применения закрывайте флакон с каплями или мазью крышкой;",
                                 "держите плотно закрытый флакон в вертикальном положении;",
-                                "выбросьте все капли и мази после окончания курса лечения.",
+                                "выбросьте все капли и мази после завершения курса лечения.",
                             ],
                         },
                         {
@@ -2527,15 +2546,15 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "После операции у вас могут появиться следующие симптомы:",
+                            text: "После операции могут наблюдаться:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
                                 "слезотечение;",
-                                "светочувствительность (носите солнцезащитные очки при выходе на улицу);",
-                                "ощущение инородного тела в глазу;",
+                                "светочувствительность (при выходе на улицу носите солнцезащитные очки);",
+                                "ощущение «песка» / инородного тела;",
                                 "воспаление глаз, тяжесть при открывании;",
                                 "расширенные зрачки;",
                                 "отёчные и/или опущенные веки;",
@@ -2545,7 +2564,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Нет причин для беспокойства, так как это нормальные временные последствия операции.",
+                            text: "Как правило, это нормальные временные последствия вмешательства.",
                         },
                         {
                             type: "text",
@@ -2558,9 +2577,9 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Если вы чувствуете необходимость очистить область глаз, используйте марлю, смоченную в охлаждённой кипячёной воде, и постарайтесь не касаться глаз.",
-                                "Не используйте коммерческие жидкости для промывания глаз. Если у вас появилось ощущение инородного тела, сухости или давления в глазу(-ах), используйте капли «искусственная слеза» без консервантов. Их можно купить в любой аптеке без рецепта.",
-                                "Если ваши веки опухли, появился зуд и покраснение глаз (даже через несколько дней после операции), это может быть реакцией на лекарственные средства. Обратитесь в клинику за советом по альтернативному лечению.",
+                                "Если нужно очистить область вокруг глаз, используйте марлю, смоченную в охлаждённой кипячёной воде, и старайтесь не касаться поверхности глаза.",
+                                "Не применяйте коммерческие растворы для промывания глаз. При ощущении инородного тела, сухости или давления в глазу(-ах) используйте «искусственную слезу» без консервантов — такие капли доступны в аптеке без рецепта.",
+                                "Если веки отекли, появился зуд и покраснение глаз (в том числе через несколько дней после операции), это может быть реакцией на лекарственные средства. Обратитесь в клинику за рекомендациями по альтернативной схеме.",
                             ],
                         },
                         {
@@ -2576,7 +2595,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Благодаря местному применению капель-анестетиков операция проходит безболезненно. Дискомфорт через час после операции — нормальное явление, так как действие анестезии заканчивается. Дискомфорт может напоминать ощущение инородного тела и длиться 24–38 часов. Лазерная коррекция зрения обычно практически безболезненна, но после операции может возникнуть довольно сильное ощущение дискомфорта, с которым помогут справиться лекарственные препараты и бандажные контактные линзы.",
+                            text: "Благодаря местным анестезирующим каплям операция проходит без боли. Дискомфорт через час после вмешательства — обычная ситуация, поскольку действие анестезии заканчивается. Ощущения могут напоминать «песок» или инородное тело и сохраняться 24–38 часов. Лазерная коррекция зрения обычно переносится легко, однако после операции возможно выраженное чувство дискомфорта — с ним помогают справиться назначенные препараты и бандажные контактные линзы.",
                         },
                         {
                             type: "text",
@@ -2591,12 +2610,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Если после 24 часов сохраняется сильная боль, обратитесь в глазную клинику (со вторника по субботу), чтобы записаться на послеоперационный приём. Если клиника закрыта или вам нужна консультация в воскресенье, позвоните по указанному номеру. Один из наших сотрудников свяжется с вашим хирургом и договорится, чтобы он вам перезвонил.",
+                            text: "Если сильная боль сохраняется спустя 24 часа, обратитесь в клинику «Новое зрение» (Вильнюс, Литва) в рабочие часы, чтобы записаться на послеоперационный приём. Если клиника закрыта или вам нужна консультация в выходной день, позвоните по указанному номеру — сотрудник свяжется с вашим хирургом и организует обратный звонок.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Маловероятно, что врачи скорой помощи знакомы с осложнениями после лазерных операций. В случае осложнений (что маловероятно) как можно скорее обращайтесь в клинику.",
+                            text: "Маловероятно, что врачи скорой помощи знакомы со спецификой осложнений после лазерных процедур. При появлении признаков осложнений (что встречается редко) как можно быстрее обращайтесь в клинику.",
                         },
                         {
                             type: "text",
@@ -2612,7 +2631,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Обязательно приходите на назначенные консультации в соответствии с рекомендациями врача. Один или два приёма после операции обязательны. Всё послеоперационное обслуживание в «Британском офтальмологическом центре» включено в стоимость операции и проводится абсолютно бесплатно.",
+                            text: "Обязательно приходите на назначенные контрольные визиты в соответствии с рекомендациями врача. Один или два визита после операции являются обязательными. Послеоперационное сопровождение в клинике «Новое зрение» проводится в рамках установленного плана наблюдения.",
                         },
                         {
                             type: "table",
@@ -2651,16 +2670,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Отменить приём можно за 3 дня; если позже — взимается плата в размере 50% стоимости услуги. Если вы опаздываете на приём на двадцать и более минут, вам потребуется записаться на другое время.",
+                            text: "Отменить приём можно за 3 дня; при более поздней отмене может взиматься плата в размере 50% стоимости услуги. Если вы опаздываете на приём на двадцать и более минут, вам потребуется записаться на другое время.",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "В некоторых случаях хирург может назначить дополнительные глазные капли. Назначенное лекарство можно приобрести в аптеке по рецепту.",
+                            text: "В отдельных случаях хирург может назначить дополнительные глазные капли. Назначенные препараты приобретаются в аптеке по рецепту.",
                         },
                         {
                             type: "text",
-                            text: "Если вам удобнее, мы можем направить вас на послеоперационный осмотр в один из центров оптической коррекции в вашем городе, услуги которого оплачиваются вами самостоятельно. Этот вариант может быть экономичнее, чем поездка в клинику. Результаты осмотра будут отправлены в клинику и внесены в вашу медицинскую карту. В этом случае попросите копию отчёта послеоперационного осмотра.",
+                            text: "Если вам удобнее, мы можем направить вас на послеоперационный осмотр в один из центров оптической коррекции в вашем городе — услуги такого центра оплачиваются вами самостоятельно. Иногда это экономичнее, чем поездка в клинику. Результаты осмотра будут направлены в клинику и внесены в вашу медицинскую карту. В таком случае обязательно попросите копию отчёта послеоперационного осмотра.",
                             gap: true,
                         },
                         {
@@ -2681,11 +2700,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "list",
                             list: [
-                                "Если вы работаете в пыльных условиях (например, на строительных площадках), защищайте глаза защитными очками типа «маска» как минимум в течение одного месяца.",
-                                "При работе с дисплеями каждые 45 минут делайте 15-минутные перерывы, чтобы избежать усталости глаз в первые 2–3 недели.",
-                                "Рекомендуется носить солнцезащитные очки при выходе на улицу в течение первых нескольких недель — это защитит глаза от пыли и уменьшит временную светочувствительность.",
+                                "Если вы работаете в пыльной среде (например, на стройплощадках), защищайте глаза очками типа «маска» как минимум в течение одного месяца.",
+                                "При работе за дисплеями каждые 45 минут делайте 15-минутные перерывы, чтобы снизить усталость глаз в первые 2–3 недели.",
+                                "В первые несколько недель рекомендуется носить солнцезащитные очки на улице — это защитит глаза от пыли и уменьшит временную светочувствительность.",
                                 "Пациентам после операции по удалению катаракты следует избегать подъёма тяжестей в течение первых 4 недель.",
-                                "Во время послеоперационных консультаций врач определит, соответствует ли ваше зрение необходимым стандартам.",
+                                "На послеоперационных консультациях врач определит, соответствует ли ваше зрение необходимым стандартам.",
                             ],
                             gap: true,
                         },
@@ -2696,7 +2715,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Согласно стандартам вождения, вы должны быть способны прочитать номерной знак автомобиля с расстояния 20,5 метра. Если операция была проведена только на одном глазу, проявляйте особую осторожность при вождении, так как ваше бинокулярное (стереоскопическое) зрение временно нарушено, и восприятие расстояния может быть затруднено.",
+                            text: "Согласно стандартам вождения, вы должны быть способны прочитать номерной знак автомобиля с расстояния 20,5 метра. Если операция выполнена только на одном глазу, будьте особенно осторожны при вождении: бинокулярное (стереоскопическое) зрение временно меняется, и оценка расстояния может быть затруднена.",
                             gap: true,
                         },
                         {
@@ -2713,7 +2732,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Избегайте интенсивных физических нагрузок, пока ваши глаза полностью не восстановятся (обычно это занимает около месяца). Приведённая ниже таблица содержит рекомендации по срокам восстановления для основных видов деятельности. Врач может дать иные рекомендации в зависимости от ваших индивидуальных обстоятельств. Если вы профессионально занимаетесь каким-либо из указанных видов спорта или у вас есть вопросы по другим, обязательно проконсультируйтесь со своим врачом.",
+                            text: "Избегайте интенсивных физических нагрузок до полного восстановления (обычно около месяца). Таблица ниже содержит ориентировочные сроки возвращения к базовым видам активности. Врач может дать иные рекомендации с учётом ваших индивидуальных особенностей. Если вы профессионально занимаетесь спортом или у вас есть вопросы по другим нагрузкам, обязательно обсудите это с врачом.",
                         },
                         {
                             type: "table",
@@ -2755,7 +2774,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Во время занятий спортом в течение как минимум двух недель защищайте глаза от пота, надевая повязку на голову.",
+                            text: "Во время занятий спортом как минимум две недели защищайте глаза от попадания пота, используя повязку на голову.",
                         },
                         {
                             type: "text",
@@ -2780,7 +2799,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 "Избегайте попадания воды в глаза в течение первых семи дней после операции.",
                                 "Во время душа стойте на шаг дальше, чем обычно, чтобы вода не попадала в глаза.",
                                 "При мытье головы запрокидывайте ее назад, чтобы шампунь не попадал в глаза.",
-                                "Если шампунь, мыло или другой продукт попал в глаза — НЕ ТРИТЕ ИХ! Используйте освежающие капли, чтобы промыть глаза и снять жжение.",
+                                "Если шампунь, мыло или другой продукт попал в глаза — НЕ ТРИТЕ ИХ! Используйте увлажняющие капли, чтобы промыть глаза и уменьшить жжение.",
                             ],
                         },
                         {
@@ -2794,7 +2813,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             list: [
                                 "В течение первых двух недель после операции макияж наносить нельзя.",
                                 "Косметикой для лица (крем, тональный крем, румяна и т.п.) можно пользоваться позже, но не наносите слишком близко к глазам.",
-                                "Не используйте водостойкую тушь как минимум месяц — она сложнее снимается.",
+                                "Не используйте водостойкую тушь как минимум месяц — её сложнее удалять.",
                                 "В течение месяца после операции избегайте попадания средств макияжа и демакияжа в глаза. Если это произошло, промойте глаза каплями и НИ В КОЕМ СЛУЧАЕ НЕ ТРИТЕ ИХ.",
                             ],
                         },
@@ -2808,8 +2827,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "Не рекомендуется выезжать за границу в течение недели после операции, чтобы иметь возможность прийти на первые два послеоперационных осмотра.",
-                                "Путешествуя в жаркие страны, носите качественные солнцезащитные очки с полной защитой от ультрафиолета спектров A и B. В течение месяца после операции избегайте загара.",
-                                "Во время занятий зимними видами спорта носите качественные солнцезащитные очки или маску с полной защитой от ультрафиолета спектров A и B.",
+                                "При поездках в жаркие страны используйте качественные солнцезащитные очки с полной защитой от УФ-излучения спектров A и B. В течение месяца после операции избегайте загара.",
+                                "Во время занятий зимними видами спорта носите очки или маску с полной защитой от УФ-излучения спектров A и B.",
                             ],
                         },
                         {
@@ -2821,8 +2840,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "В зависимости от уровня коррекции чтение мелкого шрифта может быть затруднено несколько недель — это нормально.",
-                                "Пациентам старше 45 лет могут понадобиться очки для близи. Это естественный возрастной процесс и может быть полезен для занятий, требующих хорошего зрения вблизи (чтение, шитье, вязание и т.д.).",
+                                "В зависимости от объёма коррекции чтение мелкого шрифта может быть затруднено несколько недель — это нормально.",
+                                "Пациентам старше 45 лет могут понадобиться очки для близи. Это естественный возрастной процесс и может быть полезен для занятий, требующих хорошего зрения вблизи (чтение, шитьё, вязание и т.д.).",
                             ],
                         },
                         {
@@ -2846,7 +2865,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Если возможно, избегайте курения или нахождения в задымленных помещениях в течение недели.",
+                                "Если есть возможность, избегайте курения и пребывания в задымлённых помещениях в течение недели.",
                             ],
                         },
                         {
@@ -2875,12 +2894,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Бандажные линзы обычно используются после операции LASEK для защиты эпителия (наружного слоя) и снижения дискомфорта. Через 3–4 дня необходимо вернуться в клинику, чтобы их снять. Иногда пациенты не переносят линзы — тогда их снимают раньше. Возможен дискомфорт или боль во время ношения или снятия, обычно проходящие через 6–24 часа. Отдыхайте и принимайте обезболивающее, но НИКОГДА НЕ ПРЕВЫШАЙТЕ ДОЗУ И НЕ СНЯТИЕ ЛИНЗЫ САМИ.",
+                            text: "Бандажные линзы чаще применяются после операции LASEK — для защиты эпителия (наружного слоя) и уменьшения дискомфорта. Через 3–4 дня необходимо прийти в клинику, чтобы их сняли. Иногда линзы переносятся плохо — тогда их снимают раньше. Во время ношения или снятия возможны дискомфорт и/или боль; обычно они проходят в течение 6–24 часов. Отдыхайте и при необходимости принимайте обезболивающее, но НИКОГДА НЕ ПРЕВЫШАЙТЕ ДОЗУ И НЕ СНИМАЙТЕ ЛИНЗЫ САМОСТОЯТЕЛЬНО.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Если линза выпала, может появиться дискомфорт. Не пытайтесь вставить её обратно. Продолжайте использовать капли по назначению и приходите на контрольные осмотры.",
+                            text: "Если линза выпала и появился дискомфорт, не пытайтесь установить её обратно. Продолжайте использовать капли по назначению и обязательно приходите на контрольные осмотры.",
                         },
                         {
                             type: "text",
@@ -2895,16 +2914,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "В течение 3–4 недель после операции LASEK может наблюдаться легкое помутнение роговицы. Это нормальный процесс восстановления.",
+                            text: "В течение 3–4 недель после операции LASEK возможно лёгкое помутнение роговицы — это естественная часть процесса восстановления.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Помутнение обычно слабое и незаметное, но в редких случаях может сохраняться до 6–12 месяцев. Риск повышается при применении некоторых препаратов — врач предупредит, если это ваш случай. В тяжелых формах зрение может ухудшаться, тогда потребуется лечение. Могут быть назначены стероидные капли или другие методы терапии.",
+                            text: "Обычно помутнение минимальное и почти незаметное, но в редких случаях может сохраняться 6–12 месяцев. Риск повышается при использовании некоторых препаратов — врач предупредит, если это относится к вашей ситуации. При выраженных проявлениях зрение может снижаться, и тогда потребуется лечение. Могут быть назначены стероидные капли или другие методы терапии.",
                         },
                         {
                             type: "text",
-                            text: "Наши специалисты сделают всё возможное для вашего зрения. Тысячи наших пациентов, вернувших себе хорошее зрение, — лучшее тому доказательство.",
+                            text: "Наши специалисты сделают всё возможное для сохранения и улучшения вашего зрения. Тысячи пациентов клиники «Новое зрение», вернувших себе комфортное зрение, — лучшее подтверждение эффективности современных технологий и правильного послеоперационного сопровождения.",
                         },
                     ],
                 },
@@ -3910,7 +3929,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
             k => k.key === "reminders-and-instructions-for-patients"
         )!,
         lt: {
-            title: "Пам’ятки та інструкції для пацієнтів",
+            title: "Priminimai ir instrukcijos pacientams",
             content: [],
         },
         en: { title: "Reminders and instructions for patients", content: [] },
@@ -6360,7 +6379,7 @@ export const dataPatientsPage: DataPatientsPageType[] = [
                     keySlugPatientsInstruction.find(
                         i =>
                             i.key ===
-                            "instruktsiyi-pislya-lazernoyi-korektsiyi-zoru"
+                            "instructions-after-laser-vision-correction"
                     )!,
                     keySlugPatientsInstruction.find(
                         i =>
