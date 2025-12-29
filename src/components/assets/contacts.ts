@@ -19,8 +19,6 @@ export const socialLinks = [
 
 export const gogleMapLink = "https://maps.app.goo.gl/gEToStmWSUJqhY6S6";
 
-export const aboutSertification = "/files/serteficate.pdf";
-
 export const LTemail = "vilnius@eyes.lt";
 
 export const raynerSiteLink = "https://rayner.com/global/en/iol/galaxy/";
