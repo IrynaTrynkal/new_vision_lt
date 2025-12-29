@@ -57,7 +57,7 @@ export default function PatientsVitreoretinalInstructionPage() {
                         <TextTypeRender key={ind} data={item.text} />
                     ))}
                 </div>
-                <BottomLinkButtons text="instruktsiyi-pislya-lazernoyi-korektsiyi-zoru" />
+                <BottomLinkButtons text="instructions-after-laser-vision-correction" />
             </section>
             <Booking />
         </>
