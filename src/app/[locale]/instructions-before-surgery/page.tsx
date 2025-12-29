@@ -21,26 +21,24 @@ export async function generateMetadata({
     return generateInstructionMetadata(
         locale as LocaleType,
         "Instructions",
-        "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
+        "instructions-before-surgery"
     );
 }
 
-export default function PatientsVitreoretinalInstructionPage() {
+export default function PatientsBeforeSurgeryPage() {
     const breadcrumb = [
         {
             name: "reminders-and-instructions-for-patients",
             href: "/reminders-and-instructions-for-patients",
         },
         {
-            name: "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
-            href: "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
+            name: "instructions-before-surgery",
+            href: "/instructions-before-surgery",
         },
     ];
     const locale = useLocale();
     const data = pationtsInstructionsData.find(
-        instr =>
-            instr.name.key ===
-            "pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu"
+        instr => instr.name.key === "instructions-before-surgery"
     );
     if (!data) return notFound();
 

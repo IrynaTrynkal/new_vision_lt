@@ -15,7 +15,7 @@ export async function generateMetadata({
     const t = await getTranslations({ locale, namespace: "PatientsPage" });
 
     const paths: Record<string, string> = {
-        lt: "/informatsiya-dlya-patsiyentiv",
+        lt: "/informacija-pacientams",
         en: "/en/patient-information",
         ru: "/ru/informatsiya-dlya-patsiyentov",
     };
@@ -47,8 +47,8 @@ export async function generateMetadata({
 export default function PatientsPage() {
     const breadcrumb = [
         {
-            name: "informatsiya-dlya-patsiyentiv",
-            href: "/informatsiya-dlya-patsiyentiv",
+            name: "informacija-pacientams",
+            href: "/informacija-pacientams",
         },
     ];
 

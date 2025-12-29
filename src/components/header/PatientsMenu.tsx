@@ -23,7 +23,7 @@ export const PatientsMenu = ({
             <div className="prepc:block hidden h-[225px] w-[437px]">
                 <Image
                     src="/images/patients-menu.jpg"
-                    alt={t("informatsiya-dlya-patsiyentiv")}
+                    alt={t("informacija-pacientams")}
                     width={1024}
                     height={701}
                     className="h-full w-full object-cover object-center"
