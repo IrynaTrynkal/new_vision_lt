@@ -1277,7 +1277,7 @@ export const cookiesData: PolicyDataType = {
                     {
                         bold: true,
                         subtitle: true,
-                        value: "2. Kaip mes naudojame slapukus?",
+                        value: "Kaip mes naudojame slapukus?",
                     },
                 ],
             },
@@ -1527,7 +1527,7 @@ export const cookiesData: PolicyDataType = {
                     {
                         bold: true,
                         subtitle: true,
-                        value: "2. How do we use cookies?",
+                        value: "How do we use cookies?",
                     },
                 ],
             },
@@ -1777,7 +1777,7 @@ export const cookiesData: PolicyDataType = {
                     {
                         bold: true,
                         subtitle: true,
-                        value: "2. Как мы используем файлы cookie?",
+                        value: "Как мы используем файлы cookie?",
                     },
                 ],
             },
