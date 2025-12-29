@@ -83,9 +83,9 @@ export const routing = defineRouting({
                 en: "/information-for-patients-prior-to-microsurgery",
                 ru: "/informatsiya-dlya-patsiyentov-pered-mikrokhirurgicheskim-vmeshatelstvom",
             },
-        "/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru": {
+        "/instructions-after-laser-vision-correction": {
             en: "/instructions-after-laser-vision-correction",
-            ru: "/instruktsii-posle-korrektsii-zreniya",
+            ru: "/instructions-after-laser-vision-correction",
         },
         "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu": {
             en: "/patient-reminder-before-vitreoretinal-surgery",

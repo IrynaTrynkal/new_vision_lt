@@ -383,7 +383,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.64,
         },
         {
-            url: `${baseUrl}/instruktsiyi-pislya-lazernoyi-korektsiyi-zoru`,
+            url: `${baseUrl}/instructions-after-laser-vision-correction`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.64,
@@ -869,7 +869,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.51,
         },
         {
-            url: `${baseUrl}/ru/instruktsii-posle-korrektsii-zreniya`,
+            url: `${baseUrl}/ru/instructions-after-laser-vision-correction`,
             lastModified: new Date(),
             changeFrequency: "yearly",
             priority: 0.51,
