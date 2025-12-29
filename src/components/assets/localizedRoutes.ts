@@ -12,74 +12,74 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/blog/[slug]",
         ru: "/blog/[slug]",
     },
-    "/posluhy": { lt: "/posluhy", en: "/services", ru: "/uslugi" },
-    "/posluhy/lazerna-korekcziya-zoru": {
-        lt: "/posluhy/lazerna-korekcziya-zoru",
-        en: "/services/laser-vision-correction",
+    "/paslaugos": { lt: "/paslaugos", en: "/services", ru: "/uslugi" },
+    "/paslaugos/lazerine-akiu-korekcija": {
+        lt: "/paslaugos/lazerine-akiu-korekcija",
+        en: "/services/laser-eye-surgery",
         ru: "/uslugi/lazernaya-korrekciya-zreniya",
     },
-    "/posluhy/perevirka-zoru": {
-        lt: "/posluhy/perevirka-zoru",
-        en: "/services/eye-exam",
-        ru: "/uslugi/proverka-zreniya",
+    "/paslaugos/akiu-patikrinimas": {
+        lt: "/paslaugos/akiu-patikrinimas",
+        en: "/services/eye-examination",
+        ru: "/uslugi/diagnostika-zreniya",
     },
-    "/posluhy/likuvannya-katarakti": {
-        lt: "/posluhy/likuvannya-katarakti",
-        en: "/services/cataract-treatment",
-        ru: "/uslugi/lechenie-katarakty",
+    "/paslaugos/kataraktos-operacija": {
+        lt: "/paslaugos/kataraktos-operacija",
+        en: "/services/cataract-surgery",
+        ru: "/uslugi/udaleniye-katarakty",
     },
-    "/posluhy/syndrom-sukhoho-oka": {
-        lt: "/posluhy/syndrom-sukhoho-oka",
-        en: "/services/dry-eye-syndrome",
-        ru: "/uslugi/lechenie-sindroma-suhogo-glaza",
+    "/paslaugos/dry-eye-syndrome-treatment": {
+        lt: "/paslaugos/dry-eye-syndrome-treatment",
+        en: "/services/dry-eye-syndrome-treatment",
+        ru: "/uslugi/dry-eye-syndrome-treatment",
     },
-    "/posluhy/dityache-viddilennya": {
-        lt: "/posluhy/dityache-viddilennya",
-        en: "/services/children-department",
+    "/paslaugos/vaiku-akiu-patikra": {
+        lt: "/paslaugos/vaiku-akiu-patikra",
+        en: "/services/pediatric-eye-examination",
         ru: "/uslugi/detskoye-otdeleniye",
     },
-    "/posluhy/lazerne-likuvannya-zahvoryuvan-oka": {
-        lt: "/posluhy/lazerne-likuvannya-zahvoryuvan-oka",
+    "/paslaugos/lazerinis-akiu-ligu-gydymas": {
+        lt: "/paslaugos/lazerinis-akiu-ligu-gydymas",
         en: "/services/laser-treatment-of-eye-diseases",
         ru: "/uslugi/lazernoye-lecheniye-zabolevaniy-glaza",
     },
-    "/posluhy/refrakczijna-lensektomiya": {
-        lt: "/posluhy/refrakczijna-lensektomiya",
-        en: "/services/refractive-lensectomy",
-        ru: "/uslugi/intraokuliarnaya-korrekciya",
+    "/paslaugos/skaidraus-lesio-operacija": {
+        lt: "/paslaugos/skaidraus-lesio-operacija",
+        en: "/services/refractive-lens-exchange",
+        ru: "/uslugi/khirurgiia-prozrachnogo-khrustalika",
     },
-    "/posluhy/hirurgichne-likuvannya-glaukomi": {
-        lt: "/posluhy/hirurgichne-likuvannya-glaukomi",
-        en: "/services/surgical-glaucoma-treatment",
-        ru: "/uslugi/khirurgicheskoye-lecheniye-glaukomy",
+    "/paslaugos/glaukomos-gydymas": {
+        lt: "/paslaugos/glaukomos-gydymas",
+        en: "/services/glaukomos-gydymas",
+        ru: "/uslugi/glaukomos-gydymas",
     },
-    "/posluhy/lazerna-korekcziya-zoru/sportlife-lasik": {
-        lt: "/posluhy/lazerna-korekcziya-zoru/sportlife-lasik",
-        en: "/services/laser-vision-correction/sportlife-lasik",
+    "/paslaugos/lazerine-akiu-korekcija/sportlife-lasik": {
+        lt: "/paslaugos/lazerine-akiu-korekcija/sportlife-lasik",
+        en: "/services/laser-eye-surgery/sportlife-lasik",
         ru: "/uslugi/lazernaya-korrekciya-zreniya/sportlife-lasik",
     },
-    "/posluhy/lazerna-korekcziya-zoru/iq-lasik-oxygen-3d": {
-        lt: "/posluhy/lazerna-korekcziya-zoru/iq-lasik-oxygen-3d",
-        en: "/services/laser-vision-correction/iq-lasik-oxygen-3d",
+    "/paslaugos/lazerine-akiu-korekcija/iq-lasik-oxygen-3d": {
+        lt: "/paslaugos/lazerine-akiu-korekcija/iq-lasik-oxygen-3d",
+        en: "/services/laser-eye-surgery/iq-lasik-oxygen-3d",
         ru: "/uslugi/lazernaya-korrekciya-zreniya/iq-lasik-oxygen-3d",
     },
-    "/posluhy/likuvannya-katarakti/iq-5-minutes": {
-        lt: "/posluhy/likuvannya-katarakti/iq-5-minutes",
-        en: "/services/cataract-treatment/iq-5-minutes",
-        ru: "/uslugi/lechenie-katarakty/iq-5-minutes",
+    "/paslaugos/kataraktos-operacija/iq-5-minutes": {
+        lt: "/paslaugos/kataraktos-operacija/iq-5-minutes",
+        en: "/services/cataract-surgery/iq-5-minutes",
+        ru: "/uslugi/udaleniye-katarakty/iq-5-minutes",
     },
-    "/posluhy/likuvannya-katarakti/iq-life-3d": {
-        lt: "/posluhy/likuvannya-katarakti/iq-life-3d",
-        en: "/services/cataract-treatment/iq-life-3d-live-vision",
-        ru: "/uslugi/lechenie-katarakty/iq-life-3d-zhivoye-zreniye",
+    "/paslaugos/kataraktos-operacija/iq-life-3d": {
+        lt: "/paslaugos/kataraktos-operacija/iq-life-3d",
+        en: "/services/cataract-surgery/iq-life-3d-live-vision",
+        ru: "/uslugi/udaleniye-katarakty/iq-life-3d-zhivoye-zreniye",
     },
-    "/aktsiyi": { lt: "/aktsiyi", en: "/offers", ru: "/akcii" },
+    "/akcijos": { lt: "/akcijos", en: "/offers", ru: "/akcii" },
     "/akiu-ligos": {
         lt: "/akiu-ligos",
         en: "/eye-diseases",
-        ru: "/glaznye-bolezni",
+        ru: "/glaznye-zabolevaniya",
     },
-    "/tsiny": { lt: "/tsiny", en: "/service-prices", ru: "/ceny" },
+    "/kainos": { lt: "/kainos", en: "/price-list", ru: "/ceny-na-uslugi" },
     "/informacija-pacientams": {
         lt: "/informacija-pacientams",
         en: "/patient-information",
@@ -87,25 +87,29 @@ export const localizedRoutes: LocalizedRoutes = {
     },
     "/apie-klinika": {
         lt: "/apie-klinika",
-        en: "/about-clinic",
+        en: "/our-clinic",
         ru: "/o-klinike",
     },
-    "/vidhuky": { lt: "/vidhuky", en: "/reviews", ru: "/otzyvy" },
-    "/kontaktai": { lt: "/kontakty", en: "/contacts", ru: "/kontakty" },
+    "/atsiliepimai": {
+        lt: "/atsiliepimai",
+        en: "/testimonials",
+        ru: "/otzyvy",
+    },
+    "/kontaktai": { lt: "/kontaktai", en: "/contacts", ru: "/kontakty" },
     "/rayner-galaxy-lt": {
         lt: "/rayner-galaxy-lt",
-        en: "/rayner-galaxy-a-new-level-of-vision-is-now-available-at-our-clinic",
+        en: "/rayner-galaxy-a-new-dimension-of-vision-is-now-available-at-our-clinic",
         ru: "/rayner-galaxy-novoe-izmerenie-zreniya-uzhe-v-nashej-klinike",
     },
     "/gydytojai": {
         lt: "/gydytojai",
-        en: "/ophthalmologists",
-        ru: "/oftalmologi",
+        en: "/doctors",
+        ru: "/vrachi",
     },
     "/gydytojai/[slug]": {
         lt: "/gydytojai/[slug]",
-        en: "/ophthalmologists/[slug]",
-        ru: "/oftalmologi/[slug]",
+        en: "/doctors/[slug]",
+        ru: "/vrachi/[slug]",
     },
     "/instructions-before-surgery": {
         lt: "/instructions-before-surgery",
@@ -127,59 +131,54 @@ export const localizedRoutes: LocalizedRoutes = {
         en: "/instructions-after-laser-vision-correction",
         ru: "/instructions-after-laser-vision-correction",
     },
-    "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu": {
-        lt: "/pamyatka-patsiyenta-pered-vitreoretynalnoyu-khirurhiyeyu",
-        en: "/patient-reminder-before-vitreoretinal-surgery",
-        ru: "/pamyatki-patsiyentu-pered-vitreoretinalnoy-khirurgiyey",
-    },
-    "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty": {
-        lt: "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
-        en: "/pamyatka-patsiyenta-pislya-khirurhiyi-katarakty",
-        ru: "/pamyatki-paczienta-posle-hirurgii-katarakty",
-    },
     "/akiu-ligos/glaukoma": {
         lt: "/akiu-ligos/glaukoma",
         en: "/eye-diseases/glaucoma",
-        ru: "/glaznye-bolezni/glaukoma",
+        ru: "/glaznye-zabolevaniya/glaukoma",
     },
     "/akiu-ligos/presbiopiya": {
         lt: "/akiu-ligos/presbiopiya",
         en: "/eye-diseases/presbyopia",
-        ru: "/glaznye-bolezni/presbiopiya",
+        ru: "/glaznye-zabolevaniya/presbiopiya",
     },
     "/akiu-ligos/dalekozorist": {
         lt: "/akiu-ligos/dalekozorist",
         en: "/eye-diseases/farsightedness",
-        ru: "/glaznye-bolezni/dalnozorkost",
+        ru: "/glaznye-zabolevaniya/dalnozorkost",
     },
     "/akiu-ligos/katarakta": {
         lt: "/akiu-ligos/katarakta",
         en: "/eye-diseases/cataract",
-        ru: "/glaznye-bolezni/katarakta",
+        ru: "/glaznye-zabolevaniya/katarakta",
     },
     "/akiu-ligos/simptomi-zahvoryuvannya-ochej": {
         lt: "/akiu-ligos/simptomi-zahvoryuvannya-ochej",
         en: "/eye-diseases/symptoms-of-eye-disease",
-        ru: "/glaznye-bolezni/simptomy-zabolevaniya-glaz",
+        ru: "/glaznye-zabolevaniya/simptomy-zabolevaniya-glaz",
     },
     "/akiu-ligos/kosookist": {
         lt: "/akiu-ligos/kosookist",
         en: "/eye-diseases/strabismus",
-        ru: "/glaznye-bolezni/kosoglazie",
+        ru: "/glaznye-zabolevaniya/kosoglazie",
     },
     "/akiu-ligos/korotkozorist-miopiya": {
         lt: "/akiu-ligos/korotkozorist-miopiya",
         en: "/eye-diseases/nearsightedness-myopia",
-        ru: "/glaznye-bolezni/blizorukost-miopiya",
+        ru: "/glaznye-zabolevaniya/blizorukost-miopiya",
     },
     "/akiu-ligos/astigmatizm": {
         lt: "/akiu-ligos/astigmatizm",
         en: "/eye-diseases/astigmatism",
-        ru: "/glaznye-bolezni/astigmatizm",
+        ru: "/glaznye-zabolevaniya/astigmatizm",
     },
-    "/politika-konfidenczijnosti": {
-        lt: "/politika-konfidenczijnosti",
+    "/privatumo-politika": {
+        lt: "/privatumo-politika",
         en: "/privacy-policy",
-        ru: "/privacy-policy",
+        ru: "/politika-konfidenczialnosti",
+    },
+    "/cookie-policy-eu": {
+        lt: "/cookie-policy-eu",
+        en: "/cookie-policy-eu",
+        ru: "/cookie-policy-eu",
     },
 };
