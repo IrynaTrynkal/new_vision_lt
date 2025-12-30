@@ -1,4 +1,12 @@
+import Script from "next/script";
+import { getTranslations } from "next-intl/server";
+
 import { DepartmentsType } from "@/components/assets/doctorsData";
+import { localizedRoutes } from "@/components/assets/localizedRoutes";
+import {
+    breadcrumbsInnerSchema,
+    innerCollectionPageSchema,
+} from "@/components/assets/schemas";
 import { DoctorsFilteredList } from "@/components/pageDoctors/DoctorsFilteredList";
 import { HeroDoctors } from "@/components/pageDoctors/HeroDoctors";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -34,11 +42,9 @@ export default async function gydytojaiPage({
     }>;
     params: Promise<{ locale: string }>;
 }) {
-    const { page, department } = (await searchParams) || {};
+    const { page } = (await searchParams) || {};
     const { locale } = await params;
     const pageNumber = page ? parseInt(page) : 1;
-    const selectedDepartment =
-        department || "consultation-and-diagnostic-ophthalmologists";
     const breadcrumb = [{ name: "gydytojai", href: "/gydytojai" }];
 
     const doctorsList = await sanityFetch({
@@ -47,8 +53,50 @@ export default async function gydytojaiPage({
         tags: ["doctor", "orderDoctors"],
     });
 
+    const itemsSchema = doctorsList?.map(doctor => {
+        const base = localizedRoutes["/gydytojai"][locale as LocaleType];
+        return {
+            name: doctor.name!,
+            url: `${base}/${doctor.slug}`,
+            type: "Physician",
+        };
+    });
+
+    const [t, ti] = await Promise.all([
+        getTranslations("Menu"),
+        getTranslations("Doctors"),
+    ]);
+    const collectionPageSchema = innerCollectionPageSchema({
+        locale,
+        title: ti("titleSEO"),
+        description: ti("descriptionSEO"),
+        image: "/images/doctors-hero1.jpg",
+        path: "/oftalmolohy",
+        items: itemsSchema,
+    });
+
+    const breadcrumbsSchema = breadcrumbsInnerSchema({
+        locale,
+        items: breadcrumb,
+        t,
+    });
+
     return (
         <>
+            <Script
+                id="webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(collectionPageSchema),
+                }}
+            />
+            <Script
+                id="breadcrumbs-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbsSchema),
+                }}
+            />
             <HeroDoctors />
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}

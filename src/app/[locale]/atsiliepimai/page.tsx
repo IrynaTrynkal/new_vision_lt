@@ -1,3 +1,10 @@
+import Script from "next/script";
+import { getTranslations } from "next-intl/server";
+
+import {
+    breadcrumbsInnerSchema,
+    innerCollectionPageSchema,
+} from "@/components/assets/schemas";
 import { FeedbacksPageList } from "@/components/pageFeedback/feedacksList/FeedbacksPageList";
 import { HeroFB } from "@/components/pageFeedback/hero/HeroFB";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -31,6 +38,10 @@ export default async function ReviewsPage({
     searchParams?: Promise<{ page?: string; category?: string }>;
 }) {
     const { locale } = await params;
+    const [t, ti] = await Promise.all([
+        getTranslations("Menu"),
+        getTranslations("FeedbackPage"),
+    ]);
     const { page, category } = (await searchParams) || {};
     const pageNumber = page ? parseInt(page) : 1;
     const selectedCategory = category || "all";
@@ -40,9 +51,36 @@ export default async function ReviewsPage({
         params: { language: locale },
         tags: ["feedback"],
     });
+    const collectionPageSchema = innerCollectionPageSchema({
+        locale,
+        title: ti("titleSEO"),
+        description: ti("descriptionSEO"),
+        image: "/images/feedback-default.jpg",
+        path: "/atsiliepimai",
+    });
+
+    const breadcrumbsSchema = breadcrumbsInnerSchema({
+        locale,
+        items: breadcrumb,
+        t,
+    });
 
     return (
         <>
+            <Script
+                id="webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(collectionPageSchema),
+                }}
+            />
+            <Script
+                id="breadcrumbs-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbsSchema),
+                }}
+            />
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}
                 className="tab:hidden mt-30 mb-6"

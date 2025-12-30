@@ -1,9 +1,14 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { useLocale } from "next-intl";
+import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
 
 import { pationtsInstructionsData } from "@/components/assets/patientsInstructionData";
 import { kuponoData } from "@/components/assets/policyData";
+import {
+    breadcrumbsInnerSchema,
+    innerWebPageSchema,
+} from "@/components/assets/schemas";
 import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { TextTypeRender } from "@/components/shared/TextTypeRender";
 import { HeroInstruction } from "@/components/someInstructionComponents/HeroInstruction";
@@ -33,13 +38,42 @@ export default function PatientsNonresidentPage() {
         },
     ];
     const locale = useLocale();
+    const t = useTranslations("Menu");
+    const ti = useTranslations("Kupono");
     const data = pationtsInstructionsData.find(
         instr => instr.name.key === "dovanu-kupono"
     );
     if (!data) return notFound();
+    const webPageSchema = innerWebPageSchema({
+        locale,
+        title: ti("titleSEO"),
+        description: ti("descriptionSEO"),
+        image: "/images/facilities1.jpg",
+        path: "/dovanu-kupono",
+    });
+
+    const breadcrumbsSchema = breadcrumbsInnerSchema({
+        locale,
+        items: breadcrumb,
+        t,
+    });
 
     return (
         <>
+            <Script
+                id="webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(webPageSchema),
+                }}
+            />
+            <Script
+                id="breadcrumbs-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbsSchema),
+                }}
+            />
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}
                 className="prepc:mt-[176px] prepc:mb-12 mt-30 mb-6"
