@@ -64,18 +64,13 @@ export default async function RootLayout({
     if (!hasLocale(routing.locales, locale)) {
         notFound();
     }
-    // const GAid = process.env.GA_ID || "";
-    // const GATM = process.env.GTM_ID || "";
-    // const GoogleAdsId = process.env.GOOGLE_ADS_ID || "";
     return (
         <html lang={locale} suppressHydrationWarning>
             <head>
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <meta property="og:image" content="<generated>" />
-                {/* <GoogleAds GoogleAdsId={GoogleAdsId} /> */}
-                <meta name="robots" content="noindex,nofollow" />
+                {/* <meta name="robots" content="noindex,nofollow" /> */}
             </head>
-            {/* <GoogleTagManager gtmId={GATM} /> */}
             <NextIntlClientProvider>
                 <body
                     className={`${oswald.variable} ${arimo.variable} flex min-h-screen flex-col antialiased`}
@@ -85,8 +80,6 @@ export default async function RootLayout({
                         <div className="mx-auto max-w-[1600px]">{children}</div>
                     </main>
                     <Footer locale={locale} />
-                    {/* <BinotelChat /> */}
-                    {/* <GoogleAnalytics gaId={GAid} /> */}
                 </body>
             </NextIntlClientProvider>
         </html>

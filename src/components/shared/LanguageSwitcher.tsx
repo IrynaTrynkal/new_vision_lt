@@ -17,50 +17,6 @@ export default function LanguageSwitcher() {
     const [hash, setHash] = useState("");
     const [open, setOpen] = useState(false);
 
-    // useEffect(() => {
-    //     if (typeof window === "undefined") return;
-
-    //     // ==== 1. Визначення мови ====
-    //     const path = window.location.pathname.toLowerCase();
-    //     let lang = "ua";
-
-    //     if (path.startsWith("/ru")) lang = "ru";
-    //     else if (path.startsWith("/en")) lang = "en";
-    //     else if (path.startsWith("/ua")) lang = "ua";
-
-    //     // ==== 2. Очищення старих віджетів ====
-    //     delete (window as any).BinotelChat;
-    //     delete (window as any).BinotelGetCall;
-    //     delete (window as any).BinotelChatSettings;
-    //     delete (window as any).BinotelGetCallSettings;
-
-    //     document
-    //         .querySelectorAll('script[src*="binotel.com"]')
-    //         .forEach(s => s.remove());
-
-    //     // ==== 3. Встановлюємо мультимовність для GetCall ====
-    //     (window as any).BinotelGetCallSettings = { language: lang };
-
-    //     // ==== 4. Додаємо GetCall script ====
-    //     const getcallScript = document.createElement("script");
-    //     getcallScript.type = "text/javascript";
-    //     getcallScript.async = true;
-    //     getcallScript.src =
-    //         "//widgets.binotel.com/getcall/widgets/rz5porl99lpafaaatagd.js";
-    //     document.body.appendChild(getcallScript);
-
-    //     // ==== 5. Встановлюємо мультимовність для Chat ====
-    //     (window as any).BinotelChatSettings = { language: lang };
-
-    //     // ==== 6. Додаємо Chat script ====
-    //     const chatScript = document.createElement("script");
-    //     chatScript.type = "text/javascript";
-    //     chatScript.async = true;
-    //     chatScript.src =
-    //         "//widgets.binotel.com/chat/widgets/nYlU4dOMPLM1vnvhEoRB.js";
-    //     document.body.appendChild(chatScript);
-    // }, [locale]);
-
     useEffect(() => {
         if (typeof window !== "undefined") {
             setHash(window.location.hash);
