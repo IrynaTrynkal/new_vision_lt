@@ -1,3 +1,10 @@
+import Script from "next/script";
+import { getTranslations } from "next-intl/server";
+
+import {
+    breadcrumbsInnerSchema,
+    raynerPageSchema,
+} from "@/components/assets/schemas";
 import {
     raynerAdvantageDataMob,
     raynerAdvantageDataTab,
@@ -40,7 +47,11 @@ export default async function RaynerPage({
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
-
+    const [t, ti, tH] = await Promise.all([
+        getTranslations("Menu"),
+        getTranslations("Rayner"),
+        getTranslations("HomePage"),
+    ]);
     const [doctorsList, feedbacksList] = await Promise.all([
         sanityFetch({
             query: doctorsOrderQuery,
@@ -63,9 +74,35 @@ export default async function RaynerPage({
         { name: "paslaugos", href: "/paslaugos" },
         { name: "rayner-galaxy", href: "/rayner-galaxy-lt" },
     ];
+    const webPageSchema = raynerPageSchema({
+        locale: locale as LocaleType,
+        title: ti("titleSEO"),
+        description: ti("descriptionSEO"),
+        nameOrganization: tH("title"),
+    });
+
+    const breadcrumbsSchema = breadcrumbsInnerSchema({
+        locale,
+        items: breadcrumb,
+        t,
+    });
 
     return (
         <>
+            <Script
+                id="webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(webPageSchema),
+                }}
+            />
+            <Script
+                id="breadcrumbs-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbsSchema),
+                }}
+            />
             <HeroRayner />
             <Breadcrumbs className="mt-5" breadcrumbsList={breadcrumb} />
             <RaynerAbout />

@@ -1,5 +1,11 @@
+import Script from "next/script";
+import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
+import {
+    breadcrumbsInnerSchema,
+    innerCollectionPageSchema,
+} from "@/components/assets/schemas";
 import { HeroPatient } from "@/components/pagePatient/HeroPatient";
 import { MainPatients } from "@/components/pagePatient/MainPatients";
 import { Booking } from "@/components/shared/booking/Booking";
@@ -45,15 +51,44 @@ export async function generateMetadata({
 }
 
 export default function PatientsPage() {
+    const t = useTranslations("Menu");
+    const ti = useTranslations("PatientsPage");
     const breadcrumb = [
         {
             name: "informacija-pacientams",
             href: "/informacija-pacientams",
         },
     ];
+    const locale = useLocale();
+    const collectionPageSchema = innerCollectionPageSchema({
+        locale,
+        title: ti("titleSEO"),
+        description: ti("descriptionSEO"),
+        image: "/images/about.jpg",
+        path: "/informacija-pacientams",
+    });
 
+    const breadcrumbsSchema = breadcrumbsInnerSchema({
+        locale,
+        items: breadcrumb,
+        t,
+    });
     return (
         <>
+            <Script
+                id="webpage-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(collectionPageSchema),
+                }}
+            />
+            <Script
+                id="breadcrumbs-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(breadcrumbsSchema),
+                }}
+            />
             <HeroPatient />
             <Breadcrumbs
                 breadcrumbsList={breadcrumb}

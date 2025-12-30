@@ -387,8 +387,8 @@
         "descriptionSEO": "➔ Для іногородніх пацієнтів. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
     },
     "Instructions": {
-        "titleSEO": "Priminimai ir instrukcijos pacientams | Naujas Regėjimas",
-        "descriptionSEO": "Priminimai ir instrukcijos pacientams. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
+        "titleSEO": "{title} | Naujas Regėjimas",
+        "descriptionSEO": "{title}. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
     },
     "PolicyPage": {
         "title": "Privatumo politika",
@@ -411,5 +411,9 @@
         "titleSEO": "Politika dėl slapukų | Naujas Regėjimas",
         "descriptionSEO": "➔ Politika dėl slapukų. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Cookie politika (ES)"
+    },
+    "Kupono": {
+        "titleSEO": "_________ | Naujas Regėjimas",
+        "descriptionSEO": "_________. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     }
 }
