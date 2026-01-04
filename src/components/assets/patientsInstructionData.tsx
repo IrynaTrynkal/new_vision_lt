@@ -2518,9 +2518,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "glaukoma")!,
         lt: {
             titleSEO:
-                "Глаукома - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Glaukoma – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Глаукома: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Glaukoma: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Glaukoma",
             content: [
                 {
@@ -2738,9 +2738,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Glaucoma – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Glaucoma – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Glaucoma: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Glaucoma: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Glaucoma",
             content: [
                 {
@@ -2913,9 +2913,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Глаукома - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Глаукома - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Глаукома: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Глаукома: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Глаукома",
             content: [
                 {
@@ -3091,9 +3091,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "astigmatizmas")!,
         lt: {
             titleSEO:
-                "Астигматизм - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Astigmatizmas – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Астигматизм: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Astigmatizmas: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Astigmatizmas",
             content: [
                 {
@@ -3151,9 +3151,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Astigmatism – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Astigmatism – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Astigmatism: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Astigmatism: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Astigmatism",
             content: [
                 {
@@ -3211,9 +3211,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Астигматизм - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Астигматизм - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Астигматизм: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Астигматизм: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Астигматизм",
             content: [
                 {
@@ -3274,9 +3274,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "toliaregyste")!,
         lt: {
             titleSEO:
-                "Далекозорість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Toliaregystė – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Далекозорість: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Toliaregystė: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Toliaregystė",
             content: [
                 {
@@ -3369,9 +3369,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Farsightedness – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Farsightedness – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Farsightedness: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Farsightedness: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Farsightedness",
             content: [
                 {
@@ -3464,9 +3464,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Дальнозоркость - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Дальнозоркость - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Дальнозоркость: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Дальнозоркость: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Дальнозоркость",
             content: [
                 {
@@ -3562,9 +3562,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "katarakta")!,
         lt: {
             titleSEO:
-                "Катаракта - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Каtarakta – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Катаракта: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Каtarakta: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Каtarakta",
             content: [
                 {
@@ -3620,9 +3620,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Cataract – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Cataract – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Cataract: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Cataract: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Cataract",
             content: [
                 {
@@ -3678,9 +3678,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Катаракта - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Катаракта - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Катаракта: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Катаракта: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Катаракта",
             content: [
                 {
@@ -3739,9 +3739,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "trumparegyste-miopija")!,
         lt: {
             titleSEO:
-                "Короткозорість, міопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Trumparegystė – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Короткозорість, міопія: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Trumparegystė: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Trumparegystė",
             content: [
                 {
@@ -3840,9 +3840,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Myopia – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Myopia – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Myopia: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Myopia: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Nearsightedness, myopia",
             content: [
                 {
@@ -3941,9 +3941,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Близорукость, миопия - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Близорукость, миопия - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Близорукость, миопия: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Близорукость, миопия: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Короткозорість, міопія",
             content: [
                 {
@@ -4030,7 +4030,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Интраокулярные линзы предназначены для коррекции высокой степени астигматизма. Если лазерная коррекция вам не подходит — не отчаивайтесь, есть и другие способы достичь желаемого результата. «Британский офтальмологический центр» предлагает ряд операций, которые могут помочь вам. Во время консультации врач определит, нет ли противопоказаний, и подберёт лучший вариант операции.",
+                            text: "Интраокулярные линзы предназначены для коррекции высокой степени астигматизма. Если лазерная коррекция вам не подходит — не отчаивайтесь, есть и другие способы достичь желаемого результата. Клиника Новое Зрение предлагает ряд операций, которые могут помочь вам. Во время консультации врач определит, нет ли противопоказаний, и подберёт лучший вариант операции.",
                         },
                     ],
                     btn: {
@@ -4045,9 +4045,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "zvairumas")!,
         lt: {
             titleSEO:
-                "Косоокість - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Žvairumas – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Косоокість: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Žvairumas: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Žvairumas",
             content: [
                 {
@@ -4106,9 +4106,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Strabismus – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Strabismus – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Strabismus: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Strabismus: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Strabismus",
             content: [
                 {
@@ -4167,9 +4167,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Косоглазие - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Косоглазие - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Косоглазие: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Косоглазие: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Косоглазие",
             content: [
                 {
@@ -4231,9 +4231,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "presbiopija")!,
         lt: {
             titleSEO:
-                "Пресбіопія - симптоми, причини та лікування | Британський офтальмологічний центр | EYES",
+                "Presbiopija – simptomai, priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Пресбіопія: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Presbiopija: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Presbiopija",
             content: [
                 {
@@ -4341,9 +4341,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Presbyopia – Symptoms, Causes, and Treatment | British Ophthalmology Center | EYES",
+                "Presbyopia – Symptoms, Causes, and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Presbyopia: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Presbyopia: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Presbyopia",
             content: [
                 {
@@ -4451,9 +4451,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Пресбиопия - симптомы, причины и лечение | Британский офтальмологический центр | EYES",
+                "Пресбиопия - симптомы, причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Пресбиопия: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Пресбиопия: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Пресбиопия",
             content: [
                 {
@@ -4564,9 +4564,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         name: keyEyeDisease.find(d => d.key === "akiu-ligu-simptomai")!,
         lt: {
             titleSEO:
-                "Симптоми захворювання очей - причини та лікування | Британський офтальмологічний центр | EYES",
+                "Akių ligų simptomai – priežastys ir gydymas | Naujas Regėjimas",
             descriptionSEO:
-                "➔ Симптоми захворювання очей: основні фактори виникнення та сучасні підходи до ефективного лікування ✅ Інформація від провідних офтальмологів Києва ✅ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077",
+                "Akių ligų simptomai: pagrindiniai atsiradimo veiksniai ir šiuolaikiniai veiksmingo gydymo metodai ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
             title: "Akių ligų simptomai",
             content: [
                 {
@@ -4687,9 +4687,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         en: {
             titleSEO:
-                "Eye Disease Symptoms – Causes and Treatment | British Ophthalmology Center | EYES",
+                "Eye Disease Symptoms – Causes and Treatment | New Vision Clinic",
             descriptionSEO:
-                "➔ Eye disease symptoms: main causes and modern approaches to effective treatment ✅ Information from leading ophthalmologists in Kyiv ✅ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                "Eye disease symptoms: main causes and modern approaches to effective treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
             title: "Symptoms of eye disease",
             content: [
                 {
@@ -4810,9 +4810,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
         },
         ru: {
             titleSEO:
-                "Симптомы заболевания глаз - причины и лечение | Британский офтальмологический центр | EYES",
+                "Симптомы заболевания глаз - причины и лечение | Клиника Новое Зрение",
             descriptionSEO:
-                "➔ Симптомы заболевания глаз: основные факторы возникновения и современные подходы к эффективному лечению ✅ Информация от ведущих офтальмологов Киева ✅ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                "Симптомы заболевания глаз: основные факторы возникновения и современные подходы к эффективному лечению ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
             title: "Симптоми захворювання очей",
             content: [
                 {

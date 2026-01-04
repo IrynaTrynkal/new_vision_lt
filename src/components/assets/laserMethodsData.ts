@@ -33,9 +33,9 @@ export const subpageLazerData: SubPageType[] = [
                 subtitle:
                     "Bekompromisis sprendimas profesionaliems sportininkams",
                 titleSEO:
-                    "SportLine LASEK - Лазерна корекція для спортсменів | Корекція зору спортсменам та для для активних людей - EYES ",
+                    "SportLine LASEK – lazerinė regos korekcija sportininkams | Regos korekcija sportuojantiems ir aktyviems žmonėms | Naujas Regėjimas",
                 descriptionSEO:
-                    "➔ SportLineLASEK - удосконалений метод лазерної корекції зору для спортсменів, військових та людей, які активно ведуть спосіб життя. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                    "SportLine LASEK – lazerinė regos korekcija sportininkams | Regos korekcija sportuojantiems ir aktyviems žmonėms. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 data: [
                     {
                         textTitle: "Maksimali judėjimo laisvė be optikos",
@@ -123,9 +123,9 @@ export const subpageLazerData: SubPageType[] = [
                 slug: "sportlife-lasik",
                 title: "SportLine LASEK",
                 titleSEO:
-                    "SportLine LASEK – Лазерная коррекция для спортсменов | Коррекция зрения спортсменам и активным людям – EYES",
+                    "SportLine LASEK – Лазерная коррекция для спортсменов | Коррекция зрения спортсменам и активным людям | Клиника Новое Зрение",
                 descriptionSEO:
-                    "➔ SportLineLASEK – усовершенствованный метод лазерной коррекции зрения для спортсменов, военных и людей с активным образом жизни. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                    "SportLineLASEK – усовершенствованный метод лазерной коррекции зрения для спортсменов, военных и людей с активным образом жизни. ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                 subtitle:
                     "Бескомпромиссное решение для профессиональных спортсменов",
                 data: [
@@ -216,9 +216,9 @@ export const subpageLazerData: SubPageType[] = [
                 slug: "sportlife-lasik",
                 title: "SportLine LASEK",
                 titleSEO:
-                    "SportLine LASEK – Laser Vision Correction for Athletes | Vision Correction for Athletes and Active People – EYES",
+                    "SportLine LASEK – Laser Vision Correction for Athletes | Vision Correction for Athletes and Active People | New Vision Clinic",
                 descriptionSEO:
-                    "➔ SportLineLASEK – an advanced laser vision correction method for athletes, military personnel, and people with an active lifestyle. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                    "SportLineLASEK – an advanced laser vision correction method for athletes, military personnel, and people with an active lifestyle. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                 subtitle: "A no-compromise solution for professional athletes",
                 data: [
                     {
@@ -318,9 +318,9 @@ export const subpageLazerData: SubPageType[] = [
                 subtitle:
                     "regėjimo korekcija nepadidinant ragenos audinių temperatūros",
                 titleSEO:
-                    "Холодна лазерна корекція iQ‑LASIK Oxygen 3D | Щадна лазерна корекція зору | EYES ",
+                    "Šaltoji lazerinė regos korekcija iQ-LASIK Oxygen 3D | Švelni lazerinė regos korekcija | Naujas Regėjimas ",
                 descriptionSEO:
-                    "➔ Інноваційний метод холодної лазерної корекції зору (iQ‑LASIK Oxygen 3D ): 3D‑моніторинг, відсутність термічного пошкодження рогівки, реабілітація за 1–2 дні. Без окулярів та лінз! ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                    "Šaltoji lazerinė regos korekcija iQ-LASIK Oxygen 3D | Švelni lazerinė regos korekcija ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 data: [
                     {
                         textTitle:
@@ -399,9 +399,9 @@ export const subpageLazerData: SubPageType[] = [
                 slug: "iq-lasik-oxygen-3d",
                 title: "IQ-LASIK Oxygen 3D",
                 titleSEO:
-                    "Холодная лазерная коррекция iQ-LASIK Oxygen 3D | Щадящая лазерная коррекция зрения | EYES",
+                    "Холодная лазерная коррекция iQ-LASIK Oxygen 3D | Щадящая лазерная коррекция зрения | Клиника Новое Зрение",
                 descriptionSEO:
-                    "➔ Инновационный метод холодной лазерной коррекции зрения (iQ-LASIK Oxygen 3D): 3D-мониторинг, отсутствие термического повреждения роговицы, реабилитация за 1–2 дня. Без очков и линз! ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                    "Инновационный метод холодной лазерной коррекции зрения (iQ-LASIK Oxygen 3D): 3D-мониторинг, отсутствие термического повреждения роговицы, реабилитация за 1–2 дня. Без очков и линз! ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                 subtitle: "коррекция без повышения температуры роговицы глаза",
                 data: [
                     {
@@ -481,9 +481,9 @@ export const subpageLazerData: SubPageType[] = [
                 slug: "iq-lasik-oxygen-3d",
                 title: "IQ-LASIK Oxygen 3D",
                 titleSEO:
-                    "Cold Laser Vision Correction iQ-LASIK Oxygen 3D | Gentle Laser Vision Correction | EYES",
+                    "Cold Laser Vision Correction iQ-LASIK Oxygen 3D | Gentle Laser Vision Correction | New Vision Clinic",
                 descriptionSEO:
-                    "➔ Innovative cold laser vision correction method (iQ-LASIK Oxygen 3D): 3D monitoring, no thermal damage to the cornea, recovery in 1–2 days. No glasses or lenses! ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                    "Innovative cold laser vision correction method (iQ-LASIK Oxygen 3D): 3D monitoring, no thermal damage to the cornea, recovery in 1–2 days. No glasses or lenses! ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                 subtitle:
                     "vision correction without increasing corneal tissue temperature",
                 data: [
@@ -572,9 +572,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-5-minutes",
                 title: "iq-5-minutes",
                 titleSEO:
-                    "iQ-5 MINUTES – itin greita kataraktos operacija per 5 minutes | Британський офтальмологічний центр",
+                    "iQ-5 MINUTES – itin greita kataraktos operacija per 5 minutes | Naujas Regėjimas",
                 descriptionSEO:
-                    "Nauja kataraktos šalinimo metodika naudojant dispersinius tirpalus – per 5 minutes! Minimalus ultragarso naudojimas, reabilitacija be streso. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                    "Nauja kataraktos šalinimo metodika naudojant dispersinius tirpalus – per 5 minutes! Minimalus ultragarso naudojimas, reabilitacija be streso. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 subtitle:
                     "Naujas kataraktos šalinimo metodas, naudojant disperguojamuosius tirpalus",
                 data: [
@@ -640,9 +640,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-5-minutes",
                 title: "iq-5-minutes",
                 titleSEO:
-                    "iQ-5 MINUTES – сверхбыстрая операция по удалению катаракты за 5 минут | Британский офтальмологический центр",
+                    "iQ-5 MINUTES – сверхбыстрая операция по удалению катаракты за 5 минут | Клиника Новое Зрение",
                 descriptionSEO:
-                    "➔ Новая методика удаления катаракты дисперсными растворами за 5 минут! Минимум ультразвука, восстановление без стресса. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                    "Новая методика удаления катаракты дисперсными растворами за 5 минут! Минимум ультразвука, восстановление без стресса. ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                 subtitle:
                     "Новая методика удаления катаракты с использованием дисперсионных растворов",
                 data: [
@@ -709,9 +709,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-5-minutes",
                 title: "iq-5-minutes",
                 titleSEO:
-                    "iQ-5 MINUTES – ultra-fast cataract surgery in 5 minutes | British Ophthalmology Centre",
+                    "iQ-5 MINUTES – ultra-fast cataract surgery in 5 minutes | New Vision Clinic",
                 descriptionSEO:
-                    "➔ New cataract removal technique using dispersive solutions in just 5 minutes! Minimal ultrasound, stress-free recovery. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                    "New cataract removal technique using dispersive solutions in just 5 minutes! Minimal ultrasound, stress-free recovery. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                 subtitle:
                     "A new cataract removal technique using dispersive solutions.",
                 data: [
@@ -783,9 +783,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-life-3d",
                 title: "IQ-Life 3D „Vandens srauto“ programa",
                 titleSEO:
-                    "IQ-Life 3D „Vandens srauto“ programa у Британському офтальмологічному центрі",
+                    "IQ-Life 3D „Vandens srauto“ programa | Naujas Regėjimas",
                 descriptionSEO:
-                    "➔ Видаліть катаракту за методикою iQ‑Life 3D «водний потік» – без ультразвуку, болю та ускладнень. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                    "IQ-Life 3D „Vandens srauto“ programa. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 subtitle: "korekcija nepadidinant akies ragenos temperatūros",
                 data: [
                     {
@@ -828,9 +828,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-life-3d-zhivoye-zreniye",
                 title: "Программа IQ-Life 3D «Водный поток»",
                 titleSEO:
-                    "Программа IQ-Life 3D «Водный поток» | Живое зрение в Британском офтальмологическом центре",
+                    "Программа IQ-Life 3D «Водный поток» | Живое зрение в Клинике Новое Зрение",
                 descriptionSEO:
-                    "➔ Удалите катаракту по методике iQ-Life 3D «водный поток» – без ультразвука, боли и осложнений. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                    "Удалите катаракту по методике iQ-Life 3D «водный поток» – без ультразвука, боли и осложнений. ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                 subtitle: "коррекция без повышения температуры роговицы глаза",
                 data: [
                     {
@@ -873,9 +873,9 @@ export const subpageCataractData: SubPageType[] = [
                 slug: "iq-life-3d-live-vision",
                 title: "IQ-Life 3D “Water Flow” Program",
                 titleSEO:
-                    "iQ-Life 3D “water flow” – ultrasound-free cataract removal | Natural vision at the British Ophthalmology Centre",
+                    "iQ-Life 3D “water flow” – ultrasound-free cataract removal | Natural vision | New Vision Clinic",
                 descriptionSEO:
-                    "➔ Remove cataracts using the iQ-Life 3D “water flow” method – no ultrasound, no pain, no complications. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                    "Remove cataracts using the iQ-Life 3D “water flow” method – no ultrasound, no pain, no complications. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                 subtitle: "correction without increasing corneal temperature",
                 data: [
                     {

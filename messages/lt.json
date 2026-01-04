@@ -333,8 +333,8 @@
         "servicesPrice": "nuo {price}"
     },
     "PatientsPage": {
-        "titleSEO": "Пацієнтам. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
-        "descriptionSEO": "➔ Пацієнтам. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
+        "titleSEO": "Informacija pacientams. Oftalmologijos paslaugos – akių ligų gydymas | Naujas Regėjimas",
+        "descriptionSEO": "Informacija pacientams. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
         "title": "Informacija \npacientams",
         "beforeProcedure": "prieš procedūrą:",
         "afterProcedure": "po procedūros:",
@@ -383,12 +383,12 @@
         "descriptionSEO": "Rayner GALAXY – tai naujas regėjimo standartas, prieinamas tik mūsų klinikoje. Pamirškite akinius ir lęšius! ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     },
     "ForentInstr": {
-        "titleSEO": "Для іногородніх пацієнтів | Naujas Regėjimas",
-        "descriptionSEO": "➔ Для іногородніх пацієнтів. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
+        "titleSEO": "Informacija pacientams iš kitų miestų | Naujas Regėjimas",
+        "descriptionSEO": "Informacija pacientams iš kitų miestų. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     },
     "Instructions": {
         "titleSEO": "{title} | Naujas Regėjimas",
-        "descriptionSEO": "{title}. Турбота про ваш зір на найвищому рівні. ✅ Найкращі офтальмологи Києва ✅ Комплексний підхід до діагностики та лікування зору 👍 Перевірений досвід і бездоганна репутація ☎️ 0 800 507 077"
+        "descriptionSEO": "{title}. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     },
     "PolicyPage": {
         "title": "Privatumo politika",
@@ -413,7 +413,7 @@
         "title": "Cookie politika (ES)"
     },
     "Kupono": {
-        "titleSEO": "_________ | Naujas Regėjimas",
-        "descriptionSEO": "_________. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
+        "titleSEO": "Dovanų kupono naudojimo taisyklės | Naujas Regėjimas",
+        "descriptionSEO": "Dovanų kupono naudojimo taisyklės. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija"
     }
 }
