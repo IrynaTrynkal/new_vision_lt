@@ -7,7 +7,7 @@ import { pricesPageType } from "./schemaTypes/singletons/pricePageType";
 // https://www.sanity.io/docs/structure-builder-cheat-sheet
 export const structure: StructureResolver = S =>
     S.list()
-        .title("Британський Центр")
+        .title("Новое Зрение")
         .items([
             S.listItem()
                 .title(pricesPageType.title!)

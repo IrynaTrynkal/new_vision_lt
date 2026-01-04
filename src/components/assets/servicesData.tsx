@@ -1837,8 +1837,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лікування синдрому сухого ока (ССО) методом MGX та IPL в Києві. IPL терапія сухого ока | EYES ",
-                        descriptionSEO: "",
+                            "Sausų akių sindromo gydymas | „Naujas regėjimas“ (Vilnius, Lietuva)",
+                        descriptionSEO:
+                            "Sausų akių sindromo gydymas ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -2145,8 +2146,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Dry Eye Syndrome (DES) treatment with MGX and IPL in Kyiv. IPL therapy for dry eyes | EYES",
-                        descriptionSEO: "",
+                            "Dry Eye Syndrome Treatment | New Vision Clinic",
+                        descriptionSEO:
+                            "Dry Eye Syndrome Treatment ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -2454,8 +2456,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лечение синдрома сухого глаза (ССГ) методом MGX и IPL в Киеве. IPL-терапия сухого глаза | EYES",
-                        descriptionSEO: "",
+                            "Лечение синдрома сухого глаза | Центр проверки зрения - Клиника Новое Зрение",
+                        descriptionSEO:
+                            "Лечение синдрома сухого глаза ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -5532,9 +5535,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лазерне лікування захворювань очей в Києві. Лазерная терапия зрения | EYES ",
+                            "Lazerinis akių ligų gydymas | „Naujas regėjimas“ (Vilnius, Lietuva)",
                         descriptionSEO:
-                            "➔ Лазерне лікування зору (захворювань очей) в Києві. Лазерне лікування, терапія при глаукомі, видалення катаракти лазером - Британський офтальмологічний центр. ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "Lazerinis akių ligų gydymas. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
@@ -5730,9 +5733,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Laser Treatment of Eye Diseases in Kyiv. Vision Laser Therapy | EYES",
+                            "Laser Treatment of Eye Diseases | New Vision Clinic",
                         descriptionSEO:
-                            "➔ Laser vision treatment (eye diseases) in Kyiv. Laser therapy, glaucoma treatment, cataract removal with laser - 🇺🇦🇬🇧 British Ophthalmology Center. ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Laser Treatment of Eye Diseases. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
@@ -5928,9 +5931,9 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лазерное лечение заболеваний глаз в Киеве. Лазерная терапия зрения | EYES",
+                            "Лазерное лечение заболеваний глаз | Центр проверки зрения - Клиника Новое Зрение",
                         descriptionSEO:
-                            "➔ Лазерное лечение зрения (заболеваний глаз) в Киеве. Лазерная терапия, лечение глаукомы, удаление катаракты лазером - 🇺🇦🇬🇧 Британский офтальмологический центр. ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Лазерное лечение зрения (заболеваний глаз) в Киеве. Лазерная терапия, лечение глаукомы, удаление катаракты лазером - ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
@@ -6129,16 +6132,16 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лікування глаукоми у Києві (операція з видалення глаукоми). Хірургічне лікування глаукоми | EYES ",
+                            "Glaukomos diagnostika ir gydymas | „Naujas regėjimas“ (Vilnius, Lietuva)",
                         descriptionSEO:
-                            "Хірургічні методи лікування глаукоми (операція на глаукому) - 🇺🇦🇬🇧 Британський офтальмологічний центр. ✅ Довірте операцію при глаукомі професіоналам! ➡️ Сучасна діагностика та ефективне лікування 👍 Перевірений досвід та бездоганна репутація ☎️ 0 800 507 077",
+                            "Glaukomos diagnostika ir gydymas ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                     },
                 },
                 {
                     type: "hero",
                     data: {
                         title: "Glaukomos diagnostika ir gydymas",
-                        text: "Сучасні малоінвазивні та класичні методи для стабілізації тиску й збереження зору.",
+                        text: "Diagnostika ir glaukomos gydymas akių lašais klinikoje „Naujas regėjimas“ (Vilnius, Lietuva): akispūdžio kontrolė ir regos nervo apsauga.",
                     },
                 },
                 {
@@ -6394,16 +6397,16 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Glaucoma Treatment in Kyiv (Glaucoma Surgery). Surgical Glaucoma Treatment | EYES",
+                            "Glaucoma Diagnosis and Treatment | New Vision Clinic",
                         descriptionSEO:
-                            "Surgical methods for glaucoma treatment (glaucoma surgery) - 🇺🇦🇬🇧 British Ophthalmology Center. ✅ Trust glaucoma surgery to the professionals! ➡️ Modern diagnostics and effective treatment 👍 Proven experience and impeccable reputation ☎️ 0 800 507 077",
+                            "Glaucoma Diagnosis and Treatment - ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time",
                     },
                 },
                 {
                     type: "hero",
                     data: {
                         title: "Glaucoma Diagnosis and Treatment",
-                        text: "Современные малоинвазивные и классические методы для стабилизации давления и сохранения зрения.",
+                        text: "Glaucoma diagnosis and treatment with eye drops at the “New Vision” clinic (Vilnius, Lithuania): intraocular pressure control and optic nerve protection.",
                     },
                 },
                 {
@@ -6660,16 +6663,16 @@ export const servicesData: ServicesProps[] = [
                     type: "meta",
                     data: {
                         titleSEO:
-                            "Лечение глаукомы в Киеве (операция по удалению глаукомы). Хирургическое лечение глаукомы | EYES",
+                            "Диагностика и лечение глаукомы | Центр проверки зрения - Клиника Новое Зрение",
                         descriptionSEO:
-                            "Хирургические методы лечения глаукомы (операция на глаукому) - 🇺🇦🇬🇧 Британский офтальмологический центр. ✅ Доверьте операцию при глаукоме профессионалам! ➡️ Современная диагностика и эффективное лечение 👍 Проверенный опыт и безупречная репутация ☎️ 0 800 507 077",
+                            "Диагностика и лечение глаукомы - ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
                     type: "hero",
                     data: {
                         title: "Диагностика и лечение глаукомы",
-                        text: "Современные малоинвазивные и классические методы для стабилизации давления и сохранения зрения.",
+                        text: "Диагностика и лечение глаукомы каплями в клинике «Новое зрение» (Вильнюс, Литва): контроль внутриглазного давления и защита зрительного нерва.",
                     },
                 },
                 {
@@ -6926,52 +6929,52 @@ export const raynerAdvantageDataMob: {
     ru: AdvantageServiceSectionProps;
 } = {
     lt: {
-        title: "Переваги встановлення Rayner GALAXY в Британському Офтальмологічному Центрі",
-        text: "Ми пропонуємо повний супровід пацієнта на всіх етапах — від діагностики до післяопераційного спостереження",
+        title: "Rayner GALAXY implantavimo privalumai akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva)",
+        text: "Užtikriname visapusišką paciento priežiūrą visais etapais – nuo diagnostikos iki pooperacinio stebėjimo",
         list: [
             {
-                title: "ексклюзивними постачальниками лінз Rayner GALAXY",
-                text: "Ця технологія доступна в Україні лише у нашій клініці",
+                title: "Išskirtiniai Rayner GALAXY lęšių tiekėjai",
+                text: "Ši technologija Lietuvoje prieinama akių klinikoje „Naujas regėjimas“",
             },
             {
-                title: "Новітнє обладнання",
-                text: "Обладнання та операційні зали, що відповідають міжнародним стандартам",
+                title: "Naujausia įranga",
+                text: "Įranga ir operacinės, atitinkančios tarptautinius standartus",
             },
             {
-                title: "Індивідуальний підхід",
-                text: "Точна діагностика, підбір ІОЛ, контроль результату",
+                title: "Individualus požiūris",
+                text: "Tiksli diagnostika, IOL parinkimas ir rezultato kontrolė.",
             },
             {
-                title: "Досвідчені хірурги",
-                text: "Сертифіковані для роботи з сучасними інтраокулярними лінзами",
+                title: "Patyrę chirurgai",
+                text: "Sertifikuoti dirbti su šiuolaikiniais intraokuliniais lęšiais",
             },
             { imageOnly: "/images/rayner-box.png" },
             {
-                title: "100% безпеки",
-                text: "Максимальна безпека та комфорт під час кожного етапу лікування",
+                title: "100% saugumas",
+                text: "Maksimalus saugumas ir komfortas kiekviename gydymo etape.",
             },
             {
-                title: "Rayner GALAXY вже доступна до встановлення у нашій клініці",
+                title: "Rayner GALAXY jau galima implantuoti mūsų klinikoje",
                 text: "",
                 bgTransparent: true,
             },
         ],
     },
     en: {
-        title: "Advantages of Rayner GALAXY implantation at the British Ophthalmology Centre",
-        text: "We provide full patient support at every stage — from diagnosis to postoperative care",
+        title: "Benefits of Rayner GALAXY implantation at the “New Vision” Eye Clinic (Vilnius, Lithuania)",
+        text: "We provide full patient support at every stage—from diagnostics to post‑operative follow‑up",
         list: [
             {
-                title: "Exclusive suppliers of Rayner GALAXY lenses",
-                text: "This technology is available in Ukraine only at our clinic",
+                title: "Exclusive Rayner GALAXY lens suppliers",
+                text: "In Lithuania, this technology is available at the “New Vision” Eye Clinic.",
             },
             {
-                title: "State-of-the-art equipment",
-                text: "Facilities and operating rooms that meet international standards",
+                title: "State‑of‑the‑art equipment",
+                text: "Equipment and operating theatres that meet international standards.",
             },
             {
-                title: "Individual approach",
-                text: "Accurate diagnostics, IOL selection, and results monitoring",
+                title: "Personalized approach",
+                text: "Accurate diagnostics, IOL selection, and outcome monitoring.",
             },
             {
                 title: "Experienced surgeons",
@@ -6983,24 +6986,25 @@ export const raynerAdvantageDataMob: {
                 text: "Maximum safety and comfort at every stage of treatment",
             },
             {
-                title: "Rayner GALAXY is now available for implantation in our clinic",
+                title: "Rayner GALAXY is now available for implantation at our clinic",
                 text: "",
                 bgTransparent: true,
             },
         ],
     },
     ru: {
-        title: "Преимущества установки Rayner GALAXY в Британском Офтальмологическом Центре",
+        title: "Преимущества установки Rayner GALAXY в клинике «Новое зрение» (Вильнюс, Литва)",
         text: "Мы обеспечиваем полное сопровождение пациента на всех этапах — от диагностики до послеоперационного наблюдения",
         list: [
             {
                 title: "Эксклюзивные поставщики линз Rayner GALAXY",
-                text: "Эта технология доступна в Украине только в нашей клинике",
+                text: "Эта технология доступна в Литве в клинике «Новое зрение»",
             },
             {
                 title: "Новейшее оборудование",
                 text: "Оборудование и операционные залы, соответствующие международным стандартам",
             },
+            { videoOnly: "/videos/rayner-spiral.mp4" },
             {
                 title: "Индивидуальный подход",
                 text: "Точная диагностика, подбор ИОЛ и контроль результата",

@@ -16,7 +16,7 @@ export const AboutMain = () => {
                 <div className="tab:hidden mx-auto mb-6 aspect-square max-w-[320px] overflow-hidden rounded-full">
                     <Image
                         src="/images/main-about.jpg"
-                        alt="photo of the British Eye Center building"
+                        alt="photo of the building"
                         width={434}
                         height={434}
                         className=" "
@@ -31,7 +31,7 @@ export const AboutMain = () => {
                     <div className="pc:max-w-[434px] tab:max-w-[290px] mx-auto aspect-square w-full max-w-[320px] overflow-hidden rounded-full">
                         <Image
                             src="/images/main-about.jpg"
-                            alt="photo of the British Eye Center building"
+                            alt="photo of the building"
                             width={434}
                             height={434}
                             className="h-full w-full object-cover"
@@ -69,7 +69,7 @@ export const AboutMain = () => {
                             </ul>
                             <Image
                                 src="/images/main-about-office.jpg"
-                                alt="British Ophthalmological Center reception"
+                                alt="Ophthalmological Center reception"
                                 width={900}
                                 height={600}
                                 className="aspect-[207/104] object-cover"

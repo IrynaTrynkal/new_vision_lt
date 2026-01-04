@@ -684,8 +684,8 @@ export const aboutClinicPageSchema = ({
         },
         primaryImageOfPage: {
             "@type": "ImageObject",
-            url: "https://eyes.lt/images/about-hero.jpg",
-            contentUrl: "https://eyes.lt/images/about-hero.jpg",
+            url: "https://eyes.lt/images/about-hero1.jpg",
+            contentUrl: "https://eyes.lt/images/about-hero1.jpg",
         },
         publisher: {
             "@type": "MedicalClinic",
