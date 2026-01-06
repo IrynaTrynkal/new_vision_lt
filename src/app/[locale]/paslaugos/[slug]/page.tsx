@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Script from "next/script";
 import { getTranslations } from "next-intl/server";
 
@@ -80,10 +80,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
         getTranslations("Menu"),
         getTranslations("HomePage"),
     ]);
+    const decodedSlug = decodeURIComponent(slug);
     if (slug === "lazerine-akiu-korekcija" || slug === "kataraktos-operacija") {
         notFound();
     }
-
+    if (decodedSlug === "хирургия-прозрачного-хрусталика") {
+        redirect("/ru/uslugi/khirurgiia-prozrachnogo-khrustalika");
+    }
     const displayedService: ServicesListProps | undefined = servicesList.find(
         service => service.slug[locale as LocaleType] === slug
     );
