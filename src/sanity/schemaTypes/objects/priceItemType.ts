@@ -13,46 +13,46 @@ export const priceItemType = defineType({
     fields: [
         defineField({
             name: "serviceName",
-            title: "Назва послуги",
+            title: "Название услуги",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "price",
-            title: "Звичайна вартість",
+            title: "Обычная стоимость",
             type: "number",
         }),
         defineField({
             name: "lowerPriceLimit",
-            title: "Ціна «від»?",
+            title: "Цена «от»?",
             type: "boolean",
             initialValue: false,
         }),
         defineField({
             name: "discountPrice",
-            title: "Ціна зі знижкою",
+            title: "Цена со скидкой",
             type: "number",
         }),
         defineField({
             name: "lowerDiscountLimit",
-            title: "Знижка «від»?",
+            title: "Скидка от?",
             type: "boolean",
             initialValue: false,
         }),
         defineField({
             name: "specialPrice",
-            title: "Чи потрібен зеленим підпис що це Спеціальна ціна?",
+            title: "Нужна ли зеленая подпись что это Специальная цена?",
             type: "boolean",
             initialValue: false,
         }),
         defineField({
             name: "new",
-            title: "Чи потрібен сірим підпис що це Нові технології?",
+            title: "Нужна ли серая подпись что это Новые технологии?",
             type: "boolean",
             initialValue: false,
         }),
         defineField({
             name: "serviceDescription",
-            title: "Опис послуги (за необхідністю)",
+            title: "Описание услуги (при необходимости)",
             type: "internationalizedArrayPortableText",
         }),
     ],
@@ -72,7 +72,7 @@ export const priceItemType = defineType({
             } else if (price) {
                 subtitle = `${price}`;
             } else {
-                subtitle = "Без ціни";
+                subtitle = "Без цены";
             }
 
             return {

@@ -1,7 +1,7 @@
 import { FcPaid } from "react-icons/fc";
 import { defineArrayMember, defineField } from "sanity";
 
-const TITLE = "Акції";
+const TITLE = "Акции";
 
 export const offersPageType = defineField({
     name: "offersPage",

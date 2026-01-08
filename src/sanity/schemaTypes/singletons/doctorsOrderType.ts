@@ -3,7 +3,7 @@ import { defineType } from "sanity";
 
 const doctorsOrderType = defineType({
     name: "doctorsOrder",
-    title: "Порядок лікарів",
+    title: "Порядок рендера докторов",
     type: "document",
     icon: FcDatabase,
     fields: [
@@ -11,11 +11,11 @@ const doctorsOrderType = defineType({
             name: "title",
             title: "Назва",
             type: "string",
-            initialValue: "Порядок рендеру лікарів",
+            initialValue: "Порядок рендера докторов",
         },
         {
             name: "doctors",
-            title: "Лікарі",
+            title: "Доктора",
             type: "array",
             of: [
                 {

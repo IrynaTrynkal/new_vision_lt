@@ -1,7 +1,7 @@
 import { FcDatabase } from "react-icons/fc";
 import { defineField } from "sanity";
 
-const TITLE = "Порядок рендеру лікарів";
+const TITLE = "Порядок рендера докторов";
 
 export const orderDoctorsType = defineField({
     name: "orderDoctors",

@@ -1,6 +1,6 @@
 import { defineField, defineType } from "sanity";
 
-const TITLE = "Розгорнутий опис знижки";
+const TITLE = "Развернутое описание скидки";
 
 export const discountFullDataType = defineType({
     name: "discountFullData",
@@ -13,30 +13,30 @@ export const discountFullDataType = defineType({
     fields: [
         defineField({
             name: "fractionUp",
-            title: "Верхній текст для компонента-дріб",
+            title: "Верхний текст для компонента - дробь",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "fractionDown",
-            title: "Нижній текст для компонента-дріб",
+            title: "Нижний текст для компонента - дробь",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "textLeft",
-            title: "Невеликий текст зліва під заголовком",
-            description: "Рекомендовано до 160 символів з пробілами включно.",
+            title: "Небольшой текст слева под названием",
+            description: "Рекомендовано до 160 символов с пробелами.",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "textRight",
-            title: "Короткий текст справа під заголовком",
+            title: "Краткий текст справа под названием",
             description:
-                "Зазвичай список Що входить у знижку або Що покрищить послуга. Рекомендовано до 6 пунктів та заголовок.",
+                "Обычно список того Что входит в скидку или Что улучшит услуга. Рекомендуется до 6 пунктов и заголовок.",
             type: "internationalizedArrayPortableText",
         }),
         defineField({
             name: "discountFullText",
-            title: "Повний опис знижки",
+            title: "Полное описание скидки",
             type: "internationalizedArrayPortableTextAll",
         }),
     ],
