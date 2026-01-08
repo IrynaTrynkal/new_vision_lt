@@ -11,6 +11,7 @@ export const pricesPageType = defineField({
     fields: [
         defineField({
             name: "priceBlocks",
+            title: "Блоки услуг",
             type: "array",
             of: [
                 defineArrayMember({
