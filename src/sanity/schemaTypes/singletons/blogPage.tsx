@@ -8,14 +8,14 @@ import { validateSlug } from "@/sanity/utils/validateSluge";
 
 export const blogPage = defineType({
     name: "blog",
-    title: "Новини",
+    title: "Новости",
     type: "document",
     icon: FcAdvertising,
     fields: [
         defineField({
             name: "title",
             type: "internationalizedArrayString",
-            title: "Заголовок статті",
+            title: "Заголовок статьи",
             validation: Rule => Rule.required(),
         }),
         defineField({
@@ -33,12 +33,12 @@ export const blogPage = defineType({
         defineField({
             name: "service",
             type: "servicesKey",
-            title: "До якої послуги відноситься стаття?",
+            title: "К какой услуге или теме относится статья?",
         }),
         defineField({
             name: "publication",
             type: "date",
-            title: "Дата публікації",
+            title: "Дата публикации",
             options: {
                 dateFormat: "DD.MM.YYYY",
             },
@@ -46,23 +46,24 @@ export const blogPage = defineType({
         defineField({
             name: "image",
             type: "image",
-            title: "Головна картинка статті для обкладинки",
+            title: "Главная картинка статьи для обложки",
             options: {
                 hotspot: true,
             },
-            description: "Картинка буде зверху зафарбована зеленим автоматично",
+            description:
+                "Картинка будет автоматически затемнена зеленым градиентом поверх",
         }),
         defineField({
             name: "shortText",
             type: "internationalizedArrayString",
-            title: "Короткий текст для анонсу статті",
+            title: "Краткий текст для анонса статьи",
             description:
-                "Цей текст відображатиметься на картці статті. Рекомендується не більше 140 символів (зайве, відріжеться) і щоб це був текст першого абзацу статті.",
+                "Этот текст будет отображен на картке статьи. Рекомендуется не больше 140 символов (лишнее будет отрезано) и чтобы это был первый абзац/предложение статьи.",
         }),
         defineField({
             name: "content",
             type: "internationalizedArrayPortableTextAll",
-            title: "Сама стаття",
+            title: "Сама статья",
         }),
     ],
     preview: {

@@ -4,7 +4,7 @@ import { getTitleFromIntArraysString } from "@/sanity/utils/getTitle";
 
 export const discountShortDataType = defineType({
     name: "discountShortData",
-    title: "Короткі дані про знижку",
+    title: "Краткие данные о скидке",
     type: "object",
     options: {
         collapsed: true,
@@ -14,38 +14,38 @@ export const discountShortDataType = defineType({
         defineField({
             name: "premium",
             type: "boolean",
-            title: "Чи є ця знижка преміальною?",
+            title: "Является ли эта скидка премиальной?",
             initialValue: false,
         }),
         defineField({
             name: "premiumText",
-            title: "Текст преміальної знижки",
-            description: "Рекомендовано до 60 символів з пробілами включно.",
+            title: "Текст премиальной скидки",
+            description: "Рекомендовано до 60 символов с пробелами.",
             type: "internationalizedArrayString",
             hidden: ({ parent }) => !parent?.premium,
         }),
         defineField({
             name: "shortText",
-            title: "Короткий текст знижки",
+            title: "Краткий текст скидки",
             description:
-                "Буде відображатись на картці на головній сторінці. Рекомендовано до 100 символів з пробілами включно.",
+                "Отображается на карте на главной странице. Рекомендуется до 100 символов с пробелами включительно.",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "period",
-            title: "Період дії знижки",
+            title: "Период действия скидки",
             description:
-                "Рекомендовано писати у форматі: «DD.MM.YYYY». «До» додаватиметься автоматично. Якщо знижка безстрокова, залиште це поле порожнім.",
+                "Рекомендуется писать в формате: «DD.MM.YYYY». «До» будет добавляться автоматически. Если скидка бессрочна, оставьте это поле пустым.",
             type: "string",
         }),
         defineField({
             name: "icon",
-            title: "Іконка/логотип до послуги зі знижкою",
+            title: "Иконка/логотип к услуге",
             type: "image",
         }),
         defineField({
             name: "bgimage",
-            title: "Фонове зображення для картки знижки",
+            title: "Фоновое изображение для карточки скидки",
             type: "image",
             options: {
                 hotspot: true,
@@ -53,22 +53,22 @@ export const discountShortDataType = defineType({
         }),
         defineField({
             name: "darken",
-            title: "Чи потрібно затемнити картинку?",
+            title: "Нужно ли затемнить картинку?",
             description:
-                "Якщо картинка світла, текст на ній буде не видно. Рекомендується затемнити.",
+                "Если картинка светлая, текст на ней будет не виден. Рекомендуется затемнить.",
             type: "boolean",
             initialValue: false,
         }),
         defineField({
             name: "cost",
-            title: "Вартість послуги зі знижкою, яка відображатиметься в картці",
+            title: "Стоимость услуги со скидкой, которая отображается на картке",
             type: "number",
         }),
         defineField({
             name: "learnMore",
-            title: "Кнопка 'Дізнатись більше'?",
+            title: "Кнопка 'Узнать больше'?",
             description:
-                "Якщо увімкнено, на картці знижки на Головній сторінці буде відображатися кнопка 'Дізнатись більше' замість 'Записатись', яка вестиме на сторінку з усіма Акціями.",
+                "Если включено, на карточке скидки на Главной странице будет отображаться кнопка 'Узнать больше' вместо 'Записаться', которая будет вести на страницу со всеми Акциями.",
             type: "boolean",
             initialValue: false,
         }),

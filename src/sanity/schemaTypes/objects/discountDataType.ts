@@ -5,7 +5,7 @@ import { getTitleFromIntArraysString } from "@/sanity/utils/getTitle";
 
 export const discountDataType = defineType({
     name: "discountData",
-    title: "Акція",
+    title: "Акция",
     type: "object",
     icon: DiscountIcon,
     options: {
@@ -15,14 +15,14 @@ export const discountDataType = defineType({
     fields: [
         defineField({
             name: "servicesKey",
-            title: "Яка послуга?",
+            title: "Какая услуга?",
             type: "servicesKey",
         }),
         defineField({
             name: "title",
-            title: "Заголовок знижки",
+            title: "Заголовок картки скидки",
             description:
-                "Рекомендовано до 45 символів з пробілами включно, а якщо акція преміум з додатковим текстом, то до 30.",
+                "Рекомендовано до 45 символов с пробелами включительно, а если акция премиум с дополнительным текстом, то до 30.",
             type: "internationalizedArrayString",
         }),
         defineField({

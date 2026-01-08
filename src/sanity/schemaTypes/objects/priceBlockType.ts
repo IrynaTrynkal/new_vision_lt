@@ -4,7 +4,7 @@ import { getTitleFromIntArraysString } from "@/sanity/utils/getTitle";
 
 export const priceBlockType = defineType({
     name: "priceBlock",
-    title: "Послуга і вартість",
+    title: "Услуга и стоимость",
     type: "object",
     options: {
         collapsed: true,
@@ -13,14 +13,14 @@ export const priceBlockType = defineType({
     fields: [
         defineField({
             name: "servicesKey",
-            title: "Яка послуга?",
+            title: "Какая услуга?",
             type: "servicesKey",
         }),
         defineField({
             name: "icon",
-            title: "Іконка / зображення блоку",
+            title: "Иконка / изображение блока",
             description:
-                "Завантаж SVG, PNG або JPG — відображатиметься в превʼю.",
+                "Загрузите SVG, PNG или JPG — будет отображается в админке в превью для визуального комфорта.",
             type: "image",
             options: {
                 hotspot: true,
@@ -38,19 +38,19 @@ export const priceBlockType = defineType({
         }),
         defineField({
             name: "linkToPage",
-            title: "Посилання на сторінку послуги (українська версія)",
+            title: "Ссылки на страницу услуги (литовская версия)",
             description:
-                "Має починатись з /paslaugos. Посилання краще скопіювати в адресному рядку в браузері.",
+                "Должен начинаться с /paslaugos. Ссылку на страницу лучше скопировать в адресной строке в браузере.",
             type: "string",
         }),
         defineField({
             name: "servicesName",
-            title: "Назва блоку послуг",
+            title: "Название блока услуг",
             type: "internationalizedArrayString",
         }),
         defineField({
             name: "servicesDescription",
-            title: "Додатковий опис до блоку послуги (за необхідності)",
+            title: "Дополнительное описание к блоку услуги (при необходимости)",
             type: "internationalizedArrayPortableText",
         }),
     ],

@@ -21,22 +21,14 @@ export type DepartmentsKey =
     | "ophthalmic-surgeons";
 
 export type ServicesKey =
-    | "lazerine-akiu-korekcija"
-    | "akiu-patikrinimas"
-    | "kataraktos-operacija"
     | "vaiku-akiu-patikra"
+    | "akiu-patikrinimas"
+    | "lazerine-akiu-korekcija"
+    | "lazerinis-akiu-ligu-gydymas"
     | "glaukomos-gydymas"
-    | "skaidraus-lesio-operacija"
-    | "pratimai-akims"
-    | "kontaktiniai-l\u0119\u0161iai"
-    | "regos-profilaktika"
-    | "\u012Fdomyb\u0117s-apie-akis-ir-reg\u0105"
-    | "akiniai"
-    | "aki\u0173-ligos-ir-traumos"
-    | "informacija"
-    | "rega-ir-am\u017Eius"
-    | "rega-ir-mityba"
-    | "regos-gydymas";
+    | "kataraktos-operacija"
+    | "dry-eye-syndrome-treatment"
+    | "skaidraus-lesio-operacija";
 
 export type PortableTextAll = Array<
     | {
@@ -334,11 +326,6 @@ export type Doctor = {
         } & InternationalizedArrayStringValue
     >;
     slug?: Slug;
-    departments?: Array<
-        {
-            _key: string;
-        } & DepartmentsKey
-    >;
     services?: Array<
         {
             _key: string;
@@ -694,11 +681,7 @@ export type OffersShortQueryResult = Array<{
 export type DoctorsListQueryResult = Array<{
     name: string | null;
     slug: string | null;
-    departments: Array<
-        {
-            _key: string;
-        } & DepartmentsKey
-    > | null;
+    departments: null;
     services: Array<
         {
             _key: string;
@@ -730,11 +713,7 @@ export type DoctorsListQueryResult = Array<{
 export type DoctorQueryResult = {
     name: string | null;
     slug: string | null;
-    departments: Array<
-        {
-            _key: string;
-        } & DepartmentsKey
-    > | null;
+    departments: null;
     services: Array<
         {
             _key: string;
@@ -800,11 +779,7 @@ export type DoctorsOrderQueryResult = Array<{
     _id: string;
     name: string | null;
     slug: string | null;
-    departments: Array<
-        {
-            _key: string;
-        } & DepartmentsKey
-    > | null;
+    departments: null;
     services: Array<
         {
             _key: string;

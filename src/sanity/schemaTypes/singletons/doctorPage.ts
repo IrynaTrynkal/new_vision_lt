@@ -8,14 +8,14 @@ import { validateSlug } from "@/sanity/utils/validateSluge";
 
 export const doctorPage = defineType({
     name: "doctor",
-    title: "Лікарі",
+    title: "Доктора",
     type: "document",
     icon: FcIdea,
     fields: [
         defineField({
             name: "name",
             type: "internationalizedArrayString",
-            title: "Ім'я лікаря",
+            title: "Имя доктора",
             validation: Rule => Rule.required(),
         }),
         defineField({
@@ -31,32 +31,24 @@ export const doctorPage = defineType({
         }),
 
         defineField({
-            name: "departments",
-            type: "array",
-            title: "До яких відділів відноситься лікар?",
-            of: [{ type: "departmentsKey" }],
-            description:
-                "Цей список лише для фільтрації, відображатись на сайті не буде, порядок не важливий",
-        }),
-        defineField({
             name: "services",
             type: "array",
-            title: "Які послуги надає лікар?",
+            title: "Какие услуги предоставляет доктор?",
             of: [{ type: "servicesKey" }],
             description:
-                "Цей список лише для фільтрації, відображатись на сайті не буде, порядок не важливий",
+                "Этот список только для фильтрации по услугам, порядок не важен",
         }),
         defineField({
             name: "position",
             type: "internationalizedArrayPortableText",
-            title: "Які посади займає лікар?",
+            title: "Какую должность занимает доктор?",
             description:
-                "Як буде написано, так і відобразиться на сайті. Наприклад: 'Головний лікар', 'Лікар-офтальмолог вищої категорії', 'Лікар-сурдолог вищої категорії' тощо.",
+                "Как здесь будет написано, так и будет видно на сайте.",
         }),
         defineField({
             name: "photo",
             type: "image",
-            title: "Фото лікаря",
+            title: "Фото доктора",
             options: {
                 hotspot: true,
             },
@@ -64,41 +56,39 @@ export const doctorPage = defineType({
         defineField({
             name: "experience",
             type: "string",
-            title: "Стаж роботи",
+            title: "Стаж роботы",
             description:
-                "В цьому полі вкажіть лише цифри, наприклад: '20.10.2012' або '2012'. Текст 'Стаж роботи з ..... року' буде додаватися автоматично.",
+                "В этом поле укажите только цифры, например: '20.10.2012' или '2012'. Текст 'Стаж роботы с ..... года' будет дописан автоматически.",
         }),
         defineField({
             name: "specialization",
             type: "internationalizedArrayPortableText",
-            title: "Яка спеціалізація лікар?",
-            description:
-                "Як буде написано, так і відобразиться на сайті. Наприклад: 'рефракційна хірургія;', 'хірургічне лікування аномалії рефракції — короткозорості , астигматизму, далекозорості;' тощо.",
+            title: "Какая специализация доктора?",
         }),
         defineField({
             name: "education",
             type: "internationalizedArrayPortableText",
-            title: "Освіта лікаря",
+            title: "Образование доктора",
         }),
         defineField({
             name: "activity",
             type: "internationalizedArrayPortableText",
-            title: "Професійна діяльність",
+            title: "Професиональная деятольность",
         }),
         defineField({
             name: "training",
             type: "internationalizedArrayPortableText",
-            title: "Підвищення кваліфікації",
+            title: "Повышение квалификации",
         }),
         defineField({
             name: "conferences",
             type: "internationalizedArrayPortableText",
-            title: "Участь в міжнародних та всеукраїнських конференціях",
+            title: "Участие в конференциях",
         }),
         defineField({
             name: "about",
             type: "internationalizedArrayPortableTextAll",
-            title: "Про лікаря",
+            title: "Дополнительная информация о докторе",
         }),
     ],
     preview: {

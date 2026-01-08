@@ -36,7 +36,7 @@
             "of": [
                 {
                     "type": "string",
-                    "value": "lazerine-akiu-korekcija"
+                    "value": "vaiku-akiu-patikra"
                 },
                 {
                     "type": "string",
@@ -44,15 +44,11 @@
                 },
                 {
                     "type": "string",
-                    "value": "kataraktos-operacija"
+                    "value": "lazerine-akiu-korekcija"
                 },
                 {
                     "type": "string",
-                    "value": "vaiku-akiu-patikra"
-                },
-                {
-                    "type": "string",
-                    "value": "keratokonuso-gydymas"
+                    "value": "lazerinis-akiu-ligu-gydymas"
                 },
                 {
                     "type": "string",
@@ -60,47 +56,15 @@
                 },
                 {
                     "type": "string",
+                    "value": "kataraktos-operacija"
+                },
+                {
+                    "type": "string",
+                    "value": "dry-eye-syndrome-treatment"
+                },
+                {
+                    "type": "string",
                     "value": "skaidraus-lesio-operacija"
-                },
-                {
-                    "type": "string",
-                    "value": "pratimai-akims"
-                },
-                {
-                    "type": "string",
-                    "value": "kontaktiniai-lęšiai"
-                },
-                {
-                    "type": "string",
-                    "value": "regos-profilaktika"
-                },
-                {
-                    "type": "string",
-                    "value": "įdomybės-apie-akis-ir-regą"
-                },
-                {
-                    "type": "string",
-                    "value": "akiniai"
-                },
-                {
-                    "type": "string",
-                    "value": "akių-ligos-ir-traumos"
-                },
-                {
-                    "type": "string",
-                    "value": "informacija"
-                },
-                {
-                    "type": "string",
-                    "value": "rega-ir-amžius"
-                },
-                {
-                    "type": "string",
-                    "value": "rega-ir-mityba"
-                },
-                {
-                    "type": "string",
-                    "value": "regos-gydymas"
                 }
             ]
         }
@@ -1744,28 +1708,6 @@
                 "value": {
                     "type": "inline",
                     "name": "slug"
-                },
-                "optional": true
-            },
-            "departments": {
-                "type": "objectAttribute",
-                "value": {
-                    "type": "array",
-                    "of": {
-                        "type": "object",
-                        "attributes": {
-                            "_key": {
-                                "type": "objectAttribute",
-                                "value": {
-                                    "type": "string"
-                                }
-                            }
-                        },
-                        "rest": {
-                            "type": "inline",
-                            "name": "departmentsKey"
-                        }
-                    }
                 },
                 "optional": true
             },
