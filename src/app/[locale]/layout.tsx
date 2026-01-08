@@ -1,5 +1,4 @@
 import "./globals.css";
-import "./wbinotel.css";
 
 import { Arimo, Oswald } from "next/font/google";
 import { notFound } from "next/navigation";

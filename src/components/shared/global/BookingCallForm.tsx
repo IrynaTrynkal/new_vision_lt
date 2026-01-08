@@ -1,7 +1,6 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { useRef, useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
+import { useState } from "react";
 
 import { FormInModalProps } from "@/types/modalProps";
 
@@ -15,15 +14,12 @@ export const BookingCallForm = ({
     notificationHandler,
     className,
 }: FormInModalProps) => {
-    const recaptchaRef = useRef<ReCAPTCHA>(null);
-
     const t = useTranslations("Form");
 
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
-        title: "Перезвоніть мені",
-        recaptchaToken: "",
+        title: "Форма связи - Перезвоните мне",
     });
     const [errors, setErrors] = useState({
         name: "",
@@ -60,11 +56,27 @@ export const BookingCallForm = ({
     };
 
     const onSendData = async (data: typeof formData) => {
-        await fetch("/api/contact", {
+        const res = await fetch("/api/googleSheets", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),
         });
+
+        const result = await res.json();
+
+        if (!res.ok || !result.success) {
+            throw new Error(result?.error || "Send failed");
+        }
+
+        fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data),
+        }).catch(err => {
+            console.warn("Email skipped:", err);
+        });
+
+        return result;
     };
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -72,17 +84,8 @@ export const BookingCallForm = ({
         if (!validate()) return;
 
         try {
-            const token = await recaptchaRef.current?.executeAsync();
-            recaptchaRef.current?.reset();
-            if (!token) {
-                console.error("Recaptcha token missing");
-                setLoading(false);
-                return;
-            }
             setLoading(true);
-            await notificationHandler(() =>
-                onSendData({ ...formData, recaptchaToken: token })
-            );
+            await notificationHandler(() => onSendData({ ...formData }));
         } catch (error) {
             console.error("Відправка не вдалася:", error);
         } finally {
@@ -92,8 +95,7 @@ export const BookingCallForm = ({
         setFormData({
             name: "",
             phone: "",
-            title: "Перезвоніть мені",
-            recaptchaToken: "",
+            title: "Форма связи - Перезвоните мне",
         });
     };
 
@@ -156,11 +158,6 @@ export const BookingCallForm = ({
                 </div>
 
                 <div className="tab:justify-end tab:w-[47%] pc:w-[318px] flex justify-center">
-                    <ReCAPTCHA
-                        ref={recaptchaRef}
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
-                        size="invisible"
-                    />
                     <ButtonAction
                         disabled={loading}
                         name={loading ? t("loading") : t("submit")}

@@ -3,36 +3,8 @@ import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
     try {
-        const {
-            name,
-            surname,
-            email,
-            phone,
-            date,
-            topic,
-            comment,
-            title,
-            recaptchaToken,
-        } = await req.json();
-        const googleRes = await fetch(
-            "https://www.google.com/recaptcha/api/siteverify",
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-                body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${recaptchaToken}`,
-            }
-        );
-
-        const g = await googleRes.json();
-
-        if (!g.success) {
-            return NextResponse.json(
-                { error: "Recaptcha failed" },
-                { status: 400 }
-            );
-        }
+        const { name, surname, email, phone, date, topic, comment, title } =
+            await req.json();
 
         const transporter = nodemailer.createTransport({
             host: "fedrez.hostingas.lt",
@@ -66,7 +38,7 @@ export async function POST(req: Request) {
 
         await transporter.sendMail({
             from: `"Сайт" <${process.env.SMTP_USER}>`,
-            to: "kiev@eyes.ua",
+            to: "form@eyes.lt",
             subject: `${title} - ${name} ${surname ? surname : ""}`,
             html: fields,
         });
