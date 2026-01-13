@@ -17,7 +17,8 @@ export const socialLinks = [
     },
 ];
 
-export const gogleMapLink = "https://maps.app.goo.gl/gEToStmWSUJqhY6S6";
+export const gogleMapLink =
+    "https://www.google.com/maps/place/Naujas+reg%C4%97jimas/@54.67852,25.288783,17z/data=!3m1!4b1!4m6!3m5!1s0x46dd9415846e200d:0x8e050586c782b739!8m2!3d54.67852!4d25.288783!16s%2Fg%2F11h0snxrx?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D";
 
 export const LTemail = "vilnius@eyes.lt";
 

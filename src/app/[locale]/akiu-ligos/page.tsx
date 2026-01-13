@@ -69,7 +69,7 @@ export default async function EyesDiseasePage({
         locale,
         title: ti("titleSEO"),
         description: ti("descriptionSEO"),
-        image: "/images/dry-eye2.jpg",
+        image: "/images/dry-eyes1.jpg",
         path: "/zakhvoryuvannya-ochey",
         items: itemsSchema,
     });
