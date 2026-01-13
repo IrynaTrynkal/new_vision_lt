@@ -26,7 +26,7 @@ export const PatientsMenu = ({
                     alt={t("informacija-pacientams")}
                     width={1024}
                     height={701}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover object-top"
                 />
             </div>
             <ul

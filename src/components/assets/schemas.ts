@@ -524,7 +524,7 @@ export const doctorPageSchema = ({
 
     const imageUrl = data.photo
         ? urlFor(data.photo).url
-        : "https://eyes.lt/images/doctors-hero2.jpg";
+        : "https://eyes.lt/images/doctors-hero1.jpg";
 
     const specialization = toPlainText(data.specialization || []) || undefined;
 
@@ -684,8 +684,8 @@ export const aboutClinicPageSchema = ({
         },
         primaryImageOfPage: {
             "@type": "ImageObject",
-            url: "https://eyes.lt/images/about-hero1.jpg",
-            contentUrl: "https://eyes.lt/images/about-hero1.jpg",
+            url: "https://eyes.lt/images/contacts.jpg",
+            contentUrl: "https://eyes.lt/images/contacts.jpg",
         },
         publisher: {
             "@type": "MedicalClinic",

@@ -271,7 +271,8 @@ export const servicesData: ServicesProps[] = [
                         title: "Regėjimo diagnostika",
                         text: "Mūsų klinikoje Vilniuje regėjimo patikrinimas apima išplėstinę akių patikrą: papildomai atliekama kompiuterinė regėjimo diagnostika, lazerinis akių tyrimas ir taikomi tradiciniai regos vertinimo metodai.",
                         image: "/images/perevirka-zoru-hero.jpg",
-                        imgPositionDesktop: "right -200px top -140px",
+                        imgPositionDesktop: "right -200px top -20px",
+                        imgPositionMobile: "right 0px top -20px",
                     },
                 },
                 {
@@ -579,6 +580,8 @@ export const servicesData: ServicesProps[] = [
                         title: "Vision Diagnostics",
                         text: "At our clinic in Vilnius, a vision check includes an expanded eye examination, including computer-based vision diagnostics, laser eye assessment, and traditional methods of evaluating visual function.",
                         image: "/images/perevirka-zoru-hero.jpg",
+                        imgPositionDesktop: "right -200px top -20px",
+                        imgPositionMobile: "right 0px top -20px",
                     },
                 },
                 {
@@ -885,6 +888,8 @@ export const servicesData: ServicesProps[] = [
                         title: "диагностика зрения",
                         text: "В нашей клинике в Вильнюсе проверка зрения включает расширенное обследование, дополнительно компьютерную диагностику зрения, лазерное исследование глаз и традиционные методы оценки зрения.",
                         image: "/images/perevirka-zoru-hero.jpg",
+                        imgPositionDesktop: "right -200px top -20px",
+                        imgPositionMobile: "right 0px top -20px",
                     },
                 },
                 {
@@ -1852,7 +1857,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        image: "/images/dry-eye2.jpg",
+                        image: "/images/dry-eyes1.jpg",
                         title: "Sausų akių sindromas: diagnostika ir medikamentinis gydymas",
                         text: [
                             "Sausų akių sindromas (SAS) – tai būklė, kai ašarų plėvelė tampa nestabili ir prasčiau apsaugo akies paviršių. Dėl to gali atsirasti sausumas, deginimas, „smėlio“ pojūtis, paraudimas, greitas akių nuovargis ir regėjimo aiškumo svyravimai, ypač vakare. Priežastys gali būti įvairios: meibomo liaukų veiklos sutrikimas, retas / nepilnas mirksėjimas, amžiniai ir hormoniniai pokyčiai, sausas oras, ilgalaikis darbas kompiuteriu, gretutinės ligos bei kai kurių vaistų vartojimas. ",
@@ -1901,7 +1906,7 @@ export const servicesData: ServicesProps[] = [
                         data: [
                             {
                                 title: "Kaip klinikoje „Naujas regėjimas“ gydomas sausų akių sindromas?",
-                                image: "/images/dry-eye12.jpg",
+                                image: "/images/dry-eyes2.jpg",
                                 text: [
                                     {
                                         content: [
@@ -2161,7 +2166,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        image: "/images/dry-eye2.jpg",
+                        image: "/images/dry-eyes1.jpg",
                         title: "Dry Eye Syndrome: diagnostics and medical (drug) therapy",
                         text: [
                             "Dry eye syndrome (DES) is a condition in which the tear film becomes unstable and provides less protection to the ocular surface. As a result, dryness, burning, a “gritty/sandy” sensation, redness, rapid eye fatigue, and fluctuations in visual clarity may occur—especially toward the evening. Causes vary and may include meibomian gland dysfunction, infrequent/incomplete blinking, age- and hormone-related changes, dry air, prolonged computer work, concomitant conditions, and the use of certain medications.",
@@ -2210,7 +2215,7 @@ export const servicesData: ServicesProps[] = [
                         data: [
                             {
                                 title: "How is dry eye syndrome treated at the “Naujas regėjimas” clinic?",
-                                image: "/images/dry-eye12.jpg",
+                                image: "/images/dry-eyes2.jpg",
                                 text: [
                                     {
                                         content: [
@@ -2471,7 +2476,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        image: "/images/dry-eye2.jpg",
+                        image: "/images/dry-eyes1.jpg",
                         title: "Синдром сухого глаза: диагностика и медикаментозное лечение",
                         text: [
                             "Синдром сухого глаза (ССГ) — состояние, при котором слёзная плёнка становится нестабильной и хуже защищает поверхность глаза. В результате появляются сухость, жжение, ощущение «песка», покраснение, быстрая утомляемость и колебания чёткости зрения, особенно к вечеру. Причины могут отличаться: нарушение работы мейбомиевых желез, редкое/неполное моргание, возрастные и гормональные изменения, сухой воздух, длительная работа за компьютером, сопутствующие заболевания и приём некоторых препаратов.",
@@ -2520,7 +2525,7 @@ export const servicesData: ServicesProps[] = [
                         data: [
                             {
                                 title: "Как лечат синдром сухого глаза в клинике «Новое зрение»?",
-                                image: "/images/dry-eye12.jpg",
+                                image: "/images/dry-eyes2.jpg",
                                 text: [
                                     {
                                         content: [
