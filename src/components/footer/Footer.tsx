@@ -91,8 +91,8 @@ export const Footer = ({ locale }: { locale: LocaleType }) => {
                         height={585}
                         className="prepc:aspect-[1344/287] tab:object-cover tab:object-center mx-auto max-h-[287px] overflow-hidden"
                     />
-                    <IconPin className="prepc:w-11 prepc:max-w-11 tab:-translate-y-8 absolute bottom-1/2 left-1/2 h-auto w-[10%] max-w-9 -translate-x-1/2 -translate-y-2" />
-                    <div className="tab:block tab:px-2 tab:py-0.5 absolute top-1/2 left-1/2 hidden w-46 -translate-x-1/2 -translate-y-3 rounded-sm bg-white/10 text-sm backdrop-blur-2xl">
+                    <IconPin className="prepc:w-11 prepc:max-w-11 tab:-translate-y-1 absolute bottom-1/2 left-1/2 h-auto w-[10%] max-w-9 -translate-x-1/2 -translate-y-2" />
+                    <div className="tab:block tab:px-2 tab:py-0.5 absolute top-1/2 left-1/2 hidden w-46 -translate-x-1/2 translate-y-2 rounded-sm bg-white/10 text-sm backdrop-blur-2xl">
                         {t("title")}
                     </div>
                 </a>
