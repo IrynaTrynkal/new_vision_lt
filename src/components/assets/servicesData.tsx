@@ -254,7 +254,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "akiu-patikrinimas")!,
         lt: {
             textMain:
-                "Išsami regėjimo ir akių sveikatos patikra modernia įranga: tikslūs matavimai, tinklainės ir regos nervo įvertinimas, aiškios rekomendacijos ir tolimesnių veiksmų planas.",
+                "Išsami regėjimo ir akių sveikatos patikra modernia įranga: tikslūs matavimai, tinklainės ir regos nervo įvertinimas, aiškios rekomendacijos ir tolesnių veiksmų planas.",
             sections: [
                 {
                     type: "meta",
@@ -2769,7 +2769,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "vaiku-akiu-patikra")!,
         lt: {
             textMain:
-                "Vaikų oftalmologija nuo pirmųjų gyvenimo mėnesių iki paauglystės: švelni apžiūra, išplėstiniai tyrimai, regėjimo sutrikimų profilaktika ir gydymas, pateikiant rekomendacijas tėvams.",
+                "Vaikų oftalmologija nuo pirmųjų gyvenimo mėnesių iki paauglystės: švelni apžiūra, išsamūs tyrimai, regėjimo sutrikimų profilaktika ir gydymas, pateikiant rekomendacijas tėvams.",
             sections: [
                 {
                     type: "meta",
