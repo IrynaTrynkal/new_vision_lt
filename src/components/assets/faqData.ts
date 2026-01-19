@@ -59,12 +59,12 @@ export const faqMainList: FAQType = {
                 question: "Kokias paslaugas teikia akių klinika Vilniuje?",
                 answer: [
                     {
-                        text: "Mūsų akių ligų klinikoje Vilniuje teikiamas platus oftalmologijos paslaugų spektras:",
+                        text: "Mūsų akių ligų klinikoje Vilniuje teikiamos įvairios oftalmologijos paslaugos:",
                     },
                     {
                         list: true,
                         text: [
-                            "Akių patikrinimas ir diagnostika – išsamus regos ištyrimas su šiuolaikine aparatūra.",
+                            "Akių patikrinimas ir diagnostika – išsamus regos ištyrimas, naudojant  modernią įrangą.",
                             "Lazerinė regos korekcija – šiuolaikiniai metodai, padedantys koreguoti trumparegystę, toliaregystę ir astigmatizmą.",
                             "Chirurginis akių gydymas – kataraktos operacijos ir kitos akių ligų chirurginės procedūros.",
                             "Vitreoretinalinė chirurgija – tinklainės ir stiklakūnio ligų gydymas.",
@@ -134,7 +134,7 @@ export const faqMainList: FAQType = {
                         ],
                     },
                     {
-                        text: "Moderni aparatūra akių ligų diagnostikai užtikrina tikslų įvertinimą ir efektyvų gydymo planą.",
+                        text: "Moderni akių ligų diagnostiko iranga užtikrina tikslų įvertinimą ir efektyvų gydymo planą.",
                     },
                 ],
             },
