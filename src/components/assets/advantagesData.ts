@@ -21,7 +21,7 @@ export const advantagesList: AdvantageProps[] = [
     {
         lt: {
             title: "Profesionali komanda",
-            text: "Mūsų akių gydytojai ir oftalmologai turi aukštą kvalifikaciją bei didelę klinikinę patirtį, todėl sėkmingai sprendžia įvairias oftalmologines problemas – nuo paprastų regos sutrikimų iki sudėtingų atvejų.",
+            text: "Mūsų oftalmologai turi aukštą kvalifikaciją ir didelę klinikinę patirtį, todėl sėkmingai sprendžia įvairias oftalmologines problemas – nuo paprastų regos sutrikimų iki sudėtingų atvejų.",
         },
         ru: {
             title: "Профессиональная команда",
@@ -49,7 +49,7 @@ export const advantagesList: AdvantageProps[] = [
     {
         lt: {
             title: "Be skausmo",
-            text: "Visos operacijos ir dauguma intervencinių procedūrų atliekamos taikant lašinamąją nejautrą, todėl gydymas yra maksimaliai komfortiškas ir psichologiškai lengviau priimamas pacientui.",
+            text: "Visos operacijos ir dauguma intervencinių procedūrų atliekamos taikant lašinamąją nejautrą, todėl gydymas pacientui yra maksimaliai komfortiškas ir psichologiškai lengvesnis.",
         },
         ru: {
             title: "Безболезненность",
@@ -77,7 +77,7 @@ export const advantagesList: AdvantageProps[] = [
     {
         lt: {
             title: "Kompleksinis požiūris",
-            text: "Teikiame visą oftalmologijos paslaugų spektrą: nuo pirminės akių patikros ir diagnostikos iki pilno paciento stebėjimo ir regos atkūrimo po operacijos.",
+            text: "Teikiame platų oftalmologijos paslaugų spektrą: nuo pirminės akių patikros ir diagnostikos iki  paciento stebėjimo ir regos atkūrimo po operacijos.",
         },
         ru: {
             title: "Комплексный подход",
