@@ -285,8 +285,8 @@ export const servicesData: ServicesProps[] = [
                             "Tyrimų rezultatų interpretaciją atlieka aukščiausios kvalifikacijos gydytojas oftalmologas. Konsultacijos metu specialistas aiškiai paaiškina išvadas, galimus apribojimus, galimas nepageidaujamas reakcijas ir skirtingų gydymo variantų privalumus, kad pacientas tiksliai suprastų diagnozę, regos sutrikimų nustatymo metodus ir kokie korekcijos sprendimai jam bus optimaliausi.",
                         ],
                         image: "/images/perevirka-zoru-preview.jpg",
-                        textUp: "5 mln",
-                        textDown: "konsultacijų \natlikta",
+                        textUp: "5 mln.",
+                        textDown: "suteiktų \nkonsultacijų",
                     },
                 },
                 {
@@ -2794,12 +2794,12 @@ export const servicesData: ServicesProps[] = [
                     type: "preview",
                     data: {
                         image: "/images/zlata2.jpg",
-                        title: "Vaikų klinika — vaikų akių patikra Vilniuje",
+                        title: "Vaikų akių patikra Vilniuje",
                         text: [
-                            "Vaikų klinikoje atliekama vaikų akių patikra ir vaikų regos patikrinimas nuo kūdikių iki paauglių: tikslūs tyrimai, individuali taktika ir aiškios rekomendacijos tėvams. Jei ieškote, kur atlikti akių patikrinimą vaikams ramiai ir be papildomo streso — užsiregistruokite vizitui pas vaikų oftalmologą. Centro administratoriai suteiks informaciją apie aktualias kainas, galiojančius pasiūlymus ir galimas nuolaidas, taip pat padės pasirinkti patogų vizito laiką privačiai vaikų akių apžiūrai Vilniuje.",
+                            "Vaikų klinikoje atliekama vaikų akių ir regos patikra nuo kūdikystės iki paauglystės: daromi tikslūs tyrimai, taikoma individuali taktika ir pateikiamos aiškios rekomendacijos tėvams. Jei ieškote, kur atlikti akių patikrą vaikams ramiai ir be papildomo streso, užsiregistruokite vizitui pas vaikų oftalmologą. Centro administratoriai suteiks informaciją apie aktualias kainas, galiojančius pasiūlymus ir galimas nuolaidas, taip pat padės pasirinkti patogų vizito laiką privačiai vaikų akių apžiūrai Vilniuje.",
                         ],
-                        textUp: "1 mln",
-                        textDown: "konsultacijų \natlikta",
+                        textUp: "1 mln.",
+                        textDown: "suteiktų \nkonsultacijų",
                         fractionUp: true,
                     },
                 },
@@ -2818,11 +2818,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Vaikų klinika rekomenduoja neatidėlioti, jei pastebite net nedidelius vaiko elgesio ar įpročių pokyčius. Nusiskundimai akių nuovargiu, „rūku“, dvejinimusi, vakariniais galvos skausmais, prisimerkimais ar pernelyg arti laikomais įrenginiais gali rodyti prasidedančią trumparegystę, toliaregystę, astigmatizmą ar binokulinio regėjimo sutrikimus. Ikimokyklinio amžiaus vaikams nerimą kelia dažnas akių trynimas, sustiprėjęs mirksėjimas, atsisakymas dėlionių ir smulkių žaidimų; mokyklinio amžiaus vaikams — suprastėjusi koncentracija, sunkumai skaitant nuo lentos, netaisyklinga laikysena, sąsiuvinio artinimas prie veido.",
+                                                text: "Vaikų klinika rekomenduoja neatidėlioti, jei pastebite net ir nedidelių vaiko elgesio ar įpročių pokyčių. Skundai dėl akių nuovargio, „rūko“, dvejinimosi, vakarinių galvos skausmų, prisimerkimas ar pernelyg arti laikomi įrenginiai gali įspėti apie prasidedančią trumparegystę, toliaregystę, astigmatizmą ar binokulinio regėjimo sutrikimus. Tėvams nerimą gali kelti ikimokyklinio amžiaus vaikų dažnas akių trynimas, sustiprėjęs mirksėjimas, atsisakymas dėlioti dėliones ir žaisti smulkius žaidimus; mokyklinio amžiaus vaikų –  suprastėjusi koncentracija, sunkumai skaitant nuo lentos, netaisyklinga laikysena, sąsiuvinio artinimas prie veido.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Atkreipkite dėmesį, jei akys „išsiskiria“, nuotraukose matomas epizodinis žvairumas arba „raudona akis“ atrodo asimetriška — tai priežastis užsiregistruoti konsultacijai Vaikų klinikoje. Taip pat indikacijos gali būti ankstyvas ir ilgas naudojimasis ekraniniais įrenginiais, paveldima trumparegystė, neišnešiotumas, alergijos bei nusiskundimai sausumu ar deginimu po užsiėmimų. Mūsų profilaktinė akių patikra vaikams apima amžiui pritaikytus testus, o prireikus — diagnostiką su frakcine cikloplegija, ragenos topografiją ir akies ašinio ilgio kontrolę, kad laiku koreguotume rizikas, sulėtintume nepageidaujamą dinamiką ir sumažintume ambliopijos tikimybę.",
+                                                text: "Atkreipkite dėmesį: jei vaiko akys išsiskiria, nuotraukose matomas epizodinis žvairumas arba viena iš akių būna raudona ir atrodo asimetriška, nedelsdami registruokitės į konsultaciją vaikų klinikoje. Indikacijos gali būti ir ankstyvas, ilgas naudojimasis ekraniniais įrenginiais, paveldima trumparegystė, neišnešiotumas, alergijos bei nusiskundimai akių sausumu ar deginimu po užsiėmimų. Mūsų gydytojų atliekama profilaktinė akių patikra vaikams apima amžiui pritaikytus testus, o prireikus – diagnostiką su frakcine cikloplegija, ragenos topografiją ir akies ašinio ilgio kontrolę, kad laiku koreguotume rizikas, sulėtintume nepageidaujamą ligos dinamiką ir sumažintume ambliopijos tikimybę.",
                                             },
                                         ],
                                     },
@@ -2837,11 +2837,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Vaikų klinikoje vertinama refrakcija (įskaitant frakcinę cikloplegiją), stereoregėjimas, fuziniai rezervai, akių padėtis, akių dugno būklė ir akies obuolio augimo tempai. Pagal rezultatus gydytojas sudaro individualų planą: optinė korekcija, aparatinis regos gydymas vaikams, stebėjimo grafikas ir pratimai namuose. Tėvai gauna aiškią išvadą, skaidrias kainas, rekomendacijas ir informaciją, kiek kainuoja kiekvienas etapas. Taip pat aptariame tikėtiną dinamiką (kada gali pasirodyti pirmieji pokyčiai), paprastai paaiškiname kiekvienos metodikos privalumus ir ribojimus bei įteikiame regos higienos namuose atmintinę.",
+                                                text: "Vaikų klinikoje vertinama refrakcija (įskaitant frakcinę cikloplegiją), stereoregėjimas, fuziniai rezervai, akių padėtis, akių dugno būklė ir akies obuolio augimo tempai. Atsižvelgdamas į rezultatus gydytojas sudaro individualų planą: atlieka optinę korekciją, pritaiko aparatinį regos gydymą, paskiria stebėjimo grafiką ir pratimų, kuriuos galima atlikti namuose. Tėvai gauna aiškią išvadą apie vaiko būklę, skaidrias kainas, rekomendacijų ir informaciją, kiek kainuoja kiekvienas etapas. Taip pat aptariama tikėtina regos dinamika (kada gali pasirodyti pirmųjų pokyčių), paprastai paaiškinami kiekvienos metodikos privalumai ir ribojimai bei įteikiama regos higienos namuose atmintinė.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Visos procedūros vyksta žaismingai ir draugiškai, o kontroliniai patikrinimai planuojami individualiai (atsižvelgiant į mokyklą, būrelius ir regos krūvį), kad būtų palaikomas stabilus vaikų funkcinių rodiklių gerėjimas.",
+                                                text: "Visos procedūros vyksta žaismingai ir draugiškai, o kontroliniai patikrinimai planuojami individualiai (atsižvelgiant į pamokų, būrelių laiką ir regos krūvį), kad būtų palaikomas stabilus vaikų funkcinių rodiklių gerėjimas.",
                                             },
                                         ],
                                     },
@@ -2856,9 +2856,9 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Kodėl renkasi Vaikų kliniką",
+                        title: "Kodėl verta rinktis vaikų kliniką?",
                         text: [
-                            "Privati vaikų oftalmologijos klinika „viskas vienoje vietoje“: diagnostika, gydymas ir rezultatų kontrolė. Patogi aplinka, moderni įranga, žaidybiniai metodai ir išsamios išvados mokyklai / darželiui.",
+                            "Privačioje vaikų oftalmologijos klinikoje visas paslaugas rasite vienoje vietoje: nuo diagnostikos ir gydymo iki rezultatų kontrolės. Be to, čia Jūsų lauks patogi aplinka ir moderni įranga. Gydytojai taiko žaidybinius metodus ir pateikia išsamias išvadas mokyklai ir (arba) darželiui.",
                             "Vaikų klinikoje paaiškiname indikacijas, metodikų privalumus ir galimus ribojimus, teikiame subalansuotas rekomendacijas, atvirai kalbame apie kainas ir pateikiame pacientų atsiliepimus.",
                         ],
                         image: "/images/children-hero.jpg",
@@ -2868,22 +2868,22 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Pirminis patikrinimas ir konsultacija",
                                 itemText: [
-                                    "Užsiregistruoti regėjimo patikrai vaikams galima per kelias minutes — telefonu arba internetu.",
-                                    "Vaikų klinikoje surenkame nusiskundimus ir anamnezę, atliekame žaismingą regėjimo aštrumo patikrą, bazinį binokulinių funkcijų bei akių padėties įvertinimą, apžiūrime priekinį akies segmentą. Pateikiame regos higienos rekomendacijas ir nustatome, ar reikalingas išplėstinis ištyrimas (cikloplegija, topografija, biometriniai matavimai). Iš karto pateikiame orientacinę kito etapo kainą.",
+                                    "Užregistruoti regėjimo patikrai vaikus galima per kelias minutes telefonu arba internetu.",
+                                    "Vaikų klinikoje surenkame nusiskundimus ir anamnezę, atliekame žaismingą regėjimo aštrumo patikrą, bazinį binokulinių funkcijų bei akių padėties įvertinimą, apžiūrime priekinį akies segmentą. Pateikiame regos higienos rekomendacijų ir nustatome, ar reikalingas išplėstinis ištyrimas (cikloplegija, topografija, biometriniai matavimai). Iš karto pateikiame orientacinę kito etapo kainą.",
                                 ],
                             },
                             {
                                 itemTitle:
                                     "Išplėstiniai matavimai su cikloplegija",
                                 itemText: [
-                                    "Atliekame refraktometriją / skiaskopiją taikant frakcinę cikloplegiją, ragenos keratotopografiją / tomografiją tiksliam astigmatizmo nustatymui, oftalmoskopiją medikamentiškai išplėtus vyzdį, matuojame akies ašinį ilgį, tikriname stereoregėjimą ir fuzinius rezervus. Rezultatus paaiškiname suprantamai ir fiksuojame protokole.",
+                                    "Atliekame refraktometriją ir (arba) skiaskopiją taikydami frakcinę cikloplegiją, ragenos keratotopografiją ir (arba) tomografiją tiksliam astigmatizmui nustatyti, oftalmoskopiją medikamentiškai išplėtus vyzdį, matuojame akies ašinį ilgį, tikriname stereoregėjimą ir fuzinius rezervus. Rezultatus paaiškiname suprantamai ir fiksuojame protokole.",
                                 ],
                             },
                             {
                                 itemTitle:
                                     "Individualus gydymo ir stebėjimo planas",
                                 itemText: [
-                                    "Klinikos komanda aptaria rezultatus su tėvais, parenka korekciją (akiniai / lęšiai), esant indikacijoms paskiria aparatinį gydymą, pateikia pratimus namuose ir kontrolinių vizitų grafiką. Išduodame rašytinę išvadą, kurso kainos skaičiavimą ir nuorodas į atsiliepimus.",
+                                    "Klinikos komanda aptaria rezultatus su tėvais, parenka korekciją (akinius ir (arba) lęšius), esant indikacijų, paskiria aparatinį gydymą, pateikia pratimų namuose ir kontrolinių vizitų grafiką. Išduoda rašytinę išvadą, kurso kainos skaičiavimą ir nuorodas į atsiliepimus.",
                                 ],
                             },
                         ],
@@ -2898,43 +2898,43 @@ export const servicesData: ServicesProps[] = [
                         slider: [
                             {
                                 title: "Viziometrija (regėjimo aštrumo patikra)",
-                                text: "Įvertiname, kaip vaikas mato į tolį ir iš arti. Mažiesiems naudojame paveikslėlius vietoj raidžių, mokyklinio amžiaus vaikams — standartines lenteles. Testas atliekamas žaismingai, kad vaikas nepatirtų streso.",
+                                text: "Įvertiname, kaip vaikas mato į tolį ir iš arti. Mažiesiems naudojame paveikslėlius vietoj raidžių, mokyklinio amžiaus vaikams – standartines lenteles. Testas atliekamas žaismingai, kad vaikas nepatirtų streso.",
                             },
                             {
-                                title: "Tonometria (akispūdis)",
-                                text: "Taikome bekontaktę pneumatonometrą — trumpą „oro srovę“, padedančią atmesti glaukomą ir kitas būkles. Procedūra trunka kelias sekundes ir paprastai toleruojama ramiai.",
+                                title: "Tonometrija (akispūdis)",
+                                text: "Taikome bekontaktį pneumatonometrą – trumpą oro srovę, padedančią atmesti glaukomą ir kitas būkles. Procedūra trunka kelias sekundes ir paprastai toleruojama ramiai.",
                             },
                             {
                                 title: "Refraktometrija",
-                                text: "Autorefraktometru nustatome akies lūžio galią: trumparegystę, toliaregystę, astigmatizmą. Prireikus papildome skiaskopija ir frakcine cikloplegija (lašai laikinai „išjungia“ akomodaciją), kad gautume tikslius duomenis akinių / lęšių receptui.",
+                                text: "Autorefraktometru nustatome akies lūžio galią: trumparegystę, toliaregystę, astigmatizmą. Prireikus papildome skiaskopija ir frakcine cikloplegija (lašai laikinai „išjungia“ akomodaciją), kad gautume tikslius duomenis akinių ir (arba) lęšių receptui.",
                             },
                             {
                                 title: "Biometrija (ašinis ilgis ir akies parametrai)",
-                                text: "Bekontakčiai matuojame akies ilgį, priekinės kameros gylį, lęšiuko storį. Tai svarbu stebint trumparegystės progresavimą vaikams ir planuojant tolimesnę priežiūrą.",
+                                text: "Bekontakčiu būdu matuojame akies ilgį, priekinės kameros gylį, lęšiuko storį. Ši procedūra svarbi stebint trumparegystės progresavimą vaikams ir planuojant tolimesnę priežiūrą.",
                             },
                             {
                                 title: "Pachimetrija (ragenos storis)",
-                                text: "Šviesos arba ultragarso prietaisu greitai ir neskausmingai išmatuojamas ragenos storis. Duomenys reikalingi akispūdžio interpretacijai, refrakcinių intervencijų planavimui ir kontrolei po traumų / uždegimų.",
+                                text: "Šviesos arba ultragarso prietaisu greitai ir neskausmingai išmatuojamas ragenos storis. Duomenys reikalingi akispūdžio interpretacijai, refrakcinėms intervencijoms planuoti ir kontrolei po traumų ir (arba) uždegimų.",
                             },
                             {
                                 title: "Keratotopografija (ragenos „žemėlapis“)",
-                                text: "Nustatome ragenos formą ir kreivumą. Vaikams tai padeda aptikti astigmatizmą, ankstyvus keratokonuso požymius paaugliams ir parinkti tinkamą optinę korekciją. Procedūra bekontaktė.",
+                                text: "Nustatome ragenos formą ir kreivumą. Vaikams tai padeda aptikti astigmatizmą, paaugliams – ankstyvus keratokonuso požymius ir leidžia parinkti tinkamą optinę korekciją. Procedūra bekontaktė.",
                             },
                             {
                                 title: "Perimetrija (regos laukas)",
-                                text: "Tiriame, kokią erdvės dalį vaikas aprėpia fiksuodamas žvilgsnį. Naudinga įtariant regos nervo pažeidimus, neurooftalmologines būkles ir rizikų kontrolei. Užduotį paaiškiname paprastai.",
+                                text: "Tiriame, kokią erdvės dalį vaikas aprėpia fiksuodamas žvilgsnį. Procedūra naudinga įtariant regos nervo pažeidimus, neurooftalmologines būkles ir taikant rizikų kontrolę. Užduotį paaiškiname paprastai.",
                             },
                             {
                                 title: "Biomikroskopija (plyšinė lempa)",
-                                text: "Tai „akies mikroskopas“, kuriuo gydytojas detaliai apžiūri vokus, rageną, rainelę, lęšiuką. Vaikas sėdi patogiai, specialistas komentuoja kiekvieną žingsnį — skausmo nėra.",
+                                text: "Tai akies mikroskopas, kuriuo gydytojas detaliai apžiūri vokus, rageną, rainelę, lęšiuką. Vaikas sėdi patogiai, specialistas komentuoja kiekvieną žingsnį – procedūra neskausminga.",
                             },
                             {
                                 title: "Akių dugno apžiūra per lęšį",
-                                text: "Įlašinę vyzdį plečiančių lašų, įvertiname tinklainę, makulą ir regos nervo diską. Metodas leidžia nustatyti įgimtus ypatumus, trumparegystės pokyčius, kraujagyslinius ir uždegiminius procesus. Esant jautrumui, naudojame vietinę nejautrą lašais.",
+                                text: "Įlašinę vyzdį plečiančių lašų, įvertiname tinklainę, makulą ir regos nervo diską. Metodas leidžia nustatyti įgimtus ypatumus, trumparegystės pokyčius, kraujagyslinius ir uždegiminius procesus. Esant jautrumui, naudojame vietinę lašinę nejautrą.",
                             },
                             {
                                 title: "Dioptrimetrija (akinių patikra)",
-                                text: "Išmatuojame turimų akinių optinę galią: sferą, cilindrą, ašį, tarpvydinį atstumą. Tai padeda įvertinti, ar akiniai tinka ir ar reikia atnaujinti receptą.",
+                                text: "Išmatuojame turimų akinių optinę galią: sferą, cilindrą, ašį, tarpvyzdinį atstumą. Tai padeda įvertinti, ar akiniai tinka ir ar reikia atnaujinti receptą.",
                             },
                         ],
                     },
@@ -2942,7 +2942,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Vaikų akių patikros kaina Vilniuje",
+                        title: "Konsultacijos ir regos diagnostikos kainos Vilniuje",
                     },
                 },
                 { type: "giftCTA" },
@@ -2950,15 +2950,15 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Dažnai užduodami klausimai apie vaikų akių patikrą",
+                        title: "Dažniausiai užduodami klausimai apie vaikų akių patikrą",
                         content: [
                             {
                                 question:
-                                    "Kiek kainuoja vaikų regos patikrinimas Vaikų klinikoje ir kas įeina į kainą?",
+                                    "Kiek kainuoja vaikų regos patikrinimas vaikų klinikoje ir kas įeina į kainą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kaina priklauso nuo tyrimų apimties: ar reikalinga cikloplegija, topografija ar biometrija. Registratūra pateiks paketų kainas ir padės pasirinkti optimalų vizitą.",
+                                        text: "Kaina priklauso nuo tyrimų apimties: ar reikia atlikti cikloplegiją, topografiją ar biometriją. Registratūra informuos apie tyrimų paketų kainas ir padės pasirinkti geriausiai tinkantį.",
                                     },
                                 ],
                             },
@@ -2968,17 +2968,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Pirmasis patikrinimas atliekamas kūdikiams; planiniai vizitai — 1 metų, 3 metų amžiaus, prieš mokyklą ir kasmet mokyklinio amžiaus vaikams, net jei nusiskundimų nėra.",
+                                        text: "Pirmasis patikrinimas atliekamas kūdikiams; planiniai vizitai – 1 ir 3 metų amžiaus vaikams, prieš mokyklą ir kasmet – mokyklinio amžiaus vaikams, net jei jie neturi nusiskundimų.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar tyrimai ir aparatinis gydymas yra skausmingi?",
+                                    "Ar tyrimai ir aparatinis gydymas skausmingi?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Ne. Procedūros saugios, pritaikytos vaikams ir dažnai vyksta žaidimo forma. Po lašų gali būti trumpalaikis jautrumas šviesai.",
+                                        text: "Ne. Procedūros saugios, pritaikytos vaikams ir dažnai vyksta žaidimo forma. Gydytojui oftalmologui į akis įlašinus lašų gali pasitaikyti trumpalaikis jautrumas šviesai.",
                                     },
                                 ],
                             },
@@ -2988,27 +2988,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip, anksti nustačius ambliopiją ar binokulinio regėjimo sutrikimus. Gydytojas paaiškins konkrečių metodikų privalumus ir ypatumus.",
+                                        text: "Taip, anksti nustačius ambliopiją ar binokulinio regėjimo sutrikimus. Gydytojas oftalmologas paaiškins konkrečių metodikų privalumus ir ypatumus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kaip dažnai kartoti kursus ir kontrolinius vizitus?",
+                                    "Kaip dažnai verta kartoti kursus ir kontrolinius vizitus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Dažniausiai skiriama 10–15 užsiėmimų; pakartojimas po 3–6 mėn. pagal indikacijas. Kontrolės grafiką sudaro gydytojas.",
+                                        text: "Dažniausiai skiriama 10–15 užsiėmimų; pakartotiniai vizitai skiriami po 3–6 mėn. atsižvelgiant į indikacijas. Kontrolės grafiką sudaro gydytojas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar yra atsiliepimų ar rekomendacijų?",
+                                    "Ar turite atsiliepimų ir rekomendacijų?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip, tėvų atsiliepimai ir komentarai yra prieinami. Administratorius gali atsiųsti nuorodą arba pavyzdžius pagal užklausą.",
+                                        text: "Taip, tėvų atsiliepimai ir komentarai prieinami klinikos tinklapyje. Administratorius gali atsiųsti nuorodą arba pavyzdžių pagal užklausą.",
                                     },
                                 ],
                             },
@@ -3017,17 +3017,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Periodiškai taikomos akcijos ir nuolaidos diagnostikos paketams bei gydymo kursams — pasitikslinkite registruojantis.",
+                                        text: "Periodiškai klinikoje taikomos akcijos ir nuolaidos diagnostikos paketams bei gydymo kursams – pasitikslinkite registruodamiesi.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Privati ar valstybinė oftalmologija: ką rinktis?",
+                                    "Kurias rinktis – privačias ar valstybines oftalmologijos paslaugas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Vaikų klinika užtikrina greitą priėmimą, aiškų maršrutą, išsamias išvadas ir skaidrias kainas. Galutinį sprendimą priima tėvai; mes suteiksime visą reikalingą informaciją.",
+                                        text: "Vaikų klinika užtikrina greitą priėmimą, išsamias išvadas ir skaidrias kainas. Galutinį sprendimą priima tėvai; mes suteiksime visą reikalingą informaciją.",
                                     },
                                 ],
                             },
