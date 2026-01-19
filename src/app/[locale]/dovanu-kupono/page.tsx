@@ -25,7 +25,7 @@ export async function generateMetadata({
 
     return generateInstructionMetadata(
         locale as LocaleType,
-        "ForentInstr",
+        "Kupono",
         "dovanu-kupono"
     );
 }

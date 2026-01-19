@@ -342,6 +342,7 @@
         "text": "You can make an appointment by filling out the form below.",
         "call": "call",
         "mode": "working hours",
+        "email": "email",
         "modeDay": "Mon - Sat 9:00 – 18:00",
         "adress": "address",
         "adressMap": "Vilnius, Savičiaus g. 3A",
@@ -380,6 +381,18 @@
     "Instructions": {
         "titleSEO": "{title}. Eye Doctor Consultation | New Vision Clinic",
         "descriptionSEO": "{title}. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
+    },
+    "AllInstructions": {
+        "titleSEO": "Reminders and instructions for patients | New Vision Clinic",
+        "descriptionSEO": "Reminders and instructions for patients. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
+    },
+    "BeforeInstructions": {
+        "titleSEO": "Patient information before surgery | New Vision Clinic",
+        "descriptionSEO": "Patient information before surgery. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
+    },
+    "AfterInstructions": {
+        "titleSEO": "Post-Laser Vision Correction Instructions | New Vision Clinic",
+        "descriptionSEO": "Post-Laser Vision Correction Instructions. ✴️ The No. 1 Eye Disease Center in Lithuania. ✅ Modern diagnostics and effective treatment. 👍 A reputation proven over time"
     },
     "PolicyPage": {
         "title": "Privacy Policy",

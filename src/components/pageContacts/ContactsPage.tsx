@@ -32,7 +32,7 @@ export const ContactsPage = () => {
                     <div className="prepc:w-[48%] prepc:flex prepc:flex-col prepc:justify-between">
                         <div className="prepc:mb-0 mb-3">
                             <h3 className="font-oswald text-grey mb-3 font-medium uppercase">
-                                email
+                                {t("email")}
                             </h3>
                             <a
                                 href={`mailto:${LTemail}`}
@@ -45,7 +45,7 @@ export const ContactsPage = () => {
                             <h3 className="font-oswald text-grey mb-3 font-medium uppercase">
                                 {t("mode")}
                             </h3>
-                            <p className="tab:mb-0 mb-2 leading-[18px] font-medium uppercase">
+                            <p className="tab:mb-0 mb-2 leading-[18px] font-medium whitespace-pre-line uppercase">
                                 {t("modeDay")}
                             </p>
                         </div>

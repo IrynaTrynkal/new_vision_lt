@@ -166,7 +166,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Gydymas klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) organizuojamas „vienos dienos“ formatu. Šiuolaikinių akių mikrochirurgijos technologijų taikymas leidžia paspartinti regėjimo atsistatymą, sutrumpinti bendrą gydymo trukmę, išvengti hospitalizacijos ir dažniausiai grįžti į gyvenamąją vietą jau po 1–2 valandų po procedūros ar operacijos.",
+                            text: "Gydymas klinikoje „Naujas regėjimas“ Vilniuje organizuojamas vadinamuoju vienos dienos formatu. Šiuolaikinių akių mikrochirurgijos technologijų taikymas leidžia paspartinti regėjimo atkūrimą, sutrumpinti bendrą gydymo trukmę, išvengti hospitalizacijos ir dažniausiai grįžti į namus po procedūros ar operacijos praėjus 1–2 valandoms.",
                         },
                         {
                             type: "text",
@@ -177,27 +177,27 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "regėjimo lazerinei korekcijai – 1 dieną; antrą dieną, paciento pageidavimu, atliekamas kontrolinis patikrinimas;",
-                                "kataraktos operacijai – ne trumpiau kaip 1–2 dienas;",
-                                "glaukomos lazeriniam gydymui – apie 2 dienas;",
-                                "tinklainės lazerinėms procedūroms – 1 dieną;",
-                                "konservatyvaus arba aparatūrinio gydymo kursui – pagal gydytojo paskyrimą.",
+                                "dėl regėjimo korekcijos lazeriu – 1 dieną; 2 dieną, paciento pageidavimu, atliekamas kontrolinis patikrinimas;",
+                                "dėl kataraktos operacijos – ne trumpiau kaip 1–2 dienas;",
+                                "dėl glaukomos gydymo lazeriu – apie 2 dienas;",
+                                "dėl tinklainės procedūrų lazeriu – 1 dieną;",
+                                "dėl konservatyvaus arba aparatinio gydymo kursų – atsižvelgiant į gydytojo paskyrimą.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Per nurodytą laiką Jums bus atlikta išsami regėjimo diagnostika, parengta intervencijai, apskaičiuota korekcijos programa arba parinkti dirbtinio lęšiuko parametrai, suorganizuotas priešoperacinis ištyrimas (jei reikalingi laboratoriniai tyrimai, pacientas gali juos atlikti savo gyvenamojoje vietoje), atlikta pati procedūra ar operacija, taip pat privalomi kontroliniai patikrinimai. Tolesnį stebėjimo grafiką gydytojas nustato individualiai, atsižvelgdamas į klinikinę situaciją ir atsistatymo dinamiką.",
+                            text: "Per nurodytą laiką Jums bus atlikta išsami regėjimo diagnostika, būsite parengti intervencijai, apskaičiuota korekcijos programa arba parinkti dirbtinio lęšiuko parametrai, paskirtas priešoperacinis ištyrimas (jei reikalingi laboratoriniai tyrimai, pacientas gali juos atlikti savo gyvenamojoje vietoje), atlikta pati procedūra ar operacija, taip pat privalomi kontroliniai patikrinimai. Tolesnį stebėjimo grafiką gydytojas nustato individualiai, atsižvelgdamas į klinikinę situaciją ir gijimo po operacijos dinamiką.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Pacientams iš kitų miestų medicininės informacijos ir registracijos tarnybos darbuotojai padės parinkti ir rezervuoti viešbutį, taip pat suteiks informaciją organizaciniais klausimais, kad Jūsų vizitas į kliniką ir buvimas mieste būtų kuo patogesnis.",
+                            text: "Medicininės informacijos ir registracijos tarnybos darbuotojai pacientams iš kitų miestų padės parinkti ir rezervuoti viešbutį, taip pat suteiks informacijos dėl organizacinių klausimų, kad Jūsų vizitas į kliniką ir buvimas mieste būtų kuo patogesnis.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kad būtų paprasčiau rasti apgyvendinimą viešnagės Vilniuje ir gydymo klinikoje „Naujas regėjimas“ laikotarpiu, siūlome keletą viešbučių variantų, esančių netoli klinikos. Pageidaujant, numerį galite rezervuoti savarankiškai iš anksto, kad atvykimo dieną nereikėtų spręsti šio klausimo.",
+                            text: "Siekdami, kad būtų paprasčiau rasti apgyvendinimo vietą viešnagės Vilniuje ir gydymo klinikoje „Naujas regėjimas“ laikotarpiu, siūlome keletą viešbučių, esančių netoli klinikos. Pacientai kambarį gali rezervuoti savarankiškai iš anksto, kad nereikėtų rūpintis atvykimo dieną.",
                         },
                     ],
                 },
@@ -314,14 +314,14 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
             k => k.key === "instructions-before-surgery"
         )!,
         lt: {
-            title: "Paciento pastaba prieš operaciją",
+            title: "Informacija pacientui prieš operaciją",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Į priešoperacinę konsultaciją pas oftalmologą chirurgą ir anesteziologą būtina užsiregistruoti iš anksto (pageidautina likus savaitei). Į apžiūrą rekomenduojama atsinešti ankstesnių tyrimų ir operacijų išrašus.",
+                            text: "Į priešoperacinę konsultaciją pas gydytojus oftalmologą-chirurgą ir anesteziologą būtina užsiregistruoti iš anksto (pageidautina likus savaitei). Į apžiūrą rekomenduojama atsinešti ankstesnių tyrimų ir operacijų išrašus.",
                         },
                         {
                             type: "text",
@@ -337,7 +337,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Suvalgykite lengvus pusryčius, venkite produktų su aštriu kvapu (svogūnų, česnakų).",
+                            text: "Suvalgykite lengvus pusryčius, venkite aštraus kvapo produktų (svogūnų, česnakų).",
                         },
                         {
                             type: "text",
@@ -347,17 +347,17 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Po operacijos akis užklijuojama tvarsčiu, kad būtų apsaugota nuo atsitiktinio užteršimo. Tvarstį galima nuimti, kai grįšite namo.",
+                            text: "Po operacijos akis užklijuojama tvarsčiu, kad būtų apsaugota nuo atsitiktinio užteršimo. Tvarstį galite nuimti grįžę namo.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Vokus galima nuvalyti (bet ne pačią akį) sterilia vata, sudrėkinta 0,02 % furacilino vandeniniu tirpalu arba 0,25 % levomicetino tirpalu (parduodami vaistinėje).",
+                            text: "Vokus (bet ne pačią akį) galima nuvalyti sterilia vata, sudrėkinta 0,02 proc. furacilino vandeniniu tirpalu arba 0,25 proc. levomicetino tirpalu (galite įsigyti vaistinėse).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Nuo pirmos dienos po operacijos nuolat laikyti akį užklijuotą nereikia.",
+                            text: "Nuo pirmos dienos po operacijos nuolat laikyti akies užklijuotos nereikia.",
                         },
                         {
                             type: "text",
@@ -373,7 +373,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Toliau pateiktos rekomendacijos yra bendro pobūdžio ir tinka daugumai pacientų. Atskirais atvejais gydytojas gali paskirti individualią gydymo schemą ir vizitų grafiką. Rekomendacijas tikslinkite kiekvieno vizito metu.",
+                            text: "Toliau pateiktos rekomendacijos yra bendro pobūdžio ir tinka daugumai pacientų. Atskirais atvejais gydytojas gali paskirti individualią gydymo schemą ir vizitų grafiką. Rekomendacijas tikslinkitės per kiekvieną vizitą.",
                         },
                         {
                             type: "list",
@@ -382,13 +382,13 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 [
                                     { bold: true, value: "Režimas. " },
                                     {
-                                        value: "Pooperacinio režimo laikymasis turi gydomąją reikšmę. Chirurgas arba gydantis gydytojas paaiškins, kaip elgtis pirmąsias 24 valandas po operacijos. Vėliau pooperacinio režimo ypatumus tikslinkite pas savo gydytoją.",
+                                        value: "Pooperacinio režimo laikymasis turi gydomąją reikšmę. Chirurgas arba gydantis gydytojas paaiškins, kaip elgtis pirmąsias 24 valandas po operacijos. Vėliau pooperacinio režimo ypatumus tikslinkite su savo gydytoju.",
                                     },
                                 ],
                                 [
                                     { bold: true, value: "Higiena. " },
                                     {
-                                        value: "Prausiantis venkite, kad į akį patektų muilo ar vandens. Plaunant galvą, galvą atloškite atgal, o ne lenkite į priekį. Jei vandens pateko į operuotą akį, praplaukite ją 0,02 % furacilino vandeniniu tirpalu arba 0,25 % levomicetino tirpalu (parduodami vaistinėje).",
+                                        value: "Prausdamiesi stenkitės, kad į akį nepatektų muilo ar vandens. Plaudami galvą, ją atloškite atgal, o ne lenkite į priekį. Jei vandens pateko į operuotą akį, praplaukite ją 0,02 proc. furacilino vandeniniu tirpalu arba 0,25 proc. levomicetino tirpalu (galite įsigyti vaistinėse).                                        ",
                                     },
                                 ],
                                 [
@@ -400,10 +400,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 [
                                     {
                                         bold: true,
-                                        value: "Akių lašai reikalingi greitesniam gijimui ir infekcinių komplikacijų profilaktikai. ",
+                                        value: "Akių lašai padeda greičiau gyti ir profilaktiškai saugo nuo komplikacijų kilus infekcijai. ",
                                     },
                                     {
-                                        value: "Paprastai chirurgas skiria kelis preparatus: lašus su antibiotiku, priešuždegiminius arba kombinuotus vaistus.",
+                                        value: "Paprastai chirurgas skiria kelis preparatus: lašus su antibiotikais, priešuždegiminius arba kombinuotus vaistus.",
                                     },
                                 ],
                             ],
@@ -422,7 +422,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Regėjimas atsistato palaipsniui. Pirmosiomis dienomis po operacijos regėjimas gali būti sumažėjęs dėl nedidelio ragenos paburkimo arba išplėsto vyzdžio (dažniausiai praeina per savaitę). Galutinis operuotos akies regėjimo atsistatymas paprastai įvyksta maždaug per mėnesį, todėl akinių parinkimą (esant monofokiniam IOL) rekomenduojama atlikti po šio laikotarpio. Akinius galima parinkti pagal gyvenamąją vietą arba mūsų medicinos centre.",
+                            text: "Regėjimas susitvarko palaipsniui. Pirmosiomis dienomis po operacijos jis gali būti prastesnis dėl nedidelio ragenos paburkimo arba išplėsto vyzdžio (dažniausiai praeina per savaitę). Operuotos akies regėjimas susitvarko maždaug per mėnesį, todėl parinkti akinius (esant monofokaliniam IOL) rekomenduojama praėjus šiam laikotarpiui. Akinius galima parinkti pagal gyvenamąją vietą arba mūsų medicinos centre.",
                         },
                         {
                             type: "text",
@@ -430,7 +430,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 {
                                     bold: true,
                                     subtitle: true,
-                                    value: "LAŠŲ LAŠINIMO TAISYKLĖS",
+                                    value: "vaistų LAŠINIMO TAISYKLĖS",
                                 },
                             ],
                             gap: true,
@@ -442,11 +442,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                                 "Kruopščiai nusiplaukite rankas.",
                                 "Atidarykite buteliuką.",
                                 "Atloškite galvą arba atsigulkite ant nugaros ir žiūrėkite į viršų.",
-                                "Laikykite buteliuką apverstą virš akies, neliesdami akies ir blakstienų.",
+                                "Laikykite apverstą buteliuką virš akies, neliesdami akies ir blakstienų.",
                                 "Švelniai patraukite apatinį voką žemyn.",
                                 "Žiūrėdami į viršų, lengvai spustelėkite buteliuką, kad lašas patektų į tarpą tarp akies obuolio ir apatinio voko.",
-                                "Užmerkite akis.",
-                                "Siekiant padidinti veiksmingumą ir sumažinti sisteminį poveikį, švelniai prispauskite vidinį akies kampą pirštu (per sterilią servetėlę).",
+                                "Užsimerkite.",
+                                "Siekdami padidinti veiksmingumą ir sumažinti sisteminį poveikį, švelniai prispauskite vidinį akies kampą pirštu (per sterilią servetėlę).",
                                 "Jei paskirti kelių rūšių lašai, tarp lašinimų darykite maždaug 5 minučių pertrauką.",
                                 "Uždarykite buteliuką ir laikykite jį pagal instrukciją.",
                             ],
@@ -745,14 +745,14 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
             k => k.key === "instructions-after-laser-vision-correction"
         )!,
         lt: {
-            title: "Instrukcijos po regos lazerinės korekcijos",
+            title: "Instrukcijos po regos korekcijos lazeriu",
             content: [
                 {
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Paciento priežiūra klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) nesibaigia Jums pasijutus geriau. Mes užtikriname pooperacinę priežiūrą, kontrolinius vizitus ir atkuriamąjį gydymą tiek laiko, kiek to reikia pagal gydytojo rekomendacijas, taip pat ir po išrašymo. Tai netaikoma fiziologiniams akių pokyčiams (būklės pablogėjimui) ar kitoms komplikacijoms bei ligoms, nesusijusioms su regos lazerine korekcija.",
+                            text: "Paciento priežiūra klinikoje „Naujas regėjimas“ Vilniuje nesibaigia Jums pasijutus geriau. Mes užtikriname pooperacinę priežiūrą, kontrolinius vizitus ir atkuriamąjį gydymą tiek laiko, kiek to reikia atsižvelgiant į gydytojo rekomendacijas, taip pat ir pacientą išrašius. Tai netaikoma fiziologiniams akių pokyčiams (būklės pablogėjimui) ar kitoms komplikacijoms bei ligoms, nesusijusioms su regos korekcija lazeriu.",
                         },
                         {
                             type: "text",
@@ -779,9 +779,9 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "atidžiai susipažinkite su sutikimo forma dėl regos lazerinės korekcijos;",
-                                "valgykite ir gerkite kaip įprastai (alkoholio nevartokite 24 val. iki operacijos);",
-                                "vilkėkite laisvus, nepūkuojančius, ilgomis rankovėmis drabužius, kuriuose Jums bus patogu;",
+                                "atidžiai susipažinkite su sutikimo forma dėl regos korekcijos lazeriu;",
+                                "valgykite ir gerkite kaip įprastai (alkoholio nevartokite 24 valandas iki operacijos);",
+                                "vilkėkite laisvus, nepūkuotus, ilgomis rankovėmis drabužius, su kuriais jaučiatės patogiai;",
                                 "nenaudokite makiažo, kvepalų ir losjono po skutimosi;",
                                 "pasiimkite akinius nuo saulės.",
                             ],
@@ -802,8 +802,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             list: [
                                 "vaistų receptas;",
                                 "vaistinių preparatų vartojimo instrukcijos;",
-                                "skubios pagalbos kontaktinis telefono numeris (pirmajai nakčiai po operacijos);",
-                                "kvietimas pooperacinei konsultacijai.",
+                                "skubiosios pagalbos kontaktinis telefono numeris (pirmajai nakčiai po operacijos);",
+                                "kvietimas į pooperacinę konsultaciją.",
                             ],
                         },
                         {
@@ -819,7 +819,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Neišeikite iš klinikos be palydos, nes grįžtant namo gali prireikti pagalbos. Geriausia, jei operacijos dieną Jus palydės artimas žmogus. Jei tai neįmanoma, rekomenduojame iš anksto pasirūpinti transportu. Skrydžiai po regos lazerinės korekcijos ar kataraktos operacijos nėra draudžiami, tačiau nerekomenduojame skristi iškart po operacijos. Regėjimas gali būti kiek neryškus, o jautrumas šviesai – padidėjęs. Taip pat patariame pooperacinių konsultacijų metu su gydytoju aptarti bet kokias keliones, planuojamas per pirmąjį mėnesį po operacijos.",
+                            text: "Neišeikite iš klinikos be palydos, nes grįžtant namo gali prireikti pagalbos. Geriausia, jei operacijos dieną Jus palydės artimas žmogus. Jei tai neįmanoma, rekomenduojame iš anksto pasirūpinti transportu. Skrydžiai po regos korekcijos lazeriu ar kataraktos operacijos nėra draudžiami, tačiau nerekomenduojame skristi iškart po operacijos. Regėjimas gali būti kiek neryškus, o jautrumas šviesai – padidėjęs. Taip pat patariame atvykus į pooperacines konsultacijas su gydytoju aptarti visas keliones, planuojamas per pirmąjį mėnesį po operacijos.",
                         },
                         {
                             type: "text",
@@ -835,8 +835,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "stenkitės išlikti ramūs;",
-                                "kiek įmanoma mažiau judinkite akis;",
-                                "stenkitės nesumerkti akių;",
+                                "kuo mažiau judinkite akis;",
+                                "stenkitės jų nesumerkti;",
                                 "NETRINKITE akių;",
                                 "venkite veiklų, reikalaujančių regos koncentracijos (televizoriaus žiūrėjimo, darbo kompiuteriu).",
                             ],
@@ -844,7 +844,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei turite mažų vaikų, rekomenduojame iš anksto suorganizuoti artimųjų ar draugų pagalbą pirmosioms dviem dienoms, ypač po regos lazerinės korekcijos. Pirmąsias 2–3 dienas kuo labiau ribokite alkoholio vartojimą, nes jis gali sąveikauti su vaistais ir didinti akių sausumą. Daugiau ilsėkitės ir venkite papildomos akių įtampos.",
+                            text: "Jei turite mažų vaikų, rekomenduojame iš anksto paprašyti artimųjų ar draugų pagalbos pirmosioms 2 dienoms, ypač po regos korekcijos lazeriu. Pirmąsias 2–3 dienas kuo labiau ribokite alkoholio vartojimą, nes jis gali sąveikauti su vaistais ir didinti akių sausumą. Daugiau ilsėkitės ir venkite papildomos akių įtampos.",
                         },
                         {
                             type: "text",
@@ -860,7 +860,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jums bus išrašytas receptas pooperacinei priežiūrai skirtiems vaistams. Jų kaina nėra įtraukta į gydymo kainą. Naudokite preparatus griežtai pagal chirurgo nurodymus ir laikykite vėsioje, sausoje vietoje.",
+                            text: "Jums bus išrašytas receptas pooperacinei priežiūrai skirtiems vaistams. Jų kaina nėra įtraukta į gydymo kainą. Naudokite preparatus griežtai atsižvelgdami į chirurgo nurodymus ir laikykite juos vėsioje, sausoje vietoje.",
                         },
                         {
                             type: "text",
@@ -868,7 +868,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Kaip teisingai lašinti akių lašus:",
+                                    value: "Kaip tinkamai lašinti akių lašus:",
                                 },
                             ],
                         },
@@ -878,14 +878,14 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             list: [
                                 "prieš naudodami akių lašus visada nusiplaukite rankas;",
                                 "atloškite galvą atgal ir žiūrėkite į lubas;",
-                                "įlašinkite vaistą tiesiai ant akies obuolio. NETRAUKITE VOKO;",
+                                "įlašinkite vaisto tiesiai ant akies obuolio. NETRAUKITE VOKO;",
                                 "stenkitės neliesti akies ar voko buteliuko antgaliu.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Atminkite, kad iškart po lašų ar tepalų panaudojimo regėjimas gali laikinai tapti neryškus. Laikykitės preparatų instrukcijų, kuriuos lašus naudoti pirmiausia ir kokiais intervalais. Jei praleidote vaisto vartojimą, nenaudokite dviejų ar trijų dozių iš karto. Gali būti patogiau, jei pirmomis dienomis kas nors padės Jums įsilašinti lašus, kol akys atsistatys.",
+                            text: "Atminkite, kad įsilašinus lašų ar pasitepus tepalu regėjimas gali laikinai tapti neryškus. Laikykitės preparatų vartojimo instrukcijų, atsižvelkite į tai, kuriuos lašus rinktis pirmiausia ir kokiais intervalais. Jei praleidote vaisto vartojimą, nevartokite dviejų ar trijų dozių iš karto. Gali būti patogiau, jei pirmomis dienomis artimieji padės įsilašinti lašų, kol akys atsistatys.",
                         },
                         {
                             type: "text",
@@ -938,11 +938,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "ašarojimas;",
-                                "šviesos baimė (eidami į lauką dėvėkite akinius nuo saulės);",
+                                "šviesos baimė (eidami į lauką nešiokite akinius nuo saulės);",
                                 "svetimkūnio pojūtis akyje;",
-                                "akių sudirginimas, sunkumas atmerkiant;",
+                                "akių sudirginimas, sunkumas jas atmerkti;",
                                 "išsiplėtę vyzdžiai;",
-                                "patinę ir / arba nusileidę vokai;",
+                                "patinę ir (arba) nusileidę vokai;",
                                 "„muselės“ ir dėmės regėjimo lauke.",
                             ],
                         },
@@ -963,8 +963,8 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             gap: true,
                             list: [
                                 "Jei jaučiate poreikį nuvalyti akių sritį, naudokite marlę, sudrėkintą atvėsintu virintu vandeniu, ir stenkitės neliesti akies paviršiaus.",
-                                "Nenaudokite komercinių akių plovimo skysčių. Jei atsiranda svetimkūnio pojūtis, sausumas ar spaudimas akyje(-se), naudokite konservantų neturinčius „dirbtinių ašarų“ lašus. Juos galima įsigyti bet kurioje vaistinėje be recepto.",
-                                "Jei vokai patino, atsirado niežėjimas ir akių paraudimas (net praėjus kelioms dienoms po operacijos), tai gali būti reakcija į vaistus. Kreipkitės į kliniką dėl alternatyvaus gydymo rekomendacijų.",
+                                "Nenaudokite komercinių akių plovimo skysčių. Jei atsiranda svetimkūnio, sausumo ar spaudimo pojūtis akyje (-se), naudokite konservantų neturinčius dirbtinių ašarų lašus. Jų galima įsigyti bet kurioje vaistinėje be recepto.",
+                                "Vokai patinti, atsirasti niežėjimas ir akių paraudimas (net praėjus kelioms dienoms po operacijos) gali dėl reakcijos į vaistus. Kreipkitės į kliniką dėl alternatyvaus gydymo rekomendacijų.",
                             ],
                         },
                         {
@@ -980,7 +980,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Dėl vietinių anestetikų (nuskausminančių lašų) operacija atliekama be skausmo. Diskomfortas praėjus maždaug valandai po operacijos yra normalus reiškinys, nes nuskausminimo poveikis silpnėja. Diskomfortas gali priminti svetimkūnio pojūtį ir tęstis 24–38 valandas. Regos lazerinė korekcija dažniausiai būna beveik neskausminga, tačiau po operacijos gali pasireikšti gana ryškus diskomfortas – jį sumažinti padeda vaistai ir bandomieji (tvarstomieji) kontaktiniai lęšiai.",
+                            text: "Dėl vietinių anestetikų (lašų nuo skausmo) operacija atliekama be skausmo. Diskomfortas praėjus maždaug valandai po operacijos yra normalus reiškinys, nes vaistų poveikis silpnėja. Jis gali priminti svetimkūnio pojūtį ir tęstis 24–38 valandas. Regos korekcija lazeriu dažniausiai būna beveik neskausminga, tačiau po operacijos gali pasireikšti gana ryškus nepatogumas – jį sumažinti padeda vaistai ir bandomieji (tvarstomieji) kontaktiniai lęšiai.",
                         },
                         {
                             type: "text",
@@ -995,12 +995,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei po 24 valandų išlieka stiprus skausmas, kreipkitės į akių kliniką, kad užsiregistruotumėte pooperacinei apžiūrai. Jei klinika nedirba arba konsultacijos reikia savaitgalį, skambinkite nurodytu numeriu. Vienas iš mūsų darbuotojų susisieks su Jūsų chirurgu ir suderins, kad jis Jums perskambintų.",
+                            text: "Jei po 24 valandų išlieka stiprus skausmas, kreipkitės į akių kliniką ir užsiregistruokite pooperacinei apžiūrai. Jei klinika nedirba arba konsultacijos reikia savaitgalį, skambinkite nurodytu numeriu. Vienas iš mūsų darbuotojų susisieks su Jūsų chirurgu ir suderins, kad jis Jums perskambintų.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Mažai tikėtina, kad greitosios medicinos pagalbos gydytojai yra susipažinę su komplikacijomis po lazerinių operacijų. Atsiradus komplikacijoms (nors tai mažai tikėtina), kuo greičiau kreipkitės į kliniką.",
+                            text: "Mažai tikėtina, kad greitosios medicinos pagalbos gydytojai yra susipažinę su komplikacijomis po operacijų lazeriu. Atsiradus komplikacijų, kuo greičiau kreipkitės į kliniką.",
                         },
                         {
                             type: "text",
@@ -1016,7 +1016,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Būtinai atvykite į paskirtas kontrolines konsultacijas pagal gydytojo rekomendacijas. Vienas arba du vizitai po operacijos yra privalomi. Pooperacinė priežiūra klinikoje „Naujas regėjimas“ atliekama pagal nustatytą stebėjimo planą.",
+                            text: "Būtinai atvykite į paskirtas kontrolines konsultacijas pagal gydytojo rekomendacijas. Vienas arba du vizitai po operacijos yra privalomi. Pooperacinė priežiūra klinikoje „Naujas regėjimas“ atliekama atsižvelgiant į nustatytą stebėjimo planą.",
                         },
                         {
                             type: "table",
@@ -1051,20 +1051,20 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "* Jei reikia nuimti tvarstomuosius lęšius, vizitas į mūsų centrą yra būtinas po 3–4 dienų arba 7–14-ą dieną.",
+                            text: "* Jei reikia išimti tvarstomuosius lęšius, apsilankyti mūsų centre būtina po 3–4 dienų arba 7–14 dieną.",
                         },
                         {
                             type: "text",
-                            text: "Vizitą galima atšaukti likus 3 dienoms; jei vėliau – gali būti taikomas 50 % paslaugos kainos mokestis. Jei į vizitą vėluojate 20 ar daugiau minučių, reikės registruotis kitam laikui.",
+                            text: "Vizitą galima atšaukti likus 3 dienoms; tai padarius vėliau, gali būti taikomas 50 proc. paslaugos kainos mokestis. Jei į vizitą vėluojate 20 ar daugiau minučių, reikės registruotis kitam laikui.",
                             gap: true,
                         },
                         {
                             type: "text",
-                            text: "Kai kuriais atvejais chirurgas gali paskirti papildomų akių lašų. Paskirtus vaistus galima įsigyti vaistinėje pagal receptą.",
+                            text: "Kai kuriais atvejais chirurgas gali paskirti papildomų akių lašų. Jų galima įsigyti vaistinėje pagal receptą.",
                         },
                         {
                             type: "text",
-                            text: "Jei Jums patogiau, galime nukreipti Jus pooperacinei apžiūrai į vieną iš optinės korekcijos centrų Jūsų mieste, kurių paslaugas apmokate savarankiškai. Tai gali būti ekonomiškiau nei kelionė į kliniką. Apžiūros rezultatai bus išsiųsti į kliniką ir įtraukti į Jūsų medicininę dokumentaciją. Tokiu atveju paprašykite pooperacinės apžiūros ataskaitos kopijos.",
+                            text: "Jei Jums patogiau, galite atlikti pooperacinę apžiūrą viename iš optinės korekcijos centrų Jūsų mieste – už šias paslaugas sumokėsite savarankiškai. Šis sprendimas gali būti ekonomiškesnis už kelionę į kliniką. Apžiūros rezultatai bus išsiųsti į mūsų kliniką ir įtraukti į Jūsų medicininę dokumentaciją. Tokiu atveju paprašykite pooperacinės apžiūros ataskaitos kopijos.",
                             gap: true,
                         },
                         {
@@ -1085,11 +1085,11 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "list",
                             list: [
-                                "Jei dirbate dulkėtomis sąlygomis (pvz., statybvietėse), akis saugokite apsauginiais akiniais „kaukės“ tipo mažiausiai vieną mėnesį.",
-                                "Dirbant su ekranais kas 45 minutes darykite 15 minučių pertraukas, kad pirmąsias 2–3 savaites sumažintumėte akių nuovargį.",
-                                "Pirmąsias kelias savaites rekomenduojama lauke dėvėti akinius nuo saulės – tai apsaugos akis nuo dulkių ir sumažins laikiną šviesos jautrumą.",
-                                "Po kataraktos operacijos rekomenduojama vengti sunkių daiktų kėlimo pirmąsias 4 savaites.",
-                                "Pooperacinių konsultacijų metu gydytojas įvertins, ar Jūsų regėjimas atitinka reikiamus standartus.",
+                                "Jei dirbate dulkėtomis sąlygomis (pvz., statybvietėje), akis saugokite apsauginiais „kaukės“ tipo akiniais mažiausiai mėnesį.",
+                                "Dirbdami prie ekranų kas 45 minutes darykite 15 minučių pertraukas, kad pirmąsias 2–3 savaites sumažintumėte akių nuovargį.",
+                                "Pirmąsias kelias savaites rekomenduojama lauke nešioti akinius nuo saulės – jie apsaugos akis nuo dulkių ir sumažins laikiną jautrumą šviesai.",
+                                "Po kataraktos operacijos rekomenduojama vengti kelti sunkius daiktus pirmąsias 4 savaites.",
+                                "Per pooperacines konsultacijas gydytojas įvertins, ar Jūsų regėjimas atitinka reikiamus standartus.",
                             ],
                             gap: true,
                         },
@@ -1100,7 +1100,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         },
                         {
                             type: "text",
-                            text: "Pagal vairavimo standartus turite gebėti perskaityti automobilio numerio ženklą iš 20,5 metro atstumo. Jei operacija atlikta tik vienai akiai, vairuodami būkite itin atsargūs, nes Jūsų binokulinis (stereoskopinis) regėjimas laikinai gali būti sutrikęs, o atstumo suvokimas – pasunkėjęs.",
+                            text: "Atsižvelgiant į vairavimo standartus, turite gebėti perskaityti automobilio numerio ženklą iš 20,5 metro atstumo. Jei operacija atlikta tik vienai akiai, vairuodami būkite itin atsargūs, nes Jūsų binokulinis (stereoskopinis) regėjimas laikinai gali būti sutrikęs, o atstumo suvokimas – pasunkėjęs.",
                             gap: true,
                         },
                         {
@@ -1117,7 +1117,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Venkite intensyvaus fizinio krūvio, kol akys visiškai atsistatys (paprastai apie vieną mėnesį). Žemiau pateiktoje lentelėje nurodomi orientaciniai grįžimo prie pagrindinių veiklų terminai. Gydytojas gali pateikti kitokias rekomendacijas, atsižvelgdamas į individualią situaciją. Jei profesionaliai užsiimate kuriuo nors iš išvardytų sportų arba turite klausimų dėl kitų, būtinai pasitarkite su gydytoju.",
+                            text: "Venkite intensyvaus fizinio krūvio, kol akys visiškai atsistatys (tai paprastai trunka apie mėnesį). Žemiau pateiktoje lentelėje nurodomi orientaciniai grįžimo prie pagrindinių veiklų terminai. Gydytojas gali pateikti kitokias rekomendacijas, atsižvelgdamas į individualią situaciją. Jei profesionaliai užsiimate kuria nors iš išvardytų sporto šakų arba turite klausimų dėl kitų, būtinai pasitarkite su gydytoju.",
                         },
                         {
                             type: "table",
@@ -1171,7 +1171,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Sportuodami mažiausiai dvi savaites saugokite akis nuo prakaito – dėvėkite galvos juostą.",
+                            text: "Sportuodami mažiausiai 2 savaites saugokite akis nuo prakaito – dėvėkite galvos juostą.",
                         },
                         {
                             type: "text",
@@ -1198,10 +1198,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Pirmąsias 7 dienas po operacijos venkite, kad vanduo patektų į akis.",
-                                "Duše stovėkite šiek tiek toliau nei įprastai, kad vanduo nepatektų į akis.",
-                                "Plaudami galvą atloškite ją atgal, kad šampūnas nepatektų į akis.",
-                                "Jei šampūnas, muilas ar kita priemonė pateko į akis – NETRINKITE! Naudokite drėkinamuosius lašus, kad nuplautumėte ir sumažintumėte deginimą.",
+                                "Pirmąsias 7 dienas po operacijos stenkitės, kad į akis nepatektų vandens.",
+                                "Duše stovėkite šiek tiek toliau nei įprastai, kad į akis nepatektų vandens.",
+                                "Plaudami galvą atloškite ją atgal, kad į akis nepatektų šampūno.",
+                                "Jei šampūno, muilo ar kitos priemonės pateko į akis – NETRINKITE! Naudokite drėkinamuosius lašus, kad nuplautumėte ir sumažintumėte deginimą.",
                             ],
                         },
                         {
@@ -1218,10 +1218,10 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Pirmąsias dvi savaites po operacijos makiažo naudoti negalima.",
-                                "Veido kosmetiką (kremą, makiažo pagrindą, skaistalus ir pan.) galima naudoti vėliau, tačiau netepkite per arti akių.",
-                                "Vandeniui atsparios tušo nenaudokite mažiausiai mėnesį – jį sunkiau pašalinti.",
-                                "Mėnesį po operacijos venkite, kad makiažo ar demakiažo priemonės patektų į akis. Jei taip nutiko, praplaukite akis lašais ir JOKIU BŪDU NETRINKITE.",
+                                "Pirmąsias 2 savaites po operacijos makiažo naudoti negalima.",
+                                "Veido kosmetiką (kremą, makiažo pagrindą, skaistalus ir pan.) galite naudoti vėliau, tačiau netepkite per arti akių.",
+                                "Vandeniui atsparaus tušo nenaudokite mažiausiai mėnesį – jį sunkiau pašalinti.",
+                                "Mėnesį po operacijos stenkitės, kad makiažo ar demakiažo priemonių nepatektų į akis. Jei taip nutiko, praplaukite akis lašais ir JOKIU BŪDU NETRINKITE.",
                             ],
                         },
                         {
@@ -1238,9 +1238,9 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Nerekomenduojama vykti į užsienį per pirmąją savaitę po operacijos, kad galėtumėte atvykti į pirmuosius du pooperacinius patikrinimus.",
-                                "Keliaudami į karštas šalis, dėvėkite kokybiškus akinius nuo saulės su pilna UVA ir UVB apsauga. Mėnesį po operacijos venkite deginimosi.",
-                                "Žiemos sporto metu dėvėkite kokybiškus akinius arba kaukę su pilna UVA ir UVB apsauga.",
+                                "Nerekomenduojama vykti į užsienį pirmąją savaitę po operacijos, kad galėtumėte atvykti į pirmuosius du pooperacinius patikrinimus.",
+                                "Keliaudami į karštas šalis, nešiokite kokybiškus akinius nuo saulės su stipria UVA ir UVB apsauga. Mėnesį po operacijos venkite degintis.",
+                                "Užsiimdami žiemos sportu nešiokite kokybiškus akinius arba kaukę su stipria UVA ir UVB apsauga.",
                             ],
                         },
                         {
@@ -1257,7 +1257,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Priklausomai nuo korekcijos apimties, smulkaus šrifto skaitymas kelias savaites gali būti sudėtingesnis – tai normalu.",
+                                "Priklausomai nuo korekcijos apimties, smulkiu šriftu parašytą tekstą skaityti kelias savaites gali būti sudėtingiau – tai normalu.",
                                 "Vyresniems nei 45 metų pacientams gali prireikti akinių darbui iš arti. Tai natūralus su amžiumi susijęs procesas ir gali būti naudingas veikloms, reikalaujančioms gero regėjimo iš arti (skaitymui, siuvimui, mezgimui ir pan.).",
                             ],
                         },
@@ -1275,7 +1275,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Venkite soliariumo vieną mėnesį po lazerinės korekcijos ir tris mėnesius po kataraktos gydymo.",
+                                "Venkite soliariumo mėnesį po akių korekcijos lazeriu ir 3 mėnesius po kataraktos gydymo.",
                             ],
                         },
                         {
@@ -1292,7 +1292,7 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "Jei įmanoma, venkite rūkymo ir buvimo dūmingose patalpose vieną savaitę.",
+                                "Jei įmanoma, venkite rūkyti ir būti dūmų gausiose patalpose savaitę.",
                             ],
                         },
                         {
@@ -1324,12 +1324,12 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Tvarstomieji lęšiai dažniausiai naudojami po LASEK operacijos, siekiant apsaugoti epitelį (išorinį sluoksnį) ir sumažinti diskomfortą. Po 3–4 dienų būtina grįžti į kliniką, kad jie būtų nuimti. Kartais pacientai lęšių netoleruoja – tuomet jie nuimami anksčiau. Nešiojant ar nuimant gali pasireikšti diskomfortas ar skausmas; paprastai tai praeina per 6–24 valandas. Ilsėkitės ir, jei reikia, vartokite skausmą malšinančius vaistus, tačiau NIEKADA NEVIRŠYKITE DOZĖS IR NENUIMKITE LĘŠIŲ PATYS.",
+                            text: "Tvarstomieji lęšiai dažniausiai naudojami po LASEK operacijos, siekiant apsaugoti epitelį (išorinį sluoksnį) ir sumažinti diskomfortą. Po 3–4 dienų būtina grįžti į kliniką, kad jie būtų išimti. Kartais pacientai lęšių netoleruoja, tuomet jie išimami anksčiau. Nešiojant ar išimant lęšius gali pasireikšti diskomfortas ar skausmas; paprastai jie praeina per 6–24 valandas. Ilsėkitės ir, jei reikia, vartokite skausmą malšinančius vaistus, tačiau NIEKADA NEVIRŠYKITE DOZĖS IR NEIŠIMKITE LĘŠIŲ PATYS.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei lęšis iškrito, gali atsirasti diskomfortas. Nebandykite jo įsidėti atgal. Toliau naudokite lašus pagal paskyrimą ir atvykite į kontrolinius vizitus.",
+                            text: "Jei lęšis iškrito, gali atsirasti diskomfortas. Nebandykite jo įsidėti atgal. Toliau naudokite lašus taip, kaip paskyrė gydytojas, ir atvykite į kontrolinius vizitus.",
                         },
                         {
                             type: "text",
@@ -1344,16 +1344,16 @@ export const pationtsInstructionsData: PationtsInstructionType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Per 3–4 savaites po LASEK operacijos gali būti stebimas lengvas ragenos drumstumas. Tai normalus atsistatymo procesas.",
+                            text: "Per 3–4 savaites po LASEK operacijos gali būti stebimas lengvas ragenos drumstumas. Tai normalus procesas.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Dažniausiai drumstumas būna silpnas ir beveik nepastebimas, tačiau retais atvejais gali išlikti 6–12 mėnesių. Rizika didėja vartojant kai kuriuos vaistus – gydytojas įspės, jei tai aktualu Jūsų atvejui. Esant ryškioms formoms regėjimas gali prastėti, tuomet reikalingas gydymas. Gali būti paskirti steroidiniai lašai ar kiti gydymo metodai.",
+                            text: "Dažniausiai drumstumas būna silpnas ir beveik nepastebimas, tačiau retais atvejais gali išlikti 6–12 mėnesių. Rizika didėja vartojant kai kuriuos vaistus – gydytojas įspės, jei tai aktualu Jums. Kartais regėjimas gali prastėti, tuomet reikalingas gydymas. Gali būti paskirti steroidiniai lašai ar kiti gydymo metodai.",
                         },
                         {
                             type: "text",
-                            text: "Mūsų specialistai padarys viską, kad Jūsų regėjimas atsistatytų kuo geriau. Tūkstančiai pacientų, susigrąžinusių gerą regėjimą, – geriausias to įrodymas.",
+                            text: "Mūsų specialistai padarys viską, kad Jūsų regėjimas grįžtų kuo geriau. Tūkstančiai pacientų, susigrąžinusių gerą regėjimą, – geriausias to įrodymas.",
                         },
                     ],
                 },
@@ -2529,7 +2529,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukoma yra bendrinis pavadinimas, apibūdinantis gausybę sutrikimų, kurie pažeidžia regos nervą ir lemia apakimą. Paprastai susirgus šia liga, neišvengiamai gresia prarasti regėjimą, tačiau nustačius  anksti, glaukomą galima gydyti. Deja, net 10 % tinkamai gydytų žmonių vis tiek apanka. Dažnai glaukomos nelydi jokie akivaizdūs požymiai ar simptomai ir ji nustatoma tik tuomet, kai ima silpnėti rega. Geriausias apsisaugojimo būdas – reguliariai tikrintis akis dėl glaukomos.",
+                            text: "GGlaukoma yra bendrinis pavadinimas, apibūdinantis gausybę sutrikimų, kurie pažeidžia regos nervą ir lemia apakimą. Paprastai, susirgus šia liga, neišvengiamai gresia prarasti regėjimą, tačiau, nustačius anksti, glaukomą galima gydyti. Deja, net 10 proc. tinkamai gydytų žmonių vis tiek apanka. Dažnai glaukomos nelydi jokie akivaizdūs požymiai ar simptomai ir ji nustatoma tik tuomet, kai ima silpti rega. Geriausias apsisaugojimo būdas – reguliariai tikrintis akis.",
                         },
                     ],
                 },
@@ -2549,7 +2549,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukoma yra antra pagal paplitimą regos netekimo priežastis pasaulyje. Kadangi šios ligos požymių ir simptomų paprastai būna labai nedaug, ji vadinama „tyliu regos vagimi“. Rekomenduojama reguliariai tikrintis akis, ypač jei nustatomas vienas ar daugiau glaukomos rizikos faktorių.",
+                            text: "Glaukoma yra antra pagal paplitimą regos netekimo priežastis pasaulyje. Kadangi šios ligos simptomų paprastai būna labai nedaug, ji vadinama tyliu regos vagimi. Rekomenduojama reguliariai tikrintis akis, ypač jei nustatomas vienas ar daugiau glaukomos rizikos faktorių.",
                         },
                         {
                             type: "text",
@@ -2570,10 +2570,10 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             type: "list",
                             gap: true,
                             list: [
-                                "rasė: penkis kartus dažnesnė tarp afroamerikiečių nei baltaodžių ir dažnai išsivysto anksčiau;",
-                                "amžius: glaukomos išsivystymo tikimybė yra šešis kartus didesnė žmonėms, vyresniems nei 60 metų amžiaus;",
+                                "rasė: penkis kartus dažniau pasitaiko tarp afroamerikiečių nei baltaodžių ir paprastai išsivysto anksčiau;",
+                                "amžius: glaukomos išsivystymo tikimybė yra šešis kartus didesnė vyresniems nei 60 metų žmonėms;",
                                 "šeimos istorija: jei kiti šeimos nariai serga glaukoma, jos rizika asmeniui išauga 4–9 kartus;",
-                                "vaistai: steroidų vartojimas padidina atvirojo kampo glaukomos riziką iki 40 %;",
+                                "vaistai: steroidų vartojimas padidina atvirojo kampo glaukomos riziką iki 40 proc.;",
                                 "ligos: aukštas kraujo spaudimas padidina atvirojo kampo glaukomos riziką.",
                             ],
                         },
@@ -2592,9 +2592,9 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             gap: true,
                             list: [
                                 "prastas regėjimas: jei esate toliaregis, glaukomos rizika yra didesnė;",
-                                "amžius: senstant uždarojo kampo glaukomos rizika didėja;",
+                                "amžius: senstant uždarojo kampo glaukomos rizika auga;",
                                 "rasė: azijiečiai ir eskimų palikuonys patenka į didesnės rizikos grupę;",
-                                "lytis: tarp baltaodžių moterys glaukoma serga dažniau.",
+                                "lytis: baltaodės moterys glaukoma serga dažniau.",
                             ],
                         },
                     ],
@@ -2605,15 +2605,15 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Antrinė glaukoma – tai glaukoma, kurią lemia kitas sutrikimas. Antrinė glaukoma gali būti tiek atvirojo, tiek uždarojo kampo. Dažnos antrinės glaukomos priežastys yra:",
+                            text: "Antrinė glaukoma – tai glaukoma, kurią lemia kitas sutrikimas. Ji gali būti tiek atvirojo, tiek uždarojo kampo. Dažnos antrinės glaukomos priežastys yra:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "akies trauma: tiek buku, tiek aštriu daiktu padaryta akies trauma gali būti antrinės glaukomos priežastis;",
+                                "akies trauma;",
                                 "ligos: cukrinis diabetas ir katarakta didina tam tikrų antrinių glaukomos formų riziką;",
-                                "rasė: skandinavų palikuonys dažniau serga vieno tipo antrine glaukoma, baltaodžiai – kito tipo;",
+                                "rasė: skandinavų palikuonys dažniau serga vieno tipo antrine glaukoma, baltaodžiai – kito;",
                                 "lytis: baltaodės moterys dažniau serga specifinio tipo antrine glaukoma;",
                                 "vaistai: kai kurie vaistai didina tiek atvirojo, tiek uždarojo kampo antrinės glaukomos riziką.",
                             ],
@@ -2626,7 +2626,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukomos rizikos faktorių yra daug, tačiau net jei Jums netaikomas nė vienas iš anksčiau minėtų veiksnių, vis tiek galite susirgti glaukoma. Rekomenduojama reguliariai tikrinantis akis įtraukti ir patikrinimą dėl glaukomos, ypač senstant. Susisiekite su savo apylinkės oftalmologu, kuris atlieka glaukomos tyrimus, ir apsisaugokite nuo neišgydomo apakimo.",
+                            text: "Glaukomos rizikos faktorių yra daug, tačiau net jei Jums netaikomas nė vienas iš anksčiau minėtų veiksnių, vis tiek galite susirgti. Rekomenduojama reguliariai tikrinantis akis įtraukti ir patikrinimą dėl glaukomos, ypač senstant.",
                         },
                     ],
                 },
@@ -2636,7 +2636,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Ankstyvas glaukomos aptikimas per reguliarius akių patikrinimus vaidina esminį vaidmenį ją gydant ir užkertant kelią regos netekimui. Per įprastinius akių patikrinimus turėtumėte pasitikrinti ir dėl glaukomos:",
+                            text: "Anksti aptikti glaukomą per reguliarius akių patikrinimus itin svarbu – ją bus lengviau gydyti ir apsisaugoti nuo regos netekimo. Per įprastinę akių patikrą turėtumėte pasitikrinti ir dėl glaukomos:",
                         },
                         {
                             type: "list",
@@ -2651,7 +2651,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei patenkate į didelės rizikos grupę, turėtumėte pradėti tikrintis akis dėl glaukomos nuo 35 metų ir daryti tai kas 1–2 metus.",
+                            text: "Jei patenkate į aukštos rizikos grupę, turėtumėte pradėti tikrintis akis dėl šios ligos nuo 35-erių ir daryti tai kas 1–2 metus.",
                         },
                     ],
                 },
@@ -2661,7 +2661,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukomos tipų yra daug ir įvairių. Dauguma jų siejami su padidėjusiu akispūdžiu, kada skysčio spaudimas akyje padidėja, todėl spaudžiamas ir pažeidžiamas regos nervas. Akispūdis didėja, kai akyje susikaupęs skystis negali pasišalinti per įprastinį kanalą, vadinamą atviruoju kampu, tarp rainelės ir ragenos. Skystis kaupiasi akyje, todėl akispūdis didėja. Šiuo metu žinomos glaukomos formos yra:",
+                            text: "Glaukomos tipų yra daug ir įvairių. Dauguma jų siejami su padidėjusiu akispūdžiu, kai skysčio spaudimas akyje padidėja, todėl spaudžiamas ir pažeidžiamas regos nervas. Akispūdis didėja, kai akyje susikaupęs skystis negali pasišalinti per įprastinį kanalą, vadinamą atviruoju kampu, tarp rainelės ir ragenos. Šiuo metu žinomos glaukomos formos yra:",
                         },
                         {
                             type: "list",
@@ -2682,7 +2682,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                                         value: "Uždarojo kampo glaukoma",
                                     },
                                     {
-                                        value: ", kitaip dar vadinama ūmine. Ji išsivysto, kai rainelė prisispaudžia prie kampo, užkimšdama ištekėjimo kanalus. Ši glaukoma gali sukelti staigų ir pavojingą akispūdžio padidėjimą.",
+                                        value: ". Labiausiai paplitęs jos tipas yra įgimta glaukoma, kai vaikas gimsta jau su padidėjusiu akispūdžiu (įgimta būklė). Šia glaukoma serga maždaug 1 iš 10 000 kūdikių.",
                                     },
                                 ],
                                 [
@@ -2703,7 +2703,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                                         value: "Normalaus akispūdžio glaukoma ",
                                     },
                                     {
-                                        value: "– tai glaukoma, kuri išsivysto be akispūdžio padidėjimo.",
+                                        value: " išsivysto nepadidėjus akispūdžiui.",
                                     },
                                 ],
                             ],
@@ -2716,21 +2716,21 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukomos gydymas gali užkirsti kelią regos netekimui, jei sutrikimas aptinkamas anksti. Glaukomos gydymo būdai yra:",
+                            text: "Glaukomos gydymas gali apsaugoti nuo regos netekimo, jei sutrikimas aptinkamas anksti. Ji gydoma:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "akių lašiukai;",
-                                "chirurginė operacija;",
-                                "selektyvusis lazerinis gydymas.",
+                                "akių lašiukais;",
+                                "chirurginiu būdu;",
+                                "pasitelkus selektyvųjį gydymą lazeriu.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Glaukoma neišgydoma. Ją galima tik kontroliuoti ir stebėti visą gyvenimą. Jei Jums buvo paskirti vaistai nuo šios ligos, privalote juos vartoti, kaip nurodė gydytojas. Glaukomos požymių YRA. Ligą galima diagnozuoti dar prieš pastebint simptomus. Juos pacientai vertina subjektyviai ir gydytojui jie ne visada gali būti aiškūs. Arba požymiai yra objektyvūs ir aiškūs gydytojui, tačiau pacientas gali jų nepastebėti.",
+                            text: "Glaukoma neišgydoma. Ją galima tik kontroliuoti ir stebėti visą gyvenimą. Jei Jums buvo paskirti vaistai nuo šios ligos, privalote juos vartoti, kaip nurodė gydytojas. Ligą galima diagnozuoti dar prieš pastebint simptomų. Juos pacientai vertina subjektyviai ir gydytojui jie ne visada gali būti aiškūs. Kita vertus, kartais požymiai būna objektyvūs ir aiškūs gydytojui, tačiau pacientas gali jų nepastebėti.",
                         },
                     ],
                 },
@@ -3102,7 +3102,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Astigmatizmas – refrakcijos yda, nulemianti iškraipytą ar miglotą matymą įvairiais atstumais. Tai lemia pakitusi ragenos forma, kuri tampa panaši į regbio kamuolį, o ragenos paviršius darosi asimetriškas. Dėl tokio gaubtumo susidaro laužiamosios šviesos spindulių gebos skirtumas, todėl žmogaus regėjimas, nepriklausomai nuo atstumo, yra neryškus. Pavyzdžiui, vienu kampu daikto kontūrai gali atrodyti ryškesni, negu žiūrint kitu kampu.",
+                            text: "Astigmatizmas – refrakcijos yda, nulemianti iškraipytą ar miglotą matymą įvairiais atstumais. Tai lemia pakitusi ragenos forma, kuri tampa panaši į regbio kamuolį, o ragenos paviršius darosi asimetriškas. Dėl tokio gaubtumo susidaro laužiamosios šviesos spindulių gebos skirtumas, todėl žmogaus regėjimas, nepriklausomai nuo atstumo, yra neryškus. Pavyzdžiui, vienu kampu daikto kontūrai gali atrodyti ryškesni negu žiūrint kitu kampu.",
                         },
                     ],
                 },
@@ -3122,11 +3122,11 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                 },
                 {
-                    title: "Lazerinė regos korekcija",
+                    title: "Regos korekcija Lazeriu",
                     text: [
                         {
                             type: "text",
-                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, jie panašesni į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
                         },
                     ],
                     btn: {
@@ -3139,7 +3139,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio astigmatizmą. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu mes nustatysime, ar galime Jus operuoti ir kokia operacija Jums tinkamiausia.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio astigmatizmą. Jeigu buvo nustatyta, kad Jums negalima atlikti regėjimo korekcijos lazeriu, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas“ siūlo operacijas, galinčias Jums padėti. Per konsultaciją nustatysime, ar galime Jus operuoti, ir kokia operacija Jums tinkamiausia.",
                         },
                     ],
                     btn: {
@@ -3285,17 +3285,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Toliaregystė arba hipermetropija – tai akomodacijos sutrikimas, kurio metu sumažėja galimybė ryškiai matyti daiktus, esančius arti. Dažniausiai toliaregystė pasitaiko vyresnio amžiaus žmonėms.",
+                            text: "Toliaregystė, arba hipermetropija, – tai akomodacijos sutrikimas, sumažinantis galimybę ryškiai matyti daiktus, esančius arti. Dažniausiai toliaregystė pasitaiko vyresnio amžiaus žmonėms.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei esate toliaregis, arti esantys vaizdai atrodo labiau migloti nei tolimi. Pavyzdžiui, jei sėdėtumėte restorano vasaros terasoje, meniu atrodytų neryškus, o aplinkinis kraštovaizdis būtų matomas sufokusuotas. Tačiau klaidinga nuomonė, kad toliaregiai visada gerai mato į tolį. Sunkūs toliaregystės atvejai gali paveikti ir toli esančių objektų matymą.",
+                            text: "Jei esate toliaregis, arti esantys vaizdai atrodo miglotesni nei tolimi. Pavyzdžiui, jei sėdėtumėte restorano vasaros terasoje, meniu atrodytų neryškus, o aplinkinis kraštovaizdis būtų matomas sufokusuotas. Tačiau klaidinga nuomonė, kad toliaregiai visada gerai mato į tolį. Sunkūs toliaregystės atvejai gali paveikti ir toli esančių objektų matymą.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Toliaregystė susiformuoja, kai ragena yra per daug plokščia arba akis yra per trumpa. Šios sąlygos neleidžia šviesos spinduliams, kurie patenka į Jūsų akis, reikiamai užlūžti ir fokusuotis tinklainėje. Vietoje to matomi vaizdai fokusuojami už tinklainės.",
+                            text: "Toliaregystė susiformuoja, kai ragena yra per daug plokščia arba akis yra per trumpa. Šios sąlygos neleidžia šviesos spinduliams, kurie patenka į Jūsų akis, reikiamai lūžti ir fokusuotis tinklainėje. Vietoje to matomi vaizdai fokusuojami už tinklainės.",
                         },
                         {
                             type: "image",
@@ -3305,17 +3305,17 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei esate toliaregis (-ė), matomi vaizdai fokusuojami už tinklainės, o ne tinklainėje.",
+                            text: "Jei esate toliaregis (-ė), matomi vaizdai fokusuojami už tinklainės, o ne joje.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Maždaug 11,8 milijonų Jungtinių Valstijų gyventojų (arba maždaug 10 procentų populiacijos) turi tam tikro laipsnio toliaregystę. Toliaregystė išsivysto žymiai rečiau nei trumparegystė, o jos paplitimas dažnėja su pacientų amžiumi.",
+                            text: "Maždaug 11,8 mln. Jungtinių Valstijų gyventojų (arba apie 10 proc. populiacijos) turi tam tikro laipsnio toliaregystę. Ji išsivysto žymiai rečiau nei trumparegystė, o jos paplitimas dažnėja su pacientų amžiumi.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kai akių gydytojas ištiria Jūsų akis, jis išrašo receptą, kuriame nurodomas refrakcijos ydos laipsnis. Toliaregystės receptuose paprastai prieš pirmąjį skaičių būna pliuso ženklas.",
+                            text: "Ištyręs Jūsų akis, akių gydytojas išrašo receptą, kuriame nurodomas refrakcijos ydos laipsnis. Toliaregystės receptuose paprastai prieš pirmąjį skaičių būna pliuso ženklas.",
                         },
                     ],
                 },
@@ -3325,7 +3325,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Toliaregystės korekcija priklauso nuo keleto faktorių, pvz., amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais, pakeičiančiais šviesos spindulių kryptį akyje. Pacientams akinius ar kontaktinius lęšius tenka nešioti visą laiką arba tik skaitymui, darbui kompiuteriu ar dirbant kitus darbus, reikalaujančius gero regėjimo iš arti. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar lęšių receptą, o skiltį „Pratimai akims“ – norėdami gauti informacijos, kaip išvengti regėjimo problemų, atliekant akių stiprinimo pratimus.",
+                            text: "Toliaregystės korekcija priklauso nuo keleto faktorių, pvz., amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais, pakeičiančiais šviesos spindulių kryptį akyje. Pacientams akinius ar kontaktinius lęšius tenka nešioti visą laiką arba tik skaitant, dirbant kompiuteriu ar užsiimant kitomis veiklomis, reikalaujančiomis gero regėjimo iš arti. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar lęšių receptą, o skiltį „Pratimai akims“ – norėdami sužinoti, kaip išvengti regėjimo bėdų atliekant akių stiprinimo pratimus.",
                         },
                         {
                             type: "component",
@@ -3335,16 +3335,16 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei norite ir esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių visam laikui, peržiūrėkite šias regos korekcijos galimybes:",
+                            text: "Jei esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių visam laikui, peržiūrėkite šias regos korekcijos galimybes.",
                         },
                     ],
                 },
                 {
-                    title: "Lazerinė regos korekcija",
+                    title: "Regos korekcija lazeriu",
                     text: [
                         {
                             type: "text",
-                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, jie panašesni į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija.",
                         },
                     ],
                     btn: {
@@ -3357,7 +3357,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     text: [
                         {
                             type: "text",
-                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio hiperopiją. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu mes nustatysime, ar Jus galima operuoti ir kokia operacija Jums tinkamiausia.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio hiperopiją. Jeigu buvo nustatyta, kad Jums negalima atlikti regėjimo korekcijos lazeriu, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas“ siūlo operacijas, galinčias Jums padėti. Per konsultaciją nustatysime, ar Jus galima operuoti, ir kokia operacija tinkamiausia.",
                         },
                     ],
                     btn: {
@@ -3575,7 +3575,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 { bold: true, value: "Katarakta" },
                                 {
-                                    value: " – tai akies lęšiuko drumstis, dėl kurios žmogaus regėjimas tampa neryškus. Dar vienas kataraktos simptomas – blogas matymas, esant ryškiai šviesai. Jeigu liga negydoma, regėjimas vis blogėja, tampa miglotas ir neryškus, spalvos atrodo pritemdytos (su geltonu arba rudu atspalviu). Skaityti ar vairuoti mažai apšviestoje aplinkoje tampa sudėtinga, nes suprastėja regėjimas naktį, o aplink žibintus kartais matomi ratilai. Kartais pacientai jaučia akių skausmą būdami ryškioje saulės šviesoje ar matydami stiprų akinantį atspindį nuo paviršių, pvz., priekinių automobilių stiklų.  Šia liga dažniausiai serga 60–70 metų žmonės, nors pasitaiko atvejų, kai liga pasireiškia ir žymiai jaunesniame amžiuje.",
+                                    value: " – tai akies lęšiuko drumstis, dėl kurios žmogaus regėjimas tampa neryškus. Dar vienas kataraktos simptomas – blogas matymas esant ryškiai šviesai. Jeigu liga negydoma, regėjimas vis blogėja, tampa miglotas ir neryškus, spalvos atrodo pritemdytos (su geltonu arba rudu atspalviu). Skaityti ar vairuoti mažai apšviestoje aplinkoje tampa sudėtinga, nes suprastėja regėjimas naktį, o aplink žibintus kartais matomi ratilai. Pasitaiko, kad pacientai jaučia akių skausmą būdami ryškioje saulės šviesoje ar matydami stiprų akinantį atspindį nuo paviršių, pvz., priekinių automobilių stiklų. Šia liga dažniausiai serga 60–70 metų žmonės, nors pasitaiko atvejų, kai ji pasireiškia ir žymiai jaunesniems asmenims.",
                                 },
                             ],
                         },
@@ -3592,12 +3592,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Nepaisant to, kad katarakta dažniausiai išsivysto dėl su amžiumi susijusių akių pokyčių, liga vis dažniau nustatoma sulaukus 40–50 metų ar dar jaunesniems pacientams. Vyresnių nei 80 metų pacientų kataraktos aptikimo rodiklis yra beveik 100 %.",
+                            text: "Nepaisant to, kad katarakta paprastai išsivysto dėl su amžiumi susijusių akių pokyčių, liga vis dažniau nustatoma sulaukusiems 40–50 metų ar dar jaunesniems pacientams. Vyresnių nei 80 metų asmenų kataraktos aptikimo rodiklis yra beveik 100 proc.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Daugumai senatvine (su amžiumi susijusia) katarakta sergančių žmonių liga daugelį metų vystosi labai lėtai ir neskausmingai, dažnai pradinė diagnozė nustatoma įprastos oftalmologo apžiūros metu.",
+                            text: "Daugumai senatvine (su amžiumi susijusia) katarakta sergančių žmonių liga daugelį metų vystosi labai lėtai ir neskausmingai, dažnai pradinė diagnozė nustatoma per įprastą gydytojo oftalmologo apžiūrą.",
                         },
                         {
                             type: "text",
@@ -3605,14 +3605,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     bold: true,
-                                    value: "Tačiau gera žinia ta, kad katarakta gali būti sėkmingai gydoma. Mūsų klinikoje „Naujas regėjimas“ taikomas revoliucinis metodas „iQ-5 minutes“ – kataraktos šalinimas „vandeniu“.",
+                                    value: "Gera žinia – katarakta gali būti sėkmingai gydoma. Mūsų klinikoje „Naujas regėjimas“ taikomas revoliucinis metodas „iQ-5 minutes“ – kataraktos šalinimas vandeniu.",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kataraktos operacija atliekama be narkozės ir skausmo (su vietine anestezija, įlašinus specialių anestetinių lašų). Operacijos metu kataraktos paveiktas lęšis pašalinamas, o jo vietoje implantuojamas dirbtinis intraokulinis lęšis (IOL). Iš karto po operacijos Jūsų regėjimas sugrįžta ir Jūs viską matote puikiai.",
+                            text: "Kataraktos operacija atliekama netaikant narkozės ir yra neskausminga (pakanka vietinės anestezijos, įlašinus specialių anestetinių lašų). Per operaciją kataraktos paveiktas lęšis pašalinamas, o jo vietoje implantuojamas dirbtinis intraokulinis lęšis (IOL). Iš karto po operacijos regėjimas sugrįžta ir viską matote puikiai.",
                         },
                     ],
                 },
@@ -3754,12 +3754,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei esate trumparegis, toli esantys vaizdai atrodo migloti. Prisimerkus šie vaizdai tampa ryškesni. Pavyzdžiui, trumparegiai studentai gali skaityti knygas ir matyti arti esančius studentus, bet dėstytojas ir lenta atrodo miglotai. Trumparegystė (dar vadinama miopija) susiformuoja, kai į akį patenkantys spinduliai laužiami per daug, todėl sufokusuojami taške priešais tinklainę. Akys su trumparegyste taip pat gali būti ilgesnės nei įprasta arba jų ragena gali būti per daug išlinkusi, dėl to matomi vaizdai nefokusuojami tinklainėje.",
+                            text: "Jei esate trumparegis, toli esantys vaizdai atrodo migloti. Prisimerkus jie tampa ryškesni. Pavyzdžiui, trumparegiai studentai gali skaityti knygas ir matyti arti esančius studentus, bet dėstytojas ir lenta atrodo miglotai. Trumparegystė (dar vadinama miopija) susiformuoja, kai į akį patenkantys spinduliai laužiami per daug, todėl sufokusuojami taške priešais tinklainę. Akys su trumparegyste taip pat gali būti ilgesnės nei įprasta arba jų ragena gali būti per daug išlinkusi, dėl to matomi vaizdai nefokusuojami tinklainėje.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kai esate trumparegis, matomi vaizdai fokusuojami ne akies galinėje dalyje, o  priešais tinklainę. Trumparegystė paprastai susiformuoja vaikystėje ir pirmą kartą nustatoma, kai tėvai sužino, jog vaikas mokykloje negali perskaityti ant lentos rašomo teksto. Trumparegystė pablogėja paauglystės laikotarpiu ir stabilizuojasi ankstyvajame pilnametystės etape. Kai kurie ekspertai mano, kad trumparegystė yra paveldima. Ji gali susiformuoti kartu su arba be astigmatizmo. Tipinis trumparegystės nurodymas akinių recepte yra minusas prieš pirmąjį skaičių.",
+                            text: "Kai esate trumparegis, matomi vaizdai fokusuojami ne akies galinėje dalyje, o priešais tinklainę. Trumparegystė paprastai susiformuoja vaikystėje ir pirmą kartą nustatoma, kai tėvai sužino, kad vaikas mokykloje negali perskaityti ant lentos rašomo teksto. Trumparegystė pablogėja paauglystės laikotarpiu ir stabilizuojasi ankstyvajame pilnametystės etape. Kai kurie ekspertai mano, kad trumparegystė yra paveldima. Ji gali susiformuoti kartu su arba be astigmatizmo. Tipinis trumparegystės nurodymas akinių recepte yra minusas prieš pirmąjį skaičių.",
                         },
                     ],
                 },
@@ -3769,7 +3769,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Trumparegystės korekcija priklauso nuo įvairių faktorių, pvz., amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais. Jie pagerina regėjimą nekeisdami akies anatomijos, tad juos nuėmus, blogas regėjimas vėl iškart sugrįžta. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar kontaktinių lęšių receptą, o skiltį „Pratimai akims“ – norėdami gauti informacijos, kaip išvengti regėjimo problemų, atliekant akių stiprinimo pratimus. Jei esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių, peržiūrėkite šias regos korekcijos galimybes:",
+                            text: "Trumparegystės korekcija priklauso nuo įvairių faktorių: amžiaus, veiklos ir profesijos, bet paprastai ji koreguojama kontaktiniais lęšiais arba akiniais. Jie pagerina regėjimą nekeisdami akies anatomijos, tad, juos nuėmus, blogas regėjimas vėl sugrįžta. Peržiūrėkite skiltį „Akių patikrinimas“, norėdami gauti daugiau informacijos apie tai, kaip gauti korekcinių akinių ar kontaktinių lęšių receptą, o skiltį „Pratimai akims“ – norėdami sužinoti, kaip išvengti regėjimo problemų, atliekant akių stiprinimo pratimus. Jei esate pasirengę atsisakyti korekcinių akinių ar kontaktinių lęšių, peržvelkite šias regos korekcijos galimybes:",
                         },
                         {
                             type: "image",
@@ -3784,7 +3784,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, tačiau jie labiau panašūs į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija. Susipažinkite su dažniausiai taikomais lazerinės regos korekcijos metodais:",
+                            text: "Nors akiniai ir kontaktiniai lęšiai padeda koreguoti tam tikrus regėjimo sutrikimus, jie panašesni į tvarsčius ir ramentus, kurie tėra laikina pagalba, nepašalinanti problemos priežasties taip, kaip tą padarytų operacija. Susipažinkite su dažniausiai taikomais lazerinės regos korekcijos metodais:",
                         },
                         {
                             type: "text",
@@ -3792,14 +3792,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "LASIK regėjimo korekcija",
+                                    value: "„LASIK“ regėjimo korekcija",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "LASIK (lazeriu atliekama vidinė keratomaliacija) yra dažniausiai atliekama akių operacijos lazeriu forma nuo 1991 metų, kai buvo atlikti JAV klinikiniai tyrimai. Operacijos metu pakeičiama ragenos forma ir panaikinama arba sumažinama būtinybė nešioti akinius ar kontaktinius lęšius. Tai yra chirurginė procedūra, turinti tam tikrų rizikų.",
+                            text: "LASIK (lazeriu atliekama vidinė keratomaliacija) yra dažniausiai atliekama akių operacijos lazeriu forma nuo 1991 metų, kai buvo atlikti JAV klinikiniai tyrimai. Atliekant operaciją pakeičiama ragenos forma ir panaikinama arba sumažinama būtinybė nešioti akinius ar kontaktinius lęšius. Tai chirurginė procedūra, kelianti tam tikrų rizikų.",
                         },
                         {
                             type: "text",
@@ -3807,14 +3807,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 {
                                     subtitle: true,
-                                    value: "Regėjimo korekcija lazeriu – „iQ-LASIK“",
+                                    value: "Regėjimo korekcija lazeriu „iQ-LASIK“",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "LASIK gali padėti sumažinti būtinybę nešioti akinius arba kontaktinius lęšius, o metodas „iQ-LASIK“ sujungia pažangiausias šiuolaikines chirurgijos technologijas į vieną procedūrą. Rezultatas – funkcionalesnė ir efektyvesnė lazerinės regos korekcijos operacija. Praeityje kiekvienam pacientui buvo atliekama ta pati pagrindinė LASIK procedūra, neatsižvelgiant į unikalias paciento akies savybes. Metodas „iQ-LASIK“ yra kitoks. Tik „iQ-LASIK“ įgalina chirurgus sukurti gydymo planą su individualiomis parinktimis, atsižvelgus į Jūsų regėjimo poreikius, kad būtų užtikrinti geriausi regėjimo rezultatai. Jūsų akys nusipelno ypatingo gydymo. Atvykite individualiai konsultacijai pas mūsų profesionalius gydytojus oftalmologus, kad galėtume nustatyti, koks gydymas būtų tinkamiausias būtent Jums.",
+                            text: "LASIK gali padėti sumažinti būtinybę nešioti akinius arba kontaktinius lęšius, o metodas „iQ-LASIK“ sujungia pažangiausias šiuolaikines chirurgijos technologijas į vieną procedūrą. Rezultatas – funkcionalesnė ir efektyvesnė regos korekcijos lazeriu operacija. Praeityje kiekvienam pacientui buvo atliekama pagrindinė LASIK procedūra, neatsižvelgiant į unikalias akies savybes. „iQ-LASIK“ metodas išsiskiria individualiu požiūriu. Tik ši technologija leidžia chirurgui sudaryti personalizuotą gydymo planą, pritaikytą Jūsų regėjimo poreikiams, siekiant užtikrinti geriausius regėjimo rezultatus. Jūsų akys nusipelno ypatingo gydymo. Atvykite į individualią konsultaciją pas mūsų profesionalius gydytojus oftalmologus, kad galėtume nustatyti, koks gydymas būtų tinkamiausias būtent Jums.",
                         },
                     ],
                     btn: {
@@ -3828,7 +3828,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio toliaregystę. Jeigu buvo nustatyta, kad Jums negalima atlikti lazerinės regėjimo korekcijos, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas” siūlo operacijas, galinčias Jums padėti. Konsultacijos metu nustatysime, ar Jus galima operuoti ir kokia operacija Jums tinkamiausia.",
+                            text: "Intraokulinė korekcija atliekama koreguojant didelio laipsnio toliaregystę. Jeigu buvo nustatyta, kad Jums negalima atlikti regėjimo korekcijos lazeriu, nenuleiskite rankų, nes yra kitų būdų susigrąžinti gerą regėjimą. Akių klinika „Naujas regėjimas“ siūlo operacijas, galinčias Jums padėti. Per konsultaciją nustatysime, ar Jus galima operuoti, ir kokia operacija tinkamiausia.",
                         },
                     ],
                     btn: {
@@ -4058,14 +4058,14 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                             text: [
                                 { bold: true, value: "Žvairumas" },
                                 {
-                                    value: " – tai nuolatinis ar periodinis vienos akies nukrypimas nuo bendro fiksacijos taško, kai yra sutrikęs abiejų akių fiksacijos į vieną tašką mechanizmas. Viena akis gali žvelgti tiesiai, o kita būti nukrypusi į išorę, į vidų, žemyn arba į viršų. Žvairumas yra gana dažnas reiškinys, pasireiškiantis maždaug 3-4% vaikų, tačiau gali atsirasti ir suaugusiems. Žvairumas gali būti ir paveldimas.",
+                                    value: " – tai nuolatinis ar periodinis vienos akies nukrypimas nuo bendro fiksacijos taško, kai yra sutrikęs abiejų akių fiksacijos į vieną tašką mechanizmas. Viena akis gali žvelgti tiesiai, o kita būti nukrypusi į išorę, vidų, žemyn arba į viršų. Žvairumas yra gana dažnas reiškinys, pasireiškiantis maždaug 3–4 proc. vaikų, tačiau gali atsirasti ir suaugusiems asmenims. Ši būklė gali būti ir paveldima.",
                                 },
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Dėka didelio regėjimo aštrumo ir tolygios akių padėties asmuo nuo pat vaikystės formuoja harmoningą ir teisingą aplinkinio pasaulio suvokimą. Matomas vaizdas būna aiškus ir platus. Tačiau neretai akys nukrypsta nuo lygiagrečios regos ašių padėties ir atsiranda žvairumas. Tai yra kosmetinė ir funkcinė problema, susijusi su okulomotorinių (akį judinančių) raumenų disbalansu.",
+                            text: "Dėl didelio regėjimo aštrumo ir tolygios akių padėties asmuo nuo pat vaikystės formuoja harmoningą ir tinkamą aplinkinio pasaulio suvokimą. Matomas vaizdas būna aiškus ir platus. Tačiau neretai akys nukrypsta nuo lygiagrečios regos ašių padėties ir atsiranda žvairumas. Tai kosmetinė ir funkcinė problema, susijusi su okulomotorinių (akį judinančių) raumenų disbalansu.",
                         },
                     ],
                 },
@@ -4074,22 +4074,22 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Žvairumas gali būti vidinis – kai akys susieina ties nosimi, išorinis – kai jos išsiskiria į šalis, vertikalus – kai viena akis nukrypsta į viršų ar į apačią, vienpusis – kai tik viena akis žiūri netaisyklingai, pakaitinis – kai akys pakaitomis nukrypsta nuo regos ašies, ir paralyžinis – kai yra riboti akies judesiai pažeisto raumens link. Esant žvairumui, paauglys ar suaugęs žmogus patiria diskomfortą, skundžiasi greitu akių nuovargiu, galvos svaigimu, vaizdo dvejinimusi, kas labai pablogina gyvenimo kokybę.",
+                            text: "Žvairumas gali būti vidinis – kai akys susieina ties nosimi, išorinis – kai jos išsiskiria į šalis, vertikalus – kai viena akis nukrypsta į viršų ar į apačią, vienpusis – kai tik viena akis žiūri netaisyklingai, pakaitinis – kai akys pakaitomis nukrypsta nuo regos ašies, ir paralyžinis – kai yra riboti akies judesiai pažeisto raumens link. Esant žvairumui, paauglys ar suaugęs asmuo patiria diskomfortą, skundžiasi greitu akių nuovargiu, galvos svaigimu, vaizdo dvejinimusi. Visa tai labai pablogina gyvenimo kokybę.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kuo anksčiau pastebimas akių nuokrypis, teisingai diagnozuojamos žvairumo priežastys ir pradedamas gydymas – tuo didesnė tikimybė ištaisyti kosmetinį defektą ir pasiekti aukštą abiejų akių regėjimą.",
+                            text: "Kuo anksčiau pastebimas akių nuokrypis, tinkamai diagnozuojamos žvairumo priežastys ir pradedamas gydymas, tuo didesnė tikimybė ištaisyti kosmetinį defektą ir išgauti aukštą abiejų akių regėjimą.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Be abejo, žvairumą reikia pradėti gydyti vaikystėje, vos jį nustačius. Laiku parinkti akiniai gali sumažinti akies nuokrypio laipsnį ar net visiškai pašalinti žvairumą. Okulistas paskiria tinkamus akinukus, gydomųjų pratimų kompleksą, švitinimą įvairiais aparatais. Šių taikomų priemonių tikslas ne tik priversti akių raumenis dirbti taisyklingai, bet ir pagerinti regėjimą. Akinukus vaikai gali pradėti nešioti ir nuo 6 mėnesių. Kartais mažylio geriau matanti akis gali būti uždengiama, kad žvairuojanti akytė po truputį stiprėtų ir pradėtų žiūrėti taisyklingai. Gydyti reikia nuolat, nes nenešiojant akinukų nors dvi savaites, visas darbas gali nueiti veltui. Jei neužtenka gydymo akiniais, gydoma chirurginiu būdu – operuojami akį judinantys raumenys. Jie pailginami arba sutrumpinami. Kartais gali prireikti ir kelių operacijų.",
+                            text: "Be abejo, žvairumą reikia pradėti gydyti vaikystėje, vos jį nustačius. Laiku parinkti akiniai gali sumažinti akies nuokrypio laipsnį ar net visiškai pašalinti žvairumą. Akių ligų gydytojas paskiria tinkamus akinukus, gydomųjų pratimų kompleksą, švitinimą įvairiais aparatais. Šių taikomų priemonių tikslas ne tik priversti akių raumenis dirbti taisyklingai, bet ir pagerinti regėjimą. Akinukus vaikai gali pradėti nešioti nuo 6 mėnesių. Kartais mažylio geriau matanti akis gali būti uždengiama, kad žvairuojanti akytė po truputį stiprėtų ir pradėtų žiūrėti taisyklingai. Gydyti reikia nuolat, nes, nenešiojant akinukų nors 2 savaites, visas darbas gali nueiti veltui. Jei neužtenka gydymo akiniais, gydoma chirurginiu būdu – operuojami akį judinantys raumenys. Jie pailginami arba sutrumpinami. Kartais gali prireikti ir kelių operacijų.",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Šiuolaikiniai akių ligų korekcijos metodai leidžia mums pašalinti žvairumą net ir pacientams, turintiems silpną regėjimo aštrumą. Akių klinikoje „Naujas regėjimas“ galime suteikti visapusišką žvairumu sergančių pacientų priežiūrą. Tiksli diagnostika, teisinga gydymo taktika, kruopštus proceso dinamikos stebėjimas ir patikimas gydymo rezultato užtvirtinimas – visi šie etapai pilnai įgyvendinami mūsų klinikoje.",
+                            text: "Šiuolaikiniai akių ligų korekcijos metodai leidžia pašalinti žvairumą net ir pacientams, turintiems silpną regėjimo aštrumą. Akių klinikoje „Naujas regėjimas“ galime suteikti visapusišką žvairumu sergančių pacientų priežiūrą. Tiksli diagnostika, tinkama gydymo taktika, kruopštus proceso dinamikos stebėjimas ir patikimas gydymo rezultato užtvirtinimas – visi šie etapai visiškai įgyvendinami mūsų klinikoje.",
                         },
                         {
                             type: "text",
@@ -4242,12 +4242,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Senstant akies lęšis netenka elastingumo, todėl darosi sunkiau matyti artimus daiktus. Sulaukęs 40–45 metų iki tol gerai matęs žmogus negali skaityti ar dirbti smulkių darbų iš įprasto atstumo. Tai vadinama senatvine toliaregyste (presbiopija).",
+                            text: "Senstant akies lęšis netenka elastingumo, todėl darosi sunkiau matyti artimus daiktus. Sulaukęs 40–45 metų iki tol gerai matęs žmogus negali skaityti ar dirbti smulkių darbų iš įprasto atstumo. Ši būklė vadinama senatvine toliaregyste (presbiopija).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Ar Jums reikia skaitymo akinių? Jei taip, tikriausiai Jums presbiopija, dėl kurios akis praranda galimybę fokusuoti. Tai paprastai įvyksta dėl natūralaus senėjimo proceso, kurį patiria kiekvienas. Pirmieji simptomai dažnai pastebimi sulaukus keturiasdešimties metų amžiaus, todėl tiek daug vidutinio amžiaus žmonių prireikia skaitymo arba dvižidinių akinių.",
+                            text: "Ar Jums reikia skaitymo akinių? Jei taip, tikriausiai kamuoja presbiopija, dėl kurios akys praranda galimybę fokusuoti. Tai paprastai įvyksta dėl natūralaus senėjimo proceso, kurį patiria kiekvienas. Pirmieji simptomai dažnai pastebimi sulaukus 40 metų, todėl tiek daug vidutinio amžiaus žmonių prireikia skaitymo arba dvižidinių akinių.",
                         },
                     ],
                 },
@@ -4262,12 +4262,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                     ],
                 },
                 {
-                    title: "Presbiopija – tai natūralus procesas, o ne liga",
+                    title: "Presbiopija – natūralus procesas, o ne liga",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Šis sutrikimas paprastai prasideda žmonėms nuo 40 iki 50 metų amžiaus. Presbiopija susiformuoja, kai natūralus akies lęšiukas sensta, todėl tampa kietesnis ir praranda lankstumą, dėl to paprastai prarandamas geras artimų objektų regėjimas ir reikia skaitymo akinių.",
+                            text: "Šis sutrikimas paprastai pasireiškia 40–50 metų sulaukusiems žmonėms. Presbiopija susiformuoja, kai natūralus akies lęšiukas sensta, todėl tampa kietesnis ir netenka lankstumo, dėl to prarandamas geras artimų objektų matymas ir prireikia skaitymo akinių.",
                         },
                     ],
                 },
@@ -4277,43 +4277,43 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Deja, presbiopija atsiranda mums natūraliai senstant. Kol kas medikai nežino, kaip išvengti šios regėjimo degradacijos. Praktiškai visiems sulaukus 40-ties metų pasireikš presbiopijos simptomai, netgi jeigu jie ir neturėjo jokių regėjimo problemų. Tačiau svarbu žinoti, jog regėjimu reikia rūpintis visuomet, štai keli būdai apsaugoti Jūsų akis nuo bet kokių ligų:",
+                            text: "Deja, presbiopija atsiranda natūraliai senstant. Kol kas medikai nežino, kaip išvengti šios regėjimo degradacijos. Praktiškai visiems, sulaukusiems 40-ies metų, asmenims pasireikš presbiopijos simptomų, netgi jeigu anksčiau ir neturėjote jokių regėjimo problemų. Visgi svarbu žinoti, kad regėjimu reikia rūpintis visuomet. Štai keli būdai, padėsiantys apsaugoti akis nuo ligų:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
                                 "Reguliariai tikrinkite regėjimą.",
-                                "Šviečiant ryškiai saulei, dėvėkite tamsius apsauginius akinius, tai padės apsaugoti akis nuo žalingo UV poveikio.",
-                                "Dažniau tikrinkite akis, jeigu esate rizikos grupėje – sergate diabetu ar hipotireoze.",
-                                "Būtinai dėvėkite apsauginius akinius, jeigu dirbate pavojingus darbus, nes net menkiausia akių trauma gali turėti įtakos sunkiai išgydomų ligų atsiradimui.",
-                                "Sveikai maitinkitės. Sveikas maistas – tai garantas, kad gausite pakankamai antioksidantų ir vitaminų. Tyrimai parodė, kad maistinės medžiagos, esančios vaisiuose, daržovėse ir žuvyje, gali sulėtinti natūralų akių senėjimo procesą.",
+                                "Šviečiant ryškiai saulei, nešiokite tamsius apsauginius akinius. Tai padės apsaugoti akis nuo žalingo UV spindulių poveikio.",
+                                "Dažniau tikrinkite akis, jeigu esate rizikos grupėje, – sergate diabetu ar hipotireoze.",
+                                "Būtinai nešiokite apsauginius akinius, jeigu dirbate pavojingus darbus, nes net menkiausia akių trauma gali turėti įtakos sunkiai išgydomoms ligoms atsirasti.",
+                                "Sveikai maitinkitės. Sveikas maistas – tai garantas, kad gausite pakankamai antioksidantų ir vitaminų. Tyrimai parodė, jog maistinės medžiagos, esančios vaisiuose, daržovėse ir žuvyje, gali sulėtinti natūralų akių senėjimo procesą.",
                                 "Atkreipkite dėmesį į tokius simptomus kaip galvos skausmas, stiprus akių nuovargis ar miglotas vaizdas.",
                             ],
                         },
                     ],
                 },
                 {
-                    title: "Ar jaučiate presbiopijos simptomus?",
+                    title: "Ar jaučiate presbiopijos simptomų?",
                     text: [
                         {
                             type: "text",
                             gap: true,
-                            text: "Presbiopija vystosi palaipsniui, daugumai žmonių pirmi simptomai pasireiškia sulaukus 40-ties metų. Štai keli simptomai, kurie byloja apie pirmus presbiopijos požymius:",
+                            text: "Presbiopija vystosi palaipsniui. Daugumai žmonių pirmų jos požymių pasireiškia sulaukus 40 metų. Štai keli simptomai:",
                         },
                         {
                             type: "list",
                             gap: true,
                             list: [
-                                "Miglotas vaizdas esant normaliam skaitymo atstumui, įskaitant atvejus, kai dėvite korekcinius akinius ar kontaktinius lęšius",
-                                "Galvos skausmas",
-                                "Nuovargis atliekant darbus, reikalaujančius aiškaus mažų detalių matymo, pvz., siuvimas",
+                                "miglotas vaizdas esant normaliam skaitymo atstumui, įskaitant atvejus, kai dėvite korekcinius akinius ar kontaktinius lęšius;",
+                                "galvos skausmas;",
+                                "nuovargis atliekant darbus, reikalaujančius aiškaus mažų detalių matymo, pvz., siuvant.",
                             ],
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Jeigu pajutote kuriuos nors iš šių išvardintų simptomų, rekomenduojame užsiregistruoti akių gydytojo konsultacijai.",
+                            text: "Jeigu pajutote kuriuos nors iš šių išvardintų simptomų, rekomenduojame užsiregistruoti į akių gydytojo konsultaciją.",
                         },
                         {
                             type: "text",
@@ -4328,12 +4328,12 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Jei dėl vienokių ar kitokių priežasčių nenorite nešioti akinių ar kontaktinių lęšių su amžiumi išsivysčiusiai senatvinei (amžinei) toliaregystei koreguoti, tuomet Jums padėti gali chirurginis gydymas. Jis gali būti atliekamas lazerinės regos korekcijos metodais LASIK ir PRK. Jeigu nustatoma, kad pacientui negalima atlikti lazerinės regėjimo korekcijos, galimas kitas chirurginis presbiopijos gydymo metodas – natūralaus lęšio pakeitimas dirbtiniu (intraokuliniu lęšiu).",
+                            text: "Jei dėl vienokių ar kitokių priežasčių nenorite nešioti akinių ar kontaktinių lęšių su amžiumi išsivysčiusiai senatvinei (amžinei) toliaregystei koreguoti, Jums padėti gali chirurginis gydymas. Jis gali būti atliekamas regos korekcijos lazeriu metodais LASIK ir PRK. Jeigu nustatoma, kad pacientui negalima atlikti regėjimo korekcijos lazeriu, galimas kitas chirurginis presbiopijos gydymo metodas – natūralaus lęšio pakeitimas dirbtiniu (intraokuliniu lęšiu).",
                         },
                         {
                             type: "text",
                             gap: true,
-                            text: "Kviečiame atvykti į akių kliniką „Naujas regėjimas”, kur konsultacijos metu atliksime išsamius tyrimus ir nustatysime, ar Jums galima atlikti presbiopijos operaciją, kokia operacija Jums tinkamiausia ir kokių regos korekcijos rezultatų galima tikėtis.",
+                            text: "Kviečiame atvykti į akių kliniką „Naujas regėjimas“, kur konsultacijos metu atliksime išsamius tyrimus ir nustatysime, ar Jums galima atlikti presbiopijos operaciją, kokia operacija Jums tinkamiausia ir kokių regos korekcijos rezultatų galima tikėtis.",
                         },
                     ],
                 },
@@ -4579,7 +4579,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Šviesos spinduliams pereinant iš vienos medžiagos į kitą, pvz., iš oro į vandenį, jie lūžta. Tai vadinama refrakcija. Kai šie spinduliai patenka į ragenos ir lęšio audinius, jie taip pat laužiami taip, kad būtų sufokusuojami tinklainėje. Jei akys nebegali fokusuoti šviesos ant tinklainės, paprastai dėl to, kad akies forma nevisiškai taisyklinga, tai vadinama refrakcijos yda.",
+                            text: "Šviesos spinduliams pereinant iš vienos medžiagos į kitą, pvz., iš oro į vandenį, jie lūžta. Tai vadinama refrakcija. Kai šie spinduliai patenka į ragenos ir lęšio audinius, jie taip pat laužiami taip, kad būtų sufokusuojami tinklainėje. Akys nebegali fokusuoti šviesos ant tinklainės paprastai dėl to, kad akies forma ne visiškai taisyklinga. Tai vadinama refrakcijos yda.",
                         },
                         {
                             type: "text",
@@ -4609,7 +4609,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Trumparegystė, dar vadinama miopija (miglotas toli esančių objektų matymas), yra dažniausia refrakcijos yda. Paprastai susiformuoja, kai akis yra per ilga arba ragena per daug išlenkta. Dėl šio papildomo ilgio tolimi objektai fokusuojami priešais tinklainę, todėl šviesa išsisklaido ir teikia smegenims nesufokusuotą vaizdą. Trumparegystė – tai refrakcijos yda, dėl kurios akis nebemato toli esančių objektų. Trumparegystė koreguojama akiniais, kontaktiniais lęšiais arba refrakcijos operacija.",
+                            text: "Trumparegystė, dar vadinama miopija (miglotas toli esančių objektų matymas), yra dažniausia refrakcijos yda. Paprastai susiformuoja, kai akis yra per ilga arba ragena per daug išlenkta. Dėl šio papildomo ilgio tolimi objektai fokusuojami priešais tinklainę, todėl šviesa išsisklaido ir teikia smegenims nesufokusuotą vaizdą. Trumparegystė – tai refrakcijos yda, dėl kurios akis nebemato toli esančių objektų. Ši būklė koreguojama akiniais, kontaktiniais lęšiais arba refrakcijos operacija.",
                         },
                         {
                             type: "text",
@@ -4629,7 +4629,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Toliaregystė yra arti esančių objektų nematymas, kurį sukelia per trumpa akis arba per daug plokščia ragena. Dėl nepakankamo akies ilgio ragena ir lęšiukas neturi pakankamai vietos šviesos spinduliams sufokusuoti tinklainės židinio taške, todėl vaizdas fokusuojamas už tinklainės ir smegenys gauna netikslius signalus.",
+                            text: "Toliaregystė yra arti esančių objektų nematymas, kurį sukelia per trumpa akis arba per daug plokščia ragena. Dėl nepakankamo akies ilgio ragena ir lęšiukas neturi užtektinai vietos šviesos spinduliams sufokusuoti tinklainės židinio taške, todėl vaizdas fokusuojamas už tinklainės ir smegenys gauna netikslius signalus.",
                         },
                         {
                             type: "text",
@@ -4649,7 +4649,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Kitas terminas prastam akių išlinkiui apibūdinti yra astigmatizmas, kuris susiformuoja, kai ragena nėra apvali, o regbio kamuolio formos, dėl to akis nebegali sufokusuoti šviesos iš bet kokio atstumo. Negydomas astigmatizmas gali sukelti žvairumą ir staigų regėjimo prastėjimą. Be korekcijos astigmatizmas gali sukelti galvos ir akių skausmus.",
+                            text: "Kitas terminas prastam akių išlinkiui apibūdinti yra astigmatizmas, kuris susiformuoja, kai ragena nėra apvali, o regbio kamuolio formos, dėl to akis nebegali sufokusuoti šviesos iš bet kokio atstumo. Negydomas astigmatizmas gali sukelti žvairumą ir staigų regėjimo prastėjimą. Nekoreguojamas astigmatizmas gali sukelti galvos ir akių skausmus.",
                         },
                         {
                             type: "text",
@@ -4664,7 +4664,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Presbiopija yra su amžiumi susijusi hiperopija, kurią sukelia natūralus žmogaus senėjimas. Tai yra akies refrakcijos anomalija, kai žmogus negali matyti smulkių šriftų ar smulkių daiktų iš arti. Šis sutrikimas paprastai pasireiškia žmonėms nuo 40 iki 50 metų amžiaus. Presbiopija susiformuoja, kai natūralus akių lęšiukas sensta, todėl tampa kietesnis ir praranda lankstumą, dėl to paprastai prarandamas artimų objektų regėjimas ir reikia skaitymo akinių.",
+                            text: "Presbiopija yra su amžiumi susijusi hiperopija, kurią sukelia natūralus žmogaus senėjimas. Tai yra akies refrakcijos anomalija, kai žmogus negali matyti smulkaus šrifto ar smulkių daiktų iš arti. Šis sutrikimas paprastai pasireiškia 40–50 metų asmenims. Presbiopija susiformuoja, kai natūralus akių lęšiukas sensta, todėl tampa kietesnis ir praranda lankstumą, dėl to paprastai nematoma artimų objektų ir reikia skaitymo akinių.",
                         },
                         {
                             type: "text",
@@ -4679,7 +4679,7 @@ export const eyeDiseaseData: EyeDiseaseType[] = [
                         {
                             type: "text",
                             gap: true,
-                            text: "Priešingai nei įprasta manyti, katarakta nėra sluoksnis, kuris susiformuoja ant akies paviršiaus, o yra akies viduje esančio lęšiuko skaidrumo pokytis, neleidžiantis pro jį prasiskverbti šviesos spinduliams. Dėl šio laipsniškai didėjančio miglotumo, laikui bėgant, regėjimas gali tapti nebe toks aštrus. Šviesa, kuri patenka į tinklainę, yra išskaidoma, todėl regėjimas tampa neryškus.",
+                            text: "Priešingai nei įprasta manyti, katarakta nėra sluoksnis, kuris susiformuoja ant akies paviršiaus, o akies viduje esančio lęšiuko skaidrumo pokytis, neleidžiantis pro jį prasiskverbti šviesos spinduliams. Dėl šio laipsniškai didėjančio miglotumo ilgainiui regėjimas gali tapti nebe toks aštrus. Šviesa, patenkanti į tinklainę, yra išskaidoma, todėl regėjimas tampa neryškus.",
                         },
                     ],
                 },

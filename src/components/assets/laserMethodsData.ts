@@ -326,71 +326,72 @@ export const subpageLazerData: SubPageType[] = [
                         textTitle:
                             "Tiems, kurie renkasi aukštą kokybę be kompromisų",
                         text: [
-                            "iQ-LASIK Oxygen 3D metodika – tai šiuolaikinis ir saugus regėjimo korekcijos būdas, taikant refrakcinį lazerį. Ši technologija, sukurta remiantis klinikine patirtimi ir pažangiais technologiniais sprendimais, padėjo tūkstančiams pacientų pagerinti regėjimą ir sumažinti priklausomybę nuo akinių ar kontaktinių lęšių.",
-                            "Kasmet visame pasaulyje atliekami milijonai lazerinės regėjimo korekcijos procedūrų, o iQ-LASIK Oxygen 3D išsiskiria ypatingu tikslumu ir padidintais saugos standartais. Technologija leidžia per trumpą laiką pasiekti ryškų rezultatą – pacientai pradeda matyti aiškiai ir kontrastingai be optinių pagalbinių priemonių.",
+                            "„iQ-LASIK Oxygen 3D“ metodika – tai šiuolaikinis ir saugus regėjimo korekcijos būdas taikant refrakcinį lazerį. Ši technologija, sukurta remiantis klinikine patirtimi ir pažangiais technologiniais sprendimais, padėjo tūkstančiams pacientų pagerinti regėjimą ir sumažinti priklausomybę nuo akinių ar kontaktinių lęšių.",
+                            "Kasmet visame pasaulyje atliekama milijonai regėjimo korekcijos lazeriu procedūrų, o „iQ-LASIK Oxygen 3D“ išsiskiria ypatingu tikslumu ir padidintais saugos standartais. Technologija leidžia per trumpą laiką pasiekti ryškų rezultatą – pacientai pradeda matyti aiškiai ir kontrastingai be optinių pagalbos priemonių.",
                         ],
                     },
                     {
                         textTitle:
-                            "Unikali technologija be ragenos perkaitinimo",
+                            "Unikali technologija, apsauganti rageną nuo perkaitinimo",
                         text: [
-                            "Vienas svarbiausių šios metodikos privalumų – korekcija atliekama nepadidinant ragenos audinių temperatūros. Tai vadinamoji „šaltojo lazerio“ procedūra, kuri užtikrinama itin tikslia įranga ir individualia energijos dozavimo schema (personalizuota nomograma). Toks požiūris padeda sumažinti šiluminę audinių apkrovą ir išsaugoti jų savybes.",
-                            "Procedūros metu naudojami apsauginiai komponentai, mažinantys laisvųjų radikalų poveikį. Tai prisideda prie kokybiškesnės regos reabilitacijos pooperaciniu laikotarpiu ir padeda sumažinti nepageidaujamų reakcijų tikimybę.",
-                            "iQ-LASIK Oxygen 3D – tinkamas pasirinkimas tiems, kurie vertina tikslumą, komfortą ir rezultatą be kompromisų.",
+                            "Vienas svarbiausių šios metodikos privalumų – korekcija atliekama nepadidinant ragenos audinių temperatūros. Tai vadinamoji šaltojo lazerio procedūra, kurią užtikrina itin tiksli įranga ir individuali energijos dozavimo schema (personalizuota nomograma). Toks požiūris padeda sumažinti šiluminę audinių apkrovą ir išsaugoti jų savybes.",
+                            "Atliekant procedūrą naudojami apsauginiai komponentai, mažinantys laisvųjų radikalų poveikį. Tai prisideda prie kokybiškesnės regos reabilitacijos pooperaciniu laikotarpiu ir padeda sumažinti nepageidaujamų reakcijų tikimybę.",
+                            "„iQ-LASIK Oxygen 3D“ – tinkamas pasirinkimas tiems, kurie vertina tikslumą, komfortą ir rezultatą be kompromisų.",
                         ],
                     },
                     {
                         textTitle:
-                            "Lazerinė regėjimo korekcija iQ-LASIK Oxygen 3D metodu – šiuolaikinis sprendimas be kompromisų",
+                            "regėjimo korekcija Lazeriu „iQ-LASIK Oxygen 3D“ – šiuolaikinis sprendimas be kompromisų",
                         text: [
-                            "iQ-LASIK Oxygen 3D metodas – tai inovatyvi refrakcinės chirurgijos technologija, apjungianti tikslumą, saugumą ir itin švelnų poveikį akiai. Ši „šaltojo lazerio“ korekcija sukurta tam, kad regėjimas būtų atkuriamas maksimaliai tausojančiai – be ragenos perkaitinimo ir išlaikant jos struktūrą. Dėl to procedūra yra komfortiška, prognozuojama ir efektyvi.",
-                            "Jeigu jau seniai planavote atsisakyti akinių ar kontaktinių lęšių, LASIK regėjimo korekcija, taikant iQ-LASIK Oxygen 3D technologiją, gali būti vienas optimaliausių sprendimų. Metodas paremtas „šaltojo lazerio“ poveikiu ir individualia nomograma, leidžiančia tiksliai apskaičiuoti korekcijos parametrus. Kartu su apsauginiu protektoriniu tirpalu tai sustiprina saugos profilį ir padeda pasiekti stabilių rezultatų.",
+                            "„iQ-LASIK Oxygen 3D“ metodas – tai inovatyvi refrakcinės chirurgijos technologija, sujungianti tikslumą, saugumą ir itin švelnų poveikį akiai. Ši „šaltojo lazerio“ korekcija sukurta tam, kad regėjimas būtų atkuriamas maksimaliai tausojančiai – išvengiant ragenos perkaitinimo ir išlaikant jos struktūrą. Dėl to procedūra yra komfortiška, prognozuojama ir efektyvi.",
+                            "Jeigu jau seniai planavote atsisakyti akinių ar kontaktinių lęšių, LASIK regėjimo korekcija, taikant „iQ-LASIK Oxygen 3D“ technologiją, gali būti vienas optimaliausių sprendimų. Metodas paremtas „šaltojo lazerio“ poveikiu ir individualia nomograma, leidžiančia tiksliai apskaičiuoti korekcijos parametrus. Kartu su apsauginiu protektoriniu tirpalu sustiprinamas saugos profilis ir padedama pasiekti stabilių rezultatų.",
                         ],
                     },
                     {
-                        textTitle: "iQ-LASIK Oxygen 3D metodo privalumai",
+                        textTitle: "„iQ-LASIK Oxygen 3D“ metodo privalumai",
                         text: [
-                            "Tausojantis poveikis. Tai švelni lazerinė regėjimo korekcija, kurios metu audiniai neperkaista – tai padeda mažinti rizikas ir spartinti atsistatymą.",
-                            "„Šaltojo lazerio“ korekcija. Specialus darbo algoritmas neleidžia didėti ragenos temperatūrai – tai svarbu išsaugant jos biomechanines savybes.",
-                            "Didelis tikslumas. iQ-LASIK Oxygen 3D užtikrina tikslią centraciją ir stabilų rezultatą, įskaitant sudėtingesnius refrakcijos sutrikimų atvejus.",
+                            "Tausojantis poveikis. Tai švelni regėjimo korekcija lazeriu, per kurią audiniai neperkaista, todėl mažėja rizikų ir spartėja atsistatymas.",
+                            "„Šaltojo lazerio“ korekcija. Specialus algoritmas neleidžia didėti ragenos temperatūrai – tai svarbu išsaugant jos biomechanines savybes.",
+                            "Didelis tikslumas. „iQ-LASIK Oxygen 3D“ užtikrina tikslią centraciją ir stabilų rezultatą, įskaitant sudėtingesnius refrakcijos sutrikimų atvejus.",
                             "Paciento komfortas. Procedūra atliekama taikant vietinę (lašelinę) nejautrą ir trunka tik kelias minutes – be skausmo ir ilgo reabilitacijos laikotarpio.",
-                            "Individualus sprendimas. Personalizuoti skaičiavimai leidžia pritaikyti korekciją pagal kiekvieno paciento anatomines ypatybes.",
-                        ],
-                    },
-                    {
-                        textTitle: "Kas yra 3D LASIK ir kuo jis skiriasi?",
-                        text: [
-                            "3D LASIK – tai patobulintas LASIK formatas, kai kontrolė ir modeliavimas atliekami trimatėje erdvėje. iQ-LASIK Oxygen 3D sistemoje fiksuojami mikrojūdžiai ir lazerio poveikis koreguojamas realiu laiku, todėl padidėja procedūros atlikimo tikslumas.",
-                            "Šios technologijos dėka galima pasiekti vadinamąjį „Super LASIK“ efektą – kai regėjimas tampa ne tik „normalus“, bet maksimaliai ryškus. Daugelis pacientų pastebi, kad po procedūros mato geriau nei su akiniais ar lęšiais iki operacijos.",
-                        ],
-                    },
-                    {
-                        textTitle: "Femto LASIK ir saugumas",
-                        text: [
-                            "Femto LASIK metodas leidžia suformuoti ragenos lopelį nekontaktiniu būdu – femtosekundiniu lazeriu. iQ-LASIK Oxygen 3D integruoja šį etapą į bendrą protokolą, didindamas procedūros etapų tikslumą ir bendrą saugos lygį.",
+                            "Individualus sprendimas. Personalizuoti skaičiavimai leidžia pritaikyti korekciją atsižvelgiant į kiekvieno paciento anatomines ypatybes.",
                         ],
                     },
                     {
                         textTitle:
-                            "Kam tinka iQ-LASIK Oxygen 3D lazerinė korekcija?",
+                            "Kas yra „3D LASIK“ ir kuo jis skiriasi nuo kitų?",
+                        text: [
+                            "3D LASIK – tai patobulintas LASIK formatas, kai kontrolė ir modeliavimas atliekami trimatėje erdvėje. „iQ-LASIK Oxygen 3D“ sistemoje fiksuojami mikrojudesiai ir lazerio poveikis koreguojami realiu laiku, todėl padidėja procedūros atlikimo tikslumas.",
+                            "Ši technologija leidžia pasiekti vadinamąjį „Super LASIK“ efektą, kai regėjimas tampa ne tik normalus, bet maksimaliai ryškus. Daugelis pacientų pastebi, kad po procedūros mato geriau nei su akiniais ar kontaktiniais lęšiais iki operacijos.",
+                        ],
+                    },
+                    {
+                        textTitle: "„Femto LASIK“ ir saugumas",
+                        text: [
+                            "„Femto LASIK“ metodas leidžia suformuoti ragenos lopelį nekontaktiniu būdu – femtosekundiniu lazeriu. „iQ-LASIK Oxygen 3D“ integruoja šį etapą į bendrą protokolą, didindamas procedūros etapų tikslumą ir bendrą saugos lygį.",
+                        ],
+                    },
+                    {
+                        textTitle:
+                            "Kam tinka „iQ-LASIK Oxygen 3D“ lazerinė korekcija?",
                         text: [
                             "Šis metodas rekomenduojamas pacientams, turintiems:",
                             "- trumparegystę;",
                             "- toliaregystę;",
                             "- astigmatizmą;",
                             "- plonesnę rageną (jei nėra kontraindikacijų).",
-                            "Taip pat tai tinkamas pasirinkimas tiems, kurie ieško švelnesnės regėjimo korekcijos, nerimauja dėl ragenos perkaitinimo arba anksčiau abejojo LASIK galimybe taikant standartinius kriterijus.",
+                            "Taip pat tai tinkamas pasirinkimas tiems, kurie ieško švelnesnės regėjimo korekcijos, nerimauja dėl ragenos perkaitinimo arba anksčiau abejojo LASIK galimybe taikyti standartinius kriterijus.",
                         ],
                     },
                     {
                         textTitle: "Kodėl pacientai renkasi mus?",
                         text: [
-                            "Akių klinikoje „Naujasis regėjimas“ (Vilnius, Lietuva) galite atlikti LASIK lazerinę regėjimo korekciją taikant iQ-LASIK Oxygen 3D metodą. Naudojame šiuolaikinę įrangą ir taikome personalizuotą požiūrį kiekvienam pacientui. Klinikos specialistų komanda turi reikšmingą praktinę patirtį atliekant LASIK bei kitas aukšto tikslumo regėjimo korekcijos procedūras.",
-                            "Naudojame tik patikrintas ir saugias technologijas",
-                            "Procedūra atliekama greitai ir komfortiškai",
-                            "Individuali nomograma padeda mažinti rizikas ir didinti rezultato prognozuojamumą",
-                            "Greitas atsistatymas – daugelis pacientų grįžta į įprastą ritmą jau kitą dieną",
-                            "Atraskite pasaulį naujoje šviesoje su iQ-LASIK Oxygen 3D technologija – be skausmo, be perkaitinimo ir be kompromisų. Registruokitės konsultacijai jau šiandien ir džiaukitės aiškiu regėjimu ilgus metus.",
+                            "Akių klinikoje „Naujas regėjimas“ Vilniuje galite atlikti LASIK regėjimo korekciją lazeriu, kuriai taikomas „iQ-LASIK Oxygen 3D“ metodas. Naudojame šiuolaikinę įrangą ir taikome personalizuotą požiūrį kiekvienam pacientui. Klinikos specialistų komanda turi reikšmingos praktinės patirties atlikdama LASIK ir kitas aukšto tikslumo regėjimo korekcijos procedūras",
+                            "Naudojame tik patikrintas ir saugias technologijas.",
+                            "Procedūra atliekama greitai ir komfortiškai.",
+                            "Individuali nomograma padeda mažinti rizikas ir didinti rezultato prognozuojamumą.",
+                            "Greitas atsistatymas – daugelis pacientų grįžta į įprastą ritmą jau kitą dieną.",
+                            "Atraskite pasaulį naujoje šviesoje su „iQ-LASIK Oxygen 3D“ technologija – be skausmo, perkaitinimo ir be kompromisų. Registruokitės konsultacijai jau šiandien ir džiaukitės aiškiu regėjimu ilgus metus.",
                         ],
                     },
                 ],

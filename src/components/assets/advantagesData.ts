@@ -122,7 +122,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Profesionalų komanda",
-            text: "Visi mūsų gydytojai – aukštos kvalifikacijos specialistai. Mūsų klinika Vilniuje (Lietuva) nuolat kelia gydytojų kompetenciją, įskaitant mokymus ir stažuotes užsienyje.",
+            text: "Visi mūsų gydytojai – aukštos kvalifikacijos specialistai. Mūsų klinika Vilniuje nuolat kelia gydytojų kompetenciją, įskaitant mokymus ir stažuotes užsienyje.",
         },
         ru: {
             title: "Команда профессионалов",
@@ -136,7 +136,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Tikslus diagnozės nustatymas",
-            text: "Jūs gaunate išsamią, objektyvią informaciją apie savo būklę ir veiksmingus gydymo metodus. Gydytojas sudaro terapijos planą, atsižvelgdamas į Jūsų individualias ypatybes.",
+            text: "Pacientai gauna išsamią, objektyvią informaciją apie savo būklę ir veiksmingus gydymo metodus. Gydytojas sudaro terapijos planą, atsižvelgdamas į kiekvieno asmens individualias ypatybes.",
         },
         ru: {
             title: "Точный диагноз",
@@ -164,7 +164,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Šiuolaikinė įranga",
-            text: "Visa įranga ir medžiagos, kurias naudoja mūsų specialistai, turi Europos sertifikatus ir yra patvirtintos naudoti pagal Lietuvoje galiojančius reikalavimus.",
+            text: "Visa įranga ir medžiagos, kurias naudoja mūsų specialistai, turi europinius sertifikatus ir yra patvirtintos naudoti pagal Lietuvoje galiojančius reikalavimus.",
         },
         ru: {
             title: "Современное оборудование",
@@ -178,7 +178,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Atvirumas",
-            text: "Suteikiame pacientui galimybę kontroliuoti operacijos kokybę. Visą intervencijos procesą įrašome ir archyvuojame objektyviai medicininei kontrolei. Taip pat vykdoma gydytojo ir paciento pokalbio garso ir vaizdo įrašymo praktika diagnozės nustatymo ir konsultavimo metu.",
+            text: "Suteikiame pacientams galimybę kontroliuoti operacijos kokybę. Visą intervencijos procesą įrašome ir archyvuojame siekdami objektyvios medicininės kontrolės. Taip pat diagnozės nustatymo ir konsultavimo metu vykdomas gydytojo ir paciento pokalbio garso bei vaizdo įrašymas.",
         },
         ru: {
             title: "Открытость",
@@ -192,7 +192,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Nepriekaištinga reputacija",
-            text: "Prieš operaciją su pacientu pasirašoma sutartis, kurioje aptariamos visos paciento teisės ir gydymo aspektai.",
+            text: "Prieš operaciją su pacientu pasirašoma sutartis, kurioje aptariamos visos jo teisės ir gydymo aspektai.",
         },
         ru: {
             title: "Безупречная репутация",
@@ -220,7 +220,7 @@ export const advantagesAboutList: AdvantageProps[] = [
     {
         lt: {
             title: "Komfortas",
-            text: "Po operacijos stebime kiekvieną pacientą iki visiško pasveikimo. Jūs turite galimybę bet kuriuo metu susisiekti su budinčiu gydytoju.",
+            text: "Po operacijos stebime kiekvieną pacientą, kol jie visiškai pasveiksta. Pacientai turi galimybę bet kuriuo metu susisiekti su budinčiu gydytoju.",
         },
         ru: {
             title: "Комфорт",
