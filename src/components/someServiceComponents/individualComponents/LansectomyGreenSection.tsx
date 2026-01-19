@@ -55,7 +55,7 @@ export const LansectomyGreenSection = () => {
                                 </div>
                                 <div className="prepc:w1/2 prepc:flex prepc:flex-col prepc:justify-between w-[53%]">
                                     <p className="font-oswald prepc:text-2xl mb-3 text-xl leading-none">
-                                        Rayner GALAXY
+                                        „Rayner GALAXY“
                                     </p>
                                     <p className="prepc:hidden text-sm leading-4 uppercase">
                                         {raynerText}

@@ -4498,49 +4498,49 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Skaidraus lęšiuko chirurgija",
+                        title: "Skaidraus lęšiuko keitimo procedūra",
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "BiVision RLE – moderni lazerinės regos korekcijos alternatyva",
+                        title: "„BiVision RLE“ – moderni regos korekcijos lazeriu alternatyva",
                         image: "/images/equipment1.jpg",
                         text: [
-                            "BiVision RLE – tai itin tiksli mikrochirurginė procedūra, kurios metu natūralus akies lęšiukas pakeičiamas intraokuliniu lęšiu (IOL), siekiant atkurti aiškų matymą iš arti, vidutiniu atstumu ir į tolį. Metodas pasirenkamas, kai lazerinė korekcija nerekomenduojama arba jos prognozė ribota (plona / nelygi ragena, didelės dioptrijos, kombinuoti regos sutrikimai).",
-                            "Kam tinka: 45+ metų žmonėms, turintiems presbiopiją, pacientams su ryškia trumparegyste / toliaregyste, astigmatizmu, ankstyvais lęšiuko pakitimais arba padidėjusia kataraktos rizika.",
+                            "„BiVision RLE“ – tai itin tiksli mikrochirurginė procedūra, per kurią natūralus akies lęšiukas pakeičiamas intraokuliniu lęšiu (IOL), siekiant atkurti aiškų matymą iš arti, vidutiniu atstumu ir į tolį. Metodas pasirenkamas, kai korekcija lazeriu nerekomenduojama arba jos prognozė ribota (plona ir (arba) nelygi ragena, didelės dioptrijos, kombinuoti regos sutrikimai).",
+                            "Kam tinka: 45+ metų žmonėms, turintiems presbiopiją; kamuojamiems ryškios trumparegystės ir (arba) toliaregystės, astigmatizmo, ankstyvų lęšiuko pakitimų ir asmenims, kuriems nustatyta padidėjusi kataraktos rizika.",
                         ],
                     },
                 },
                 {
                     type: "greenSliderSection",
                     data: {
-                        title: "Kodėl verta rinktis BiVision RLE metodą: pagrindiniai privalumai",
-                        text: "Refrakcinė chirurgija oftalmologijoje tinka tiek toliaregystei, tiek trumparegystei, įskaitant ir astigmatizmą.",
+                        title: "Kodėl verta rinktis „BiVision RLE“ metodą: pagrindiniai privalumai",
+                        text: "Refrakcinės chirurgijos procedūros oftalmologijos srityje tinka tiek toliaregystei, tiek trumparegystei, įskaitant ir astigmatizmą, gydyti.",
                         slider: [
                             {
                                 title: "Ilgalaikis regėjimas be akinių",
-                                text: "BiVision technologija padeda atkurti matymą ir iš arti, ir į tolį, sumažindama priklausomybę nuo akinių net esant amžinei toliaregystei.",
+                                text: "„BiVision“ technologija padeda atkurti matymą ir iš arti, ir į tolį, sumažindama priklausomybę nuo akinių net esant amžinei toliaregystei.",
                             },
                             {
-                                title: "Alternatyva lazerinei korekcijai",
-                                text: "Metodika tinka tiems, kuriems lazerinė intervencija kontraindikuotina, tačiau reikalinga trumparegystės, toliaregystės ar astigmatizmo korekcija.",
+                                title: "Alternatyva korekcijai lazeriu",
+                                text: "Metodika tinka tiems žmonėms, kuriems intervencija lazeriu kontraindikuotina, tačiau reikalinga trumparegystės, toliaregystės ar astigmatizmo korekcija.",
                             },
                             {
-                                title: "Aukščiausios klasės Rayner lęšiai",
-                                text: "Mūsų klinikoje Vilniuje naudojami tik originalūs, aukštos kokybės britiški intraokuliniai lęšiai – be kompromisų dėl kokybės ir saugumo.",
+                                title: "Aukščiausios klasės „Rayner“ lęšiai",
+                                text: "Mūsų klinikoje Vilniuje naudojami tik originalūs, aukštos kokybės britiški intraokuliniai lęšiai.",
                             },
                             {
                                 title: "Kataraktos vystymosi profilaktika",
-                                text: "Operacijos metu natūralus lęšiukas pakeičiamas, todėl kataraktos rizika ateityje sumažinama iki minimumo. Papildomas kapsulės poliravimas gali padėti pagerinti regėjimo ryškumą ir kontrastą po procedūros.",
+                                text: "Atliekant operaciją natūralus lęšiukas pakeičiamas, todėl kataraktos rizika ateityje sumažinama iki minimumo. Papildomas kapsulės poliravimas gali padėti pagerinti regėjimo ryškumą ir kontrastą po procedūros.",
                             },
                             {
                                 title: "Švelni lęšiuko pašalinimo technologija",
-                                text: "Taikome iQ 5 Minutes protokolą be ultragarso – naudojamas tik kontroliuojamas kryptinis vandens srautas. Tai mažina poveikį ragenai ir spartina reabilitaciją.",
+                                text: "Taikome „iQ-5 Minutes“ protokolą be ultragarso – naudojamas tik kontroliuojamas kryptinis vandens srautas. Tai mažina poveikį ragenai ir spartina reabilitaciją.",
                             },
                             {
                                 title: "Aukšta chirurgų kvalifikacija",
-                                text: "Centro oftalmologai chirurgai mokėsi pirmaujančiose Europos mokyklose ir turi reikšmingą praktinę patirtį – ne mažiau kaip 10 metų akių mikrochirurgijoje.",
+                                text: "Centro gydytojai oftalmologai-chirurgai mokėsi geriausiose Europos mokyklose ir turi reikšmingos praktinės patirties – ne mažiau kaip 10 metų akių mikrochirurgijos srityje.",
                             },
                             {
                                 title: "Prieiga prie pažangiausių medicinos sprendimų",
@@ -4560,7 +4560,7 @@ export const servicesData: ServicesProps[] = [
                         firstImageLeft: true,
                         data: [
                             {
-                                title: "Pagrindinės indikacijos ir simptomai, kada verta svarstyti refrakcinį lęšiuko keitimą (RLE)",
+                                title: "Kada verta svarstyti apie refrakcinį lęšiuko keitimą (RLE)",
                                 image: "/images/perevirka2.jpg",
                                 text: [
                                     {
@@ -4568,11 +4568,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "RLE svarstomas, kai amžinė toliaregystė derinasi su kitais refrakcijos sutrikimais – pavyzdžiui, kai reikalingi skirtingi akiniai skaitymui ir darbui kompiuteriu, o vakare akys greičiau pavargsta ir fokusavimas tampa nestabilus. Dažnai pacientai mini „miglotą“ vaizdą rytais, sumažėjusį kontrastą, akinimą vairuojant naktį ir pojūtį, kad akiniai nebeteikia ankstesnio aiškumo. Jei lazerinė korekcija anksčiau nebuvo rekomenduota dėl ragenos parametrų, RLE tampa praktiška alternatyva: metodas veikia lęšiuką ir nekeičia ragenos. Esant ankstyviems lęšiuko pakitimams, intervencija taip pat mažina kataraktos tikimybę ateityje, o žmonėms, turintiems aukštus regėjimo reikalavimus, padeda pasiekti stabilesnį vaizdą ir kontrastą.",
+                                                text: "Kai amžinė toliaregystė pasireiškia kitais refrakcijos sutrikimais, pavyzdžiui, kai reikalingi skirtingi akiniai skaitymui ir darbui kompiuteriu, o vakare akys greičiau pavargsta ir fokusavimas tampa nestabilus, svarstoma atlikti RLE. Tarp simptomų pacientai dažnai mini miglotą vaizdą rytais, sumažėjusį kontrastą, akinimą vairuojant naktį ir pojūtį, kad akiniai nebeteikia ankstesnio vaizdo ryškumo. Jei korekcija lazeriu anksčiau nebuvo rekomenduota dėl ragenos parametrų, RLE tampa praktiška alternatyva: metodas veikia lęšiuką ir nekeičia ragenos. Esant ankstyviems lęšiuko pakitimams, intervencija taip pat mažina kataraktos tikimybę ateityje ir padeda pasiekti stabilesnį vaizdą bei kontrastą.",
                                             },
                                         ],
                                         greenText:
-                                            "„Du viename“ sprendimas. Geriname regėjimą ir kartu mažiname kataraktos riziką ateityje. Minimalus pjūvis, greitas atsistatymas, maksimalus komfortas.",
+                                            "Sprendimas „du viename“: geriname regėjimą ir kartu mažiname kataraktos riziką ateityje. Minimalus pjūvis, greitas atsistatymas, maksimalus komfortas.",
                                     },
                                 ],
                             },
@@ -4602,9 +4602,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Ragenos lazerinės korekcijos atlikti negalima arba ji nesuteikia prognozuojamo rezultato.",
-                                                    "Reikalingas platesnis korekcijos diapazonas (didelės dioptrijos, trumparegystės / toliaregystės derinys su astigmatizmu).",
-                                                    "Yra kataraktos rizika ar ankstyvi požymiai – lęšiuko keitimas problemą išsprendžia iš anksto.",
+                                                    "Ragenos korekcijos lazeriu atlikti negalima arba ji nesuteikia prognozuojamo rezultato.",
+                                                    "Reikalingas platesnis korekcijos diapazonas (didelės dioptrijos, trumparegystės ir (arba) toliaregystės derinys su astigmatizmu).",
+                                                    "Yra kataraktos rizika ar pasireiškia ankstyvų jos simptomų – lęšiuko keitimas problemą išsprendžia iš anksto.",
                                                 ],
                                             },
                                             {
@@ -4622,8 +4622,8 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "Siekis matyti be akinių iš arti, vidutiniu atstumu ir į tolį (daugiažidiniai / trifokaliniai IOL).",
-                                                    "Poreikis išlaikyti stabilų ryškumą visą dieną: tekstai, ekranai, vairavimas, sportas.",
+                                                    "Siekis matyti be akinių iš arti, vidutiniu atstumu ir į tolį (daugiažidiniai ir (arba) trifokaliniai IOL).",
+                                                    "Poreikis išlaikyti stabilų ryškumą visą dieną skaitant, žvelgiant į ekraną, vairuojant, sportuojant.",
                                                 ],
                                             },
                                             {
@@ -4641,9 +4641,9 @@ export const servicesData: ServicesProps[] = [
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "RLE neveikia ragenos – tai svarbu esant plonai ar „problemiškai“ ragenai.",
+                                                    "RLE neveikia ragenos – tai svarbu esant plonai ar problemiškai ragenai.",
                                                     "Kataraktos profilaktika: pakeitus natūralų lęšiuką, ji daugiau nebesiformuoja.",
-                                                    "Individualus IOL parinkimas pagal įpročius ir užduotis (skaitymas, kompiuteris, naktinis vairavimas).",
+                                                    "Individualus IOL parinkimas atsižvelgiant į įpročius ir užduotis (skaitymui, darbui kompiuteriu, vairavimui naktį).",
                                                 ],
                                             },
                                         ],
@@ -4663,25 +4663,25 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Užsiregistruoti galima telefonu arba internetu – tai užtrunka vos kelias minutes.",
-                                    "Specialus pasiruošimas dažniausiai nereikalingas. Jei nešiojate minkštus kontaktinius lęšius – nusiimkite juos iš vakaro (pageidautina likus 12 val. iki vizito). Atsineškite turimus akinius / receptą ir ankstesnių tyrimų rezultatus – įvertinsime dinamiką.",
-                                    "Rekomenduojame planuoti vizitą taip, kad po apžiūros nevairuotumėte patys: apžiūros metu gali būti plečiami vyzdžiai, todėl matymas iš arti laikinai pablogėja.",
+                                    "Užsiregistruoti galite telefonu arba internetu – užtruksite vos kelias minutes.",
+                                    "Specialiai ruoštis dažniausiai nereikia. Jei nešiojate minkštus kontaktinius lęšius, išsiimkite juos iš vakaro (pageidautina likus 12 val. iki vizito). Atsineškite turimus akinius ir (arba) jų receptą bei ankstesnių tyrimų rezultatus – įvertinsime dinamiką.",
+                                    "Rekomenduojame planuoti vizitą taip, kad po apžiūros nevairuotumėte patys: per apžiūrą gali būti plečiami vyzdžiai, todėl matymas iš arti laikinai pablogėja.",
                                 ],
                             },
                             {
-                                itemTitle: "Kompiuterinė regos diagnostika",
+                                itemTitle: "Kompiuterinė regėjimo diagnostika",
                                 itemText: [
-                                    "Trukmė – apie 2–2,5 valandas.",
-                                    "Atliekame pilną tyrimų kompleksą, reikalingą refrakciniam lęšiuko keitimui (RLE): autorefraktometriją ir regėjimo aštrumo įvertinimą, biometrinius matavimus ir IOL optinės galios skaičiavimą, ragenos keratotopografiją / tomografiją, tonometriją, prireikus – makulos ir regos nervo OKT, ašarų plėvelės vertinimą.",
+                                    "Trukmė – apie 2–2,5 val.",
+                                    "Atliekame visus tyrimus, reikalingus refrakciniam lęšiukui pakeisti (RLE): autorefraktometriją ir regėjimo aštrumo įvertinimą, biometrinius matavimus ir IOL optinės galios skaičiavimą, ragenos keratotopografiją ir (arba) tomografiją, tonometriją, prireikus – makulos ir regos nervo OKT, ašarų plėvelės vertinimą.",
                                     "Tikslumui užtikrinti naudojami vyzdžius plečiantys lašai – kelias valandas po apžiūros matymas iš arti gali būti neryškus.",
                                 ],
                             },
                             {
                                 itemTitle: "Oftalmologo konsultacija",
                                 itemText: [
-                                    "Po tyrimų gydytojas paaiškins rezultatus, aptars prognozę ir parinks intraokulinio lęšio tipą pagal jūsų gyvenimo būdą (mono-, EDOF, trifokalinis; esant astigmatizmui – torinis).",
-                                    "Aptarsime indikacijas ir galimus apribojimus, atsakysime į klausimus, pateiksime skaidrią sąmatą ir pasiruošimo planą. Prireikus gausite standartinių priešoperacinių tyrimų sąrašą ir rekomendacijas.",
-                                    "Kartu nustatysime RLE datą ir individualų atsistatymo planą.",
+                                    "Atlikęs tyrimus gydytojas paaiškins jų rezultatus, aptars prognozę ir parinks intraokulinio lęšio tipą pagal Jūsų gyvenimo būdą (mono-, EDOF, trifokalinį; esant astigmatizmui – torinį).",
+                                    "Aptarsime indikacijas ir galimus apribojimus, atsakysime į klausimus, pateiksime skaidrią sąmatą ir pasiruošimo planą. Prireikus gausite standartinių priešoperacinių tyrimų sąrašą ir rekomendacijų.",
+                                    "Kartu nustatysime RLE datą ir individualų sveikimo planą.",
                                 ],
                             },
                         ],
@@ -4693,14 +4693,14 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         title: "Inovatyvus regėjimo atkūrimas: refrakcinis lęšiuko keitimas (RLE)",
-                        text: "Refrakcinis lęšiuko keitimas (RLE, refrakcinė lensektomija) – regos korekcijos metodas, kai natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). RLE koreguoja trumparegystę, toliaregystę, presbiopiją ir astigmatizmą bei yra racionali alternatyva, kai lazerinė korekcija kontraindikuotina (plona ragena, randai, nestabili refrakcija) ir kai svarbus stabilus aiškumas be akinių bei kontaktinių lęšių.",
+                        text: "Refrakcinis lęšiuko keitimas (RLE, refrakcinė lensektomija) – regos korekcijos metodas, kai natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). RLE koreguoja trumparegystę, toliaregystę, presbiopiją bei astigmatizmą ir yra racionali alternatyva, kai akių korekcija lazeriu kontraindikuotina (dėl plonos ragenos, randų, nestabilios refrakcijos) ir kai svarbus stabilus aiškumas be akinių bei kontaktinių lęšių.",
                         blocks: [
                             {
-                                title: "Kodėl verta rinktis BiVision RLE pas mus",
+                                title: "Kodėl verta rinktis „BiVision RLE“ mūsų klinikoje",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Mūsų klinikoje Vilniuje refrakcinis lęšiuko keitimas apjungia technologinį tikslumą ir patyrusios komandos kompetenciją. Po išsamios diagnostikos parenkame IOL pagal realias regos užduotis: skaitymą, darbą kompiuteriu, aktyvų gyvenimo būdą, naktinį vairavimą. Lęšiuką pašaliname naudodami kontroliuojamą vandens srautą vietoje ultragarso (BiVision iQ 5 Minutes), taip sumažindami poveikį ragenai ir pagreitindami atsistatymą. Dirbame su originaliais Rayner lęšiais – nuo daugiažidinių iki torinių – ir orientuojamės į ilgalaikį regos komfortą. Chirurgai turi daugiau nei dešimties metų praktikos, įskaitant mokymus Europos centruose.",
+                                        text: "Mūsų klinikoje Vilniuje refrakcinio lęšiuko keitimo procedūra atliekama derinant technologinį tikslumą ir patyrusios komandos kompetenciją. Po išsamios diagnostikos parenkame IOL atsižvelgdami į pacientui svarbias regos užduotis: skaitymą, darbą kompiuteriu, aktyvų gyvenimo būdą, naktinį vairavimą. Lęšiuką pašaliname naudodami kontroliuojamą vandens srautą vietoje ultragarso („BiVision iQ-5 Minutes“), taip sumažindami poveikį ragenai ir pagreitindami atsistatymą. Dirbame su originaliais „Rayner“ lęšiais – nuo daugiažidinių iki torinių – ir orientuojamės į ilgalaikį regos komfortą. Klinikoje dirbantys chirurgai turi daugiau nei 10 metų praktikos, įskaitant mokymus Europos centruose.",
                                     },
                                 ],
                             },
@@ -4709,16 +4709,16 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Pasiruošimas apsiriboja paprasta organizacija: atsineškite ankstesnes medicinines išvadas, vartojamų vaistų sąrašą ir laikykitės rekomendacijų dėl kontaktinių lęšių, jei juos nešiojate. Operacijos dieną patartina atvykti su lydinčiu asmeniu, kad patogiai grįžtumėte namo. Po procedūros naudosite lašus pagal schemą, 2–3 savaites vengsite baseino ir saunos, laikinai ribosite intensyvius fizinius krūvius. Vairavimo atnaujinimas derinamas su chirurgu kontrolinio vizito metu.",
+                                        text: "Atsineškite ankstesnes medicinines išvadas, vartojamų vaistų sąrašą ir laikykitės rekomendacijų dėl kontaktinių lęšių, jei juos nešiojate. Operacijos dieną patartina atvykti su lydinčiu asmeniu, kad patogiai grįžtumėte namo. Po procedūros naudosite lašus atsižvelgdami į gydymo planą, 2–3 savaites vengsite baseino ir saunos, laikinai ribosite intensyvų fizinį krūvį. Vairavimo atnaujinimas derinamas su chirurgu per kontrolinį vizitą.",
                                     },
                                 ],
                             },
                             {
-                                title: "Kokius intraokulinius lęšius (IOL) naudojame",
+                                title: "Kokius intraokulinius lęšius (IOL) naudojame?",
                                 text: [
                                     {
                                         type: "text",
-                                        text: "Dirbame su Rayner ir Alcon lęšių linijomis, parinkdami sprendimą pagal konkrečius akies parametrus ir gyvenimo būdą. Maksimaliai nepriklausomybei nuo akinių siūlome trifokalinius sprendimus; esant poreikiui koreguoti astigmatizmą naudojame torinius modelius; jei prioritetas – natūralus regėjimo komfortas ir išplėsta ryškumo zona, gali tikti EDOF lęšiai. Galutinis pasirinkimas grindžiamas biometrija, ragenos astigmatizmo dydžiu ir jūsų kasdienėmis užduotimis.",
+                                        text: "Dirbame su „Rayner“ ir „Alcon“ lęšių linijomis, tinkamus parenkame atsižvelgdami į konkrečius akies parametrus ir paciento gyvenimo būdą. Maksimaliai nepriklausomybei nuo akinių siūlome trifokalinius sprendimus; esant poreikiui koreguoti astigmatizmą naudojame torinius modelius; jei prioritetas – natūralus regėjimo komfortas ir išplėsta ryškumo zona, gali tikti EDOF lęšiai. Galutinis pasirinkimas grindžiamas biometrija, ragenos astigmatizmo dydžiu ir Jūsų kasdienėmis užduotimis.",
                                     },
                                 ],
                             },
@@ -4727,7 +4727,7 @@ export const servicesData: ServicesProps[] = [
                                 text: [
                                     {
                                         type: "text",
-                                        text: "RLE kaina Vilniuje pirmiausia priklauso nuo intraokulinio lęšio tipo ir individualių klinikinių ypatumų. Konsultacijos metu gausite asmeninę sąmatą su kiekvieno etapo paaiškinimu: diagnostika, operacija ir pooperacinė priežiūra. Prireikus administratorius informuos apie aktualias lojalumo programas ir apmokėjimo galimybes.",
+                                        text: "RLE kaina Vilniuje pirmiausia priklauso nuo intraokulinio lęšio tipo ir paciento individualių klinikinių ypatumų. Atvykę į konsultaciją gausite asmeninę sąmatą, kurioje bus paaiškintas kiekvienas etapas: diagnostika, operacija ir pooperacinė priežiūra. Prireikus administratorius informuos apie aktualias lojalumo programas ir apmokėjimo galimybes.",
                                     },
                                 ],
                             },
@@ -4737,7 +4737,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Refrakcinės lęšio pašalinimo kaina (Vilnius)",
+                        title: "Refrakcinio lęšio pašalinimo kaina Vilniuje",
                     },
                 },
                 { type: "doctors" },
@@ -4748,21 +4748,21 @@ export const servicesData: ServicesProps[] = [
                         content: [
                             {
                                 question:
-                                    "Kas yra refrakcinė akių chirurgija ir kas yra refrakcinis lęšiuko keitimas (RLE)?",
+                                    "Kas yra refrakcinis akių chirurginis gydymas ir refrakcinis lęšiuko keitimas (RLE)?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Refrakcinė akių chirurgija – oftalmologijos sritis, koreguojanti regėjimą chirurginiais metodais. Refrakcinis lęšiuko keitimas (RLE) – mikroinvazinė operacija, kurios metu natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). Procedūra gali koreguoti presbiopiją, trumparegystę, toliaregystę ir astigmatizmą bei būti alternatyva lazeriniams metodams. Prieš operaciją būtina diagnostika ir gydytojo konsultacija.",
+                                        text: "Refrakcinis akių chirurginis gydymas – oftalmologijos sritis, koreguojanti regėjimą chirurginiais metodais. Refrakcinis lęšiuko keitimas – mikroinvazinė operacija, per kurią natūralus lęšiukas pakeičiamas intraokuliniu lęšiu (IOL). Procedūra gali koreguoti presbiopiją, trumparegystę, toliaregystę ir astigmatizmą bei būti alternatyva lazeriniams metodams. Prieš operaciją būtina akių patikra ir gydytojo konsultacija.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kam tinka refrakcinis lęšiuko keitimas – esant toliaregystei, trumparegystei ar presbiopijai?",
+                                    "Ar refrakcinis lęšiuko keitimas tinka esant toliaregystei, trumparegystei ar presbiopijai?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "RLE aktualus esant toliaregystei ir trumparegystei, kai lazerinė korekcija ribota (plona ar nelygi ragena, didelės dioptrijos). RLE taip pat veiksmingas presbiopijos (amžinės toliaregystės) atvejais ir padeda sumažinti poreikį nuolat keisti skirtingus akinius. Sprendimas visada priimamas individualiai po išsamios diagnostikos ir oftalmologo konsultacijos.",
+                                        text: "RLE aktualus esant toliaregystei ir trumparegystei, kai korekcijos lazeriu galimybės ribotos (dėl plonos ar nelygios ragenos, didelių dioptrijų). RLE taip pat veiksmingas esant presbiopijai (amžinei toliaregystei) – padeda sumažinti poreikį nuolat keisti skirtingus akinius. Sprendimas dėl procedūros tinkamumo visada priimamas individualiai atlikus išsamią patikrą ir pasitarus su gydytoju oftalmologu.",
                                     },
                                 ],
                             },
@@ -4772,27 +4772,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Lęšiuko keitimo kaina priklauso nuo IOL tipo (monofokalinis, trifokalinis, EDOF, torinis), papildomų procedūrų ir klinikinių ypatumų. Dažnos paieškos frazės: „lensektomija kaina“, „lęšiuko keitimas Vilniuje kaina“, „refrakcinis lęšiuko keitimas kaina“. Galutinė kaina nustatoma po diagnostikos ir konsultacijos; kartais taikomos specialios programos. Tikslią informaciją gausite vizito metu arba telefonu.",
+                                        text: "Lęšiuko keitimo kaina priklauso nuo IOL tipo (monofokalinio, trifokalinio, EDOF, torinio), papildomų procedūrų ir klinikinių ypatumų. Galutinė kaina nustatoma atlikus diagnostiką ir pasikonsultavus su gydytoju; kartais taikomos specialios nuolaidos. Tikslią informaciją gausite apsilankę pas gydytoją arba telefonu.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kuo RLE skiriasi nuo lazerinės korekcijos ir kada tai yra tinkamiausias pasirinkimas?",
+                                    "Kuo RLE skiriasi nuo korekcijos lazeriu ir kada tai tinkamiausias pasirinkimas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Lazerinė korekcija keičia ragenos profilį, o RLE veikia lęšiuką. Todėl RLE dažniau svarstomas esant amžinei toliaregystei ir kombinuotiems refrakcijos sutrikimams brandesniame amžiuje arba esant didelėms dioptrijoms. Vieniems tinkamesnę prognozę suteikia lazeris, kitiems – lęšio implantacija. Konsultacijos metu gydytojas paaiškins privalumus, galimus šalutinius reiškinius ir kontraindikacijas.",
+                                        text: "Korekcija lazeriu keičia ragenos profilį, o RLE veikia lęšiuką. Todėl RLE dažniau svarstomas dėl amžinės toliaregystės ir kombinuotų refrakcijos sutrikimų brandesniame amžiuje arba esant didelėms dioptrijoms. Vieniems tinkamesnę prognozę suteikia lazeris, kitiems – lęšio implantacija. Per konsultaciją gydytojas paaiškins privalumus, galimus šalutinius poveikius ir kontraindikacijas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar RLE tinka toliaregystės ir trumparegystės korekcijai? Kokia tokių operacijų kaina?",
+                                    "Ar RLE tinka toliaregystei ir trumparegystei koreguoti? Kokia tokių operacijų kaina?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip. Toliaregystės (įskaitant presbiopiją) ir trumparegystės korekcijai RLE gali būti optimalus sprendimas, kai lazerinė korekcija nerekomenduojama. Dažnos paieškos: „toliaregystės operacija kaina“, „lazerinė korekcija kaina“, „trumparegystės operacija kaina“. Tiksli suma patvirtinama po diagnostikos; kartais galioja pasiūlymai.",
+                                        text: "Taip. Toliaregystei (įskaitant presbiopiją) ir trumparegystei koreguoti RLE gali tikti, kai korekcija lazeriu nerekomenduojama. Tiksli suma patvirtinama po diagnostikos; kartais klinikoje galioja specialūs pasiūlymai procedūrai.",
                                     },
                                 ],
                             },
@@ -4802,27 +4802,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Rinkitės kliniką, turinčią patirties refrakcinėje chirurgijoje, modernią diagnostinę įrangą, skaidrią sąmatą ir aiškią pooperacinę priežiūrą. Vertinkite atsiliepimus ir realius klinikinius pavyzdžius. Konsultacijos metu pasiteiraukite apie IOL parinkimą pagal gyvenimo būdą, kontrolinių vizitų grafiką ir apribojimus. Taip pat svarbu, kaip organizuojamas ryšys su gydytoju po operacijos.",
+                                        text: "Rinkitės kliniką, turinčią patirties refrakcinės chirurgijos srityje, modernią diagnostikos įrangą, skaidrią sąmatą ir aiškią pooperacinę priežiūrą. Vertinkite atsiliepimus ir realius klinikinius pavyzdžius. Per konsultaciją pasiteiraukite apie IOL parinkimą pagal gyvenimo būdą, kontrolinių vizitų grafiką ir apribojimus. Taip pat svarbu, kaip palaikomas ryšys su gydytoju po operacijos.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kokios yra rizikos, kontraindikacijos ir galimi šalutiniai poveikiai po lęšiuko keitimo?",
+                                    "Kokios yra rizikos, kontraindikacijos ir galimi šalutiniai poveikiai pakeitus lęšiuką?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kaip ir bet kuri intervencija, lęšiuko keitimas turi kontraindikacijų (aktyvūs uždegimai, nekontroliuojamas akispūdis) ir galimų šalutinių reiškinių (laikinas akių sausumas, šviesos blyksniai, jautrumas šviesai). Dauguma požymių yra trumpalaikiai ir koreguojami laikantis rekomendacijų. Esant gretutinėms ligoms, taktika parenkama individualiai. Sprendimas dėl operacijos priimamas tik po išsamios diagnostikos.",
+                                        text: "Kaip ir bet kuri intervencija, lęšiuko keitimas turi kontraindikacijų (aktyvių uždegimų, nekontroliuojamą akispūdį) ir galimų šalutinių reiškinių (laikiną akių sausumą, šviesos blyksnių, jautrumą šviesai). Dauguma požymių yra trumpalaikiai ir koreguojami laikantis rekomendacijų. Esant gretutinėms ligoms, taktika parenkama individualiai. Sprendimas dėl operacijos priimamas tik atlikus išsamią diagnostiką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kaip atrodo paciento kelias – nuo pirmos konsultacijos iki atsistatymo? Ar galima gauti nemokamą priėmimą?",
+                                    "Kaip atrodo paciento kelias nuo pirmos konsultacijos iki atsistatymo? Ar galima pas gydytoją oftalmologą apsilankyti nemokamai?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Pirmiausia registruojatės konsultacijai ir diagnostikai (biometrija, topografija, tinklainės apžiūra). Tuomet gydytojas parenka tinkamą IOL, aptaria kainą ir terminus. Operacijos dieną atliekama lęšio implantacija; dauguma pacientų grįžta į įprastą ritmą pagal kontrolinių vizitų grafiką. Dėl „nemokamai“: kartais taikomos akcijos, tačiau įprastai pirminė konsultacija yra mokama. Administratorius padės pasirinkti patogų laiką ir specialistą.",
+                                        text: "Pirmiausia registruokitės dėl konsultacijos ir diagnostikos (biometrijos, topografijos, tinklainės apžiūros). Tuomet gydytojas parinks tinkamą IOL, aptars kainą ir terminus. Operacijos dieną atliekama lęšio implantacija; dauguma pacientų grįžta į įprastą ritmą vadovaudamiesi kontrolinių vizitų grafiku. Kartais klinikoje taikomos akcijos, tačiau įprastai pirminė konsultacija yra mokama. Administratorius padės pasirinkti patogų laiką ir specialistą.",
                                     },
                                 ],
                             },
