@@ -27,7 +27,7 @@ export async function generateMetadata({
 
     return generateInstructionMetadata(
         locale as LocaleType,
-        "Instructions",
+        "AllInstructions",
         "reminders-and-instructions-for-patients"
     );
 }

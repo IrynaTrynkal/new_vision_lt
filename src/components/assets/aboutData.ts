@@ -22,7 +22,7 @@ export const stickyList: StickyCardType[] = [
         data: {
             lt: {
                 title: "saugumas",
-                text: "Reguliariai atliekame patalpų dezinfekciją, imame mėginius bakterijų ir virusų kontrolei, vykdome oro valymo sistemų keitimą bei profilaktinę priežiūrą ir taikome daug kitų priemonių, kad maksimaliai sumažintume rizikas bei žmogiškojo faktoriaus įtaką operacijų metu ir užtikrintume pacientų saugumą.",
+                text: "Reguliariai atliekame patalpų dezinfekciją, imame mėginius dėl bakterijų ir virusų kontrolės, vykdome oro valymo sistemų keitimą bei profilaktinę priežiūrą ir taikome daug kitų priemonių, kad maksimaliai sumažintume rizikas bei žmogiškojo faktoriaus įtaką per operacijas ir užtikrintume pacientų saugumą.",
             },
             en: {
                 title: "safety",
@@ -46,7 +46,7 @@ export const stickyList: StickyCardType[] = [
         data: {
             lt: {
                 title: "įranga",
-                text: "Visuose padaliniuose naudojamos pažangios diagnostikos ir chirurgijos technologijos. Mūsų medicinos centro Vilniuje (Lietuva) įrangos lygis yra orientyras daugeliui Europos akių ligų gydymo centrų. ",
+                text: "Visuose padaliniuose naudojamos pažangios diagnostikos ir chirurginio gydymo technologijos. Mūsų medicinos centro Vilniuje naudojamos įrangos lygis yra pavyzdys daugeliui Europos akių ligų gydymo centrų.",
             },
             en: {
                 title: "equipment",
@@ -70,7 +70,7 @@ export const stickyList: StickyCardType[] = [
         data: {
             lt: {
                 title: "kambariai",
-                text: "Pastatai ir kabinetai įrengti pagal šiuolaikinius, griežtus Europos reikalavimus, reglamentuojančius medicinos įstaigų veiklą.",
+                text: "Pastatai ir kabinetai įrengti atsižvelgiant į šiuolaikinius griežtus europinius reikalavimus, reglamentuojančius medicinos įstaigų veiklą.",
             },
             en: {
                 title: "facilities",
@@ -97,17 +97,17 @@ export const achievementsList: AchievementsType[] = [
         ru: { up: "19", down: "лет опыта" },
     },
     {
-        lt: { up: "5 mln", down: "konsultacijų atlikta" },
+        lt: { up: "5 mln.", down: "atliktų konsultacijų" },
         en: { up: "5 m", down: "consultations held" },
         ru: { up: "5 млн", down: "консультаций проведено" },
     },
     {
-        lt: { up: "1.5 mln", down: "atliktos operacijos" },
+        lt: { up: "1,5 mln.", down: "atliktų operacijų" },
         en: { up: "1.5 m", down: "operations carried out" },
         ru: { up: "1.5 млн", down: "операций проведено" },
     },
     {
-        lt: { up: "1 mln", down: "patenkinti klientai" },
+        lt: { up: "1 mln.", down: "patenkintų klientų" },
         en: { up: "1 m", down: "satisfied customers" },
         ru: { up: "1 млн", down: "довольных клиентов" },
     },
@@ -129,7 +129,7 @@ export const aboutServicesList: AboutServicesType[] = [
         link: "/paslaugos/lazerine-akiu-korekcija",
         data: {
             lt: {
-                title: "Lazerine akiu korekcija",
+                title: "Akių korekcija lazeriu",
                 text: "Greitas ir tikslus regėjimo korekcijos metodas, mažinantis priklausomybę nuo akinių ar kontaktinių lęšių",
             },
             en: {
@@ -149,7 +149,7 @@ export const aboutServicesList: AboutServicesType[] = [
         data: {
             lt: {
                 title: "Kataraktos operacija",
-                text: "Mikrochirurginis drumsto lęšiuko pašalinimas su intraokulinio lęšio implantavimu, atkuriant ryškų regėjimą",
+                text: "Mikrochirurginis drumsto lęšiuko pašalinimas implantuojant intraokulinį lęšį ir atkuriant ryškų regėjimą",
             },
             en: {
                 title: "Cataract Removal",
@@ -166,7 +166,7 @@ export const aboutServicesList: AboutServicesType[] = [
         link: "/paslaugos/skaidraus-lesio-operacija",
         data: {
             lt: {
-                title: "Lazerinės regos korekcijos RLE alternatyva",
+                title: "Regos korekcijos lazeriu RLE alternatyva",
                 text: "Kai problemos neįmanoma išspręsti konservatyviais metodais",
             },
             en: {

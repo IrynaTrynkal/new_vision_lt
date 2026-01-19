@@ -1,6 +1,6 @@
 export const phoneList = [
-    { country: "LT", number: "+370 5 2644444" },
-    { country: "LV", number: "+371 676 606 88" },
+    { country: "LT", number: "+370 5 264 4444" },
+    { country: "LV", number: "+371 676 60 688" },
     { country: "EE", number: "+372 63 463 51" },
     { country: "UK", number: "+44 2038 071480" },
     { country: "PL", number: "+48 222 06 2115" },

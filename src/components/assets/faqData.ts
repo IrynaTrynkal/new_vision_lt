@@ -335,7 +335,7 @@ export const faqAboutList: FAQType = {
                 question: "Kas yra planinis vizitas pas oftalmologą?",
                 answer: [
                     {
-                        text: "Planinis vizitas pas akių gydytoją – tai reguliarus akių patikrinimas, kurio metu galima anksti pastebėti regos sutrikimus ar akių ligų požymius. Laiku atliktas akių patikrinimas leidžia pradėti gydymą ankstyvoje stadijoje ir išvengti rimtesnių komplikacijų. Oftalmologija yra aukšto tikslumo medicinos sritis, todėl svarbu kreiptis į patyrusį oftalmologą ir atlikti tyrimus su modernia diagnostine įranga.",
+                        text: "Planinis vizitas pas akių gydytoją – tai reguliarus akių patikrinimas, per kurį galima anksti pastebėti regos sutrikimų ar akių ligų požymių. Laiku atliktas akių patikrinimas leidžia pradėti gydymą ankstyvoje stadijoje ir išvengti rimtesnių komplikacijų. Oftalmologija yra itin tiksli medicinos sritis, todėl svarbu kreiptis į patyrusį oftalmologą ir atlikti tyrimus modernia diagnostine įranga.",
                     },
                 ],
             },
@@ -366,11 +366,11 @@ export const faqAboutList: FAQType = {
                     {
                         list: true,
                         text: [
-                            "Akių patikrinimas ir diagnostika – išsamus regos ištyrimas su šiuolaikine aparatūra.",
-                            "Lazerinė regos korekcija – šiuolaikiniai metodai, padedantys koreguoti trumparegystę, toliaregystę ir astigmatizmą.",
-                            "Chirurginis akių gydymas – kataraktos operacijos ir kitos akių ligų chirurginės procedūros.",
-                            "Vitreoretinalinė chirurgija – tinklainės ir stiklakūnio ligų gydymas.",
-                            "Sausų akių sindromo gydymas – individualiai parenkamos priemonės, padedančios sumažinti diskomfortą ir pagerinti akių būklę.",
+                            "akių patikrinimas ir diagnostika – išsamus regos ištyrimas šiuolaikine aparatūra;",
+                            "regos korekcija lazeriu – šiuolaikiniai metodai, padedantys koreguoti trumparegystę, toliaregystę ir astigmatizmą;",
+                            "chirurginis akių gydymas – kataraktos operacijos ir kitos akių ligų chirurginės procedūros;",
+                            "vitreoretinalinė chirurgija – tinklainės ir stiklakūnio ligų gydymas;",
+                            "sausų akių sindromo gydymas – individualiai parenkamos priemonės, padedančios sumažinti diskomfortą ir pagerinti akių būklę.",
                         ],
                     },
                 ],
@@ -497,10 +497,10 @@ export const faqAboutList: FAQType = {
                 answer: [
                     {
                         gap: true,
-                        text: "Registracija pas oftalmologą yra paprasta: galite paskambinti telefonu arba užsiregistruoti internetu bet kuriuo jums patogiu metu. ",
+                        text: "Užsiregistruoti pas gydytoją oftalmologą paprasta: galite paskambinti telefonu arba užsiregistruoti internetu Jums patogiu metu.",
                     },
                     {
-                        text: "Vizitas į akių kliniką Vilniuje – tai ne tik gydymas, bet ir komfortas: jauki aplinka, dėmesingi darbuotojai ir pagarbus požiūris į kiekvieną pacientą.",
+                        text: "Mūsų akių klinikoje Jūsų lauks jauki aplinka, dėmesingi darbuotojai ir pagarbus požiūris į kiekvieną pacientą.",
                     },
                 ],
             },
@@ -536,7 +536,7 @@ export const faqAboutList: FAQType = {
                 answer: [
                     {
                         gap: true,
-                        text: "Mes taikome kompleksinį požiūrį į regos gydymą: nuo išsamios diagnostikos iki ilgalaikio stebėjimo. Naudojame modernią aparatūrą ir šiuolaikinius akių ligų gydymo metodus – tiek konservatyvius, tiek chirurginius.",
+                        text: "Mes taikome kompleksinį požiūrį: nuo išsamios diagnostikos iki ilgalaikio stebėjimo. Naudojame modernią aparatūrą ir šiuolaikinius akių ligų gydymo metodus – tiek konservatyvius, tiek chirurginius.",
                     },
                     {
                         text: "Tai leidžia pasiekti patikimus, mediciniškai pagrįstus rezultatus ir ilgalaikį regos stabilumą.",
@@ -573,7 +573,7 @@ export const faqAboutList: FAQType = {
                 question: "Kaip dažnai reikėtų tikrintis akis?",
                 answer: [
                     {
-                        text: "Suaugusiems žmonėms rekomenduojama profilaktiškai tikrintis akis bent kartą per 1–2 metus, net jei nėra nusiskundimų. Jei jau turite regos sutrikimų, lėtinių ligų (pvz., cukrinis diabetas) ar esate po akių operacijų, oftalmologo konsultacija gali būti reikalinga dažniau – pagal gydytojo rekomendacijas.",
+                        text: "Suaugusiems žmonėms rekomenduojama profilaktiškai tikrintis akis bent kartą per 1–2 metus, net jei jie neturi nusiskundimų. Jei vargina regos sutrikimai, lėtinės ligos (pvz., cukrinis diabetas) ar esate patyrę akių operacijų, pasikonsultuoti su gydytoju oftalmologu derėtų dažniau – atsižvelgiant į gydytojo rekomendacijas.",
                     },
                 ],
             },
@@ -600,7 +600,7 @@ export const faqAboutList: FAQType = {
                 question: "Ar reikia siuntimo iš šeimos gydytojo?",
                 answer: [
                     {
-                        text: "Daugeliu atvejų norint gauti oftalmologo konsultaciją mūsų klinikoje siuntimo nereikia – galite kreiptis tiesiogiai ir registruotis vizitui jums patogiu laiku. Jei reikalingos papildomos, įskaitant kompensuojamas, procedūros ar tyrimai, apie tai jus informuos gydytojas konsultacijos metu.",
+                        text: "Daugeliu atvejų siuntimo nereikia – galite kreiptis tiesiogiai ir registruotis vizitui jums patogiu laiku. Jei prireikia papildomų konsultacijų, įskaitant kompensuojamas, taip pat procedūrų ar tyrimų, apie juos informuos gydytojas per konsultaciją.",
                     },
                 ],
             },

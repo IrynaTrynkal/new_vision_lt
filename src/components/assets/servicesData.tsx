@@ -6145,7 +6145,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "Glaukomos diagnostika ir gydymas",
-                        text: "Diagnostika ir glaukomos gydymas akių lašais klinikoje „Naujas regėjimas“ (Vilnius, Lietuva): akispūdžio kontrolė ir regos nervo apsauga.",
+                        text: "Glaukomos diagnostika ir gydymas akių lašais klinikoje „Naujas regėjimas“ Vilniuje: akispūdžio kontrolė ir regos nervo apsauga.",
                     },
                 },
                 {
@@ -6162,11 +6162,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Medikamentinis glaukomos gydymas skirtas stabiliai kontroliuoti akispūdį (AKS), apsaugoti regos nervą ir sulėtinti ligos progresavimą. Pagrindinis gydytojo tikslas – parinkti tokią terapiją, kad akispūdis išliktų individualiai saugiose ribose, o regos laukas ir regos nervo būklė būtų išsaugomi kuo ilgiau.",
+                                                text: "Medikamentinis glaukomos gydymas padeda palaikyti stabilų akispūdį (AKS), apsaugoti regos nervą ir sulėtinti ligos progresavimą. Pagrindinis gydytojo tikslas – parinkti tokią terapiją, kad akispūdis išliktų individualiai saugiose ribose, o regos laukas ir regos nervo būklė būtų išsaugomi kuo ilgiau.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) glaukomos diagnostika ir gydymas atliekami pagal šiuolaikinius klinikinius protokolus: atliekamas išsamus ištyrimas, oftalmologo konsultacija, sudaromas individualus gydymo planas, vykdoma dinaminė stebėsena ir, prireikus, koreguojama gydymo schema.",
+                                                text: "Akių klinikoje „Naujas regėjimas“ Vilniuje glaukomos diagnostika ir gydymas atliekami vadovaujantis šiuolaikiniais klinikiniais protokolais: atliekamas išsamus ištyrimas, suteikiama gydytojo oftalmologo konsultacija, sudaromas individualus gydymo planas, vykdoma dinaminė stebėsena ir, prireikus, koreguojama gydymo schema.",
                                             },
                                         ],
                                     },
@@ -6181,7 +6181,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Siekiant nustatyti tikslią diagnozę ir tinkamai parinkti vaistus, būtina įvertinti ne tik akispūdį, bet ir regos nervo būklę bei akies skysčių nutekėjimo sistemą. Įprastai ištyrimas apima:",
+                                                text: "Siekiant nustatyti tikslią diagnozę ir tinkamai parinkti vaistus, būtina įvertinti ne tik akispūdį, bet ir regos nervo būklę bei akies skysčių nutekėjimo sistemą. Įprastai tyrimas apima:",
                                             },
                                             {
                                                 type: "list",
@@ -6189,23 +6189,23 @@ export const servicesData: ServicesProps[] = [
                                                 list: [
                                                     "akispūdžio matavimą (prireikus – skirtingu paros metu);",
                                                     "pachimetriją (ragenos storis turi įtakos tonometrijos tikslumui);",
-                                                    "priekinės kameros kampo įvertinimą (gonioskopija) glaukomos tipui nustatyti;",
+                                                    "priekinės kameros kampo įvertinimą (gonioskopiją) glaukomos tipui nustatyti;",
                                                     "regos nervo disko įvertinimą;",
-                                                    "optinę koherentinę tomografiją (OKT) – nervinių skaidulų sluoksnių / makulos srities (pagal indikacijas);",
+                                                    "nervinių skaidulų sluoksnių ir (arba) makulos srities (pagal indikacijas) optinę koherentinę tomografiją (OKT);",
                                                     "perimetriją (regos laukų tyrimą) funkciniams pakitimams nustatyti;",
                                                     "gretutinių rizikos veiksnių ir bendros sveikatos būklės įvertinimą.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Toks požiūris leidžia atskirti glaukomą nuo kitų padidėjusio akispūdžio priežasčių, nustatyti ligos stadiją ir parinkti optimalią gydymo taktiką.",
+                                                text: "Išsamus akių tyrimas leidžia atskirti glaukomą nuo kitų padidėjusio akispūdžio priežasčių, nustatyti ligos stadiją ir parinkti optimalią gydymo taktiką.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Glaukomos gydymas lašais: kaip parenkama schema",
+                                title: "Glaukomos gydymas lašais: kaip parenkamas gydymas",
                                 image: "/images/facilities3.jpg",
                                 text: [
                                     {
@@ -6218,16 +6218,16 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Klinikinėje praktikoje pagal indikacijas taikomos skirtingos vaistų grupės:",
+                                                text: "Klinikinėje praktikoje, atsižvelgiant į indikacijas, taikomos tam tikros vaistų grupės:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
-                                                    "preparatai, gerinantys akies skysčio nutekėjimą;",
+                                                    "preparatai, mažinantys akies skysčio gamybą;",
                                                     "preparatai, mažinantys jo gamybą;",
                                                     "kombinuoti lašai, kai vienos grupės nepakanka;",
-                                                    "be konservantų formos, jei yra sausumas, alergija arba jautrumas konservantams.",
+                                                    "vaistai be konservantų, jei pacientas skundžiasi akių sausumu, alergija arba jautrumu.",
                                                 ],
                                             },
                                             {
@@ -6249,14 +6249,14 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         data: [
                             {
-                                title: "Stebėsena sergant glaukoma: kodėl lašai be kontrolės neveikia",
+                                title: "Glaukomos stebėsena: kodėl lašai be kontrolės neveikia",
                                 image: "/images/equipment1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Glaukoma reikalauja sistemingo gydymo ir stebėsenos. Net esant geriems akispūdžio rodikliams, gydymo schema gali būti koreguojama, jei kinta regos laukai ar OKT duomenys. Todėl svarbu:",
+                                                text: "Glaukoma reikalauja sistemingo gydymo ir stebėsenos. Gydymo schema gali būti koreguojama net esant geriems akispūdžio rodikliams, jei kinta regos laukai ar OKT duomenys. Todėl svarbu:",
                                             },
                                             {
                                                 type: "list",
@@ -6270,25 +6270,25 @@ export const servicesData: ServicesProps[] = [
                                             },
                                             {
                                                 type: "text",
-                                                text: "Klinikoje „Naujas regėjimas“ Vilniuje pacientus stebime dinamiškai: vertiname gydymo veiksmingumą, toleravimą, gydymo režimo laikymąsi ir, esant poreikiui, parenkame patogesnę bei stabilesnę terapiją.",
+                                                text: "Klinikoje „Naujas regėjimas“ Vilniuje pacientus stebime dinamiškai: vertiname gydymo veiksmingumą, vaistų toleravimą, gydymo režimo laikymąsi, ir, esant poreikiui, parenkame patogesnę bei stabilesnę terapiją.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Glaukomos diagnostikos ir gydymo kaina Vilniuje: kas lemia kainą",
+                                title: "Kas lemia glaukomos diagnostikos ir gydymo kainą",
                                 logo: true,
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Kaina priklauso nuo ištyrimo apimties (tonometrija, OKT, perimetrija ir kt.), klinikinės situacijos sudėtingumo, poreikio kartoti akispūdžio matavimus, taip pat kontrolinių vizitų dažnio.",
+                                                text: "Kaina priklauso nuo ištyrimo apimties (ar taikoma tonometrija, OKT, perimetrija ir kt.), klinikinės situacijos sudėtingumo, poreikio kartoti akispūdžio matavimus, taip pat nuo kontrolinių vizitų dažnio.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Konsultacijos metu gydytojas paaiškina, kokie tyrimai konkrečiai jums yra būtini, ir sudaro aiškų planą: diagnostika → gydymo pradžia → kontrolė → schemos korekcija.",
+                                                text: "Per konsultaciją gydytojas paaiškina, kokie tyrimai būtini, ir sudaro aiškų patikros, gydymo pradžios, kontrolės ir schemos korekcijos planą.",
                                             },
                                         ],
                                     },
@@ -6315,7 +6315,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Daugeliu atvejų – taip. Tinkamai parinkti lašai gali metų metus išlaikyti akispūdį kontroliuojamą ir sulėtinti progresavimą. Esminė sąlyga – reguliarus stebėjimas ir disciplina vartojant vaistus.",
+                                        text: "Daugeliu atvejų – taip. Tinkamai parinkti lašai gali ilgus metus kontroliuoti akispūdį ir sulėtinti ligos progresavimą. Esminė sąlyga – reguliarus stebėjimas ir disciplina vartojant vaistus.",
                                     },
                                 ],
                             },
@@ -6324,67 +6324,67 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Veiksmingumas vertinamas pagal akispūdžio sumažėjimą iki tikslinio lygio ir OKT/regos laukų duomenų stabilumą dinamikoje, o ne vien pagal savijautą.",
+                                        text: "Vaisto veiksmingumas vertinamas atsižvelgiant į akispūdžio sumažėjimą iki tikslinio lygio bei OKT ir (arba) regos laukų duomenų stabilumą dinamikoje, o ne vien pagal savijautą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kodėl akispūdis „šokinėja“, nors naudoju lašus?",
+                                    "Kodėl akispūdis „šokinėja“, nors vartoju lašus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Priežasčių gali būti įvairių: praleistos dozės, netinkama lašinimo technika, netinkama vaistų grupė, individualūs paros svyravimai, sąveika su sisteminiais vaistais. Situacija sprendžiama atliekant kontrolinius matavimus ir koreguojant schemą.",
+                                        text: "Priežasčių gali būti įvairių: praleistos dozės, netinkama lašinimo technika arba vaistų grupė, individualūs paros svyravimai, sąveika su sisteminiais vaistais. Situacija sprendžiama atliekant kontrolinius matavimus ir koreguojant schemą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar hipotenziniai lašai turi šalutinių poveikių?",
+                                    "Ar vartojant hipotenzinius lašus pasitaiko šalutinių poveikių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip, galimos vietinės reakcijos (deginimas, sausumas, paraudimas) ir, kai kurių vaistų atveju, sisteminiai poveikiai. Gydytojas parenka terapiją įvertinęs kontraindikacijas ir prireikus pakeičia į alternatyvas (įskaitant be konservantų formas).",
+                                        text: "Taip, galimos vietinės reakcijos (deginimas, sausumas, paraudimas), be to, vartojant kai kuriuos vaistus, pasitaiko sisteminių poveikių. Gydytojas oftalmologas parenka terapiją įvertinęs kontraindikacijas ir, prireikus, pakeičia vaistus į kitus (įskaitant be konservantų).",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar reikia atlikti OKT ir regos laukus, jei akispūdis normalus?",
+                                    "Ar reikia atlikti OKT ir regos laukų patikrą, jei akispūdis normalus?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip. Glaukoma – tai ne tik akispūdžio skaičiai. Progresavimas galimas ir esant „normaliam“ akispūdžiui, todėl regos nervo ir regos laukų kontrolė yra principinė.",
+                                        text: "Taip. Glaukoma – tai ne tik akispūdžio patikra. Ligos progresavimas galimas ir esant normaliam akispūdžiui, todėl regos nervo ir regos laukų kontrolė itin svarbios.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kaip dažnai reikia lankytis kontrolėje sergant glaukoma?",
+                                    "Kaip dažnai reikia lankytis pas akių gydytoją sergant glaukoma?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Dažnis priklauso nuo ligos stadijos ir rodiklių stabilumo. Po gydymo paskyrimo ar pakeitimo kontrolė paprastai atliekama dažniau, vėliau – pagal individualų gydytojo sudarytą grafiką.",
+                                        text: "Vizitų dažnis priklauso nuo ligos stadijos ir rodiklių stabilumo. Paskyrus gydymą ar jį pakeitus pacientas paprastai stebimas dažniau, vėliau – pagal individualų gydytojo sudarytą grafiką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ką daryti, jei pamirštu įsilašinti vaistus pagal grafiką?",
+                                    "Ką daryti, jei pamirštu įsilašinti vaistų pagal grafiką?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Informuokite gydytoją – tai dažna situacija. Galima parinkti patogesnę schemą (pvz., kitą vartojimo režimą, kombinuotus lašus), taip pat aptarti priminimus ir taisyklingą instiliacijų techniką.",
+                                        text: "Informuokite gydytoją. Galima parinkti patogesnę schemą (pvz., kitą vartojimo režimą, kombinuotus lašus), taip pat aptarti priminimus ir tinkamą lašinimo techniką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Jei lašai neužtikrina reikiamos kontrolės, kas toliau?",
+                                    "Kaip elgtis, jei lašai neužtikrina reikiamos kontrolės?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Jei, taikant korektišką terapiją, akispūdis išlieka per aukštas arba nustatomas progresavimas, gydytojas aptaria tolimesnį taktikos išplėtimą. Tačiau daugeliu atvejų pradinė ir bazinė strategija yra būtent tiksli diagnostika ir profesionaliai sudarytas medikamentinis gydymas.",
+                                        text: "Jei, taikant korektišką terapiją, akispūdis išlieka per aukštas arba nustatomas ligos progresavimas, gydytojas aptaria tolesnį gydymą. Visgi daugeliu atvejų pradinė ir pamatinė strategija – tiksli diagnostika bei profesionaliai sudarytas medikamentinis gydymas.",
                                     },
                                 ],
                             },
