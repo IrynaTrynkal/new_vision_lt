@@ -7,8 +7,8 @@ type ApproachProps = {
 export const approachList: ApproachProps[] = [
     {
         lt: {
-            title: "Tiksli diagnozė per vieną vizitą",
-            text: "Mūsų regos klinikoje Vilniuje atliekamas kompleksinis akių patikrinimas, naudojant šiuolaikinę diagnostinę aparatūrą. Tai leidžia tiksliai įvertinti akių būklę ir nustatyti diagnozę per vieną apsilankymą, be papildomų eilių ir ilgo laukimo.",
+            title: "Tiksli diagnozė per pirmą vizitą",
+            text: "Mūsų Vilniausakių klinikoje atliekamas kompleksinis akių patikrinimas, naudojant šiuolaikinę diagnostinę įrangą. Tai leidžia tiksliai įvertinti akių būklę ir nustatyti diagnozę per vieną apsilankymą, be papildomų eilių ir ilgo laukimo.",
         },
         ru: {
             title: "Точный диагноз за один визит",
@@ -21,7 +21,7 @@ export const approachList: ApproachProps[] = [
     },
     {
         lt: {
-            title: "Be eilių ir jauki aplinka",
+            title: "Jokių eilių ir maloni aplinka",
             text: "Tai ypač aktualu tiems, kurie ieško, kur Vilniuje atlikti akių patikrą ar gauti oftalmologo konsultaciją be ilgų eilių – jaukioje ir privačioje aplinkoje, kur pacientui skiriama pakankamai dėmesio.",
         },
         ru: {
@@ -36,7 +36,7 @@ export const approachList: ApproachProps[] = [
     {
         lt: {
             title: "Greita procedūra – ilgalaikė nauda",
-            text: "Dauguma procedūrų trunka nedaug laiko, tačiau tinkamai parinktas gydymas gali išsaugoti gerą regą daugeliui metų į priekį. Laiku kreipiantis pagalbos, akių ligų gydymas tampa paprastesnis ir efektyvesnis.",
+            text: "Dauguma procedūrų atliekamos gana greitai, tačiau tinkamai parinktas gydymas gali išsaugoti gerą regą daugeliui metų. Laiku kreipiantis pagalbos, akių ligų gydymas tampa paprastesnis ir efektyvesnis.",
         },
         ru: {
             title: "Быстро по времени – надолго для зрения",

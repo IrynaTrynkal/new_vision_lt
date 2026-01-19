@@ -230,14 +230,14 @@ export const faqMainList: FAQType = {
         },
         {
             lt: {
-                question: "Kaip vyksta regos gydymas?",
+                question: "Kaip vyksta akių gydymas?",
                 answer: [
                     {
                         gap: true,
-                        text: "Mes taikome kompleksinį požiūrį į regos gydymą: nuo išsamios diagnostikos iki ilgalaikio stebėjimo. Naudojame modernią aparatūrą ir šiuolaikinius akių ligų gydymo metodus – tiek konservatyvius, tiek chirurginius.",
+                        text: "Mes taikome kompleksinį požiūrį į akių gydymą: nuo išsamios diagnostikos iki ilgalaikio stebėjimo. Naudojame modernią įrangą ir šiuolaikinius akių ligų gydymo metodus – tiek konservatyvius, tiek chirurginius.",
                     },
                     {
-                        text: "Tai leidžia pasiekti patikimus, mediciniškai pagrįstus rezultatus ir ilgalaikį regos stabilumą.",
+                        text: "Tai leidžia pasiekti patikimų, mediciniškai pagrįstų rezultatų ir ilgalaikio regos stabilumo.",
                     },
                 ],
             },
@@ -295,10 +295,10 @@ export const faqMainList: FAQType = {
         },
         {
             lt: {
-                question: "Ar reikia siuntimo iš šeimos gydytojo?",
+                question: "Ar reikia šeimos gydytojo siuntimo?",
                 answer: [
                     {
-                        text: "Daugeliu atvejų norint gauti oftalmologo konsultaciją mūsų klinikoje siuntimo nereikia – galite kreiptis tiesiogiai ir registruotis vizitui jums patogiu laiku. Jei reikalingos papildomos, įskaitant kompensuojamas, procedūros ar tyrimai, apie tai jus informuos gydytojas konsultacijos metu.",
+                        text: "Daugeliu atvejų, norint gauti oftalmologo konsultaciją mūsų klinikoje, siuntimo nereikia – galite kreiptis tiesiogiai ir registruotis vizitui jums patogiu laiku. Jei reikalingos papildomos, įskaitant kompensuojamas, procedūros ar tyrimai, apie tai jus informuos gydytojas konsultacijos metu.",
                     },
                 ],
             },
