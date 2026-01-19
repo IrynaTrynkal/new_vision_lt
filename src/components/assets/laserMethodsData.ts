@@ -570,21 +570,21 @@ export const subpageCataractData: SubPageType[] = [
         content: {
             lt: {
                 slug: "iq-5-minutes",
-                title: "iq-5-minutes",
+                title: "iq-5 minutes",
                 titleSEO:
                     "iQ-5 MINUTES – itin greita kataraktos operacija per 5 minutes | Naujas Regėjimas",
                 descriptionSEO:
                     "Nauja kataraktos šalinimo metodika naudojant dispersinius tirpalus – per 5 minutes! Minimalus ultragarso naudojimas, reabilitacija be streso. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 subtitle:
-                    "Naujas kataraktos šalinimo metodas, naudojant disperguojamuosius tirpalus",
+                    "Naujas kataraktos šalinimo metodas naudojant disperguojamuosius tirpalus",
                 data: [
                     {
                         textTitle:
                             "Kataraktos šalinimas: šiuolaikinis standartas be kompromisų",
                         text: [
-                            "Šiandien etaloniniu kataraktos chirurginio gydymo metodu laikoma besiūlė, minimaliai invazinė mikrochirurginė operacija, taikoma net ir sudėtingais klinikiniais atvejais. Neatsiejama tokios procedūros dalis yra intraokulinio lęšio implantacija, taip pat šiuolaikinių apsauginių preparatų – viskoelastikų – naudojimas, kurie operacijos metu apsaugo akies audinius.",
-                            "Operacija atliekama pilnai įrengtoje operacinėje, naudojant chirurginį mikroskopą ir didelio tikslumo fakoemulsifikatorių – įrangą, užtikrinančią maksimalų tikslumą ir saugumą.",
-                            "Pacientą prižiūri anesteziologas, kuris nepertraukiamai stebi sveikatos būklę, naudodamas naujausios kartos monitoravimo įrangą, ir prireikus užtikrina visišką pasirengimą skubiai pagalbai.",
+                            "Šiandien etaloniniu kataraktos chirurginio gydymo metodu laikoma besiūlė, minimaliai invazinė mikrochirurginė operacija, taikoma net ir esant sudėtingiems klinikiniams atvejams. Neatsiejama tokios procedūros dalis yra intraokulinio lęšio implantacija, taip pat šiuolaikinių apsauginių preparatų – viskoelastikų – naudojimas, kurie per operaciją apsaugo akies audinius.",
+                            "Operacija atliekama visiškai įrengtoje operacinėje, naudojant chirurginį mikroskopą ir didelio tikslumo fakoemulsifikatorių – įrangą, užtikrinančią maksimalų tikslumą ir saugumą.",
+                            "Pacientą prižiūri gydytojas anesteziologas, kuris nepertraukiamai stebi jo sveikatos būklę, naudodamas naujausios kartos monitoravimo įrangą, ir, prireikus, būna pasirengęs atlikti skubią pagalbą.",
                         ],
                     },
                     {
@@ -594,13 +594,13 @@ export const subpageCataractData: SubPageType[] = [
                     {
                         textTitle: "1. Itin trumpa intervencijos trukmė",
                         text: [
-                            "Kaip rodo pavadinimas, visa procedūra trunka ne ilgiau kaip penkias minutes. Tai leidžia sumažinti poveikį akies obuoliui ir mažinti paciento patiriamą stresą.",
+                            "Procedūra trunka ne ilgiau kaip penkias minutes. Tai leidžia sumažinti poveikį akies obuoliui ir palengvinti paciento patiriamą stresą.",
                         ],
                     },
                     {
                         textTitle: "2. Minimalus ultragarso naudojimas",
                         text: [
-                            "Lęšiuko pašalinimas atliekamas naudojant minimalų ultragarso kiekį arba jo visiškai atsisakant, taip reikšmingai sumažinant apkrovą akies audiniams. Švelniam poveikiui taikomi specialūs disperguojamieji tirpalai.",
+                            "Lęšiukas pašalinimas naudojant minimalų ultragarso kiekį arba jo visiškai atsisakant, taip reikšmingai sumažinant apkrovą akies audiniams. Švelniam poveikiui pasiekti naudojami specialūs disperguojamieji tirpalai.",
                         ],
                     },
                     {
@@ -611,34 +611,34 @@ export const subpageCataractData: SubPageType[] = [
                     },
                     {
                         textTitle:
-                            "4. Aukščiausios klasės RAYNER lęšių implantacija (Jungtinė Karalystė)",
+                            "4. Aukščiausios klasės „RAYNER“ lęšių implantacija (Jungtinė Karalystė)",
                         text: [
-                            "Aukštos kokybės britiški intraokuliniai lęšiai užtikrina puikius regėjimo aštrumo rodiklius po operacijos. Dėl didesnės kainos tokie gaminiai retai naudojami valstybinėse įstaigose ir mažesnėse klinikose, todėl šis pasirinkimas išskiria mūsų taikomą požiūrį.",
+                            "Aukštos kokybės britiški intraokuliniai lęšiai užtikrina puikius regėjimo aštrumo rodiklius po operacijos. Dėl aukštesnės kainos jie retai naudojami valstybinėse įstaigose ir mažesnėse klinikose, todėl šis gydymo sprendimas išskiria mūsų kliniką iš kitų.",
                         ],
                     },
                     {
                         textTitle: "5. Naujos kartos operacinė",
                         text: [
-                            "Procedūra atliekama visiškai kompiuterizuotoje operacinėje, atitinkančioje ES reikalavimus. Sterilumas užtikrinamas laminarinių oro srautų ir modernių oro valymo sistemų dėka.",
+                            "Procedūra atliekama visiškai kompiuterizuotoje operacinėje, atitinkančioje ES reikalavimus. Sterilumą užtikrina laminariniai oro srautai ir modernios oro valymo sistemos.",
                         ],
                     },
                     {
                         textTitle: "6. Maksimalus saugumas ir higiena",
                         text: [
-                            "Taikome pažangius chirurginių instrumentų sterilizacijos metodus, taip pat naudojame vienkartines, pagal Europos standartus sertifikuotas medžiagas. Tai sumažina kryžminės infekcijos riziką ir užtikrina saugų gydymą.",
+                            "Taikome pažangius chirurginių instrumentų sterilizacijos metodus, taip pat naudojame vienkartines, atsižvelgiant į Europos standartus sertifikuotas medžiagas. Taip sumažiname kryžminės infekcijos riziką ir užtikriname saugų gydymą.",
                         ],
                     },
                     {
                         textTitle: "iQ-5 MINUTES",
                         text: [
-                            "Tai ne tik kataraktos šalinimo operacija. Tai aukštųjų technologijų kompleksas, sujungiantis tikslumą, greitį, saugumą ir ypač aukštą regėjimo kokybę, kurios neįmanoma pasiekti taikant standartinius metodus. Metodika taikoma klinikoje „Naujas regėjimas“ (Vilnius, Lietuva).",
+                            "Tai ne tik kataraktos šalinimo operacija, bet ir aukštųjų technologijų kompleksas, sujungiantis tikslumą, greitį, saugumą ir ypač aukštą regėjimo kokybę, kurios neįmanoma pasiekti taikant standartinius metodus. Ši metodika taikoma klinikoje „Naujas regėjimas“ Vilniuje.",
                         ],
                     },
                 ],
             },
             ru: {
                 slug: "iq-5-minutes",
-                title: "iq-5-minutes",
+                title: "iq-5 minutes",
                 titleSEO:
                     "iQ-5 MINUTES – сверхбыстрая операция по удалению катаракты за 5 минут | Клиника Новое Зрение",
                 descriptionSEO:
@@ -707,7 +707,7 @@ export const subpageCataractData: SubPageType[] = [
             },
             en: {
                 slug: "iq-5-minutes",
-                title: "iq-5-minutes",
+                title: "iq-5 minutes",
                 titleSEO:
                     "iQ-5 MINUTES – ultra-fast cataract surgery in 5 minutes | New Vision Clinic",
                 descriptionSEO:
@@ -790,27 +790,27 @@ export const subpageCataractData: SubPageType[] = [
                 data: [
                     {
                         textTitle:
-                            "iQ-Life 3D „Vandens srauto“ metodas: inovacija kataraktos chirurgijoje",
+                            "„iQ-Life 3D“ „Vandens srauto“ metodas: inovacija gydant kataraktą chirurginiu būdu",
                         text: [
-                            "Pacientai, besikreipiantys į akių kliniką „Naujas regėjimas“ (Vilnius, Lietuva), dažnai domisi pažangiu kataraktos šalinimo metodu – iQ-Life 3D „Vandens srautas“. Ši technologija yra viena moderniausių mūsų praktikoje ir taikoma kaip kompleksinės gydymo programos dalis: nuo tikslios diagnostikos ir gydymo taktikos parinkimo iki intraokulinio lęšio implantavimo ir planinės reabilitacijos.",
-                            "Katarakta – tai akies lęšiuko drumstėjimas, dėl kurio šviesa prasčiau patenka į akį ir regėjimas palaipsniui silpnėja. Su amžiumi lęšiukas tampa tankesnis, todėl jo pašalinimui reikia ypač švelnaus ir tiksliai valdomo sprendimo. Tokiais atvejais taikoma mikroinvazinė fakoemulsifikacija, papildyta „vandens srauto“ principu. Tai atitinka šiuolaikinius tarptautinius standartus: vietoje ryškaus mechaninio poveikio naudojamas kontroliuojamas skysčio srautas ir apsauginės medžiagos (viskoelastikai), padedančios delikačiai pašalinti pakitusius audinius ir išsaugoti jautrias vidines akies struktūras.",
+                            "Pacientai, besikreipiantys į akių kliniką „Naujas regėjimas“ Vilniuje, dažnai domisi pažangiu „iQ-Life 3D“ vadinamojo vandens srauto kataraktos šalinimo metodu. Ši technologija yra viena moderniausių mūsų praktikoje ir taikoma kaip kompleksinės gydymo programos dalis: nuo tikslios diagnostikos ir gydymo taktikos parinkimo iki intraokulinio lęšio implantavimo ir planinės reabilitacijos.",
+                            "Katarakta – tai akies lęšiuko drumstėjimas, dėl kurio šviesa prasčiau patenka į akį ir regėjimas palaipsniui silpnėja. Su amžiumi lęšiukas tampa tankesnis, todėl jam pašalinti taikomi ypač švelnūs ir tiksliai valdomi metodai. Tokiais atvejais taikoma mikroinvazinė fakoemulsifikacija, papildyta „vandens srauto“ principu. Procedūra atitinka šiuolaikinius tarptautinius standartus: vietoje ryškaus mechaninio poveikio naudojamas kontroliuojamas skysčio srautas ir apsauginės medžiagos (viskoelastikai), padedančios delikačiai pašalinti pakitusius audinius ir išsaugoti jautrias vidines akies struktūras.",
                         ],
                     },
                     {
                         textTitle: "3D technologija: naujos kartos chirurgija",
                         text: [
-                            "iQ-Life 3D metodas pagrįstas stereoskopine vizualizacija ir leidžia chirurgui dirbti maksimaliai tiksliai, realiuoju laiku matant akies anatomiją trimatėje erdvėje. Sistemą sudaro:",
-                            "- skaitmeninė 3D kamera su vaizdo gylio efektu;",
-                            "- darbo stotis su galimybe didinti operuojamą sritį;",
-                            "- ultra HD ekranas, kuriame rodoma padidinta trimatė operacijos vaizdo projekcija.",
+                            "„iQ-Life 3D“ metodas pagrįstas stereoskopine vizualizacija ir leidžia chirurgui dirbti maksimaliai tiksliai – jis realiuoju laiku gali stebėti akies anatomiją trimatėje erdvėje. Sistemą sudaro:",
+                            "- skaitmeninė 3D kamera, turinti vaizdo gylio efektą;",
+                            "- darbo stotis, turinti galimybę padidinti operuojamą sritį;",
+                            "- „ultra HD“ ekranas, kuriame rodoma padidinta trimatė operacijos vaizdo projekcija.",
                             "Išmanioji programinė įranga sujungia ultragarsinės emulsifikacijos įrangos darbą su 3D navigacijos sistema. Tai leidžia chirurgui nuolat stebėti esminius parametrus: akispūdį, ultragarsinės energijos intensyvumą, skysčio tūrį ir vandens srauto greitį. Tokia integracija didina procedūros saugumą ir mažina komplikacijų riziką.",
-                            "Papildomas privalumas – švelnesnis apšvietimas, palyginti su įprastu darbu per operacinį mikroskopą. Tai suteikia daugiau komforto pacientui ir sumažina regos nuovargį chirurgui.",
+                            "Papildomas privalumas – švelnesnis apšvietimas, palyginti su įprastu darbu per operacinį mikroskopą. Procedūra suteikia daugiau komforto pacientui ir sumažina regos nuovargį chirurgui.",
                         ],
                     },
                     {
                         textTitle: "Kodėl „iQ“?",
                         text: [
-                            "Pacientai neretai klausia, ką reiškia santrumpa iQ. Šiuo atveju kalbama ne apie intelekto koeficientą, o apie koncepciją **ideal Quality** – „ideali kokybė“. Šiame požiūryje svarbi kiekviena detalė: nuo chirurginių judesių tikslumo iki intraokulinio lęšio parinkimo ir galutinio rezultato – atkurtos regėjimo kokybės.",
+                            "Pacientai neretai klausia, ką reiškia santrumpa „iQ“. Šiuo atveju kalbama ne apie intelekto koeficientą, o apie koncepciją: angl. „Ideal Quality“ – „ideali kokybė“. Šiam požiūriui svarbi kiekviena detalė: nuo chirurgo judesių tikslumo iki intraokulinio lęšio parinkimo ir galutinio rezultato – atkurtos regėjimo kokybės.",
                             "Būtent šiuolaikiniai intraokuliniai lęšiai leidžia tikėtis didelio regėjimo aštrumo po operacijos. IOL parenkami individualiai, atsižvelgiant į akies parametrus ir paciento regos poreikius, siekiant užtikrinti aiškų ir komfortišką matymą, o kai kuriais atvejais – sumažinti priklausomybę nuo akinių.",
                         ],
                     },
@@ -818,8 +818,8 @@ export const subpageCataractData: SubPageType[] = [
                         textTitle:
                             "Esame pasirengę padėti net sudėtingiausiais atvejais",
                         text: [
-                            "iQ-Life 3D „Vandens srauto“ metodika pasižymi dideliu efektyvumu net esant pažengusiai kataraktai ir tankiam lęšiukui. Klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) imamės ir kliniškai sudėtingų atvejų, kai reikalingas ypatingas tikslumas ir itin švelni chirurginė taktika. Technologijos, delikataus darbo principo, išplėstinės vizualinės kontrolės ir aukštos kokybės medžiagų derinys suteikia pagrindą stabiliam ir prognozuojamam rezultatui.",
-                            "Jeigu siekiate ne tik „atlikti operaciją“, bet gauti išties modernų, saugų ir maksimaliai tausojantį kataraktos gydymą – iQ-Life 3D „Vandens srauto“ metodas sukurtas būtent Jums. Skirtumą pajusite.",
+                            "„iQ-Life 3D“ „vandens srauto“ metodika pasižymi dideliu efektyvumu net esant pažengusiai kataraktai ir tankiam lęšiukui. Klinikoje „Naujas regėjimas“ Vilniuje imamės ir kliniškai sudėtingų atvejų, kai prireikia ypatingo tikslumo ir itin švelnios chirurginės taktikos. Technologijos, delikataus darbo principo, išplėstinės vizualinės kontrolės ir aukštos kokybės medžiagų derinys suteikia pagrindą stabiliam ir prognozuojamam rezultatui.",
+                            "Jeigu tikitės ne tik tinkamai atliktos operacijos, bet išties modernaus, saugaus ir maksimaliai tausojančio kataraktos gydymo – „iQ-Life 3D“ „vandens srauto“ metodas sukurtas būtent Jums. Skirtumą pajusite.",
                         ],
                     },
                 ],
