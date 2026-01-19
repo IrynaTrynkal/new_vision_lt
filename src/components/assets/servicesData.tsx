@@ -1204,19 +1204,19 @@ export const servicesData: ServicesProps[] = [
                         adress: true,
                         adressDarkBG: true,
                         cataract: [
-                            "trauminė katarakta",
-                            "koreguojame nesėkmingų operacijų kitose klinikose pasekmes",
-                            "imamės iš tiesų sudėtingų klinikinių atvejų",
+                            "Gydome trauminę kataraktą.",
+                            "Koreguojame nesėkmingų operacijų kitose klinikose pasekmes.",
+                            "Imamės iš tiesų sudėtingų klinikinių atvejų.",
                         ],
                     },
                 },
                 {
                     type: "preview",
                     data: {
-                        title: "Kataraktos gydymas mūsų centre Vilniuje pagal protokolą „AquaStream iQ-5 minutes",
+                        title: "Katarakta gydoma mūsų centre Vilniuje vadovaujantis „AquaStream iQ-5 minutes“ protokolu",
                         text: [
-                            "Kataraktos operacija mūsų centre atliekama pagal protokolą „AquaStream iQ-5 minutes“. Tai šiuolaikinė kataraktos fakoemulsifikacijos (kataraktos šalinimo) metodika, tarptautinėje praktikoje laikoma „auksiniu standartu“. Intervencija atliekama per mikroįpjovą, be siūlių, taikant vietinę lašinę nejautrą, vadovaujantis Europos klinikiniais protokolais, su tikslia navigacija ir nuolatine parametrų kontrole. Toks požiūris leidžia procedūrą atlikti greitai, prognozuojamai ir pacientui maksimaliai komfortiškai, o į įprastą ritmą dažniausiai galima grįžti per kelias dienas.",
-                            "Naudojame aktualias kataraktos chirurgijos technologijas ir kiekvienam pacientui individualiai parenkame intraokulinį lęšį (IOL), atsižvelgdami į ragenos ir tinklainės būklę, kataraktos tipą (amžinę, trauminę, komplikuotą) bei regos ypatumus. Kataraktos gydymas mūsų klinikoje Lietuvoje – tai ne tik drumsto natūralaus lęšiuko pašalinimas, bet ir maksimaliai įmanomos regos kokybės atkūrimas arti, vidutiniu ir tolimu atstumu, atliekant lęšiuko implantavimą (dirbtinio lęšio įdėjimą).",
+                            "Kataraktos operacija mūsų centre atliekama remiantis „AquaStream iQ-5 minutes“ protokolu. Tai šiuolaikinė kataraktos fakoemulsifikacijos (kataraktos šalinimo) metodika, tarptautinėje praktikoje laikoma aukso standartu. Intervencija atliekama per mikroįpjovą, neprireikia siūlių, taikoma vietinė lašinė nejautra. Vadovaujamasi Europos klinikiniais protokolais, tikslia navigacija ir nuolatine parametrų kontrole. Toks požiūris leidžia procedūrą atlikti greitai, prognozuojamai ir pacientui maksimaliai komfortiškai, o į įprastą gyvenimo ritmą dažniausiai galima grįžti per kelias dienas.",
+                            "Naudojame aktualias kataraktos chirurginio gydymo technologijas ir kiekvienam pacientui individualiai parenkame intraokulinį lęšį (IOL), atsižvelgdami į ragenos ir tinklainės būklę, kataraktos tipą (amžinę, trauminę, komplikuotą) bei regos ypatumus. Kataraktos gydymas mūsų klinikoje Lietuvoje – tai ne tik drumsto natūralaus lęšiuko pašalinimas, bet ir maksimaliai įmanomos regos kokybės atkūrimas visais atstumais, atliekant lęšiuko implantavimą (dirbtinio lęšio įdėjimą).",
                         ],
                         image: "/images/cataract-preview.jpg",
                         textUp: "500 tūkst.+",
@@ -1232,14 +1232,14 @@ export const servicesData: ServicesProps[] = [
                             {
                                 image: "/images/iq-5-minute.jpg",
                                 link: "kataraktos-operacija/iq-5-minutes",
-                                title: "iq-5-minutes",
-                                text: "Naujas kataraktos šalinimo metodas, naudojant disperguojamuosius tirpalus.",
+                                title: "iq-5 minutes",
+                                text: "Naujas kataraktos šalinimo metodas naudojant disperguojamuosius tirpalus.",
                             },
                             {
                                 image: "/images/live.jpg",
                                 link: "kataraktos-operacija/iq-life-3d",
                                 title: "IQ-Life 3D „Vandens srauto“ programa",
-                                text: "Tai „auksinis standartas“ šiuolaikinėje oftalmologijoje.",
+                                text: "Tai aukso standartas šiuolaikinėje oftalmologijoje.",
                             },
                         ],
                     },
@@ -1264,11 +1264,11 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 gap: true,
                                                 type: "text",
-                                                text: "Sergant katarakta šis mechanizmas sutrinka: regėjimas tampa neryškus, gali atsirasti „rūko“ ar „dūmelio“ pojūtis prieš akis, pablogėja regos kokybė ryškioje šviesoje ir prieblandoje, pakinta spalvų suvokimas.",
+                                                text: "Sergant katarakta šis mechanizmas sutrinka: regėjimas tampa neryškus, gali atsirasti „rūko“ ar „dūmelio“ pojūtis akyse, pablogėja regos kokybė ryškioje šviesoje ir prieblandoje, pakinta spalvų suvokimas.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Efektyvus kataraktos gydymo metodas yra chirurginis – drumsto lęšiuko pašalinimas ir dirbtinio lęšio implantavimas, t. y. akių lęšių keitimo operacija (taip pat vartojama: akies lęšiuko keitimas, akių lęšiuko keitimas, lęšiuko keitimas).",
+                                                text: "Efektyvus kataraktos gydymo metodas yra chirurginis – drumsto lęšiuko pašalinimas ir dirbtinio lęšio implantavimas, t. y. akių lęšių keitimo operacija (dar vadinama akies lęšiuko keitimu, akių lęšiuko keitimu, lęšiuko keitimu).",
                                             },
                                         ],
                                     },
@@ -1295,7 +1295,7 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         paddingTop: false,
-                        title: "Kataraktos gydymo Vilniuje privalumai mūsų oftalmologijos centre",
+                        title: "Kataraktos gydymo privalumai mūsų oftalmologijos centre Vilniuje",
                         text: "Galite būti tikri paslaugų kokybe, nes patikite regėjimą šiuolaikinei klinikai",
                         list: [
                             {
@@ -1304,7 +1304,7 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Patyrę chirurgai",
-                                text: "Kataraktos šalinimą atlieka sertifikuoti chirurgai, turintys tarptautinės praktikos patirtį ir daugiau kaip 50 000 sėkmingų operacijų.",
+                                text: "Klinikoje kataraktos šalinimą atlieka sertifikuoti chirurgai, turintys tarptautinės praktikos patirties ir atlikę per 50 000 sėkmingų operacijų.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
@@ -1326,7 +1326,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Katarakta – tai natūralaus akies lęšiuko drumstėjimas, lemiantis laipsnišką regėjimo aštrumo mažėjimą. Dažniausiai ji susijusi su amžiniais pokyčiais, medžiagų apykaitos sutrikimais, lėtinėmis ligomis (pvz., cukriniu diabetu, hipertenzija), akių traumomis arba komplikacijomis po kitų intervencijų. Taip pat pasitaiko trauminė katarakta, kai lęšiukas pažeidžiamas po smūgio ar prasiskverbiančios žaizdos. Negydant regėjimas gali toliau blogėti iki reikšmingo funkcinio regėjimo praradimo.",
+                                        text: "Katarakta – tai natūralaus akies lęšiuko drumstėjimas, lemiantis laipsnišką regėjimo aštrumo mažėjimą. Dažniausiai liga susijusi su amžiniais pokyčiais, medžiagų apykaitos sutrikimais, lėtinėmis ligomis (pvz., cukriniu diabetu, hipertenzija), akių traumomis arba komplikacijomis po kitų intervencijų. Taip pat pasitaiko trauminė katarakta, kai lęšiukas pažeidžiamas po smūgio ar prasiskverbiančios žaizdos. Negydant kataraktos regėjimas gali toliau blogėti iki reikšmingo funkcinio regėjimo praradimo.",
                                     },
                                 ],
                             },
@@ -1336,17 +1336,17 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Pirmieji požymiai – neryškus, „užtemęs“ regėjimas, lyg žiūrėtumėte pro matinį stiklą ar dūmelį. Gali atsirasti skaitymo sunkumų, poreikis dažniau keisti akinius, prastesnis matymas prieblandoje ar ryškioje šviesoje, šviesos ratilai (halai), akinimas nuo automobilių žibintų ir gatvių apšvietimo. Kai kurie pacientai pastebi kontrasto sumažėjimą ir spalvų iškraipymą. Esant šiems simptomams svarbu atlikti diagnostiką ir su oftalmologu aptarti gydymo taktiką.",
+                                        text: "Pirmieji požymiai – neryškus, „užtemęs“ regėjimas, lyg žiūrėtumėte pro matinį stiklą ar dūmelį. Gali atsirasti skaitymo sunkumų, poreikis dažniau keisti akinius, prastesnis matymas prieblandoje ar ryškioje šviesoje, šviesos ratilai (halai), akinimas, kurį sukelia automobilių žibintai ir gatvių apšvietimas. Kai kurie pacientai pastebi kontrasto sumažėjimą ir spalvų iškraipymą. Esant šiems simptomams svarbu atlikti akių patikrą ir su gydytoju oftalmologu aptarti gydymo taktiką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar galima išgydyti kataraktą be operacijos – lašais ar tabletėmis?",
+                                    "Ar galima išgydyti kataraktą be operacijos vien lašais ar tabletėmis?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Deja, kataraktos išgydyti be operacijos neįmanoma. Lašai, vitaminai ar kiti preparatai negali sugrąžinti skaidrumo jau sudrumstėjusiam lęšiukui. Jie gali tik laikinai sulėtinti progresavimą, tačiau nepašalina regėjimo blogėjimo priežasties. Efektyvus gydymas yra chirurginis – drumsto lęšiuko pašalinimas ir lęšiuko implantavimas (IOL), t. y. lęšiuko keitimas.",
+                                        text: "Deja, kataraktos išgydyti be operacijos neįmanoma. Lašai, vitaminai ar kiti preparatai negali sugrąžinti skaidrumo drumstam lęšiukui. Šios priemonės gali tik laikinai sulėtinti ligos progresavimą, tačiau nepašalina regėjimo blogėjimo priežasties. Efektyvus gydymas kataraktos chirurginis – drumsto lęšiuko pašalinimas ir lęšiuko implantavimas (IOL), t. y. lęšiuko keitimas.",
                                     },
                                 ],
                             },
@@ -1356,7 +1356,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Indikacijas nustato oftalmologas po išsamaus ištyrimo. Operacija rekomenduojama, kai katarakta pradeda pastebimai trukdyti darbui, vairavimui, skaitymui, kasdienei veiklai arba kai didėja komplikacijų rizika. Nebūtina laukti, kol katarakta visiškai „subręs“: šiuolaikinės technologijos leidžia operuoti ir ankstyvesnėse stadijose, kai lęšiukas mažiau tankus, o atsistatymas dažnai būna greitesnis ir komfortiškesnis.",
+                                        text: "Indikacijas nustato gydytojas oftalmologas atlikęs išsamų akių tyrimą. Operacija rekomenduojama, kai katarakta pradeda pastebimai trukdyti įprastai veiklai: dirbti, vairuoti, skaityti, arba kai didėja komplikacijų rizika. Nebūtina laukti, kol katarakta smarkiai pažengs: šiuolaikinės technologijos leidžia operuoti ir anksčiau, kai lęšiukas mažiau tankus, o sveikimas dažnai būna greitesnis ir komfortiškesnis.",
                                     },
                                 ],
                             },
@@ -1366,7 +1366,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kataraktos gydymas atliekamas ambulatoriškai, per mikropjūvį, be siūlių, o pati procedūra paprastai trunka kelias minutes. Pagal protokolą „AquaStream iQ-5 minutes“ į akį naudojamas subalansuotas tirpalas, padedantis švelniai fragmentuoti sudrumstėjusį lęšiuką. Tuomet fragmentai pašalinami, o į jų vietą implantuojamas skaidrus intraokulinis lęšis. Taikoma vietinė lašinė nejautra, todėl procedūra paprastai yra neskausminga, o pacientas tą pačią dieną grįžta namo.",
+                                        text: "Kataraktos gydymas atliekamas ambulatoriškai, per mikropjūvį, be siūlių, o pati procedūra paprastai trunka kelias minutes. Pagal protokolą „AquaStream iQ-5 minutes“ akiai naudojamas subalansuotas tirpalas, padedantis švelniai fragmentuoti sudrumstėjusį lęšiuką. Tuomet jo fragmentai pašalinami, o į jų vietą implantuojamas skaidrus intraokulinis lęšis. Taikoma vietinė lašinė nejautra, todėl procedūra paprastai yra neskausminga, o pacientas tą pačią dieną grįžta namo.",
                                     },
                                 ],
                             },
@@ -1376,7 +1376,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Pirmuosius regėjimo pagerėjimus pacientai dažnai pajunta tą pačią arba kitą dieną. Visiška regėjimo stabilizacija gali užtrukti nuo kelių dienų iki kelių savaičių – priklausomai nuo individualių ypatumų. Po operacijos svarbu laikytis gydytojo rekomendacijų: netrinti akies, nekelti sunkių daiktų, saugotis dulkių ir nešvarumų, teisingai vartoti paskirtus lašus. Tai padeda mažinti rizikas ir pasiekti geriausią rezultatą.",
+                                        text: "Pirmuosius regėjimo pagerėjimo ženklus pacientai dažnai pajunta tą pačią arba kitą dieną. Visiška regėjimo stabilizacija gali trukti nuo kelių dienų iki kelių savaičių – priklausomai nuo individualių žmogaus ypatumų. Po operacijos svarbu laikytis gydytojo rekomendacijų: netrinti akies, nekelti sunkių daiktų, saugotis dulkių ir nešvarumų, tinkamai vartoti paskirtus lašus. Tai padeda mažinti rizikas ir pasiekti geriausią rezultatą.",
                                     },
                                 ],
                             },
@@ -1386,7 +1386,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Rezultatas priklauso nuo implantuoto intraokulinio lęšio tipo. Monofokalinis lęšis užtikrina gerą regėjimą vienu atstumu (dažniausiai į tolį), todėl skaitymui gali prireikti akinių. Galima rinktis multifokalinį ar trifokalinį lęšį, padedantį geriau matyti skirtingais atstumais ir sumažinti priklausomybę nuo akinių. Lęšio parinkimas atliekamas individualiai diagnostikos ir konsultacijos su chirurgu metu.",
+                                        text: "Rezultatas priklauso nuo implantuoto intraokulinio lęšio tipo. Monofokalinis lęšis užtikrina gerą regėjimą vienu atstumu (dažniausiai į tolį), todėl skaitymui gali prireikti akinių. Galima rinktis daugiažidinį ar trifokalinį lęšį, padedantį geriau matyti skirtingais atstumais ir sumažinantį priklausomybę nuo akinių. Lęšis parenkamas individualiai atlikus diagnostiką ir pasikonsultavus su chirurgu.",
                                     },
                                 ],
                             },
@@ -1445,7 +1445,7 @@ export const servicesData: ServicesProps[] = [
                             {
                                 image: "/images/iq-5-minute.jpg",
                                 link: "kataraktos-operacija/iq-5-minutes",
-                                title: "iq-5-minutes",
+                                title: "iq-5 minutes",
                                 text: "A new cataract removal technique using dispersive solutions.",
                             },
                             {
@@ -1668,7 +1668,7 @@ export const servicesData: ServicesProps[] = [
                             {
                                 image: "/images/iq-5-minute.jpg",
                                 link: "kataraktos-operacija/iq-5-minutes",
-                                title: "iq-5-minutes",
+                                title: "iq-5 minutes",
                                 text: "Новая методика удаления катаракты с использованием дисперсионных растворов.",
                             },
                             {
