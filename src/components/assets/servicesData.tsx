@@ -1851,7 +1851,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "Sausų akių sindromo gydymas",
-                        text: "Gydytojų patirtis ir šiuolaikinė diagnostika padeda sustabdyti ligos progresavimą ir sugrąžinti komfortą dirbant prie ekranų bei kasdienėje veikloje.",
+                        text: "Gydytojų patirtis ir šiuolaikinė diagnostika padeda sustabdyti ligos progresavimą ir sugrąžinti komfortą dirbant prie ekranų bei užsiimant kasdiene veikla.",
                     },
                 },
                 {
@@ -1860,8 +1860,8 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/dry-eyes1.jpg",
                         title: "Sausų akių sindromas: diagnostika ir medikamentinis gydymas",
                         text: [
-                            "Sausų akių sindromas (SAS) – tai būklė, kai ašarų plėvelė tampa nestabili ir prasčiau apsaugo akies paviršių. Dėl to gali atsirasti sausumas, deginimas, „smėlio“ pojūtis, paraudimas, greitas akių nuovargis ir regėjimo aiškumo svyravimai, ypač vakare. Priežastys gali būti įvairios: meibomo liaukų veiklos sutrikimas, retas / nepilnas mirksėjimas, amžiniai ir hormoniniai pokyčiai, sausas oras, ilgalaikis darbas kompiuteriu, gretutinės ligos bei kai kurių vaistų vartojimas. ",
-                            "Akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) SAS ištyrimas atliekamas naudojant modernią įrangą, įskaitant diagnostinę sistemą IDRA (Italija), kad būtų objektyviai įvertinta ašarų plėvelės ir vokų būklė bei sudarytas individualus terapijos planas. Be tikslios diagnostikos simptomai dažnai įsitvirtina, todėl svarbu nustatyti, kuris mechanizmas dominuoja (nepakankama ašarų gamyba, padidėjęs garavimas, akies paviršiaus uždegimas) – ir parinkti tikslingą konservatyvų, įskaitant medikamentinį, gydymą.",
+                            "Sausų akių sindromas (SAS) – tai būklė, kai ašarų plėvelė tampa nestabili ir prasčiau apsaugo akies paviršių. Dėl to gali atsirasti akių sausumas, deginimas, „smėlio“ pojūtis, paraudimas, greitas akių nuovargis ir regėjimo aiškumo svyravimų, ypač vakare. Priežastys gali būti įvairios: meibomo liaukų veiklos sutrikimas, retas ir (arba) nepilnas mirksėjimas, amžiniai ir hormoniniai pokyčiai, sausas oras, ilgalaikis darbas kompiuteriu, gretutinės ligos bei kai kurių vaistų vartojimas.",
+                            "Akių klinikoje „Naujas regėjimas“ Vilniuje SAS ištyrimas atliekamas naudojant modernią įrangą, įskaitant diagnostinę sistemą IDRA (Italija), kad būtų objektyviai įvertinta ašarų plėvelės ir vokų būklė bei sudarytas individualus terapijos planas. Be tikslios diagnostikos simptomai dažnai įsitvirtina, todėl svarbu nustatyti, kuris mechanizmas dominuoja (nepakankama ašarų gamyba, padidėjęs garavimas, akies paviršiaus uždegimas), ir parinkti tikslingą konservatyvų, įskaitant medikamentinį, gydymą.",
                         ],
                     },
                 },
@@ -1869,27 +1869,27 @@ export const servicesData: ServicesProps[] = [
                     type: "greenSliderSection",
                     data: {
                         title: "Diagnostikos ypatumai:",
-                        text: "Taikome patikrintas metodikas ir gydymą parenkame individualiai. Diagnostika atliekama profesionalia oftalmologine įranga, įskaitant IDRA.",
+                        text: "Taikome patikrintas metodikas ir gydymo būdą parenkame individualiai. Diagnostika atliekama profesionalia oftalmologine įranga, įskaitant IDRA.",
                         slider: [
                             {
                                 title: "Išsamus ašarų plėvelės įvertinimas",
-                                text: "Ašarų plėvelę sudaro keli komponentai, o sutrikus bet kuriam iš jų, nukenčia drėkinimo pusiausvyra. Ištyrimo metu gydytojas nustato, kuris parametras labiausiai pakitęs, kad gydymas būtų kryptingas, o ne parenkamas „bandymų keliu“.",
+                                text: "Ašarų plėvelę sudaro keli komponentai, o sutrikus bent vienam iš jų nukenčia drėkinimo pusiausvyra. Atlikęs tyrimą gydytojas nustato, kuris parametras labiausiai pakitęs, kad gydymas būtų kryptingas.",
                             },
                             {
                                 title: "Meibomo liaukų funkcijos įvertinimas",
                                 text: "Vokų storyje esančios liaukos gamina lipidinę sekreciją, kuri mažina ašarų garavimą ir palaiko ašarų plėvelės stabilumą. Jų disfunkcija dažnai siejama su blefaritu, pasikartojančiais uždegimais, chalazionu ir lėtiniu diskomfortu. Vizualizacija leidžia įvertinti pokyčių išreikštumą ir stebėti dinamiką gydymo metu.",
                             },
                             {
-                                title: "Mirksėjimo kokybės ir vokų užsimerkimo analizė",
-                                text: "Pilnas mirksėjimas būtinas, kad ašarų plėvelė pasiskirstytų tolygiai. Amžiniai pokyčiai, persirgtos ar atliktos operacijos, įprotis „sustingti“ prie ekrano, stresas ir kai kurie kosmetologiniai veiksniai gali pabloginti vokų susiglaudimą – tai didina garavimą ir sausumo simptomus.",
+                                title: "Mirksėjimo kokybės ir užsimerkimo analizė",
+                                text: "Mirksėti būtina, kad ašarų plėvelė pasiskirstytų tolygiai. Amžiniai pokyčiai, persirgtos ar atliktos operacijos, įprotis „sustingti“ prie ekrano, stresas ir kai kurie kosmetologiniai veiksniai gali pabloginti vokų susiglaudimą ir paskatinti akių sausumo simptomus.",
                             },
                             {
-                                title: "Greitai ir su minimaliu diskomfortu",
-                                text: "Diagnostiniai matavimai trunka vos kelias sekundes kiekvienai akiai. Tai leidžia gauti patikimus duomenis be papildomo akies paviršiaus dirginimo.",
+                                title: "Greita ir minimalų diskomfortą užtikrinanti procedūra",
+                                text: "Diagnostiniai matavimai trunka vos kelias sekundes kiekvienai akiai. Tai leidžia gauti patikimus duomenis papildomai nedirginant akies paviršiaus.",
                             },
                             {
                                 title: "Objektyvūs rezultatai ir dinamikos fiksavimas",
-                                text: "Programiniai algoritmai padeda standartizuoti matavimus ir sumažinti subjektyvių veiksnių įtaką. Rezultatai išsaugomi protokolo, vaizdų ir parametrų forma, kad būtų galima lyginti rodiklius laikui bėgant ir koreguoti gydymą.",
+                                text: "Programiniai algoritmai padeda standartizuoti matavimus ir sumažinti subjektyvių veiksnių įtaką. Tyrimų rezultatai išsaugomi protokolo, vaizdų ir parametrų forma, kad būtų galima lyginti rodiklius laikui bėgant ir koreguoti gydymą.",
                             },
                         ],
                         btn: {
@@ -1913,7 +1913,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Terapijos taktika parenkama pagal diagnostikos rezultatus ir dažniausiai apima konservatyvų gydymą, orientuotą į kasdienę simptomų kontrolę ir ašarų plėvelės stabilumo atkūrimą.",
+                                                text: "Terapijos taktika parenkama atsižvelgiant į diagnostikos rezultatus ir dažniausiai apima konservatyvų gydymą, orientuotą į kasdienę simptomų kontrolę bei ašarų plėvelės stabilumo atkūrimą.",
                                             },
                                             {
                                                 type: "text",
@@ -1933,8 +1933,8 @@ export const servicesData: ServicesProps[] = [
                                                 gap: true,
                                                 type: "list",
                                                 list: [
-                                                    "drėkinamuosius lašus / gelius (dirbtines ašaras), parenkant sudėtį pagal jūsų SAS tipą;",
-                                                    "priešuždegiminį gydymą (pagal indikacijas), siekiant sumažinti akies paviršiaus uždegimą;",
+                                                    "drėkinamuosius lašus ir (arba) gelius (dirbtines ašaras), parinkdamas sudėtį atsižvelgdamas į Jūsų SAS tipą;",
+                                                    "priešuždegiminį gydymą (pagal indikacijas), siekdamas sumažinti akies paviršiaus uždegimą;",
                                                     "ašarų plėvelę stabilizuojančias priemones ir priemones, gerinančias toleranciją ekranų apkrovai;",
                                                     "meibomo liaukų disfunkcijos terapiją (pagal indikacijas), įskaitant vaistų schemas ir palaikomąją priežiūrą.",
                                                 ],
@@ -1951,7 +1951,7 @@ export const servicesData: ServicesProps[] = [
                                             },
                                             {
                                                 type: "text",
-                                                text: "Po ištyrimo gydytojas paaiškina rezultatus, parodo pagrindinius parametrus ir sudaro aiškų planą: lašinimo režimą, vokų higieną, rekomendacijas darbui prie monitoriaus, mikroklimatui, kontaktiniams lęšiams ir kosmetikai. Svarbu, kad gydymas dažnai yra etapinis: pirmiausia mažinamas dirginimas ir uždegimas, vėliau taikoma palaikomoji terapija.",
+                                                text: "Atlikęs tyrimus gydytojas paaiškina rezultatus, nurodo pagrindinius parametrus ir sudaro aiškų planą, į kurį įtraukia lašinimo režimą, vokų higieną, rekomendacijas darbui prie monitoriaus, mikroklimatui, kontaktiniams lęšiams ir kosmetikai. Gydymo procesas paprastai vyksta etapais: pirmiausia mažinamas dirginimas ir uždegimas, vėliau taikoma palaikomoji terapija.",
                                             },
                                         ],
                                     },
@@ -1966,7 +1966,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "SAS gali atsirasti dėl skirtingų mechanizmų. Diagnostikos metu vertinami ašarų plėvelės parametrai, vokų būklė, meibomo liaukos ir mirksėjimo pobūdis, kad būtų parinktas efektyviausias gydymas.",
+                                                text: "SAS gali atsirasti dėl skirtingų priežasčių. Diagnostikos metu vertinami ašarų plėvelės parametrai, vokų būklė, meibomo liaukos ir mirksėjimo pobūdis, kad būtų parinktas efektyviausias gydymas.",
                                             },
                                             {
                                                 type: "text",
@@ -1975,7 +1975,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Veiksniai, susiję su nepakankama „vandeningąja“ ašarų dalimi",
+                                                        value: "Veiksniai, susiję su nepakankama vandeningąja ašarų dalimi:",
                                                     },
                                                 ],
                                             },
@@ -1986,8 +1986,8 @@ export const servicesData: ServicesProps[] = [
                                                     "amžiniai pokyčiai ir natūralus ašarų gamybos sumažėjimas;",
                                                     "hormonų svyravimai (įskaitant menopauzę), endokrininiai sutrikimai;",
                                                     "autoimuninės būklės (įskaitant Šegreno sindromą);",
-                                                    "vaistai, veikiantys gleivines (kai kurie antihistamininiai, antidepresantai, diuretikai ir kt.);",
-                                                    "dehidratacija, nepakankamas skysčių vartojimas, atsistatymas po ligų ar operacijų.",
+                                                    "vaistai, veikiantys gleivines (kai kurie antihistamininiai vaistai, antidepresantai, diuretikai ir kt.);",
+                                                    "dehidratacija, nepakankamas skysčių vartojimas, sveikimas po ligų ar operacijų.",
                                                 ],
                                             },
                                             {
@@ -1997,7 +1997,7 @@ export const servicesData: ServicesProps[] = [
                                                     {
                                                         bold: true,
                                                         subtitle: true,
-                                                        value: "Veiksniai, susiję su padidėjusiu ašarų plėvelės garavimu",
+                                                        value: "Veiksniai, susiję su padidėjusiu ašarų plėvelės garavimu:",
                                                     },
                                                 ],
                                             },
@@ -2006,7 +2006,7 @@ export const servicesData: ServicesProps[] = [
                                                 gap: true,
                                                 list: [
                                                     "meibomo liaukų disfunkcija ir silpnas lipidinis sluoksnis;",
-                                                    "retas / nepilnas mirksėjimas dirbant prie ekrano;",
+                                                    "retas ir (arba) nepilnas mirksėjimas dirbant prie ekrano;",
                                                     "sausas oras, šildymas, kondicionieriai, vėjas, dulkės, dūmai;",
                                                     "kontaktiniai lęšiai, dekoratyvinė kosmetika, blakstienų priauginimas, agresyvus makiažo valymas;",
                                                     "lėtiniai vokų krašto uždegimai (blefaritas, demodekozė), odos rožinė.",
@@ -2014,7 +2014,7 @@ export const servicesData: ServicesProps[] = [
                                             },
                                             {
                                                 type: "text",
-                                                text: "Jei jaučiate „smėlį“, deginimą ar pastebite paraudimą – verta atlikti ištyrimą. Tiksli priežastis padeda greičiau parinkti terapiją, kuri iš tiesų veikia.",
+                                                text: "Jei jaučiate „smėlio“ pojūtį akyse, deginimą ar pastebite paraudimą – verta atlikti tyrimus. Tiksli priežastis padeda greičiau parinkti veiksmingą terapiją.",
                                             },
                                         ],
                                     },
@@ -2035,22 +2035,22 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Užsiregistruoti ištyrimui galima telefonu arba internetu klinikos „Naujas regėjimas“ svetainėje (Vilnius, Lietuva).",
-                                    "Specialaus pasiruošimo dažniausiai nereikia. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti iš anksto (dažnai patariama likus maždaug 12 val. iki vizito). Atsineškite akinius / lęšius ir ankstesnių tyrimų rezultatus – taip gydytojui lengviau įvertinti pokyčius ir sudaryti gydymo planą.",
+                                    "Užsiregistruoti tyrimams galima telefonu arba internetu klinikos „Naujas regėjimas“ svetainėje (klinika įsikūrusi Vilniuje).",
+                                    "Specialiai ruoštis dažniausiai nereikia. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti iš anksto (paprastai likus maždaug 12 val. iki vizito). Atsineškite akinius ir (arba) kontaktinius lęšius bei ankstesnių tyrimų rezultatus –gydytojui bus lengviau įvertinti regos pokyčius ir sudaryti gydymo planą.",
                                 ],
                             },
                             {
                                 itemTitle:
                                     "Kompiuterinė regėjimo diagnostika ir akies paviršiaus ištyrimas",
                                 itemText: [
-                                    "Apžiūra vyksta komfortiškai ir apima testus bei matavimus, kuriuos gydytojas parenka pagal jūsų situaciją: ašarų plėvelės įvertinimą, vokų būklę, mirksėjimo kokybę, regėjimo aštrumo patikrą ir prireikus papildomus tyrimus.",
-                                    "Kartais gydytojas gali naudoti vyzdį plečiančius lašus – sprendimas priimamas individualiai, siekiant padidinti diagnostikos tikslumą ir atmesti gretutines problemas.",
+                                    "Apžiūra vyksta komfortiškai ir apima testus bei matavimus, kuriuos gydytojas parenka atsižvelgdamas į Jūsų situaciją: ašarų plėvelės įvertinimą, vokų būklę, mirksėjimo kokybę, regėjimo aštrumo patikrą ir, prireikus, papildomus tyrimus.",
+                                    "Siekdamas padidinti diagnostikos tikslumą ir atmesti gretutines problemas, jis gali naudoti vyzdį plečiančius lašus.",
                                 ],
                             },
                             {
                                 itemTitle: "Išvada pagal tyrimo rezultatus",
                                 itemText: [
-                                    "Po diagnostikos gaunate oficialų protokolą ir rekomendacijas: nuo profilaktikos ir lašinimo režimo iki nuoseklaus medikamentinio gydymo ir kontrolės plano. Jei reikia, gydytojas nurodys pakartotinio vizito terminus, kad būtų įvertinta dinamika ir pakoreguota terapija.",
+                                    "Po diagnostikos gaunate oficialų protokolą ir rekomendacijas: nuo profilaktikos ir vaistų lašinimo režimo iki nuoseklaus medikamentinio gydymo ir kontrolės plano. Prireikus, gydytojas nurodo pakartotinio vizito terminus, kad būtų įvertinta dinamika ir pakoreguota terapija.",
                                 ],
                             },
                         ],
@@ -2066,75 +2066,74 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Dažnai užduodami klausimai apie burnos džiūvimo sindromo gydymą",
+                        title: "Dažniausiai užduodami klausimai apie sausų akių sindromo gydymą",
                         content: [
                             {
                                 question:
-                                    "Akių sausumas: kokie simptomai ir kada reikalingas gydymas?",
+                                    "Kokie simptomai vargina esant akių sausumui ir kada reikalingas gydymas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Dažniausiai vargina deginimas, „smėlio“ pojūtis, paraudimas, matymo „apsiblausimas“ dienos pabaigoje, šviesos baimė, diskomfortas nešiojant lęšius ir prastesnė ekranų tolerancija. Jei simptomai kartojasi reguliariai arba trukdo darbui – tai signalas atlikti diagnostiką. Savarankiškas „pirmų pasitaikiusių lašų“ pasirinkimas retai suteikia ilgalaikį efektą: svarbu suprasti priežastį ir gydyti ją.",
+                                        text: "Dažniausiai vargina deginimas, „smėlio“ pojūtis, paraudimas, matymo apsiblausimas dienos pabaigoje, šviesos baimė, diskomfortas nešiojant kontaktinius lęšius. Jei simptomai kartojasi reguliariai arba trukdo darbui, tai ženklas atlikti akių patikrą. Savarankiškai vartodami gydytojo nepaskirtus akių lašus retai pasieksite ilgalaikį efektą, todėl svarbu rasti priežastį ir ją gydyti.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kas yra SAS ir kaip gydoma „sausa akis“?",
+                                    "Kas yra SAS ir kaip gydomos sausos akys?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "SAS – tai ašarų plėvelės stabilumo ir akies paviršiaus būklės sutrikimas. Gydymas parenkamas individualiai ir dažniausiai apima drėkinamąsias priemones, priešuždegiminį gydymą pagal indikacijas, vokų higienos rekomendacijas ir įpročių korekciją dirbant prie ekrano. Kasdienėje kalboje pasitaiko terminų, tokių kaip „sausos akies gydymas lazeriu“, tačiau standartinėje praktikoje pagrindą sudaro konservatyvi ir medikamentinė terapija, parinkta pagal diagnostikos rezultatus.",
+                                        text: "SAS – tai ašarų plėvelės stabilumo ir akies paviršiaus būklės sutrikimas. Gydymas parenkamas individualiai ir dažniausiai apima drėkinamąsias priemones, priešuždegiminį gydymą atsižvelgiant į indikacijas, rekomendacijas dėl vokų higienos priežiūros ir įpročių korekciją dirbant prie ekrano. Įprastai gydymo pagrindą sudaro konservatyvi medikamentinė terapija, parinkta atsižvelgiant į akių patikros rezultatus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Medikamentinis sausų akių gydymas: ką skiria ir kaip tai veikia?",
+                                    "Medikamentinis sausų akių gydymas: ką gydytojai skiria ir kaip tai veikia?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Gydymo tikslas – sugrąžinti komfortą, sumažinti uždegimą ir stabilizuoti ašarų plėvelę. Priklausomai nuo SAS tipo, gydytojas gali rekomenduoti skirtingas dirbtinių ašarų formules (skirtingo klampumo ir sudėties), kursinius priešuždegiminius vaistus (pagal indikacijas), priemones akies paviršiaus apsaugai ir palaikymo schemas esant meibomo liaukų disfunkcijai. Svarbu laikytis režimo ir nekeisti preparatų savarankiškai be gydytojo kontrolės.",
+                                        text: "Gydymo tikslas – sugrąžinti akių komfortą, sumažinti uždegimą ir stabilizuoti ašarų plėvelę. Priklausomai nuo SAS tipo, gydytojas oftalmologas gali rekomenduoti skirtingas dirbtinių ašarų formules (įvairaus klampumo ir sudėties), priešuždegiminius vaistus (atsižvelgdamas į indikacijas), priemones akies paviršiaus apsaugai ir gydymo planą esant meibomo liaukų disfunkcijai. Svarbu laikytis režimo ir nekeisti preparatų savarankiškai be gydytojo kontrolės.",
+                                    },
+                                ],
+                            },
+                            {
+                                question: "Kada matyti rezultatas?",
+                                answer: [
+                                    {
+                                        type: "text",
+                                        text: "Dalis pacientų pajunta palengvėjimą jau per pirmąsias dienas, kai parenkamos tinkamos drėkinamosios priemonės. Tvaresnis efektas, ypač esant ryškiam uždegimui ar lėtinei eigai, dažniausiai reikalauja vaistų kurso ir stebėjimo dinamikos. Atsižvelgdamas į pakartotinės apžiūros rezultatus gydytojas oftalmologas koreguoja gydymo schemą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kiek laiko reikia, kad pasimatytų rezultatas?",
+                                    "Kiek kainuoja diagnostika ir gydymas?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Daliai pacientų palengvėjimas juntamas jau per pirmąsias dienas, kai parenkamos tinkamos drėkinamosios priemonės. Tvaresnis efektas, ypač esant ryškiam uždegimui ar lėtinei eigai, dažniausiai reikalauja kurso ir stebėjimo dinamikoje. Pagal pakartotinės apžiūros rezultatus gydytojas koreguoja gydymo schemą.",
+                                        text: "Kaina priklauso nuo ištyrimo apimties ir individualaus terapijos plano (tyrimų tipų, vaistų, kurso trukmės, kontrolinių vizitų). Kainos ir sąlygos tikslinamos registruojantis. Per konsultaciją gydytojas išsamiai paaiškina, kokios procedūros įtrauktos į akių patikros planą, aptaria alternatyvas ir patikslina, kodėl parenkamas būtent toks sprendimas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kiek tai kainuoja: diagnostikos ir gydymo kaina?",
+                                    "Kokios gresia kontraindikacijos ir kokių pasitaiko vaistų terapijos šalutinių poveikių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kaina priklauso nuo ištyrimo apimties ir individualaus terapijos plano (tyrimų tipų, vaistų, kurso trukmės, kontrolinių vizitų). Aktualias kainas ir sąlygas patikslinsime registracijos metu. Konsultacijos metu gydytojas išsamiai paaiškina, kas įeina į planą, kokios yra alternatyvos ir kodėl parenkamas būtent toks sprendimas.",
+                                        text: "Akių lašai ir priešuždegiminiai vaistai gali sukelti įvairių reakcijų (pvz., trumpalaikį perštėjimą įlašinus vaistų, individualų sudedamųjų dalių netoleravimą). Galutinį sprendimą, kokius vaistus paskirti, po apžiūros ir anamnezės įvertinimo priima gydytojas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kontraindikacijos ir galimi vaistų terapijos šalutiniai poveikiai",
+                                    "Ką daryti dabar ir kur kreiptis, jei džiūsta akys?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kaip ir visi vaistai, akių lašai ir priešuždegiminės schemos turi apribojimų ir galimų reakcijų (pvz., trumpalaikis perštėjimas po įlašinimo, individualus sudedamųjų dalių netoleravimas). Galutinį sprendimą dėl paskyrimų priima gydytojas po apžiūros ir anamnezės įvertinimo, kad gydymas būtų saugus ir veiksmingas.",
-                                    },
-                                ],
-                            },
-                            {
-                                question:
-                                    "„Džiovina akis“ – ką padaryti dabar ir kur kreiptis?",
-                                answer: [
-                                    {
-                                        type: "text",
-                                        text: "Jei sausumas sustiprėjo: išsiimkite lęšius, padarykite pertrauką nuo ekranų, venkite dūmų ir vėjo, nenaudokite „agresyvių“ priemonių akims be paskyrimo. Optimalus žingsnis – užsiregistruoti diagnostikai į kliniką „Naujas regėjimas“ (Vilnius, Lietuva): gydytojas nustatys priežastį, paaiškins tyrimo rezultatus ir sudarys aiškų medikamentinio gydymo bei kontrolės planą.",
+                                        text: "Jei akių sausumas sustiprėjo, išsiimkite lęšius, padarykite pertrauką nuo ekranų, venkite dūmų ir vėjo, nenaudokite agresyvių priemonių akims, kurių nepaskyrė gydytojas. Užsiregistruokite akių patikrai klinikoje „Naujas regėjimas“ Vilniuje: oftalmologas nustatys priežastį, paaiškins tyrimo rezultatus ir sudarys aiškų medikamentinio gydymo bei kontrolės planą.",
                                     },
                                 ],
                             },
@@ -2858,8 +2857,8 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: true,
                         title: "Kodėl verta rinktis vaikų kliniką?",
                         text: [
-                            "Privačioje vaikų oftalmologijos klinikoje visas paslaugas rasite vienoje vietoje: nuo diagnostikos ir gydymo iki rezultatų kontrolės. Be to, čia Jūsų lauks patogi aplinka ir moderni įranga. Gydytojai taiko žaidybinius metodus ir pateikia išsamias išvadas mokyklai ir (arba) darželiui.",
-                            "Vaikų klinikoje paaiškiname indikacijas, metodikų privalumus ir galimus ribojimus, teikiame subalansuotas rekomendacijas, atvirai kalbame apie kainas ir pateikiame pacientų atsiliepimus.",
+                            "Privačioje vaikų oftalmologijos klinikoje visas paslaugas rasite vienoje vietoje: nuo diagnostikos ir gydymo iki rezultatų kontrolės.",
+                            "Be to, čia Jūsų lauks patogi aplinka ir moderni įranga. Gydytojai taiko žaidybinius metodus ir pateikia išsamias išvadas mokyklai ir (arba) darželiui.",
                         ],
                         image: "/images/children-hero.jpg",
                         listTitle: "Vaikų diagnostikos etapai klinikoje",
@@ -3125,10 +3124,10 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Why families choose the Children’s Clinic",
+                        title: "Why choose a pediatric clinic?",
                         text: [
-                            "A private children’s ophthalmology clinic in an “all‑in‑one” format: diagnostics, treatment and outcome monitoring. Comfortable rooms, modern equipment, child‑friendly methods and detailed reports for school / kindergarten.",
-                            "At the Children’s Clinic we explain indications, advantages and possible limitations of each approach, provide balanced recommendations, speak openly about prices and share patient reviews.",
+                            "In a private pediatric ophthalmology clinic, you can find all services in one place — from diagnostics and treatment to follow-up and outcome monitoring.",
+                            "In addition, you can expect a comfortable environment and modern equipment. Doctors use play-based methods and provide detailed reports for school and/or kindergarten.",
                         ],
                         image: "/images/children-hero.jpg",
                         listTitle:
@@ -3395,10 +3394,10 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: true,
                         paddingBottom: true,
-                        title: "Почему выбирают Детскую клинику",
+                        title: "Почему стоит выбрать детскую клинику?",
                         text: [
-                            "Частная детская офтальмологическая клиника в формате «всё в одном»: диагностика, лечение и контроль результатов. Комфортный кабинет, современное оборудование, игровые методики и подробные заключения для школы/детсада.",
-                            "В Детской клинике мы объясняем показания, преимущества и возможные ограничения методик, даём взвешенные рекомендации, открыто говорим о ценах и предоставляем отзывы пациентов.",
+                            "В частной детской офтальмологической клинике вы найдете все услуги в одном месте: от диагностики и лечения до контроля результатов.",
+                            "Кроме того, вас ждет комфортная обстановка и современное оборудование. Врачи используют игровые методики и предоставляют подробные заключения для школы и/или детского сада.",
                         ],
                         image: "/images/children-hero.jpg",
                         listTitle: "Этапы детской диагностики в клинике",
