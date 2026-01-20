@@ -2053,7 +2053,7 @@ export const partPayData: PolicyDataType = {
                     {
                         bold: true,
                         subtitle: true,
-                        value: "MEDLIZINGO sutartis – greitai ir patogiai!",
+                        value: "IŠTRINTI, KARTOJASI „MEDLIZINGO“ sutartis – greitai ir patogiai!",
                     },
                 ],
             },
@@ -2063,7 +2063,7 @@ export const partPayData: PolicyDataType = {
                 text: [
                     { bold: true, subtitle: true, value: "1. " },
                     {
-                        value: "Kreipkitės į klinikos darbuotoją – jis užpildys reikalingus duomenis.",
+                        value: "Kreipkitės į klinikos darbuotoją – jis užpildys reikiamus dokumentus.",
                     },
                 ],
             },
@@ -2073,7 +2073,7 @@ export const partPayData: PolicyDataType = {
                 text: [
                     { bold: true, subtitle: true, value: "2. " },
                     {
-                        value: "Su Jumis telefonu susisieks banko „GENERAL FINANCING“ darbuotojas, kuris atliks Jūsų kreditingumo įvertinimą.",
+                        value: "Su Jumis telefonu susisieks banko „General Financing“ darbuotojas ir atliks Jūsų kreditingumo įvertinimą.",
                     },
                 ],
             },
