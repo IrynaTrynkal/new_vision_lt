@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Arimo, Oswald } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -8,9 +8,6 @@ import { getTranslations } from "next-intl/server";
 
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
-import { GoogleAds } from "@/components/shared/GoogleAds";
-import { MetaPixel } from "@/components/shared/MetaPixel";
-import { MetaPixelPageView } from "@/components/shared/MetaPixelPageView";
 import { routing } from "@/i18n/routing";
 
 const oswald = Oswald({
@@ -76,9 +73,9 @@ export default async function RootLayout({
             <head>
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <meta property="og:image" content="<generated>" />
-                <MetaPixel MetaPixelId={MetaPixelId} />
+                {/* <MetaPixel MetaPixelId={MetaPixelId} />
                 <MetaPixelPageView />
-                <GoogleAds GoogleAdsId={GoogleAdsId} />
+                <GoogleAds GoogleAdsId={GoogleAdsId} /> */}
                 <meta name="robots" content="noindex,nofollow" />
             </head>
             <GoogleTagManager gtmId={GATM} />
@@ -91,7 +88,7 @@ export default async function RootLayout({
                         <div className="mx-auto max-w-[1600px]">{children}</div>
                     </main>
                     <Footer locale={locale} />
-                    <GoogleAnalytics gaId={GAid} />
+                    {/* <GoogleAnalytics gaId={GAid} /> */}
                 </body>
             </NextIntlClientProvider>
         </html>
