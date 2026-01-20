@@ -269,7 +269,7 @@ export const servicesData: ServicesProps[] = [
                     type: "hero",
                     data: {
                         title: "Regėjimo diagnostika",
-                        text: "Mūsų klinikoje Vilniuje regėjimo patikrinimas apima išplėstinę akių patikrą: papildomai atliekama kompiuterinė regėjimo diagnostika, lazerinis akių tyrimas ir taikomi tradiciniai regos vertinimo metodai.",
+                        text: "Vilniuje esančioje mūsų klinikoje atliekama išplėstinė regėjimo patikra: papildomai atliekami lazerinis akių tyrimas ir kompiuterinė regėjimo diagnostika, taikomi tradiciniai regos vertinimo metodai.",
                         image: "/images/perevirka-zoru-hero.jpg",
                         imgPositionDesktop: "right -200px top -20px",
                         imgPositionMobile: "right 0px top -20px",
@@ -279,10 +279,10 @@ export const servicesData: ServicesProps[] = [
                     type: "preview",
                     data: {
                         fractionUp: true,
-                        title: "Šiuolaikinis regėjimo ištyrimas pagal ES standartus",
+                        title: "Šiuolaikinis regėjimo ištyrimas remiantis ES standartais",
                         text: [
                             "Šiuolaikinė akių diagnostika mūsų centre atliekama naudojant didelio tikslumo skaitmeninę įrangą, atitinkančią Europos Sąjungos reikalavimus ir klinikinius protokolus. Tokia kompiuterinė regėjimo patikra leidžia gauti objektyvius duomenis apie regos sistemą, atlikti išsamią diagnostinę akių apžiūrą ir parinkti veiksmingiausią gydymą – tiek chirurginį, tiek konservatyvų.",
-                            "Tyrimų rezultatų interpretaciją atlieka aukščiausios kvalifikacijos gydytojas oftalmologas. Konsultacijos metu specialistas aiškiai paaiškina išvadas, galimus apribojimus, galimas nepageidaujamas reakcijas ir skirtingų gydymo variantų privalumus, kad pacientas tiksliai suprastų diagnozę, regos sutrikimų nustatymo metodus ir kokie korekcijos sprendimai jam bus optimaliausi.",
+                            "Tyrimų rezultatus įvertina aukščiausios kvalifikacijos gydytojas oftalmologas. Per konsultaciją specialistas išsamiai aptaria išvadas, galimus apribojimus, nepageidaujamas reakcijas ir skirtingų gydymo būdų privalumus, kad pacientas aiškiai suprastų diagnozę, regos sutrikimų nustatymo metodus ir jam tinkamiausius korekcijos būdus.",
                         ],
                         image: "/images/perevirka-zoru-preview.jpg",
                         textUp: "5 mln.",
@@ -296,28 +296,28 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Išsami regėjimo diagnostika apima",
+                                title: "Išsami regėjimo diagnostika",
                                 image: "/images/perevirka-round.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Išsami regėjimo diagnostika – tai kompleksiniai akių sveikatos tyrimai, kurių metu ne tik įvertiname regėjimo aštrumą, bet ir detaliai įvertiname visų akies struktūrų būklę. Kompiuterinė regėjimo diagnostika apima:",
+                                                text: "Išsami regėjimo diagnostika – tai kompleksiniai akių sveikatos tyrimai, kuriuos atlikus ne tik įvertinamas regėjimo aštrumas, bet ir detaliai ištiriama visų akies struktūrų būklė. Kompiuterinė regėjimo diagnostika apima:",
                                             },
                                             {
                                                 type: "list",
                                                 gap: true,
                                                 list: [
                                                     "Akių parametrų matavimą skaitmeniniais prietaisais. Toks kompiuterinis akių ištyrimas leidžia įvertinti refrakciją, ragenos kreivumą, akies ilgį ir kitus svarbius rodiklius.",
-                                                    "Medicininės dokumentacijos analizę. Gydytojas atidžiai peržiūri ankstesnių apžiūrų ir gydymo duomenis, kad įvertintų regėjimo būklės pokyčius dinamikoje.",
+                                                    "Medicininės dokumentacijos analizę. Gydytojas atidžiai peržiūri ankstesnių apžiūrų ir gydymo duomenis, kad galėtų įvertinti regėjimo būklės pokyčius dinamikoje.",
                                                     "Specializuotus diagnostinius testus kiekvienai akiai atskirai ir kombinuotu režimu. Toks diagnostinis akių tyrimas padeda nustatyti net ir paslėptus sutrikimus.",
-                                                    "Mikroskopinį akies anatominių struktūrų įvertinimą. Naudojamas didelis didinimas kruopščiam ragenos, lęšiuko, rainelės ir kitų struktūrų įvertinimui.",
+                                                    "Mikroskopinį akies anatominių struktūrų įvertinimą. Naudojamas didelis didinimas siekiant kruopščiai įvertinti rageną, lęšiuką, rainelę ir kt.",
                                                 ],
                                             },
                                             {
                                                 type: "text",
-                                                text: "Visas ištyrimo procesas vyksta tausojančiu, pacientui komfortišku režimu, dažniausiai bekontakčiu būdu, todėl tinka tiek suaugusiesiems, tiek vaikams. Remiantis pacientų atsiliepimais, tokia kompiuterinė akių patikra yra vienas geriausių būdų greitai ir neskausmingai patikrinti regėjimą.",
+                                                text: "Visas ištyrimo procesas vyksta tausojančiu, pacientui komfortišku režimu, dažniausiai bekontakčiu būdu, todėl tinka tiek suaugusiesiems, tiek vaikams. Pacientų atsiliepimai rodo, kad tokia kompiuterinė akių patikra yra vienas geriausių būdų greitai ir neskausmingai patikrinti regėjimą.",
                                             },
                                         ],
                                     },
@@ -332,7 +332,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Reguliarus akių patikrinimas – tai ne tik galimybė pasitikrinti akis, bet ir svarbi daugelio ligų profilaktikos dalis. Apžiūros metu gydytojas oftalmologas gali pastebėti tinklainės kraujagyslių pokyčius, kurie atspindi širdies ir kraujagyslių sistemos būklę, nustatyti ankstyvus diabeto, hipertenzijos ir kitų sisteminių patologijų požymius. Todėl periodinė regėjimo patikra svarbi net ir nesant nusiskundimų.",
+                                                text: "Reguliari akių patikra padeda ne tik įvertinti regėjimą, bet ir laiku užkirsti kelią daugeliui akių ligų. Atlikdamas apžiūrą gydytojas oftalmologas gali pastebėti tinklainės kraujagyslių pokyčių, kurie atspindi širdies ir kraujagyslių sistemos būklę, nustatyti ankstyvus diabeto, hipertenzijos ir kitų sisteminių patologijų požymius. Todėl periodiškai pasitikrinti regėjimą svarbu net ir nesant nusiskundimų.",
                                             },
                                             {
                                                 type: "text",
@@ -342,7 +342,7 @@ export const servicesData: ServicesProps[] = [
                                     },
                                     {
                                         greenText:
-                                            "Optimali apsilankymo pas akių ligų gydytojus dažnis – kartą per metus. Ši taisyklė aktuali net tiems, kurie nejaučia regėjimo problemų. Profilaktika visada veiksmingesnė už gydymą – ypač kalbant apie akis.",
+                                            "Pas akių ligų gydytoją optimalu apsilankyti kartą per metus. Ši taisyklė aktuali net tiems asmenims, kurie nepatiria regėjimo problemų. Profilaktika – veiksmingiausias būdas išsaugoti akių sveikatą.",
                                     },
                                 ],
                             },
@@ -356,10 +356,10 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         paddingBottom: true,
                         image: "/images/choice.jpg",
-                        title: "Kompiuterinė regėjimo diagnostika: kam ji reikalinga ir kaip atliekama",
+                        title: "Kompiuterinė regėjimo diagnostika: kodėl ji svarbi ir kaip atliekama",
                         text: [
-                            "Prieš pasirenkant korekcijos metodą – akinius, kontaktinius lęšius ar lazerinį gydymą – svarbu atlikti išsamų kompiuterinį akių ištyrimą.",
-                            "Kompiuterinė regėjimo diagnostika – tai šiuolaikinis, tausojantis ir itin informatyvus regėjimo tikrinimas, leidžiantis tiksliai nustatyti akies parametrus be skausmo ir diskomforto.",
+                            "Prieš pasirenkant regos korekcijos metodą – akinius, kontaktinius lęšius ar lazerinį gydymą, svarbu atlikti išsamų kompiuterinį akių tyrimą.",
+                            "Kompiuterinė regėjimo diagnostika – tai šiuolaikinis, tausojantis ir itin informatyvus regėjimo patikrinimo būdas, leidžiantis tiksliai nustatyti akies parametrus be skausmo ir diskomforto.",
                         ],
                         listTitle:
                             "Kaip atliekama kompiuterinė regėjimo diagnostika",
@@ -368,21 +368,21 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Registracija ir pasiruošimas diagnostikai",
                                 itemText: [
-                                    "Užsiregistruoti regėjimo patikrinimui galima telefonu arba internetu – tai užtrunka vos kelias minutes. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti likus 12 valandų iki tyrimo. Atsineškite akinius, ankstesnes išvadas ir tyrimų rezultatus, kad gydytojas galėtų įvertinti pokyčius dinamikoje. Pageidautina neplanuoti vairavimo, nes po lašų, plečiančių vyzdžius, gali pasireikšti trumpalaikis regėjimo diskomfortas.",
+                                    "Užsiregistruoti regėjimo patikrai galite telefonu arba internetu – užtruksite vos kelias minutes. Jei nešiojate minkštuosius kontaktinius lęšius, rekomenduojama juos išsiimti likus 12 val. iki tyrimo. Atsineškite akinius, ankstesnes gydytojų išvadas ir tyrimų rezultatus, kad gydytojas oftalmologas galėtų įvertinti akių pokyčių dinamiką. Po procedūros patariama nevairuoti, nes vyzdžius plečiantys lašai gali laikinai sutrikdyti regėjimą.",
                                 ],
                             },
                             {
                                 itemTitle: "Kompiuterinė regėjimo diagnostika",
                                 itemText: [
-                                    "Pats ištyrimas atliekamas naujausiais prietaisais ir apima kompleksinę akių patikrą: akispūdžio matavimą, ragenos analizę, refrakcijos įvertinimą ir akių dugno būklės įvertinimą. Visos apžiūros trukmė vidutiniškai siekia 2–2,5 val. Vienas svarbiausių etapų – regėjimo aštrumo patikrinimas pagal lenteles, leidžiantis tiksliai parinkti optiką.",
-                                    "Jei reikia, gydytojas naudoja vyzdžius plečiančius lašus, kad detaliai įvertintų akių dugną ir atmestų paslėptas ligas. Toks kompleksinis regėjimo patikrinimas ir lazerinis akių tyrimas, taikant šiuolaikines vizualizacijos sistemas, užtikrina maksimalų diagnostikos tikslumą.",
+                                    "Procedūra atliekama naujausiais prietaisais ir apima kompleksinę akių patikrą: akispūdžio matavimą, ragenos analizę, refrakcijos ir akių dugno būklės įvertinimą. Apžiūra vidutiniškai trunka 2–2,5 val. Vienas svarbiausių etapų – regos aštrumo patikrinimas naudojant lenteles, leidžiantis tiksliai parinkti optiką.",
+                                    "Jei reikia, gydytojas oftalmologas įlašina vyzdžius plečiančių lašų, kad detaliai įvertintų akių dugną ir atmestų paslėptas ligas. Kompleksinis regėjimo patikrinimas ir lazerinis akių tyrimas, taikant šiuolaikines vizualizacijos sistemas, užtikrina maksimalų diagnostikos tikslumą.",
                                 ],
                             },
                             {
                                 itemTitle: "Išvada pagal tyrimų rezultatus",
                                 itemText: [
-                                    "Po akių patikros pacientas gauna oficialų protokolą su rezultatais: regėjimo parametrais, akispūdžio duomenimis, ragenos ir akių dugno būkle. Konsultacijos metu gydytojas oftalmologas išsamiai paaiškina rezultatus ir pateikia rekomendacijas dėl gydymo, profilaktikos ar pasiruošimo operacijai.",
-                                    "Aptariami kiekvieno metodo privalumai ir trūkumai, kontraindikacijos bei galimos nepageidaujamos reakcijos, kad galėtumėte priimti pagrįstą sprendimą.",
+                                    "Po akių patikros pacientas gauna oficialų tyrimų protokolą, kuriame pateikiami regėjimo parametrai, akispūdžio duomenys, ragenos ir akių dugno būklė. Per konsultaciją gydytojas oftalmologas išsamiai paaiškina rezultatus ir pateikia rekomendacijų dėl gydymo, profilaktikos ar pasiruošimo operacijai.",
+                                    "Aptariami kiekvieno metodo privalumai ir trūkumai, kontraindikacijos bei galimos nepageidaujamos reakcijos, kad pacientas galėtų priimti pagrįstą sprendimą dėl regos korekcijos.",
                                 ],
                             },
                         ],
@@ -400,11 +400,11 @@ export const servicesData: ServicesProps[] = [
                         slider: [
                             {
                                 title: "Viziometrija",
-                                text: "Regėjimo aštrumo patikrinimas į tolį ir iš arti pagal specialias lenteles. Tai bazinis regėjimo tikrinimas, nuo kurio pradedamas bet koks ištyrimas.",
+                                text: "Regėjimo aštrumo patikrinimas į tolį ir iš arti naudojant specialias lenteles. Tai pagrindinis regėjimo tikrinimas.",
                             },
                             {
                                 title: "Tonometria",
-                                text: "Akispūdžio matavimas ankstyvam glaukomos nustatymui.",
+                                text: "Akispūdžio matavimas siekiant nustatyti ankstyvą glaukomą.",
                             },
                             {
                                 title: "Refraktometrija",
@@ -412,11 +412,11 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Biometrija",
-                                text: "Bekontaktis kompiuterinis akių ištyrimas, matuojant akies obuolio ilgį, priekinės kameros gylį ir lęšiuko storį – ypač svarbu prieš operacijas ir parenkant intraokulinį lęšį.",
+                                text: "Bekontaktis kompiuterinis akių ištyrimas matuojant akies obuolio ilgį, priekinės kameros gylį ir lęšiuko storį. Ši procedūra itin svarbi prieš operacijas ir parenkant intraokulinį lęšį.",
                             },
                             {
                                 title: "Pachimetrija",
-                                text: "Ragenos storio nustatymas šviesiniu arba ultragarsiniu metodu; būtina prieš lazerinį akių tyrimą ir refrakcinę chirurgiją.",
+                                text: "Ragenos storio nustatymas šviesiniu arba ultragarso metodu. Procedūra būtina prieš akių tyrimą lazeriu ir refrakcinę operaciją.",
                             },
                             {
                                 title: "Keratotopografija",
@@ -424,7 +424,7 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Kinetinė perimetrija",
-                                text: "Regėjimo lauko tyrimas, reikalingas sergant glaukoma, esant regos nervo pažeidimams ar tinklainės patologijoms.",
+                                text: "Regėjimo lauko tyrimas, taikomas sergant glaukoma, esant regos nervo pažeidimams ar tinklainės patologijoms.",
                             },
                             {
                                 title: "Biomikroskopija",
@@ -436,7 +436,7 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Dioptrimetrija",
-                                text: "Jau naudojamų akinių parametrų nustatymas, siekiant patikrinti, ar jie parinkti teisingai.",
+                                text: "Jau naudojamų akinių parametrų nustatymas, siekiant patikrinti, ar jie parinkti tinkamai.",
                             },
                         ],
                     },
@@ -444,8 +444,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "advantages",
                     data: {
-                        title: "Kompiuterinio akių ištyrimo privalumai",
-                        text: "Mūsų oftalmologijos klinikoje Vilniuje regėjimo diagnostika atliekama taikant pažangias technologijas ir ES standartus atitinkančią, sertifikuotą įrangą.",
+                        title: "Kompiuterinės regėjimo diagnostikos privalumai",
+                        text: "Mūsų oftalmologijos klinikoje Vilniuje regėjimo diagnostika atliekama taikant pažangias technologijas ir ES standartus atitinkančią sertifikuotą įrangą.",
                         list: [
                             {
                                 title: "Tikslus diagnozės nustatymas",
@@ -453,12 +453,12 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 title: "Kompleksinis požiūris",
-                                text: "Kompiuterinė regėjimo patikra apjungia klasikinius testus ir, prireikus, lazerinį akių tyrimą.",
+                                text: "Kompiuterinė regėjimo patikra apima klasikinius testus ir, prireikus, akių tyrimą lazeriu.",
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
                                 title: "Individualus gydymo planas",
-                                text: "Remiantis išsamios akių diagnostikos rezultatais, gydytojas parenka optimalų gydymo planą – nuo konservatyvių metodų iki lazerinės korekcijos ar chirurginio gydymo.",
+                                text: "Remdamasis išsamios akių diagnostikos rezultatais, gydytojas parenka optimalų gydymo planą – nuo konservatyvių metodų iki lazerinės korekcijos ar chirurginio gydymo.",
                             },
                         ],
                     },
@@ -478,17 +478,17 @@ export const servicesData: ServicesProps[] = [
                         content: [
                             {
                                 question:
-                                    "Kaip suprasti, kad man reikalingas regėjimo patikrinimas?",
+                                    "Kaip suprasti, kad man reikia pasitikrinti regėjimą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Reguliarus akių patikrinimas rekomenduojamas net ir nesant nusiskundimų. Jei jaučiate akių nuovargį, neryškų matymą, „rūką“, ašarojimą, galvos skausmus ar daug dirbate kompiuteriu, verta užsiregistruoti kompleksinei akių patikrai. Mūsų klinikoje regėjimo patikrinimas apima regėjimo aštrumo įvertinimą, kompiuterinę diagnostiką ir akių dugno apžiūrą, kad pokyčiai būtų nustatyti laiku ir parinktas tinkamas gydymas.",
+                                        text: "Reguliari akių patikra rekomenduojama net ir nepatiriant nusiskundimų. Jei pastebite akių nuovargį, neryškų matymą, „rūką“, ašarojimą, patiriate galvos skausmą ar daug dirbate kompiuteriu, verta užsiregistruoti kompleksinei akių patikrai. Mūsų klinikoje regėjimo patikrinimas apima regėjimo aštrumo įvertinimą, kompiuterinę diagnostiką ir akių dugno apžiūrą, kad pokyčiai būtų nustatyti laiku ir parinktas tinkamas gydymas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kas įeina į kompleksinę regėjimo patikrą ir išsamią akių diagnostiką?",
+                                    "Kokios paslaugos įtrauktos į kompleksinę regėjimo patikrą ir išsamią akių diagnostikos procedūrą?",
                                 answer: [
                                     {
                                         type: "text",
@@ -498,21 +498,21 @@ export const servicesData: ServicesProps[] = [
                             },
                             {
                                 question:
-                                    "Kuo skiriasi kompiuterinė regėjimo patikra nuo įprasto patikrinimo pagal lentelę?",
+                                    "Kuo skiriasi kompiuterinė regėjimo patikra nuo įprasto patikrinimo naudojant lentelę?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Patikrinimas pagal lentelę parodo, kaip gerai matote į tolį ar iš arti. Kompiuterinė regėjimo patikra ir akių diagnostika pateikia tikslius skaitmeninius duomenis apie refrakciją, ragenos kreivumą ir kitus parametrus. Tai padeda tiksliau parinkti akinius ar lęšius ir įvertinti, ar reikalinga lazerinė diagnostika arba chirurginis gydymas.",
+                                        text: "Patikrinimas naudojant lentelę parodo, kaip gerai matote į tolį ar iš arti. Kompiuterinė regėjimo patikra ir akių diagnostika pateikia tikslius skaitmeninius duomenis apie refrakciją, ragenos kreivumą ir kitus parametrus. Tai padeda tiksliau parinkti akinius ar lęšius ir įvertinti, ar reikia skirti lazerinę diagnostiką arba chirurginį gydymą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar akių patikra yra skausminga? Ar būna šalutinių poveikių?",
+                                    "Ar akių patikra skausminga procedūra? Ar būna šalutinių poveikių?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kompleksinė akių patikra ir kompiuterinė regėjimo diagnostika atliekamos neskausmingai ir dažniausiai bekontakčiu būdu. Kartais naudojami vyzdžius plečiantys lašai – trumpam gali suprastėti matymas iš arti, tačiau tai normali reakcija. Rimti nepageidaujami poveikiai pasitaiko itin retai; kontraindikacijas konsultacijos metu įvertina gydytojas. Regėjimo patikrinimas mūsų klinikoje atitinka europinius saugumo standartus.",
+                                        text: "Kompleksinė akių patikra ir kompiuterinė regėjimo diagnostika atliekamos neskausmingai ir dažniausiai bekontakčiu būdu. Kartais naudojami vyzdžius plečiantys lašai – trumpam gali suprastėti matymas iš arti, tačiau tai normali reakcija. Rimtų nepageidaujamų poveikių pasitaiko itin retai; kontraindikacijas per konsultaciją įvertina gydytojas. Regėjimo patikrinimas mūsų klinikoje atitinka europinius saugumo standartus.",
                                     },
                                 ],
                             },
@@ -522,27 +522,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Regėjimo tikrinimo kaina priklauso nuo apžiūros apimties: bazinė patikra, kompleksinis akių ištyrimas ar išplėstinė kompiuterinė diagnostika. Kainodara yra skaidri – detalią informaciją galite sužinoti registratūroje arba registruojantis internetu. Periodiškai gali būti taikomos akcijos, o kai kurios atrankinės patikros ar konsultacijos – teikiamos pagal specialius pasiūlymus.",
+                                        text: "Regėjimo patikros kaina priklauso nuo apžiūros apimties: ar taikomi kompleksinis akių ištyrimas, pagrindinė patikra ir išplėstinė kompiuterinė diagnostika. Kainodara yra skaidri – detalią informaciją galite sužinoti registratūroje arba registruodamiesi internetu. Periodiškai klinikoje gali būti taikomos akcijos, o kai kurios atrankinės patikros ar konsultacijos teikiamos atsižvelgiant į specialius pasiūlymus.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar po akių diagnostikos galima iš karto pradėti gydymą?",
+                                    "Ar po akių patikros galima iš karto pradėti gydymą?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip. Baigus akių diagnostiką ir įvertinus rezultatus, gausite rekomendacijas ir gydymo planą. Prireikus bus pasiūlytas konservatyvus gydymas, korekcija akiniais ar lęšiais, lazerinė diagnostika prieš operaciją arba chirurginis gydymas. Konsultacijos metu gydytojas paaiškins kiekvieno metodo privalumus ir galimus trūkumus, kad sprendimą priimtumėte sąmoningai.",
+                                        text: "Taip. Atlikę akių diagnostiką ir gydytojui oftalmologui įvertinus rezultatus, gausite rekomendacijas ir gydymo planą. Prireikus bus pasiūlytas konservatyvus gydymas, korekcija akiniais ar lęšiais, lazerinė diagnostika prieš operaciją arba chirurginis gydymas. Per konsultaciją gydytojas paaiškins kiekvieno metodo privalumus ir galimus trūkumus, kad sprendimą priimtumėte sąmoningai.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kur geriau tikrintis regėjimą: optikoje ar oftalmologijos klinikoje?",
+                                    "Kur geriau tikrintis regėjimą: optikos salone ar oftalmologijos klinikoje?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Jei reikia tik atnaujinti akinių stiprumą, bazinį regėjimo aštrumo patikrinimą galima atlikti optikoje. Tačiau išsamesnei akių diagnostikai, kompiuteriniam akių ištyrimui, akių dugno apžiūrai ir gydymo parinkimui saugiau kreiptis į specializuotą kliniką. Mūsų centre yra visa reikalinga įranga kompleksinei diagnostikai, o pacientų atsiliepimai patvirtina paslaugų kokybę.",
+                                        text: "Jei reikia tik atnaujinti akinių stiprumą, regėjimo aštrumo patikrinimą galima atlikti optikos salone. Tačiau dėl išsamesnės akių diagnostikos, kompiuterinio akių ištyrimo, akių dugno apžiūros ir gydymo parinkimo saugiau kreiptis į specializuotą kliniką. Mūsų centre yra visa reikiama įranga kompleksinei patikrai atlikti, o pacientų atsiliepimai patvirtina paslaugų kokybę.",
                                     },
                                 ],
                             },
@@ -552,7 +552,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kompiuterinė regėjimo diagnostika tinka daugumai pacientų: suaugusiesiems, paaugliams, asmenims po operacijų. Gydytojas įvertina gretutines ligas, nėštumą, vartojamus vaistus ir galimas kontraindikacijas lazerinei diagnostikai ar chirurgijai. Jei yra apribojimų, specialistas pasiūlys alternatyvius regos patikros metodus ir saugų gydymą. Todėl svarbu ne tik atlikti regėjimo patikrinimą, bet ir gauti profesionalią akių ligų gydytojo konsultaciją, įskaitant situacijas, kai įtariama trumparegystė vaikui.",
+                                        text: "Kompiuterinė regėjimo diagnostika tinka daugumai pacientų: suaugusiesiems, paaugliams, asmenims po operacijų. Gydytojas oftalmologas įvertina gretutines ligas, nėštumą, vartojamus vaistus ir galimas kontraindikacijas siekiant atlikti lazerinę diagnostiką ar operaciją. Jei yra apribojimų, specialistas pasiūlo alternatyvius regos patikros metodus ir saugų gydymą. Todėl svarbu ne tik atlikti regėjimo patikrą, bet ir gauti profesionalią akių ligų gydytojo konsultaciją. Tai padaryti būtina ir tada, kai trumparegystė įtariama vaikui.",
                                     },
                                 ],
                             },
@@ -3595,8 +3595,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Lazerinė \nregos korekcija",
-                        text: "Šis metodas padeda žmonėms, turintiems regėjimo sutrikimų, sugrįžti prie įprasto aktyvaus gyvenimo ir nebepriklausyti nuo nuolatinio akinių ar kontaktinių lęšių nešiojimo.",
+                        title: "Regos korekcija \nlazeriu",
+                        text: "Šis metodas padeda žmonėms, turintiems regėjimo sutrikimų, sugrįžti prie įprasto aktyvaus gyvenimo ir atsisakyti akinių ar kontaktinių lęšių.",
                         adress: true,
                         videoSmallScreens: "/videos/lazer-hero-tab.mp4",
                         videoBigScreens: "/videos/lazer-desk-hero.mp4",
@@ -3614,21 +3614,21 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "preview",
                     data: {
-                        title: "Lazerinė regos korekcija privačioje klinikoje Vilniuje",
+                        title: "Regos korekcija lazeriu privačioje klinikoje Vilniuje",
                         text: [
-                            "Lazerinė regos korekcija – tai šiuolaikinis regėjimo korekcijos lazeriu metodas, leidžiantis reikšmingai sumažinti akinių ir kontaktinių lęšių poreikį. Jei ieškote, kaip atkurti regėjimą, pagerinti jo aštrumą ar gyventi be akinių, po išsamios akių diagnostikos oftalmologas gali pasiūlyti regėjimo korekciją lazeriu kaip vieną iš galimų sprendimų. Konsultacijos metu įvertiname regėjimo sutrikimo tipą ir nustatome, ar lazerinis akių gydymas šiuo metu yra optimalus sprendimas.",
-                            "Mūsų klinika Vilniuje – privati akių ligų klinika ir regos centras, kuriame atliekama kompleksinė akių patikra ir teikiama detali gydytojo oftalmologo konsultacija. Mes aiškiai ir skaidriai paaiškiname realius lazerinės regos korekcijos privalumus, galimas rizikas ir apribojimus, paaiškiname, kaip vyksta atsigavimas po lazerinės regos korekcijos ir kokių taisyklių būtina laikytis po procedūros. Jūs gaunate aiškų gydymo planą ir suprantamus atsakymus į visus rūpimus klausimus.",
+                            "Regos korekcija lazeriu – tai šiuolaikinis regėjimo korekcijos lazeriu metodas, leidžiantis reikšmingai sumažinti akinių ir kontaktinių lęšių poreikį. Jei ieškote būdų, kaip atkurti regėjimą, pagerinti jo aštrumą ar gyventi be akinių, kreipkitės į mūsų kliniką. Gydytojas oftalmologas, atlikęs išsamią akių diagnostiką, gali pasiūlyti koreguoti regėjimą lazeriu. Konsultacijos metu įvertiname regėjimo sutrikimo tipą ir nustatome, ar gydyti akis lazeriu šiuo metu galima.",
+                            "Mūsų Vilniuje įsikūrusioje privačioje akių ligų klinikoje ir regos centre atliekama kompleksinė akių patikra ir teikiamos išsamios gydytojų oftalmologų konsultacijos. Jie aiškiai ir skaidriai paaiškina regos korekcijos lazeriu privalumus, galimas rizikas ir apribojimus, atskleidžia, kaip vyksta atsigavimas po procedūros ir kokių taisyklių būtina laikytis. Jūs gaunate aiškų gydymo planą ir suprantamus atsakymus į visus rūpimus klausimus.",
                         ],
                         image: "/images/lazer-preview.jpg",
-                        textUp: "1 mln",
-                        textDown: "atlikta \nlazerinių korekcijų",
+                        textUp: "1 mln.",
+                        textDown: "atliktų \nkorekcijų lazeriu",
                     },
                 },
                 {
                     type: "methodsSection",
                     data: {
-                        title: "Unikali „šaltos“ lazerinės regos korekcijos technologija – tik mūsų klinikoje",
-                        text: "Tik mūsų lazerinė akių klinika Vilniuje taiko modernų „šaltos“ lazerinės regos korekcijos metodą, kuris užtikrina maksimaliai švelnų poveikį akies audiniams ir padidina procedūros saugumą. Toks akių gydymas lazeriu padeda pasiekti stabilų ir prognozuojamą rezultatą, išsaugant aukštus saugumo standartus.",
+                        title: "Unikali „šaltos“ regos korekcijos lazeriu technologija – tik mūsų klinikoje",
+                        text: "Tik mūsų akių klinika Vilniuje taiko modernų „šaltos“ regos korekcijos lazeriu metodą, kuris užtikrina maksimaliai švelnų poveikį akies audiniams ir padidina procedūros saugumą. Toks akių gydymas lazeriu padeda pasiekti stabilų ir prognozuojamą rezultatą, išsaugant aukštus saugumo standartus.",
                         greenText:
                             "Tiems, kurie renkasi geriausią ir nėra pasirengę kompromisams",
                         list: [
@@ -3642,7 +3642,7 @@ export const servicesData: ServicesProps[] = [
                                 image: "/images/lasek.png",
                                 link: "lazerine-akiu-korekcija/sportlife-lasik",
                                 title: "SportLine LASEK",
-                                text: "Skirta aktyvų gyvenimo būdą gyvenantiems žmonėms ir profesionaliems sportininkams. Sprendimas yra.",
+                                text: "Skirta aktyvų gyvenimo būdą puoselėjantiems žmonėms ir profesionaliems sportininkams.",
                             },
                         ],
                     },
@@ -3653,18 +3653,18 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: false,
                         data: [
                             {
-                                title: "Kam tinka lazerinė regos korekcija",
+                                title: "Kam tinka regos korekcija lazeriu?",
                                 image: "/images/lazer1.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Lazerinė regos korekcija paprastai svarstoma tais atvejais, kai žmogus nori ne tik „šiek tiek geriau matyti“, bet ir iš esmės pagerinti gyvenimo kokybę: patogiai dirbti kompiuteriu be nuolatinės akių įtampos, užsiimti sportu, laisvai keliauti be atsarginių lęšių ir kelių akinių porų.",
+                                                text: "Apie regos korekciją lazeriu paprastai svarstoma tais atvejais, kai žmogus nori ne tik „šiek tiek geriau matyti“, bet ir iš esmės pagerinti gyvenimo kokybę: patogiai dirbti kompiuteriu nepatirdamas nuolatinės akių įtampos, užsiimti sportu, laisvai keliauti nesirūpindamas  atsarginiais kontaktiniais lęšiais ir keliomis akinių poromis.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Ši procedūra gali būti tinkama pacientams, turintiems:",
+                                                text: "Ši procedūra gali tikti pacientams, turintiems:",
                                             },
                                             {
                                                 type: "list",
@@ -3677,18 +3677,18 @@ export const servicesData: ServicesProps[] = [
                                             },
                                             {
                                                 type: "text",
-                                                text: "Konsultacijos metu oftalmologas atsako į pagrindinius klausimus: kaip pagerinti regėjimą, ar jūsų atveju įmanomas dalinis regėjimo pagerėjimas be operacijos ir ar tikrai būtina chirurginė akių regėjimo korekcija lazeriu. Kai kuriems pacientams rekomenduojame dinaminį stebėjimą, gretutinių akių ligų gydymą, regos krūvio režimo korekciją ar kitus metodus – detaliai paaiškindami, kodėl lazerinės regos korekcijos šiuo metu atlikti dar anksti arba ji nėra tikslinga.",
+                                                text: "Konsultacijos metu gydytojas oftalmologas atsako į pagrindinius klausimus: kaip pagerinti regėjimą, ar, atsižvelgiant į Jūsų būklę, įmanomas dalinis regėjimo pagerėjimas be operacijos ir ar tikrai būtina chirurginė akių regėjimo korekcija lazeriu. Kai kuriems pacientams rekomenduojame dinaminį stebėjimą, gretutinių akių ligų gydymą, regos krūvio režimo korekciją ar kitus metodus, detaliai paaiškindami, kodėl atlikti regos korekciją lazeriu šiuo metu dar anksti arba ji nėra tikslinga.",
                                             },
                                             {
                                                 type: "text",
-                                                text: "Todėl sprendimas dėl lazerinės regos korekcijos priimamas ne remiantis reklama, o pagal realią akių būklę, pacientų atsiliepimus ir rekomendacijas, medicinines indikacijas, jūsų lūkesčius ir gyvenimo būdą.",
+                                                text: "Todėl sprendimas dėl regos korekcijos lazeriu priimamas ne remiantis reklama, o atsižvelgiant į realią akių būklę, pacientų atsiliepimus ir rekomendacijas, medicinines indikacijas, Jūsų lūkesčius bei gyvenimo būdą.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Kiek kainuoja lazerinė regos korekcija",
+                                title: "Kiek kainuoja regos korekcija lazeriu?",
                                 image: "/images/lazer2.jpg",
                                 text: [
                                     {
@@ -3696,21 +3696,21 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Vienas dažniausių pacientų klausimų – kiek kainuoja lazerinė regos korekcija Vilniuje, kaip formuojama lazerinės regėjimo korekcijos kaina ir kiek konkrečiai atsieis lazerinė akių korekcija mūsų klinikoje. Galutinė kaina priklauso nuo pasirinktos technologijos, klinikinės situacijos sudėtingumo, ragenos būklės ir tolesnio stebėjimo apimties.",
+                                                text: "Vienas dažniausių pacientų klausimų – kaip formuojama šios procedūros kaina ir kiek ji atsieis mūsų klinikoje Vilniuje. Galutinė kaina priklauso nuo pasirinktos technologijos, klinikinės situacijos sudėtingumo, ragenos būklės ir tolesnio stebėjimo apimties.",
                                             },
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Diagnostikos ir konsultacijos metu jūs gaunate aiškų paaiškinimą, kas tiksliai įskaičiuota į regėjimo korekcijos lazeriu kainą ir regos atkūrimo lazeriu sąnaudas: išsami akių diagnostika, pati procedūra, kontroliniai apsilankymai ir pooperacinė priežiūra.",
+                                                text: "Diagnostikos ir konsultacijos metu gydytojas oftalmologas pateikia išsamų paaiškinimą, kas tiksliai įskaičiuota į regėjimo korekcijos lazeriu kainą ir regos atkūrimo lazeriu sąnaudas: aptariama išsami akių patikra, pati procedūra, kontroliniai apsilankymai ir pooperacinė priežiūra.",
                                             },
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "Tiksliausią atsakymą į klausimą „kiek kainuos regėjimo atkūrimas lazeriu būtent mano atveju?“ suteikia gydytojas po tiesioginio akių ištyrimo: įvertinama akių būklė, paaiškinama galima nauda, galimos rizikos ir apribojimai, taip pat pateikiama sąžininga rekomendacija, ar verta lazerinę regos korekciją atlikti dabar ir koks gydymo variantas jums būtų tinkamiausias.",
+                                                text: "Tiksliausią atsakymą į klausimą „kiek man kainuos regėjimo atkūrimas lazeriu?“ suteikia gydytojas, atlikęs tiesioginį akių ištyrimą: jis įvertina akių būklę, paaiškina galimą naudą, rizikas ir apribojimus, taip pat pateikia sąžiningą rekomendaciją, ar verta regos korekciją lazeriu atlikti dabar ir koks gydymo variantas Jums tinkamiausias.",
                                             },
                                         ],
                                         greenText:
-                                            "Papildomai informuojame apie galiojančias akcijas, nuolaidas ir specialius pasiūlymus, kad galėtumėte pasirinkti optimalų gydymo variantą pagal kainą ir sąlygas Lietuvoje.",
+                                            "Papildomai informuojame apie galiojančias akcijas, nuolaidas ir specialius pasiūlymus, kad galėtumėte pasirinkti optimalų gydymo variantą atsižvelgdami į kainą ir sąlygas Lietuvoje.",
                                     },
                                 ],
                             },
@@ -3722,19 +3722,19 @@ export const servicesData: ServicesProps[] = [
                     data: {
                         paddingTop: false,
                         paddingBottom: false,
-                        listTitle: "Kaip vyksta lazerinė regos korekcija?",
+                        listTitle: "Kaip vyksta regos korekcija lazeriu?",
                         list: [
                             {
                                 itemTitle: "Regos diagnostika",
                                 itemText: [
-                                    "Bet kuri lazerinė regos korekcija prasideda nuo išsamios instrumentinės diagnostikos ir oftalmologo konsultacijos. Pirmiausia atliekamas kompleksinis akių patikrinimas: įvertinama regėjimo aštrumas, atliekama ragenos topografija, matuojamas jos storis ir kreivumas, gydytojas apžiūri akių dugną ir bendrai įvertina akių būklę.",
-                                    "Remdamasis gautais duomenimis specialistas paaiškina, kaip jūsų atveju galima pagerinti regėjimą, ar jums tinka akių regėjimo korekcija lazeriu, kokie yra jos privalumai, galimi trūkumai ir kontraindikacijos, taip pat pateikia preliminarias rekomendacijas, kaip pasirengti procedūrai.",
+                                    "Pirmiausia atliekama išsami instrumentinė regos patikra: įvertinamas regėjimo aštrumas, atliekama ragenos topografija, matuojamas jos storis ir kreivumas, gydytojas apžiūri akių dugną ir įvertina akių būklę.",
+                                    "Remdamasis gautais duomenimis specialistas paaiškina, kaip galima pagerinti regėjimą, ar Jums tinka regėjimo korekcija lazeriu, kokie procedūros privalumai, galimi trūkumai ir kontraindikacijos, taip pat pateikia preliminarias rekomendacijas, kaip pasirengti procedūrai.",
                                 ],
                             },
                             {
-                                itemTitle: "Lazerinė regos korekcija",
+                                itemTitle: "Regos korekcija Lazeriu",
                                 itemText: [
-                                    "Šiame etape atliekama pati lazerinė regos korekcija. Prieš pradžią į akis sulašinami vietinio poveikio nuskausminantys lašai, kad procedūra būtų komfortiška ir neskausminga. Tuomet chirurgas pagal individualiai apskaičiuotus parametrus lazeriu koreguoja ragenos formą, kad šviesos spinduliai tinkamai fokusuotųsi tinklainėje. Lazerio darbas trunka vos kelias minutes, o dauguma pacientų jaučia tik lengvą spaudimą ar neįprastą pojūtį, bet ne ryškų skausmą.",
+                                    "Šiame etape atliekama regos korekcija lazeriu. Pirmiausia į akis sulašinama vietinio poveikio lašų nuo skausmo, kad procedūra būtų komfortiška ir neskausminga. Tuomet chirurgas pagal individualiai apskaičiuotus parametrus lazeriu koreguoja ragenos formą, kad šviesos spinduliai tinkamai fokusuotųsi tinklainėje. Lazerio darbas trunka vos kelias minutes, o dauguma pacientų jaučia tik lengvą spaudimą ar neįprastą pojūtį, bet ne ryškų skausmą.",
                                     "Iškart po procedūros atliekamas trumpas patikrinimas, gydytojas įvertina akių būklę ir paaiškina, kaip elgtis pirmosiomis valandomis po intervencijos.",
                                 ],
                             },
@@ -3742,8 +3742,8 @@ export const servicesData: ServicesProps[] = [
                                 itemTitle:
                                     "Kontrolinis patikrinimas ir atsigavimas",
                                 itemText: [
-                                    "Toliau seka atsigavimo po lazerinės regos korekcijos laikotarpis ir rekomendacijų laikymasis. Pacientui pateikiamos išsamios rašytinės instrukcijos: kaip taisyklingai lašinti akių lašus, kiek laiko skirti poilsiui, kokie apribojimai galioja po lazerinės korekcijos artimiausiomis dienomis ir savaitėmis.",
-                                    "Gydytojas paaiškina, kada galima sugrįžti prie darbo kompiuteriu, aktyvių treniruočių, baseino ar pirties, taip pat paaiškina, kokie pojūčiai yra normalūs gijimo laikotarpiu ir kokiais atvejais būtina skubi pagalba bei nedelsiant kreiptis į kliniką. Reguliarūs kontroliniai vizitai leidžia stebėti gijimo eigą, įtvirtinti rezultatą ir ilgalaikiai pagerinti regėjimo kokybę.",
+                                    "Po procedūros laukia atsigavimo laikotarpis ir rekomendacijų laikymasis. Pacientui pateikiamos išsamios rašytinės instrukcijos: kaip taisyklingai lašinti akių lašus, kiek laiko skirti poilsiui, kokie apribojimai galioja po korekcijos lazeriu artimiausiomis dienomis ir savaitėmis.",
+                                    "Gydytojas paaiškina, kada galima sugrįžti prie darbo kompiuteriu, aktyvių treniruočių, maudytis baseine ar kaitintis pirtyje, taip pat papasakoja, kokie pojūčiai yra normalūs gijimo laikotarpiu ir kokiais atvejais būtina nedelsiant kreiptis į kliniką. Reguliarūs kontroliniai vizitai leidžia stebėti gijimo eigą, įtvirtinti rezultatą ir pagerinti regėjimo kokybę.",
                                 ],
                             },
                         ],
@@ -3761,21 +3761,21 @@ export const servicesData: ServicesProps[] = [
                     type: "advantages",
                     data: {
                         paddingBottom: false,
-                        title: "Lazerinės regos korekcijos privalumai mūsų klinikoje Vilniuje",
+                        title: "Regos korekcijos lazeriu privalumai mūsų klinikoje Vilniuje",
                         text: "Galite būti tikri dėl teikiamų paslaugų kokybės, nes patikite savo regėjimą moderniai oftalmologijos ir akių ligų klinikai Lietuvoje",
                         list: [
                             {
                                 title: "Patyrę chirurgai ir komanda",
-                                text: "Operacijas atlieka oftalmologai–chirurgai, kurie specializuojasi lazerinėje regos korekcijoje ir ragenos ligų chirurginiame gydyme. Nuolatinis dalyvavimas tarptautiniuose kongresuose, seminaruose ir mokymuose užtikrina šiuolaikinių metodikų taikymą ir aukštą saugumo lygį.",
+                                text: "Operacijas atlieka gydytojai oftalmologai-chirurgai, kurie specializuojasi regos korekcijos lazeriu ir ragenos ligų chirurginio gydymo srityse. Nuolatinis dalyvavimas tarptautiniuose kongresuose, seminaruose ir mokymuose užtikrina šiuolaikinių metodikų taikymą ir aukštą saugumo lygį.",
                             },
                             {
                                 title: "Pacientų atsiliepimai ir rekomendacijos",
-                                text: "Realūs pacientų atsiliepimai, istorijos, komentarai, taip pat vaizdo ir teksto rekomendacijos padeda pamatyti ne tik medicininį rezultatą, bet ir tai, kaip pasikeičia žmonių gyvenimas po to, kai jie pasirenka lazerinę regos korekciją Vilniuje.",
+                                text: "Pacientų atsiliepimai, istorijos, komentarai, taip pat vaizdo ir teksto rekomendacijos padeda pamatyti ne tik medicininį rezultatą, bet ir tai, kaip pasikeičia žmonių gyvenimas po to, kai jie pasirenka regos korekciją lazeriu mūsų klinikoje.",
                             },
                             { imageOnly: "/images/safety3.jpg" },
                             {
-                                title: "Pilnas gydymo ciklas: nuo diagnostikos iki atsigavimo",
-                                text: "Mūsų pacientai visas paslaugas gauna vienoje vietoje: kompleksinį akių patikrinimą, oftalmologo konsultaciją, lazerinę operaciją, detalų atsigavimo po lazerinės regos korekcijos planą ir ilgalaikį stebėjimą. Jums nereikia atskirai ieškoti, kur atlikti diagnostiką ir kur kreiptis dėl rekomendacijų – visa reikalinga pagalba teikiama mūsų regos klinikoje.",
+                                title: "Gydymo ciklas: nuo diagnostikos iki atsigavimo",
+                                text: "Pacientai klinikoje gauna šias paslaugas: kompleksinį akių patikrinimą, gydytojo oftalmologo konsultaciją, operaciją lazeriu, detalų atsigavimo po regos korekcijos lazeriu planą ir ilgalaikį stebėjimą. Jiems nereikia atskirai ieškoti, kur atlikti diagnostiką ir į ką kreiptis dėl rekomendacijų – visa reikiama pagalba teikiama mūsų regos klinikoje.",
                             },
                         ],
                     },
@@ -3784,13 +3784,13 @@ export const servicesData: ServicesProps[] = [
                     type: "greenCard",
                     data: {
                         title: "Procedūra praktiškai neskausminga ir trunka ne ilgiau kaip 7 minutes",
-                        text: "Naudojame aukštos raiškos lazerinę įrangą ir pažangias diagnostikos sistemas, leidžiančias maksimaliai individualizuoti lazerinę regos korekciją, sumažinti rizikas ir užtikrinti prognozuojamą rezultatą.",
+                        text: "Naudojame aukštos raiškos lazerinę įrangą ir pažangias diagnostikos sistemas, leidžiančias maksimaliai individualizuoti regos korekciją lazeriu, sumažinti rizikas ir užtikrinti prognozuojamą rezultatą.",
                     },
                 },
                 {
                     type: "priceSection",
                     data: {
-                        title: "Ціна лазерної корекції зору у Києві",
+                        title: "Lazerinės akių korekcijos kaina Vilniuje",
                     },
                 },
                 { type: "global" },
@@ -3798,25 +3798,25 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Dažniausiai užduodami klausimai apie lazerinę regos korekciją",
+                        title: "Dažniausiai užduodami klausimai apie regos korekciją lazeriu",
                         content: [
                             {
                                 question:
-                                    "Kas yra lazerinė regos korekcija ir kuo ji skiriasi nuo „įprasto gydymo“?",
+                                    "Kas yra regos korekcija lazeriu ir kuo ji skiriasi nuo įprasto gydymo?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Lazerinė regos korekcija – tai regos atkūrimo lazeriu metodas, kurio metu pakeičiama ragenos forma taip, kad šviesa tinkamai fokusuotųsi tinklainėje. Tai nėra lašų kursas ar akių mankšta, o chirurginė technologija tiems, kurie nori reikšmingai sumažinti priklausomybę nuo akinių ir kontaktinių lęšių ir siekia stabilesnės regėjimo kokybės.",
+                                        text: "Regos korekcija lazeriu – tai regos atkūrimo lazeriu metodas, kurio metu ragenos forma pakeičiama taip, kad šviesa tinkamai fokusuotųsi tinklainėje. Tai nėra lašinamų vaistų kursas ar akių mankšta, o chirurginė technologija tiems, kurie nori reikšmingai sumažinti priklausomybę nuo akinių bei kontaktinių lęšių ir siekia stabilesnės regėjimo kokybės.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kiek kainuoja lazerinė regos korekcija?",
+                                    "Kiek kainuoja regos korekcija lazeriu?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Lazerinės regos korekcijos kaina, kaip ir regos atkūrimo lazeriu sąnaudos, priklauso nuo taikomo metodo, klinikinio atvejo sudėtingumo ir tolesnio stebėjimo apimties. Konkrečią gydymo kainą mūsų klinikoje Vilniuje sužinosite po pilnos diagnostikos ir išsamios oftalmologo konsultacijos. Administratorius papildomai informuos apie galiojančias akcijas, nuolaidas ir galimus sutaupymo būdus.",
+                                        text: "Regos korekcijos lazeriu kaina, kaip ir regos atkūrimo lazeriu sąnaudos, priklauso nuo taikomo metodo, klinikinio atvejo sudėtingumo ir tolesnio stebėjimo apimties. Konkrečią gydymo kainą mūsų klinikoje Vilniuje sužinosite atlikę akių patikrą ir pasikonsultavę su gydytoju oftalmologu. Klinikos administratorius papildomai informuos apie galiojančias akcijas, nuolaidas ir galimus būdus sutaupyti.",
                                     },
                                 ],
                             },
@@ -3826,27 +3826,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kai kuriais atvejais regėjimą iš dalies pagerinti be operacijos tikrai įmanoma – parinkus tinkamus akinius ar kontaktinius lęšius, gydant gretutines akių ligas ir koreguojant regos krūvio įpročius. Tačiau jei siekiate kuo labiau sumažinti priklausomybę nuo optikos ir gauti stabilesnį rezultatą, gydytojas gali rekomenduoti lazerinę regos korekciją kaip efektyviausią regos atkūrimo metodą.",
+                                        text: "Kai kuriais atvejais regėjimą iš dalies pagerinti be operacijos tikrai įmanoma parinkus tinkamus akinius ar kontaktinius lęšius, gydant gretutines akių ligas ir koreguojant regos krūvio įpročius. Tačiau jei siekiate kuo labiau sumažinti priklausomybę nuo optinių prietaisų regėjimui gerinti ir gauti stabilesnį rezultatą, gydytojas gali rekomenduoti regos korekciją lazeriu kaip efektyviausią regos atkūrimo metodą.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kokios yra lazerinės regos korekcijos kontraindikacijos?",
+                                    "Kokios yra regos korekcijos lazeriu kontraindikacijos?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Yra situacijų, kai lazerinė regos korekcija nerekomenduojama: ryškiai suplonėjusi ragena, aktyvūs uždegiminiai procesai akyse, tam tikros sisteminės ligos, nėštumas ir žindymo laikotarpis, nestabilus regėjimas ir kitos būklės. Oftalmologas detaliai paaiškins kontraindikacijas būtent jūsų atveju ir pasiūlys alternatyvius gydymo būdus, jei lazerinė operacija laikinai ar visam laikui jums netinka.",
+                                        text: "Pasitaiko situacijų, kai ši regos korekcija nerekomenduojama, tarp jų: ryškiai suplonėjusi ragena, aktyvūs uždegiminiai procesai akyse, tam tikros sisteminės ligos, nėštumas ir žindymo laikotarpis, nestabilus regėjimas ir kt. Gydytojas oftalmologas detaliai paaiškins kontraindikacijas atsižvelgdamas į Jūsų situaciją ir pasiūlys alternatyvius gydymo būdus, jei operacija lazeriu Jums netinka.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kokie apribojimai taikomi po lazerinės regos korekcijos?",
+                                    "Kokie apribojimai taikomi po regos korekcijos lazeriu?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Pirmosiomis dienomis po procedūros ypač svarbu griežtai laikytis apribojimų: netrinti akių, vengti baseino, pirties, intensyvios fizinės veiklos, dulkių ir kitų teršalų patekimo į akis. Jums bus pateiktos rašytinės rekomendacijos dėl atsigavimo, akių lašų vartojimo schemos ir individualus kontrolinių vizitų grafikas mūsų klinikoje Vilniuje.",
+                                        text: "Pirmosiomis dienomis po procedūros ypač svarbu griežtai laikytis apribojimų: netrinti akių, vengti baseino, pirties, intensyvios fizinės veiklos, stebėti, kad į akis nepatektų dulkių ir kitų teršalų. Jums bus pateiktos rašytinės rekomendacijos, kaip sparčiau atsigauti, akių lašų vartojimo schemos ir individualus kontrolinių vizitų grafikas mūsų Vilniuje įsikūrusioje klinikoje.",
                                     },
                                 ],
                             },
@@ -3856,27 +3856,26 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Gijimo laikotarpiu normalūs pojūčiai yra laikinas akių sausumas, lengvas perštėjimas, „smėlio“ pojūtis akyse ir padidėjęs jautrumas šviesai. Tačiau jei atsiranda staigus skausmas, netikėtas regėjimo pablogėjimas, „pataamsėjimas“ ar ryškus tinimas, tai yra priežastis nedelsiant kreiptis dėl skubios pagalbos į kliniką.",
+                                        text: "Gijimo laikotarpiu normalūs pojūčiai yra laikinas akių sausumas, lengvas perštėjimas, smėlio pojūtis akyse ir padidėjęs jautrumas šviesai. Tačiau jei atsiranda staigus skausmas, netikėtas regėjimo pablogėjimas, patamsėjimas akyse ar ryškus tinimas, nedelsdami kreipkitės skubios pagalbos į kliniką.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar skauda atliekant lazerinę regos korekciją?",
+                                    "Ar atliekant regos korekciją lazeriu skauda?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Procedūra atliekama taikant vietinę lašinę nejautrą. Dauguma pacientų mini tik lengvą spaudimą ar neįprastą diskomfortą, tačiau ne ryškų skausmą. Daugybėje atsiliepimų žmonės pažymi, kad lazerinė regos korekcija realybėje toleruojama daug lengviau, nei jie tikėjosi prieš operaciją.",
+                                        text: "Procedūra atliekama taikant vietinę lašinę nejautrą. Dauguma pacientų mini tik lengvą spaudimą ar neįprastą diskomfortą, tačiau ne ryškų skausmą. Daugybėje atsiliepimų žmonės pažymi, kad regos korekcija lazeriu iš tiesų toleruojama daug lengviau, nei jie tikėjosi prieš operaciją.",
                                     },
                                 ],
                             },
                             {
-                                question:
-                                    "Kaip išsirinkti kliniką lazerinei regos korekcijai?",
+                                question: "Kaip išsirinkti kliniką?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Rinkdamiesi kliniką lazerinei regos korekcijai atkreipkite dėmesį į oftalmologų–chirurgų patirtį, naudojamą įrangą, kainodaros skaidrumą, realius pacientų atsiliepimus ir rekomendacijas. Jei dar nesate apsisprendę, kur kreiptis Vilniuje, galite registruotis konsultacijai mūsų klinikoje: atliksime profesionalų akių patikrinimą, sąžiningai įvertinsime jūsų akių būklę ir atsakysime į klausimą, ar lazerinė regos korekcija jums tinkama dabar ir koks gydymo variantas būtų geriausias būtent jums.",
+                                        text: "Rinkdamiesi kliniką atkreipkite dėmesį į gydytojų oftalmologų-chirurgų patirtį, naudojamą įrangą, kainodaros skaidrumą, realius pacientų atsiliepimus ir rekomendacijas. Jei dar neapsisprendėte, į kurią akių kliniką kreiptis, galite registruotis į konsultaciją mūsų klinikoje, įsikūrusioje Vilniuje: atliksime profesionalų akių patikrinimą, sąžiningai įvertinsime Jūsų akių būklę ir atsakysime į klausimą, ar regos korekcija lazeriu Jums šiuo metu tinkama ir koks gydymo variantas geriausias.",
                                     },
                                 ],
                             },
@@ -5547,8 +5546,8 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "hero",
                     data: {
-                        title: "Lazerinis akių ligų gydymas",
-                        text: "Lazerinis akių ligų gydymas Lietuvoje, Vilniuje – tai neskausmingos ambulatorinės procedūros, skirtos regėjimui išsaugoti ir stabilizuoti: tinklainės lazerinė koaguliacija, užpakalinės lęšiuko kapsulės YAG lazerinė kapsulotomija ir lazerinis glaukomos gydymas.",
+                        title: "Akių ligų gydymas lazeriu",
+                        text: "Akių ligų gydymas lazeriu Vilniuje – tai neskausmingos ambulatorinės procedūros, skirtos regėjimui išsaugoti ir stabilizuoti: tinklainės lazerinė koaguliacija, užpakalinės lęšiuko kapsulės YAG lazerinė kapsulotomija ir glaukomos gydymas lazeriu.",
                     },
                 },
                 {
@@ -5557,14 +5556,14 @@ export const servicesData: ServicesProps[] = [
                         paddingBottom: false,
                         data: [
                             {
-                                title: "Lazerinis akių ligų gydymas: šiuolaikinės lazerinės procedūros",
+                                title: "Akių ligų gydymas lazeriu: šiuolaikinės lazerio procedūros",
                                 cta: true,
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Lazerinis akių ligų gydymas mūsų privačioje klinikoje Lietuvoje (Vilniuje) paprastai atliekamas ramiai, greitai ir dažniausiai be skausmo. Tinklainė, gyslainė ir lęšiuko kapsulės membrana beveik neturi skausmo receptorių, todėl pacientas dažniausiai jaučia tik trumpus šviesos blyksnius arba trumpalaikį apakinimą. Prieš procedūrą vyzdys išplečiamas specialiais lašais, kad būtų užtikrintas tikslus priėjimas prie poveikio zonos. Atliekant YAG lazerinę procedūrą diskomfortas paprastai nejaučiamas, o atsistatymas minimalus – dauguma pacientų tą pačią dieną grįžta prie įprasto ritmo. Lazerinė terapija Lietuvoje – tai minimaliai traumuojantis, prognozuojamo efekto gydymas be pjūvių, greitas atsistatymas ir be hospitalizacijos.",
+                                                text: "Akių ligų gydymas lazeriu mūsų privačioje klinikoje Vilniuje – greita, rami ir dažniausiai neskausminga procedūra. Tinklainė, gyslainė ir lęšiuko kapsulės membrana beveik neturi skausmo receptorių, todėl pacientas paprastai jaučia tik trumpus šviesos blyksnius arba patiria trumpalaikį apakinimą. Prieš procedūrą vyzdys išplečiamas specialiais lašais, kad būtų užtikrintas tikslus priėjimas prie poveikio zonos. Atliekant YAG procedūrą lazeriu diskomforto paprastai nejaučiama, o atsistatymas minimalus – dauguma pacientų tą pačią dieną grįžta prie įprasto gyvenimo ritmo. Lazerio terapija Lietuvoje – tai minimaliai traumuojantis, prognozuojamo efekto gydymas be pjūvių, užtikrinantis greitą sveikimą.",
                                             },
                                         ],
                                     },
@@ -5578,7 +5577,7 @@ export const servicesData: ServicesProps[] = [
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Ankstyvi pakitimai neretai vystosi be ryškių simptomų, todėl profilaktinė patikra yra optimalus sprendimas, jei priklausote rizikos grupei. Jai priskiriami pacientai, turintys didelę trumparegystę, sergantys cukriniu diabetu ilgiau nei 5 metus, turintys arterinę hipertenziją, su amžiniais pakitimais, taip pat asmenys, kurių šeimoje buvo glaukoma ar tinklainės atšoka. Lazerinis gydymas Lietuvoje veiksmingiausias ankstyvose stadijose, kai galima sustabdyti ligos progresavimą ir sumažinti komplikacijų riziką. Užsiregistruokite oftalmologo konsultacijai Vilniuje – detaliai apžiūrai, individualiam gydymo planui ir įvertinimui, ar lazerinė intervencija reikalinga būtent jūsų atveju.",
+                                                text: "Ankstyvi pakitimai neretai vystosi be ryškių simptomų, todėl profilaktinė patikra yra optimalus sprendimas, jei priklausote rizikos grupei. Jai priskiriami pacientai, turintys didelę trumparegystę, sergantys cukriniu diabetu ilgiau nei 5 metus, turintys arterinę hipertenziją, amžinių pakitimų, taip pat asmenys, kurių šeimoje buvo nustatyta glaukomos ar tinklainės atšokos atvejų. Gydymas lazeriu Lietuvoje veiksmingiausias ankstyvose stadijose, kai galima sustabdyti ligos progresavimą ir sumažinti komplikacijų riziką. Užsiregistruokite į gydytojo oftalmologo konsultaciją Vilniuje – jis atliks išsamią apžiūrą, sudarys individualų gydymo planą ir įvertins, ar intervencija lazeriu Jums reikalinga.",
                                             },
                                         ],
                                     },
@@ -5592,7 +5591,7 @@ export const servicesData: ServicesProps[] = [
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Tinklainės lazerinė koaguliacija – tai mikrokoaguliacinių „taškų“ suformavimas, kuris sustiprina susilpnėjusias vietas, pagerina audinių lokalų stabilumą ir padeda sumažinti plyšimų bei atšokos riziką. Metodas taikomas esant diabetinei retinopatijai, tinklainės venų trombozei, periferinėms distrofijoms ir pratrūkusiems plyšimams. Procedūra trunka kelias minutes, atliekama ambulatoriškai Lietuvoje ir nereikalauja stacionarinio gydymo; po jos dažniausiai rekomenduojama laikinai riboti fizinį krūvį. Dažni užklausų pavyzdžiai: „tinklainės lazerinė koaguliacija Vilniuje“, „tinklainės lazerinės operacijos kaina Lietuvoje“, „tinklainės sutvirtinimas lazeriu kaina“. Galutinė kaina priklauso nuo pakitimų ploto ir koaguliacinių taškų skaičiaus, ją nustato gydytojas po apžiūros ir diagnostikos.",
+                                                text: "Tinklainės lazerinė koaguliacija – tai mikrokoaguliacinių taškų suformavimas, sustiprinantis susilpnėjusias vietas, pagerinantis audinių lokalų stabilumą ir padedantis sumažinti plyšimų bei atšokos riziką. Metodas taikomas esant diabetinei retinopatijai, tinklainės venų trombozei, periferinėms distrofijoms ir pratrūkusiems plyšimams. Procedūra trunka kelias minutes, atliekama ambulatoriškai Lietuvoje ir nereikalauja stacionarinio gydymo; po jos dažniausiai rekomenduojama laikinai riboti fizinį krūvį. Galutinė kaina priklauso nuo pakitimų ploto ir koaguliacinių taškų skaičiaus, ją po apžiūros ir diagnostikos nustato gydytojas.",
                                             },
                                         ],
                                     },
@@ -5608,28 +5607,28 @@ export const servicesData: ServicesProps[] = [
                         paddingTop: true,
                         data: [
                             {
-                                title: "Užpakalinės kapsulės YAG lazerinė kapsulotomija: greitas „antrinės kataraktos“ sprendimas",
+                                title: "Užpakalinės kapsulės YAG lazerinė kapsulotomija: greitas „antrinės kataraktos“ gydymo būdas",
                                 logo: true,
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Daliai pacientų po sėkmingos kataraktos operacijos laikui bėgant gali atsirasti užpakalinės kapsulės drumstėjimas, sukeliantis „šydo“ efektą ir mažinantis vaizdo ryškumą. YAG lazerinė kapsulotomija – tai neskausminga ambulatorinė procedūra, trunkanti kelias minutes ir paprastai nereikalaujanti tyrimų ar narkozės. Regėjimas dažniausiai pagerėja beveik iš karto, o įprasta veikla paprastai galima tą pačią dieną. Dažnos užklausos: „antrinės kataraktos šalinimas lazeriu kaina Lietuvoje“, „lazerinė procedūra po kataraktos kaina Vilniuje“, „YAG kapsulotomijos kaina“. Taikome aiškią kainodarą, siūlome paketinius sprendimus ir informuojame apie aktualius pasiūlymus – tikslią kainą gydytojas nurodys konsultacijos metu Lietuvoje, Vilniuje.",
+                                                text: "Daliai pacientų po sėkmingos kataraktos operacijos laikui bėgant gali atsirasti užpakalinės kapsulės drumstėjimas, sukeliantis „šydo“ efektą ir mažinantis vaizdo ryškumą. YAG lazerinė kapsulotomija – tai neskausminga ambulatorinė procedūra, trunkanti kelias minutes ir paprastai nereikalaujanti tyrimų ar narkozės. Regėjimas dažniausiai pagerėja beveik iš karto, o įprasta veikla paprastai galima užsiimti tą pačią dieną. Taikome aiškią kainodarą, siūlome paketinius sprendimus ir informuojame apie aktualius pasiūlymus – tikslią kainą gydytojas nurodys konsultacijos metu Vilniuje.",
                                             },
                                         ],
                                     },
                                 ],
                             },
                             {
-                                title: "Glaukomos lazerinis gydymas ir lazerinė stimuliacija: spaudimo kontrolė ir funkcijų palaikymas",
+                                title: "Glaukomos gydymas lazeriu ir lazerinė stimuliacija: spaudimo kontrolė ir funkcijų palaikymas",
                                 image: "/images/likuvanna3.jpg",
                                 text: [
                                     {
                                         content: [
                                             {
                                                 type: "text",
-                                                text: "Glaukoma – lėtinė liga, kurios pagrindinis tikslas – stabilizuoti akispūdį ir maksimaliai išsaugoti regos nervą. Jei lašinama terapija nepakankama, lazerinis poveikis akies drenažinei sistemai (pvz., selektyvioji lazerinė trabekuloplastika) gali padėti pasiekti kontroliuojamas akispūdžio reikšmes be pjūvių ir ilgos reabilitacijos. Dažnos užklausos: „glaukomos lazerinio gydymo kaina Lietuvoje“, „lazerinė procedūra glaukomai Vilniuje“, „glaukomos lazerio kontraindikacijos“. Papildomai taikome lazerinę stimuliaciją mikrocirkuliacijai ir medžiagų apykaitos procesoriams tinklainėje bei regos nerve palaikyti – kai kuriais atvejais ją deriname su medikamentiniu gydymu, siekiant sustiprinti efektą.",
+                                                text: "Glaukoma – lėtinė liga, kurios pagrindinis gydymo tikslas – stabilizuoti akispūdį ir maksimaliai išsaugoti regos nervą. Jei lašinamos terapijos nepakanka, lazerio poveikis akies drenažinei sistemai (pvz., selektyvioji lazerinė trabekuloplastika) gali padėti pasiekti kontroliuojamas akispūdžio reikšmes be pjūvių ir ilgos reabilitacijos. Papildomai taikome stimuliaciją lazeriu mikrocirkuliacijai ir medžiagų apykaitos procesoriams tinklainėje bei regos nerve palaikyti – kai kuriais atvejais ją deriname su medikamentiniu gydymu, siekdami sustiprinti efektą.",
                                             },
                                         ],
                                     },
@@ -5642,15 +5641,15 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "faq",
                     data: {
-                        title: "Dažniausiai užduodami klausimai apie akių lazerines procedūras",
+                        title: "Dažniausiai užduodami klausimai apie akių procedūras lazeriu",
                         content: [
                             {
                                 question:
-                                    "Kiek kainuoja akių lazerinis gydymas ir nuo ko priklauso kaina?",
+                                    "Kiek kainuoja akių gydymas lazeriu ir nuo ko priklauso kaina?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kaina priklauso nuo procedūros tipo (tinklainės lazerinė koaguliacija, YAG kapsulotomija, glaukomos lazerinis gydymas), intervencijos apimties ir klinikinės situacijos. Tikslią kainą gydytojas nustato po ištyrimo ir konsultacijos Lietuvoje. Registratūroje galite pasitikslinti informaciją apie aktualius pasiūlymus.",
+                                        text: "Kaina priklauso nuo procedūros tipo (ar bus taikoma tinklainės lazerinė koaguliacija, YAG kapsulotomija, glaukomos lazerinis gydymas), intervencijos apimties ir klinikinės situacijos. Tikslią kainą gydytojas nustato atlikęs tyrimus.",
                                     },
                                 ],
                             },
@@ -5660,27 +5659,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Procedūra atliekama ambulatoriškai ir paprastai yra neskausminga; galimi trumpi šviesos blyksniai. Po lazerinės koaguliacijos dažniausiai rekomenduojama kelioms dienoms riboti fizinį krūvį, tačiau prie įprastų darbų daugelis grįžta tą pačią dieną.",
+                                        text: "Procedūra atliekama ambulatoriškai ir paprastai yra neskausminga, galimi trumpi šviesos blyksniai. Po jos dažniausiai rekomenduojama kelias dienas riboti fizinį krūvį, tačiau prie įprastų darbų daugelis grįžta tą pačią dieną.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Ar glaukomos lazerinis gydymas – visam laikui? Ar po procedūros reikės lašų?",
+                                    "Ar glaukoma išgydoma lazeriu visam laikui? Ar po procedūros reikės lašų?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Lazeris gali sumažinti akispūdį ir stabilizuoti būklę, tačiau glaukoma išlieka lėtine liga. Net ir po sėkmingos procedūros daliai pacientų reikalingi lašai ir reguliarūs kontroliniai vizitai Lietuvoje, kad būtų stebimas akispūdis ir regos nervo būklė.",
+                                        text: "Lazeris gali sumažinti akispūdį ir stabilizuoti būklę, tačiau glaukoma išlieka lėtine liga. Net ir po sėkmingos procedūros daliai pacientų reikalingi lašai ir svarbu atvykti pasirodyti gydytojui, kad būtų stebimas akispūdis ir regos nervo būklė.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kokios yra kontraindikacijos ir galimi šalutiniai poveikiai po lazerinių procedūrų?",
+                                    "Kokios yra kontraindikacijos ir galimi šalutiniai poveikiai po procedūrų lazeriu?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Kontraindikacijos visada individualios (aktyvus uždegimas, ryškūs optinių terpių drumstumai, dekompensuotos sisteminės būklės). Šalutiniai poveikiai pasitaiko retai ir dažniausiai yra laikini (trumpalaikis diskomfortas, apakinimas, epizodinis matymo „užrasojimas“). Visi galimi rizikos veiksniai ir apribojimai aptariami konsultacijos metu.",
+                                        text: "Kontraindikacijos visada individualios: aktyvus uždegimas, ryškūs optinių terpių drumstumai, dekompensuotos sisteminės būklės. Šalutinių poveikių pasitaiko retai ir dažniausiai jie būna laikini (trumpalaikis diskomfortas, apakinimas, epizodinis matymo „užrasojimas“). Visi galimi rizikos veiksniai ir apribojimai aptariami konsultacijos metu.",
                                     },
                                 ],
                             },
@@ -5690,7 +5689,7 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Taip, būtent YAG kapsulotomija pašalina užpakalinės kapsulės drumstėjimą. Procedūra trunka kelias minutes, atliekama be pjūvių ir be skausmo, o regėjimo pagerėjimas dažniausiai juntamas beveik iš karto. Tikslią kainą sužinosite konsultacijos metu Vilniuje.",
+                                        text: "Taip, būtent YAG kapsulotomija pašalina užpakalinės kapsulės drumstėjimą. Procedūra trunka kelias minutes, atliekama be pjūvių ir nesukelia skausmo, o regėjimo pagerėjimas dažniausiai juntamas beveik iš karto. Tikslią kainą sužinosite konsultacijos metu Vilniuje.",
                                     },
                                 ],
                             },
@@ -5700,27 +5699,27 @@ export const servicesData: ServicesProps[] = [
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Nustačius periferines distrofijas ar suplonėjusias tinklainės zonas – taip, tai gali sumažinti plyšimų ir atšokos riziką. Sprendimas priimamas po išplėstinės akies dugno apžiūros ir rizikų įvertinimo.",
+                                        text: "Taip, procedūra gali sumažinti plyšimų ir atšokos riziką, jei nustatomos periferinės distrofijos ar suplonėjusios tinklainės zonos. Ar ji reikalinga, gydytojas oftalmologas nusprendžia atlikęs išplėstinę akies dugno apžiūrą ir įvertinęs rizikas.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kaip pasiruošti lazerinei procedūrai ir ką rodo atsiliepimai?",
+                                    "Kaip pasiruošti procedūrai ir ką rodo atsiliepimai?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Dažniausiai specialaus pasiruošimo nereikia; vyzdys išplečiamas lašais vietoje. Po diagnostikos pateikiame individualias rekomendacijas. Pacientų atsiliepimus ir gydytojo rekomendacijas galima peržiūrėti klinikoje ir aptarti konsultacijos metu.",
+                                        text: "Dažniausiai specialiai ruoštis nereikia, vyzdys išplečiamas lašais. Atlikę diagnostiką pateikiame individualias rekomendacijas. Pacientų atsiliepimus ir gydytojo rekomendacijas galima peržiūrėti klinikoje ir aptarti konsultacijos metu.",
                                     },
                                 ],
                             },
                             {
                                 question:
-                                    "Kur Vilniuje atliekamos tokios procedūros ir kaip užsiregistruoti?",
+                                    "Kur atliekamos tokios procedūros ir kaip užsiregistruoti?",
                                 answer: [
                                     {
                                         type: "text",
-                                        text: "Mūsų privačioje klinikoje Lietuvoje, Vilniuje, atliekamas lazerinių procedūrų spektras: tinklainės lazerinė koaguliacija, glaukomos lazerinis gydymas, YAG kapsulotomija. Užsiregistruokite oftalmologo konsultacijai internetu arba telefonu – parinksime optimalią taktiką ir po ištyrimo apskaičiuosime procedūros kainą.",
+                                        text: "Mūsų privačioje klinikoje Vilniuje atliekamas procedūrų naudojant lazerį spektras: tinklainės lazerinė koaguliacija, glaukomos gydymas lazeriu, YAG kapsulotomija. Užsiregistruokite į gydytojo oftalmologo konsultaciją internetu arba telefonu – parinksime optimalią taktiką ir atlikę tyrimą apskaičiuosime procedūros kainą.",
                                     },
                                 ],
                             },
@@ -7038,16 +7037,16 @@ export const raynerAdvantageDataTab: {
 } = {
     lt: {
         paddingBottom: false,
-        title: "Rayner GALAXY implantavimo privalumai akių klinikoje „Naujas regėjimas“ (Vilnius, Lietuva)",
-        text: "Užtikriname visapusišką paciento priežiūrą visais etapais – nuo diagnostikos iki pooperacinio stebėjimo",
+        title: "„Rayner GALAXY“ implantavimo privalumai akių klinikoje „Naujas regėjimas“ Vilniuje",
+        text: "Užtikriname visapusišką paciento priežiūrą nuo diagnostikos iki pooperacinio stebėjimo",
         list: [
             {
-                title: "Išskirtiniai Rayner GALAXY lęšių tiekėjai",
-                text: "Ši technologija Lietuvoje prieinama akių klinikoje „Naujas regėjimas“",
+                title: "Išskirtiniai „Rayner GALAXY“ lęšių tiekėjai",
+                text: "Ši technologija Lietuvoje prieinama akių klinikoje „Naujas regėjimas“.",
             },
             {
                 title: "Naujausia įranga",
-                text: "Įranga ir operacinės, atitinkančios tarptautinius standartus",
+                text: "Įranga ir operacinės atitinka tarptautinius standartus.",
             },
             { videoOnly: "/videos/rayner-spiral.mp4" },
             {
@@ -7056,15 +7055,15 @@ export const raynerAdvantageDataTab: {
             },
             {
                 title: "Patyrę chirurgai",
-                text: "Sertifikuoti dirbti su šiuolaikiniais intraokuliniais lęšiais",
+                text: "Klinikoje dirba aukštos kvalifikacijos gydytojai.",
             },
             { imageOnly: "/images/rayner-box.png" },
             {
-                title: "100% saugumas",
+                title: "100 proc. saugumas",
                 text: "Maksimalus saugumas ir komfortas kiekviename gydymo etape.",
             },
             {
-                title: "Rayner GALAXY jau galima implantuoti mūsų klinikoje",
+                title: "„Rayner GALAXY“ lęšius jau galima implantuoti mūsų klinikoje",
                 text: "",
                 bgTransparent: true,
             },
@@ -7143,8 +7142,8 @@ export const raynerAdvantageDataTab: {
 export const raynerCardsList = [
     {
         lt: {
-            title: "Reikšmingai mažiau blyksnių ir aureolių tamsiuoju paros metu",
-            text: "Dysfotopsija sumažinama iki minimumo, ypač esant prastam apšvietimui – reikliausiems pacientams.",
+            title: "mažiau blyksnių ir aureolių tamsiuoju paros metu",
+            text: "Disfotopsija sumažinama iki minimumo, ypač esant prastam apšvietimui, todėl šie lęšiai skirti reikliausiems pacientams.",
         },
         en: {
             title: "Significantly less glare and fewer halos at night",
@@ -7159,15 +7158,15 @@ export const raynerCardsList = [
     },
     {
         lt: {
-            title: "Nedifrakcinė optika – 0 % šviesos nuostolio perduodant šviesą",
-            text: "Aukščiausios klasės lęšis, maksimaliai perduodantis šviesą į tinklainę.",
+            title: "Nedifrakcinė optika – be šviesos nuostolių",
+            text: "Aukščiausios klasės lęšiai, maksimaliai perduodantys šviesą į tinklainę.",
         },
         en: {
-            title: "Non‑diffractive optics with 0% light loss in transmission",
+            title: "Non-diffractive optics – no light loss",
             text: "A premium lens that maximizes light transmission to the retina.",
         },
         ru: {
-            title: "Недифракционная оптика для 0% потери света при передаче",
+            title: "Недифракционная оптика – отсутствие потерь света",
             text: "Премиум-линза, которая максимизирует передачу света на сетчатку.",
         },
         imageBefore: "/images/rayner-day-before.jpg",
@@ -7183,7 +7182,7 @@ export const raynerCTA: {
     lt: {
         bigText: true,
         title: "Susigrąžinkite kokybišką regėjimą – lengvai ir be akinių",
-        text: "Laikomės aukščiausių saugumo ir sterilumo standartų, skirdami dėmesį kiekvienam gydymo etapui – nuo ištyrimo iki pooperacinių apžiūrų, kad užtikrintume jūsų ramybę ir komfortą.",
+        text: "Laikomės aukščiausių saugumo ir sterilumo standartų, skirdami dėmesį kiekvienam gydymo etapui – nuo ištyrimo iki pooperacinės apžiūros, kad užtikrintume Jūsų ramybę ir komfortą.",
     },
     en: {
         bigText: true,
