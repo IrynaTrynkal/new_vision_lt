@@ -38,55 +38,56 @@ export const subpageLazerData: SubPageType[] = [
                     "SportLine LASEK – lazerinė regos korekcija sportininkams | Regos korekcija sportuojantiems ir aktyviems žmonėms. ✴️ Akių ligų centras Nr. 1 Lietuvoje. ✅ Šiuolaikinė diagnostika ir veiksmingas gydymas. 👍 Laiko patikrinta reputacija",
                 data: [
                     {
-                        textTitle: "Maksimali judėjimo laisvė be optikos",
+                        textTitle:
+                            "Maksimali judėjimo laisvė be akinių ar kontaktinių lęšių",
                         text: [
-                            "Sportas ir aktyvus gyvenimo būdas reikalauja aiškaus matymo, patikimumo ir visiškos kontrolės. Akiniai gali trukdyti ir slysti, o kontaktiniai lęšiai – sausėti ir sukelti diskomfortą treniruočių metu. Net ir nedideli nepatogumai mažina susikaupimą ir trukdo siekti rezultato. Tiems, kurie nenori kompromisų, siūlomas šiuolaikiškas sprendimas – regos korekcija lazeriu taikant SportLine LASEK technologiją klinikoje „Naujas regėjimas“ (Vilnius, Lietuva).",
+                            "Sportas ir aktyvus gyvenimo būdas reikalauja aiškaus matymo, patikimumo ir visiškos kontrolės. Akiniai gali trukdyti ir slysti, o kontaktiniai lęšiai – sausėti ir kelti diskomfortą treniruočių metu. Net ir nedideli nepatogumai mažina susikaupimą ir trukdo siekti rezultato. Tiems, kurie nenori kompromisų, klinikoje „Naujas regėjimas“ Vilniuje siūlomas šiuolaikiškas sprendimas – regos korekcija lazeriu taikant „SportLine LASEK“ technologiją.",
                         ],
                     },
                     {
                         textTitle: "Švelni korekcija – maksimalus saugumas",
                         text: [
-                            "SportLine LASEK – tai patobulinta paviršinė regos korekcijos metodika, pritaikyta asmenims, patiriantiems didesnį fizinį krūvį, taip pat pacientams, kurių ragena yra plonesnė. Procedūra atliekama nesuformuojant ragenos lopelio, todėl ji laikoma ypač saugia aktyviai gyvenantiems žmonėms. Taikant šį metodą išsaugoma natūrali ragenos struktūra ir sumažinamos rizikos net patyrus smūgius, susidūrimus ar kritimus.",
+                            "„SportLine LASEK“ – tai patobulinta paviršinė regos korekcijos metodika, pritaikyta asmenims, patiriantiems didesnį fizinį krūvį, taip pat pacientams, kurių ragena yra plonesnė. Procedūra atliekama nesuformuojant ragenos lopelio, todėl ji laikoma ypač saugia aktyviai gyvenantiems žmonėms. Taikant šį metodą išsaugoma natūrali ragenos struktūra ir sumažinama rizika netekti regėjimo net patyrus smūgį, susidūrimą ar parkritus.",
                         ],
                     },
                     {
                         textTitle: "Technologija sukurta aktyviems žmonėms",
                         text: [
-                            "Dėl tikslios lazerio kontrolės ir šiuolaikinės programinės įrangos korekcija modeliuojama atsižvelgiant į individualius regos parametrus. SportLine LASEK ypač tinka sportininkams, užsiimantiems kovos menais, žiemos ar vandens sportu, taip pat kitomis veiklomis, kur ypač svarbus akies mechaninis stabilumas.",
+                            "Dėl tikslios lazerio kontrolės ir šiuolaikinės programinės įrangos korekcija modeliuojama atsižvelgiant į individualius regos parametrus. „SportLine LASEK“ ypač tinka sportininkams, užsiimantiems kovos menais, žiemos ar vandens sportu, taip pat kitomis veiklomis, kur ypač svarbus akies mechaninis stabilumas.",
                         ],
                     },
                     {
                         textTitle: "Pasirinkimas tiems, kurie nesustoja",
                         text: [
-                            "Mūsų pacientai – profesionalūs sportininkai, maratonininkai, triatlonininkai, šokėjai ir treneriai – vertina SportLine LASEK dėl patikimumo, švelnaus poveikio ir galimybės greitai sugrįžti į treniruočių ritmą. Paprastai jau po kelių dienų po procedūros galima atnaujinti lengvą fizinį aktyvumą, o po trumpo atsistatymo laikotarpio – visiškai grįžti prie įprastų krūvių.",
-                            "Jeigu siekiate regos laisvės be akinių ir lęšių, neaukodami saugumo ir regos kokybės, SportLine LASEK gali tapti patikimu sprendimu. Tai optimalus pasirinkimas aktyviems žmonėms, kurie vertina rezultatą ir rūpinasi savo sveikata.",
+                            "Mūsų pacientai – profesionalūs sportininkai, maratonininkai, triatlonininkai, šokėjai ir treneriai – vertina „SportLine LASEK“ dėl patikimumo, švelnaus poveikio ir galimybės greitai sugrįžti į treniruočių ritmą. Paprastai po procedūros praėjus kelioms dienoms jau galima atnaujinti lengvą fizinį aktyvumą, o po trumpo atsistatymo laikotarpio – visiškai grįžti prie įprastų krūvių.",
+                            "Jeigu siekiate regos laisvės be akinių ir kontaktinių lęšių, neaukodami saugumo ir regos kokybės, „SportLine LASEK“ gali tapti patikimu sprendimu. Tai puikus pasirinkimas aktyviems žmonėms, kurie vertina rezultatą ir rūpinasi savo sveikata.",
                         ],
                     },
                     {
                         textTitle:
-                            "Regos korekcija lazeriu SportLine LASEK metodu – pasirinkimas aktyviems žmonėms ir sportininkams",
+                            "Regos korekcija „SportLine LASEK“ metodu – aktyviems žmonėms ir sportininkams",
                         text: [
-                            "SportLine LASEK – moderni regos korekcijos technologija tiems, kurie gyvena aktyviai, reguliariai sportuoja ir siekia stabilaus rezultato. Metodika sukurta atsižvelgiant į aukštus saugumo reikalavimus, todėl yra tinkama pacientams, kuriems svarbu išlikti fiziškai aktyviems ir patirti kuo mažiau apribojimų reabilitacijos laikotarpiu.",
-                            "LASEK lazerinė regos korekcija nuo tradicinių metodų skiriasi tuo, kad nesuformuojamas ragenos lopelis, kaip LASIK atveju. Vietoje to epitelio sluoksnis laikinai švelniai atskiriamas, atliekamas lazerinis poveikis ragenos paviršiui, o vėliau epitelis grąžinamas į vietą. Toks sprendimas mažina traumų riziką ir yra ypač tinkamas aktyviems žmonėms.",
+                            "„SportLine LASEK“ – moderni regos korekcijos technologija tiems, kurie gyvena aktyviai, reguliariai sportuoja ir siekia stabilaus rezultato. Metodika sukurta atsižvelgiant į aukštus saugumo reikalavimus, todėl yra tinkama pacientams, kuriems svarbu išlikti fiziškai aktyviems ir patirti kuo mažiau apribojimų reabilitacijos laikotarpiu.",
+                            "LASEK regos korekcija lazeriu nuo tradicinių metodų skiriasi tuo, kad nesuformuojamas ragenos lopelis, kaip taikant LASIK korekciją. Epitelio sluoksnis laikinai švelniai atskiriamas, atliekamas lazerio poveikis ragenos paviršiui, o vėliau epitelis grąžinamas į vietą. Toks sprendimas mažina traumų riziką ir yra ypač tinkamas aktyviems žmonėms.",
                         ],
                     },
                     {
                         textTitle:
-                            "Kam tinka SportLine LASEK lazerinė regos korekcija?",
+                            "Kam tinka „SportLine LASEK“ regos korekcija lazeriu?",
                         text: [
                             "Šis metodas ypač tinkamas:",
                             "- profesionaliems ir mėgėjams sportininkams;",
                             "- jėgos ir dinamiškų profesijų atstovams;",
                             "- žmonėms, kurių kasdienybė susijusi su aktyviu judėjimu;",
                             "- pacientams, kurių ragena plona ir dėl to LASIK metodas gali būti netinkamas.",
-                            "Sportininkams skirta lazerinė regos korekcija turi būti saugi, patikima ir neturėti ilgalaikių apribojimų. Būtent tai ir užtikrina SportLine technologija.",
+                            "Sportininkams skirta regos korekcija lazeriu turi būti saugi, patikima ir neturėti ilgalaikių apribojimų. Būtent tai ir užtikrina „SportLine“ technologija.",
                         ],
                     },
                     {
-                        textTitle: "SportLine LASEK privalumai",
+                        textTitle: "„SportLine LASEK“ privalumai",
                         text: [
                             "Mažesnė rizika. Nėra ragenos lopelio, todėl sumažėja jo pasislinkimo tikimybė patyrus traumą.",
-                            "Švelni technologija. LASEK veikia paviršinius ragenos sluoksnius, padėdama audiniams atsistatyti.",
+                            "Švelni technologija. LASEK veikia paviršinius ragenos sluoksnius, padėdama audiniams gyti.",
                             "Tinka aktyviems. Reabilitacijos laikotarpiu dažniausiai nereikia ilgalaikių apribojimų.",
                             "Išsaugomas ragenos tvirtumas. Paviršinis poveikis padeda išlaikyti natūralų akies stabilumą, kuris svarbus sportuojant.",
                             "Didelis tikslumas. Šiuolaikinė įranga leidžia pasiekti gerą regėjimą net esant sudėtingiems refrakcijos sutrikimams.",
@@ -94,27 +95,27 @@ export const subpageLazerData: SubPageType[] = [
                     },
                     {
                         textTitle:
-                            "Ką reiškia SportLine lazerinė regos korekcija?",
+                            "Kuo ypatinga „SportLine“ regos korekcija lazeriu?",
                         text: [
-                            "SportLine – tai ne tik pavadinimas, bet ir koncepcija, orientuota į žmones, kurie negali ilgam sustabdyti treniruočių ar aktyvios veiklos. Metodika atsižvelgia į gyvenimo būdą ir padeda sumažinti reabilitacijos laiką. Dažniausiai jau po kelių dienų pacientas gali palaipsniui grįžti prie įprasto aktyvumo, laikydamasis gydytojo rekomendacijų.",
+                            "„SportLine“ – tai ne tik pavadinimas, bet ir koncepcija, orientuota į žmones, kurie negali ilgam sustabdyti treniruočių ar aktyvios veiklos. Metodika atsižvelgia į gyvenimo būdą ir padeda sumažinti reabilitacijos laiką. Dažniausiai jau po kelių dienų pacientas gali palaipsniui grįžti prie įprasto aktyvumo, laikydamasis gydytojo rekomendacijų.",
                         ],
                     },
                     {
                         textTitle:
-                            "Kodėl sportininkams dažnai rekomenduojama LASEK korekcija?",
+                            "Kodėl sportininkams dažnai rekomenduojama „LASEK“ korekcija?",
                         text: [
-                            "Mažesnė ragenos pažeidimo rizika kontaktinio sporto metu.",
+                            "Mažesnė ragenos pažeidimo rizika užsiimant kontaktiniu sportu.",
                             "Galimybė pasiekti aiškų matymą be akinių ir lęšių.",
                             "Mažesnis invazyvumas ir prognozuojamas atsistatymas.",
                             "Saugumas esant dideliems krūviams, aktyviam judėjimui ir intensyvioms treniruotėms.",
-                            "Sportininkams svarbu, kad regėjimas būtų patikimas kritiniu momentu. Akiniai gali rasoti ar slysti, o kontaktiniai lęšiai – sukelti diskomfortą. Lazerinė regos korekcija sportininkams padeda atsisakyti šių nepatogumų ir sumažina priklausomybę nuo optikos kasdienybėje.",
+                            "Sportininkams svarbu, kad regėjimas būtų patikimas kritiniu momentu. Akiniai gali rasoti ar slysti, o kontaktiniai lęšiai – sukelti diskomfortą. Regos korekcija lazeriu sportininkams padeda atsisakyti šių nepatogumų ir sumažina priklausomybę nuo regėjimo optikos kasdienybėje.",
                         ],
                     },
                     {
                         textTitle: "Registracija konsultacijai",
                         text: [
-                            "Jeigu gyvenate aktyviai ir svarstote apie regos korekciją lazeriu, SportLine LASEK gali būti optimalus pasirinkimas. Klinikoje „Naujas regėjimas“ (Vilnius, Lietuva) siūlome šiuolaikišką diagnostiką, patyrusius gydytojus ir individualų požiūrį kiekviename etape – nuo pirminės konsultacijos iki rezultato kontrolės.",
-                            "Įvertinkite SportLine LASEK privalumus – technologiją, sukurtą aktyviems, energingiems ir tikslo siekiantiems žmonėms. Susigrąžinkite aiškų regėjimą ir toliau gyvenkite judėjime.",
+                            "Jeigu gyvenate aktyviai ir svarstote apie regos korekciją lazeriu, „SportLine LASEK“ gali būti puikus pasirinkimas. Klinikoje „Naujas regėjimas“ Vilniuje siūlome šiuolaikišką diagnostiką, patyrusių gydytojų paslaugas ir individualų paciento stebėjimą nuo pirmos konsultacijos iki rezultato kontrolės.",
+                            "Įvertinkite „SportLine LASEK“ privalumus – ši technologija sukurta aktyviems, energingiems ir tikslo siekiantiems žmonėms.",
                         ],
                     },
                 ],
