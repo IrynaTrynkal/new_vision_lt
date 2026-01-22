@@ -30,7 +30,8 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] text-black bg-blend-hard-light",
         "dry-eye-syndrome-treatment":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] text-black bg-blend-hard-light",
-        "vaiku-akiu-patikra": "text-black",
+        "vaiku-akiu-patikra":
+            "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/children-service.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] text-black bg-blend-hard-light",
         default: "hover-green-gradient text-black ",
     };
 
@@ -52,21 +53,7 @@ export const AllServicesList = async ({ locale }: { locale: LocaleType }) => {
                             }
                             className={`group tab:p-3 relative flex h-full w-full flex-col justify-between p-2 transition-all duration-300 ease-in-out ${serviceStyles[service.name.key] ?? serviceStyles.default} `}
                         >
-                            {service.name.key === "vaiku-akiu-patikra" ? (
-                                <div className="absolute inset-0 z-[-1] overflow-hidden">
-                                    <div
-                                        className="h-full w-full opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 group-active:opacity-100"
-                                        style={{
-                                            backgroundImage:
-                                                "linear-gradient(#065d43, #065d43), url(/images/children-service.jpg)",
-                                            backgroundSize: "cover",
-                                            backgroundPosition: "center",
-                                            backgroundBlendMode: "hard-light",
-                                        }}
-                                    />
-                                </div>
-                            ) : service.name.key ===
-                              "lazerine-akiu-korekcija" ? (
+                            {service.name.key === "lazerine-akiu-korekcija" ? (
                                 <div className="absolute inset-0 z-[-1] transform overflow-hidden transition-transform duration-500 ease-in-out group-hover:scale-110 group-active:scale-110">
                                     <Image
                                         src="/images/main-service.jpg"

@@ -1,34 +1,5 @@
 [
     {
-        "name": "departmentsKey",
-        "type": "type",
-        "value": {
-            "type": "union",
-            "of": [
-                {
-                    "type": "string",
-                    "value": "clinic-management"
-                },
-                {
-                    "type": "string",
-                    "value": "childrens-ophthalmologists"
-                },
-                {
-                    "type": "string",
-                    "value": "consultation-and-diagnostic-ophthalmologists"
-                },
-                {
-                    "type": "string",
-                    "value": "doctors-anesthesiologists"
-                },
-                {
-                    "type": "string",
-                    "value": "ophthalmic-surgeons"
-                }
-            ]
-        }
-    },
-    {
         "name": "servicesKey",
         "type": "type",
         "value": {

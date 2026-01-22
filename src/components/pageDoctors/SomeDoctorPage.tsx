@@ -36,10 +36,7 @@ export const SomeDoctorPageMain = ({
         { title: t("about"), data: doctorData.about },
     ];
 
-    const categories = [
-        ...(doctorData.services || []),
-        ...(doctorData.departments || []),
-    ];
+    const categories = [...(doctorData.services || [])];
     return (
         <section className="content tab:flex tab:gap-3 prepc:gap-5 tab:items-start pb-[60px]">
             <div className="cta-green-gradient prepc:rounded-lg tab:pb-5 tab:w-[31%] prepc:w-[32.5%] tab:mx-0 tab:max-w-full mx-auto mb-10 max-w-[400px] overflow-hidden rounded">

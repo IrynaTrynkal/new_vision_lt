@@ -1,25 +1,26 @@
 import Script from "next/script";
 
-export const GoogleAds = ({ GoogleAdsId }: { GoogleAdsId: string }) => {
+export const GoogleAnalytics = ({ gaId }: { gaId: string }) => {
     return (
         <>
             <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
                 strategy="afterInteractive"
-                src={`https://www.googletagmanager.com/gtag/js?id=${GoogleAdsId}`}
                 type="text/plain"
-                data-cookieyes="marketing"
+                data-cookieyes="analytics"
             />
+
             <Script
-                id="google-ads-init"
+                id="ga-init"
                 strategy="afterInteractive"
                 type="text/plain"
-                data-cookieyes="marketing"
+                data-cookieyes="analytics"
             >
                 {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '${GoogleAdsId}');
+    gtag('config', '${gaId}');
   `}
             </Script>
         </>
