@@ -13,13 +13,6 @@
  */
 
 // Source: schema.json
-export type DepartmentsKey =
-    | "clinic-management"
-    | "childrens-ophthalmologists"
-    | "consultation-and-diagnostic-ophthalmologists"
-    | "doctors-anesthesiologists"
-    | "ophthalmic-surgeons";
-
 export type ServicesKey =
     | "vaiku-akiu-patikra"
     | "akiu-patikrinimas"
@@ -570,7 +563,6 @@ export type SanityAssetSourceData = {
 };
 
 export type AllSanitySchemaTypes =
-    | DepartmentsKey
     | ServicesKey
     | PortableTextAll
     | PortableText

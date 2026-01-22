@@ -1,7 +1,6 @@
 import Script from "next/script";
 import { getTranslations } from "next-intl/server";
 
-import { DepartmentsType } from "@/components/assets/doctorsData";
 import { localizedRoutes } from "@/components/assets/localizedRoutes";
 import {
     breadcrumbsInnerSchema,
@@ -37,7 +36,6 @@ export default async function gydytojaiPage({
 }: {
     searchParams?: Promise<{
         page?: string;
-        department?: DepartmentsType;
         locale: string;
     }>;
     params: Promise<{ locale: string }>;

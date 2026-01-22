@@ -8,7 +8,6 @@ import {
 
 import { portableTextAllType } from "./arrays/portableTextAllType";
 import { portableTextType } from "./arrays/portableTextType";
-import { departmentsKeyType } from "./fields/departmentsKey";
 import { servicesKey } from "./fields/servicesKey";
 import { discountDataType } from "./objects/discountDataType";
 import { discountFullDataType } from "./objects/discountFullDataType";
@@ -37,7 +36,7 @@ const objects: ObjectDefinition[] = [
     discountDataType,
     priceBlockType,
 ];
-const fields: StringDefinition[] = [servicesKey, departmentsKeyType];
+const fields: StringDefinition[] = [servicesKey];
 const arrays: ArrayDefinition[] = [portableTextType, portableTextAllType];
 
 export const schema: { types: SchemaTypeDefinition[] } = {

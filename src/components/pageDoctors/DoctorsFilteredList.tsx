@@ -1,6 +1,6 @@
 import { Pagination } from "@/components/shared/Pagination";
 
-import { DepartmentsKey, DoctorsOrderQueryResult } from "../../../sanity.types";
+import { DoctorsOrderQueryResult } from "../../../sanity.types";
 import { DoctorCardDoctorsPage } from "./DoctorCardDoctorsPage";
 
 const ITEMS_PER_PAGE = 6;
@@ -12,7 +12,6 @@ export const DoctorsFilteredList = ({
 }: {
     pageNumber?: number;
     list: DoctorsOrderQueryResult;
-    selectedDepartment?: DepartmentsKey;
     className?: string;
 }) => {
     const totalPages = Math.ceil((list ?? []).length / ITEMS_PER_PAGE);
