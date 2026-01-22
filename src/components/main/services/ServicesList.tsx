@@ -32,6 +32,9 @@ export const ServicesList = async ({ locale }: { locale: LocaleType }) => {
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/iq-5-minute.jpg)] bg-blend-hard-light",
         "dry-eye-syndrome-treatment":
             "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] bg-blend-hard-light",
+        "vaiku-akiu-patikra":
+            "bg-cover bg-center hover:bg-[linear-gradient(#065d43,#065d43),url(/images/children-hero.jpg)] active:bg-[linear-gradient(#065d43,#065d43),url(/images/eyes-cta.jpg)] bg-blend-hard-light",
+
         default: "hover-green-gradient ",
     };
 

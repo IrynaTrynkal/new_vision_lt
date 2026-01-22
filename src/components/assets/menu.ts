@@ -61,23 +61,24 @@ export const servicesList: ServicesListProps[] = [
         },
     },
     {
-        key: "dry-eye-syndrome-treatment",
-        type: "MedicalTherapy",
-        image: "syndrom-sukhoho-oka.jpg",
-        slug: {
-            lt: "dry-eye-syndrome-treatment",
-            en: "dry-eye-syndrome-treatment",
-            ru: "dry-eye-syndrome-treatment",
-        },
-    },
-    {
         key: "vaiku-akiu-patikra",
         type: "Service",
-        icon: true,
+        image: "children-menu.jpg",
         slug: {
             lt: "vaiku-akiu-patikra",
             en: "pediatric-eye-examination",
             ru: "detskoye-otdeleniye",
+        },
+    },
+    {
+        key: "dry-eye-syndrome-treatment",
+        type: "MedicalTherapy",
+        icon: true,
+
+        slug: {
+            lt: "dry-eye-syndrome-treatment",
+            en: "dry-eye-syndrome-treatment",
+            ru: "dry-eye-syndrome-treatment",
         },
     },
     {

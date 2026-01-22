@@ -374,7 +374,7 @@ export const servicesData: ServicesProps[] = [
                             {
                                 itemTitle: "Kompiuterinė regėjimo diagnostika",
                                 itemText: [
-                                    "Procedūra atliekama naujausiais prietaisais ir apima kompleksinę akių patikrą: akispūdžio matavimą, ragenos analizę, refrakcijos ir akių dugno būklės įvertinimą. Apžiūra vidutiniškai trunka 2–2,5 val. Vienas svarbiausių etapų – regos aštrumo patikrinimas naudojant lenteles, leidžiantis tiksliai parinkti optiką.",
+                                    "Procedūra atliekama naujausiais prietaisais ir apima kompleksinę akių patikrą: akispūdžio matavimą, ragenos analizę, refrakcijos ir akių dugno būklės įvertinimą. Apžiūra vidutiniškai trunka 1–1,5 val. Vienas svarbiausių etapų – regos aštrumo patikrinimas naudojant lenteles, leidžiantis tiksliai parinkti optiką.",
                                     "Jei reikia, gydytojas oftalmologas įlašina vyzdžius plečiančių lašų, kad detaliai įvertintų akių dugną ir atmestų paslėptas ligas. Kompleksinis regėjimo patikrinimas ir lazerinis akių tyrimas, taikant šiuolaikines vizualizacijos sistemas, užtikrina maksimalų diagnostikos tikslumą.",
                                 ],
                             },
@@ -682,7 +682,7 @@ export const servicesData: ServicesProps[] = [
                             {
                                 itemTitle: "Computer-based vision diagnostics",
                                 itemText: [
-                                    "The examination is performed using the latest devices and includes a comprehensive vision assessment: measurement of intraocular pressure, corneal analysis, refraction assessment, and evaluation of the ocular fundus. The full examination typically takes 2–2.5 hours. One of the key stages is checking visual acuity using charts, which helps accurately prescribe optical correction.",
+                                    "The examination is performed using the latest devices and includes a comprehensive vision assessment: measurement of intraocular pressure, corneal analysis, refraction assessment, and evaluation of the ocular fundus. The full examination typically takes 1–1.5 hours. One of the key stages is checking visual acuity using charts, which helps accurately prescribe optical correction.",
                                     "If necessary, the physician uses pupil-dilating drops to thoroughly evaluate the ocular fundus and rule out hidden conditions. This comprehensive vision check and laser eye assessment using modern visualisation systems ensure maximum diagnostic accuracy.",
                                 ],
                             },
@@ -990,7 +990,7 @@ export const servicesData: ServicesProps[] = [
                             {
                                 itemTitle: "Компьютерная диагностика зрения",
                                 itemText: [
-                                    "Само обследование проводится на новейших приборах и включает комплексное обследование зрения: измерение внутриглазного давления, анализ роговицы, рефракции и состояния глазного дна. Продолжительность полного обследования в среднем составляет 2–2,5 часа. Одним из ключевых этапов является проверка остроты зрения по таблицам, что позволяет точно подобрать оптику.",
+                                    "Само обследование проводится на новейших приборах и включает комплексное обследование зрения: измерение внутриглазного давления, анализ роговицы, рефракции и состояния глазного дна. Продолжительность полного обследования в среднем составляет 1–1,5 часа. Одним из ключевых этапов является проверка остроты зрения по таблицам, что позволяет точно подобрать оптику.",
                                     "При необходимости врач использует капли для расширения зрачков, чтобы детально проверить глазное дно и исключить скрытые заболевания. Такая комплексная проверка зрения и лазерное обследование глаз с применением современных систем визуализации обеспечивает максимальную точность диагностики.",
                                 ],
                             },
