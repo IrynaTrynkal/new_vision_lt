@@ -1308,8 +1308,8 @@ export const servicesData: ServicesProps[] = [
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "Pacientai įvairaus amžiaus",
-                                text: "Priimame pacientus nuo kūdikystės iki vyresnio amžiaus.",
+                                title: "Šiuolaikinės technologijos ir lęšiai",
+                                text: "Naudojame modernią įrangą ir parenkame dirbtinį lęšiuką pagal Jūsų poreikius, kad po operacijos rezultatas būtų tikslus ir komfortiškas.",
                             },
                         ],
                     },
@@ -1521,8 +1521,8 @@ export const servicesData: ServicesProps[] = [
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "No age restrictions",
-                                text: "We see patients from infancy through to older age.",
+                                title: "Modern technology and lenses",
+                                text: "We use advanced equipment and select an intraocular lens to match your needs, helping ensure a precise result and comfortable vision after surgery.",
                             },
                         ],
                     },
@@ -1744,8 +1744,8 @@ export const servicesData: ServicesProps[] = [
                             },
                             { videoOnly: "/videos/about-advant.mp4" },
                             {
-                                title: "Без ограничений по возрасту",
-                                text: "Мы принимаем пациентов от рождения и до пожилого возраста.",
+                                title: "Современные технологии и линзы",
+                                text: "Используем современное оборудование и подбираем искусственный хрусталик под ваши потребности, чтобы получить точный и комфортный результат после операции.",
                             },
                         ],
                     },
@@ -2786,7 +2786,7 @@ export const servicesData: ServicesProps[] = [
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
                         title: "Vaikų klinika",
-                        text: "Privati vaikų oftalmologija Vilniuje: vaikų regos patikrinimas nuo kūdikystės iki paauglystės, išplėstinė diagnostika (frakcinė cikloplegija, ragenos topografija, biometriniai matavimai) ir aparatinis gydymas.",
+                        text: "Privati vaikų oftalmologija Vilniuje: vaikų regos patikrinimas nuo 3 metų iki paauglystės, išplėstinė diagnostika (frakcinė cikloplegija, ragenos topografija, biometriniai matavimai) ir aparatinis gydymas.",
                     },
                 },
                 {
@@ -2795,7 +2795,7 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/zlata2.jpg",
                         title: "Vaikų akių patikra Vilniuje",
                         text: [
-                            "Vaikų klinikoje atliekama vaikų akių ir regos patikra nuo kūdikystės iki paauglystės: daromi tikslūs tyrimai, taikoma individuali taktika ir pateikiamos aiškios rekomendacijos tėvams. Jei ieškote, kur atlikti akių patikrą vaikams ramiai ir be papildomo streso, užsiregistruokite vizitui pas vaikų oftalmologą. Centro administratoriai suteiks informaciją apie aktualias kainas, galiojančius pasiūlymus ir galimas nuolaidas, taip pat padės pasirinkti patogų vizito laiką privačiai vaikų akių apžiūrai Vilniuje.",
+                            "Vaikų klinikoje atliekama vaikų akių ir regos patikra nuo 3 metų iki paauglystės: daromi tikslūs tyrimai, taikoma individuali taktika ir pateikiamos aiškios rekomendacijos tėvams. Jei ieškote, kur atlikti akių patikrą vaikams ramiai ir be papildomo streso, užsiregistruokite vizitui pas vaikų oftalmologą. Centro administratoriai suteiks informaciją apie aktualias kainas, galiojančius pasiūlymus ir galimas nuolaidas, taip pat padės pasirinkti patogų vizito laiką privačiai vaikų akių apžiūrai Vilniuje.",
                         ],
                         textUp: "1 mln.",
                         textDown: "suteiktų \nkonsultacijų",
@@ -3055,7 +3055,7 @@ export const servicesData: ServicesProps[] = [
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
                         title: "Children's Clinic",
-                        text: "Private paediatric ophthalmology in Vilnius: eye examinations for children from infants to teenagers, extended diagnostics (fractional cycloplegia, corneal topography, biometry) and device‑based treatment.",
+                        text: "Private paediatric ophthalmology in Vilnius: eye examinations for children from 3 years old to teenagers, extended diagnostics (fractional cycloplegia, corneal topography, biometry) and device‑based treatment.",
                     },
                 },
                 {
@@ -3064,7 +3064,7 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/zlata2.jpg",
                         title: "Children’s Clinic — paediatric ophthalmology in Vilnius",
                         text: [
-                            "At the Children’s Clinic we provide eye and vision checks for children from infancy to adolescence: precise assessments, an individual care plan and clear guidance for parents. If you are looking for a calm, stress‑free place to have your child’s eyes checked, book an ophthalmologist consultation. Our administrators will advise on current prices, active offers and possible discounts, and will help you choose a convenient appointment time at a private children’s ophthalmology clinic in Vilnius.",
+                            "At the Children’s Clinic we provide eye and vision checks for children from 3 years old to adolescence: precise assessments, an individual care plan and clear guidance for parents. If you are looking for a calm, stress‑free place to have your child’s eyes checked, book an ophthalmologist consultation. Our administrators will advise on current prices, active offers and possible discounts, and will help you choose a convenient appointment time at a private children’s ophthalmology clinic in Vilnius.",
                         ],
                         textUp: "1 m",
                         textDown: "consultations conducted",
@@ -3325,7 +3325,7 @@ export const servicesData: ServicesProps[] = [
                         imgPositionMobile: " right 25% top",
                         imgPositionDesktop: "right 25% top 10%",
                         title: "Детская клиника",
-                        text: "Частная детская офтальмология в Вильнюсе: проверка зрения у детей от младенцев до подростков, расширенная диагностика (фракционная циклоплегия, топография, биометрия) и аппаратное лечение.",
+                        text: "Частная детская офтальмология в Вильнюсе: проверка зрения у детей от 3 лет до подростков, расширенная диагностика (фракционная циклоплегия, топография, биометрия) и аппаратное лечение.",
                     },
                 },
                 {
@@ -3334,7 +3334,7 @@ export const servicesData: ServicesProps[] = [
                         image: "/images/zlata2.jpg",
                         title: "Детская клиника — детская офтальмология в Вильнюсе",
                         text: [
-                            "В Детской клинике выполняется проверка зрения у детей от младенцев до подростков: точные обследования, индивидуальная тактика и понятные рекомендации для родителей. Если вы ищете, где проверить зрение ребёнку спокойно и без лишнего стресса — запишитесь на консультацию офтальмолога. Администраторы центра подскажут актуальные цены, действующие предложения и возможные скидки, а также помогут выбрать удобное время визита в частную детскую офтальмологическую клинику в Вильнюсе.",
+                            "В Детской клинике выполняется проверка зрения у детей от 3 лет до подростков: точные обследования, индивидуальная тактика и понятные рекомендации для родителей. Если вы ищете, где проверить зрение ребёнку спокойно и без лишнего стресса — запишитесь на консультацию офтальмолога. Администраторы центра подскажут актуальные цены, действующие предложения и возможные скидки, а также помогут выбрать удобное время визита в частную детскую офтальмологическую клинику в Вильнюсе.",
                         ],
                         textUp: "1 млн",
                         textDown: "консультаций проведено",
@@ -3577,7 +3577,6 @@ export const servicesData: ServicesProps[] = [
     },
     {
         name: servicesList.find(s => s.key === "lazerine-akiu-korekcija")!,
-        additionalIcon: "/icons/iq-lasik.svg",
         lt: {
             textMain:
                 "Greitas ir tikslus būdas sumažinti priklausomybę nuo akinių ar kontaktinių lęšių esant trumparegystei, toliaregystei ar astigmatizmui; metodas parenkamas pagal ragenos parametrus ir Jūsų poreikius.",
@@ -3747,14 +3746,6 @@ export const servicesData: ServicesProps[] = [
                                 ],
                             },
                         ],
-                        pdfCard: {
-                            title: "відновлення та догляд за очима після лазерної корекції зору",
-                            description: "інструкція",
-                            link: "/files/ELK.pdf",
-                            btnName: "завантажити",
-                            downloadingName:
-                                "Відновлення_та_догляд_за_очима_після_лазерної_корекції_зору.pdf",
-                        },
                     },
                 },
                 {
@@ -4043,14 +4034,6 @@ export const servicesData: ServicesProps[] = [
                                 ],
                             },
                         ],
-                        pdfCard: {
-                            title: "eye recovery and care after laser vision correction",
-                            description: "instruction",
-                            link: "/files/ELK_ENG.pdf",
-                            btnName: "download",
-                            downloadingName:
-                                "Eye_recovery_and_care_after_laser_vision_correction.pdf",
-                        },
                     },
                 },
                 {
@@ -4086,7 +4069,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Price of laser vision correction in Kyiv",
+                        title: "Price of laser vision correction in Vilnius",
                     },
                 },
                 { type: "global" },
@@ -4299,7 +4282,7 @@ export const servicesData: ServicesProps[] = [
                                             {
                                                 type: "text",
                                                 gap: true,
-                                                text: "аиболее точный ответ на вопрос «сколько будет стоить восстановление зрения лазером именно в моём случае?» вы получаете после очного осмотра: врач оценивает состояние глаз, объясняет потенциальные преимущества, возможные риски и ограничения, а также даёт честную рекомендацию, стоит ли выполнять лазерную коррекцию сейчас и какой формат лечения подойдёт вам лучше всего.",
+                                                text: "Наиболее точный ответ на вопрос «сколько будет стоить восстановление зрения лазером именно в моём случае?» вы получаете после очного осмотра: врач оценивает состояние глаз, объясняет потенциальные преимущества, возможные риски и ограничения, а также даёт честную рекомендацию, стоит ли выполнять лазерную коррекцию сейчас и какой формат лечения подойдёт вам лучше всего.",
                                             },
                                         ],
                                         greenText:
@@ -4339,14 +4322,6 @@ export const servicesData: ServicesProps[] = [
                                 ],
                             },
                         ],
-                        pdfCard: {
-                            title: "восстановление и уход за глазами после лазерной коррекции зрения",
-                            description: "инструкция",
-                            link: "/files/ELK_RU.pdf",
-                            btnName: "скачать",
-                            downloadingName:
-                                "Восстановление_и_уход_за_глазами_после_лазерной_коррекции_зрения.pdf",
-                        },
                     },
                 },
                 {
@@ -4382,7 +4357,7 @@ export const servicesData: ServicesProps[] = [
                 {
                     type: "priceSection",
                     data: {
-                        title: "Цена лазерной коррекции зрения в Киеве",
+                        title: "Цена лазерной коррекции зрения в Вильнюсе",
                     },
                 },
                 { type: "global" },
@@ -5936,7 +5911,7 @@ export const servicesData: ServicesProps[] = [
                         titleSEO:
                             "Лазерное лечение заболеваний глаз | Центр проверки зрения - Клиника Новое Зрение",
                         descriptionSEO:
-                            "Лазерное лечение зрения (заболеваний глаз) в Киеве. Лазерная терапия, лечение глаукомы, удаление катаракты лазером - ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
+                            "Лазерное лечение зрения (заболеваний глаз) в Вильнюсе. Лазерная терапия, лечение глаукомы, удаление катаракты лазером - ✴️ Центр глазных болезней № 1 в Литве. ✅ Современная диагностика и эффективное лечение. 👍 Репутация, проверенная временем",
                     },
                 },
                 {
