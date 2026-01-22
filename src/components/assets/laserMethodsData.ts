@@ -29,7 +29,7 @@ export const subpageLazerData: SubPageType[] = [
         content: {
             lt: {
                 slug: "sportlife-lasik",
-                title: "SportLine LASEK",
+                title: "LASEK",
                 subtitle:
                     "Bekompromisis sprendimas profesionaliems sportininkams",
                 titleSEO:
@@ -122,7 +122,7 @@ export const subpageLazerData: SubPageType[] = [
             },
             ru: {
                 slug: "sportlife-lasik",
-                title: "SportLine LASEK",
+                title: "LASEK",
                 titleSEO:
                     "SportLine LASEK – Лазерная коррекция для спортсменов | Коррекция зрения спортсменам и активным людям | Клиника Новое Зрение",
                 descriptionSEO:
@@ -215,7 +215,7 @@ export const subpageLazerData: SubPageType[] = [
             },
             en: {
                 slug: "sportlife-lasik",
-                title: "SportLine LASEK",
+                title: "LASEK",
                 titleSEO:
                     "SportLine LASEK – Laser Vision Correction for Athletes | Vision Correction for Athletes and Active People | New Vision Clinic",
                 descriptionSEO:
@@ -315,7 +315,7 @@ export const subpageLazerData: SubPageType[] = [
         content: {
             lt: {
                 slug: "iq-lasik-oxygen-3d",
-                title: "IQ-LASIK Oxygen 3D",
+                title: "LASIK",
                 subtitle:
                     "regėjimo korekcija nepadidinant ragenos audinių temperatūros",
                 titleSEO:
@@ -399,7 +399,7 @@ export const subpageLazerData: SubPageType[] = [
             },
             ru: {
                 slug: "iq-lasik-oxygen-3d",
-                title: "IQ-LASIK Oxygen 3D",
+                title: "LASIK",
                 titleSEO:
                     "Холодная лазерная коррекция iQ-LASIK Oxygen 3D | Щадящая лазерная коррекция зрения | Клиника Новое Зрение",
                 descriptionSEO:
@@ -481,7 +481,7 @@ export const subpageLazerData: SubPageType[] = [
             },
             en: {
                 slug: "iq-lasik-oxygen-3d",
-                title: "IQ-LASIK Oxygen 3D",
+                title: "LASIK",
                 titleSEO:
                     "Cold Laser Vision Correction iQ-LASIK Oxygen 3D | Gentle Laser Vision Correction | New Vision Clinic",
                 descriptionSEO:
