@@ -3,7 +3,12 @@ import Script from "next/script";
 export const MetaPixel = ({ MetaPixelId }: { MetaPixelId: string }) => {
     return (
         <>
-            <Script id="meta-pixel" strategy="afterInteractive">
+            <Script
+                id="meta-pixel"
+                strategy="afterInteractive"
+                type="text/plain"
+                data-cookieyes="marketing"
+            >
                 {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
