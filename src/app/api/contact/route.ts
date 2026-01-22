@@ -19,19 +19,19 @@ export async function POST(req: Request) {
 
         const fields = [
             name &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Ім'я:</p><p>${name}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Jūsų vardas:</p><p>${name}</p>`,
             surname &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Ім'я:</p><p>${surname}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Pavardė:</p><p>${surname}</p>`,
             email &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Email:</p><p>${email}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">El. paštas:</p><p>${email}</p>`,
             phone &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Телефон:</p><p>${phone}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Telefono numeris:</p><p>${phone}</p>`,
             date &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Дата:</p><p>${formattedDate}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Pageidaujama vizito data:</p><p>${formattedDate}</p>`,
             topic &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Тема:</p><p>${topic}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Pasirinkite vizito temą:</p><p>${topic}</p>`,
             comment &&
-                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Коментар:</p><p>${comment}</p>`,
+                `<p style="background-color: #cddfd9; font-weight: bold; padding: 2px 4px;">Žinutė:</p><p>${comment}</p>`,
         ]
             .filter(Boolean)
             .join("");
