@@ -37,6 +37,7 @@ export const doctorPage = defineType({
             of: [{ type: "servicesKey" }],
             description:
                 "Этот список только для фильтрации по услугам, порядок не важен",
+            validation: Rule => Rule.unique().error("Эта услуга уже добавлена"),
         }),
         defineField({
             name: "position",
