@@ -1,6 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import { FormInModalProps } from "@/types/modalProps";
 
@@ -14,12 +15,14 @@ export const BookingCallForm = ({
     notificationHandler,
     className,
 }: FormInModalProps) => {
+    const recaptchaRef = useRef<ReCAPTCHA>(null);
     const t = useTranslations("Form");
 
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
         title: "Форма связи - Перезвоните мне",
+        recaptchaToken: "",
     });
     const [errors, setErrors] = useState({
         name: "",
@@ -56,10 +59,11 @@ export const BookingCallForm = ({
     };
 
     const onSendData = async (data: typeof formData) => {
+        const { recaptchaToken, ...safeData } = data;
         const res = await fetch("/api/googleSheets", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(data),
+            body: JSON.stringify(safeData),
         });
 
         const result = await res.json();
@@ -68,13 +72,27 @@ export const BookingCallForm = ({
             throw new Error(result?.error || "Send failed");
         }
 
-        fetch("/api/contact", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(data),
-        }).catch(err => {
-            console.warn("Email skipped:", err);
-        });
+        try {
+            if (recaptchaRef.current) {
+                const token = await recaptchaRef.current.executeAsync();
+                recaptchaRef.current.reset();
+
+                if (token) {
+                    fetch("/api/contact", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            ...safeData,
+                            recaptchaToken: token,
+                        }),
+                    }).catch(err => {
+                        console.warn("Email skipped:", err);
+                    });
+                }
+            }
+        } catch (err) {
+            console.warn("Recaptcha/email error:", err);
+        }
 
         return result;
     };
@@ -96,6 +114,7 @@ export const BookingCallForm = ({
             name: "",
             phone: "",
             title: "Форма связи - Перезвоните мне",
+            recaptchaToken: "",
         });
     };
 
@@ -158,6 +177,11 @@ export const BookingCallForm = ({
                 </div>
 
                 <div className="tab:justify-end tab:w-[47%] pc:w-[318px] flex justify-center">
+                    <ReCAPTCHA
+                        ref={recaptchaRef}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+                        size="invisible"
+                    />
                     <ButtonAction
                         disabled={loading}
                         name={loading ? t("loading") : t("submit")}
