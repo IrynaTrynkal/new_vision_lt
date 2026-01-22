@@ -1,13 +1,18 @@
 import "./globals.css";
 
-import { GoogleTagManager } from "@next/third-parties/google";
 import { Arimo, Oswald } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
+import { GoogleAds } from "@/components/shared/GoogleAds";
+import { GoogleAnalytics } from "@/components/shared/GoogleAnalytics";
+import { GoogleTagManager } from "@/components/shared/GoogleTagManager";
+import { MetaPixel } from "@/components/shared/MetaPixel";
+import { MetaPixelPageView } from "@/components/shared/MetaPixelPageView";
 import { routing } from "@/i18n/routing";
 
 const oswald = Oswald({
@@ -71,24 +76,29 @@ export default async function RootLayout({
     return (
         <html lang={locale} suppressHydrationWarning>
             <head>
+                <Script
+                    id="cookieyes"
+                    src="https://cdn-cookieyes.com/client_data/baaf3543b711c889c0b350ba/script.js"
+                    strategy="beforeInteractive"
+                />
                 <link rel="icon" href="/favicon.ico" sizes="any" />
                 <meta property="og:image" content="<generated>" />
-                {/* <MetaPixel MetaPixelId={MetaPixelId} />
-                <MetaPixelPageView />
-                <GoogleAds GoogleAdsId={GoogleAdsId} /> */}
                 <meta name="robots" content="noindex,nofollow" />
             </head>
-            <GoogleTagManager gtmId={GATM} />
             <NextIntlClientProvider>
                 <body
                     className={`${oswald.variable} ${arimo.variable} flex min-h-screen flex-col antialiased`}
                 >
+                    <MetaPixel MetaPixelId={MetaPixelId} />
+                    <MetaPixelPageView />
+                    <GoogleAds GoogleAdsId={GoogleAdsId} />
+                    <GoogleTagManager gtmId={GATM} />
                     <Header />
                     <main className="flex-1">
                         <div className="mx-auto max-w-[1600px]">{children}</div>
                     </main>
                     <Footer locale={locale} />
-                    {/* <GoogleAnalytics gaId={GAid} /> */}
+                    <GoogleAnalytics gaId={GAid} />
                 </body>
             </NextIntlClientProvider>
         </html>
