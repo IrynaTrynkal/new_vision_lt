@@ -2768,7 +2768,7 @@ export const servicesData: ServicesProps[] = [
         name: servicesList.find(s => s.key === "vaiku-akiu-patikra")!,
         lt: {
             textMain:
-                "Vaikų oftalmologija nuo pirmųjų gyvenimo mėnesių iki paauglystės: švelni apžiūra, išsamūs tyrimai, regėjimo sutrikimų profilaktika ir gydymas, pateikiant rekomendacijas tėvams.",
+                "Vaikų oftalmologija nuo 3 metų iki paauglystės: švelni apžiūra, išsamūs tyrimai, regėjimo sutrikimų profilaktika ir gydymas, pateikiant rekomendacijas tėvams.",
             sections: [
                 {
                     type: "meta",
@@ -3037,7 +3037,7 @@ export const servicesData: ServicesProps[] = [
         },
         en: {
             textMain:
-                "Pediatric ophthalmology from the first months of life through adolescence: gentle examinations, extended diagnostics, prevention and treatment of vision problems, with guidance for parents.",
+                "Pediatric ophthalmology from 3 years old through adolescence: gentle examinations, extended diagnostics, prevention and treatment of vision problems, with guidance for parents.",
             sections: [
                 {
                     type: "meta",
@@ -3307,7 +3307,7 @@ export const servicesData: ServicesProps[] = [
         },
         ru: {
             textMain:
-                "Офтальмология для детей от первых месяцев жизни до подростков: мягкий осмотр, расширенная диагностика, профилактика и лечение нарушений зрения с рекомендациями для родителей.",
+                "Офтальмология для детей от 3 лет до подростков: мягкий осмотр, расширенная диагностика, профилактика и лечение нарушений зрения с рекомендациями для родителей.",
             sections: [
                 {
                     type: "meta",
