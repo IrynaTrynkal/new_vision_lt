@@ -20,7 +20,7 @@ export async function generateMetadata({
     const resolvedParams = await params;
     const { locale } = resolvedParams;
     return generatePageMetadata(locale as LocaleType, "OffersPage", {
-        lt: "/akciyi",
+        lt: "/akcijos",
         en: "/en/offers",
         ru: "/ru/akcii",
     });

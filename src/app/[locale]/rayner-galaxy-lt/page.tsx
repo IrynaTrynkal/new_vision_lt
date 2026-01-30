@@ -36,7 +36,7 @@ export async function generateMetadata({
 
     return generatePageMetadata(locale as LocaleType, "Rayner", {
         lt: "/rayner-galaxy-lt",
-        en: "/en/rayner-galaxy-a-new-level-of-vision-is-now-available-at-our-clinic",
+        en: "/en/rayner-galaxy-a-new-dimension-of-vision-is-now-available-at-our-clinic",
         ru: "/ru/rayner-galaxy-novoe-izmerenie-zreniya-uzhe-v-nashej-klinike",
     });
 }

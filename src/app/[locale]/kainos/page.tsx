@@ -25,8 +25,8 @@ export async function generateMetadata({
 
     return generatePageMetadata(locale as LocaleType, "PricePage", {
         lt: "/kainos",
-        en: "/en/service-prices",
-        ru: "/ru/ceny",
+        en: "/en/price-list",
+        ru: "/ru/ceny-na-uslugi",
     });
 }
 

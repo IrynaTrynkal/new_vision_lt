@@ -23,7 +23,7 @@ export async function generateMetadata({
     return generatePageMetadata(locale as LocaleType, "PolicyPage", {
         lt: "/privatumo-politika",
         en: "/en/privacy-policy",
-        ru: "/ru/privacy-policy",
+        ru: "/ru/politika-konfidenczialnosti",
     });
 }
 
