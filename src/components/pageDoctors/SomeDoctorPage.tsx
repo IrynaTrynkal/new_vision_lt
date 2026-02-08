@@ -24,7 +24,7 @@ export const SomeDoctorPageMain = ({
         return null;
     }
     const photo = doctorData?.photo
-        ? urlFor(doctorData.photo).url()
+        ? urlFor(doctorData.photo).width(500).fit("crop").auto("format").url()
         : "/logo.svg";
 
     const aboutContent = [

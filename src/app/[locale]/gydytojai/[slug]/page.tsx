@@ -34,7 +34,9 @@ export async function generateMetadata(
 
     const previousImages = parent ? (await parent).openGraph?.images || [] : [];
 
-    const photo = doctor?.photo ? urlFor(doctor.photo).url() : "";
+    const photo = doctor?.photo
+        ? urlFor(doctor.photo).width(500).fit("crop").auto("format").url()
+        : "";
 
     const langPrefix =
         locale === "en"

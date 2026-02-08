@@ -13,7 +13,9 @@ export const DoctorCard = ({
     data: NonNullable<DoctorsListQueryResult>[number];
 }) => {
     const t = useTranslations("Doctors");
-    const photo = data.photo ? urlFor(data.photo).url() : "/logo.svg";
+    const photo = data.photo
+        ? urlFor(data.photo).width(500).fit("crop").auto("format").url()
+        : "/logo.svg";
     const year = data.experience || "---";
     return (
         <div className="group tab:h-[440px] pc:h-[520px] h-[400px] overflow-hidden rounded-sm bg-white/10">

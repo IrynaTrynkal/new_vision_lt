@@ -523,7 +523,7 @@ export const doctorPageSchema = ({
     const fullUrl = `https://eyes.lt/${languagePath}${basePath}/${slug}`;
 
     const imageUrl = data.photo
-        ? urlFor(data.photo).url
+        ? urlFor(data.photo).width(500).fit("crop").auto("format").url()
         : "https://eyes.lt/images/doctors-hero1.jpg";
 
     const specialization = toPlainText(data.specialization || []) || undefined;
