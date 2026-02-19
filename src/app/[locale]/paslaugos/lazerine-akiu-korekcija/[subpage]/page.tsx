@@ -13,7 +13,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, subpage } = await params;
     const currentMethod = subpageLazerData.find(
-        sub => sub.content[locale as LocaleType].slug === subpage
+        sub => sub.content.lt.slug === subpage
     );
 
     const langPrefix =

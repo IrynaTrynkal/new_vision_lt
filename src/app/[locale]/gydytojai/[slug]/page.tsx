@@ -14,7 +14,6 @@ import { sanityFetch } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { doctorQuery } from "@/sanity/lib/queries";
 import { LocaleType } from "@/types/LocaleType";
-import { toPlainText } from "@/utils/toPlainText";
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
@@ -31,10 +30,12 @@ export async function generateMetadata(
         params: { language: locale, slug },
         tags: ["doctor"],
     });
-
+    const t = await getTranslations("Doctors");
     const previousImages = parent ? (await parent).openGraph?.images || [] : [];
 
-    const photo = doctor?.photo ? urlFor(doctor.photo).url() : "";
+    const photo = doctor?.photo
+        ? urlFor(doctor.photo).width(500).fit("crop").auto("format").url()
+        : "";
 
     const langPrefix =
         locale === "en"
@@ -43,7 +44,8 @@ export async function generateMetadata(
               ? "/ru/vrachi"
               : "gydytojai";
 
-    const description = doctor?.position ? toPlainText(doctor.position) : "";
+    const title = `${doctor?.name!} - ${t("titleDocSEO")}`;
+    const description = `${doctor?.name!} - ${t("descriptionDocSEO")}`;
 
     return {
         metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
@@ -55,11 +57,11 @@ export async function generateMetadata(
                 "ru-RU": `/ru/vrachi/${slug}`,
             },
         },
-        title: doctor?.name,
-        description: description,
+        title,
+        description,
         openGraph: {
-            title: doctor?.name!,
-            description: description,
+            title,
+            description,
             images: [photo, ...previousImages],
             type: "website",
         },

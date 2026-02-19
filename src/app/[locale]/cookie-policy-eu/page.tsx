@@ -20,7 +20,7 @@ export async function generateMetadata({
     const resolvedParams = await params;
     const { locale } = resolvedParams;
 
-    return generatePageMetadata(locale as LocaleType, "PartPay", {
+    return generatePageMetadata(locale as LocaleType, "CookiePage", {
         lt: "/cookie-policy-eu",
         en: "/en/cookie-policy-eu",
         ru: "/ru/cookie-policy-eu",

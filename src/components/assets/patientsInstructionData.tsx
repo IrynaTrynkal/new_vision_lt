@@ -123,7 +123,7 @@ export const keySlugPatientsInstruction: KeySlugPatientsType[] = [
         key: "dovanu-kupono",
         slug: {
             lt: "dovanu-kupono",
-            en: "idovanu-kupono",
+            en: "dovanu-kupono",
             ru: "dovanu-kupono",
         },
     },

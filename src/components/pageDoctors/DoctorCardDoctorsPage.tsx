@@ -15,7 +15,9 @@ export const DoctorCardDoctorsPage = ({
     className?: string;
 }) => {
     const t = useTranslations("Doctors");
-    const photo = data.photo ? urlFor(data.photo).url() : "/logo.svg";
+    const photo = data.photo
+        ? urlFor(data.photo).width(500).fit("crop").auto("format").url()
+        : "/logo.svg";
     const year = data.experience || "----";
     return (
         <div

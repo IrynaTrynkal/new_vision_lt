@@ -385,6 +385,38 @@ const nextConfig: NextConfig = {
                 destination: "/akcijos",
                 permanent: true,
             },
+            {
+                source: "/ru/uslugi/lazerine-akiu-korekcija",
+                destination: "/ru/uslugi/lazernaya-korrekciya-zreniya",
+                permanent: true,
+            },
+            {
+                source: "/ru/uslugi/kataraktos-operacija",
+                destination: "/ru/uslugi/udaleniye-katarakty",
+                permanent: true,
+            },
+            {
+                source: "/ru/uslugi/udaleniye-katarakty/iq-life-3d",
+                destination:
+                    "/ru/uslugi/udaleniye-katarakty/iq-life-3d-zhivoye-zreniye",
+                permanent: true,
+            },
+            {
+                source: "/en/services/lazerine-akiu-korekcija",
+                destination: "/en/services/laser-eye-surgery",
+                permanent: true,
+            },
+            {
+                source: "/en/services/kataraktos-operacija",
+                destination: "/en/services/cataract-surger",
+                permanent: true,
+            },
+            {
+                source: "/en/services/cataract-surgery/iq-life-3d",
+                destination:
+                    "/en/services/cataract-surgery/iq-life-3d-live-vision",
+                permanent: true,
+            },
         ];
     },
 };

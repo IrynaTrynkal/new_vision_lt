@@ -12,8 +12,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, subpage } = await params;
+    console.log("🚀 ~ generateMetadata ~ subpage:", subpage);
+
     const currentMethod = subpageCataractData.find(
-        sub => sub.content[locale as LocaleType].slug === subpage
+        sub => sub.content.lt.slug === subpage
     );
 
     const langPrefix =
@@ -29,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         currentMethod.content[locale as LocaleType].descriptionSEO;
 
     const end = currentMethod?.content[locale as LocaleType].slug;
+    console.log("🚀 ~ generateMetadata ~ end:", end);
 
     return {
         metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
