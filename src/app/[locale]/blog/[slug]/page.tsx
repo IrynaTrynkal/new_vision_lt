@@ -38,11 +38,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 "ru-RU": `/ru/blog/${slug}`,
             },
         },
-        title: blog?.title || "",
-        description: blog?.shortText || "",
+        title: blog?.titleSEO || blog?.title || "",
+        description: blog?.descriptionSEO || blog?.shortText || "",
         openGraph: {
-            title: blog?.title || "",
-            description: blog?.shortText || "",
+            title: blog?.titleSEO || blog?.title || "",
+            description: blog?.descriptionSEO || blog?.shortText || "",
             type: "website",
         },
     };

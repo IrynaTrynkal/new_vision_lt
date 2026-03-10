@@ -29,7 +29,16 @@ export const blogPage = defineType({
             validation: Rule =>
                 Rule.required().custom(validateSlug(SLUG_MAX_LENGTH)),
         }),
-
+        defineField({
+            name: "titleSEO",
+            type: "internationalizedArrayString",
+            title: "Заголовок для SEO (если отличается от заголовка статьи)",
+        }),
+        defineField({
+            name: "descriptionSEO",
+            type: "internationalizedArrayString",
+            title: "Описание для SEO (если отличается от краткого текста статьи)",
+        }),
         defineField({
             name: "service",
             type: "servicesKey",

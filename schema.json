@@ -106,6 +106,14 @@
                                         {
                                             "type": "string",
                                             "value": "normal"
+                                        },
+                                        {
+                                            "type": "string",
+                                            "value": "h2"
+                                        },
+                                        {
+                                            "type": "string",
+                                            "value": "h3"
                                         }
                                     ]
                                 },
@@ -1484,6 +1492,50 @@
                 "value": {
                     "type": "inline",
                     "name": "slug"
+                },
+                "optional": true
+            },
+            "titleSEO": {
+                "type": "objectAttribute",
+                "value": {
+                    "type": "array",
+                    "of": {
+                        "type": "object",
+                        "attributes": {
+                            "_key": {
+                                "type": "objectAttribute",
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "rest": {
+                            "type": "inline",
+                            "name": "internationalizedArrayStringValue"
+                        }
+                    }
+                },
+                "optional": true
+            },
+            "descriptionSEO": {
+                "type": "objectAttribute",
+                "value": {
+                    "type": "array",
+                    "of": {
+                        "type": "object",
+                        "attributes": {
+                            "_key": {
+                                "type": "objectAttribute",
+                                "value": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "rest": {
+                            "type": "inline",
+                            "name": "internationalizedArrayStringValue"
+                        }
+                    }
                 },
                 "optional": true
             },
