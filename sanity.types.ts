@@ -31,7 +31,7 @@ export type PortableTextAll = Array<
               _type: "span";
               _key: string;
           }>;
-          style?: "normal";
+          style?: "normal" | "h2" | "h3";
           listItem?: "bullet" | "number";
           markDefs?: Array<{
               href?: string;
@@ -281,6 +281,16 @@ export type Blog = {
         } & InternationalizedArrayStringValue
     >;
     slug?: Slug;
+    titleSEO?: Array<
+        {
+            _key: string;
+        } & InternationalizedArrayStringValue
+    >;
+    descriptionSEO?: Array<
+        {
+            _key: string;
+        } & InternationalizedArrayStringValue
+    >;
     service?: ServicesKey;
     publication?: string;
     image?: {
@@ -744,10 +754,12 @@ export type BlogsListQueryResult = Array<{
     content: PortableTextAll | null;
 }>;
 // Variable: blogQuery
-// Query: *[_type == "blog" && slug.current == $slug][0]{   service, "title":title[_key == $language][0].value,     publication, "slug":slug.current, "image":image.asset->url,     "shortText":shortText[_key == $language][0].value,     "content": content[_key == $language][0].value}
+// Query: *[_type == "blog" && slug.current == $slug][0]{   service, "title":title[_key == $language][0].value,   "titleSEO":titleSEO[_key == $language][0].value,      "descriptionSEO":descriptionSEO[_key == $language][0].value,     publication, "slug":slug.current, "image":image.asset->url,     "shortText":shortText[_key == $language][0].value,     "content": content[_key == $language][0].value}
 export type BlogQueryResult = {
     service: ServicesKey | null;
     title: string | null;
+    titleSEO: string | null;
+    descriptionSEO: string | null;
     publication: string | null;
     slug: string | null;
     image: string | null;
@@ -835,7 +847,7 @@ declare module "@sanity/client" {
         '\n    *[_type == "doctor" && !(_id in path("drafts.**"))]\n{"name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value}': DoctorsListQueryResult;
         '\n    *[_type == "doctor" && slug.current == $slug][0]\n{"name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value}': DoctorQueryResult;
         '\n     *[_type == "blog" && !(_id in path("drafts.**"))]\n    | order(publication desc) {\n      service,\n      "title": title[_key == $language][0].value,\n      "slug": slug.current,\n      publication,\n      "image": image.asset->url,\n      "shortText": shortText[_key == $language][0].value,\n      "content": content[_key == $language][0].value\n    }': BlogsListQueryResult;
-        '\n      *[_type == "blog" && slug.current == $slug][0]{\n   service, "title":title[_key == $language][0].value,\n     publication, "slug":slug.current, "image":image.asset->url,\n     "shortText":shortText[_key == $language][0].value,\n     "content": content[_key == $language][0].value}': BlogQueryResult;
+        '\n      *[_type == "blog" && slug.current == $slug][0]{\n   service, "title":title[_key == $language][0].value,\n   "titleSEO":titleSEO[_key == $language][0].value, \n     "descriptionSEO":descriptionSEO[_key == $language][0].value,\n     publication, "slug":slug.current, "image":image.asset->url,\n     "shortText":shortText[_key == $language][0].value,\n     "content": content[_key == $language][0].value}': BlogQueryResult;
         '\n      *[_type == "blog" && service == $service && slug.current != $slug]{\n   service, "title":title[_key == $language][0].value,\n     publication, "slug":slug.current, "image":image.asset->url,\n     "content": content[_key == $language][0].value,\n     "shortText":shortText[_key == $language][0].value\n }': BlogShortByServiceQueryResult;
         '\n*[_type == "orderDoctors"][0].\n  doctors[]->{\n    _id,\n  "name":name[_key == $language][0].value, "slug":slug.current, departments, services, \n  "position":position[_key == $language][0].value, "photo":photo, \n  experience, "specialization":specialization[_key == $language][0].value, \n  "education":education[_key == $language][0].value, "activity":activity[_key == $language][0].value, \n  "training":training[_key == $language][0].value, "conferences":conferences[_key == $language][0].value, \n  "about":about[_key == $language][0].value\n  }': DoctorsOrderQueryResult;
         '\n      *[_type == "blog" && !(_id in path("drafts.**"))].slug.current\n': BlogMetaSlugsQueryResult;

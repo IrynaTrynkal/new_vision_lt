@@ -59,6 +59,8 @@ export const blogsListQuery = defineQuery(`
 export const blogQuery = defineQuery(`
       *[_type == "blog" && slug.current == $slug][0]{
    service, "title":title[_key == $language][0].value,
+   "titleSEO":titleSEO[_key == $language][0].value, 
+     "descriptionSEO":descriptionSEO[_key == $language][0].value,
      publication, "slug":slug.current, "image":image.asset->url,
      "shortText":shortText[_key == $language][0].value,
      "content": content[_key == $language][0].value}`);
